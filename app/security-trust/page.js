@@ -1,0 +1,475 @@
+import Link from 'next/link';
+
+export const metadata = {
+  title: 'Security, Trust, and Regulatory-Aligned Infrastructure — Verafye',
+  description: 'Built for financial institutions and payment platforms that require strong security foundations, controlled data handling, and infrastructure aligned with evolving regulatory expectations.',
+  openGraph: {
+    title: 'Security, Trust, and Regulatory-Aligned Infrastructure — Verafye',
+    description: 'Verafye is designed to support fraud, AML, and payment intelligence operations with a strong focus on security, privacy, auditability, and operational resilience.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Security, Trust, and Regulatory-Aligned Infrastructure — Verafye',
+    description: 'Verafye is designed to support fraud, AML, and payment intelligence operations with a strong focus on security, privacy, auditability, and operational resilience.',
+  },
+};
+
+export default function SecurityTrustPage() {
+  return (
+    <>
+
+      {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
+      <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '5rem 0' }}>
+        <div className="container">
+          <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Security &amp; Trust</p>
+            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+              Security, Trust, and Regulatory-Aligned Infrastructure
+            </h1>
+            <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
+              Built for financial institutions and payment platforms that require strong security foundations, controlled data handling, and infrastructure aligned with evolving regulatory expectations.
+            </p>
+            <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
+              Verafye is designed for environments where security, operational integrity, and data protection are non-negotiable  -  supporting financial institutions and payment platforms handling sensitive data across complex, multi-system financial crime operations.
+            </p>
+            <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
+              <Link href="/request-demo" className="btn-primary">
+                Request Demo
+                <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </Link>
+              <Link href="/platform" className="btn-secondary">Explore Platform</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 2. SECURITY AND TRUST PRINCIPLES ────────────────────────────────── */}
+      <section style={{ padding: '5rem 0', background: '#fff' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Trust Foundations</p>
+            <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+              Security, Integrity, and Auditability by Design
+            </h2>
+          </div>
+          <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            {[
+              {
+                gradient: 'gradient-bg-1',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                ),
+                title: 'Security-First Architecture',
+                body: 'Verafye is designed from the ground up with security as a foundational requirement  -  not a layer added after the fact. System boundaries, access controls, and data handling patterns are built to meet the operating standards of financial institutions and regulated payment platforms.',
+              },
+              {
+                gradient: 'gradient-bg-2',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" x2="3" y1="12" y2="12"/>
+                  </svg>
+                ),
+                title: 'Controlled Access and Auditability',
+                body: 'Access to data, decisions, and workflows is controlled, logged, and auditable throughout the platform. Every action taken within an investigation, every alert disposition, and every system interaction is traceable  -  supporting the governance requirements of enterprise financial crime operations.',
+              },
+              {
+                gradient: 'gradient-bg-3',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/>
+                  </svg>
+                ),
+                title: 'Explainable Decision Support',
+                body: 'Every alert, risk score, and case recommendation produced by Verafye is backed by documented, traceable reasoning. Explainability is built into the decisioning layer  -  enabling institutions to understand, review, and justify outputs to internal stakeholders and regulators.',
+              },
+              {
+                gradient: 'gradient-bg-4',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                  </svg>
+                ),
+                title: 'Infrastructure Designed for Sensitive Financial Workflows',
+                body: 'Verafye is purpose-built for the operational and data sensitivity requirements of financial crime teams  -  including fraud, AML, compliance, and investigation functions that handle regulated data across complex, multi-system environments.',
+              },
+            ].map(item => (
+              <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
+                <div className={`card-icon ${item.gradient}`}>{item.icon}</div>
+                <h3 style={{ fontSize: 'clamp(1rem,2vw,1.375rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem' }}>{item.title}</h3>
+                <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── 3. DATA PROTECTION AND ARCHITECTURE APPROACH ────────────────────── */}
+      <section className="section-light" style={{ padding: '5rem 0' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Data and Architecture</p>
+              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+                Designed for Secure and Controlled Data Handling
+              </h2>
+              <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+                Verafye's architecture reflects the data handling requirements of regulated financial institutions  -  with controlled access patterns, clearly defined system boundaries, and auditable data flows maintained consistently across the platform.
+              </p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
+              {[
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                    </svg>
+                  ),
+                  title: 'Controlled Access Patterns',
+                  body: 'Data access within Verafye follows controlled, role-based patterns  -  ensuring that analysts, investigators, and system processes access only the data and functions appropriate to their role and workflow context.',
+                },
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/>
+                    </svg>
+                  ),
+                  title: 'Comprehensive Audit Trails',
+                  body: 'All actions taken within the platform  -  investigations opened, alerts dispositioned, cases escalated, and data accessed  -  are logged and auditable, providing the traceable record that compliance and governance functions require.',
+                },
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                  ),
+                  title: 'Secure System Boundaries',
+                  body: 'Verafye maintains clearly defined and secured system boundaries  -  controlling how data flows between internal components, external systems, and third-party integrations in a manner consistent with financial institution security requirements.',
+                },
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M9 21V9"/>
+                    </svg>
+                  ),
+                  title: 'Controlled Data Flows',
+                  body: 'Data flows through the platform along defined, controlled pathways  -  with consistent handling standards applied across ingestion, processing, storage, and output to support data governance obligations.',
+                },
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
+                    </svg>
+                  ),
+                  title: 'Deployment Flexibility',
+                  body: 'Verafye supports deployment models appropriate to the operating requirements of different institutions  -  enabling institutions to evaluate deployment options that align with their internal data residency, infrastructure, and security policies.',
+                },
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+                    </svg>
+                  ),
+                  title: 'Operational Transparency',
+                  body: 'Platform behaviour  -  including detection logic, scoring rationale, and investigation workflow steps  -  is designed to be transparent and reviewable by internal compliance, risk, and governance teams.',
+                },
+              ].map(item => (
+                <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
+                  <div className="card-icon-sm" style={{ marginBottom: '1.25rem' }}>{item.icon}</div>
+                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 4. REGULATORY ALIGNMENT APPROACH ────────────────────────────────── */}
+      <section style={{ padding: '5rem 0', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Regulatory Approach</p>
+              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+                Aligned with Evolving Financial Crime Expectations
+              </h2>
+              <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+                Verafye is designed to support financial institutions as they modernise fraud and AML infrastructure in response to evolving regulatory expectations  -  improving traceability, explainability, and operational effectiveness across financial crime workflows.
+              </p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+              {[
+                {
+                  step: '01',
+                  title: 'Supports Modern Fraud, AML, and Investigation Workflows',
+                  body: 'Verafye is purpose-built to support the operational workflows that regulators increasingly expect from financial crime functions  -  including structured investigation processes, documented decision trails, alert prioritisation, and cross-domain signal correlation across fraud and AML.',
+                },
+                {
+                  step: '02',
+                  title: 'Improves Traceability and Explainability',
+                  body: 'Every risk score, alert, and case recommendation within Verafye is backed by traceable, documented reasoning  -  supporting the explainability obligations that regulators apply to automated decision-making in financial crime contexts.',
+                },
+                {
+                  step: '03',
+                  title: 'Helps Institutions Modernise Legacy Infrastructure',
+                  body: 'Verafye is designed to sit across and connect existing systems  -  helping institutions upgrade financial crime intelligence capabilities without requiring full replacement of legacy infrastructure, reducing implementation risk and time to value.',
+                },
+                {
+                  step: '04',
+                  title: 'Aligned with Evolving Regulatory Expectations',
+                  body: 'Regulatory expectations for financial crime infrastructure are moving in a consistent direction  -  toward greater connectivity, more explainable decisioning, and more structured investigation processes. Verafye is built with that direction in mind, supporting institutions as they align operations with evolving expectations across jurisdictions.',
+                },
+              ].map(item => (
+                <div key={item.step} className="card" style={{ padding: '2rem' }}>
+                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
+                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 4b. REGULATORY ALIGNMENT ────────────────────────────────────────── */}
+      {/*
+        NEW SECTION: Placed between the existing "Regulatory Approach" steps (Section 4)
+        and "Operational Trust" (Section 5). Deepens regulatory narrative with
+        multi-jurisdiction framing, SAR/STR workflow support, and alignment positioning
+        without making certification-heavy claims.
+      */}
+      <section className="section-light" style={{ padding: '5rem 0' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Regulatory Alignment</p>
+            <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+              Infrastructure Aligned to Regulatory Change
+            </h2>
+            <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '48rem', margin: '0 auto' }}>
+              Financial institutions operate across regulatory environments that differ by jurisdiction, institution type, and product  -  but share a common direction: greater transparency, stronger detection, and more structured investigation processes. Verafye is designed with that direction in mind.
+            </p>
+          </div>
+
+          {/* Multi-jurisdiction support row */}
+          <div style={{ maxWidth: '72rem', margin: '0 auto 3rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
+              {[
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
+                    </svg>
+                  ),
+                  title: 'Multi-Jurisdiction Support',
+                  body: 'Verafye is designed to support financial institutions operating across multiple regulatory environments  -  including institutions subject to oversight from supervisors in North America, Europe, the UK, Asia-Pacific, and emerging markets. The platform supports the investigation, documentation, and reporting workflows that different regulatory contexts require, without locking institutions into a single compliance framework.',
+                },
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/>
+                    </svg>
+                  ),
+                  title: 'SAR and STR Reporting Workflows',
+                  body: 'Structured investigation workflows within Verafye are designed to support the evidence-gathering, case documentation, and decision-trail requirements that underpin SAR and STR filings across jurisdictions. Analysts work within a structured process that assembles the context regulators expect to see in high-quality filings  -  reducing reliance on manual reconstruction and improving consistency across the compliance team.',
+                },
+                {
+                  icon: (
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                    </svg>
+                  ),
+                  title: 'Alignment Without Overclaiming',
+                  body: 'Verafye does not position itself as a compliance solution or make claims of formal regulatory certification. It is infrastructure  -  designed to improve the detection, investigation, and documentation capabilities that help institutions operate within their own regulatory obligations, whatever those obligations are and wherever they apply.',
+                },
+              ].map(item => (
+                <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
+                  <div className="card-icon-sm" style={{ marginBottom: '1.25rem' }}>{item.icon}</div>
+                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Regulatory capability strips */}
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+              {[
+                {
+                  label: 'Detection aligned to examiner expectations',
+                  desc: 'Graph-native detection and cross-system signal correlation support the network-level risk visibility that financial crime examiners increasingly expect institutions to demonstrate  -  across fraud, AML, and payments monitoring functions.',
+                },
+                {
+                  label: 'Audit-ready investigation records',
+                  desc: 'Every case opened, progressed, escalated, and closed within Verafye generates a complete, traceable record  -  providing the documented evidence trail that supports both internal governance and external regulatory review.',
+                },
+                {
+                  label: 'Explainability built into the decisioning layer',
+                  desc: 'Risk scores, alert outputs, and case recommendations are backed by documented, traceable reasoning  -  supporting the explainability obligations that regulators apply to automated decision-making in AML and fraud contexts.',
+                },
+                {
+                  label: 'Workflow consistency across teams and jurisdictions',
+                  desc: 'Structured investigation workflows standardise how cases are assessed and resolved across different teams and operating environments  -  supporting consistency of outcome and quality of documentation regardless of jurisdiction.',
+                },
+              ].map(item => (
+                <div key={item.label} className="card" style={{ padding: '1.75rem 2rem', display: 'flex', alignItems: 'flex-start', gap: '1.25rem' }}>
+                  <div style={{ flexShrink: 0, marginTop: '0.2rem' }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                  </div>
+                  <div>
+                    <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.4rem', lineHeight: 1.4 }}>{item.label}</div>
+                    <div style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.desc}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Disclaimer note */}
+          <p style={{ textAlign: 'center', fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '2.5rem', maxWidth: '44rem', margin: '2.5rem auto 0' }}>
+            Verafye is designed to support institutions operating within their regulatory obligations. It does not constitute legal or compliance advice, and does not claim formal certification under any specific regulatory framework.
+          </p>
+        </div>
+      </section>
+
+      {/* ── 5. OPERATIONAL TRUST AND DEPLOYMENT MODEL ───────────────────────── */}
+      <section className="section-light" style={{ padding: '5rem 0' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Operational Trust</p>
+            <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+              Reliable, Consistent Operations at Institutional Scale
+            </h2>
+          </div>
+          <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            {[
+              {
+                gradient: 'gradient-bg-1',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
+                  </svg>
+                ),
+                title: 'Flexible Deployment Models',
+                body: 'Verafye supports deployment configurations appropriate to the operating requirements and data governance policies of different institution types  -  enabling enterprise buyers to evaluate options aligned with their internal infrastructure, residency, and security standards.',
+              },
+              {
+                gradient: 'gradient-bg-2',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                ),
+                title: 'Operational Segregation',
+                body: 'Verafye maintains clear separation between operational functions, data domains, and access scopes  -  ensuring that fraud, AML, compliance, and investigation workflows operate within appropriately segregated environments consistent with enterprise governance requirements.',
+              },
+              {
+                gradient: 'gradient-bg-3',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                  </svg>
+                ),
+                title: 'Investigation Workflow Transparency',
+                body: 'Investigation workflows within Verafye are structured, documented, and auditable end to end  -  providing compliance and operations leaders with full visibility into how cases are opened, progressed, escalated, and closed across fraud and AML functions.',
+              },
+              {
+                gradient: 'gradient-bg-4',
+                icon: (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                  </svg>
+                ),
+                title: 'Scalable Infrastructure Patterns',
+                body: 'Verafye is architected to handle increasing data volumes, user growth, and signal complexity without degrading performance or requiring proportional infrastructure investment  -  supporting the operational scale requirements of mid-market and growing financial institutions.',
+              },
+            ].map(item => (
+              <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
+                <div className={`card-icon ${item.gradient}`}>{item.icon}</div>
+                <h3 style={{ fontSize: 'clamp(1rem,2vw,1.375rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem' }}>{item.title}</h3>
+                <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── 6. FAQ / ASSURANCE POINTS ───────────────────────────────────────── */}
+      <section style={{ padding: '5rem 0', background: '#fff' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Common Questions</p>
+            <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+              Common Questions
+            </h2>
+          </div>
+          <div style={{ maxWidth: '56rem', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {[
+              {
+                q: 'Does Verafye replace existing fraud or AML systems?',
+                a: 'Verafye is designed as an intelligence layer that sits across and connects existing systems  -  not as a replacement for fraud or AML platforms already in place. The goal is to unify signals, improve detection, and accelerate investigation across the existing stack rather than require wholesale replacement of legacy infrastructure.',
+              },
+              {
+                q: 'Can Verafye work alongside existing infrastructure?',
+                a: 'Yes. Verafye is built to integrate with the fraud, AML, payments, and case management systems that financial institutions already operate. It connects signals across those systems into a unified intelligence layer  -  complementing existing infrastructure rather than displacing it.',
+              },
+              {
+                q: 'Is Verafye designed for investigation auditability?',
+                a: 'Auditability is a core design principle. All investigation actions, alert dispositions, case progressions, and system decisions within Verafye are logged and traceable  -  providing the documented record that compliance, governance, and regulatory review functions require.',
+              },
+              {
+                q: 'Can Verafye support different deployment models?',
+                a: 'Verafye supports deployment configurations appropriate to the operating requirements of different institution types. Enterprise buyers are encouraged to engage directly to discuss deployment options that align with their specific infrastructure, data residency, and security policies.',
+              },
+              {
+                q: 'How does Verafye handle explainability for AI-assisted decisions?',
+                a: 'Every risk score, alert, and case recommendation produced by Verafye is backed by traceable, documented reasoning. Explainability is built into the decisioning layer  -  enabling institutions to review, understand, and justify outputs to internal stakeholders and regulators without relying on black-box outputs.',
+              },
+              {
+                q: 'How does Verafye approach data handling for sensitive financial workflows?',
+                a: 'Verafye applies controlled access patterns, secure system boundaries, and auditable data flows throughout the platform. Data handling is designed to meet the sensitivity requirements of financial crime operations  -  including fraud, AML, compliance, and investigation functions that handle regulated and sensitive financial data.',
+              },
+            ].map((item, i) => (
+              <div key={i} className="card" style={{ padding: '2rem' }}>
+                <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.0625rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem', lineHeight: 1.4 }}>{item.q}</h3>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.75, margin: 0 }}>{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── 7. FINAL CTA ────────────────────────────────────────────────────── */}
+      <section style={{ padding: '5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+        <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
+          <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+            Trusted Infrastructure for Financial Crime Operations
+          </h2>
+          <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 1.25rem' }}>
+            Explore how Verafye supports secure, reliable, and intelligence-led financial crime operations across fraud, AML, and payments.
+          </p>
+          <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', maxWidth: '34rem', margin: '0 auto 2.5rem' }}>
+            Financial institutions operating across jurisdictions are building infrastructure that supports both operational excellence and regulatory alignment. Verafye is designed for that environment.
+          </p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
+            <Link href="/request-demo" className="btn-primary">
+              Request Demo
+              <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </Link>
+            <Link href="/platform" className="btn-secondary">Explore Platform</Link>
+          </div>
+          <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
+            No commitment required. Speak directly with our solutions team.
+          </p>
+        </div>
+      </section>
+
+    </>
+  );
+}
