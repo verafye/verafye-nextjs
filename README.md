@@ -73,15 +73,7 @@ npm run build
 
 ## Deployment
 
-### Vercel (recommended)
-```bash
-npx vercel
-```
-
-### Netlify
-Upload the `/out` directory after running `npm run build`.
-
-### GitHub Pages
+### Static Hosting
 ```bash
 npm run build
 # Deploy the /out directory
@@ -89,8 +81,19 @@ npm run build
 
 ## Form Integration
 
-The Request Demo form uses [Formspree](https://formspree.io).
-Replace `YOUR_FORM_ID` in `app/request-demo/page.js` with your actual Formspree form ID.
+The Request Demo form submits to `NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT` when that public env var is set. Otherwise it falls back to [`/api/request-demo`](app/api/request-demo/route.js), which proxies to the upstream email API.
+
+The server-side proxy defaults to `https://dashboard.verafye.com/api/external-email/send` in production. You can override that with `VERAFYE_REQUEST_DEMO_API_URL` if needed.
+
+When you deploy the static `/out` build, Next.js does not export `/api/request-demo`.
+
+For S3/CloudFront or other static hosts without a reverse proxy, build with:
+
+```bash
+NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.com/api/external-email/send npm run build
+```
+
+As verified on March 24, 2026, `https://www.verafye.com/api/request-demo` returns `404` from AmazonS3/CloudFront, while the upstream email API responds to CORS preflight with `Access-Control-Allow-Origin: *`. On that host, a public endpoint override is required unless you add a real reverse proxy in front of `/api/request-demo`.
 
 ## Notes
 
@@ -98,4 +101,4 @@ Replace `YOUR_FORM_ID` in `app/request-demo/page.js` with your actual Formspree 
 - Header and Footer extracted as shared React components
 - Mobile menu uses React state (no vanilla JS DOM manipulation)
 - SEO metadata (title, description, OG, Twitter) on every page
-- Static export enabled for maximum deployment flexibility
+- Request Demo can use a public endpoint override in static deployments

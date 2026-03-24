@@ -12,7 +12,9 @@ const INITIAL_FORM = {
   message: '',
 };
 
-const REQUEST_DEMO_ENDPOINT = '/api/request-demo';
+const REQUEST_DEMO_ENDPOINT =
+  process.env.NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT ||
+  '/api/request-demo';
 
 function buildRequestDemoPayload(form) {
   const firstName = form.firstName.trim();

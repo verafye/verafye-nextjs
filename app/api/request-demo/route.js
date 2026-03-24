@@ -1,7 +1,12 @@
+const DEFAULT_REQUEST_DEMO_API_URL =
+  process.env.NODE_ENV === 'production'
+    ? 'https://dashboard.verafye.com/api/external-email/send'
+    : 'https://dashboard.verafye.dev/api/external-email/send';
+
 const REQUEST_DEMO_API_URL =
   process.env.VERAFYE_REQUEST_DEMO_API_URL ||
   process.env.NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_API_URL ||
-  'https://dashboard.verafye.dev/api/external-email/send';
+  DEFAULT_REQUEST_DEMO_API_URL;
 
 export const runtime = 'nodejs';
 
