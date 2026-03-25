@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:dev": "NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.dev/api/external-email/send next build",
+    "build:prod": "NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.com/api/external-email/send next build",
     "start": "next start",
     "lint": "next lint"
   },
