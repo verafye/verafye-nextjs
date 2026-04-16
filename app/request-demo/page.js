@@ -53,11 +53,9 @@ export default function RequestDemoPage() {
 
   useEffect(() => {
     if (!toast) return undefined;
-
     const timeoutId = window.setTimeout(() => {
       setToast(null);
     }, toast.type === 'success' ? 3000 : 4000);
-
     return () => window.clearTimeout(timeoutId);
   }, [toast]);
 
@@ -148,6 +146,7 @@ export default function RequestDemoPage() {
 
   return (
     <>
+      {/* Toast notification — unchanged */}
       <div
         className={[
           'request-demo-toast',
@@ -178,118 +177,77 @@ export default function RequestDemoPage() {
         )}
       </div>
 
-      {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
-      <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)', padding: '4rem 0 3rem' }}>
+      {/* ── OPTION C: hero text LEFT + form RIGHT — both above the fold ───────── */}
+      <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)', padding: '3.5rem 0' }}>
         <div className="container">
-          <div style={{ maxWidth: '48rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1rem' }}>Request Demo</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              See Verafye in Action
-            </h1>
-            <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '0.875rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Explore how Verafye connects fraud, AML, and payments intelligence to support faster, more structured financial crime investigations.
-            </p>
-            <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', maxWidth: '36rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Designed for financial institutions and payment platforms operating under evolving regulatory and operational demands.
-            </p>
-          </div>
-        </div>
-      </section>
+          <div style={{ maxWidth: '72rem', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '3.5rem', alignItems: 'start' }}>
 
-      {/* ── 2 + 3 + 4. MAIN CONTENT GRID ────────────────────────────────────── */}
-      <section style={{ padding: '3rem 0 5rem', background: '#fff' }}>
-        <div className="container">
-          <div style={{ maxWidth: '72rem', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '4rem', alignItems: 'start' }}>
+            {/* ── LEFT: headline + description + feature bullets ── */}
+            <div style={{ paddingTop: '0.5rem' }}>
+              <p className="eyebrow animate-fade-up" style={{ marginBottom: '1rem' }}>Request Demo</p>
+              <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.75rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.125rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+                See Verafye in Action
+              </h1>
+              <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', marginBottom: '0.75rem', lineHeight: 1.7 }}>
+                Explore how Verafye connects fraud, AML, and payments intelligence to support faster, more structured financial crime investigations.
+              </p>
+              <p className="animate-fade-up delay-300" style={{ fontSize: '0.875rem', color: 'var(--muted)', marginBottom: '2rem', lineHeight: 1.6 }}>
+                Designed for financial institutions and payment platforms operating under evolving regulatory and operational demands.
+              </p>
 
-            {/* ── LEFT COLUMN: value reinforcement + what happens next ── */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
-
-              {/* What You'll See */}
-              <div>
-                <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>In the Demo</p>
-                <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', letterSpacing: '-0.02em' }}>
-                  What You'll See in the Demo
-                </h2>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem' }}>
-                  {[
-                    {
-                      icon: (
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/>
-                        </svg>
-                      ),
-                      title: 'Graph-Based Fraud and Network Detection',
-                      desc: 'See how Verafye surfaces connected fraud rings, mule networks, and coordinated financial crime across entities and transactions.',
-                    },
-                    {
-                      icon: (
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/>
-                        </svg>
-                      ),
-                      title: 'Investigation-Centric Workflows',
-                      desc: 'Explore how alert clustering, case formation, and pre-assembled context accelerate analyst decision-making.',
-                    },
-                    {
-                      icon: (
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
-                        </svg>
-                      ),
-                      title: 'Cross-System Intelligence',
-                      desc: 'See how Verafye unifies signals from fraud, AML, and payments systems into a single intelligence layer.',
-                    },
-                    {
-                      icon: (
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
-                        </svg>
-                      ),
-                      title: 'Real-World Use Case Walkthroughs',
-                      desc: 'Walk through scenarios relevant to your institution  -  mule detection, fraud ring investigation, payment risk, or AML monitoring.',
-                    },
-                  ].map(item => (
-                    <div key={item.title} style={{ display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
-                      <div style={{ width: '2rem', height: '2rem', borderRadius: '8px', background: 'var(--bg-blue)', border: '1px solid rgba(30,111,183,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '0.1rem' }}>
-                        {item.icon}
-                      </div>
-                      <div>
-                        <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--dark)', marginBottom: '0.2rem' }}>{item.title}</div>
-                        <div style={{ fontSize: '0.8125rem', color: 'var(--muted)', lineHeight: 1.6 }}>{item.desc}</div>
-                      </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem' }}>
+                {[
+                  {
+                    icon: (
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/>
+                      </svg>
+                    ),
+                    title: 'Graph-Based Fraud and Network Detection',
+                    desc: 'See how Verafye surfaces connected fraud rings, mule networks, and coordinated financial crime across entities and transactions.',
+                  },
+                  {
+                    icon: (
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/>
+                      </svg>
+                    ),
+                    title: 'Investigation-Centric Workflows',
+                    desc: 'Explore how alert clustering, case formation, and pre-assembled context accelerate analyst decision-making.',
+                  },
+                  {
+                    icon: (
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
+                      </svg>
+                    ),
+                    title: 'Cross-System Intelligence',
+                    desc: 'See how Verafye unifies signals from fraud, AML, and payments systems into a single intelligence layer.',
+                  },
+                  {
+                    icon: (
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+                      </svg>
+                    ),
+                    title: 'Real-World Use Case Walkthroughs',
+                    desc: 'Walk through scenarios relevant to your institution  -  mule detection, fraud ring investigation, payment risk, or AML monitoring.',
+                  },
+                ].map(item => (
+                  <div key={item.title} style={{ display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
+                    <div style={{ width: '2rem', height: '2rem', borderRadius: '8px', background: 'var(--bg-blue)', border: '1px solid rgba(30,111,183,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '0.1rem' }}>
+                      {item.icon}
                     </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* What Happens Next */}
-              <div style={{ background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)', padding: '1.75rem' }}>
-                <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>After You Submit</p>
-                <h2 style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', letterSpacing: '-0.02em' }}>
-                  What to Expect
-                </h2>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                  {[
-                    { n: '1', title: 'Intro call to understand your use case', desc: 'A brief conversation to learn about your environment, team, and priorities.' },
-                    { n: '2', title: 'Tailored product walkthrough', desc: 'A focused demo built around the scenarios most relevant to your institution.' },
-                    { n: '3', title: 'Deployment and integration discussion', desc: 'An overview of how Verafye connects to your existing stack and data sources.' },
-                    { n: '4', title: 'Next steps aligned to your environment', desc: 'Clear, no-pressure guidance on how to evaluate Verafye within your organisation.' },
-                  ].map(item => (
-                    <div key={item.n} style={{ display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
-                      <div style={{ width: '1.625rem', height: '1.625rem', borderRadius: '50%', background: 'var(--primary)', color: '#fff', fontSize: '0.6875rem', fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '0.1rem' }}>
-                        {item.n}
-                      </div>
-                      <div>
-                        <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--dark)', marginBottom: '0.2rem' }}>{item.title}</div>
-                        <div style={{ fontSize: '0.8125rem', color: 'var(--muted)', lineHeight: 1.6 }}>{item.desc}</div>
-                      </div>
+                    <div>
+                      <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--dark)', marginBottom: '0.2rem' }}>{item.title}</div>
+                      <div style={{ fontSize: '0.8125rem', color: 'var(--muted)', lineHeight: 1.6 }}>{item.desc}</div>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* ── RIGHT COLUMN: form ── */}
+            {/* ── RIGHT: form — immediately visible on landing ── */}
             <div>
               <div className="card" style={{ padding: '2.5rem', borderRadius: '16px' }}>
                 {submitted ? (
@@ -355,6 +313,7 @@ export default function RequestDemoPage() {
                             <option value="Payment Processor / PSP">Payment Processor / PSP</option>
                             <option value="PayFac">PayFac</option>
                             <option value="Fintech Platform">Fintech Platform</option>
+                            <option value="Digital Lender / NBFC / Consumer Finance">Digital Lender / NBFC / Consumer Finance</option>
                             <option value="Other">Other</option>
                           </select>
                           {errors.companyType && <p style={{ fontSize: '0.75rem', color: 'var(--error)', marginTop: '0.25rem' }}>{errors.companyType}</p>}
@@ -400,7 +359,43 @@ export default function RequestDemoPage() {
         </div>
       </section>
 
-      {/* ── 5. TRUST SIGNALS ─────────────────────────────────────────────────── */}
+      {/* ── WHAT TO EXPECT — shown below the fold as secondary content ─────────── */}
+      <section style={{ padding: '3rem 0 4rem', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ background: 'var(--bg-light)', borderRadius: '12px', border: '1px solid var(--border)', padding: '2rem 2.5rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 3fr', gap: '2.5rem', alignItems: 'start' }}>
+                <div>
+                  <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>After You Submit</p>
+                  <h2 style={{ fontSize: 'clamp(1rem,2vw,1.375rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.02em' }}>
+                    What to Expect
+                  </h2>
+                </div>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem' }}>
+                  {[
+                    { n: '1', title: 'Intro call to understand your use case', desc: 'A brief conversation to learn about your environment, team, and priorities.' },
+                    { n: '2', title: 'Tailored product walkthrough', desc: 'A focused demo built around the scenarios most relevant to your institution.' },
+                    { n: '3', title: 'Deployment and integration discussion', desc: 'An overview of how Verafye connects to your existing stack and data sources.' },
+                    { n: '4', title: 'Next steps aligned to your environment', desc: 'Clear, no-pressure guidance on how to evaluate Verafye within your organisation.' },
+                  ].map(item => (
+                    <div key={item.n} style={{ display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
+                      <div style={{ width: '1.625rem', height: '1.625rem', borderRadius: '50%', background: 'var(--primary)', color: '#fff', fontSize: '0.6875rem', fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '0.1rem' }}>
+                        {item.n}
+                      </div>
+                      <div>
+                        <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--dark)', marginBottom: '0.2rem' }}>{item.title}</div>
+                        <div style={{ fontSize: '0.8125rem', color: 'var(--muted)', lineHeight: 1.6 }}>{item.desc}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── TRUST SIGNALS — unchanged ────────────────────────────────────────── */}
       <section className="section-light" style={{ padding: '3rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '56rem', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem' }}>
@@ -418,7 +413,7 @@ export default function RequestDemoPage() {
         </div>
       </section>
 
-      {/* ── 6. CTA REINFORCEMENT ─────────────────────────────────────────────── */}
+      {/* ── CTA REINFORCEMENT — unchanged ────────────────────────────────────── */}
       <section style={{ padding: '4rem 0 5rem', background: '#fff' }}>
         <div className="container">
           <div style={{ maxWidth: '40rem', margin: '0 auto', textAlign: 'center' }}>

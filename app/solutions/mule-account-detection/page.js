@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Mule Account Detection — Verafye',
-  description: 'Verafye connects signals across accounts, devices, and transaction flows to identify coordinated mule network activity earlier — enabling faster intervention and clearer escalation paths.',
+  title: 'Mule Account Detection Platform | Stop Fraud Networks',
+  description: 'Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.',
   openGraph: {
-    title: 'Mule Account Detection — Verafye',
-    description: 'Graph-native detection that connects fraud and AML signals to surface coordinated mule networks before funds are layered.',
+    title: 'Mule Account Detection Platform | Stop Fraud Networks',
+    description: 'Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mule Account Detection — Verafye',
-    description: 'Graph-native detection that connects fraud and AML signals to surface coordinated mule networks before funds are layered.',
+    title: 'Mule Account Detection Platform | Stop Fraud Networks',
+    description: 'Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.',
   },
 };
 

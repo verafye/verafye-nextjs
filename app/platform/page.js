@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Platform  -  Connected FRAML Intelligence Infrastructure',
-  description: 'Verafye connects fraud, AML, and payments signals into a unified intelligence layer  -  graph-native detection, investigation intelligence, and cross-system connectivity for financial institutions and payment platforms.',
+  title: 'Financial Crime Detection Platform | AI Fraud & AML',
+  description: 'Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.',
   openGraph: {
-    title: 'Platform  -  Connected FRAML Intelligence Infrastructure | Verafye',
-    description: 'Verafye connects fraud, AML, and payments signals into a unified intelligence layer  -  graph-native detection, investigation intelligence, and cross-system connectivity for financial institutions.',
+    title: 'Financial Crime Detection Platform | AI Fraud & AML',
+    description: 'Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Platform  -  Connected FRAML Intelligence Infrastructure | Verafye',
-    description: 'Verafye connects fraud, AML, and payments signals into a unified intelligence layer  -  graph-native detection, investigation intelligence, and cross-system connectivity.',
+    title: 'Financial Crime Detection Platform | AI Fraud & AML',
+    description: 'Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.',
   },
 };
 
@@ -176,6 +176,7 @@ export default function Page() {
           <div style={{'display':'flex','gap':'1rem'}}><div style={{'flexShrink':'0','width':'2.5rem','height':'2.5rem','background':'var(--primary)','borderRadius':'0.5rem','display':'flex','alignItems':'center','justifyContent':'center'}}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div><div><h3 style={{'fontSize':'0.938rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.25rem'}}>Entity Relationships</h3><p style={{'fontSize':'0.813rem','color':'var(--body)'}}>Map connections between accounts, devices, and identities to surface hidden coordination</p></div></div>
           <div style={{'display':'flex','gap':'1rem'}}><div style={{'flexShrink':'0','width':'2.5rem','height':'2.5rem','background':'var(--primary)','borderRadius':'0.5rem','display':'flex','alignItems':'center','justifyContent':'center'}}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div><div><h3 style={{'fontSize':'0.938rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.25rem'}}>Signal Correlation</h3><p style={{'fontSize':'0.813rem','color':'var(--body)'}}>Connect signals across fraud, AML, and payments into a single intelligence view</p></div></div>
           <div style={{'display':'flex','gap':'1rem'}}><div style={{'flexShrink':'0','width':'2.5rem','height':'2.5rem','background':'var(--primary)','borderRadius':'0.5rem','display':'flex','alignItems':'center','justifyContent':'center'}}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div><div><h3 style={{'fontSize':'0.938rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.25rem'}}>Cross-System Intelligence</h3><p style={{'fontSize':'0.813rem','color':'var(--body)'}}>Eliminate the silos between fraud, AML, and payments that allow coordinated crime to go undetected</p></div></div>
+          <div style={{'display':'flex','gap':'1rem'}}><div style={{'flexShrink':'0','width':'2.5rem','height':'2.5rem','background':'var(--primary)','borderRadius':'0.5rem','display':'flex','alignItems':'center','justifyContent':'center'}}><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div><div><h3 style={{'fontSize':'0.938rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.25rem'}}>Lending-Specific Fraud Detection</h3><p style={{'fontSize':'0.813rem','color':'var(--body)'}}>Detect lending-specific fraud patterns including synthetic identities, loan stacking, and coordinated borrower activity across portfolios.</p></div></div>
         </div>
         {/* Task 1: Primary contextual CTA placed directly after the feature list.
             The visitor has just absorbed the core differentiation argument  - 

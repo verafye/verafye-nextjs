@@ -37,6 +37,7 @@ const navItems = [
       { href: '/industries/fintech-platforms',                label: 'Fintech Platforms' },
       { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks' },
+      { href: '/industries/lenders-consumer-finance',         label: 'Lenders / Consumer Finance' },
     ],
   },
   {
@@ -95,6 +96,7 @@ const mobileNavGroups = [
       { href: '/industries/fintech-platforms',                label: 'Fintech Platforms' },
       { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks' },
+      { href: '/industries/lenders-consumer-finance',         label: 'Lenders / Consumer Finance' },
     ],
   },
   {

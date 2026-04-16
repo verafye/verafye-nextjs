@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'FRAML Intelligence for Credit Unions and Regional Institutions — Verafye',
-  description: 'Connected fraud, AML, and investigation intelligence for credit unions and regional financial institutions  -  enterprise-grade capabilities without enterprise complexity.',
+  title: 'Fraud Detection for Credit Unions | Reduce Risk',
+  description: 'Credit fraud detection solutions for transaction fraud & hidden risks. Protect members from financial crime and strengthen AML & regulatory compliance.',
   openGraph: {
-    title: 'FRAML Intelligence for Credit Unions and Regional Institutions — Verafye',
-    description: 'Verafye helps credit unions and regional institutions detect financial crime, structure investigations, and operate within evolving regulatory expectations.',
+    title: 'Fraud Detection for Credit Unions | Reduce Risk',
+    description: 'Credit fraud detection solutions for transaction fraud & hidden risks. Protect members from financial crime and strengthen AML & regulatory compliance.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FRAML Intelligence for Credit Unions and Regional Institutions — Verafye',
-    description: 'Verafye helps credit unions and regional institutions detect financial crime, structure investigations, and operate within evolving regulatory expectations.',
+    title: 'Fraud Detection for Credit Unions | Reduce Risk',
+    description: 'Credit fraud detection solutions for transaction fraud & hidden risks. Protect members from financial crime and strengthen AML & regulatory compliance.',
   },
 };
 

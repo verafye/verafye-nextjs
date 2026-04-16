@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Investigation Intelligence — Verafye',
-  description: 'Verafye brings investigation intelligence into the core workflow — clustering related signals, improving prioritization, and supporting structured, traceable case handling across fraud and AML operations.',
+  title: 'Fraud Intelligence Platform | Faster Investigations',
+  description: 'Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.',
   openGraph: {
-    title: 'Investigation Intelligence — Verafye',
-    description: 'Cluster alerts, improve prioritization, and support structured traceable investigations across fraud and AML operations.',
+    title: 'Fraud Intelligence Platform | Faster Investigations',
+    description: 'Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Investigation Intelligence — Verafye',
-    description: 'Cluster alerts, improve prioritization, and support structured traceable investigations across fraud and AML operations.',
+    title: 'Fraud Intelligence Platform | Faster Investigations',
+    description: 'Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.',
   },
 };
 
@@ -386,6 +386,31 @@ export default function InvestigationIntelligencePage() {
                 <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)' }}>Explore →</span>
               </div>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FOR LENDERS & CONSUMER FINANCE ──────────────────────────────────── */}
+      <section style={{ padding: '5rem 0', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Segment Application</p>
+              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+                For Lenders &amp; Consumer Finance
+              </h2>
+            </div>
+            <div className="card card-elevated" style={{ padding: '2.5rem', maxWidth: '56rem', margin: '0 auto' }}>
+              <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+                Streamline fraud investigations across the lending lifecycle with structured workflows and complete borrower context.
+              </p>
+              <div style={{ marginTop: '1.5rem' }}>
+                <Link href="/industries/lenders-consumer-finance" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+                  Explore Financial Crime Intelligence for Lenders
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

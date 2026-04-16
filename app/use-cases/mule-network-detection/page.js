@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Mule Network Detection — Verafye',
-  description: 'Identify connected entities, accounts, and transactions involved in coordinated financial crime using network-level intelligence.',
+  title: 'Mule Network Detection Software | Detect Fraud Rings',
+  description: 'Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.',
   openGraph: {
-    title: 'Mule Network Detection — Verafye',
-    description: 'Verafye enables institutions to detect, analyze, and investigate mule activity across fragmented systems through graph-based detection and investigation workflows.',
+    title: 'Mule Network Detection Software | Detect Fraud Rings',
+    description: 'Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mule Network Detection — Verafye',
-    description: 'Verafye enables institutions to detect, analyze, and investigate mule activity across fragmented systems through graph-based detection and investigation workflows.',
+    title: 'Mule Network Detection Software | Detect Fraud Rings',
+    description: 'Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.',
   },
 };
 
@@ -384,6 +384,31 @@ export default function MuleNetworkDetectionPage() {
                     </div>
                   </Link>
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FOR LENDERS & CONSUMER FINANCE ──────────────────────────────────── */}
+      <section style={{ padding: '5rem 0', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Segment Application</p>
+              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+                For Lenders &amp; Consumer Finance
+              </h2>
+            </div>
+            <div className="card card-elevated" style={{ padding: '2.5rem', maxWidth: '56rem', margin: '0 auto' }}>
+              <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+                Detect first-party fraud, synthetic identities, and loan stacking by connecting borrower data, device intelligence, and behavioral signals across multiple lending touchpoints.
+              </p>
+              <div style={{ marginTop: '1.5rem' }}>
+                <Link href="/industries/lenders-consumer-finance" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+                  Explore Financial Crime Intelligence for Lenders
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </Link>
               </div>
             </div>
           </div>

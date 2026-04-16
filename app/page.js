@@ -1,8 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Verafye — AI-Native FRAML Intelligence Infrastructure',
-  description: 'AI-native FRAML intelligence infrastructure for financial institutions and payment platforms.',
+  title: 'AI Fraud & AML Platform | Detect Financial Crime Networks',
+  description: 'Unify AML compliance & fraud detection with our AI-driven fraud prevention platform. Detect financial crime networks and ensure regulatory readiness.',
+  openGraph: {
+    title: 'AI Fraud & AML Platform | Detect Financial Crime Networks',
+    description: 'Unify AML compliance & fraud detection with our AI-driven fraud prevention platform. Detect financial crime networks and ensure regulatory readiness.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AI Fraud & AML Platform | Detect Financial Crime Networks',
+    description: 'Unify AML compliance & fraud detection with our AI-driven fraud prevention platform. Detect financial crime networks and ensure regulatory readiness.',
+  },
 };
 
 export default function Page() {
@@ -20,9 +29,10 @@ export default function Page() {
           Financial crime regulation is forcing infrastructure change
         </p>
 
-        {/* H1  -  updated copy to match locked positioning */}
-        <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          AI-Native FRAML Intelligence Infrastructure for Financial Institutions
+        {/* H1  -  two-line: dark claim + brand blue qualifier */}
+        <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','marginBottom':'1.5rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
+          <span style={{'color':'var(--dark)','display':'block'}}>Graph-Native Financial Crime Intelligence</span>
+          <span style={{'color':'var(--primary)','display':'block'}}>for Mid-Market Financial Institutions</span>
         </h1>
 
         {/* Body */}
@@ -694,6 +704,18 @@ export default function Page() {
           <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Connected risk intelligence for fast-scaling digital banking environments</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View Digital Banks solution
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </div>
+      </Link>
+
+      <Link href="/industries/lenders-consumer-finance" style={{'textDecoration':'none','display':'block'}}>
+        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>Lenders / Consumer Finance</h3>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Detect and investigate lending-specific financial crime across borrower lifecycles, from origination to repayment, with unified intelligence and traceability.</p>
+          <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
+            View Lenders solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </span>
         </div>

@@ -125,7 +125,8 @@ export default function Footer() {
           <div className="footer-bottom-links">
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms">Terms of Service</Link>
-            <Link href="/security-trust">Security & Trust</Link>
+            <Link href="/security-trust">Security &amp; Trust</Link>
+            <Link href="/contact">Contact Us</Link>
             <Link href="/request-demo">Request Demo</Link>
           </div>
         </div>

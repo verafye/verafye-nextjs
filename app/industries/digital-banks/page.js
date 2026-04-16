@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'FRAML Intelligence for Digital Banks — Verafye',
-  description: 'Graph-native fraud detection, investigation intelligence, and cross-system risk visibility for digital banks operating in fast-scaling, multi-channel environments.',
+  title: 'AI Fraud Detection for Digital Banks | Real-Time Protection',
+  description: 'AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.',
   openGraph: {
-    title: 'FRAML Intelligence for Digital Banks — Verafye',
-    description: 'Verafye helps digital banks connect risk signals across onboarding, payments, fraud, and AML into a unified intelligence layer aligned with evolving regulatory expectations.',
+    title: 'AI Fraud Detection for Digital Banks | Real-Time Protection',
+    description: 'AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FRAML Intelligence for Digital Banks — Verafye',
-    description: 'Verafye helps digital banks connect risk signals across onboarding, payments, fraud, and AML into a unified intelligence layer aligned with evolving regulatory expectations.',
+    title: 'AI Fraud Detection for Digital Banks | Real-Time Protection',
+    description: 'AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.',
   },
 };
 

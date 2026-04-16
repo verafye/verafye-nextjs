@@ -36,6 +36,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Google Tag Manager — as high in <head> as possible */}
+        <Script id="gtm-head" strategy="beforeInteractive">{`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-T2N2Z2S2');
+        `}</Script>
+
         {/* Preconnect for font performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -43,7 +52,8 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
-        {/* GA4  -  load after page is interactive, non-blocking */}
+
+        {/* GA4 — kept alongside GTM until GA4 is migrated into GTM console */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-R0NXMDGZSM"
           strategy="afterInteractive"
@@ -56,7 +66,6 @@ export default function RootLayout({ children }) {
             page_path: window.location.pathname,
             send_page_view: true
           });
-          // Expose helper for event tracking
           window.trackEvent = function(eventName, params) {
             if (typeof gtag !== 'undefined') {
               gtag('event', eventName, params || {});
@@ -65,6 +74,16 @@ export default function RootLayout({ children }) {
         `}</Script>
       </head>
       <body className="font-sans overflow-x-hidden" suppressHydrationWarning>
+        {/* Google Tag Manager (noscript) — immediately after opening <body> tag */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-T2N2Z2S2"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+
         <Header />
         {children}
         <Footer />

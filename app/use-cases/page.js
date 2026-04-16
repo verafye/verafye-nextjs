@@ -2,16 +2,16 @@ import Link from 'next/link';
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: 'Use Cases — Verafye',
-  description: 'Explore how Verafye helps financial institutions detect, investigate, and manage financial crime risk across fraud, AML, and payments.',
+  title: 'Fraud & AML Use Cases | Financial Crime Solutions',
+  description: 'Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.',
   openGraph: {
-    title: 'Use Cases — Verafye',
-    description: 'Verafye connects signals across systems to support key use cases across detection, monitoring, and investigation workflows.',
+    title: 'Fraud & AML Use Cases | Financial Crime Solutions',
+    description: 'Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Use Cases — Verafye',
-    description: 'Verafye connects signals across systems to support key use cases across detection, monitoring, and investigation workflows.',
+    title: 'Fraud & AML Use Cases | Financial Crime Solutions',
+    description: 'Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.',
   },
 };
 

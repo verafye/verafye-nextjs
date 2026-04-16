@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Fraud and Risk Intelligence for Payment Processors and PayFacs — Verafye',
-  description: 'Detect, prioritize, and investigate payment risk across merchants, transactions, devices, and behaviors in one unified platform.',
+  title: 'Payment Fraud Detection Software | Protect Transactions',
+  description: 'Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.',
   openGraph: {
-    title: 'Fraud and Risk Intelligence for Payment Processors and PayFacs — Verafye',
-    description: 'Verafye helps PSPs and PayFacs manage fraud, merchant risk, and operational workload through connected intelligence and investigation-centric workflows.',
+    title: 'Payment Fraud Detection Software | Protect Transactions',
+    description: 'Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fraud and Risk Intelligence for Payment Processors and PayFacs — Verafye',
-    description: 'Verafye helps PSPs and PayFacs manage fraud, merchant risk, and operational workload through connected intelligence and investigation-centric workflows.',
+    title: 'Payment Fraud Detection Software | Protect Transactions',
+    description: 'Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.',
   },
 };
 

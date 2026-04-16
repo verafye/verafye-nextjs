@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Risk and Fraud Intelligence for Scalable Fintech Platforms — Verafye',
-  description: 'Detect, prioritize, and investigate financial crime risk across users, transactions, devices, and behaviors without slowing growth.',
+  title: 'Fraud Detection Platform for Fintech | Prevent Fraud',
+  description: 'Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.',
   openGraph: {
-    title: 'Risk and Fraud Intelligence for Scalable Fintech Platforms — Verafye',
-    description: 'Verafye helps fintech platforms balance risk management and user experience through connected intelligence and investigation-centric workflows.',
+    title: 'Fraud Detection Platform for Fintech | Prevent Fraud',
+    description: 'Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Risk and Fraud Intelligence for Scalable Fintech Platforms — Verafye',
-    description: 'Verafye helps fintech platforms balance risk management and user experience through connected intelligence and investigation-centric workflows.',
+    title: 'Fraud Detection Platform for Fintech | Prevent Fraud',
+    description: 'Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.',
   },
 };
 

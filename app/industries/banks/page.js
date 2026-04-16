@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Financial Crime Infrastructure for Banks — Verafye',
-  description: 'Unify fraud, AML, and payment intelligence into one investigation-centric platform designed for evolving regulatory and operational demands.',
+  title: 'Fraud Detection Software for Banks | Reduce Risk',
+  description: 'Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.',
   openGraph: {
-    title: 'Financial Crime Infrastructure for Banks — Verafye',
-    description: 'Verafye helps banks detect, investigate, and manage financial crime risk across connected systems, entities, and transactions.',
+    title: 'Fraud Detection Software for Banks | Reduce Risk',
+    description: 'Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Financial Crime Infrastructure for Banks — Verafye',
-    description: 'Verafye helps banks detect, investigate, and manage financial crime risk across connected systems, entities, and transactions.',
+    title: 'Fraud Detection Software for Banks | Reduce Risk',
+    description: 'Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.',
   },
 };
 
