@@ -115,15 +115,11 @@ export default function RequestDemoPage() {
         throw new Error('Request demo submission failed');
       }
 
-      if (typeof window !== 'undefined' && window.trackEvent) {
-        const params = new URLSearchParams(window.location.search);
-        window.trackEvent('demo_form_submit', {
-          company_type: form.companyType || 'unknown',
-          utm_source: params.get('utm_source') || '',
-          utm_medium: params.get('utm_medium') || '',
-          utm_campaign: params.get('utm_campaign') || '',
-        });
-      }
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'form_submission',
+        form_type: 'demo',
+      });
 
       setToast({
         type: 'success',
@@ -424,7 +420,7 @@ export default function RequestDemoPage() {
               Request a demo to see how Verafye connects fraud, AML, and payments intelligence for financial institutions operating under real investigative and regulatory pressure.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); typeof window !== 'undefined' && window.trackEvent && window.trackEvent('demo_cta_click', { location: 'page_bottom' }); }} className="btn-primary">
+              <Link href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="btn-primary">
                 Request Demo
                 <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

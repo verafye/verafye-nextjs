@@ -93,9 +93,11 @@ export default function PartnersPage() {
       }
       const isSuccess = response.ok && (!result || result.status === undefined || Number(result.status) === 1 || result.success === true);
       if (!isSuccess) throw new Error('Submission failed');
-      if (typeof window !== 'undefined' && window.trackEvent) {
-        window.trackEvent('partner_enquiry_submit', { org_type: form.orgType || 'unknown' });
-      }
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'form_submission',
+        form_type: 'partnership',
+      });
       setToast({ type: 'success', title: '✅ Enquiry Received', message: 'Thank you! We will be in touch shortly.' });
       setForm(INITIAL_PARTNER_FORM);
       setErrors({});

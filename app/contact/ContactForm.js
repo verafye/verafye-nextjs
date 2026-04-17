@@ -82,9 +82,11 @@ export default function ContactForm() {
       }
       const isSuccess = response.ok && (!result || result.status === undefined || Number(result.status) === 1 || result.success === true);
       if (!isSuccess) throw new Error('Submission failed');
-      if (typeof window !== 'undefined' && window.trackEvent) {
-        window.trackEvent('contact_form_submit', { reason: form.reason || 'unknown' });
-      }
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'form_submission',
+        form_type: 'contact',
+      });
       setToast({ type: 'success', title: '✅ Message Sent', message: 'Thank you! We will get back to you soon.' });
       setForm(INITIAL_FORM);
       setErrors({});
