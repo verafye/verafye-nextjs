@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Financial Crime Intelligence for Lenders | Consumer Finance Fraud Detection',
-  description: 'Detect and investigate lending-specific financial crime across borrower lifecycles. Graph-native intelligence for digital lenders, NBFCs, and consumer finance institutions.',
+  title: 'Fraud Detection for Lenders & NBFCs | AI Risk Intelligence',
+  description: 'Fraud detection for lenders and NBFCs to identify loan fraud, detect risk patterns, and prevent financial crime. Use AI-driven intelligence. See how it works.',
   openGraph: {
-    title: 'Financial Crime Intelligence for Lenders | Consumer Finance Fraud Detection',
-    description: 'Detect and investigate lending-specific financial crime across borrower lifecycles. Graph-native intelligence for digital lenders, NBFCs, and consumer finance institutions.',
+    title: 'Fraud Detection for Lenders & NBFCs | AI Risk Intelligence',
+    description: 'Fraud detection for lenders and NBFCs to identify loan fraud, detect risk patterns, and prevent financial crime. Use AI-driven intelligence. See how it works.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Financial Crime Intelligence for Lenders | Consumer Finance Fraud Detection',
-    description: 'Detect and investigate lending-specific financial crime across borrower lifecycles. Graph-native intelligence for digital lenders, NBFCs, and consumer finance institutions.',
+    title: 'Fraud Detection for Lenders & NBFCs | AI Risk Intelligence',
+    description: 'Fraud detection for lenders and NBFCs to identify loan fraud, detect risk patterns, and prevent financial crime. Use AI-driven intelligence. See how it works.',
   },
 };
 

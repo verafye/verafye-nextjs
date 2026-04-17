@@ -1,8 +1,17 @@
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: 'Capabilities',
-  description: 'Verafye platform capabilities for financial crime detection',
+  title: 'Fraud & AML Capabilities | Verafye Platform',
+  description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+  openGraph: {
+    title: 'Fraud & AML Capabilities | Verafye Platform',
+    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Fraud & AML Capabilities | Verafye Platform',
+    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+  },
 };
 
 export default function Page() {

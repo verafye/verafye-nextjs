@@ -1,8 +1,17 @@
 
 
 export const metadata = {
-  title: 'Terms of Service',
-  description: 'Verafye terms of service',
+  title: 'Terms & Conditions | Verafye',
+  description: "Review Verafye's terms and conditions for using our fraud and AML platform, including policies, responsibilities, and compliance guidelines.",
+  openGraph: {
+    title: 'Terms & Conditions | Verafye',
+    description: "Review Verafye's terms and conditions for using our fraud and AML platform, including policies, responsibilities, and compliance guidelines.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms & Conditions | Verafye',
+    description: "Review Verafye's terms and conditions for using our fraud and AML platform, including policies, responsibilities, and compliance guidelines.",
+  },
 };
 
 export default function Page() {

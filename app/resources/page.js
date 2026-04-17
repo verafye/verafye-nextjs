@@ -2,16 +2,16 @@ import Link from 'next/link';
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: 'Resources and Insights — Verafye',
-  description: 'Explore perspectives, product insights, and industry trends across fraud, AML, and payment intelligence.',
+  title: 'Fraud & AML Resources | Guides & Insights | Verafye',
+  description: 'Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.',
   openGraph: {
-    title: 'Resources and Insights — Verafye',
-    description: 'Access content designed to help financial institutions and payment platforms understand evolving fraud patterns, regulatory expectations, and modern approaches to financial crime intelligence.',
+    title: 'Fraud & AML Resources | Guides & Insights | Verafye',
+    description: 'Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Resources and Insights — Verafye',
-    description: 'Access content designed to help financial institutions and payment platforms understand evolving fraud patterns, regulatory expectations, and modern approaches to financial crime intelligence.',
+    title: 'Fraud & AML Resources | Guides & Insights | Verafye',
+    description: 'Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.',
   },
 };
 

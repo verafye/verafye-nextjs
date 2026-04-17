@@ -1,11 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Customers — Verafye',
-  description: 'Verafye serves mid-market banks, payment processors, PSPs, PayFacs, fintech platforms, credit unions, and digital banks  -  connecting fraud, AML, and payments intelligence into a unified layer.',
+  title: 'Verafye Customers | Fraud & AML Success Stories',
+  description: 'Discover how financial institutions use Verafye to detect fraud, reduce false positives, and improve AML outcomes. Explore success stories.',
   openGraph: {
-    title: 'Customers — Verafye',
-    description: 'Verafye serves mid-market financial institutions and payment platforms operating under evolving regulatory expectations.',
+    title: 'Verafye Customers | Fraud & AML Success Stories',
+    description: 'Discover how financial institutions use Verafye to detect fraud, reduce false positives, and improve AML outcomes. Explore success stories.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Verafye Customers | Fraud & AML Success Stories',
+    description: 'Discover how financial institutions use Verafye to detect fraud, reduce false positives, and improve AML outcomes. Explore success stories.',
   },
 };
 

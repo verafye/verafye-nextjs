@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Company — Verafye',
-  description: 'Verafye is AI-native FRAML intelligence infrastructure built for financial institutions and payment platforms operating under evolving regulatory and operational demands.',
+  title: 'About Verafye | AI Fraud & AML Platform',
+  description: 'Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.',
   openGraph: {
-    title: 'Company — Verafye',
-    description: 'Verafye is AI-native FRAML intelligence infrastructure built for financial institutions and payment platforms operating under evolving regulatory and operational demands.',
+    title: 'About Verafye | AI Fraud & AML Platform',
+    description: 'Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Company — Verafye',
-    description: 'Verafye is AI-native FRAML intelligence infrastructure built for financial institutions and payment platforms operating under evolving regulatory and operational demands.',
+    title: 'About Verafye | AI Fraud & AML Platform',
+    description: 'Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.',
   },
 };
 

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Security, Trust, and Regulatory-Aligned Infrastructure — Verafye',
-  description: 'Built for financial institutions and payment platforms that require strong security foundations, controlled data handling, and infrastructure aligned with evolving regulatory expectations.',
+  title: 'Security & Trust | Verafye Platform',
+  description: 'Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.',
   openGraph: {
-    title: 'Security, Trust, and Regulatory-Aligned Infrastructure — Verafye',
-    description: 'Verafye is designed to support fraud, AML, and payment intelligence operations with a strong focus on security, privacy, auditability, and operational resilience.',
+    title: 'Security & Trust | Verafye Platform',
+    description: 'Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Security, Trust, and Regulatory-Aligned Infrastructure — Verafye',
-    description: 'Verafye is designed to support fraud, AML, and payment intelligence operations with a strong focus on security, privacy, auditability, and operational resilience.',
+    title: 'Security & Trust | Verafye Platform',
+    description: 'Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.',
   },
 };
 

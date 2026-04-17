@@ -53,25 +53,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
 
-        {/* GA4 — kept alongside GTM until GA4 is migrated into GTM console */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-R0NXMDGZSM"
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-R0NXMDGZSM', {
-            page_path: window.location.pathname,
-            send_page_view: true
-          });
-          window.trackEvent = function(eventName, params) {
-            if (typeof gtag !== 'undefined') {
-              gtag('event', eventName, params || {});
-            }
-          };
-        `}</Script>
+
       </head>
       <body className="font-sans overflow-x-hidden" suppressHydrationWarning>
         {/* Google Tag Manager (noscript) — immediately after opening <body> tag */}

@@ -31,7 +31,7 @@ export default function Page() {
 
         {/* H1  -  two-line: dark claim + brand blue qualifier */}
         <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','marginBottom':'1.5rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          <span style={{'color':'var(--dark)','display':'block'}}>Graph-Native Financial Crime Intelligence</span>
+          <span style={{'color':'var(--dark)','display':'block'}}>Connected Financial Crime Intelligence</span>
           <span style={{'color':'var(--primary)','display':'block'}}>for Mid-Market Financial Institutions</span>
         </h1>
 
