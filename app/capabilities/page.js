@@ -121,7 +121,7 @@ export default function Page() {
       <div style={{'order':'2'}}>
         <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION EFFICIENCY</p>
         <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.03em'}}>Alert Clustering</h2>
-        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':'1.7'}}>Automatically group related alerts into unified investigation packages. Instead of reviewing hundreds of individual alerts, investigators see clustered cases with full context — reducing noise and surfacing genuine threats.</p>
+        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':'1.7'}}>Automatically group related alerts into unified investigation packages. Instead of reviewing hundreds of individual alerts, investigators see clustered cases with full context - reducing noise and surfacing genuine threats.</p>
         <div style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'1rem'}}>
           <div className="card" style={{'padding':'1.25rem','textAlign':'center'}}><div className="stat-value" style={{'fontSize':'1.5rem','marginBottom':'0.25rem'}}>30-50%</div><p style={{'fontSize':'0.75rem','fontWeight':'500','color':'var(--body)'}}>Alert volume reduction</p></div>
           <div className="card" style={{'padding':'1.25rem','textAlign':'center'}}><div className="stat-value" style={{'fontSize':'1.5rem','marginBottom':'0.25rem'}}>3x</div><p style={{'fontSize':'0.75rem','fontWeight':'500','color':'var(--body)'}}>Faster case resolution</p></div>
@@ -218,7 +218,7 @@ export default function Page() {
       <div style={{'order':'2'}}>
         <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>CROSS-SYSTEM</p>
         <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.03em'}}>Unified Fraud + AML Signals</h2>
-        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':'1.7'}}>Break down the silos between fraud and AML monitoring. Verafye unifies signals from fraud detection, AML screening, and payments monitoring into a single intelligence layer — enabling cross-system correlation that catches threats any single system would miss.</p>
+        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':'1.7'}}>Break down the silos between fraud and AML monitoring. Verafye unifies signals from fraud detection, AML screening, and payments monitoring into a single intelligence layer - enabling cross-system correlation that catches threats any single system would miss.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'1rem'}}>
           <div style={{'display':'flex','gap':'0.875rem','alignItems':'start'}}>
             <div style={{'flexShrink':'0','width':'2.25rem','height':'2.25rem','background':'var(--primary)','borderRadius':'8px','display':'flex','alignItems':'center','justifyContent':'center','marginTop':'2px'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>

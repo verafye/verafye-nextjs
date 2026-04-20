@@ -173,8 +173,8 @@ export default function Page() {
   </div>
 </section>
 
-{/* STRATEGIC ADVISOR */}
-<section className="section-light" style={{'padding':'4rem 0'}}>
+{/* STRATEGIC ADVISOR — hidden, do not remove */}
+{/* <section className="section-light" style={{'padding':'4rem 0'}}>
   <div className="container">
     <div style={{'maxWidth':'56rem','margin':'0 auto','textAlign':'center'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>Strategic Advisor</p>
@@ -188,7 +188,7 @@ export default function Page() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 {/* CONTACT */}
 <section className="section-light" style={{'padding':'5rem 0'}}>

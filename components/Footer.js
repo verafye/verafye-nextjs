@@ -53,7 +53,7 @@ export default function Footer() {
         {/* ── MAIN 5-COLUMN GRID ──────────────────────────────────────────── */}
         <div className="footer-main-grid">
 
-          {/* Col 1 — Brand */}
+          {/* Col 1 - Brand */}
           <div className="footer-brand-col">
             <Link href="/" style={{ display: 'inline-block', marginBottom: '1rem' }}>
               <img
@@ -69,7 +69,7 @@ export default function Footer() {
               maxWidth: '16rem',
               margin: '0 0 1.5rem 0',
             }}>
-              AI-Native FRAML Intelligence Infrastructure for financial institutions and payment platforms.
+              Fraud and AML Investigation Intelligence for Payment Platforms, PSPs, and Financial Institutions.
             </p>
             {/* Trust badge / CTA */}
             <Link
@@ -90,7 +90,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          {/* Cols 2–5 — Nav columns */}
+          {/* Cols 2–5 - Nav columns */}
           {footerColumns.map(col => (
             <div key={col.heading}>
               <p style={{
@@ -134,7 +134,7 @@ export default function Footer() {
       </div>
 
       {/* ── SCOPED STYLES ────────────────────────────────────────────────────
-          CSS-only hover — no JS handlers, no 'use client' needed.
+          CSS-only hover - no JS handlers, no 'use client' needed.
       ───────────────────────────────────────────────────────────────────────── */}
       <style>{`
         .footer-nav-link {

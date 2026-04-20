@@ -4,6 +4,17 @@ export const metadata = {
   title: 'RBI Early Warning Signals (EWS) Solution for NBFCs | Verafye',
   description:
     'Verafye helps NBFCs and digital lenders meet RBI EWS mandates with real-time borrower monitoring, configurable EWS signals, RFA classification, and audit-ready workflows. Request your EWS Readiness Assessment.',
+  openGraph: {
+    title: 'RBI Early Warning Signals (EWS) Solution for NBFCs | Verafye',
+    description:
+      'Verafye helps NBFCs and digital lenders meet RBI EWS mandates with real-time borrower monitoring, configurable EWS signals, RFA classification, and audit-ready workflows. Request your EWS Readiness Assessment.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'RBI Early Warning Signals (EWS) Solution for NBFCs | Verafye',
+    description:
+      'Verafye helps NBFCs and digital lenders meet RBI EWS mandates with real-time borrower monitoring, configurable EWS signals, RFA classification, and audit-ready workflows. Request your EWS Readiness Assessment.',
+  },
   robots: {
     index: false,
     follow: false,

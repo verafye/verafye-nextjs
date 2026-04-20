@@ -58,7 +58,7 @@ const resources = [
     categoryLabel: 'Product Insights',
     type: 'Article',
     title: 'Understanding Graph-Based Fraud Detection',
-    description: 'Graph intelligence represents a fundamental shift in how financial crime is detected — moving from event-level scoring to relationship-aware, network-level analysis. This piece explains the core concepts behind graph-based detection and why it matters for fraud and AML operations.',
+    description: 'Graph intelligence represents a fundamental shift in how financial crime is detected - moving from event-level scoring to relationship-aware, network-level analysis. This piece explains the core concepts behind graph-based detection and why it matters for fraud and AML operations.',
     gradient: 'gradient-bg-2',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -87,7 +87,7 @@ const resources = [
     categoryLabel: 'Use Case Deep Dives',
     type: 'Guide',
     title: 'Investigation Workflows in Financial Crime Operations',
-    description: 'Modern financial crime investigation requires more than alert handling — it demands structured, context-rich workflows that connect detection to resolution. This guide examines the components of effective investigation workflow design and how intelligence-driven approaches improve analyst productivity and case outcomes.',
+    description: 'Modern financial crime investigation requires more than alert handling - it demands structured, context-rich workflows that connect detection to resolution. This guide examines the components of effective investigation workflow design and how intelligence-driven approaches improve analyst productivity and case outcomes.',
     gradient: 'gradient-bg-4',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -118,7 +118,7 @@ const resources = [
     categoryLabel: 'Use Case Deep Dives',
     type: 'Use Case',
     title: 'Network-Based Detection of Mule Activity',
-    description: 'Mule networks are structured to evade transaction-level detection — operating across connected accounts, shared devices, and coordinated money movement patterns. This deep dive examines how graph intelligence and network clustering enable earlier, more complete detection of mule activity across banking and payment portfolios.',
+    description: 'Mule networks are structured to evade transaction-level detection - operating across connected accounts, shared devices, and coordinated money movement patterns. This deep dive examines how graph intelligence and network clustering enable earlier, more complete detection of mule activity across banking and payment portfolios.',
     gradient: 'gradient-bg-2',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

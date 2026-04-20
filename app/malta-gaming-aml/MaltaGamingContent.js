@@ -62,13 +62,13 @@ export default function MaltaGamingContent() {
               </h1>
 
               <p className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', marginBottom: '2rem', lineHeight: 1.7, maxWidth: '38rem' }}>
-                Verafye connects fraud, AML, and payments signals across your player base — surfacing linked accounts, mule networks, and transaction anomalies in a single investigation layer. Built for the operational and regulatory demands of MGA-licensed operators.
+                Verafye connects fraud, AML, and payments signals across your player base - surfacing linked accounts, mule networks, and transaction anomalies in a single investigation layer. Built for the operational and regulatory demands of MGA-licensed operators.
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.625rem', marginBottom: '2.25rem' }}>
                 {[
-                  'Detect linked accounts and coordinated player networks — not just individual flagged transactions',
-                  'Unified alerts across fraud, AML, and payments — one investigation view, not three separate systems',
+                  'Detect linked accounts and coordinated player networks - not just individual flagged transactions',
+                  'Unified alerts across fraud, AML, and payments - one investigation view, not three separate systems',
                   'Audit-ready case trails aligned with MGA and FIAU documentation expectations',
                 ].map((t) => (
                   <div key={t} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.625rem' }}>
@@ -94,7 +94,7 @@ export default function MaltaGamingContent() {
               {[
                 {
                   label: 'MGA & FIAU Scrutiny',
-                  body: 'Malta\'s regulator and financial intelligence unit expect structured, documented AML processes — not just monitoring dashboards.',
+                  body: 'Malta\'s regulator and financial intelligence unit expect structured, documented AML processes - not just monitoring dashboards.',
                 },
                 {
                   label: 'Linked Account Exposure',
@@ -102,7 +102,7 @@ export default function MaltaGamingContent() {
                 },
                 {
                   label: 'Alert-to-Investigation Gap',
-                  body: 'High transaction volumes and fragmented tooling create alert fatigue — leaving compliance teams unable to prioritise or escalate effectively.',
+                  body: 'High transaction volumes and fragmented tooling create alert fatigue - leaving compliance teams unable to prioritise or escalate effectively.',
                 },
               ].map((item) => (
                 <div key={item.label} className="card" style={{ padding: '1.25rem 1.5rem' }}>
@@ -126,7 +126,7 @@ export default function MaltaGamingContent() {
                 What MGA-Licensed Operators Are Up Against
               </h2>
               <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', marginTop: '1rem', lineHeight: 1.7 }}>
-                The compliance challenge in Malta gaming is not a lack of tools. It is the inability to connect signals across tools — leaving the most important risks invisible until it is too late to act.
+                The compliance challenge in Malta gaming is not a lack of tools. It is the inability to connect signals across tools - leaving the most important risks invisible until it is too late to act.
               </p>
             </div>
 
@@ -139,7 +139,7 @@ export default function MaltaGamingContent() {
                     </svg>
                   ),
                   title: 'Siloed Fraud and AML Systems',
-                  body: 'Separate fraud detection, AML transaction monitoring, and payments risk tools generate uncoordinated alerts. A player flagged in one system remains invisible in another — exactly the gap coordinated financial crime exploits.',
+                  body: 'Separate fraud detection, AML transaction monitoring, and payments risk tools generate uncoordinated alerts. A player flagged in one system remains invisible in another - exactly the gap coordinated financial crime exploits.',
                 },
                 {
                   icon: (
@@ -197,7 +197,7 @@ export default function MaltaGamingContent() {
                 {
                   number: '01',
                   title: 'Rules Designed for Banking, Not Gaming',
-                  body: 'Standard AML rule sets are calibrated for banking transaction patterns. Gaming deposits, withdrawals, bonus cycles, and player lifecycle behaviour require different signal logic — and static banking rules generate disproportionate false positive rates in gaming environments.',
+                  body: 'Standard AML rule sets are calibrated for banking transaction patterns. Gaming deposits, withdrawals, bonus cycles, and player lifecycle behaviour require different signal logic - and static banking rules generate disproportionate false positive rates in gaming environments.',
                 },
                 {
                   number: '02',
@@ -207,7 +207,7 @@ export default function MaltaGamingContent() {
                 {
                   number: '03',
                   title: 'Alerts Without Investigation Context',
-                  body: 'A system that generates alerts without the evidence layer to support investigation creates operational paralysis. Analysts spend more time assembling context than they do making decisions — slowing STR filing, escalation, and regulatory response.',
+                  body: 'A system that generates alerts without the evidence layer to support investigation creates operational paralysis. Analysts spend more time assembling context than they do making decisions - slowing STR filing, escalation, and regulatory response.',
                 },
               ].map((item) => (
                 <div key={item.number} className="card" style={{ padding: '2rem', borderTop: '3px solid var(--primary)' }}>
@@ -228,10 +228,10 @@ export default function MaltaGamingContent() {
             <div style={{ maxWidth: '52rem', margin: '0 auto 3.5rem', textAlign: 'center' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>The Verafye Platform</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', lineHeight: 1.2 }}>
-                A Connected Intelligence Layer — Not Another Point Tool
+                A Connected Intelligence Layer - Not Another Point Tool
               </h2>
               <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', marginTop: '1rem', lineHeight: 1.7 }}>
-                Verafye sits across your existing fraud, AML, and payments infrastructure — unifying signals into a single intelligence layer that surfaces risk at the network level, not just the transaction level.
+                Verafye sits across your existing fraud, AML, and payments infrastructure - unifying signals into a single intelligence layer that surfaces risk at the network level, not just the transaction level.
               </p>
             </div>
 
@@ -241,25 +241,25 @@ export default function MaltaGamingContent() {
                   gradient: 'gradient-bg-1',
                   icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>,
                   title: 'Linked Account & Network Detection',
-                  body: 'Verafye maps relationships across accounts — shared devices, payment instruments, IP patterns, and behavioural fingerprints. Coordinated player networks, multi-account abuse, and mule clusters are surfaced as connected risk, not isolated alerts.',
+                  body: 'Verafye maps relationships across accounts - shared devices, payment instruments, IP patterns, and behavioural fingerprints. Coordinated player networks, multi-account abuse, and mule clusters are surfaced as connected risk, not isolated alerts.',
                 },
                 {
                   gradient: 'gradient-bg-2',
                   icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>,
                   title: 'Unified Fraud, AML & Payments Intelligence',
-                  body: 'Fraud signals, AML indicators, and payments risk operate within one platform — not three. A player flagged for transaction structuring surfaces in both fraud and AML workflows simultaneously, eliminating the cross-system blind spots that fragmented tools create.',
+                  body: 'Fraud signals, AML indicators, and payments risk operate within one platform - not three. A player flagged for transaction structuring surfaces in both fraud and AML workflows simultaneously, eliminating the cross-system blind spots that fragmented tools create.',
                 },
                 {
                   gradient: 'gradient-bg-3',
                   icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>,
                   title: 'Investigation-Ready Case Management',
-                  body: 'Every alert generates a structured case with pre-assembled evidence — transaction history, network context, signal timeline, and analyst actions. STR preparation, escalation, and MGA or FIAU documentation requests are answered from a single, complete case file.',
+                  body: 'Every alert generates a structured case with pre-assembled evidence - transaction history, network context, signal timeline, and analyst actions. STR preparation, escalation, and MGA or FIAU documentation requests are answered from a single, complete case file.',
                 },
                 {
                   gradient: 'gradient-bg-4',
                   icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>,
-                  title: 'Configurable Rules — No Vendor Dependency',
-                  body: 'Your MLRO and risk team configure, modify, and activate detection rules without a change request. Signal logic stays aligned with your player risk profile, evolving product features, and regulatory guidance — not a vendor release cycle.',
+                  title: 'Configurable Rules - No Vendor Dependency',
+                  body: 'Your MLRO and risk team configure, modify, and activate detection rules without a change request. Signal logic stays aligned with your player risk profile, evolving product features, and regulatory guidance - not a vendor release cycle.',
                 },
               ].map((item) => (
                 <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -270,7 +270,7 @@ export default function MaltaGamingContent() {
               ))}
             </div>
 
-            {/* Contrast panel — fragmented tools vs Verafye */}
+            {/* Contrast panel - fragmented tools vs Verafye */}
             <div style={{ background: 'var(--bg-light)', border: '1px solid var(--border)', borderRadius: '12px', padding: '2rem 2.5rem' }}>
               <p style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '1.5rem', textAlign: 'center' }}>
                 Fragmented tools vs. Verafye
@@ -301,7 +301,7 @@ export default function MaltaGamingContent() {
                     'Single intelligence layer across fraud, AML, and payments signals',
                     'Cross-system correlation happens automatically at the platform level',
                     'Structured case files with pre-assembled evidence generated per alert',
-                    'Your team updates rules directly — no vendor dependency',
+                    'Your team updates rules directly - no vendor dependency',
                     'Network-level risk detection across linked accounts and player clusters',
                   ].map((t) => (
                     <div key={t} style={{ display: 'flex', gap: '0.625rem', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
@@ -428,7 +428,7 @@ export default function MaltaGamingContent() {
                 },
                 {
                   from: 'Linked accounts detected only after fraud or AML loss has occurred',
-                  to: 'Account relationships mapped proactively — coordinated risk visible before escalation',
+                  to: 'Account relationships mapped proactively - coordinated risk visible before escalation',
                 },
                 {
                   from: 'STR preparation requiring manual evidence compilation across systems',
@@ -436,15 +436,15 @@ export default function MaltaGamingContent() {
                 },
                 {
                   from: 'Rule changes requiring vendor involvement and scheduled releases',
-                  to: 'Compliance team updates detection logic directly — no external dependency',
+                  to: 'Compliance team updates detection logic directly - no external dependency',
                 },
                 {
                   from: 'VIP risk reviews triggered reactively after threshold breaches',
-                  to: 'Behavioural drift detected across the full player lifecycle — earlier intervention',
+                  to: 'Behavioural drift detected across the full player lifecycle - earlier intervention',
                 },
                 {
                   from: 'MGA inspection documentation assembled under time pressure',
-                  to: 'Audit-ready records available on demand — no reactive scramble',
+                  to: 'Audit-ready records available on demand - no reactive scramble',
                 },
               ].map((item) => (
                 <div key={item.from} className="card" style={{ padding: '1.5rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', alignItems: 'start' }}>
@@ -471,7 +471,7 @@ export default function MaltaGamingContent() {
               See Verafye in an iGaming Context
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.0625rem)', color: 'var(--body)', marginBottom: '1.75rem', lineHeight: 1.7 }}>
-              Request a walkthrough tailored to Malta gaming — linked account detection, unified AML and fraud workflows, and investigation-ready case management.
+              Request a walkthrough tailored to Malta gaming - linked account detection, unified AML and fraud workflows, and investigation-ready case management.
             </p>
             <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href="/request-demo" className="btn-primary" onClick={() => trackDemoCta('mid_page')}>
@@ -500,23 +500,23 @@ export default function MaltaGamingContent() {
               {[
                 {
                   q: 'We already have an AML transaction monitoring system. Why would we need Verafye?',
-                  a: 'Most AML transaction monitoring systems operate at the individual account level and generate alerts without the investigation layer needed to act on them. Verafye sits across your existing systems — connecting fraud, AML, and payments signals, mapping account relationships, and generating structured case evidence. It adds the intelligence and investigation layer that point tools lack.',
+                  a: 'Most AML transaction monitoring systems operate at the individual account level and generate alerts without the investigation layer needed to act on them. Verafye sits across your existing systems - connecting fraud, AML, and payments signals, mapping account relationships, and generating structured case evidence. It adds the intelligence and investigation layer that point tools lack.',
                 },
                 {
                   q: 'Does Verafye replace our existing fraud or AML systems?',
-                  a: 'No. Verafye is designed as an intelligence layer that connects to and enriches your existing infrastructure — it does not require you to replace current systems. Integration is additive, not disruptive.',
+                  a: 'No. Verafye is designed as an intelligence layer that connects to and enriches your existing infrastructure - it does not require you to replace current systems. Integration is additive, not disruptive.',
                 },
                 {
                   q: 'How does Verafye support MGA and FIAU compliance requirements specifically?',
-                  a: 'Verafye generates structured, timestamped case files for every investigated account — including signal history, analyst decision logs, escalation records, and evidence packages. These are aligned with the documentation expectations of MGA inspections and FIAU reporting. Your compliance team can produce inspection-ready records on demand rather than assembling them under time pressure.',
+                  a: 'Verafye generates structured, timestamped case files for every investigated account - including signal history, analyst decision logs, escalation records, and evidence packages. These are aligned with the documentation expectations of MGA inspections and FIAU reporting. Your compliance team can produce inspection-ready records on demand rather than assembling them under time pressure.',
                 },
                 {
                   q: 'How long does implementation take for a Malta-licensed operator?',
-                  a: 'Implementation timelines depend on your existing infrastructure and integration scope. Verafye is designed to connect across existing systems rather than replace them, which reduces deployment complexity significantly. We scope deployment timelines as part of the initial engagement — the demo walkthrough includes an integration discussion.',
+                  a: 'Implementation timelines depend on your existing infrastructure and integration scope. Verafye is designed to connect across existing systems rather than replace them, which reduces deployment complexity significantly. We scope deployment timelines as part of the initial engagement - the demo walkthrough includes an integration discussion.',
                 },
                 {
                   q: 'Can our compliance team configure detection rules without involving your team?',
-                  a: 'Yes. Verafye includes a configurable rule engine that your MLRO and risk team operate directly. Detection logic can be created, modified, and activated without a vendor change request or release cycle. This is a deliberate design decision — your signal configuration should respond to your risk environment, not a vendor schedule.',
+                  a: 'Yes. Verafye includes a configurable rule engine that your MLRO and risk team operate directly. Detection logic can be created, modified, and activated without a vendor change request or release cycle. This is a deliberate design decision - your signal configuration should respond to your risk environment, not a vendor schedule.',
                 },
               ].map((item, idx) => (
                 <FAQItem key={idx} question={item.q} answer={item.a} />
@@ -537,7 +537,7 @@ export default function MaltaGamingContent() {
               Connected Intelligence for Your Compliance Team
             </h2>
             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'rgba(255,255,255,0.72)', marginBottom: '2.25rem', lineHeight: 1.7, maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              See how Verafye connects fraud, AML, and payments intelligence for MGA-licensed operators — linked account detection, unified investigation workflows, and audit-ready case management in a single walkthrough.
+              See how Verafye connects fraud, AML, and payments intelligence for MGA-licensed operators - linked account detection, unified investigation workflows, and audit-ready case management in a single walkthrough.
             </p>
             <div style={{ display: 'flex', gap: '0.875rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link

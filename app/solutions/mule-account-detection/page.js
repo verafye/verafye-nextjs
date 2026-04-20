@@ -20,7 +20,7 @@ export default function MuleAccountDetectionPage() {
 
       {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
       {/*
-        CHANGE: Secondary CTA was "Contact Sales → /request-demo" — duplicate destination.
+        CHANGE: Secondary CTA was "Contact Sales → /request-demo" - duplicate destination.
         Replaced with "See Mule Network Detection Use Case → /use-cases/mule-network-detection"
         which is the direct use-case page for this solution topic.
 
@@ -32,19 +32,19 @@ export default function MuleAccountDetectionPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '5rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Solutions — Mule Account Detection</p>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Solutions - Mule Account Detection</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Detect Coordinated Mule Networks Before Funds Are Layered
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Mule activity increasingly operates across coordinated networks — deliberately structured to appear low-risk in isolation. Detecting it requires connecting signals across accounts, devices, and transaction flows, not evaluating events one at a time.
+              Mule activity increasingly operates across coordinated networks - deliberately structured to appear low-risk in isolation. Detecting it requires connecting signals across accounts, devices, and transaction flows, not evaluating events one at a time.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye connects signals across accounts, devices, and transaction flows using{' '}
               <Link href="/solutions/graph-intelligence" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none' }}>graph intelligence</Link>
               {', '}cross-system signal correlation, and{' '}
               <Link href="/solutions/investigation-intelligence" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none' }}>investigation-centric workflows</Link>
-              {' '}— to identify mule behavior earlier and enable faster intervention.
+              {' '}- to identify mule behavior earlier and enable faster intervention.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -61,7 +61,7 @@ export default function MuleAccountDetectionPage() {
 
       {/* ── 2. PROBLEM STATEMENT ────────────────────────────────────────────── */}
       {/*
-        CHANGE: "Cross-Domain Risk Signals" bullet now links to /solutions/graph-intelligence —
+        CHANGE: "Cross-Domain Risk Signals" bullet now links to /solutions/graph-intelligence -
         the correct destination for a reader who wants to understand how Verafye
         connects fraud and AML signals that are currently in separate systems.
         "Coordinated Money Movement" links to /use-cases/transaction-monitoring.
@@ -75,14 +75,14 @@ export default function MuleAccountDetectionPage() {
                 Mule Networks Are Built to Evade Isolated Detection
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Individual mule accounts are often designed to appear low-risk. Transactions stay below reporting thresholds. Account behavior looks routine. The true risk only becomes visible when you connect the signals — linked accounts, shared devices, common identities, overlapping money movement patterns, and cross-account behavioral signatures that point to coordinated network activity. Leaving mule networks undetected creates direct AML exposure: missed SAR obligations, delayed account action, and documentation gaps that cannot support regulatory review.
+                Individual mule accounts are often designed to appear low-risk. Transactions stay below reporting thresholds. Account behavior looks routine. The true risk only becomes visible when you connect the signals - linked accounts, shared devices, common identities, overlapping money movement patterns, and cross-account behavioral signatures that point to coordinated network activity. Leaving mule networks undetected creates direct AML exposure: missed SAR obligations, delayed account action, and documentation gaps that cannot support regulatory review.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {[
                 {
                   label: 'Low-Risk Appearance in Isolation',
-                  desc: 'Individual mule accounts are structured to blend in — small transactions, normal-looking behaviour, and clean account histories that evade point-in-time detection',
+                  desc: 'Individual mule accounts are structured to blend in - small transactions, normal-looking behaviour, and clean account histories that evade point-in-time detection',
                   href: null,
                 },
                 {
@@ -92,7 +92,7 @@ export default function MuleAccountDetectionPage() {
                 },
                 {
                   label: 'Coordinated Money Movement',
-                  desc: 'Funds flow through layered account chains in structured patterns — visible only when transaction relationships are mapped across the network',
+                  desc: 'Funds flow through layered account chains in structured patterns - visible only when transaction relationships are mapped across the network',
                   href: '/use-cases/transaction-monitoring',
                 },
                 {
@@ -135,19 +135,19 @@ export default function MuleAccountDetectionPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>),
                 title: 'Transaction Monitoring Sees Events, Not Networks',
-                body: 'Rule-based transaction monitoring evaluates individual transactions against fixed thresholds. It cannot traverse relationships or identify coordinated movement patterns — exactly how mule networks are structured to evade it.',
+                body: 'Rule-based transaction monitoring evaluates individual transactions against fixed thresholds. It cannot traverse relationships or identify coordinated movement patterns - exactly how mule networks are structured to evade it.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" x2="12" y1="12" y2="16"/><line x1="10" x2="14" y1="14" y2="14"/></svg>),
                 title: 'Shared Devices, Identities, and Behaviours Remain Disconnected',
-                body: 'The shared attributes that link mule accounts — devices, phone numbers, IP addresses, behavioural fingerprints — sit across separate systems and are never connected into a unified relationship view.',
+                body: 'The shared attributes that link mule accounts - devices, phone numbers, IP addresses, behavioural fingerprints - sit across separate systems and are never connected into a unified relationship view.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>),
                 title: 'Fraud and AML Signals Reviewed in Separate Workflows',
-                body: 'Mule activity generates signals across both fraud and AML systems. When teams operate in isolation with no shared intelligence layer, network-level risk remains invisible to both — and neither has the complete picture.',
+                body: 'Mule activity generates signals across both fraud and AML systems. When teams operate in isolation with no shared intelligence layer, network-level risk remains invisible to both - and neither has the complete picture.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -176,17 +176,17 @@ export default function MuleAccountDetectionPage() {
                 Graph-Native Detection for Connected Mule Networks
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects the signals that mule networks leave across accounts, devices, identities, and transactions — building a real-time graph that exposes network structure and enables earlier detection. Investigation context is assembled automatically, giving fraud and AML teams the network evidence they need to act faster and document cases in a way that supports SAR filing and regulatory review.
+                Verafye connects the signals that mule networks leave across accounts, devices, identities, and transactions - building a real-time graph that exposes network structure and enables earlier detection. Investigation context is assembled automatically, giving fraud and AML teams the network evidence they need to act faster and document cases in a way that supports SAR filing and regulatory review.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
-                { step: '01', title: 'Entity Resolution', body: 'Resolve identities across accounts, devices, phone numbers, addresses, and behavioural signals — building unified entity profiles that persist across the mule network graph.' },
-                { step: '02', title: 'Relationship Mapping', body: 'Map the connections between resolved entities — account-to-account relationships, shared device links, common identity attributes — into a living graph updated in real time.' },
-                { step: '03', title: 'Network Clustering', body: 'Group connected entities into mule network clusters — surfacing the full structure of coordinated account relationships that transaction monitoring cannot see.' },
-                { step: '04', title: 'Connected Transaction Analysis', body: 'Trace money movement across linked accounts within the graph — identifying layering patterns, structured flows, and cross-account coordination invisible to event-level monitoring.' },
-                { step: '05', title: 'Cross-System Investigation Context', body: 'Aggregate fraud and AML signals from across systems into a unified investigation view — giving analysts the complete network picture without manual platform-switching.' },
-                { step: '06', title: 'Continuous Network Monitoring', body: 'The graph is continuously updated as new signals arrive — enabling ongoing monitoring of known mule clusters and early detection of emerging network structures.' },
+                { step: '01', title: 'Entity Resolution', body: 'Resolve identities across accounts, devices, phone numbers, addresses, and behavioural signals - building unified entity profiles that persist across the mule network graph.' },
+                { step: '02', title: 'Relationship Mapping', body: 'Map the connections between resolved entities - account-to-account relationships, shared device links, common identity attributes - into a living graph updated in real time.' },
+                { step: '03', title: 'Network Clustering', body: 'Group connected entities into mule network clusters - surfacing the full structure of coordinated account relationships that transaction monitoring cannot see.' },
+                { step: '04', title: 'Connected Transaction Analysis', body: 'Trace money movement across linked accounts within the graph - identifying layering patterns, structured flows, and cross-account coordination invisible to event-level monitoring.' },
+                { step: '05', title: 'Cross-System Investigation Context', body: 'Aggregate fraud and AML signals from across systems into a unified investigation view - giving analysts the complete network picture without manual platform-switching.' },
+                { step: '06', title: 'Continuous Network Monitoring', body: 'The graph is continuously updated as new signals arrive - enabling ongoing monitoring of known mule clusters and early detection of emerging network structures.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
                   <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
@@ -213,32 +213,32 @@ export default function MuleAccountDetectionPage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
                 title: 'Linked Account Discovery',
-                body: 'Identify hidden account-to-account relationships across shared attributes, transaction patterns, and behavioural signals — surfacing mule network structures before they escalate.',
+                body: 'Identify hidden account-to-account relationships across shared attributes, transaction patterns, and behavioural signals - surfacing mule network structures before they escalate.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>),
                 title: 'Shared Device and Identity Analysis',
-                body: 'Connect accounts through shared devices, phone numbers, IP addresses, and identity attributes — revealing the linkages that define coordinated mule account structures.',
+                body: 'Connect accounts through shared devices, phone numbers, IP addresses, and identity attributes - revealing the linkages that define coordinated mule account structures.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>),
                 title: 'Network Clustering',
-                body: 'Group connected accounts and entities into mule network clusters — exposing the full coordinated structure and enabling network-level risk assessment across your portfolio.',
+                body: 'Group connected accounts and entities into mule network clusters - exposing the full coordinated structure and enabling network-level risk assessment across your portfolio.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>),
                 title: 'Connected Transaction Analysis',
-                body: 'Trace money movement across linked accounts within the graph — identifying layered flows, structured patterns, and cross-account coordination that event-level monitoring misses.',
+                body: 'Trace money movement across linked accounts within the graph - identifying layered flows, structured patterns, and cross-account coordination that event-level monitoring misses.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Cross-System Signal Correlation',
-                body: 'Correlate fraud and AML signals from across monitoring systems into a unified intelligence layer — ensuring mule activity detected in one domain informs investigation across both, and that the evidence base is aligned with AML reporting workflows.',
+                body: 'Correlate fraud and AML signals from across monitoring systems into a unified intelligence layer - ensuring mule activity detected in one domain informs investigation across both, and that the evidence base is aligned with AML reporting workflows.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>),
                 title: 'Investigation Context for Analysts',
-                body: 'Deliver graph-enriched investigation context alongside every mule-related alert — so analysts see the network structure, related accounts, and money movement patterns from the start.',
+                body: 'Deliver graph-enriched investigation context alongside every mule-related alert - so analysts see the network structure, related accounts, and money movement patterns from the start.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -273,37 +273,37 @@ export default function MuleAccountDetectionPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
                 title: 'Earlier Identification of Mule Networks',
-                body: 'Graph-native detection surfaces coordinated mule account structures earlier in the money movement lifecycle — enabling intervention before funds are layered and losses escalate.',
+                body: 'Graph-native detection surfaces coordinated mule account structures earlier in the money movement lifecycle - enabling intervention before funds are layered and losses escalate.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Better Visibility Into Connected Suspicious Activity',
-                body: 'Relationship mapping and network clustering give fraud and AML teams a complete view of connected suspicious activity — across accounts, devices, and payment channels — in a single investigation view.',
+                body: 'Relationship mapping and network clustering give fraud and AML teams a complete view of connected suspicious activity - across accounts, devices, and payment channels - in a single investigation view.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'Reduced Manual Investigation Effort',
-                body: 'Pre-assembled network context and alert clustering reduce the time analysts spend manually reconstructing mule network structures — compressing investigation cycles across fraud and AML teams.',
+                body: 'Pre-assembled network context and alert clustering reduce the time analysts spend manually reconstructing mule network structures - compressing investigation cycles across fraud and AML teams.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01M7 20v-4M12 20v-8M17 20V8M22 4v16"/></svg>),
                 title: 'Improved Prioritisation of Network-Based Risk',
-                body: 'Network-level risk scoring ensures investigation queues are prioritised by the size, connectivity, and behavioural risk of the mule cluster — not just the score of an individual transaction.',
+                body: 'Network-level risk scoring ensures investigation queues are prioritised by the size, connectivity, and behavioural risk of the mule cluster - not just the score of an individual transaction.',
               },
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Stronger Coordination Between Fraud and AML Teams',
-                body: 'A unified intelligence layer connecting fraud and AML signals enables both teams to act on the same network-level view — improving coordination, reducing duplication, and strengthening SAR quality.',
+                body: 'A unified intelligence layer connecting fraud and AML signals enables both teams to act on the same network-level view - improving coordination, reducing duplication, and strengthening SAR quality.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'Faster SAR Filing and Regulatory Response',
-                body: 'Graph-enriched investigation context accelerates the SAR filing process — giving compliance teams the network evidence and documentation they need to file confidently and on time.',
+                body: 'Graph-enriched investigation context accelerates the SAR filing process - giving compliance teams the network evidence and documentation they need to file confidently and on time.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -318,7 +318,7 @@ export default function MuleAccountDetectionPage() {
 
       {/* ── 7. INDUSTRY RELEVANCE ───────────────────────────────────────────── */}
       {/*
-        CHANGE: New section — industry links were completely absent from this page.
+        CHANGE: New section - industry links were completely absent from this page.
         Mule account detection is a primary concern for banks and payment processors
         specifically; these are the two highest-intent segments for this solution.
         Fintech platforms are included as a third segment given their exposure to
@@ -348,7 +348,7 @@ export default function MuleAccountDetectionPage() {
       </section>
 
       {/* ── 8. RELATED SOLUTIONS ────────────────────────────────────────────── */}
-      {/* CHANGE: New section — no cross-links between solution pages existed. */}
+      {/* CHANGE: New section - no cross-links between solution pages existed. */}
       <section style={{ padding: '4rem 0', background: '#fff', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ maxWidth: '72rem' }}>
           <p className="eyebrow" style={{ textAlign: 'center', marginBottom: '2rem' }}>Related Solutions</p>
@@ -376,7 +376,7 @@ export default function MuleAccountDetectionPage() {
       {/* ── 9. FINAL CTA ────────────────────────────────────────────────────── */}
       {/*
         CHANGE: Replaced <CTA /> component with controlled inline band.
-        Secondary button links to /use-cases/mule-network-detection — the use case
+        Secondary button links to /use-cases/mule-network-detection - the use case
         page that is the direct companion to this solution page.
       */}
       <section style={{ padding: '5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
@@ -385,7 +385,7 @@ export default function MuleAccountDetectionPage() {
             See Mule Account Detection in Action
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            Mule networks generate direct AML exposure — missed SAR obligations, delayed account action, and documentation gaps that cannot support regulatory review. See how Verafye connects the signals to surface them earlier.
+            Mule networks generate direct AML exposure - missed SAR obligations, delayed account action, and documentation gaps that cannot support regulatory review. See how Verafye connects the signals to surface them earlier.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

@@ -19,7 +19,7 @@ const QUESTIONS = [
     id: 'q2',
     text: 'How are your Early Warning Signal (EWS) rules configured?',
     options: [
-      { label: 'Static rules set at system implementation — rarely updated', score: 1 },
+      { label: 'Static rules set at system implementation - rarely updated', score: 1 },
       { label: 'Periodically reviewed and updated by the risk team', score: 2 },
       { label: 'Dynamic, configurable rules updated without vendor dependency', score: 3 },
     ],
@@ -28,9 +28,9 @@ const QUESTIONS = [
     id: 'q3',
     text: 'Are your lending systems (LOS, LMS, payments, bureau) connected for EWS purposes?',
     options: [
-      { label: 'Largely siloed — signals extracted via manual data pulls', score: 1 },
-      { label: 'Partially integrated — some cross-system visibility', score: 2 },
-      { label: 'Fully unified — all sources feed a single intelligence layer', score: 3 },
+      { label: 'Largely siloed - signals extracted via manual data pulls', score: 1 },
+      { label: 'Partially integrated - some cross-system visibility', score: 2 },
+      { label: 'Fully unified - all sources feed a single intelligence layer', score: 3 },
     ],
   },
   {
@@ -47,26 +47,26 @@ const QUESTIONS = [
     text: 'Can your risk team produce audit-ready EWS documentation for RBI inspection?',
     options: [
       { label: 'Documentation is largely manual and time-consuming', score: 1 },
-      { label: 'Partially automated — some logs exist, some compiled manually', score: 2 },
-      { label: 'Fully audit-ready — timestamped, structured, and exportable on demand', score: 3 },
+      { label: 'Partially automated - some logs exist, some compiled manually', score: 2 },
+      { label: 'Fully audit-ready - timestamped, structured, and exportable on demand', score: 3 },
     ],
   },
   {
     id: 'q6',
     text: 'How quickly can your team detect early stress signals in a borrower account?',
     options: [
-      { label: 'Days to weeks — dependent on periodic batch reports', score: 1 },
-      { label: 'Hours — system flags reviewed on a scheduled basis', score: 2 },
-      { label: 'Minutes — real-time alerts with automated escalation workflows', score: 3 },
+      { label: 'Days to weeks - dependent on periodic batch reports', score: 1 },
+      { label: 'Hours - system flags reviewed on a scheduled basis', score: 2 },
+      { label: 'Minutes - real-time alerts with automated escalation workflows', score: 3 },
     ],
   },
   {
     id: 'q7',
     text: 'Does your EWS framework incorporate multi-lender exposure and bureau-level signals?',
     options: [
-      { label: 'No — limited to internal transaction and repayment data only', score: 1 },
-      { label: 'Partial — some bureau data integrated manually or periodically', score: 2 },
-      { label: 'Yes — multi-source signals including bureau, payments, and external data', score: 3 },
+      { label: 'No - limited to internal transaction and repayment data only', score: 1 },
+      { label: 'Partial - some bureau data integrated manually or periodically', score: 2 },
+      { label: 'Yes - multi-source signals including bureau, payments, and external data', score: 3 },
     ],
   },
 ];
@@ -92,9 +92,9 @@ const SCORE_BANDS = [
     color: '#d97706',
     bgColor: '#fffbeb',
     borderColor: '#fde68a',
-    headline: 'Partial EWS Capability — Key Gaps Remain',
+    headline: 'Partial EWS Capability - Key Gaps Remain',
     summary:
-      'You have foundational EWS processes in place, but gaps in real-time monitoring, system integration, and audit readiness leave you exposed. RBI expectations are evolving — partial compliance is increasingly insufficient.',
+      'You have foundational EWS processes in place, but gaps in real-time monitoring, system integration, and audit readiness leave you exposed. RBI expectations are evolving - partial compliance is increasingly insufficient.',
     action:
       'A targeted EWS enhancement programme can close these gaps quickly. Our team can identify the highest-priority areas for your portfolio.',
   },
@@ -190,7 +190,7 @@ export default function RBIEWSContent() {
         clientName: lead.company.trim(),
         emailAddress: lead.email.trim(),
         phoneNumber: '',
-        subject: `EWS Readiness Assessment — ${lead.company.trim()} — ${band.label} (${score}/21)`,
+        subject: `EWS Readiness Assessment - ${lead.company.trim()} - ${band.label} (${score}/21)`,
         message: [
           `Name: ${lead.name.trim()}`,
           `Work Email: ${lead.email.trim()}`,
@@ -267,7 +267,7 @@ export default function RBIEWSContent() {
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'rgba(30,111,183,0.08)', border: '1px solid rgba(30,111,183,0.2)', borderRadius: '100px', padding: '0.35rem 0.875rem', marginBottom: '1.5rem' }}>
                 <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#1e6fb7', flexShrink: 0 }} />
                 <span style={{ fontSize: '0.75rem', fontWeight: 600, color: '#1e6fb7', letterSpacing: '0.04em', textTransform: 'uppercase' }}>
-                  RBI EWS Mandate — NBFCs &amp; Digital Lenders
+                  RBI EWS Mandate - NBFCs &amp; Digital Lenders
                 </span>
               </div>
 
@@ -278,14 +278,14 @@ export default function RBIEWSContent() {
               </h1>
 
               <p className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', marginBottom: '2rem', lineHeight: 1.7, maxWidth: '38rem' }}>
-                Real-time borrower monitoring, configurable EWS signals, and audit-ready workflows — purpose-built to meet RBI's Early Warning System expectations for NBFCs and digital lenders in India.
+                Real-time borrower monitoring, configurable EWS signals, and audit-ready workflows - purpose-built to meet RBI's Early Warning System expectations for NBFCs and digital lenders in India.
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.625rem', marginBottom: '2.25rem' }}>
                 {[
                   'Aligned with RBI\'s EWS and Red Flagged Account (RFA) framework',
                   'Real-time signals across LOS, LMS, payments, and bureau data',
-                  'Configurable rules — your team updates signals without vendor dependency',
+                  'Configurable rules - your team updates signals without vendor dependency',
                   'Audit-ready case management with timestamped documentation',
                 ].map((t) => (
                   <div key={t} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.625rem' }}>
@@ -307,9 +307,9 @@ export default function RBIEWSContent() {
             {/* Right: stat cards */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {[
-                { stat: 'SMA-0', label: 'RBI requires EWS triggers to activate at SMA-0 — before any overdue occurs. Most NBFCs flag risk far too late.' },
+                { stat: 'SMA-0', label: 'RBI requires EWS triggers to activate at SMA-0 - before any overdue occurs. Most NBFCs flag risk far too late.' },
                 { stat: '₹2L Cr+', label: 'Estimated NPA exposure across the NBFC sector attributable to late or absent early warning detection.' },
-                { stat: '43%', label: 'Of NBFCs still rely on manual or semi-automated EWS processes — creating material audit and compliance risk.' },
+                { stat: '43%', label: 'Of NBFCs still rely on manual or semi-automated EWS processes - creating material audit and compliance risk.' },
               ].map((item) => (
                 <div key={item.stat} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', gap: '1.25rem', alignItems: 'center' }}>
                   <div style={{ fontSize: '1.625rem', fontWeight: 700, color: 'var(--primary)', flexShrink: 0, letterSpacing: '-0.03em', minWidth: '4rem' }}>{item.stat}</div>
@@ -334,7 +334,7 @@ export default function RBIEWSContent() {
                 Most NBFCs Are Not Truly EWS-Ready
               </h2>
               <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', marginTop: '1rem', lineHeight: 1.7 }}>
-                Legacy systems, manual workflows, and disconnected data leave institutions exposed — exactly when RBI scrutiny is at its highest.
+                Legacy systems, manual workflows, and disconnected data leave institutions exposed - exactly when RBI scrutiny is at its highest.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '1.5rem' }}>
@@ -346,7 +346,7 @@ export default function RBIEWSContent() {
                     </svg>
                   ),
                   title: 'Static EWS Rules That Don\'t Adapt',
-                  body: 'Rules configured at implementation become stale within months. When borrower behaviour evolves — as it does during economic stress cycles — static systems miss new patterns, creating a false sense of compliance while risk accumulates silently.',
+                  body: 'Rules configured at implementation become stale within months. When borrower behaviour evolves - as it does during economic stress cycles - static systems miss new patterns, creating a false sense of compliance while risk accumulates silently.',
                 },
                 {
                   icon: (
@@ -355,7 +355,7 @@ export default function RBIEWSContent() {
                     </svg>
                   ),
                   title: 'No Real-Time Monitoring',
-                  body: 'Batch-based or periodic reporting means stress signals are detected days or weeks after they first appear. By the time an account is flagged, the early intervention window has already closed — and SMA classification has escalated.',
+                  body: 'Batch-based or periodic reporting means stress signals are detected days or weeks after they first appear. By the time an account is flagged, the early intervention window has already closed - and SMA classification has escalated.',
                 },
                 {
                   icon: (
@@ -364,7 +364,7 @@ export default function RBIEWSContent() {
                     </svg>
                   ),
                   title: 'Data Silos Across LOS, LMS &amp; Payments',
-                  body: 'LOS, LMS, collections, payments, and bureau data sit in separate systems with no unified view. Risk teams can\'t correlate signals across sources — missing the multi-dimensional stress patterns that precede NPA escalation.',
+                  body: 'LOS, LMS, collections, payments, and bureau data sit in separate systems with no unified view. Risk teams can\'t correlate signals across sources - missing the multi-dimensional stress patterns that precede NPA escalation.',
                 },
                 {
                   icon: (
@@ -401,7 +401,7 @@ export default function RBIEWSContent() {
                 What RBI Expects from Your EWS Framework
               </h2>
               <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', marginTop: '1rem', lineHeight: 1.7 }}>
-                RBI's EWS guidelines go beyond periodic reporting. They mandate a proactive, structured intelligence framework — continuously active across your entire loan book.
+                RBI's EWS guidelines go beyond periodic reporting. They mandate a proactive, structured intelligence framework - continuously active across your entire loan book.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '1.5rem' }}>
@@ -411,7 +411,7 @@ export default function RBIEWSContent() {
                   title: 'Continuous Monitoring',
                   points: [
                     'SMA-0, SMA-1, SMA-2 classification must be tracked and updated in real time',
-                    'Monitoring cannot be limited to repayment dates — all account activity counts',
+                    'Monitoring cannot be limited to repayment dates - all account activity counts',
                     'Timely escalation to supervisory boards is mandatory for SMA accounts',
                   ],
                 },
@@ -489,16 +489,16 @@ export default function RBIEWSContent() {
                 {
                   icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>,
                   title: 'Real-Time Signal Detection',
-                  body: 'Event-driven architecture monitors every borrower touchpoint — EMI payments, cash flows, bureau updates, transaction patterns — the moment they occur, not at the next batch run.',
+                  body: 'Event-driven architecture monitors every borrower touchpoint - EMI payments, cash flows, bureau updates, transaction patterns - the moment they occur, not at the next batch run.',
                 },
                 {
                   icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2" /><circle cx="18" cy="6" r="2" /><circle cx="18" cy="18" r="2" /><path d="M8 12h8M16 7l-6 4M16 17l-6-4" /></svg>,
                   title: 'Unified Intelligence Layer',
-                  body: 'Connects LOS, LMS, collections, payments, and bureau data into a single view — eliminating the signal gaps that siloed systems create.',
+                  body: 'Connects LOS, LMS, collections, payments, and bureau data into a single view - eliminating the signal gaps that siloed systems create.',
                 },
                 {
                   icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" /></svg>,
-                  title: 'Configurable EWS Rules — No Vendor Dependency',
+                  title: 'Configurable EWS Rules - No Vendor Dependency',
                   body: 'Risk teams create, modify, and activate EWS rules without a vendor change request. Signal logic stays aligned with your evolving portfolio and RBI guidance.',
                 },
                 {
@@ -509,7 +509,7 @@ export default function RBIEWSContent() {
                 {
                   icon: <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /></svg>,
                   title: 'Audit-Ready Case Management',
-                  body: 'Every signal, alert, review, and decision is logged with timestamps and structured documentation — enabling RBI inspection readiness without manual compilation.',
+                  body: 'Every signal, alert, review, and decision is logged with timestamps and structured documentation - enabling RBI inspection readiness without manual compilation.',
                 },
               ].map((item) => (
                 <div key={item.title} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
@@ -540,7 +540,7 @@ export default function RBIEWSContent() {
                 Early Warning Signals Verafye Monitors
               </h2>
               <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', marginTop: '1rem', lineHeight: 1.7 }}>
-                Real-time detection across repayment behaviour, account activity, and external data — the full signal spectrum RBI expects.
+                Real-time detection across repayment behaviour, account activity, and external data - the full signal spectrum RBI expects.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1.25rem' }}>
@@ -637,25 +637,25 @@ export default function RBIEWSContent() {
                   gradient: 'gradient-bg-1',
                   icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" /><polyline points="17 6 23 6 23 12" /></svg>,
                   title: 'Earlier NPA Prevention',
-                  body: 'Real-time stress signals mean your risk team intervenes at SMA-0 — before accounts escalate to NPA. Proactive engagement, restructuring options, and recovery actions are triggered at the right moment, not weeks after the window closes.',
+                  body: 'Real-time stress signals mean your risk team intervenes at SMA-0 - before accounts escalate to NPA. Proactive engagement, restructuring options, and recovery actions are triggered at the right moment, not weeks after the window closes.',
                 },
                 {
                   gradient: 'gradient-bg-2',
                   icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /></svg>,
                   title: 'Earlier Fraud Detection',
-                  body: 'Behavioural and transactional anomalies surface during the repayment lifecycle — not after loss crystallisation. Coordinated fraud patterns, straw borrowers, and misrepresentation are identified before they scale across your portfolio.',
+                  body: 'Behavioural and transactional anomalies surface during the repayment lifecycle - not after loss crystallisation. Coordinated fraud patterns, straw borrowers, and misrepresentation are identified before they scale across your portfolio.',
                 },
                 {
                   gradient: 'gradient-bg-3',
                   icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>,
                   title: 'Portfolio-Wide Risk Visibility',
-                  body: 'A unified view across your entire lending book — segmented by risk tier, product, geography, and cohort. Your CRO and risk leadership have the portfolio intelligence needed for proactive board-level decision-making.',
+                  body: 'A unified view across your entire lending book - segmented by risk tier, product, geography, and cohort. Your CRO and risk leadership have the portfolio intelligence needed for proactive board-level decision-making.',
                 },
                 {
                   gradient: 'gradient-bg-4',
                   icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /></svg>,
                   title: 'RBI Compliance Readiness',
-                  body: 'Structured audit trails, automated RFA classification, and documented escalation workflows mean your compliance team is always ready for inspection — not scrambling to compile records when notice arrives.',
+                  body: 'Structured audit trails, automated RFA classification, and documented escalation workflows mean your compliance team is always ready for inspection - not scrambling to compile records when notice arrives.',
                 },
               ].map((item) => (
                 <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -689,25 +689,25 @@ export default function RBIEWSContent() {
                 {
                   title: 'Event-Driven Architecture',
                   vs: 'vs. batch processing',
-                  body: 'Verafye processes every borrower event as it occurs — not in overnight batches. Your risk team sees stress signals in minutes, not days, enabling the early intervention RBI expects at SMA-0.',
+                  body: 'Verafye processes every borrower event as it occurs - not in overnight batches. Your risk team sees stress signals in minutes, not days, enabling the early intervention RBI expects at SMA-0.',
                   tags: ['Real-time processing', 'Zero latency signals'],
                 },
                 {
                   title: 'Cross-System Intelligence',
                   vs: 'vs. siloed point solutions',
-                  body: 'A unified intelligence layer connects signals from LOS, LMS, payments, collections, and bureau. Cross-system patterns — invisible in siloed systems — become visible and actionable.',
+                  body: 'A unified intelligence layer connects signals from LOS, LMS, payments, collections, and bureau. Cross-system patterns - invisible in siloed systems - become visible and actionable.',
                   tags: ['Unified data layer', 'Cross-source correlation'],
                 },
                 {
                   title: 'Configurable Rule Engine',
                   vs: 'vs. vendor-locked static rules',
-                  body: 'Your risk team owns the signal logic. Rules are created, modified, and activated without a vendor change request — keeping your EWS framework aligned with evolving portfolio behaviour and RBI guidance.',
+                  body: 'Your risk team owns the signal logic. Rules are created, modified, and activated without a vendor change request - keeping your EWS framework aligned with evolving portfolio behaviour and RBI guidance.',
                   tags: ['No-code rule configuration', 'Version-controlled'],
                 },
                 {
                   title: 'Unified Fraud + Risk + Compliance',
                   vs: 'vs. fragmented specialist tools',
-                  body: 'Fraud signals, credit stress indicators, and compliance workflows operate within a single platform. Investigations, escalations, and audit documentation are unified — eliminating gaps between risk functions.',
+                  body: 'Fraud signals, credit stress indicators, and compliance workflows operate within a single platform. Investigations, escalations, and audit documentation are unified - eliminating gaps between risk functions.',
                   tags: ['Single platform', 'Shared intelligence layer'],
                 },
               ].map((item) => (
@@ -742,7 +742,7 @@ export default function RBIEWSContent() {
                 How EWS-Ready Are You, Really?
               </h2>
               <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', marginTop: '1rem', lineHeight: 1.7, maxWidth: '42rem', marginLeft: 'auto', marginRight: 'auto' }}>
-                Answer 7 questions about your current EWS framework. Get an instant readiness score — then receive a personalised gap analysis from our team.
+                Answer 7 questions about your current EWS framework. Get an instant readiness score - then receive a personalised gap analysis from our team.
               </p>
             </div>
 
@@ -927,7 +927,7 @@ export default function RBIEWSContent() {
               Are You Truly EWS-Ready?
             </h2>
             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'rgba(255,255,255,0.72)', marginBottom: '2.25rem', lineHeight: 1.7, maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              RBI's expectations are clear — and the gap between current NBFC capabilities and those expectations is material. Verafye can close that gap. Start with a 7-question assessment or book a direct product walkthrough.
+              RBI's expectations are clear - and the gap between current NBFC capabilities and those expectations is material. Verafye can close that gap. Start with a 7-question assessment or book a direct product walkthrough.
             </p>
             <div style={{ display: 'flex', gap: '0.875rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <a

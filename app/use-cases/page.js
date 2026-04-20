@@ -33,7 +33,7 @@ const useCases = [
   {
     eyebrow: 'Monitoring',
     title: 'Transaction Monitoring',
-    description: 'Enhance transaction monitoring with context-aware intelligence across systems and behaviors — improving signal quality and reducing false positives.',
+    description: 'Enhance transaction monitoring with context-aware intelligence across systems and behaviors - improving signal quality and reducing false positives.',
     href: '/use-cases/transaction-monitoring',
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

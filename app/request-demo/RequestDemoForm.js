@@ -142,7 +142,7 @@ export default function RequestDemoPage() {
 
   return (
     <>
-      {/* Toast notification — unchanged */}
+      {/* Toast notification - unchanged */}
       <div
         className={[
           'request-demo-toast',
@@ -173,7 +173,7 @@ export default function RequestDemoPage() {
         )}
       </div>
 
-      {/* ── OPTION C: hero text LEFT + form RIGHT — both above the fold ───────── */}
+      {/* ── OPTION C: hero text LEFT + form RIGHT - both above the fold ───────── */}
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)', padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '3.5rem', alignItems: 'start' }}>
@@ -243,7 +243,7 @@ export default function RequestDemoPage() {
               </div>
             </div>
 
-            {/* ── RIGHT: form — immediately visible on landing ── */}
+            {/* ── RIGHT: form - immediately visible on landing ── */}
             <div>
               <div className="card" style={{ padding: '2.5rem', borderRadius: '16px' }}>
                 {submitted ? (
@@ -355,7 +355,7 @@ export default function RequestDemoPage() {
         </div>
       </section>
 
-      {/* ── WHAT TO EXPECT — shown below the fold as secondary content ─────────── */}
+      {/* ── WHAT TO EXPECT - shown below the fold as secondary content ─────────── */}
       <section style={{ padding: '3rem 0 4rem', background: '#fff' }}>
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -391,7 +391,7 @@ export default function RequestDemoPage() {
         </div>
       </section>
 
-      {/* ── TRUST SIGNALS — unchanged ────────────────────────────────────────── */}
+      {/* ── TRUST SIGNALS - unchanged ────────────────────────────────────────── */}
       <section className="section-light" style={{ padding: '3rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '56rem', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem' }}>
@@ -409,7 +409,7 @@ export default function RequestDemoPage() {
         </div>
       </section>
 
-      {/* ── CTA REINFORCEMENT — unchanged ────────────────────────────────────── */}
+      {/* ── CTA REINFORCEMENT - unchanged ────────────────────────────────────── */}
       <section style={{ padding: '4rem 0 5rem', background: '#fff' }}>
         <div className="container">
           <div style={{ maxWidth: '40rem', margin: '0 auto', textAlign: 'center' }}>

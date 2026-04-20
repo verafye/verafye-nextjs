@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Google Tag Manager — as high in <head> as possible */}
+        {/* Google Tag Manager - as high in <head> as possible */}
         <Script id="gtm-head" strategy="beforeInteractive">{`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className="font-sans overflow-x-hidden" suppressHydrationWarning>
-        {/* Google Tag Manager (noscript) — immediately after opening <body> tag */}
+        {/* Google Tag Manager (noscript) - immediately after opening <body> tag */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-T2N2Z2S2"
