@@ -30,14 +30,14 @@ const navItems = [
   },
   {
     label: 'Industries',
-    href: '/industries/banks',
+    href: '/industries/payment-processors-psps-payfacs',
     children: [
-      { href: '/industries/banks',                            label: 'Banks' },
       { href: '/industries/payment-processors-psps-payfacs',  label: 'Payment Processors / PSPs / PayFacs' },
       { href: '/industries/fintech-platforms',                label: 'Fintech Platforms' },
-      { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks' },
+      { href: '/industries/banks',                            label: 'Traditional Banks / Financial Institutes' },
       { href: '/industries/lenders-consumer-finance',         label: 'Lenders / Consumer Finance' },
+      { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
     ],
   },
   {
@@ -89,14 +89,14 @@ const mobileNavGroups = [
   },
   {
     heading: 'Industries',
-    headingHref: '/industries/banks',
+    headingHref: '/industries/payment-processors-psps-payfacs',
     items: [
-      { href: '/industries/banks',                            label: 'Banks' },
       { href: '/industries/payment-processors-psps-payfacs',  label: 'Payment Processors / PSPs / PayFacs' },
       { href: '/industries/fintech-platforms',                label: 'Fintech Platforms' },
-      { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks' },
+      { href: '/industries/banks',                            label: 'Traditional Banks / Financial Institutes' },
       { href: '/industries/lenders-consumer-finance',         label: 'Lenders / Consumer Finance' },
+      { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
     ],
   },
   {
