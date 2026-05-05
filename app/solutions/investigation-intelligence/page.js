@@ -439,4 +439,11 @@ export default function InvestigationIntelligencePage() {
             <Link href="/use-cases/investigation-workflow-modernization" className="btn-secondary">See the Use Case</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
-            No commitment required. Speak directl
+            No commitment required. Speak directly with our solutions team.
+          </p>
+        </div>
+      </section>
+
+    </>
+  );
+}

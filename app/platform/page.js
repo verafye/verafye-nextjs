@@ -353,5 +353,18 @@ export default function Page() {
     </p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/request-demo" className="btn-primary">
-        Request Demo
-        <span c
+        <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </span>
+      </Link>
+      <Link href="/solutions/graph-intelligence" className="btn-secondary">Explore Graph Intelligence</Link>
+    </div>
+    <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>
+      No commitment required. Speak directly with our solutions team.
+    </p>
+  </div>
+</section>
+
+    </>
+  );
+}

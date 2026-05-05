@@ -746,4 +746,49 @@ export default function Page() {
     </div>
 
     {/* Task 5: Replaced "Learn More About Our Customers" with specific destination label */}
-    <div style={{'textAlign':'c
+    <div style={{'textAlign':'center','marginTop':'3rem'}}>
+      <Link href="/customers" className="btn-secondary">
+        View Customer Stories
+        <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </span>
+      </Link>
+    </div>
+  </div>
+</section>
+
+{/* ─── REGULATORY URGENCY LINE ───────────────────────────────────────────── */}
+<div style={{'textAlign':'center','padding':'2rem 1.5rem 0','background':'#fff'}}>
+  <p style={{'fontSize':'0.9375rem','color':'var(--muted-dark)','fontWeight':500,'maxWidth':'52rem','margin':'0 auto','lineHeight':1.65}}>
+    Payment platforms running fraud and AML across disconnected systems are not just accepting operational inefficiency - they are accepting regulatory exposure. The investigation gap is where compliance risk compounds.
+  </p>
+</div>
+
+{/* ─── FINAL CTA BAND ────────────────────────────────────────────────────── */}
+{/* Task 4: Replaces <CTA /> component with fully controlled band */}
+<section style={{'padding':'5rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
+  <div className="container" style={{'textAlign':'center','maxWidth':'48rem'}}>
+    <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>
+      See Verafye in Action
+    </h2>
+    <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>
+      See how Verafye connects fraud, AML, and payments signals into a single investigation layer - built for payment platforms operating under real regulatory and operational pressure.
+    </p>
+    <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
+      <Link href="/request-demo" className="btn-primary">
+        Request Demo
+        <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </span>
+      </Link>
+      <Link href="/platform" className="btn-secondary">Explore Platform</Link>
+    </div>
+    <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>
+      No commitment required. Speak directly with our solutions team.
+    </p>
+  </div>
+</section>
+
+    </>
+  );
+}

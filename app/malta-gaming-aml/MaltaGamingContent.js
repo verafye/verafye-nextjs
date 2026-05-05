@@ -584,4 +584,11 @@ function FAQItem({ question, answer }) {
           <polyline points="6 9 12 15 18 9" />
         </svg>
       </button>
-      {ope
+      {open && (
+        <div style={{ padding: '0 1.5rem 1.25rem', borderTop: '1px solid var(--border)' }}>
+          <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: '1rem 0 0' }}>{answer}</p>
+        </div>
+      )}
+    </div>
+  );
+}
