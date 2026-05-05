@@ -58,7 +58,7 @@ export default function MaltaGamingContent() {
               </div>
 
               <h1 className="animate-fade-up" style={{ fontSize: 'clamp(1.875rem,4.5vw,3.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-                Connected Fraud and AML Intelligence for Malta Gaming
+                AML and Fraud Investigation Intelligence for Malta Gaming
               </h1>
 
               <p className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', marginBottom: '2rem', lineHeight: 1.7, maxWidth: '38rem' }}>
@@ -139,7 +139,7 @@ export default function MaltaGamingContent() {
                     </svg>
                   ),
                   title: 'Siloed Fraud and AML Systems',
-                  body: 'Separate fraud detection, AML transaction monitoring, and payments risk tools generate uncoordinated alerts. A player flagged in one system remains invisible in another - exactly the gap coordinated financial crime exploits.',
+                  body: 'Separate fraud, AML, and payments tools generate uncoordinated alerts with no shared investigation context. A player flagged in one system remains invisible in another - exactly the gap coordinated financial crime exploits.',
                 },
                 {
                   icon: (
@@ -156,8 +156,8 @@ export default function MaltaGamingContent() {
                       <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
                     </svg>
                   ),
-                  title: 'Alert Volumes That Exceed Analyst Capacity',
-                  body: 'High transaction throughput and rule-based monitoring combine to produce alert volumes that compliance teams cannot meaningfully review. Triage becomes guesswork, and genuine risk is buried under noise.',
+                  title: 'Alert Volumes That Exceed Investigation Capacity',
+                  body: 'High transaction throughput and rule-based monitoring combine to produce alert volumes that compliance teams cannot meaningfully investigate. Detection is not the bottleneck - investigation is. Triage becomes guesswork, and genuine risk is buried under noise.',
                 },
                 {
                   icon: (
@@ -187,9 +187,9 @@ export default function MaltaGamingContent() {
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', maxWidth: '52rem', margin: '0 auto 3.5rem' }}>
-              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>The Monitoring Gap</p>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>The Investigation Gap</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', lineHeight: 1.2 }}>
-                Why Standard Transaction Monitoring Falls Short in Gaming
+                Why Transaction Monitoring Alone Cannot Close the Investigation Gap in Gaming
               </h2>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1.5rem' }}>
@@ -207,7 +207,7 @@ export default function MaltaGamingContent() {
                 {
                   number: '03',
                   title: 'Alerts Without Investigation Context',
-                  body: 'A system that generates alerts without the evidence layer to support investigation creates operational paralysis. Analysts spend more time assembling context than they do making decisions - slowing STR filing, escalation, and regulatory response.',
+                  body: 'A system that generates alerts without the investigation layer to act on them creates operational paralysis. Detection is not the problem - the inability to move from alert to decision is. Analysts spend more time assembling context than investigating, slowing STR filing, escalation, and regulatory response.',
                 },
               ].map((item) => (
                 <div key={item.number} className="card" style={{ padding: '2rem', borderTop: '3px solid var(--primary)' }}>
@@ -226,12 +226,12 @@ export default function MaltaGamingContent() {
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <div style={{ maxWidth: '52rem', margin: '0 auto 3.5rem', textAlign: 'center' }}>
-              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>The Verafye Platform</p>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>The Verafye Investigation Layer</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', lineHeight: 1.2 }}>
-                A Connected Intelligence Layer - Not Another Point Tool
+                A Connected Investigation Layer - Not Another Point Tool
               </h2>
               <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', marginTop: '1rem', lineHeight: 1.7 }}>
-                Verafye sits across your existing fraud, AML, and payments infrastructure - unifying signals into a single intelligence layer that surfaces risk at the network level, not just the transaction level.
+                Verafye sits across your existing fraud, AML, and payments infrastructure - unifying signals into a single investigation layer that aggregates alerts, clusters cases, and surfaces risk at the network level, not just the transaction level.
               </p>
             </div>
 
@@ -295,7 +295,7 @@ export default function MaltaGamingContent() {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--primary)', marginBottom: '0.875rem', paddingBottom: '0.5rem', borderBottom: '1px solid rgba(30,111,183,0.2)' }}>
-                    Verafye Connected Intelligence
+                    Verafye Connected Investigation Layer
                   </div>
                   {[
                     'Single intelligence layer across fraud, AML, and payments signals',
@@ -324,7 +324,7 @@ export default function MaltaGamingContent() {
             <div style={{ textAlign: 'center', maxWidth: '52rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Use Cases</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-                What Verafye Detects in Gaming Environments
+                What Gaming AML Teams Investigate and Resolve with Verafye
               </h2>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1.25rem' }}>
@@ -417,7 +417,7 @@ export default function MaltaGamingContent() {
             <div style={{ textAlign: 'center', maxWidth: '52rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Operational Impact</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-                What Changes When Signals Are Connected
+                From Alerts to Decisions - What Changes When Signals Are Connected
               </h2>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '1.25rem' }}>
@@ -534,7 +534,7 @@ export default function MaltaGamingContent() {
               Malta Gaming &middot; AML &amp; Fraud Intelligence
             </p>
             <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: '#fff', marginBottom: '1.125rem', letterSpacing: '-0.025em', lineHeight: 1.2 }}>
-              Connected Intelligence for Your Compliance Team
+              Investigation Intelligence for Your Compliance Team
             </h2>
             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'rgba(255,255,255,0.72)', marginBottom: '2.25rem', lineHeight: 1.7, maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
               See how Verafye connects fraud, AML, and payments intelligence for MGA-licensed operators - linked account detection, unified investigation workflows, and audit-ready case management in a single walkthrough.
@@ -584,11 +584,4 @@ function FAQItem({ question, answer }) {
           <polyline points="6 9 12 15 18 9" />
         </svg>
       </button>
-      {open && (
-        <div style={{ padding: '0 1.5rem 1.25rem', borderTop: '1px solid var(--border)' }}>
-          <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: '1rem 0 0' }}>{answer}</p>
-        </div>
-      )}
-    </div>
-  );
-}
+      {ope

@@ -173,7 +173,7 @@ export default function Page() {
   </div>
 </section>
 
-{/* STRATEGIC ADVISOR — hidden, do not remove */}
+{/* STRATEGIC ADVISOR - hidden, do not remove */}
 {/* <section className="section-light" style={{'padding':'4rem 0'}}>
   <div className="container">
     <div style={{'maxWidth':'56rem','margin':'0 auto','textAlign':'center'}}>

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Financial Crime Detection Platform | AI Fraud & AML',
-  description: 'Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.',
+  title: 'Investigation Intelligence Platform for Fraud & AML | Verafye',
+  description: "Aggregate signals, cluster alerts, and accelerate investigations with Verafye's intelligent investigation platform for fraud and AML teams.",
   openGraph: {
-    title: 'Financial Crime Detection Platform | AI Fraud & AML',
-    description: 'Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.',
+    title: 'Investigation Intelligence Platform for Fraud & AML | Verafye',
+    description: "Aggregate signals, cluster alerts, and accelerate investigations with Verafye's intelligent investigation platform for fraud and AML teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Financial Crime Detection Platform | AI Fraud & AML',
-    description: 'Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.',
+    title: 'Investigation Intelligence Platform for Fraud & AML | Verafye',
+    description: "Aggregate signals, cluster alerts, and accelerate investigations with Verafye's intelligent investigation platform for fraud and AML teams.",
   },
 };
 
@@ -22,8 +22,8 @@ export default function Page() {
 <section style={{'background':'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)','padding':'5rem 0'}}>
   <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
     <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>PLATFORM</p>
-    <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.025em'}}>Connected Intelligence Infrastructure for Modern Financial Crime Operations</h1>
-    <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'48rem','marginLeft':'auto','marginRight':'auto'}}>Verafye is an AI-native FRAML intelligence platform that connects fraud, AML, and payments signals into a unified operating layer. Designed for financial institutions and payment platforms operating under growing regulatory and operational complexity, it enables connected detection, investigation, and decisioning across systems.</p>
+    <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.025em'}}>The Intelligent Investigation Layer for Regulated Payment Platforms</h1>
+    <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'48rem','marginLeft':'auto','marginRight':'auto'}}>Verafye connects fraud, AML, and payments signals into a unified investigation layer - moving regulated payment teams from alert overload to structured decisions. Designed for financial institutions and payment platforms operating under real regulatory pressure, it aggregates signals, clusters alerts, forms cases, and supports investigation workflows with AI-assisted decision support. API-first integration. Modular adoption. No rip-and-replace required. Operational in 48 hours, with full customisation within 2 weeks.</p>
     {/* Hero now has two CTAs: primary demo conversion + secondary deeper exploration */}
     <div className="animate-fade-up delay-300" style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'0.75rem'}}>
       <Link href="/request-demo" className="btn-primary">
@@ -42,8 +42,8 @@ export default function Page() {
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div style={{'textAlign':'center','marginBottom':'3rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE CHALLENGE</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem'}}>Why Fragmented Systems No Longer Work</h2>
-      <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto'}}>Most institutions still manage fraud, AML, and payments risk across disconnected systems, workflows, and datasets. That fragmentation slows investigations, reduces signal clarity, and makes it harder to operate under evolving regulatory expectations.</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem'}}>Detection Is Not the Problem. Investigation Is the Bottleneck.</h2>
+      <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto'}}>Most regulated payment teams already have detection tools. The problem is what comes after: fragmented alerts, no unified context, manual analyst effort, and investigation workflows that cannot scale. Siloed fraud and AML systems create the bottleneck - and a connected investigation layer removes it.</p>
     </div>
     <div className="grid-4" style={{'marginBottom':'3rem'}}>
       <div style={{'background':'var(--bg-slate)','border':'1px solid var(--border)','borderRadius':'0.75rem','padding':'1.5rem','textAlign':'center'}}>
@@ -82,8 +82,8 @@ export default function Page() {
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>PLATFORM ARCHITECTURE</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem'}}>How the Verafye Platform Works</h2>
-      <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)'}}>Verafye brings fraud, AML, and payments domains together through graph-native detection, investigation intelligence, and cross-system correlation  -  creating a more connected, traceable, and operationally effective financial crime infrastructure. By connecting signals across systems, Verafye helps institutions move from fragmented monitoring to intelligence-led operations.</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem'}}>From Alerts to Decisions - How the Verafye Investigation Layer Works</h2>
+      <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)'}}>Verafye is built on three core operations - signal aggregation across fraud, AML, and payments; alert clustering into unified investigation cases; and case formation into structured workflows with AI-assisted decision support. The result is a connected investigation layer - including Graph Intelligence for network-level entity context - not a standalone detection tool, not a heavy enterprise replacement, but a system that works alongside existing infrastructure to move teams from fragmented monitoring to intelligent, traceable case resolution.</p>
     </div>
     <div style={{'maxWidth':'64rem','margin':'0 auto','background':'#fff','borderRadius':'1.5rem','boxShadow':'0 20px 25px -5px rgba(0,0,0,0.1)','padding':'2.5rem','border':'1px solid #f3f4f6'}}>
       <div className="arch-flow" style={{'justifyContent':'center'}}>
@@ -214,8 +214,8 @@ export default function Page() {
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION EFFICIENCY</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem'}}>Investigation Intelligence</h2>
-      <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)'}}>Investigation intelligence reduces analyst burden by clustering related signals, improving prioritization, and supporting more structured, traceable case workflows. The result is faster resolution, clearer escalation paths, and stronger operational readiness.</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem'}}>Investigation Intelligence - From Alert to Decision</h2>
+      <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)'}}>Investigation intelligence reduces analyst burden by clustering related signals into cases, aggregating fraud and AML context into a unified view, and supporting structured investigation workflows with AI-assisted decision support. The result is faster resolution, clearer escalation paths, and stronger operational readiness - with full audit trails at every step.</p>
     </div>
     <div className="grid-2" style={{'maxWidth':'64rem','margin':'0 auto'}}>
       <div className="card" style={{'padding':'2rem'}}><div style={{'display':'flex','gap':'1.25rem'}}><div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem','flexShrink':'0'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg></div><div><h3 style={{'fontSize':'1.125rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Alert Clustering</h3><p style={{'fontSize':'0.938rem','color':'var(--body)'}}>Group related alerts into coherent cases  -  reducing noise and surfacing genuine risk patterns</p></div></div></div>
@@ -346,26 +346,12 @@ export default function Page() {
 <section style={{'padding':'5rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container" style={{'textAlign':'center','maxWidth':'48rem'}}>
     <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>
-      Explore the Verafye Platform
+      See how your team can investigate faster
     </h2>
     <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>
-      See how Verafye supports intelligence-led operations across fraud, AML, and payments  -  designed for institutions operating under growing regulatory and operational complexity.
+      Validated in regulated payment environments. Chosen over well-funded alternatives by fraud, risk, and AML teams who needed an investigation layer - not another detection tool.
     </p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/request-demo" className="btn-primary">
         Request Demo
-        <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </span>
-      </Link>
-      <Link href="/solutions/graph-intelligence" className="btn-secondary">Explore Graph Intelligence</Link>
-    </div>
-    <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>
-      No commitment required. Speak directly with our solutions team.
-    </p>
-  </div>
-</section>
-
-    </>
-  );
-}
+        <span c

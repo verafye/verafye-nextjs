@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Fraud Detection for Lenders & NBFCs | AI Risk Intelligence',
-  description: 'Fraud detection for lenders and NBFCs to identify loan fraud, detect risk patterns, and prevent financial crime. Use AI-driven intelligence. See how it works.',
+  title: 'Investigation Intelligence for Digital Lenders & Consumer Finance Platforms | Verafye',
+  description: 'Investigate borrower risk and fraud signals with unified case workflows and AI-assisted decision support for lending platforms.',
   openGraph: {
-    title: 'Fraud Detection for Lenders & NBFCs | AI Risk Intelligence',
-    description: 'Fraud detection for lenders and NBFCs to identify loan fraud, detect risk patterns, and prevent financial crime. Use AI-driven intelligence. See how it works.',
+    title: 'Investigation Intelligence for Digital Lenders & Consumer Finance Platforms | Verafye',
+    description: 'Investigate borrower risk and fraud signals with unified case workflows and AI-assisted decision support for lending platforms.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fraud Detection for Lenders & NBFCs | AI Risk Intelligence',
-    description: 'Fraud detection for lenders and NBFCs to identify loan fraud, detect risk patterns, and prevent financial crime. Use AI-driven intelligence. See how it works.',
+    title: 'Investigation Intelligence for Digital Lenders & Consumer Finance Platforms | Verafye',
+    description: 'Investigate borrower risk and fraud signals with unified case workflows and AI-assisted decision support for lending platforms.',
   },
 };
 
@@ -24,13 +24,13 @@ export default function LendersConsumerFinancePage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Industries  -  Lenders / Consumer Finance</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Financial Crime Intelligence for Lenders and Consumer Finance Institutions
+              Financial Crime Investigation Intelligence for Lenders and Consumer Finance
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Detect, investigate, and prevent fraud across the entire lending lifecycle - from onboarding and underwriting to disbursement and repayment - with connected intelligence and audit-ready workflows.
+              Lenders and consumer finance institutions face overlapping borrower risk, identity risk, account risk, and fraud-credit abuse patterns that span the entire lending lifecycle - and investigation teams need more than detection alerts to act on them.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Purpose-built for digital lenders, NBFCs, and consumer finance institutions managing credit risk at scale.
+              Verafye connects signals across onboarding, underwriting, disbursement, and repayment into a unified investigation layer - with structured workflows and AI-assisted decision support designed for digital lenders and consumer finance institutions operating at scale.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -167,7 +167,7 @@ export default function LendersConsumerFinancePage() {
                 Verafye for Lenders / Consumer Finance
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye provides a unified financial crime intelligence layer purpose-built for lending environments. By combining graph intelligence, behavioral analytics, and investigation workflows, Verafye enables institutions to move from isolated alerts to connected, investigation-ready intelligence.
+                Verafye connects borrower risk signals, identity context, account intelligence, and AML indicators into a unified investigation layer - with alert clustering, structured case workflows, and AI-assisted decision support that give fraud and compliance teams a connected view from alert to decision. Designed for digital lenders, consumer finance institutions, and NBFCs operating under regulatory-driven environments. Works alongside existing detection systems. No rip-and-replace required.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -315,7 +315,7 @@ export default function LendersConsumerFinancePage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>),
                 title: 'Strengthen Regulatory and Audit Readiness',
-                body: 'Explainable risk scoring, documented decision trails, and structured case management support the audit readiness and regulatory alignment that lenders and NBFCs increasingly require.',
+                body: 'Explainable risk scoring, documented decision trails, and structured case management support the audit readiness and regulatory alignment that lenders and consumer finance institutions increasingly require.',
               },
               {
                 gradient: 'gradient-bg-1',
@@ -371,17 +371,4 @@ export default function LendersConsumerFinancePage() {
             <Link href="/request-demo" className="btn-primary">
               Request Demo
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-              </span>
-            </Link>
-            <Link href="/use-cases" className="btn-secondary">Explore Use Cases</Link>
-          </div>
-          <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
-            No commitment required. Speak directly with our solutions team.
-          </p>
-        </div>
-      </section>
-
-    </>
-  );
-}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><pat

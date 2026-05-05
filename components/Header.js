@@ -33,11 +33,11 @@ const navItems = [
     href: '/industries/payment-processors-psps-payfacs',
     children: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'Payment Processors / PSPs / PayFacs' },
+      { href: '/industries/msb',                              label: 'MSBs / Money Services Businesses' },
       { href: '/industries/fintech-platforms',                label: 'Fintech Platforms' },
-      { href: '/industries/digital-banks',                    label: 'Digital Banks' },
-      { href: '/industries/banks',                            label: 'Traditional Banks / Financial Institutes' },
       { href: '/industries/lenders-consumer-finance',         label: 'Lenders / Consumer Finance' },
-      { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
+      { href: '/industries/digital-banks',                    label: 'Digital Banks & Regional Institutions' },
+      { href: '/industries/banks',                            label: 'Banks' },
     ],
   },
   {
@@ -92,11 +92,11 @@ const mobileNavGroups = [
     headingHref: '/industries/payment-processors-psps-payfacs',
     items: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'Payment Processors / PSPs / PayFacs' },
+      { href: '/industries/msb',                              label: 'MSBs / Money Services Businesses' },
       { href: '/industries/fintech-platforms',                label: 'Fintech Platforms' },
-      { href: '/industries/digital-banks',                    label: 'Digital Banks' },
-      { href: '/industries/banks',                            label: 'Traditional Banks / Financial Institutes' },
       { href: '/industries/lenders-consumer-finance',         label: 'Lenders / Consumer Finance' },
-      { href: '/industries/credit-unions',                    label: 'Credit Unions / Regional Institutions' },
+      { href: '/industries/digital-banks',                    label: 'Digital Banks & Regional Institutions' },
+      { href: '/industries/banks',                            label: 'Banks' },
     ],
   },
   {

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Payment Fraud Detection Software | Protect Transactions',
-  description: 'Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.',
+  title: 'Investigation Intelligence for Payment Platforms | Verafye',
+  description: 'Investigate merchant risk, chargebacks, and transaction anomalies with unified fraud and AML context for payment platforms.',
   openGraph: {
-    title: 'Payment Fraud Detection Software | Protect Transactions',
-    description: 'Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.',
+    title: 'Investigation Intelligence for Payment Platforms | Verafye',
+    description: 'Investigate merchant risk, chargebacks, and transaction anomalies with unified fraud and AML context for payment platforms.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Payment Fraud Detection Software | Protect Transactions',
-    description: 'Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.',
+    title: 'Investigation Intelligence for Payment Platforms | Verafye',
+    description: 'Investigate merchant risk, chargebacks, and transaction anomalies with unified fraud and AML context for payment platforms.',
   },
 };
 
@@ -32,13 +32,13 @@ export default function PaymentProcessorsPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Industries  -  Payment Processors / PSPs / PayFacs</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Fraud and Risk Intelligence for Payment Processors and PayFacs
+              Investigation Intelligence for Payment Processors, PSPs, and PayFacs
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Payment processors and platforms operate in high-volume, real-time environments where fraud risk, merchant exposure, and regulatory expectations intersect  -  and where disconnected systems make consistent risk management difficult.
+              Payment processors and PayFacs operate across high-volume, multi-merchant environments where transaction anomalies, chargeback patterns, and fraud-AML overlap create investigation challenges that detection tools alone cannot solve.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye connects merchant, transaction, device, and behavioural signals into a unified intelligence layer  -  delivering graph-based detection, investigation-centric workflows, and full lifecycle coverage aligned with evolving regulatory expectations, including fraud liability obligations across payment schemes.
+              Verafye connects merchant-level signals, transaction context, device intelligence, and AML alerts into a unified investigation layer - structured workflows, alert clustering, and case intelligence aligned with card network obligations including Visa and Mastercard fraud liability requirements.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -59,7 +59,7 @@ export default function PaymentProcessorsPage() {
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Segment Challenges</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-              The Operational and Risk Pressures PSPs and PayFacs Face
+              The Investigation Challenges PSPs and PayFacs Face
             </h2>
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -163,10 +163,10 @@ export default function PaymentProcessorsPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                A Unified Risk Intelligence Layer for Payment Operations
+                An Investigation Layer Built for Payment Platform Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects merchant, transaction, device, and behavioural signals into a single intelligence layer  -  delivering graph-based detection and investigation-centric workflows that cover the full merchant lifecycle without adding operational overhead.
+                Verafye connects merchant-level risk signals, transaction anomalies, chargeback context, and AML alerts into a unified investigation layer - with alert clustering, case formation, structured investigation workflows, and AI-assisted decision support that give fraud, risk, and compliance teams a connected view from alert to decision. Works alongside existing systems. No rip-and-replace.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -386,9 +386,4 @@ export default function PaymentProcessorsPage() {
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
             No commitment required. Speak directly with our solutions team.
           </p>
-        </div>
-      </section>
-
-    </>
-  );
-}
+       

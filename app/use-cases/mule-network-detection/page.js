@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Mule Network Detection Software | Detect Fraud Rings',
-  description: 'Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.',
+  title: 'Mule Network Detection for Fraud Investigations | Verafye',
+  description: 'Detect and investigate mule networks using network indicators, alert clustering, and investigation workflows.',
   openGraph: {
-    title: 'Mule Network Detection Software | Detect Fraud Rings',
-    description: 'Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.',
+    title: 'Mule Network Detection for Fraud Investigations | Verafye',
+    description: 'Detect and investigate mule networks using network indicators, alert clustering, and investigation workflows.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mule Network Detection Software | Detect Fraud Rings',
-    description: 'Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.',
+    title: 'Mule Network Detection for Fraud Investigations | Verafye',
+    description: 'Detect and investigate mule networks using network indicators, alert clustering, and investigation workflows.',
   },
 };
 

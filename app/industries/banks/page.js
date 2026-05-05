@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Fraud Detection Software for Banks | Reduce Risk',
-  description: 'Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.',
+  title: 'Investigation Intelligence for Banking Risk Teams | Verafye',
+  description: 'Support banking risk teams with structured fraud and AML investigations, unified signals, and case intelligence.',
   openGraph: {
-    title: 'Fraud Detection Software for Banks | Reduce Risk',
-    description: 'Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.',
+    title: 'Investigation Intelligence for Banking Risk Teams | Verafye',
+    description: 'Support banking risk teams with structured fraud and AML investigations, unified signals, and case intelligence.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fraud Detection Software for Banks | Reduce Risk',
-    description: 'Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.',
+    title: 'Investigation Intelligence for Banking Risk Teams | Verafye',
+    description: 'Support banking risk teams with structured fraud and AML investigations, unified signals, and case intelligence.',
   },
 };
 
@@ -34,13 +34,13 @@ export default function BanksPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Industries  -  Banks</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Financial Crime Infrastructure for Modern Banks
+              Financial Crime Investigation Intelligence for Banks
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Banks face growing pressure to strengthen fraud detection, AML monitoring, and decision traceability  -  across multiple systems, channels, and regulatory jurisdictions.
+              Banks face growing pressure to strengthen fraud detection, AML monitoring, and investigation throughput  -  across multiple systems, channels, and regulatory jurisdictions.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Legacy infrastructure creates fragmented visibility, slower investigations, and difficulty maintaining consistent, explainable outcomes  -  as AML obligations intensify and regulators increase scrutiny of model governance and decision traceability.
+              Legacy infrastructure creates fragmented visibility, disconnected case workflows, and difficulty maintaining consistent, explainable outcomes  -  as AML obligations intensify and regulators increase scrutiny of decision traceability and unified investigation context.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -160,10 +160,10 @@ export default function BanksPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                A Unified FRAML Intelligence Layer for Banking Operations
+                A Connected Investigation Layer for Banking Fraud and AML Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye sits across the existing technology stack  -  connecting fraud, AML, and payments signals into a unified intelligence layer that improves detection coverage, accelerates investigation, and supports explainable, audit-ready outcomes.
+                Verafye sits across the existing technology stack  -  connecting fraud, AML, and payments signals into a unified investigation layer that delivers pre-assembled case context, structured case workflows, and decision support aligned with evolving regulatory expectations.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>

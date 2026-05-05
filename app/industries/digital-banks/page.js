@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'AI Fraud Detection for Digital Banks | Real-Time Protection',
-  description: 'AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.',
+  title: 'Investigation Intelligence for Digital Banks & Regional Institutions | Verafye',
+  description: 'Enable faster fraud and AML investigations for digital banks, regional institutions, and credit unions with unified investigation workflows.',
   openGraph: {
-    title: 'AI Fraud Detection for Digital Banks | Real-Time Protection',
-    description: 'AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.',
+    title: 'Investigation Intelligence for Digital Banks & Regional Institutions | Verafye',
+    description: 'Enable faster fraud and AML investigations for digital banks, regional institutions, and credit unions with unified investigation workflows.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI Fraud Detection for Digital Banks | Real-Time Protection',
-    description: 'AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.',
+    title: 'Investigation Intelligence for Digital Banks & Regional Institutions | Verafye',
+    description: 'Enable faster fraud and AML investigations for digital banks, regional institutions, and credit unions with unified investigation workflows.',
   },
 };
 
@@ -22,15 +22,15 @@ export default function DigitalBanksPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '5rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Industries  -  Digital Banks</p>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Industries  -  Digital Banks &amp; Regional Institutions</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Connected Risk Intelligence for Digital Banks
+              Investigation Intelligence for Digital Banks &amp; Regional Institutions
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Digital banks scale rapidly across users, products, and channels  -  while regulatory expectations for fraud detection, AML monitoring, and explainable decisioning continue to increase.
+              Digital banks, regional institutions, and credit unions scale rapidly across users, products, and channels  -  while regulatory expectations for investigating fraud and AML risk with explainable, audit-ready decisioning continue to increase.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye connects risk signals across onboarding, payments, fraud, and AML into a unified intelligence layer  -  delivering graph-native detection, structured investigation workflows, and cross-system visibility aligned with evolving regulatory expectations.
+              Verafye connects risk signals across onboarding, payments, fraud, and AML into a unified investigation layer  -  delivering structured investigation workflows, graph-native context, and cross-system visibility aligned with evolving regulatory expectations.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -150,10 +150,10 @@ export default function DigitalBanksPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                A Unified Risk Intelligence Layer for Digital Banking
+                A Unified Investigation Layer for Digital Banks &amp; Regional Institutions
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into a single intelligence layer  -  delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution.
+                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into a single investigation layer  -  delivering pre-assembled case context, investigation-centric workflows, and cross-system visibility that scales with the institution, whether you are a digital bank, regional financial institution, or credit union.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>

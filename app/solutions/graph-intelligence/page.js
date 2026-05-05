@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Network Intelligence Platform | Detect Fraud Networks',
-  description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+  title: 'Graph Intelligence for Fraud & AML Investigations | Verafye',
+  description: 'Leverage graph intelligence to uncover relationships, support investigations, and enhance decision-making across fraud and AML workflows.',
   openGraph: {
-    title: 'Network Intelligence Platform | Detect Fraud Networks',
-    description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+    title: 'Graph Intelligence for Fraud & AML Investigations | Verafye',
+    description: 'Leverage graph intelligence to uncover relationships, support investigations, and enhance decision-making across fraud and AML workflows.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Network Intelligence Platform | Detect Fraud Networks',
-    description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+    title: 'Graph Intelligence for Fraud & AML Investigations | Verafye',
+    description: 'Leverage graph intelligence to uncover relationships, support investigations, and enhance decision-making across fraud and AML workflows.',
   },
 };
 
@@ -30,13 +30,13 @@ export default function GraphIntelligencePage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Solutions - Graph Intelligence</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Detect Connected Financial Crime with Graph-Native Intelligence
+              Graph Intelligence: Network Context Inside the Investigation Layer
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Financial crime increasingly operates across networks of accounts, devices, and entities. Isolated transaction monitoring fails to capture these patterns - and regulators are raising expectations for the depth of detection and cross-system visibility that institutions must demonstrate.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye uses graph-native intelligence to connect signals across fraud, AML, and payments systems - enabling institutions to identify coordinated activity, uncover hidden relationships, and prioritize risk based on broader network behavior.
+              Graph Intelligence is a core support capability inside the Verafye Investigation Layer  -  connecting signals across fraud, AML, and payments systems to surface hidden relationships, map coordinated networks, and deliver the entity context that investigators need to act with confidence.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">

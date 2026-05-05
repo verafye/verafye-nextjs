@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Fraud Detection Platform for Fintech | Prevent Fraud',
-  description: 'Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.',
+  title: 'Investigation Intelligence for FinTech Platforms | Verafye',
+  description: 'Unify fraud and AML signals across fintech products with structured investigations, alert clustering, and case intelligence.',
   openGraph: {
-    title: 'Fraud Detection Platform for Fintech | Prevent Fraud',
-    description: 'Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.',
+    title: 'Investigation Intelligence for FinTech Platforms | Verafye',
+    description: 'Unify fraud and AML signals across fintech products with structured investigations, alert clustering, and case intelligence.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fraud Detection Platform for Fintech | Prevent Fraud',
-    description: 'Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.',
+    title: 'Investigation Intelligence for FinTech Platforms | Verafye',
+    description: 'Unify fraud and AML signals across fintech products with structured investigations, alert clustering, and case intelligence.',
   },
 };
 
@@ -32,13 +32,13 @@ export default function FintechPlatformsPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Industries  -  Fintech Platforms</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Risk and Fraud Intelligence for Scalable Fintech Platforms
+              Investigation Intelligence for Multi-Product FinTech Platforms
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Fintech platforms are scaling rapidly while navigating evolving regulatory expectations across fraud, AML, and payments operations  -  and early-stage infrastructure often struggles to keep pace.
+              Multi-product fintech platforms generate fragmented risk signals across payments, lending, and AML functions - and investigation teams struggle to keep pace as scale and regulatory complexity grow simultaneously.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye connects user, device, transaction, and behavioural signals into a unified intelligence layer  -  delivering graph-based detection and investigation-centric workflows that scale with platform growth and remain aligned with evolving regulatory expectations across BNPL, crypto-asset, and payments environments.
+              Verafye connects signals across fraud, risk, and AML into a unified investigation layer - with alert clustering, case intelligence, and structured workflows that scale fraud and AML operations without proportional increases in analyst headcount. API-first. Modular adoption. Aligned with evolving regulatory expectations.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -59,7 +59,7 @@ export default function FintechPlatformsPage() {
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Segment Challenges</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-              The Risk and Operational Pressures Growing Fintech Platforms Face
+              The Investigation Challenges Multi-Product FinTech Platforms Face
             </h2>
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -164,10 +164,10 @@ export default function FintechPlatformsPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                A Scalable Intelligence Layer for Fintech Risk Operations
+                A Connected Investigation Layer for Scaling FinTech Risk Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects user, device, transaction, and behavioural signals into a unified intelligence layer  -  delivering graph-based detection and investigation-centric workflows that scale with platform growth without proportional increases in analyst headcount or rule management overhead.
+                Verafye connects user, device, transaction, and AML signals across multi-product fintech platforms into a unified investigation layer - with alert clustering, case intelligence, and structured workflows that scale fraud and AML operations without proportional increases in analyst headcount. Works alongside existing detection tools. No rip-and-replace required.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -387,9 +387,4 @@ export default function FintechPlatformsPage() {
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
             No commitment required. Speak directly with our solutions team.
           </p>
-        </div>
-      </section>
-
-    </>
-  );
-}
+    

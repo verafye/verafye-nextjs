@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'AML Transaction Monitoring Software | Detect Risk Faster',
-  description: 'AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.',
+  title: 'Transaction Monitoring for Investigation Workflows | Verafye',
+  description: 'Use transaction monitoring as a foundation for investigation workflows with alert clustering, signal aggregation, and case intelligence.',
   openGraph: {
-    title: 'AML Transaction Monitoring Software | Detect Risk Faster',
-    description: 'AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.',
+    title: 'Transaction Monitoring for Investigation Workflows | Verafye',
+    description: 'Use transaction monitoring as a foundation for investigation workflows with alert clustering, signal aggregation, and case intelligence.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AML Transaction Monitoring Software | Detect Risk Faster',
-    description: 'AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.',
+    title: 'Transaction Monitoring for Investigation Workflows | Verafye',
+    description: 'Use transaction monitoring as a foundation for investigation workflows with alert clustering, signal aggregation, and case intelligence.',
   },
 };
 
@@ -38,13 +38,13 @@ export default function TransactionMonitoringPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Use Cases  -  Transaction Monitoring</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Transaction Monitoring with Network-Level Intelligence
+              Transaction Monitoring as an Input to Investigation Workflows
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Transaction monitoring systems often generate large volumes of alerts with limited context  -  making prioritisation difficult, investigations slow, and the genuine risk signal hard to find within the noise.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye enriches every transaction alert with entity profile, relationship context, and cross-system signals  -  transforming isolated events into investigation-ready intelligence that analysts can act on from the moment an alert is surfaced.
+              Verafye enriches every transaction alert with entity profile, relationship context, and cross-system signals  -  transforming isolated monitoring events into structured, investigation-ready cases that flow directly into the Verafye Investigation Layer for analyst action.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">

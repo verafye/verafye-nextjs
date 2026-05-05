@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Fraud Intelligence Platform | Faster Investigations',
-  description: 'Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.',
+  title: 'Investigation Intelligence for Fraud, Risk & AML Teams | Verafye',
+  description: 'Reduce manual investigation effort with alert clustering, entity relationships, graph intelligence, and AI-assisted decision support.',
   openGraph: {
-    title: 'Fraud Intelligence Platform | Faster Investigations',
-    description: 'Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.',
+    title: 'Investigation Intelligence for Fraud, Risk & AML Teams | Verafye',
+    description: 'Reduce manual investigation effort with alert clustering, entity relationships, graph intelligence, and AI-assisted decision support.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fraud Intelligence Platform | Faster Investigations',
-    description: 'Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.',
+    title: 'Investigation Intelligence for Fraud, Risk & AML Teams | Verafye',
+    description: 'Reduce manual investigation effort with alert clustering, entity relationships, graph intelligence, and AI-assisted decision support.',
   },
 };
 
@@ -35,7 +35,7 @@ export default function InvestigationIntelligencePage() {
               Fragmented alerts and disconnected workflows slow investigations and create inconsistent outcomes. As regulatory expectations for traceability and audit-ready case handling grow, the cost of that fragmentation is rising.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye brings investigation intelligence into the core workflow - clustering related signals, improving prioritization, and supporting more structured, traceable case handling across fraud and AML operations.
+              Verafye is the investigation layer that connects fraud and AML workflows - clustering related signals, forming structured cases, and delivering AI-assisted decision support so investigation workflows scale without proportional headcount increases, moving regulated teams from alert overload to confident, audit-ready decisions.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -439,11 +439,4 @@ export default function InvestigationIntelligencePage() {
             <Link href="/use-cases/investigation-workflow-modernization" className="btn-secondary">See the Use Case</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
-            No commitment required. Speak directly with our solutions team.
-          </p>
-        </div>
-      </section>
-
-    </>
-  );
-}
+            No commitment required. Speak directl
