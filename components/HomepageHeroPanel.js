@@ -45,8 +45,8 @@ export function ProductTrialHeroPanel() {
   const card = {
     background: '#ffffff',
     borderRadius: '12px',
-    border: '1px solid rgba(30,111,183,0.1)',
-    boxShadow: '0 2px 12px rgba(30,111,183,0.07), 0 1px 3px rgba(0,0,0,0.04)',
+    border: '1px solid rgba(30,111,183,0.07)',
+    boxShadow: '0 1px 6px rgba(30,111,183,0.05), 0 1px 2px rgba(0,0,0,0.03)',
     overflow: 'hidden',
   };
 
@@ -101,9 +101,17 @@ export function ProductTrialHeroPanel() {
       className="animate-fade-right delay-300 hero-image"
       style={{
         position: 'relative',
+        background: 'linear-gradient(150deg, rgba(239,246,255,0.55) 0%, rgba(248,251,255,0.35) 60%, rgba(255,255,255,0.1) 100%)',
+        borderRadius: '20px',
+        padding: '0.875rem',
+        border: '1px solid rgba(30,111,183,0.05)',
+      }}
+    >
+    <div
+      style={{
         display: 'flex',
         flexDirection: 'column',
-        gap: '0.625rem',
+        gap: '0.5rem',
         width: '100%',
         maxWidth: '540px',
         alignSelf: 'center',
@@ -319,6 +327,7 @@ export function ProductTrialHeroPanel() {
         </div>
       </div>
 
+    </div>
     </div>
   );
 }

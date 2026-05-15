@@ -13,8 +13,8 @@ export const metadata = {
   },
 };
 
-const h2 = { fontSize: '1.375rem', fontWeight: '700', color: 'var(--dark)', margin: '1.75rem 0 0.625rem', lineHeight: 1.3 };
-const h3 = { fontSize: '1.0625rem', fontWeight: '700', color: 'var(--dark)', margin: '1.25rem 0 0.5rem', lineHeight: 1.4 };
+const h2 = { fontSize: '1.375rem', fontWeight: '700', color: 'var(--dark)', margin: '1.5rem 0 0.5rem', lineHeight: 1.3 };
+const h3 = { fontSize: '1.0625rem', fontWeight: '700', color: 'var(--dark)', margin: '1rem 0 0.375rem', lineHeight: 1.4 };
 const p  = { margin: '0 0 0.875rem 0' };
 const ul = { paddingLeft: '1.5rem', margin: '0 0 0.875rem 0', display: 'flex', flexDirection: 'column', gap: '0.375rem' };
 
@@ -31,9 +31,9 @@ export default function Page() {
         </div>
       </section>
 
-      <section style={{ padding: '2.5rem 0 4rem', background: '#fff' }}>
-        <div className="container" style={{ maxWidth: '68rem' }}>
-          <div style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: '1.75' }}>
+      <section style={{ padding: '2rem 0 3rem', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '760px', margin: '0 auto', fontSize: '1rem', color: 'var(--body)', lineHeight: '1.75' }}>
 
             {/* ── 1. Who We Are ─────────────────────────────────────────────── */}
             <h2 style={h2}>1. Who We Are</h2>
@@ -44,7 +44,7 @@ export default function Page() {
             <h2 style={h2}>2. Information We Collect</h2>
 
             <h3 style={h3}>2.1 Information you provide directly</h3>
-            <p style={p}>When you submit a form on our website — including the Request Demo form, the Become a Partner form, or any contact enquiry — we collect:</p>
+            <p style={p}>When you submit a form on our website - including the Request Demo form, the Become a Partner form, or any contact enquiry - we collect:</p>
             <ul style={ul}>
               <li>First and last name</li>
               <li>Work email address</li>
@@ -72,12 +72,12 @@ export default function Page() {
             <h2 style={h2}>3. How We Use Your Information</h2>
             <p style={p}>We use the information we collect for the following purposes:</p>
             <ul style={ul}>
-              <li><strong>To respond to your enquiry</strong> — processing demo requests, partner applications, and general contact submissions</li>
-              <li><strong>To communicate with you</strong> — sending follow-up communications relevant to your enquiry and, where you have indicated interest, information about Verafye products, updates, or events</li>
-              <li><strong>To improve our website</strong> — understanding how visitors interact with our content so we can improve navigation, performance, and relevance</li>
-              <li><strong>To measure marketing effectiveness</strong> — attributing website visits and form submissions to marketing channels through analytics and campaign tracking tools</li>
-              <li><strong>To comply with legal obligations</strong> — retaining records required by applicable law and responding to lawful requests from regulators or law enforcement</li>
-              <li><strong>To protect our legitimate business interests</strong> — preventing fraud, detecting security incidents, and defending legal claims</li>
+              <li><strong>To respond to your enquiry</strong> - processing demo requests, partner applications, and general contact submissions</li>
+              <li><strong>To communicate with you</strong> - sending follow-up communications relevant to your enquiry and, where you have indicated interest, information about Verafye products, updates, or events</li>
+              <li><strong>To improve our website</strong> - understanding how visitors interact with our content so we can improve navigation, performance, and relevance</li>
+              <li><strong>To measure marketing effectiveness</strong> - attributing website visits and form submissions to marketing channels through analytics and campaign tracking tools</li>
+              <li><strong>To comply with legal obligations</strong> - retaining records required by applicable law and responding to lawful requests from regulators or law enforcement</li>
+              <li><strong>To protect our legitimate business interests</strong> - preventing fraud, detecting security incidents, and defending legal claims</li>
             </ul>
             <p style={p}>We will not use your personal information for purposes that are incompatible with those described above without notifying you first.</p>
 
@@ -85,7 +85,7 @@ export default function Page() {
             <h2 style={h2}>4. Cookies, Tracking Technologies, and Google Tag Manager</h2>
 
             <h3 style={h3}>4.1 Cookies</h3>
-            <p style={p}>Our website uses cookies — small text files placed on your device — to support basic site functionality, remember your preferences, and collect analytics data. Cookies we use fall into the following categories:</p>
+            <p style={p}>Our website uses cookies - small text files placed on your device - to support basic site functionality, remember your preferences, and collect analytics data. Cookies we use fall into the following categories:</p>
             <ul style={ul}>
               <li><strong>Strictly necessary:</strong> Required for the website to function. These cannot be disabled.</li>
               <li><strong>Analytics:</strong> Used to understand how visitors interact with our website (pages visited, session duration, navigation patterns). Data collected through analytics cookies is aggregated and does not identify individual visitors.</li>
@@ -140,8 +140,8 @@ export default function Page() {
             <p style={p}>To exercise any of these rights, please contact us at <a href="mailto:privacy@verafye.com" style={{ color: 'var(--primary)' }}>privacy@verafye.com</a>. We will respond within the timeframe required by applicable law (typically 30 days). We may need to verify your identity before processing your request.</p>
             <p style={p}>If you are not satisfied with our response, you have the right to lodge a complaint with the relevant data protection supervisory authority in your jurisdiction.</p>
 
-            {/* ── 9. India — DPDP ───────────────────────────────────────────── */}
-            <h2 style={h2}>9. India — Digital Personal Data Protection Act (DPDP)</h2>
+            {/* ── 9. India - DPDP ───────────────────────────────────────────── */}
+            <h2 style={h2}>9. India - Digital Personal Data Protection Act (DPDP)</h2>
             <p style={p}>India&apos;s Digital Personal Data Protection Act, 2023 (the DPDP Act) establishes a framework for the protection of digital personal data of individuals in India. The DPDP Act&apos;s implementing rules and regulatory guidance are currently being finalised by the Indian Government.</p>
             <p style={p}>Verafye&apos;s website and marketing practices are designed to be DPDP-aware, reflecting the following principles drawn from the Act:</p>
             <ul style={ul}>
@@ -165,7 +165,7 @@ export default function Page() {
 
             {/* ── 12. Careers ───────────────────────────────────────────────── */}
             <h2 style={h2}>12. Careers and Job Applications</h2>
-            <p style={p}>If you submit a job application or your CV/resume to Verafye — whether through our website, by email, or through a third-party recruitment platform — we will collect and process your personal information (including your name, contact details, employment history, qualifications, and any other information you choose to provide) for the purpose of evaluating your application.</p>
+            <p style={p}>If you submit a job application or your CV/resume to Verafye - whether through our website, by email, or through a third-party recruitment platform - we will collect and process your personal information (including your name, contact details, employment history, qualifications, and any other information you choose to provide) for the purpose of evaluating your application.</p>
             <p style={p}>We retain candidate information for up to 12 months following the conclusion of a recruitment process, in case a relevant opportunity arises. You may request deletion of your application data at any time by contacting <a href="mailto:privacy@verafye.com" style={{ color: 'var(--primary)' }}>privacy@verafye.com</a>.</p>
             <p style={p}>We do not use automated decision-making in our recruitment process. All hiring decisions involve human review.</p>
 

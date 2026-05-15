@@ -1,5 +1,19 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: "Verafye India | Investigation Intelligence for Payment, Fintech & Digital Banking Risk Teams",
+  description: "Investigation intelligence for India-based payment platforms, fintechs, digital banks, and lending risk teams. Connect UPI, wallet, account, and transaction signals into explainable investigation workflows.",
+  openGraph: {
+    title: "Verafye India | Investigation Intelligence for Payment, Fintech & Digital Banking Risk Teams",
+    description: "Investigation intelligence for India-based payment platforms, fintechs, digital banks, and lending risk teams. Connect UPI, wallet, account, and transaction signals into explainable investigation workflows.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Verafye India | Investigation Intelligence for Payment, Fintech & Digital Banking Risk Teams",
+    description: "Investigation intelligence for India-based payment platforms, fintechs, digital banks, and lending risk teams. Connect UPI, wallet, account, and transaction signals into explainable investigation workflows.",
+  },
+};
+
 // ─── India-localised product hero panel ──────────────────────────────────────
 // Mirrors the global ProductTrialHeroPanel with India-specific signal labels.
 function IndiaHeroPanel() {
@@ -38,7 +52,7 @@ function IndiaHeroPanel() {
       style={{ position: 'relative', display: 'flex', flexDirection: 'column', gap: '0.75rem', width: '100%', maxWidth: '580px', alignSelf: 'center' }}
     >
 
-      {/* Card 1 — Alert Cluster */}
+      {/* Card 1 - Alert Cluster */}
       <div style={card}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.875rem 1rem', borderBottom: '1px solid #F1F5F9' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -83,7 +97,7 @@ function IndiaHeroPanel() {
         </div>
       </div>
 
-      {/* Cards 2 + 3 — Case Intelligence + Signal Sources */}
+      {/* Cards 2 + 3 - Case Intelligence + Signal Sources */}
       <div className="product-trial-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
 
         {/* Case Intelligence */}
@@ -127,7 +141,7 @@ function IndiaHeroPanel() {
 
       </div>
 
-      {/* Card 4 — Audit Trail */}
+      {/* Card 4 - Audit Trail */}
       <div style={{ ...card, padding: '0.75rem 1rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
           <span style={{ fontSize: '0.6875rem', fontWeight: '700', color: '#1E293B' }}>Audit Trail</span>
@@ -147,20 +161,6 @@ function IndiaHeroPanel() {
     </div>
   );
 }
-
-export const metadata = {
-  title: "Fraud Detection & AML Investigation Platform for India | Verafye",
-  description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML investigation capabilities.",
-  openGraph: {
-    title: "Fraud Detection & AML Investigation Platform for India | Verafye",
-    description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML investigation capabilities.",
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: "Fraud Detection & AML Investigation Platform for India | Verafye",
-    description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML investigation capabilities.",
-  },
-};
 
 export default function IndiaPage() {
   return (
@@ -213,7 +213,7 @@ export default function IndiaPage() {
           <span className="tag">PSP / PA Risk Ops</span>
           <span className="tag">NBFC & Lending Fraud</span>
           <span className="tag">Mule Detection</span>
-          <span className="tag">RBI-Aligned Workflows</span>
+          <span className="tag">RBI-Aware Workflows</span>
         </div>
 
       </div>
@@ -290,7 +290,7 @@ export default function IndiaPage() {
         <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'4rem','height':'4rem','borderRadius':'0.875rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Lending &amp; NBFCs</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7,'marginBottom':'1.25rem'}}>Detect synthetic identity fraud and mule activity at origination. Surface early warning signals and build investigation-ready case workflows for lending risk teams.</p>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7,'marginBottom':'1.25rem'}}>Detect synthetic identity fraud and mule activity across application review and post-booking stages. Surface early warning signals and build investigation-ready case workflows for lending fraud risk teams. Selective adjacency - Verafye supports fraud investigation, not credit underwriting or loan origination decisions.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             Explore lending and NBFC risk workflows
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -326,7 +326,7 @@ export default function IndiaPage() {
 
     </div>
 
-    {/* 5. Retail & E-commerce — adjacency segment */}
+    {/* 5. Retail & E-commerce - adjacency segment */}
     <div style={{'maxWidth':'72rem','margin':'1.5rem auto 0'}}>
       <div className="card" style={{'padding':'2rem 2.5rem','border':'1px solid var(--border)','background':'#F8FAFB','display':'flex','alignItems':'flex-start','gap':'1.5rem','flexWrap':'wrap'}}>
         <div style={{'flexShrink':0,'width':'2.75rem','height':'2.75rem','borderRadius':'0.75rem','background':'rgba(90,178,255,0.08)','border':'1px solid rgba(90,178,255,0.18)','display':'flex','alignItems':'center','justifyContent':'center'}}>
@@ -385,14 +385,14 @@ export default function IndiaPage() {
   </div>
 </section>
 
-{/* ─── RBI-ALIGNED INVESTIGATION READINESS ───────────────────────────────── */}
+{/* ─── RBI-AWARE INVESTIGATION READINESS ───────────────────────────────── */}
 <section style={{'padding':'4rem 0','background':'#fff'}}>
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>RBI-ALIGNED INVESTIGATION READINESS</p>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>RBI-AWARE INVESTIGATION READINESS</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Investigation workflows aligned to India's regulatory expectations</h2>
       <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.125rem)','color':'var(--body)','maxWidth':'44rem','margin':'0 auto','lineHeight':1.75}}>
-        Verafye helps fraud, AML, and risk teams in India maintain investigation context, decision history, audit logs, and case evidence trails - aligned to evolving RBI expectations for fraud monitoring and reporting.
+        Verafye helps fraud, AML, and risk teams in India maintain investigation context, decision history, audit logs, and case evidence trails - aligned to evolving RBI expectations for fraud monitoring and reporting. For India-focused deployments, Verafye can support EWS and Red Flagged Account investigation workflows where configured, with reviewer controls, evidence trails, and audit-ready case records.
       </p>
     </div>
 
@@ -410,8 +410,8 @@ export default function IndiaPage() {
         <div className="card-icon-sm" style={{'background':'linear-gradient(135deg,rgba(30,111,183,0.1),rgba(90,178,255,0.1))','border':'1px solid rgba(30,111,183,0.2)','borderRadius':'0.75rem'}}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
         </div>
-        <h3 style={{'fontSize':'clamp(1rem,1.5vw,1.125rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','marginTop':'1rem'}}>Fraud monitoring workflows</h3>
-        <p style={{'fontSize':'0.813rem','color':'var(--body)','lineHeight':1.65}}>Investigation workflows designed to support fraud monitoring expectations - including alert triage, case escalation, and decision documentation.</p>
+        <h3 style={{'fontSize':'clamp(1rem,1.5vw,1.125rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','marginTop':'1rem'}}>Fraud monitoring & Red Flagged Account workflows</h3>
+        <p style={{'fontSize':'0.813rem','color':'var(--body)','lineHeight':1.65}}>Investigation workflows designed to support fraud monitoring expectations - including EWS review, Red Flagged Account investigation, alert triage, case escalation, and decision documentation where configured.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem'}}>
@@ -437,22 +437,22 @@ export default function IndiaPage() {
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>DATA PROTECTION & PRIVACY</p>
       <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>DPDP-Aware Platform Design for India</h2>
       <p style={{'fontSize':'clamp(0.875rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto'}}>
-        India&apos;s Digital Personal Data Protection Act (DPDP Act, 2023) establishes a data protection framework for personal data processed in India. Verafye&apos;s platform is designed to be DPDP-aware, with data handling practices and processing transparency built to align with the Act&apos;s principles as its implementing rules mature.
+        India&apos;s Digital Personal Data Protection Act (DPDP Act, 2023) establishes a data protection framework for personal data processed in India. Verafye&apos;s platform is designed to be DPDP-aware, with data handling practices and processing transparency built to align with the Act&apos;s principles as its implementing rules mature. For India-focused deployments, Verafye can support DPDP-aware implementation practices including controlled access, audit logs, purpose-based workflows, and retention policies configured to customer requirements.
       </p>
     </div>
     <div style={{'display':'grid','gridTemplateColumns':'repeat(3,1fr)','gap':'1.5rem','maxWidth':'72rem','margin':'0 auto 2rem'}}>
       {[
         {
           title: 'Lawful Purpose & Data Minimisation',
-          body: 'Verafye processes personal data only for documented, specific fraud and AML investigation purposes. Data handling is scoped to what is necessary for the stated use case — consistent with the DPDP Act\'s lawful purpose and minimisation principles.',
+          body: 'Verafye processes personal data only for documented, specific fraud and AML investigation purposes. Data handling is scoped to what is necessary for the stated use case - consistent with the DPDP Act\'s lawful purpose and minimisation principles.',
         },
         {
           title: 'Controlled Access & Transparency',
-          body: 'Access to personal data within the platform follows role-based controls and audit logging — supporting the transparency and accountability principles that underpin India\'s data protection framework.',
+          body: 'Access to personal data within the platform follows role-based controls and audit logging - supporting the transparency and accountability principles that underpin India\'s data protection framework.',
         },
         {
           title: 'Security Safeguards',
-          body: 'Verafye applies security controls and architectural patterns aligned to ISO/IEC 27001 principles, designed to protect personal data from breach or unauthorised access — aligned with the DPDP Act\'s reasonable security obligation.',
+          body: 'Verafye applies security controls and architectural patterns aligned to ISO/IEC 27001 principles, designed to protect personal data from breach or unauthorised access - aligned with the DPDP Act\'s reasonable security obligation.',
         },
       ].map(item => (
         <div key={item.title} className="card card-elevated" style={{'padding':'2rem'}}>

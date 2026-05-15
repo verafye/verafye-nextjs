@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Payment Fraud Detection Software | Protect Transactions",
-  description: "Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.",
+  title: "Investigation Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
+  description: "Connect merchant, beneficiary, transaction, and account signals into explainable investigation workflows. Built for PSPs, PayFacs, and payment processors with evidence packs and audit-ready records.",
   openGraph: {
-    title: "Payment Fraud Detection Software | Protect Transactions",
-    description: "Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.",
+    title: "Investigation Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
+    description: "Connect merchant, beneficiary, transaction, and account signals into explainable investigation workflows. Built for PSPs, PayFacs, and payment processors with evidence packs and audit-ready records.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Payment Fraud Detection Software | Protect Transactions",
-    description: "Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.",
+    title: "Investigation Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
+    description: "Connect merchant, beneficiary, transaction, and account signals into explainable investigation workflows. Built for PSPs, PayFacs, and payment processors with evidence packs and audit-ready records.",
   },
 };
 
@@ -38,7 +38,7 @@ export default function PaymentProcessorsPage() {
               Connect merchant, sub-merchant, payment, fraud, AML, identity, device, and behavior signals into faster, explainable investigations.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps payment platforms detect connected risk patterns across merchants, programs, users, counterparties, and transactions - turning fragmented alerts into cases your risk team can investigate and close faster.
+              Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Start alongside existing systems and expand into a broader fraud and AML operating workspace as value is proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -97,8 +97,8 @@ export default function PaymentProcessorsPage() {
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>),
-                title: 'Cross-Border Payment Risk and Merchant-Linked Fraud Networks',
-                body: 'Cross-border transaction flows and multi-merchant fraud rings create risk patterns that span jurisdictions, payment rails, and institution types  -  requiring connected intelligence across accounts, merchants, and transaction networks that individual-event monitoring cannot provide.',
+                title: 'Cross-Border Payment Risk, Chargeback-Linked Fraud, and Merchant-Linked Fraud Networks',
+                body: 'Cross-border transaction flows, chargeback-linked fraud escalation, and multi-merchant fraud rings create risk patterns that span jurisdictions, payment rails, and institution types  -  requiring connected intelligence across merchants, beneficiaries, accounts, mule-linked counterparties, and transaction networks that individual-event monitoring cannot provide.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -112,7 +112,7 @@ export default function PaymentProcessorsPage() {
       </section>
 
       {/* ── 3. WHY CURRENT STACK FALLS SHORT ────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
@@ -172,7 +172,7 @@ export default function PaymentProcessorsPage() {
                 A Unified Risk Intelligence Layer for Payment Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects merchant, transaction, device, and behavioural signals into a single intelligence layer  -  delivering graph-based detection and investigation-centric workflows that cover the full merchant lifecycle without adding operational overhead.
+                Verafye connects merchant, sub-merchant, beneficiary, account, transaction, device, and behavioural signals into a single fraud and AML operating layer  -  delivering graph-based detection, alert clustering, case workflows, evidence packs, and audit-ready investigation records that cover the full payment risk lifecycle without adding operational overhead.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -200,7 +200,7 @@ export default function PaymentProcessorsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>04</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Full Lifecycle Coverage Aligned With Regulatory Requirements</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye supports merchant risk management across the full lifecycle  -  from onboarding and KYB through ongoing transaction monitoring to payout risk assessment  -  providing continuous connected intelligence aligned with evolving regulatory expectations, including the fraud prevention and documentation requirements that payment scheme rules and PCI DSS v4.0 increasingly demand.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye supports merchant and payment risk management across the full lifecycle  -  from onboarding and KYB through ongoing transaction monitoring to payout risk assessment and suspicious flow escalation  -  with case workflows, evidence packs, reviewer controls, and audit-ready records aligned with evolving regulatory expectations, including the fraud prevention and documentation requirements that payment scheme rules and PCI DSS v4.0 increasingly demand.</p>
               </div>
             </div>
           </div>
@@ -216,7 +216,7 @@ export default function PaymentProcessorsPage() {
         now link to /use-cases/transaction-monitoring  -  the closest use-case page.
         CHANGE: Use-case ghost buttons added at section footer.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Relevant Capabilities</p>
@@ -229,7 +229,7 @@ export default function PaymentProcessorsPage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Cross-merchant signal aggregation',
-                body: 'Bring together payment, merchant, sub-merchant, user, counterparty, fraud, and AML signals in one investigation layer.',
+                body: 'Bring together payment, merchant, sub-merchant, beneficiary, account, mule, user, counterparty, fraud, and AML signals in one investigation layer - supporting both fraud and AML alert context for payment risk operations.',
                 href: '/platform',
                 cta: 'View Platform',
               },
@@ -249,8 +249,8 @@ export default function PaymentProcessorsPage() {
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>),
-                title: 'Investigation workflows',
-                body: 'Help teams prioritize cases, review evidence, record decisions, and maintain audit-ready investigation trails.',
+                title: 'Investigation workflows & evidence packs',
+                body: 'Support case creation, review queues, analyst assignment, reviewer controls, evidence attachment, decision recording, and audit-ready investigation trails for payment fraud and AML operations.',
                 href: '/solutions/investigation-intelligence',
                 cta: 'Explore Investigation Intelligence',
               },
@@ -342,12 +342,13 @@ export default function PaymentProcessorsPage() {
 
       {/* ── 7. RELATED INDUSTRIES ───────────────────────────────────────────── */}
       {/* CHANGE: New section  -  no cross-links between industry pages existed. */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Also Serving</p>
-          <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '2rem', letterSpacing: '-0.02em' }}>
+          <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', letterSpacing: '-0.02em' }}>
             Verafye Across Financial Institution Types
           </h2>
+          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - starting alongside existing systems and expanding into a broader operating workspace as value is proven.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.75rem' }}>
             <Link href="/industries/banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Banks <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -361,13 +362,13 @@ export default function PaymentProcessorsPage() {
 
       {/* ── 8. FINAL CTA ────────────────────────────────────────────────────── */}
       {/* CHANGE: Replaced <CTA /> with controlled inline band. */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            Connect payment risk into investigation-ready cases
+            See How Verafye Supports Payment Risk Operations
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how Verafye helps PSPs, PayFacs, MSBs, processors, and fintechs investigate faster with connected risk intelligence.
+            Connect transaction, merchant, beneficiary, account, mule, identity, device, and behavior signals from existing systems into investigation-ready workflows built on the Verafye platform.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

@@ -224,7 +224,7 @@ export default function RequestDemoClient() {
                         </svg>
                       ),
                       title: 'Real-World Use Case Walkthroughs',
-                      desc: 'Walk through scenarios relevant to your institution — mule detection, fraud ring investigation, payment risk, or AML monitoring.',
+                      desc: 'Walk through scenarios relevant to your institution - mule detection, fraud ring investigation, payment risk, or AML monitoring.',
                     },
                   ].map(item => (
                     <div key={item.title} style={{ display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
@@ -280,7 +280,7 @@ export default function RequestDemoClient() {
                     </div>
                     <h3 style={{ fontSize: '1.375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem', letterSpacing: '-0.02em' }}>Request received</h3>
                     <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '2rem', maxWidth: '22rem', marginLeft: 'auto', marginRight: 'auto' }}>
-                      Thank you — our team will be in touch within 1–2 business days to schedule your personalised demo.
+                      Thank you - our team will be in touch within 1–2 business days to schedule your personalised demo.
                     </p>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
                       <Link href="/" className="btn-primary">Back to home</Link>
@@ -292,7 +292,7 @@ export default function RequestDemoClient() {
                     <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.375rem', letterSpacing: '-0.02em' }}>Book a Walkthrough</h2>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '0.875rem', lineHeight: 1.6 }}>No commitment required. Fill in your details and we'll schedule a walkthrough tailored to your use case.</p>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '1.75rem', lineHeight: 1.6, paddingBottom: '1rem', borderBottom: '1px solid var(--border)' }}>
-                      Verafye is built for financial institutions and payment platforms operating under evolving regulatory expectations — supporting multi-jurisdiction environments across fraud, AML, and payment intelligence functions.
+                      Verafye is built for financial institutions and payment platforms operating under evolving regulatory expectations - supporting multi-jurisdiction environments across fraud, AML, and payment intelligence functions.
                     </p>
                     <form onSubmit={handleSubmit} noValidate>
 
@@ -406,12 +406,12 @@ export default function RequestDemoClient() {
               Request a demo to see how Verafye connects fraud, AML, and payments intelligence for financial institutions operating under real investigative and regulatory pressure.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); typeof window !== 'undefined' && window.trackEvent && window.trackEvent('demo_cta_click', { location: 'page_bottom' }); }} className="btn-primary">
+              <button type="button" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); typeof window !== 'undefined' && window.trackEvent && window.trackEvent('demo_cta_click', { location: 'page_bottom' }); }} className="btn-primary" style={{ cursor: 'pointer' }}>
                 Request Demo
                 <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </span>
-              </Link>
+              </button>
               <Link href="/platform/" className="btn-secondary">Explore the Platform</Link>
             </div>
           </div>

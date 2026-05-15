@@ -24,7 +24,7 @@ const categories = [
   {
     id: 'product-insights',
     label: 'Product Insights',
-    description: 'Deep dives into Verafye capabilities, architecture decisions, and the intelligence approaches behind graph-based detection and investigation.',
+    description: 'Deep dives into Verafye capabilities, product intelligence approaches, and the connected detection and investigation methods behind our platform.',
   },
   {
     id: 'use-case-deep-dives',
@@ -34,7 +34,7 @@ const categories = [
   {
     id: 'regulatory-perspectives',
     label: 'Regulatory Perspectives',
-    description: 'Analysis of evolving regulatory frameworks and how financial institutions can align their investigation workflows with changing expectations.',
+    description: 'Analysis of evolving regulatory frameworks and how regulated payment platforms and financial institutions can align their investigation workflows with changing expectations.',
   },
 ];
 
@@ -58,7 +58,7 @@ const resources = [
     categoryLabel: 'Product Insights',
     type: 'Article',
     title: 'Understanding Graph-Based Fraud Detection',
-    description: 'Graph intelligence represents a fundamental shift in how financial crime is detected — moving from event-level scoring to relationship-aware, network-level analysis. This piece explains the core concepts behind graph-based detection and why it matters for fraud and AML operations.',
+    description: 'Graph intelligence represents a fundamental shift in how financial crime is detected - moving from event-level scoring to relationship-aware, network-level analysis. This piece explains the core concepts behind graph-based detection and why it matters for fraud and AML operations.',
     gradient: 'gradient-bg-2',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -87,7 +87,7 @@ const resources = [
     categoryLabel: 'Use Case Deep Dives',
     type: 'Guide',
     title: 'Investigation Workflows in Financial Crime Operations',
-    description: 'Modern financial crime investigation requires more than alert handling — it demands structured, context-rich workflows that connect detection to resolution. This guide examines the components of effective investigation workflow design and how intelligence-driven approaches improve analyst productivity and case outcomes.',
+    description: 'Modern financial crime investigation requires more than alert handling - it demands structured, context-rich workflows that connect detection to resolution. This guide examines the components of effective investigation workflow design and how intelligence-driven approaches improve analyst productivity and case outcomes.',
     gradient: 'gradient-bg-4',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -118,7 +118,7 @@ const resources = [
     categoryLabel: 'Use Case Deep Dives',
     type: 'Use Case',
     title: 'Network-Based Detection of Mule Activity',
-    description: 'Mule networks are structured to evade transaction-level detection — operating across connected accounts, shared devices, and coordinated money movement patterns. This deep dive examines how graph intelligence and network clustering enable earlier, more complete detection of mule activity across banking and payment portfolios.',
+    description: 'Mule networks are structured to evade transaction-level detection - operating across connected accounts, shared devices, and coordinated money movement patterns. This deep dive examines how graph intelligence and network clustering enable earlier, more complete detection of mule activity across banking and payment portfolios.',
     gradient: 'gradient-bg-2',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -191,7 +191,7 @@ export default function ResourcesPage() {
               Insights Across Financial Crime and Risk Intelligence
             </h2>
             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-              Access content designed to help financial institutions and payment platforms understand evolving fraud patterns, regulatory expectations, and modern approaches to financial crime intelligence.
+              Access content designed to help regulated payment platforms, fintechs, digital banks, and financial institutions understand evolving fraud patterns, regulatory expectations, and modern approaches to financial crime intelligence.
             </p>
           </div>
         </div>
@@ -233,7 +233,7 @@ export default function ResourcesPage() {
       {/* ── 5. CTA ──────────────────────────────────────────────────────────── */}
       <CTA
         title="Stay Ahead of Financial Crime Trends"
-        subtitle="Explore how Verafye helps institutions adapt to evolving fraud, AML, and payment intelligence challenges."
+        subtitle="Explore how Verafye helps regulated payment platforms, fintechs, and financial institutions adapt to evolving fraud, AML, and payment risk challenges."
       />
 
     </>

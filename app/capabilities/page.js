@@ -1,14 +1,14 @@
 export const metadata = {
-  title: "Fraud & AML Capabilities | Verafye",
-  description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+  title: "Verafye Capabilities | Alert Clustering, Graph Intelligence & Case Workflows",
+  description: "Explore Verafye capabilities - alert clustering, graph intelligence, entity resolution, case workflows, evidence packs, and audit-ready records for fraud and AML risk teams.",
   openGraph: {
-    title: "Fraud & AML Capabilities | Verafye",
-    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+    title: "Verafye Capabilities | Alert Clustering, Graph Intelligence & Case Workflows",
+    description: "Explore Verafye capabilities - alert clustering, graph intelligence, entity resolution, case workflows, evidence packs, and audit-ready records for fraud and AML risk teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud & AML Capabilities | Verafye",
-    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+    title: "Verafye Capabilities | Alert Clustering, Graph Intelligence & Case Workflows",
+    description: "Explore Verafye capabilities - alert clustering, graph intelligence, entity resolution, case workflows, evidence packs, and audit-ready records for fraud and AML risk teams.",
   },
 };
 
@@ -20,7 +20,7 @@ const primaryCapabilities = [
       </svg>
     ),
     title: 'Investigation Intelligence',
-    body: 'Connect signals, cases, and entities across fraud and AML workflows into a shared investigation layer - so risk teams see patterns, not just alerts.',
+    body: 'Connect signals, cases, and entities across fraud and AML workflows into an Investigation Intelligence Layer built on the Verafye platform - so risk teams see patterns, relationships, and investigation-ready context, not just alerts.',
   },
   {
     icon: (
@@ -28,8 +28,8 @@ const primaryCapabilities = [
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
       </svg>
     ),
-    title: 'Signal Aggregation',
-    body: 'Ingest transaction, identity, device, behavior, and third-party signals through REST APIs and SDKs - normalized into a unified investigation context.',
+    title: 'Signal Ingestion',
+    body: 'Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals through REST APIs and SDKs - normalized into a unified investigation context.',
   },
   {
     icon: (
@@ -57,8 +57,8 @@ const primaryCapabilities = [
         <polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    title: 'Case Management',
-    body: 'Manage investigations with structured case queues, analyst assignment, evidence attachment, review workflows, and disposition tracking - in one place.',
+    title: 'Case Workflows',
+    body: 'Support case creation, assignment, review queues, prioritization, escalation, and closure workflows - with pre-assembled context, evidence attachment, reviewer controls, and disposition tracking in one place.',
   },
   {
     icon: (
@@ -115,8 +115,8 @@ const supportingCapabilities = [
         <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
       </svg>
     ),
-    title: 'Audit & Compliance Readiness',
-    body: 'Maintain structured audit logs, decision history, case evidence trails, and explainability records to support regulatory review - without rebuilding your compliance stack.',
+    title: 'Evidence Packs & Audit Trails',
+    body: 'Preserve linked signals, case context, analyst notes, decision rationale, and supporting records in structured evidence packs - with decision history, audit logs, and explainability records to support regulatory review.',
   },
   {
     icon: (
@@ -125,7 +125,7 @@ const supportingCapabilities = [
       </svg>
     ),
     title: 'APIs, SDKs & Integrations',
-    body: 'Connect Verafye to existing systems via REST APIs, server-side SDKs, and pre-built connectors - without ripping out tools your teams already rely on.',
+    body: 'Connect Verafye to existing fraud, AML, payment, identity, and case systems via REST APIs, server-side SDKs, and pre-built connectors - and start ingesting signals into investigation-ready workflows built on the Verafye platform.',
   },
 ];
 
@@ -163,7 +163,7 @@ export default function CapabilitiesPage() {
       {/* ── Section 1: Hero (light) ── */}
       <section style={{
         background: 'linear-gradient(180deg, #F8FBFF 0%, #fff 100%)',
-        padding: 'clamp(4.5rem,9vw,7rem) 1.5rem clamp(3.5rem,7vw,5.5rem)',
+        padding: 'clamp(3rem,6vw,4.5rem) 1.5rem clamp(2.5rem,5vw,3.5rem)',
         textAlign: 'center',
       }}>
         <div className="container" style={{maxWidth: '56rem'}}>
@@ -187,7 +187,7 @@ export default function CapabilitiesPage() {
             maxWidth: '44rem',
             margin: '0 auto 2.25rem',
           }}>
-            Explore how Verafye connects signals, clusters alerts, surfaces hidden networks, supports case decisions, and maintains audit-ready investigation trails.
+            Explore how Verafye connects signals, clusters alerts, surfaces hidden networks, supports case decisions, preserves evidence packs, and maintains audit-ready investigation trails - delivering a practical operating workspace for fraud and AML risk teams.
           </p>
           <div className="animate-fade-up delay-300" style={{display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap'}}>
             <a href="/request-demo" className="btn-primary">
@@ -202,7 +202,7 @@ export default function CapabilitiesPage() {
       </section>
 
       {/* ── Section 2: Overview intro ── */}
-      <section style={{padding: 'clamp(3rem,6vw,5rem) 1.5rem 2rem', background: '#fff'}}>
+      <section style={{padding: 'clamp(2rem,4vw,3rem) 1.5rem 1.5rem', background: '#fff'}}>
         <div className="container">
           <div style={{maxWidth: '56rem', margin: '0 auto', textAlign: 'center'}}>
             <p className="eyebrow" style={{marginBottom: '0.75rem'}}>WHAT VERAFYE COVERS</p>
@@ -217,26 +217,29 @@ export default function CapabilitiesPage() {
               Everything risk teams need to move from alerts to decisions
             </h2>
             <p style={{fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75}}>
-              Verafye brings together the capabilities that fraud, AML, and risk teams need to investigate effectively - from signal ingestion to case closure, and from alert triage to regulatory readiness.
+              Verafye brings together signal ingestion, integrations, configurable workflows, alert clustering, graph intelligence, case workflows, reviewer controls, evidence packs, and audit trails - giving lean teams a practical operating workspace for fraud and AML investigations, from signal ingestion to case closure.
             </p>
           </div>
         </div>
       </section>
 
       {/* ── Section 3a: Primary capabilities ── */}
-      <section className="section-light" style={{padding: 'clamp(2.5rem,5vw,4rem) 1.5rem'}}>
+      <section className="section-light" style={{padding: 'clamp(2rem,4vw,3.5rem) 1.5rem'}}>
         <div className="container">
           <div style={{maxWidth: '72rem', margin: '0 auto'}}>
-            <p style={{
-              fontSize: '0.6875rem',
-              fontWeight: 700,
-              color: 'var(--primary)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.1em',
-              marginBottom: '1.5rem',
-            }}>
-              Primary Capabilities
-            </p>
+            <div style={{display:'flex',alignItems:'center',gap:'0.75rem',marginBottom:'1.5rem'}}>
+              <p style={{
+                fontSize: '0.6875rem',
+                fontWeight: 700,
+                color: 'var(--primary)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                margin: 0,
+              }}>
+                Primary Capabilities
+              </p>
+              <div style={{flex:1,height:'1px',background:'var(--border)'}}/>
+            </div>
             <div className="grid-3" style={{gap: '1.25rem'}}>
               {primaryCapabilities.map((cap, i) => (
                 <div key={i} className="card card-elevated" style={{padding: '1.75rem'}}>
@@ -262,19 +265,22 @@ export default function CapabilitiesPage() {
       </section>
 
       {/* ── Section 3b: Supporting capabilities ── */}
-      <section style={{padding: 'clamp(2.5rem,5vw,4rem) 1.5rem', background: '#fff'}}>
+      <section style={{padding: 'clamp(2rem,4vw,3.5rem) 1.5rem', background: '#fff'}}>
         <div className="container">
           <div style={{maxWidth: '72rem', margin: '0 auto'}}>
-            <p style={{
-              fontSize: '0.6875rem',
-              fontWeight: 700,
-              color: 'var(--secondary)',
-              textTransform: 'uppercase',
-              letterSpacing: '0.1em',
-              marginBottom: '1.5rem',
-            }}>
-              Supporting Capabilities
-            </p>
+            <div style={{display:'flex',alignItems:'center',gap:'0.75rem',marginBottom:'1.5rem'}}>
+              <p style={{
+                fontSize: '0.6875rem',
+                fontWeight: 700,
+                color: 'var(--secondary)',
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                margin: 0,
+              }}>
+                Supporting Capabilities
+              </p>
+              <div style={{flex:1,height:'1px',background:'var(--border)'}}/>
+            </div>
             <div className="grid-3" style={{gap: '1.25rem'}}>
               {supportingCapabilities.map((cap, i) => (
                 <div key={i} className="card card-elevated" style={{padding: '1.75rem'}}>
@@ -300,9 +306,9 @@ export default function CapabilitiesPage() {
       </section>
 
       {/* ── Section 4: How capabilities work together — horizontal pictorial flow ── */}
-      <section className="section-light" style={{padding: 'clamp(3.5rem,7vw,5.5rem) 1.5rem'}}>
+      <section className="section-light" style={{padding: 'clamp(3rem,6vw,4.5rem) 1.5rem'}}>
         <div className="container">
-          <div style={{textAlign: 'center', maxWidth: '44rem', margin: '0 auto clamp(2.5rem,5vw,4rem)'}}>
+          <div style={{textAlign: 'center', maxWidth: '44rem', margin: '0 auto clamp(2rem,4vw,3rem)'}}>
             <p className="eyebrow" style={{marginBottom: '0.75rem'}}>HOW IT WORKS TOGETHER</p>
             <h2 style={{
               fontSize: 'clamp(1.5rem,3.5vw,2.3rem)',
@@ -312,7 +318,7 @@ export default function CapabilitiesPage() {
               color: 'var(--dark)',
               marginBottom: '1rem',
             }}>
-              From signals to decisions — one connected flow
+              From signals to decisions - one connected flow
             </h2>
             <p style={{fontSize: '1rem', color: 'var(--body)', lineHeight: 1.65}}>
               Verafye capabilities are designed to work as a connected layer. Each stage feeds into the next so risk teams always have context when they need it.
@@ -333,10 +339,10 @@ export default function CapabilitiesPage() {
                 </div>
                 <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Signals In</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
-                  Payments, identity, device, behavior, AML/watchlist, and third-party signals
+                  Fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, KYC/KYB outputs, and third-party enrichment signals
                 </p>
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: 'auto'}}>
-                  {['Fraud','AML','Payments','Identity','Device','Behavior'].map(t => (
+                  {['Fraud','AML','Payments','Identity','Device','KYC/KYB','Watchlist'].map(t => (
                     <span key={t} style={{fontSize: '0.5625rem', fontWeight: 600, color: '#1E6FB7', background: 'rgba(30,111,183,0.06)', border: '1px solid rgba(30,111,183,0.15)', borderRadius: '4px', padding: '0.2rem 0.45rem'}}>{t}</span>
                   ))}
                 </div>
@@ -357,7 +363,7 @@ export default function CapabilitiesPage() {
                 </div>
                 <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Connected Risk Layer</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
-                  Signal aggregation, entity resolution, alert clustering, and graph intelligence
+                  Normalize signals, link entities, cluster alerts across accounts, merchants, beneficiaries, and devices, and add graph-based relationship context
                 </p>
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: 'auto'}}>
                   {['Entity Resolution','Graph Intelligence','Alert Clustering'].map(t => (
@@ -381,10 +387,10 @@ export default function CapabilitiesPage() {
                 </div>
                 <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Investigation Intelligence</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
-                  Case context, prioritization, explainable decision support, and analyst workflows
+                  Prioritize cases, guide reviewer workflows, support explainable decisions, preserve evidence packs, and maintain audit-ready investigation records
                 </p>
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: 'auto'}}>
-                  {['Case Intelligence','Decision Support','Case Management'].map(t => (
+                  {['Case Workflows','Reviewer Controls','Evidence Packs'].map(t => (
                     <span key={t} style={{fontSize: '0.5625rem', fontWeight: 600, color: '#0891B2', background: 'rgba(8,145,178,0.06)', border: '1px solid rgba(8,145,178,0.15)', borderRadius: '4px', padding: '0.2rem 0.45rem'}}>{t}</span>
                   ))}
                 </div>
@@ -405,10 +411,10 @@ export default function CapabilitiesPage() {
                 </div>
                 <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Case Outcomes</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
-                  Faster closure, audit-ready records, and clearer investigation decisions
+                  Faster investigations, clearer decisions, audit-ready records, and better operating visibility for lean risk teams
                 </p>
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: 'auto'}}>
-                  {['Audit Trail','Explainability','Compliance Readiness'].map(t => (
+                  {['Faster Investigations','Audit-Ready Records','Lean Team Efficiency'].map(t => (
                     <span key={t} style={{fontSize: '0.5625rem', fontWeight: 600, color: '#059669', background: 'rgba(5,150,105,0.06)', border: '1px solid rgba(5,150,105,0.15)', borderRadius: '4px', padding: '0.2rem 0.45rem'}}>{t}</span>
                   ))}
                 </div>
@@ -463,7 +469,7 @@ export default function CapabilitiesPage() {
 
       {/* ── Section 5: CTA (light) ── */}
       <section style={{
-        padding: 'clamp(3.5rem,7vw,5.5rem) 1.5rem',
+        padding: 'clamp(2.5rem,5vw,4rem) 1.5rem',
         background: 'var(--bg-tint)',
         borderTop: '1px solid var(--border)',
         textAlign: 'center',
@@ -487,7 +493,7 @@ export default function CapabilitiesPage() {
             maxWidth: '38rem',
             margin: '0 auto 2.25rem',
           }}>
-            See how Verafye helps regulated financial platforms connect alerts, explain risk, and close cases faster.
+            See how Verafye helps regulated financial platforms connect alerts, explain risk, and close cases faster. Start with the capabilities your team needs - and expand as value is proven.
           </p>
           <div style={{display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap'}}>
             <a href="/request-demo" className="btn-primary">

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Investigation Software | AML Case Management",
-  description: "Fraud investigation software streamlining AML case management. Connect signals, ease regulatory reporting, reduce manual effort & resolve cases faster.",
+  title: "Investigation Workflow Modernization | Verafye",
+  description: "Modernize fraud and AML investigation workflows. Connect signals, surface patterns, and produce audit-ready evidence packs - without replacing existing detection and monitoring systems.",
   openGraph: {
-    title: "Fraud Investigation Software | AML Case Management",
-    description: "Fraud investigation software streamlining AML case management. Connect signals, ease regulatory reporting, reduce manual effort & resolve cases faster.",
+    title: "Investigation Workflow Modernization | Verafye",
+    description: "Modernize fraud and AML investigation workflows. Connect signals, surface patterns, and produce audit-ready evidence packs - without replacing existing detection and monitoring systems.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Investigation Software | AML Case Management",
-    description: "Fraud investigation software streamlining AML case management. Connect signals, ease regulatory reporting, reduce manual effort & resolve cases faster.",
+    title: "Investigation Workflow Modernization | Verafye",
+    description: "Modernize fraud and AML investigation workflows. Connect signals, surface patterns, and produce audit-ready evidence packs - without replacing existing detection and monitoring systems.",
   },
 };
 
@@ -95,7 +95,7 @@ export default function InvestigationWorkflowModernizationPage() {
       </section>
 
       {/* ── 3. WHY CURRENT APPROACH FAILS ───────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
@@ -190,7 +190,7 @@ export default function InvestigationWorkflowModernizationPage() {
       </section>
 
       {/* ── 5. HOW VERAFYE SOLVES IT ────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
@@ -205,7 +205,7 @@ export default function InvestigationWorkflowModernizationPage() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
                 { step: '01', title: 'Unified Investigation View Across Systems', body: 'Verafye aggregates fraud, AML, and payments signals into a single investigation view  -  eliminating the platform switching and manual context gathering that consumes analyst capacity before a case can meaningfully begin.' },
-                { step: '02', title: 'Alert Prioritisation Using Context and Network Risk', body: 'Alerts are scored and ranked using entity context, relationship data, and cross-system signals  -  ensuring investigation queues are always ordered by genuine risk rather than volume, recency, or static rule weight.' },
+                { step: '02', title: 'Alert Prioritisation Using Context and Network Risk', body: 'Alerts are organized by entity context, relationship data, and cross-system signals  -  ensuring investigation queues are always ordered by genuine risk rather than volume, recency, or alert age alone.' },
                 { step: '03', title: 'Graph-Based Insights at the Point of Investigation', body: 'Every case arrives with pre-assembled graph context  -  entity profiles, relationship maps, network cluster data, and transaction flow summaries  -  giving analysts the intelligence they need to make decisions without manual reconstruction.' },
                 { step: '04', title: 'Structured Investigation Workflows', body: 'Verafye guides analysts through consistent, structured investigation steps  -  with built-in escalation paths, disposition tracking, and audit trails that standardise quality, reduce variance, and support the compliance, governance, and regulatory traceability requirements that examiners expect from financial crime operations.' },
                 { step: '05', title: 'Alert Clustering Into Investigation Cases', body: 'Related alerts across fraud, AML, and payments are automatically clustered into coherent cases  -  reducing raw alert volume, surfacing coordinated activity as single investigation units, and enabling analysts to resolve clusters rather than individual events.' },
@@ -283,7 +283,7 @@ export default function InvestigationWorkflowModernizationPage() {
       </section>
 
       {/* ── 7. OUTCOMES ─────────────────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Business Impact</p>
@@ -399,7 +399,7 @@ export default function InvestigationWorkflowModernizationPage() {
         Secondary button links to /solutions/investigation-intelligence  - 
         the solution page that directly backs this use case.
       */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
             Move from alert review to connected investigations

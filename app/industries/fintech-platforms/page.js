@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Detection Platform for Fintech | Prevent Fraud",
-  description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
+  title: "Investigation Intelligence for Fintech Payment Platforms | Verafye",
+  description: "Investigation intelligence for payment-enabled fintech platforms - embedded finance, wallets, cross-border, and BaaS platforms. Connect risk signals into explainable investigation workflows.",
   openGraph: {
-    title: "Fraud Detection Platform for Fintech | Prevent Fraud",
-    description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
+    title: "Investigation Intelligence for Fintech Payment Platforms | Verafye",
+    description: "Investigation intelligence for payment-enabled fintech platforms - embedded finance, wallets, cross-border, and BaaS platforms. Connect risk signals into explainable investigation workflows.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection Platform for Fintech | Prevent Fraud",
-    description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
+    title: "Investigation Intelligence for Fintech Payment Platforms | Verafye",
+    description: "Investigation intelligence for payment-enabled fintech platforms - embedded finance, wallets, cross-border, and BaaS platforms. Connect risk signals into explainable investigation workflows.",
   },
 };
 
@@ -30,15 +30,15 @@ export default function FintechPlatformsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>FINTECH PLATFORMS</p>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>PAYMENT FINTECH PLATFORMS</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Investigation intelligence for growing fintech platforms
+              Investigation intelligence for payment-enabled fintech platforms
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Connect identity, payment, account, device, behavior, fraud, and AML signals into one investigation layer as your fintech scales.
+              Connect payment, identity, account, device, behavior, fraud, and AML signals into one investigation layer - built for embedded finance, wallet platforms, cross-border fintechs, and BaaS providers.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps fintech platforms move beyond siloed risk tools by connecting signals across onboarding, transactions, accounts, devices, and AML workflows - helping teams investigate faster, see hidden networks, and make explainable decisions.
+              Verafye helps payment-enabled fintech platforms move beyond siloed risk tools by connecting signals across payment flows, onboarding, accounts, devices, and AML workflows - helping teams investigate faster, see hidden networks, and make explainable decisions built on the Verafye platform.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -112,7 +112,7 @@ export default function FintechPlatformsPage() {
       </section>
 
       {/* ── 3. WHY CURRENT STACK FALLS SHORT ────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
@@ -170,7 +170,7 @@ export default function FintechPlatformsPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                A Scalable Intelligence Layer for Fintech Risk Operations
+                A Scalable Intelligence Layer for Payment Fintech Risk Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
                 Verafye connects user, device, transaction, and behavioural signals into a unified intelligence layer  -  delivering graph-based detection and investigation-centric workflows that scale with platform growth without proportional increases in analyst headcount or rule management overhead.
@@ -217,7 +217,7 @@ export default function FintechPlatformsPage() {
         CHANGE: "User and Behavioral Analysis" now links to /use-cases/transaction-monitoring.
         CHANGE: Use-case ghost buttons added at section footer.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Relevant Capabilities</p>
@@ -343,7 +343,7 @@ export default function FintechPlatformsPage() {
 
       {/* ── 7. RELATED INDUSTRIES ───────────────────────────────────────────── */}
       {/* CHANGE: New section  -  no cross-links between industry pages existed. */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Also Serving</p>
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '2rem', letterSpacing: '-0.02em' }}>
@@ -362,13 +362,13 @@ export default function FintechPlatformsPage() {
 
       {/* ── 8. FINAL CTA ────────────────────────────────────────────────────── */}
       {/* CHANGE: Replaced <CTA /> with controlled inline band. */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            Scale fintech risk operations without fragmented investigations
+            See How Verafye Supports Fintech Payment Risk Teams
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how Verafye helps fintech platforms connect signals, explain risk, and close cases faster.
+            Bring fragmented payment, fraud, AML, identity, device, behavior, and transaction signals into one investigation-ready workflow.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

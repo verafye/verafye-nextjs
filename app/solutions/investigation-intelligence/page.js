@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Intelligence Platform | Faster Investigations",
-  description: "Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.",
+  title: "Investigation Intelligence | Verafye",
+  description: "Connect fraud, AML, and payments signals into explainable investigation cases. Surface hidden entity patterns and produce audit-ready evidence for regulated financial crime teams.",
   openGraph: {
-    title: "Fraud Intelligence Platform | Faster Investigations",
-    description: "Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.",
+    title: "Investigation Intelligence | Verafye",
+    description: "Connect fraud, AML, and payments signals into explainable investigation cases. Surface hidden entity patterns and produce audit-ready evidence for regulated financial crime teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Intelligence Platform | Faster Investigations",
-    description: "Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.",
+    title: "Investigation Intelligence | Verafye",
+    description: "Connect fraud, AML, and payments signals into explainable investigation cases. Surface hidden entity patterns and produce audit-ready evidence for regulated financial crime teams.",
   },
 };
 
@@ -35,7 +35,7 @@ export default function InvestigationIntelligencePage() {
               Connect alerts, explain risk, and close cases faster with case intelligence, graph context, and audit-ready workflows.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps teams move from fragmented alerts and manual review to connected investigations that show what happened, who is connected, why it matters, and what action to take next.
+              Investigation Intelligence is the operating layer within the Verafye platform that turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -113,7 +113,7 @@ export default function InvestigationIntelligencePage() {
       </section>
 
       {/* ── 3. WHY LEGACY TOOLS FAIL ────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Stacks Fall Short</p>
@@ -173,7 +173,7 @@ export default function InvestigationIntelligencePage() {
                 An Investigation-Centric Intelligence Layer
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye restructures the investigation experience - from alert-centric triage to structured, context-rich case resolution - by clustering signals, aggregating cross-system intelligence, and delivering decision support at the point of investigation. Every case carries a full audit trail, supporting the traceability and consistency that institutions need to operate under increasing examiner scrutiny.
+                Verafye restructures the investigation experience - from alert-centric triage to structured, context-rich case resolution - by clustering signals, forming reviewable cases, aggregating cross-system intelligence, and delivering decision support at the point of investigation. Every case carries a structured evidence pack and full audit trail, with reviewer controls that support the traceability and consistency institutions need to operate under increasing examiner scrutiny.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
@@ -194,15 +194,15 @@ export default function InvestigationIntelligencePage() {
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>04</div>
-                <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Investigation Workflows</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Structured workflows guide analysts through the investigation process - with consistent steps, escalation paths, and full audit trails that support regulatory traceability requirements and examiner review.</p>
+                <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Investigation Workflows &amp; Reviewer Controls</h3>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Structured workflows guide analysts through investigation - with consistent steps, escalation paths, reviewer controls for controlled access and decision approval, evidence attachment, and full audit trails that support regulatory traceability requirements and examiner review.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>05</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Decision Support</h3>
                 {/* CHANGE: "graph intelligence" is now a linked phrase → /solutions/graph-intelligence */}
                 <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>
-                  At every step, Verafye surfaces the context analysts need - risk scores,{' '}
+                  At every step, Verafye surfaces the context analysts need - risk context,{' '}
                   <Link href="/solutions/graph-intelligence" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none' }}>graph intelligence</Link>
                   {' '}context, prior case history, and network indicators - to support confident, faster decisions.
                 </p>
@@ -218,7 +218,7 @@ export default function InvestigationIntelligencePage() {
       </section>
 
       {/* ── 5. CORE CAPABILITIES ────────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Core Capabilities</p>
@@ -236,17 +236,17 @@ export default function InvestigationIntelligencePage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>),
                 title: 'Investigation prioritization',
-                body: 'Help teams focus on the cases that matter most with alert clustering and risk context.',
+                body: 'Focus teams on the cases that matter most - alert clustering organizes cases by risk context, entity relationships, and network signals, ensuring high-priority investigations surface to the top of the review queue.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>),
                 title: 'Explainable decision support',
-                body: 'Support analysts with case summaries, suggested next steps, evidence, and rationale.',
+                body: 'Support analysts with case summaries, entity context, graph intelligence, suggested next steps, evidence, and decision rationale - keeping humans in control of every case outcome.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>),
-                title: 'Audit-ready workflows',
-                body: 'Maintain decisions, notes, evidence, logs, and review history for compliance and governance.',
+                title: 'Evidence packs &amp; audit-ready records',
+                body: 'Preserve linked signals, case context, analyst notes, decision rationale, and supporting records in structured evidence packs - with decision history, audit logs, and review records for compliance and governance.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -287,7 +287,7 @@ export default function InvestigationIntelligencePage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01M7 20v-4M12 20v-8M17 20V8M22 4v16"/></svg>),
                 title: 'Better Prioritization Across Investigation Queues',
-                body: 'Risk-based case scoring ensures investigation queues are always ordered by true risk - so analysts spend their time on the cases that matter most, not simply the oldest ones.',
+                body: 'Risk-based case prioritization ensures investigation queues are always ordered by genuine risk context - so analysts spend their time on the cases that matter most, not simply the oldest ones.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -331,7 +331,7 @@ export default function InvestigationIntelligencePage() {
         at banks and payment processors specifically; making that explicit converts
         generic page visitors into segment-qualified prospects.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Built For</p>
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '2rem', letterSpacing: '-0.02em' }}>
@@ -348,6 +348,10 @@ export default function InvestigationIntelligencePage() {
             </Link>
             <Link href="/industries/fintech-platforms" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Fintech Platforms
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </Link>
+            <Link href="/industries/digital-banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
+              Digital Banks &amp; Neo Banks
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </Link>
           </div>
@@ -403,13 +407,13 @@ export default function InvestigationIntelligencePage() {
         Secondary button links to the investigation workflow use case - the most
         logical next step for a visitor who has engaged with investigation intelligence content.
       */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            Build faster, clearer investigations
+            See how fragmented alerts become investigation-ready cases
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how Verafye helps lean risk teams connect alerts, explain risk, and close cases faster.
+            See how fragmented alerts become investigation-ready cases inside the Verafye platform - with alert clustering, evidence packs, reviewer controls, and audit-ready workflows. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

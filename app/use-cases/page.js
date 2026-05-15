@@ -2,16 +2,16 @@ import Link from 'next/link';
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: "Fraud & AML Use Cases | Financial Crime Solutions",
-  description: "Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.",
+  title: "Fraud, AML & Risk Investigation Use Cases | Verafye",
+  description: "Explore investigation use cases for regulated financial platforms - transaction monitoring, mule detection, scam investigation, account abuse, and investigation workflow modernization.",
   openGraph: {
-    title: "Fraud & AML Use Cases | Financial Crime Solutions",
-    description: "Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.",
+    title: "Fraud, AML & Risk Investigation Use Cases | Verafye",
+    description: "Explore investigation use cases for regulated financial platforms - transaction monitoring, mule detection, scam investigation, account abuse, and investigation workflow modernization.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud & AML Use Cases | Financial Crime Solutions",
-    description: "Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.",
+    title: "Fraud, AML & Risk Investigation Use Cases | Verafye",
+    description: "Explore investigation use cases for regulated financial platforms - transaction monitoring, mule detection, scam investigation, account abuse, and investigation workflow modernization.",
   },
 };
 
@@ -33,7 +33,7 @@ const useCases = [
   {
     eyebrow: 'Monitoring',
     title: 'Transaction Monitoring',
-    description: 'Enhance transaction monitoring with context-aware intelligence across systems and behaviors — improving signal quality and reducing false positives.',
+    description: 'Enhance transaction monitoring with context-aware intelligence across systems and behaviors - improving signal quality and reducing false positives.',
     href: '/use-cases/transaction-monitoring',
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -89,10 +89,10 @@ export default function UseCasesPage() {
               One platform, three core use cases
             </h2>
             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '48rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye connects fraud, AML, payments, identity, device, and behavior signals into a single investigation layer — improving visibility, efficiency, and decision quality across each of these workflows.
+              Verafye connects fraud, AML, payments, identity, device, and behavior signals into a single investigation layer - improving visibility, efficiency, and decision quality across each of these workflows.
             </p>
           </div>
-          {/* How it connects — 3-column context strip */}
+          {/* How it connects - 3-column context strip */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1.5rem', maxWidth: '72rem', margin: '0 auto', paddingBottom: '4rem', borderBottom: '1px solid var(--border)' }}>
             {[
               {
@@ -103,7 +103,7 @@ export default function UseCasesPage() {
               {
                 color: '#7C3AED',
                 label: 'Signal-aware monitoring',
-                text: 'Enhance transaction monitoring by bringing cross-system context into alert review — reducing false positives and helping teams focus on signals with real investigative value.',
+                text: 'Enhance transaction monitoring by bringing cross-system context into alert review - reducing false positives and helping teams focus on signals with real investigative value.',
               },
               {
                 color: '#059669',

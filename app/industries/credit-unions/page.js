@@ -159,7 +159,7 @@ export default function CreditUnionsPage() {
                 Enterprise-Grade Intelligence Without Enterprise Complexity
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye sits across the existing technology stack  -  connecting fraud, AML, and payments signals into a unified intelligence layer that improves detection, structures investigations, and supports regulatory alignment without requiring wholesale infrastructure replacement.
+                Verafye connects fraud, AML, and payments signals from existing systems into investigation-ready workflows built on the Verafye platform  -  improving detection, structuring investigations, and supporting regulatory alignment. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>

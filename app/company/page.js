@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "About Verafye | AI Fraud & AML Platform",
-  description: "Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.",
+  title: "Company | Verafye",
+  description: "Verafye builds investigation intelligence for regulated financial platforms - helping fraud and AML risk teams connect signals, explain risk, and close cases faster.",
   openGraph: {
-    title: "About Verafye | AI Fraud & AML Platform",
-    description: "Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.",
+    title: "Company | Verafye",
+    description: "Verafye builds investigation intelligence for regulated financial platforms - helping fraud and AML risk teams connect signals, explain risk, and close cases faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "About Verafye | AI Fraud & AML Platform",
-    description: "Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.",
+    title: "Company | Verafye",
+    description: "Verafye builds investigation intelligence for regulated financial platforms - helping fraud and AML risk teams connect signals, explain risk, and close cases faster.",
   },
 };
 
@@ -209,17 +209,17 @@ export default function Page() {
     <div style={{'maxWidth':'72rem','margin':'0 auto'}}>
       <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
         <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>Why Verafye Exists</p>
-        <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Built for the Mid-Market Gap</h2>
+        <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Built for Regulated Payment Platforms Operating Under Real Compliance Pressure</h2>
       </div>
       <div style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'3rem','alignItems':'start'}}>
         <div>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Financial institutions are entering a regulatory-driven upgrade cycle.</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Across fraud, AML, and payments, expectations are shifting toward connected monitoring, explainable decisioning, and traceable investigations. While large institutions have invested in complex legacy systems, mid-market banks, payment platforms, and fintechs face the same requirements without access to infrastructure built for that scale.</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','fontWeight':'600','color':'var(--dark)','lineHeight':'1.75'}}>Verafye was built for this gap.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Regulated payment platforms, fintechs, and financial institutions operate across fragmented fraud, AML, payment, identity, and case systems - each generating signals that rarely reach investigators in a connected, actionable form.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Lean risk teams face growing alert volumes, rising regulatory expectations, and the pressure to investigate faster and more thoroughly - without the time or resources to manually assemble context from disconnected systems.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','fontWeight':'600','color':'var(--dark)','lineHeight':'1.75'}}>Verafye was built to change that.</p>
         </div>
         <div>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>The platform brings together graph-native intelligence, investigation workflows, and cross-system signal correlation into a unified layer  -  designed for environments where regulatory expectations and operational complexity are both increasing.</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. It is an investigation layer for intelligence-led financial crime operations.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform - giving fraud and AML teams a unified investigation workspace with graph-native detection, structured case management, and full audit trails.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. It is the investigation intelligence layer for regulated payment platforms and financial institutions operating under real compliance pressure.</p>
         </div>
       </div>
     </div>
@@ -237,7 +237,7 @@ export default function Page() {
       <div style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'2rem'}}>
         <div className="card card-elevated" style={{'padding':'2.5rem'}}>
           <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--secondary)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.75rem'}}>Vision</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>To enable financial institutions to operate with clarity, confidence, and control in an increasingly complex financial crime landscape.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>To enable regulated payment platforms and financial institutions to operate with clarity, confidence, and control in an increasingly complex financial crime landscape.</p>
         </div>
         <div className="card card-elevated" style={{'padding':'2.5rem'}}>
           <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--secondary)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.75rem'}}>Mission</p>
@@ -290,11 +290,11 @@ export default function Page() {
       `}</style>
       <div className="card card-elevated" style={{'padding':'2rem','textAlign':'center'}}>
         <div style={{'width':'5rem','height':'5rem','borderRadius':'50%','overflow':'hidden','margin':'0 auto 1.25rem','border':'2px solid rgba(30,111,183,0.15)','flexShrink':'0'}}>
-          <img src="/images/team/abhishek-tuppada.jpeg" alt="Abhishek Tuppada" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
+          <img src="/images/team/abhishek-tuppada.jpeg" alt="Abhishek Tuppada - Founder, Verafye" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
         </div>
         <div style={{'display':'flex','alignItems':'center','justifyContent':'center','gap':'0.4rem','marginBottom':'0.25rem'}}>
           <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','margin':'0'}}>Abhishek Tuppada</h3>
-          <a href="https://www.linkedin.com/in/abhishektuppada/" target="_blank" rel="noopener noreferrer" aria-label="Abhishek Tuppada on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
+          <a href="https://www.linkedin.com/in/abhishektuppada/" target="_blank" rel="noopener noreferrer" aria-label="View Abhishek Tuppada on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
         </div>
@@ -303,11 +303,11 @@ export default function Page() {
       </div>
       <div className="card card-elevated" style={{'padding':'2rem','textAlign':'center'}}>
         <div style={{'width':'5rem','height':'5rem','borderRadius':'50%','overflow':'hidden','margin':'0 auto 1.25rem','border':'2px solid rgba(30,111,183,0.15)','flexShrink':'0'}}>
-          <img src="/images/team/vasuki-raghavendra.jpeg" alt="Vasuki Raghavendra" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
+          <img src="/images/team/vasuki-raghavendra.jpeg" alt="Vasuki Raghavendra - Founder, Verafye" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
         </div>
         <div style={{'display':'flex','alignItems':'center','justifyContent':'center','gap':'0.4rem','marginBottom':'0.25rem'}}>
           <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','margin':'0'}}>Vasuki Raghavendra</h3>
-          <a href="https://www.linkedin.com/in/vasuki-br/" target="_blank" rel="noopener noreferrer" aria-label="Vasuki Raghavendra on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
+          <a href="https://www.linkedin.com/in/vasuki-br/" target="_blank" rel="noopener noreferrer" aria-label="View Vasuki Raghavendra on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
         </div>
@@ -316,11 +316,11 @@ export default function Page() {
       </div>
       <div className="card card-elevated" style={{'padding':'2rem','textAlign':'center'}}>
         <div style={{'width':'5rem','height':'5rem','borderRadius':'50%','overflow':'hidden','margin':'0 auto 1.25rem','border':'2px solid rgba(30,111,183,0.15)','flexShrink':'0'}}>
-          <img src="/images/team/pradeep-jalisatgi.jpeg" alt="Pradeep Jalisatgi" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
+          <img src="/images/team/pradeep-jalisatgi.jpeg" alt="Pradeep Jalisatgi - Founder, Verafye" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
         </div>
         <div style={{'display':'flex','alignItems':'center','justifyContent':'center','gap':'0.4rem','marginBottom':'0.25rem'}}>
           <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','margin':'0'}}>Pradeep Jalisatgi</h3>
-          <a href="https://www.linkedin.com/in/pradeep-jalisatgi/" target="_blank" rel="noopener noreferrer" aria-label="Pradeep Jalisatgi on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
+          <a href="https://www.linkedin.com/in/pradeep-jalisatgi/" target="_blank" rel="noopener noreferrer" aria-label="View Pradeep Jalisatgi on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
         </div>
@@ -329,11 +329,11 @@ export default function Page() {
       </div>
       <div className="card card-elevated" style={{'padding':'2rem','textAlign':'center'}}>
         <div style={{'width':'5rem','height':'5rem','borderRadius':'50%','overflow':'hidden','margin':'0 auto 1.25rem','border':'2px solid rgba(30,111,183,0.15)','flexShrink':'0'}}>
-          <img src="/images/team/sudeendra-sadashiv.jpeg" alt="Sudeendra Sadashiv" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
+          <img src="/images/team/sudeendra-sadashiv.jpeg" alt="Sudeendra Sadashiva - Founder, Verafye" style={{'width':'100%','height':'100%','objectFit':'cover','objectPosition':'center top'}} />
         </div>
         <div style={{'display':'flex','alignItems':'center','justifyContent':'center','gap':'0.4rem','marginBottom':'0.25rem'}}>
-          <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','margin':'0'}}>Sudeendra Sadashiv</h3>
-          <a href="https://www.linkedin.com/in/sudeendra-sadashiva/" target="_blank" rel="noopener noreferrer" aria-label="Sudeendra Sadashiv on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
+          <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','margin':'0'}}>Sudeendra Sadashiva</h3>
+          <a href="https://www.linkedin.com/in/sudeendra-sadashiva/" target="_blank" rel="noopener noreferrer" aria-label="View Sudeendra Sadashiva on LinkedIn" style={{'display':'flex','alignItems':'center','color':'#0A66C2','flexShrink':'0'}}>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
         </div>
@@ -429,7 +429,7 @@ export default function Page() {
             See Verafye in Action
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            Talk to our team about how Verafye supports fraud, AML, and payments intelligence operations for financial institutions and payment platforms.
+            Talk to our team about how Verafye supports fraud, AML, and payment risk operations for regulated payment platforms, fintechs, and financial institutions.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

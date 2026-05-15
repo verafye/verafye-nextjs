@@ -7,10 +7,10 @@ const footerColumns = [
     heading: 'Platform',
     links: [
       { label: 'Platform Overview',          href: '/platform' },
-      { label: 'Graph Intelligence',         href: '/solutions/graph-intelligence' },
+      { label: 'Capabilities',               href: '/capabilities' },
       { label: 'Investigation Intelligence', href: '/solutions/investigation-intelligence' },
+      { label: 'Graph Intelligence',         href: '/solutions/graph-intelligence' },
       { label: 'Mule Account Detection',     href: '/solutions/mule-account-detection' },
-      { label: 'Capabilities',              href: '/capabilities' },
     ],
   },
   {
@@ -25,12 +25,12 @@ const footerColumns = [
   {
     heading: 'Industries',
     links: [
-      { label: 'Digital Banks / Neo Banks',       href: '/industries/digital-banks' },
-      { label: 'PSPs, PayFacs, MSBs & FinTechs',  href: '/industries/payment-processors-psps-payfacs' },
-      { label: 'Community Banks & Credit Unions', href: '/industries/credit-unions' },
-      { label: 'Digital Lending & BNPL',          href: '/industries/digital-lending-bnpl' },
-      { label: 'Banks',                           href: '/industries/banks' },
-      { label: 'E-Commerce & Retail',             href: '/industries/ecommerce-retail' },
+      { label: 'PSPs, PayFacs & Payment Processors',      href: '/industries/payment-processors-psps-payfacs' },
+      { label: 'FinTech Payment Platforms',                       href: '/industries/fintech-platforms' },
+      { label: 'Digital Banks & Neo Banks',               href: '/industries/digital-banks' },
+      { label: 'Banks & Regional Financial Institutions', href: '/industries/banks' },
+      { label: 'Digital Lending & BNPL',                  href: '/industries/digital-lending-bnpl' },
+      { label: 'E-Commerce & Retail',                     href: '/industries/ecommerce-retail' },
     ],
   },
   {
@@ -63,7 +63,7 @@ export default function Footer() {
         {/* ── MAIN 5-COLUMN GRID ──────────────────────────────────────────── */}
         <div className="footer-main-grid">
 
-          {/* Col 1 — Brand */}
+          {/* Col 1 - Brand */}
           <div className="footer-brand-col">
             <Link href="/" style={{ display: 'inline-block', marginBottom: '1rem' }}>
               <img
@@ -98,9 +98,31 @@ export default function Footer() {
             >
               Request a Demo →
             </Link>
+            {/* LinkedIn */}
+            <div style={{ marginTop: '1.25rem' }}>
+              <a
+                href="https://www.linkedin.com/company/104417539"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Verafye on LinkedIn"
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.4rem',
+                  fontSize: '0.75rem',
+                  color: '#6b7b8d',
+                  transition: 'color 0.15s',
+                }}
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                LinkedIn
+              </a>
+            </div>
           </div>
 
-          {/* Cols 2–5 — Nav columns */}
+          {/* Cols 2–5 - Nav columns */}
           {footerColumns.map(col => (
             <div key={col.heading}>
               <p style={{
@@ -145,7 +167,7 @@ export default function Footer() {
       </div>
 
       {/* ── SCOPED STYLES ────────────────────────────────────────────────────
-          CSS-only hover — no JS handlers, no 'use client' needed.
+          CSS-only hover - no JS handlers, no 'use client' needed.
       ───────────────────────────────────────────────────────────────────────── */}
       <style>{`
         .footer-nav-link {
@@ -163,6 +185,30 @@ export default function Footer() {
           grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr 1fr;
           gap: 2rem 2.5rem;
           align-items: start;
+        }
+        @media (max-width: 1024px) {
+          .footer-main-grid {
+            grid-template-columns: 1.4fr 1fr 1fr 1fr;
+            gap: 2rem 1.5rem;
+          }
+        }
+        @media (max-width: 768px) {
+          .footer-main-grid {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2rem 1.25rem;
+          }
+        }
+        @media (max-width: 540px) {
+          .footer-main-grid {
+            grid-template-columns: 1fr 1fr;
+            gap: 1.75rem 1rem;
+          }
+        }
+        @media (max-width: 380px) {
+          .footer-main-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+          }
         }
         .footer-bottom {
           display: flex;
@@ -188,49 +234,8 @@ export default function Footer() {
         .footer-bottom-links a:hover {
           color: #5AB2FF;
         }
-        @media (max-width: 1100px) {
-          .footer-main-grid {
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-          }
-          .footer-brand-col {
-            grid-column: span 3;
-          }
-        }
-        @media (max-width: 768px) {
-          .footer-main-grid {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-          }
-          .footer-brand-col {
-            grid-column: span 2;
-          }
-        }
-        @media (max-width: 640px) {
-          .footer-main-grid {
-            grid-template-columns: 1fr 1fr;
-            gap: 1.75rem;
-          }
-          .footer-brand-col {
-            grid-column: span 2;
-          }
-          .footer-bottom {
-            flex-direction: column;
-            align-items: flex-start;
-          }
-          .footer-bottom-links {
-            gap: 1rem;
-          }
-        }
-        @media (max-width: 400px) {
-          .footer-main-grid {
-            grid-template-columns: 1fr;
-          }
-          .footer-brand-col {
-            grid-column: span 1;
-          }
-        }
-      `}</style>
-    </footer>
+      `}
+    </style>
+  </footer>
   );
 }

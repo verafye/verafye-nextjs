@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AML Transaction Monitoring Software | Detect Risk Faster",
-  description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
+  title: "Transaction Monitoring Workflows | Verafye",
+  description: "Connect AML transaction monitoring alerts into investigation-ready cases. Surface suspicious networks, reduce alert noise, and support audit-ready workflows for regulated financial crime teams.",
   openGraph: {
-    title: "AML Transaction Monitoring Software | Detect Risk Faster",
-    description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
+    title: "Transaction Monitoring Workflows | Verafye",
+    description: "Connect AML transaction monitoring alerts into investigation-ready cases. Surface suspicious networks, reduce alert noise, and support audit-ready workflows for regulated financial crime teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AML Transaction Monitoring Software | Detect Risk Faster",
-    description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
+    title: "Transaction Monitoring Workflows | Verafye",
+    description: "Connect AML transaction monitoring alerts into investigation-ready cases. Surface suspicious networks, reduce alert noise, and support audit-ready workflows for regulated financial crime teams.",
   },
 };
 
@@ -44,7 +44,7 @@ export default function TransactionMonitoringPage() {
               Connect transaction alerts with fraud, AML, identity, device, and behavior signals so teams can investigate faster and make explainable decisions.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps risk and compliance teams move beyond isolated transaction alerts by clustering related activity, surfacing entity and network context, and turning monitoring outputs into investigation-ready cases.
+              Verafye supports transaction monitoring workflows that connect alert creation, risk prioritization, review queues, case formation, and evidence trails - helping fraud and AML teams move from isolated alerts to investigation-ready cases built on the Verafye platform.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -98,7 +98,7 @@ export default function TransactionMonitoringPage() {
       </section>
 
       {/* ── 3. WHY CURRENT SYSTEMS FAIL ─────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Falls Short</p>
@@ -177,7 +177,7 @@ export default function TransactionMonitoringPage() {
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>With Verafye</p>
               {[
                 'Every alert enriched with entity profile, device signals, and network context at generation',
-                'Contextual scoring deprioritises legitimate activity earlier  -  fewer false positives reaching analysts',
+                'Contextual enrichment helps deprioritise legitimate activity earlier  -  fewer false positives reaching analysts',
                 'Unified fraud and AML monitoring layer  -  cross-domain risk visible in a single queue, with documented decision trails that support regulatory review',
                 'Pre-assembled case context delivered at alert creation  -  analysts investigate, not research',
                 'Intelligence improves with scale  -  graph detection surfaces coordinated risk that rules miss',
@@ -193,7 +193,7 @@ export default function TransactionMonitoringPage() {
       </section>
 
       {/* ── 5. HOW VERAFYE IMPROVES IT ──────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
@@ -209,9 +209,9 @@ export default function TransactionMonitoringPage() {
               {[
                 { step: '01', title: 'Connects Transactions with Entities and Behaviours', body: 'Every transaction alert is enriched with the entity profile behind it  -  account history, device signals, identity attributes, and behavioural patterns  -  giving analysts the full picture at the moment an alert is surfaced rather than after manual research.' },
                 { step: '02', title: 'Uses Graph Intelligence to Surface Network Risk', body: 'Graph traversal connects transaction patterns across related accounts, devices, and entities  -  surfacing coordinated activity, network-level risk, and relationship context that transaction-level monitoring cannot see in isolation.' },
-                { step: '03', title: 'Improves Alert Prioritisation', body: 'Alerts are scored and ranked using entity context, network risk, and cross-system signals  -  ensuring investigation queues are ordered by genuine risk rather than transaction volume, recency, or rule weight alone.' },
-                { step: '04', title: 'Reduces False Positives Through Contextual Scoring', body: 'Contextual enrichment at the alert stage allows legitimate activity to be identified and deprioritised earlier in the workflow  -  reducing the false positive rate that drives analyst fatigue and operational cost without sacrificing genuine detection coverage.' },
-                { step: '05', title: 'Integrates Directly with Investigation Workflows', body: 'Verafye connects transaction monitoring directly to investigation workflows  -  delivering alerts as structured, context-rich cases rather than isolated events, and enabling analysts to move from alert to investigation without manual context gathering.' },
+                { step: '03', title: 'Improves Alert Prioritisation', body: 'Alerts are organized by entity context, network risk, and cross-system signals  -  ensuring investigation queues are ordered by genuine risk rather than transaction volume, recency, or alert age alone.' },
+                { step: '04', title: 'Reduces False Positives Through Contextual Enrichment', body: 'Contextual enrichment at the alert stage allows legitimate activity to be identified and deprioritised earlier in the workflow  -  reducing the false positive rate that drives analyst fatigue and operational cost without sacrificing genuine detection coverage.' },
+                { step: '05', title: 'Connects Monitoring to Investigation Workflows With Evidence Trails', body: 'Verafye connects transaction monitoring directly to investigation workflows  -  delivering alerts as structured, context-rich cases with pre-assembled evidence, enabling analysts to move from alert to investigation decision without manual context gathering, and preserving audit-ready evidence trails for compliance review.' },
                 { step: '06', title: 'Connects Fraud and AML Monitoring Signals', body: 'Transaction signals from fraud and AML monitoring are connected into a single intelligence layer  -  eliminating the blind spots that form at the boundary between fraud detection and AML transaction monitoring and enabling cross-domain risk assessment.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
@@ -245,14 +245,14 @@ export default function TransactionMonitoringPage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
                 title: 'Connected monitoring signals',
-                body: 'Bring transaction alerts together with fraud, AML, identity, device, behavior, and third-party enrichment signals.',
+                body: 'Bring transaction alerts together with fraud, AML, identity, device, behavior, and third-party enrichment signals - feeding normalized alert context into review queues and case formation workflows.',
                 href: '/platform',
                 cta: 'Explore Platform',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
-                title: 'Alert clustering',
-                body: 'Group related transaction activity into investigation-ready cases instead of isolated alerts.',
+                title: 'Alert clustering & review queues',
+                body: 'Group related transaction activity into investigation-ready cases instead of isolated alerts - routing clustered cases into structured review queues with pre-assembled entity and transaction-to-entity linkage context.',
                 href: '/solutions/investigation-intelligence',
                 cta: 'Explore Investigation Intelligence',
               },
@@ -265,8 +265,8 @@ export default function TransactionMonitoringPage() {
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>),
-                title: 'Audit-ready decisions',
-                body: 'Maintain case notes, evidence, decisions, and logs for review and compliance oversight.',
+                title: 'Evidence trails & audit-ready records',
+                body: 'Preserve case notes, linked evidence, decision rationale, analyst actions, and reviewer controls - maintaining structured evidence trails and audit-ready investigation records for compliance oversight.',
                 href: '/solutions/investigation-intelligence',
                 cta: 'Explore Investigation Intelligence',
               },
@@ -286,7 +286,7 @@ export default function TransactionMonitoringPage() {
       </section>
 
       {/* ── 7. OUTCOMES ─────────────────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Business Impact</p>
@@ -359,6 +359,7 @@ export default function TransactionMonitoringPage() {
                   { href: '/industries/banks', label: 'Banks', desc: 'High-volume transaction monitoring across retail, commercial, and correspondent banking operations' },
                   { href: '/industries/payment-processors-psps-payfacs', label: 'Payment Processors / PSPs / PayFacs', desc: 'Real-time monitoring at payment scale  -  connected across merchant, device, and transaction signals' },
                   { href: '/industries/fintech-platforms', label: 'Fintech Platforms', desc: 'Scalable monitoring for fast-growing platforms with evolving fraud patterns and AML obligations' },
+                  { href: '/industries/digital-banks', label: 'Digital Banks & Neo Banks', desc: 'Connected investigation intelligence for digital banking risk teams covering mule detection, scam investigation, payment fraud, and beneficiary-linked risk' },
                 ].map(item => (
                   <Link key={item.href} href={item.href} style={{ textDecoration: 'none' }}>
                     <div className="card card-hover" style={{ padding: '1.25rem 1.5rem', cursor: 'pointer' }}>
@@ -401,13 +402,13 @@ export default function TransactionMonitoringPage() {
         Secondary button links to /solutions/graph-intelligence  - 
         the core solution that powers connected transaction monitoring.
       */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
             Turn transaction alerts into explainable investigations
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how Verafye connects monitoring signals, clusters alerts, and helps teams close cases faster.
+            See how transaction monitoring workflows can feed alert clustering, review queues, case formation, and evidence trails - giving risk teams clearer investigations without replacing existing monitoring infrastructure.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

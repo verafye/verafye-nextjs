@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Detection Software for Banks | Reduce Risk",
-  description: "Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.",
+  title: "Investigation Workflows for Banks & Regional Institutions | Verafye",
+  description: "Connect fraud, AML, and payments signals from existing systems into explainable investigation workflows built on the Verafye platform - designed for banks and regional financial institutions.",
   openGraph: {
-    title: "Fraud Detection Software for Banks | Reduce Risk",
-    description: "Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.",
+    title: "Investigation Workflows for Banks & Regional Institutions | Verafye",
+    description: "Connect fraud, AML, and payments signals from existing systems into explainable investigation workflows built on the Verafye platform - designed for banks and regional financial institutions.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection Software for Banks | Reduce Risk",
-    description: "Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.",
+    title: "Investigation Workflows for Banks & Regional Institutions | Verafye",
+    description: "Connect fraud, AML, and payments signals from existing systems into explainable investigation workflows built on the Verafye platform - designed for banks and regional financial institutions.",
   },
 };
 
@@ -34,13 +34,13 @@ export default function BanksPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>BANKS</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Investigation intelligence for banking risk operations
+              Investigation Intelligence for Banking Risk Operations
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Connect fraud, AML, payment, account, identity, device, and behavior signals into explainable investigation workflows.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps banks connect fragmented alerts and risk signals across systems, build investigation-ready cases, surface hidden networks, and maintain decision trails that support review, governance, and audit readiness.
+              Verafye helps banks connect fragmented alerts and risk signals across systems, build investigation-ready cases, surface hidden networks, and maintain decision trails that support review, governance, and audit readiness. Start with focused mule detection, scam investigation, or payment risk workflows - and expand as value is proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -114,7 +114,7 @@ export default function BanksPage() {
       </section>
 
       {/* ── 3. WHY CURRENT STACK FALLS SHORT ────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
@@ -169,7 +169,7 @@ export default function BanksPage() {
                 An Intelligent Investigation Layer for Banking Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye sits across the existing technology stack  -  connecting fraud, AML, and payments signals into a unified intelligence layer that improves detection coverage, accelerates investigation, and supports explainable, audit-ready outcomes.
+                Verafye connects fraud, AML, and payments signals from existing systems into investigation-ready workflows built on the Verafye platform  -  improving detection coverage, accelerating investigation, and supporting explainable, audit-ready outcomes. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -217,7 +217,7 @@ export default function BanksPage() {
         relevant page for a bank reader who wants to validate governance claims.
         CHANGE: Added use-case links at section footer for direct use-case navigation.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Relevant Capabilities</p>
@@ -300,7 +300,7 @@ export default function BanksPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Improved Visibility Into Financial Crime Risk',
-                body: 'Graph-native intelligence gives fraud, AML, and compliance teams a connected view of risk across entities, transactions, and systems  -  replacing fragmented, siloed monitoring with a unified picture of financial crime activity.',
+                body: 'Graph-native intelligence gives fraud, AML, and compliance teams a connected view of risk across entities, transactions, and systems  -  providing a unified picture of financial crime activity that fragmented, siloed monitoring cannot deliver.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -349,7 +349,7 @@ export default function BanksPage() {
         Gives visitors who serve multiple segments, or who are evaluating
         Verafye across institution types, a direct path to the other pages.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Also Serving</p>
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '2rem', letterSpacing: '-0.02em' }}>
@@ -373,13 +373,13 @@ export default function BanksPage() {
         exploration path rather than a dead end after the outcomes section.
         Trust language "built for financial institutions" included in sub-copy.
       */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            Connect banking risk signals into explainable investigations
+            Explore Focused Investigation Workflows for Banking Risk Teams
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how Verafye helps banks connect alerts, explain risk, and close cases faster.
+            Start with mule, scam, payment, fraud, or AML investigation workflows and expand as value is proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

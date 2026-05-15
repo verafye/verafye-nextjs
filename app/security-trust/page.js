@@ -2,15 +2,15 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Security & Trust | Verafye",
-  description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
+  description: "Security, trust, and regulatory-aligned infrastructure for regulated financial platforms. Controlled access, audit trails, evidence packs, reviewer controls, and DPDP-aware data practices.",
   openGraph: {
     title: "Security & Trust | Verafye",
-    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
+    description: "Security, trust, and regulatory-aligned infrastructure for regulated financial platforms. Controlled access, audit trails, evidence packs, reviewer controls, and DPDP-aware data practices.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Security & Trust | Verafye",
-    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
+    description: "Security, trust, and regulatory-aligned infrastructure for regulated financial platforms. Controlled access, audit trails, evidence packs, reviewer controls, and DPDP-aware data practices.",
   },
 };
 
@@ -27,10 +27,10 @@ export default function SecurityTrustPage() {
               Security, Trust, and Regulatory-Aligned Infrastructure
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Built for financial institutions and payment platforms that require strong security foundations, controlled data handling, and infrastructure aligned with evolving regulatory expectations.
+              Built for regulated payment platforms and financial institutions that require strong security foundations, controlled data handling, and infrastructure aligned with evolving regulatory expectations.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye is designed for environments where security, operational integrity, and data protection are non-negotiable  -  supporting financial institutions and payment platforms handling sensitive data across complex, multi-system financial crime operations.
+              Verafye is designed for environments where security, operational integrity, and data protection are non-negotiable. The platform supports controlled access, reviewer controls, evidence packs, audit-ready case records, and privacy-conscious investigation workflows  -  helping regulated payment platforms, fintechs, and financial institutions handle sensitive investigation data responsibly.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -108,7 +108,7 @@ export default function SecurityTrustPage() {
       </section>
 
       {/* ── 3. DATA PROTECTION AND ARCHITECTURE APPROACH ────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
@@ -117,7 +117,7 @@ export default function SecurityTrustPage() {
                 Designed for Secure and Controlled Data Handling
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye's architecture reflects the data handling requirements of regulated financial institutions  -  with controlled access patterns, clearly defined system boundaries, and auditable data flows maintained consistently across the platform.
+                Verafye's architecture reflects the data handling requirements of regulated payment platforms and financial institutions  -  with controlled access patterns, clearly defined system boundaries, and auditable data flows maintained consistently across the platform.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
@@ -129,7 +129,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Controlled Access Patterns',
-                  body: 'Data access within Verafye follows controlled, role-based patterns  -  ensuring that analysts, investigators, and system processes access only the data and functions appropriate to their role and workflow context.',
+                  body: 'Data access within Verafye follows controlled, role-based patterns  -  ensuring that analysts, investigators, and system processes access only the data and functions appropriate to their role and workflow context. Reviewer controls support decision approval workflows, controlled case escalation, and audit-log integrity across investigation teams.',
                 },
                 {
                   icon: (
@@ -138,7 +138,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Comprehensive Audit Trails',
-                  body: 'All actions taken within the platform  -  investigations opened, alerts dispositioned, cases escalated, and data accessed  -  are logged and auditable, providing the traceable record that compliance and governance functions require.',
+                  body: 'All actions taken within the platform  -  investigations opened, alerts dispositioned, cases escalated, and data accessed  -  are logged and auditable. Evidence packs preserve linked signals, analyst notes, decision rationale, and supporting records inside each case, providing the audit-ready documentation that compliance and governance functions require.',
                 },
                 {
                   icon: (
@@ -216,7 +216,7 @@ export default function SecurityTrustPage() {
                 {
                   step: '03',
                   title: 'Helps Institutions Modernise Legacy Infrastructure',
-                  body: 'Verafye is designed to sit across and connect existing systems  -  helping institutions upgrade financial crime intelligence capabilities without requiring full replacement of legacy infrastructure, reducing implementation risk and time to value.',
+                  body: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform  -  helping organisations modernise their financial crime intelligence capabilities as they expand into Verafye-led investigation workflows over time.',
                 },
                 {
                   step: '04',
@@ -242,7 +242,7 @@ export default function SecurityTrustPage() {
         multi-jurisdiction framing, SAR/STR workflow support, and alignment positioning
         without making certification-heavy claims.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Regulatory Alignment</p>
@@ -265,7 +265,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Multi-Jurisdiction Support',
-                  body: 'Verafye is designed to support financial institutions operating across multiple regulatory environments  -  including institutions subject to oversight from supervisors in North America, Europe, the UK, Asia-Pacific, and emerging markets. The platform supports the investigation, documentation, and reporting workflows that different regulatory contexts require, without locking institutions into a single compliance framework.',
+                  body: 'Verafye is designed to support risk and compliance teams operating under frameworks and supervisory expectations such as FINTRAC (Canada), FCA (UK), FinCEN (US), RBI (India), and other relevant regulators  -  depending on customer geography and configuration. The platform supports the investigation, documentation, and evidence-trail workflows that different regulatory contexts require, without claiming formal certification under any specific framework.',
                 },
                 {
                   icon: (
@@ -313,7 +313,7 @@ export default function SecurityTrustPage() {
                 },
                 {
                   label: 'Workflow consistency across teams and jurisdictions',
-                  desc: 'Structured investigation workflows standardise how cases are assessed and resolved across different teams and operating environments  -  supporting consistency of outcome and quality of documentation regardless of jurisdiction.',
+                  desc: 'Structured investigation workflows standardise how cases are assessed and resolved across different teams and operating environments  -  supporting consistency of outcome and quality of documentation for teams operating under frameworks such as FINTRAC (Canada), FCA (UK), FinCEN (US), and RBI (India), depending on customer geography and configuration.',
                 },
               ].map(item => (
                 <div key={item.label} className="card" style={{ padding: '1.75rem 2rem', display: 'flex', alignItems: 'flex-start', gap: '1.25rem' }}>
@@ -429,9 +429,9 @@ export default function SecurityTrustPage() {
                 </svg>
               </div>
               <div>
-                <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>India Data Protection — DPDP Readiness</div>
+                <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>India Data Protection - DPDP Readiness</div>
                 <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
-                  India&apos;s Digital Personal Data Protection Act (DPDP Act, 2023) establishes a data protection framework for personal data processed in India. The implementing rules and regulatory guidance are still being finalised. Verafye&apos;s platform is designed to be DPDP-aware — with data handling practices, access controls, and processing transparency built to align with the DPDP Act&apos;s core principles as that framework matures. Verafye does not claim DPDP certification or full DPDP compliance, as the Act&apos;s implementing rules are not yet fully in force.
+                  India&apos;s Digital Personal Data Protection Act (DPDP Act, 2023) establishes a data protection framework for personal data processed in India. The implementing rules and regulatory guidance are still being finalised. Verafye&apos;s platform is designed to be DPDP-aware - with data handling practices, access controls, and processing transparency built to align with the DPDP Act&apos;s core principles as that framework matures. Verafye does not claim DPDP certification or full DPDP compliance, as the Act&apos;s implementing rules are not yet fully in force.
                 </p>
               </div>
             </div>
@@ -439,13 +439,13 @@ export default function SecurityTrustPage() {
 
           {/* Disclaimer */}
           <p style={{ textAlign: 'center', fontSize: '0.75rem', color: 'var(--muted)', maxWidth: '56rem', margin: '0 auto', lineHeight: 1.65 }}>
-            Verafye is designed with security controls and architectural patterns aligned to the frameworks above. References to ISO/IEC 27001, SOC 2 Type I, PCI DSS SAQ-D, GDPR, and DPDP reflect design intent and readiness — not formal third-party certification unless stated otherwise. Certification and audit status is available on request during enterprise evaluation. GDPR-aligned means our data handling practices are designed in alignment with GDPR principles; it does not constitute a formal GDPR certification. DPDP-aware means our platform design reflects the DPDP Act&apos;s stated principles; formal compliance status will be assessed as the Act&apos;s implementing rules are finalised.
+            Verafye is designed with security controls and architectural patterns aligned to the frameworks above. References to ISO/IEC 27001, SOC 2 Type I, PCI DSS SAQ-D, GDPR, and DPDP reflect design intent and readiness - not formal third-party certification unless stated otherwise. Certification and audit status is available on request during enterprise evaluation. GDPR-aligned means our data handling practices are designed in alignment with GDPR principles; it does not constitute a formal GDPR certification. DPDP-aware means our platform design reflects the DPDP Act&apos;s stated principles; formal compliance status will be assessed as the Act&apos;s implementing rules are finalised.
           </p>
         </div>
       </section>
 
       {/* ── 5. OPERATIONAL TRUST AND DEPLOYMENT MODEL ───────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Operational Trust</p>
@@ -493,7 +493,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Scalable Platform Architecture',
-                body: 'Verafye is architected to handle increasing data volumes, user growth, and signal complexity without degrading performance or requiring proportional platform investment  -  supporting the operational scale requirements of mid-market and growing financial institutions.',
+                body: 'Verafye is architected to handle increasing data volumes, user growth, and signal complexity without degrading performance or requiring proportional platform investment  -  supporting the operational scale requirements of regulated payment platforms, fintechs, and growing financial institutions.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -518,12 +518,12 @@ export default function SecurityTrustPage() {
           <div style={{ maxWidth: '56rem', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             {[
               {
-                q: 'Does Verafye replace existing fraud or AML systems?',
-                a: 'Verafye is designed as an intelligence layer that sits across and connects existing systems  -  not as a replacement for fraud or AML platforms already in place. The goal is to unify signals, improve detection, and accelerate investigation across the existing stack rather than require wholesale replacement of legacy infrastructure.',
+                q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
+                a: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform. Existing systems remain in place during adoption - Verafye becomes the investigation workspace where fragmented signals are resolved, entities mapped, and investigation cases built and closed.',
               },
               {
-                q: 'Can Verafye work alongside existing infrastructure?',
-                a: 'Yes. Verafye is built to integrate with the fraud, AML, payments, and case management systems that financial institutions already operate. It connects signals across those systems into a unified intelligence layer  -  complementing existing infrastructure rather than displacing it.',
+                q: 'Can Verafye connect to our existing fraud, AML, and payments infrastructure?',
+                a: 'Yes. Verafye integrates with the fraud monitoring, AML transaction monitoring, payments, identity, and case management systems organisations already operate. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.',
               },
               {
                 q: 'Is Verafye designed for investigation auditability?',
@@ -552,7 +552,7 @@ export default function SecurityTrustPage() {
       </section>
 
       {/* ── 7. FINAL CTA ────────────────────────────────────────────────────── */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
             Trusted Investigation Layer for Financial Crime Operations
@@ -561,7 +561,7 @@ export default function SecurityTrustPage() {
             Explore how Verafye supports secure, reliable, and intelligence-led financial crime operations across fraud, AML, and payments.
           </p>
           <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', maxWidth: '34rem', margin: '0 auto 2.5rem' }}>
-            Financial institutions operating across jurisdictions are building connected risk intelligence that supports both operational excellence and regulatory alignment. Verafye is designed for that environment.
+            Regulated payment platforms, fintechs, and financial institutions operating across jurisdictions are building connected risk intelligence that supports both operational excellence and regulatory alignment. Verafye is designed for that environment.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

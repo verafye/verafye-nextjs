@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Financial Crime Detection Platform | AI Fraud & AML",
-  description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
+  title: "Verafye Platform | Investigation Intelligence for Fraud + AML Operations",
+  description: "The Verafye platform connects signal ingestion, alert clustering, graph intelligence, case workflows, evidence packs, and audit-ready records - purpose-built for lean fraud and AML risk teams.",
   openGraph: {
-    title: "Financial Crime Detection Platform | AI Fraud & AML",
-    description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
+    title: "Verafye Platform | Investigation Intelligence for Fraud + AML Operations",
+    description: "The Verafye platform connects signal ingestion, alert clustering, graph intelligence, case workflows, evidence packs, and audit-ready records - purpose-built for lean fraud and AML risk teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Financial Crime Detection Platform | AI Fraud & AML",
-    description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
+    title: "Verafye Platform | Investigation Intelligence for Fraud + AML Operations",
+    description: "The Verafye platform connects signal ingestion, alert clustering, graph intelligence, case workflows, evidence packs, and audit-ready records - purpose-built for lean fraud and AML risk teams.",
   },
 };
 
@@ -24,7 +24,7 @@ export default function PlatformPage() {
     <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>VERAFYE PLATFORM</p>
     <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem','letterSpacing':'-0.025em','lineHeight':'1.15'}}>One investigation layer for connected financial crime operations</h1>
     <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1rem','lineHeight':'1.4'}}>Unify fraud, AML, payments, identity, device, and behavior signals into investigation-ready cases, explainable decisions, and audit-ready workflows.</p>
-    <p className="animate-fade-up delay-250" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'48rem','marginLeft':'auto','marginRight':'auto'}}>Verafye sits across existing systems to help lean risk teams connect fragmented alerts, surface hidden relationships, prioritize cases, and close investigations faster - without replacing their entire stack.</p>
+    <p className="animate-fade-up delay-250" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'48rem','marginLeft':'auto','marginRight':'auto'}}>The Verafye platform brings together signal ingestion, alert clustering, graph intelligence, case workflows, evidence, and audit trails - giving lean risk teams an Investigation Intelligence Layer built for connected fraud, AML, and payment risk operations. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.</p>
     <div className="animate-fade-up delay-300" style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'0.75rem'}}>
       <Link href="/request-demo" className="btn-primary">
         Request Demo
@@ -40,7 +40,7 @@ export default function PlatformPage() {
 {/* INVESTIGATION LAYER OVERVIEW */}
 <section style={{'padding':'4rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION LAYER OVERVIEW</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem','letterSpacing':'-0.025em'}}>Built to connect the systems risk teams already use</h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>Fraud alerts, AML monitoring, payment events, identity checks, device signals, behavioral patterns, and third-party enrichment often live in separate tools. Verafye brings these signals into one investigation layer so analysts can see the full risk story before making a decision.</p>
@@ -66,12 +66,12 @@ export default function PlatformPage() {
 </section>
 
 {/* HOW THE PLATFORM WORKS */}
-<section className="section-light" style={{'padding':'4rem 0'}}>
+<section className="section-light" style={{'padding':'3.5rem 0'}}>
   <div className="container" style={{'maxWidth':'80rem'}}>
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>HOW IT WORKS</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'0.875rem'}}>From signals to outcomes — one connected flow</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye sits across existing infrastructure and moves risk signals through a connected investigation layer — from raw data to case decisions.</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'0.875rem'}}>From signals to outcomes - one connected flow</h2>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>The Verafye platform moves risk signals through a connected investigation layer - from signal ingestion and alert clustering through graph intelligence and case workflows to audit-ready case decisions.</p>
     </div>
 
     {/* Horizontal flow — scrollable on mobile */}
@@ -100,7 +100,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>02 · Connect</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Connect Risk Context</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Map signals to accounts, devices, entities, and counterparties — building a connected risk picture per case.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Map signals to accounts, devices, entities, and counterparties - building a connected risk picture per case.</p>
         </div>
 
         {/* Arrow */}
@@ -115,7 +115,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>03 · Cluster</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Cluster Alerts</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Group related alerts and entity signals into investigation-ready cases — replacing isolated queues with connected clusters.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Group related alerts and entity signals into investigation-ready cases - replacing isolated queues with connected clusters.</p>
         </div>
 
         {/* Arrow */}
@@ -188,7 +188,7 @@ export default function PlatformPage() {
       padding: 0 0.375rem;
       flex-shrink: 0;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 900px) {
       .plat-flow-row {
         flex-direction: column;
         min-width: 0;
@@ -209,7 +209,7 @@ export default function PlatformPage() {
 {/* CORE PLATFORM MODULES */}
 <section style={{'padding':'4rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>CORE MODULES</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Core platform modules</h2>
     </div>
@@ -218,36 +218,36 @@ export default function PlatformPage() {
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></div>
-        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Connected Signals</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Bring together fragmented fraud, AML, payment, identity, device, behavior, and enrichment signals.</p>
+        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Signal Ingestion</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals through APIs, SDKs, and pre-built connectors into a unified investigation context.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg></div>
         <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Alert Clustering</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Group related alerts into connected cases instead of forcing analysts to review isolated queues.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Group related alerts, entities, accounts, merchants, beneficiaries, devices, and transactions into investigation-ready clusters - reducing alert noise and surfacing coordinated risk as a single reviewable case.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg></div>
         <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Graph Intelligence</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Reveal hidden links across accounts, merchants, devices, transactions, counterparties, and entities.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Surface hidden relationships across customers, merchants, accounts, beneficiaries, devices, identities, and transactions - revealing coordinated fraud networks, mule rings, and suspicious entity clusters.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg></div>
-        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Case Intelligence</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Support analysts with structured case context, AI summaries, suggested resolutions, notes, evidence, and investigation workflows.</p>
+        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Case Workflows</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Support case creation, assignment, review, notes, prioritization, escalation, and closure workflows - with pre-assembled entity context, relationship maps, and transaction history delivered to analysts before review begins.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Audit-Ready Decisions</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Maintain decision history, analyst actions, evidence, case notes, and audit logs for compliance review.</p>
+        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Evidence Packs &amp; Reviewer Controls</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Preserve linked signals, case context, analyst notes, decision rationale, and supporting records for internal review and audit readiness. Reviewer controls support controlled access, decision history, audit logs, and investigation records.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
@@ -264,10 +264,10 @@ export default function PlatformPage() {
 {/* INVESTIGATION INTELLIGENCE ARCHITECTURE */}
 <section style={{'padding':'4rem 0','background':'linear-gradient(180deg,#F8FBFF 0%,#ffffff 100%)'}}>
   <div className="container" style={{'maxWidth':'80rem'}}>
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>ARCHITECTURE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Investigation Intelligence Architecture</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75}}>Verafye connects fragmented fraud, AML, payment, identity, device, and behavior signals into one investigation intelligence layer — helping risk teams understand relationships, prioritize cases, explain decisions, and preserve audit-ready records.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75}}>The Verafye platform brings signals, alerts, relationships, evidence, and workflows into a single Investigation Intelligence Layer - helping risk teams understand entity relationships, prioritize cases, make explainable decisions, and preserve audit-ready investigation records.</p>
     </div>
 
     {/* Architecture 4-stage flow */}
@@ -338,7 +338,7 @@ export default function PlatformPage() {
           </div>
           <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Case-ready intelligence</h3>
           <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
-            {['Case context','Prioritization','Explainable decision support','Analyst workflows','Evidence & audit trail'].map((item,i) => (
+            {['Case context','Prioritization','Reviewer controls','Explainable decision support','Analyst workflows','Evidence packs & audit trail'].map((item,i) => (
               <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
                 <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#0891B2','opacity':0.45,'flexShrink':0}}></div>
                 <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
@@ -381,7 +381,7 @@ export default function PlatformPage() {
     </div>
 
     {/* Section CTA */}
-    <div style={{'textAlign':'center','marginTop':'3rem'}}>
+    <div style={{'textAlign':'center','marginTop':'2.5rem'}}>
       <Link href="/solutions/investigation-intelligence/" className="btn-primary">
         Explore Investigation Intelligence
         <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
@@ -420,7 +420,7 @@ export default function PlatformPage() {
       padding: 0 0.5rem;
       flex-shrink: 0;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 860px) {
       .arch-flow-row {
         flex-direction: column;
         min-width: 0;
@@ -435,7 +435,7 @@ export default function PlatformPage() {
 </section>
 
 {/* CONFIGURABLE RULES */}
-<section className="section-light" style={{'padding':'4rem 0'}}>
+<section className="section-light" style={{'padding':'3.5rem 0'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div className="hero-grid" style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'4rem','alignItems':'center'}}>
       <div>
@@ -458,16 +458,16 @@ export default function PlatformPage() {
         <div style={{'display':'flex','flexDirection':'column','gap':'0.75rem'}}>
           <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.875rem'}}>
             <div style={{'fontSize':'0.6875rem','fontWeight':'600','color':'var(--muted)','marginBottom':'0.375rem','textTransform':'uppercase','letterSpacing':'0.06em'}}>Template</div>
-            <div style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--dark)'}}>Velocity - Payment Threshold</div>
+            <div style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--dark)'}}>Velocity - Payment Activity</div>
           </div>
           <div style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'0.5rem'}}>
             <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.75rem'}}>
               <div style={{'fontSize':'0.6875rem','color':'var(--muted)','marginBottom':'0.25rem'}}>Condition</div>
-              <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)'}}>Transactions &gt; 10</div>
+              <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)'}}>Transaction volume pattern</div>
             </div>
             <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.75rem'}}>
               <div style={{'fontSize':'0.6875rem','color':'var(--muted)','marginBottom':'0.25rem'}}>Window</div>
-              <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)'}}>24 hours</div>
+              <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)'}}>Configurable time window</div>
             </div>
           </div>
           <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.875rem'}}>
@@ -484,7 +484,7 @@ export default function PlatformPage() {
 </section>
 
 {/* DEVICE AND BEHAVIOR SIGNALS */}
-<section style={{'padding':'4rem 0','background':'#fff'}}>
+<section style={{'padding':'3.5rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div className="hero-grid" style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'4rem','alignItems':'center'}}>
       <div style={{'background':'linear-gradient(135deg,var(--bg-blue),#fff)','border':'1px solid rgba(30,111,183,0.12)','borderRadius':'1.25rem','padding':'2rem','order':'1'}}>
@@ -525,7 +525,7 @@ export default function PlatformPage() {
 </section>
 
 {/* AML / WATCHLIST WORKFLOWS */}
-<section className="section-light" style={{'padding':'4rem 0'}}>
+<section className="section-light" style={{'padding':'3.5rem 0'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div className="hero-grid" style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'4rem','alignItems':'center'}}>
       <div>
@@ -571,9 +571,9 @@ export default function PlatformPage() {
 </section>
 
 {/* APIS, SDKS, AND INTEGRATIONS */}
-<section style={{'padding':'4rem 0','background':'#fff'}}>
+<section style={{'padding':'3.5rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>APIS &amp; INTEGRATIONS</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Connect through APIs, SDKs, and pre-built integrations</h2>
       <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>Verafye can connect with third-party KYC, KYB, sanctions, watchlist, device, email, phone, banking, enrichment, and ecosystem providers through flexible APIs, SDKs, and pre-built connectors.</p>
@@ -612,7 +612,7 @@ export default function PlatformPage() {
 {/* AUDIT-READY GOVERNANCE */}
 <section className="section-light" style={{'padding':'4rem 0'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>AUDIT-READY GOVERNANCE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Designed for explainable, audit-ready investigations</h2>
       <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>Verafye helps teams maintain investigation context, decision history, case evidence, analyst notes, and audit logs so decisions can be reviewed, explained, and governed.</p>
@@ -661,21 +661,22 @@ export default function PlatformPage() {
 </section>
 
 {/* SECURITY, PRIVACY & CONTROL */}
-<section style={{'padding':'4rem 0','background':'#fff'}}>
+<section style={{'padding':'3rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>SECURITY, PRIVACY & CONTROL</p>
       <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','letterSpacing':'-0.025em'}}>Built for regulated environments that require security and auditability by design</h2>
       <p style={{'fontSize':'clamp(0.875rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.75}}>
         Verafye is designed for financial institutions and payment platforms where data sensitivity, audit traceability, and privacy controls are non-negotiable requirements.
       </p>
     </div>
-    <div style={{'display':'grid','gridTemplateColumns':'repeat(4,1fr)','gap':'1rem'}}>
+    <div style={{'display':'grid','gridTemplateColumns':'repeat(5,1fr)','gap':'1rem'}}>
       {[
         { label: 'ISO/IEC 27001', sub: 'Information Security Management' },
         { label: 'SOC 2 Type I',  sub: 'Security & Availability Controls' },
         { label: 'PCI DSS: SAQ-D', sub: 'Payment Data Security' },
         { label: 'GDPR-aligned',  sub: 'EU Data Protection' },
+        { label: 'DPDP-aware',    sub: 'India Data Protection Readiness' },
       ].map(b => (
         <div key={b.label} style={{'display':'flex','flexDirection':'column','alignItems':'center','justifyContent':'center','gap':'0.25rem','padding':'1rem 1.25rem','border':'1px solid var(--border)','borderRadius':'10px','background':'var(--bg-light)','textAlign':'center'}}>
           <span style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.01em','lineHeight':1.2}}>{b.label}</span>
@@ -685,9 +686,9 @@ export default function PlatformPage() {
     </div>
     <div style={{'display':'grid','gridTemplateColumns':'1fr 1fr 1fr','gap':'1.25rem','marginTop':'1.5rem'}}>
       {[
-        { title: 'Role-based access controls', body: 'Data access follows controlled, role-based patterns — analysts, investigators, and system processes access only what is appropriate to their workflow context.' },
-        { title: 'End-to-end audit trails', body: 'All investigation actions, alert dispositions, and case progressions are logged and auditable — providing the traceable record compliance and governance functions require.' },
-        { title: 'Explainable decisioning', body: 'Every risk score and case recommendation is backed by documented, traceable reasoning — supporting explainability obligations for regulated financial crime workflows.' },
+        { title: 'Role-based access controls', body: 'Data access follows controlled, role-based patterns - analysts, investigators, and system processes access only what is appropriate to their workflow context.' },
+        { title: 'End-to-end audit trails', body: 'All investigation actions, alert dispositions, and case progressions are logged and auditable - providing the traceable record compliance and governance functions require.' },
+        { title: 'Explainable decisioning', body: 'Every risk score and case recommendation is backed by documented, traceable reasoning - supporting explainability obligations for regulated financial crime workflows.' },
       ].map(item => (
         <div key={item.title} className="card" style={{'padding':'1.5rem'}}>
           <div style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>{item.title}</div>
@@ -702,10 +703,10 @@ export default function PlatformPage() {
 </section>
 
 {/* FINAL CTA */}
-<section style={{'padding':'4rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
+<section style={{'padding':'3.5rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container" style={{'textAlign':'center','maxWidth':'48rem'}}>
     <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>See how Verafye connects your risk operations</h2>
-    <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>Explore how Verafye helps lean fraud, AML, compliance, and risk teams connect alerts, explain risk, and close cases faster.</p>
+    <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>Explore how Verafye helps fraud, AML, and risk teams connect signals from existing systems into investigation-ready workflows built on the Verafye platform - and expand coverage as value is proven.</p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/request-demo" className="btn-primary">
         Request Demo

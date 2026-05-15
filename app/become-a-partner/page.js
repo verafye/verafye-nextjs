@@ -1,16 +1,16 @@
 import BecomeAPartnerClient from './BecomeAPartnerClient';
 
 export const metadata = {
-  title: "Become a Partner | Fraud & AML Intelligence Ecosystem",
-  description: "Partner with Verafye to help financial institutions detect coordinated financial crime, improve AML compliance, and uncover hidden fraud networks using AI-driven intelligence.",
+  title: "Become a Verafye Partner",
+  description: "Partner with Verafye to bring investigation intelligence to regulated financial platforms. Connect your expertise with our fraud and AML signal-to-case platform.",
   openGraph: {
-    title: "Become a Partner | Fraud & AML Intelligence Ecosystem",
-    description: "Partner with Verafye to help financial institutions detect coordinated financial crime, improve AML compliance, and uncover hidden fraud networks using AI-driven intelligence.",
+    title: "Become a Verafye Partner",
+    description: "Partner with Verafye to bring investigation intelligence to regulated financial platforms. Connect your expertise with our fraud and AML signal-to-case platform.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Become a Partner | Fraud & AML Intelligence Ecosystem",
-    description: "Partner with Verafye to help financial institutions detect coordinated financial crime, improve AML compliance, and uncover hidden fraud networks using AI-driven intelligence.",
+    title: "Become a Verafye Partner",
+    description: "Partner with Verafye to bring investigation intelligence to regulated financial platforms. Connect your expertise with our fraud and AML signal-to-case platform.",
   },
 };
 

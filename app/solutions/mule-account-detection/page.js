@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Account Detection Platform | Stop Fraud Networks",
-  description: "Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.",
+  title: "Mule Account Detection & Investigation | Verafye",
+  description: "Connect account, device, identity, transaction, and beneficiary signals to surface suspected mule activity. Build investigation-ready cases with evidence trails and audit-ready records.",
   openGraph: {
-    title: "Mule Account Detection Platform | Stop Fraud Networks",
-    description: "Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.",
+    title: "Mule Account Detection & Investigation | Verafye",
+    description: "Connect account, device, identity, transaction, and beneficiary signals to surface suspected mule activity. Build investigation-ready cases with evidence trails and audit-ready records.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Account Detection Platform | Stop Fraud Networks",
-    description: "Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.",
+    title: "Mule Account Detection & Investigation | Verafye",
+    description: "Connect account, device, identity, transaction, and beneficiary signals to surface suspected mule activity. Build investigation-ready cases with evidence trails and audit-ready records.",
   },
 };
 
@@ -117,7 +117,7 @@ export default function MuleAccountDetectionPage() {
       </section>
 
       {/* ── 3. WHY LEGACY TOOLS FAIL ────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Stacks Fall Short</p>
@@ -196,7 +196,7 @@ export default function MuleAccountDetectionPage() {
       </section>
 
       {/* ── 5. CORE CAPABILITIES ────────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Core Capabilities</p>
@@ -310,7 +310,7 @@ export default function MuleAccountDetectionPage() {
         Fintech platforms are included as a third segment given their exposure to
         mule risk through embedded payment infrastructure.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Built For</p>
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '2rem', letterSpacing: '-0.02em' }}>
@@ -327,6 +327,10 @@ export default function MuleAccountDetectionPage() {
             </Link>
             <Link href="/industries/fintech-platforms" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Fintech Platforms
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </Link>
+            <Link href="/industries/digital-banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
+              Digital Banks &amp; Neo Banks
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </Link>
           </div>
@@ -382,13 +386,13 @@ export default function MuleAccountDetectionPage() {
         Secondary button links to /use-cases/mule-network-detection - the use case
         page that is the direct companion to this solution page.
       */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            Investigate mule account patterns with connected intelligence
+            See how suspected mule-linked patterns become investigation-ready cases
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how Verafye helps teams connect account signals, surface hidden relationships, and close mule investigations faster.
+            See how suspected mule-linked patterns can be connected into investigation-ready cases - with evidence trails, reviewer controls, and audit-ready records built on the Verafye platform. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

@@ -32,6 +32,7 @@ function writeConsent(choices) {
 }
 
 /* ─── GTM / dataLayer consent update ─────────────────────────────────────── */
+// TODO: Wire GTM/tag firing to consent mode or CMP before scaling paid marketing campaigns.
 function applyGtmConsent(consent) {
   if (typeof window === 'undefined') return;
   window.dataLayer = window.dataLayer || [];

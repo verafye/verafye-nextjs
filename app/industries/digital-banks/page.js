@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
-  description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
+  title: "Investigation Intelligence for Digital Banks & Neo Banks | Verafye",
+  description: "Support digital banking risk teams with fraud, AML, mule, scam, payment, account, beneficiary, and transaction investigation workflows built on the Verafye platform.",
   openGraph: {
-    title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
-    description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
+    title: "Investigation Intelligence for Digital Banks & Neo Banks | Verafye",
+    description: "Support digital banking risk teams with fraud, AML, mule, scam, payment, account, beneficiary, and transaction investigation workflows built on the Verafye platform.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
-    description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
+    title: "Investigation Intelligence for Digital Banks & Neo Banks | Verafye",
+    description: "Support digital banking risk teams with fraud, AML, mule, scam, payment, account, beneficiary, and transaction investigation workflows built on the Verafye platform.",
   },
 };
 
@@ -24,13 +24,13 @@ export default function DigitalBanksPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>DIGITAL BANKS &amp; NEO BANKS</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Investigation intelligence for digital banks and neo banks
+              Investigation Intelligence for Digital Banks and Neo Banking Risk Teams
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Connect onboarding, account, device, transaction, fraud, and AML signals into explainable investigations that help risk teams act faster.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps digital banks and neo banks move from fragmented alerts to connected case intelligence - surfacing mule activity, synthetic identity patterns, account abuse, and suspicious networks without enterprise-heavy complexity.
+              Verafye helps digital banking risk teams connect onboarding, account, payment, wallet, remittance, transaction, fraud, and AML signals into connected case intelligence - surfacing mule activity, synthetic identity patterns, scam flows, beneficiary-linked risk, and suspicious networks. Work alongside existing systems and expand investigation workflows as value is proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -104,7 +104,7 @@ export default function DigitalBanksPage() {
       </section>
 
       {/* ── 3. WHY CURRENT STACK FALLS SHORT ────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Falls Short</p>
@@ -159,7 +159,7 @@ export default function DigitalBanksPage() {
                 A Unified Risk Intelligence Layer for Digital Banking
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into a single intelligence layer  -  delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution.
+                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into a single intelligence layer - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye works alongside existing detection and monitoring systems, connecting signals into investigation-ready cases without requiring a platform replacement.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -195,7 +195,7 @@ export default function DigitalBanksPage() {
       </section>
 
       {/* ── 5. RELEVANT CAPABILITIES ────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Relevant Capabilities</p>
@@ -318,7 +318,7 @@ export default function DigitalBanksPage() {
       </section>
 
       {/* ── 7. RELATED INDUSTRIES ───────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Also Serving</p>
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '2rem', letterSpacing: '-0.02em' }}>
@@ -339,13 +339,13 @@ export default function DigitalBanksPage() {
       </section>
 
       {/* ── 8. FINAL CTA ────────────────────────────────────────────────────── */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            Investigate digital banking risk with connected intelligence
+            Explore Focused Investigation Workflows for Digital Banking Risk Teams
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how Verafye helps digital banks and neo banks connect alerts, explain risk, and close cases faster.
+            Start with mule detection, scam investigation, or payment risk workflows - and expand as value is proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

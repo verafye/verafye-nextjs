@@ -494,6 +494,12 @@ img { max-width: 100%; height: auto; }
   }
 }
 
+/* ───────── 430px (large phones) ───────── */
+@media (max-width:430px) {
+  .hero-image { padding: 0.5rem !important; }
+  .product-trial-row { grid-template-columns: 1fr !important; }
+}
+
 /* ───────── 375px (small phones) ───────── */
 @media (max-width:375px) {
   .container { padding: 0 1rem; }
@@ -516,8 +522,56 @@ img { max-width: 100%; height: auto; }
 /* ───────── Fix hero grid responsive stacking ───────── */
 @media (max-width:768px) {
   .hero-grid, .split-layout { grid-template-columns: 1fr !important; }
-  [style*="grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
-  [style*="display:grid;grid-template-columns:1fr 1fr"] { grid-template-columns: 1fr !important; }
+  .hero-image { max-width: 100% !important; padding: 0.625rem !important; }
 }
 
+/* ── Inline grid responsive catches (React style="" attribute) ───────────────
+   React serialises inline styles as "property: value; property2: value2"
+   (space after colon, semicolon between properties).
+   Use substring selectors matched against the serialised attribute string.    */
 
+/* ── 768px: collapse hero/wide-gap 2-col, and step down 3-col/4-col ───────── */
+@media (max-width: 768px) {
+  /* 2-col inline grids with large gaps (hero/split sections) → 1-col */
+  [style*="grid-template-columns: 1fr 1fr; gap: 4rem"],
+  [style*="grid-template-columns: 1fr 1fr; gap: 3rem"] {
+    grid-template-columns: 1fr !important;
+  }
+  /* 3-col inline grids → 2-col */
+  [style*="grid-template-columns: 1fr 1fr 1fr"],
+  [style*="grid-template-columns: repeat(3,1fr)"],
+  [style*="grid-template-columns: repeat(3, 1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  /* 4-col inline grids → 2-col */
+  [style*="grid-template-columns: repeat(4,1fr)"],
+  [style*="grid-template-columns: repeat(4, 1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  /* team-grid-4 explicit class → 2-col */
+  .team-grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
+  /* Restore product-trial-row: keep 2-col at tablet (collapses at 480px below) */
+  .product-trial-row { grid-template-columns: 1fr 1fr !important; }
+}
+
+/* ── 480px: collapse all remaining inline 2-col / 3-col / 4-col → 1-col ───── */
+@media (max-width: 480px) {
+  /* 2-col inline grids (all gaps) → 1-col */
+  [style*="grid-template-columns: 1fr 1fr; gap:"],
+  [style*="grid-template-columns: repeat(2,1fr)"],
+  [style*="grid-template-columns: repeat(2, 1fr)"] {
+    grid-template-columns: 1fr !important;
+  }
+  /* 3-col inline grids → 1-col */
+  [style*="grid-template-columns: 1fr 1fr 1fr"],
+  [style*="grid-template-columns: repeat(3,1fr)"],
+  [style*="grid-template-columns: repeat(3, 1fr)"] {
+    grid-template-columns: 1fr !important;
+  }
+  /* 4-col inline grids → 1-col */
+  [style*="grid-template-columns: repeat(4,1fr)"],
+  [style*="grid-template-columns: repeat(4, 1fr)"] {
+    grid-template-columns: 1fr !important;
+  }
+  .team-grid-4 { grid-template-columns: 1fr !important; }
+}

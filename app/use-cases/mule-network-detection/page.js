@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Network Detection Software | Detect Fraud Rings",
-  description: "Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.",
+  title: "Mule Network Detection | Graph-Based Investigation Intelligence | Verafye",
+  description: "Detect mule networks with graph-based investigation intelligence. Surface suspicious payment flows, beneficiary-linked risk, and coordinated account activity - with evidence trails supporting every investigation decision.",
   openGraph: {
-    title: "Mule Network Detection Software | Detect Fraud Rings",
-    description: "Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.",
+    title: "Mule Network Detection | Graph-Based Investigation Intelligence | Verafye",
+    description: "Detect mule networks with graph-based investigation intelligence. Surface suspicious payment flows, beneficiary-linked risk, and coordinated account activity - with evidence trails supporting every investigation decision.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Network Detection Software | Detect Fraud Rings",
-    description: "Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.",
+    title: "Mule Network Detection | Graph-Based Investigation Intelligence | Verafye",
+    description: "Detect mule networks with graph-based investigation intelligence. Surface suspicious payment flows, beneficiary-linked risk, and coordinated account activity - with evidence trails supporting every investigation decision.",
   },
 };
 
@@ -90,7 +90,7 @@ export default function MuleNetworkDetectionPage() {
       </section>
 
       {/* ── 3. WHY CURRENT APPROACHES FAIL ──────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
@@ -186,7 +186,7 @@ export default function MuleNetworkDetectionPage() {
       </section>
 
       {/* ── 5. HOW VERAFYE SOLVES IT ────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
@@ -237,15 +237,15 @@ export default function MuleNetworkDetectionPage() {
             {[
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
-                title: 'Network visibility',
-                body: 'Reveal connections across accounts, devices, beneficiaries, counterparties, transactions, and entities.',
+                title: 'Network visibility & suspicious payment flows',
+                body: 'Reveal connections across accounts, devices, beneficiaries, counterparties, and transactions - surfacing suspicious payment flows and beneficiary-linked patterns that help surface mule-linked activity across the network.',
                 href: '/solutions/graph-intelligence',
                 cta: 'Explore Graph Intelligence',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>),
-                title: 'Behavior and transaction context',
-                body: 'Connect unusual transaction patterns with identity, device, and behavioral signals.',
+                title: 'Behavior and payment flow context',
+                body: 'Connect unusual transaction patterns, suspicious payment flows, and beneficiary relationships with identity, device, and behavioral signals to build investigation-ready network context.',
                 href: '/solutions/graph-intelligence',
                 cta: 'Explore Graph Intelligence',
               },
@@ -258,8 +258,8 @@ export default function MuleNetworkDetectionPage() {
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>),
-                title: 'Explainable case trails',
-                body: 'Preserve relationship context, evidence, notes, and decisions for review.',
+                title: 'Evidence trails & explainable case records',
+                body: 'Preserve relationship context, evidence packs, analyst notes, and decision rationale inside investigation cases - supporting reviewer controls, audit readiness, and the documentation that supports every investigation outcome.',
                 href: '/solutions/investigation-intelligence',
                 cta: 'Explore Investigation Intelligence',
               },
@@ -279,7 +279,7 @@ export default function MuleNetworkDetectionPage() {
       </section>
 
       {/* ── 7. OUTCOMES ─────────────────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Business Impact</p>
@@ -395,7 +395,7 @@ export default function MuleNetworkDetectionPage() {
         Secondary button links to /solutions/mule-account-detection  - 
         the solution page that directly backs this use case.
       */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
             See hidden mule networks before they spread

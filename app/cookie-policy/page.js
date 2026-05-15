@@ -13,8 +13,8 @@ export const metadata = {
   },
 };
 
-const h2 = { fontSize: '1.375rem', fontWeight: '700', color: 'var(--dark)', margin: '1.75rem 0 0.625rem', lineHeight: 1.3 };
-const h3 = { fontSize: '1.0625rem', fontWeight: '700', color: 'var(--dark)', margin: '1.25rem 0 0.5rem', lineHeight: 1.4 };
+const h2 = { fontSize: '1.375rem', fontWeight: '700', color: 'var(--dark)', margin: '1.5rem 0 0.5rem', lineHeight: 1.3 };
+const h3 = { fontSize: '1.0625rem', fontWeight: '700', color: 'var(--dark)', margin: '1rem 0 0.375rem', lineHeight: 1.4 };
 const p  = { margin: '0 0 0.875rem 0' };
 
 export default function Page() {
@@ -31,9 +31,9 @@ export default function Page() {
         </div>
       </section>
 
-      <section style={{ padding: '2.5rem 0 4rem', background: '#fff' }}>
-        <div className="container" style={{ maxWidth: '68rem' }}>
-          <div style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: '1.75' }}>
+      <section style={{ padding: '2rem 0 3rem', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '760px', margin: '0 auto', fontSize: '1rem', color: 'var(--body)', lineHeight: '1.75' }}>
 
             {/* ── 1. What are cookies? ──────────────────────────────────────── */}
             <h2 style={h2}>1. What Are Cookies?</h2>

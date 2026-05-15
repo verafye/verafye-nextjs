@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Intelligence Platform | Detect Fraud Networks",
-  description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+  title: "Graph Intelligence for Risk Investigations | Verafye",
+  description: "Graph intelligence that connects entity, transaction, account, and network signals to surface hidden relationships and deliver investigation-ready context for fraud and AML risk teams.",
   openGraph: {
-    title: "Network Intelligence Platform | Detect Fraud Networks",
-    description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+    title: "Graph Intelligence for Risk Investigations | Verafye",
+    description: "Graph intelligence that connects entity, transaction, account, and network signals to surface hidden relationships and deliver investigation-ready context for fraud and AML risk teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Intelligence Platform | Detect Fraud Networks",
-    description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+    title: "Graph Intelligence for Risk Investigations | Verafye",
+    description: "Graph intelligence that connects entity, transaction, account, and network signals to surface hidden relationships and deliver investigation-ready context for fraud and AML risk teams.",
   },
 };
 
@@ -113,7 +113,7 @@ export default function GraphIntelligencePage() {
       </section>
 
       {/* ── 3. WHY LEGACY TOOLS FAIL ────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Stacks Fall Short</p>
@@ -197,7 +197,7 @@ export default function GraphIntelligencePage() {
         Gives visitors who want the full feature inventory a clear path without
         disrupting the reading flow of the capability cards themselves.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Core Capabilities</p>
@@ -210,17 +210,17 @@ export default function GraphIntelligencePage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Entity relationship mapping',
-                body: 'Connect users, accounts, merchants, devices, counterparties, beneficiaries, and transactions into relationship context.',
+                body: 'Connect users, accounts, merchants, devices, counterparties, beneficiaries, UBOs, and transaction flows into reviewer-friendly relationship context that supports investigation case building.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
                 title: 'Network-level case context',
-                body: 'Help analysts understand how isolated alerts connect into broader suspicious activity patterns.',
+                body: 'Provide analysts with reviewer-friendly graph context - showing how isolated alerts connect into broader suspicious activity patterns, with relationship paths and supporting evidence preserved inside investigation workflows.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>),
                 title: 'Hidden pattern discovery',
-                body: 'Surface mule networks, synthetic identity rings, account abuse, merchant risk, and related behavior patterns.',
+                body: 'Surface mule networks, suspicious payment flows, beneficiary-linked risk, synthetic identity rings, merchant risk, and related behavior patterns across connected entities.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>),
@@ -311,7 +311,7 @@ export default function GraphIntelligencePage() {
         explicit gives mid-funnel visitors a path to the page most relevant to them,
         improving both engagement depth and internal link equity.
       */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
+      <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Built For</p>
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '2rem', letterSpacing: '-0.02em' }}>
@@ -328,6 +328,10 @@ export default function GraphIntelligencePage() {
             </Link>
             <Link href="/industries/fintech-platforms" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Fintech Platforms
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </Link>
+            <Link href="/industries/digital-banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
+              Digital Banks &amp; Neo Banks
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </Link>
           </div>
@@ -393,13 +397,13 @@ export default function GraphIntelligencePage() {
         Secondary button links to Mule Account Detection - the most logical
         next solution for a visitor who has engaged with graph intelligence content.
       */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+      <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
             Use graph intelligence to see what isolated alerts miss
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            Explore how Verafye helps risk teams turn fragmented signals into connected investigation context.
+            Explore how hidden relationships across accounts, merchants, beneficiaries, devices, identities, and transactions become reviewer-friendly investigation context - built into investigation-ready workflows on the Verafye platform.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">
