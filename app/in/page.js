@@ -326,14 +326,13 @@ export default function IndiaPage() {
 
     </div>
 
-    {/* 5. Retail & E-commerce - adjacency segment */}
+    {/* 5. Retail & E-commerce */}
     <div style={{'maxWidth':'72rem','margin':'1.5rem auto 0'}}>
       <div className="card" style={{'padding':'2rem 2.5rem','border':'1px solid var(--border)','background':'#F8FAFB','display':'flex','alignItems':'flex-start','gap':'1.5rem','flexWrap':'wrap'}}>
         <div style={{'flexShrink':0,'width':'2.75rem','height':'2.75rem','borderRadius':'0.75rem','background':'rgba(90,178,255,0.08)','border':'1px solid rgba(90,178,255,0.18)','display':'flex','alignItems':'center','justifyContent':'center'}}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5AB2FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
         </div>
         <div style={{'flex':1,'minWidth':'16rem'}}>
-          <p style={{'fontSize':'0.6875rem','fontWeight':'600','color':'var(--muted)','textTransform':'uppercase','letterSpacing':'0.08em','marginBottom':'0.35rem'}}>Adjacency segment</p>
           <h3 style={{'fontSize':'clamp(1rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Retail &amp; E-commerce</h3>
           <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7,'maxWidth':'52rem'}}>For commerce businesses with payment, identity, and fraud-risk exposure, Verafye can bring customer, transaction, and behavior signals into investigation workflows.</p>
         </div>

@@ -35,6 +35,10 @@ export const metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
+  icons: {
+    icon: [{ url: '/images/favicon-512.png', type: 'image/png' }],
+    apple: [{ url: '/images/favicon-512.png' }],
+  },
 };
 
 export default function RootLayout({ children }) {

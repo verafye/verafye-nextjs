@@ -429,12 +429,11 @@ export default function Page() {
         </div>
       </Link>
 
-      {/* 6. E-commerce / Retail (adjacency) */}
+      {/* 6. E-commerce / Retail */}
       <Link href="/industries/ecommerce-retail" style={{'textDecoration':'none','display':'block'}}>
         <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>E-commerce &amp; Retail</h3>
-          <p style={{'fontSize':'0.75rem','fontWeight':'500','color':'var(--muted)','marginBottom':'0.75rem','textTransform':'uppercase','letterSpacing':'0.04em'}}>Adjacency segment</p>
           <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Investigation intelligence for platforms operating at the intersection of payments, identity, and fraud risk.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View E-commerce &amp; Retail solution
