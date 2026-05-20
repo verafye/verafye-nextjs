@@ -120,7 +120,7 @@ const resources = [
       </svg>
     ),
   },
-  /* ── EXISTING LIBRARY — CTAs corrected, pages coming soon ── */
+  /* ── BACKLOG — hidden pending editorial review ──
   {
     category: 'industry-insights',
     categoryLabel: 'Industry Insights',
@@ -224,6 +224,7 @@ const resources = [
       </svg>
     ),
   },
+  ── end backlog ── */
 ];
 
 function StatusBadge({ status }) {
@@ -292,12 +293,29 @@ function ResourceCard({ resource }) {
 
   if (isLive && resource.href) {
     return (
-      <Link href={resource.href} style={{ textDecoration: 'none', display: 'block' }} className="card-hover">
+      <Link
+        href={resource.href}
+        style={{ textDecoration: 'none', display: 'block' }}
+        className="card-hover"
+        onClick={() => pushEvent('resource_card_click', {
+          resource_title: resource.title,
+          resource_category: resource.category,
+          resource_slug: resource.href,
+        })}
+      >
         {inner}
       </Link>
     );
   }
   return <div style={{ cursor: 'default' }}>{inner}</div>;
+}
+
+
+// ── Analytics helper — pushes to GTM dataLayer if available ──────────────
+function pushEvent(event, payload) {
+  if (typeof window !== 'undefined' && Array.isArray(window.dataLayer)) {
+    window.dataLayer.push({ event, ...payload });
+  }
 }
 
 export default function ResourcesClient() {
@@ -317,7 +335,7 @@ export default function ResourcesClient() {
           return (
             <button
               key={f.id}
-              onClick={() => setActiveFilter(f.id)}
+              onClick={() => { setActiveFilter(f.id); pushEvent('resource_category_filter_click', { resource_category: f.id, cta_label: f.label }); }}
               style={{
                 fontSize: '0.8125rem',
                 fontWeight: 600,

@@ -2,20 +2,22 @@ import Link from 'next/link';
 import ResourcesClient from './ResourcesClient';
 
 export const metadata = {
-  title: 'Resources for Financial Crime, Fraud, and Payment Risk Teams | Verafye',
-  description: 'Insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated money movement operations.',
+  title: 'Resources for Financial Crime, Fraud & Payment Risk Teams | Verafye',
+  description: 'Explore Verafye insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated payment risk operations.',
   openGraph: {
-    title: 'Resources for Financial Crime, Fraud, and Payment Risk Teams | Verafye',
-    description: 'Insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated money movement operations.',
-    url: 'https://verafye.com/resources/',
+    title: 'Resources for Financial Crime, Fraud & Payment Risk Teams | Verafye',
+    description: 'Explore Verafye insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated payment risk operations.',
+    url: 'https://www.verafye.com/resources/',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye Resources - Investigation Intelligence for Risk Teams' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Resources for Financial Crime, Fraud, and Payment Risk Teams | Verafye',
-    description: 'Insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated money movement operations.',
+    title: 'Resources for Financial Crime, Fraud & Payment Risk Teams | Verafye',
+    description: 'Explore Verafye insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated payment risk operations.',
+    images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://verafye.com/resources/',
+    canonical: 'https://www.verafye.com/resources/',
   },
 };
 

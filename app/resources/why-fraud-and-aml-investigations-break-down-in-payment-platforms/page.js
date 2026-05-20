@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
   title: 'Why Fraud and AML Investigations Break Down in Payment Platforms | Verafye',
@@ -6,16 +7,18 @@ export const metadata = {
   openGraph: {
     title: 'Why Fraud and AML Investigations Break Down in Payment Platforms | Verafye',
     description: 'Explore why payment platforms need connected investigation workflows across fraud, AML, payment, identity, beneficiary, and case signals.',
-    url: 'https://verafye.com/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/',
+    url: 'https://www.verafye.com/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Why Fraud and AML Investigations Break Down in Payment Platforms | Verafye',
     description: 'Explore why payment platforms need connected investigation workflows across fraud, AML, payment, identity, beneficiary, and case signals.',
+    images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://verafye.com/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/',
+    canonical: 'https://www.verafye.com/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/',
   },
 };
 
@@ -31,12 +34,14 @@ const relatedResources = [
     category: 'Product Insights',
     readingTime: '5 min read',
     href: '/resources/what-is-investigation-intelligence/',
+    ctaLabel: 'Read Article',
   },
   {
     title: 'Mule Account Investigations: Why Connected Signals Matter',
     category: 'Use Case Deep Dives',
     readingTime: '7 min read',
     href: '/resources/mule-account-investigations-connected-signals/',
+    ctaLabel: 'Explore Use Case',
   },
 ];
 
@@ -76,13 +81,13 @@ export default function ArticlePage() {
                 Industry Insights
               </span>
               <span style={{ fontSize: '0.75rem', color: 'var(--muted)', fontWeight: 500 }}>6 min read</span>
-              <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2025</span>
+              <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2026</span>
             </div>
             <h1 style={{ fontSize: 'clamp(1.625rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.2, letterSpacing: '-0.025em' }}>
               Why Fraud and AML Investigations Break Down in Payment Platforms
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
-              Payment platforms operate in some of the most demanding risk environments in financial services &mdash; and investigations often break down not because detection is weak, but because the signals needed to understand risk are spread across too many systems.
+              Payment platforms operate in some of the most demanding risk environments in financial services  -  and investigations often break down not because detection is weak, but because the signals needed to understand risk are spread across too many systems.
             </p>
           </div>
         </div>
@@ -94,7 +99,7 @@ export default function ArticlePage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto' }}>
 
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Payment platforms handle high transaction volumes, multiple payment methods, merchant and customer activity, beneficiary relationships, cross-border flows, and fast-moving money movement patterns &mdash; all at once. Fraud and AML teams are expected to detect risk quickly, investigate suspicious activity, document decisions, and support internal and regulatory review. The result is familiar: alerts are generated, but the full context is slow to assemble.
+              Payment platforms handle high transaction volumes, multiple payment methods, merchant and customer activity, beneficiary relationships, cross-border flows, and fast-moving money movement patterns  -  all at once. Fraud and AML teams are expected to detect risk quickly, investigate suspicious activity, document decisions, and support internal and regulatory review. The result is familiar: alerts are generated, but the full context is slow to assemble.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -128,7 +133,7 @@ export default function ArticlePage() {
               'Beneficiary or counterparty context may require manual lookup.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              That fragmentation creates the real bottleneck. Analysts spend too much time gathering context &mdash; switching tabs, copying data, and reconstructing timelines &mdash; and not enough time assessing risk.
+              That fragmentation creates the real bottleneck. Analysts spend too much time gathering context  -  switching tabs, copying data, and reconstructing timelines  -  and not enough time assessing risk.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -174,7 +179,7 @@ export default function ArticlePage() {
             <BulletList items={[
               'Review related signals together so context is not lost.',
               'See relationships between accounts, customers, merchants, devices, and identities.',
-              'Standardise how cases are documented and reviewed across analysts.',
+              'Standardize how cases are documented and reviewed across analysts.',
               'Maintain clear reviewer actions and decision rationale.',
               'Build stronger evidence trails as part of the workflow, not after the fact.',
             ]} />
@@ -218,7 +223,7 @@ export default function ArticlePage() {
                 Fraud and AML investigations in payment platforms often break down not because teams are unaware of risk, but because signals are fragmented across tools, workflows are manual and analyst-dependent, and context is scattered and hard to reconstruct.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, margin: 0 }}>
-                The next step is not more alerts. It is better investigation intelligence &mdash; connected workflows that help teams see relationships, explain risk, and close cases faster.
+                The next step is not more alerts. It is better investigation intelligence  -  connected workflows that help teams see relationships, explain risk, and close cases faster.
               </p>
             </div>
 
@@ -241,6 +246,13 @@ export default function ArticlePage() {
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
               <Link href="/request-demo" className="btn-primary">Request Demo</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
+              <PdfDownloadButton
+                pdfPath="/downloads/resources/fraud-aml-investigations-payment-platforms.pdf"
+                pdfFilename="verafye-fraud-aml-investigations-payment-platforms.pdf"
+                resourceTitle="Why Fraud and AML Investigations Break Down in Payment Platforms"
+                resourceCategory="Industry Insights"
+                articleSlug="why-fraud-and-aml-investigations-break-down-in-payment-platforms"
+              />
             </div>
           </div>
         </div>
@@ -262,7 +274,7 @@ export default function ArticlePage() {
                     <h3 style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem', lineHeight: 1.35 }}>{r.title}</h3>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                       <span style={{ fontSize: '0.75rem', color: 'var(--muted)', fontWeight: 500 }}>{r.readingTime}</span>
-                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>Read {ARROW}</span>
+                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>{r.ctaLabel} {ARROW}</span>
                     </div>
                   </div>
                 </Link>

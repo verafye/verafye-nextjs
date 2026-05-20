@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
   title: 'The Missing Layer in Modern Financial Crime Investigations | Verafye',
@@ -6,16 +7,18 @@ export const metadata = {
   openGraph: {
     title: 'The Missing Layer in Modern Financial Crime Investigations | Verafye',
     description: 'Learn how investigation intelligence helps fraud, AML, and risk teams connect fragmented signals into explainable, evidence-ready workflows.',
-    url: 'https://verafye.com/resources/what-is-investigation-intelligence/',
+    url: 'https://www.verafye.com/resources/what-is-investigation-intelligence/',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Missing Layer in Modern Financial Crime Investigations | Verafye',
     description: 'Learn how investigation intelligence helps fraud, AML, and risk teams connect fragmented signals into explainable, evidence-ready workflows.',
+    images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://verafye.com/resources/what-is-investigation-intelligence/',
+    canonical: 'https://www.verafye.com/resources/what-is-investigation-intelligence/',
   },
 };
 
@@ -31,12 +34,14 @@ const relatedResources = [
     category: 'Industry Insights',
     readingTime: '6 min read',
     href: '/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/',
+    ctaLabel: 'Read Insight',
   },
   {
     title: 'Mule Account Investigations: Why Connected Signals Matter',
     category: 'Use Case Deep Dives',
     readingTime: '7 min read',
     href: '/resources/mule-account-investigations-connected-signals/',
+    ctaLabel: 'Explore Use Case',
   },
 ];
 
@@ -65,13 +70,13 @@ export default function ArticlePage() {
                 Product Insights
               </span>
               <span style={{ fontSize: '0.75rem', color: 'var(--muted)', fontWeight: 500 }}>5 min read</span>
-              <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2025</span>
+              <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2026</span>
             </div>
             <h1 style={{ fontSize: 'clamp(1.625rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.2, letterSpacing: '-0.025em' }}>
               The Missing Layer in Modern Financial Crime Investigations
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
-              Fraud, AML, and risk teams are drowning in alerts — not because detection is broken, but because the work after the alert is messy.
+              Fraud, AML, and risk teams are drowning in alerts - not because detection is broken, but because the work after the alert is messy.
             </p>
           </div>
         </div>
@@ -88,7 +93,7 @@ export default function ArticlePage() {
 
             {/* ── Section 1 ── */}
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
-              1. Risk Is Not Local — It Is Connected
+              1. Risk Is Not Local - It Is Connected
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
               Suspicious activity rarely lives inside one account or one transaction. Across payments businesses, banks, fintechs, and other financial services firms, risk often shows up across multiple accounts, shared devices, repeating beneficiaries, and similar transaction patterns across fraud and AML alerts.
@@ -105,7 +110,7 @@ export default function ArticlePage() {
               2. Workflows Are Where Consistency Is Built
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
-              In many organisations, investigations are shaped more by individual analysts than by a repeatable operating model. One person documents deeply; another captures almost nothing. One escalates quickly; another keeps digging in isolation.
+              In many organizations, investigations are shaped more by individual analysts than by a repeatable operating model. One person documents deeply; another captures almost nothing. One escalates quickly; another keeps digging in isolation.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
               The result is a fragile risk posture: decisions that are hard to explain and hard to reproduce.
@@ -155,7 +160,7 @@ export default function ArticlePage() {
               ))}
             </div>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Evidence-ready investigation records — with clear trails across fraud, AML, payments, identity, and device signals — are no longer a &ldquo;nice-to-have.&rdquo; They are table stakes for any serious financial services organisation.
+              Evidence-ready investigation records - with clear trails across fraud, AML, payments, identity, and device signals - are no longer a &ldquo;nice-to-have.&rdquo; They are table stakes for any serious financial services organization.
             </p>
 
             {/* ── Where Verafye Fits ── */}
@@ -168,7 +173,7 @@ export default function ArticlePage() {
             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.75rem', padding: '1.5rem 1.75rem', marginBottom: '1.5rem' }}>
               {[
                 'See relationships, not just lists.',
-                'Standardise how cases are reviewed.',
+                'Standardize how cases are reviewed.',
                 'Build evidence-ready records by design.',
               ].map(item => (
                 <div key={item} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem', marginBottom: '0.625rem' }}>
@@ -204,6 +209,13 @@ export default function ArticlePage() {
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
               <Link href="/request-demo" className="btn-primary">Request Demo</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
+              <PdfDownloadButton
+                pdfPath="/downloads/resources/missing-layer-modern-financial-crime-investigations.pdf"
+                pdfFilename="verafye-missing-layer-modern-financial-crime-investigations.pdf"
+                resourceTitle="The Missing Layer in Modern Financial Crime Investigations"
+                resourceCategory="Product Insights"
+                articleSlug="what-is-investigation-intelligence"
+              />
             </div>
           </div>
         </div>
@@ -225,7 +237,7 @@ export default function ArticlePage() {
                     <h3 style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem', lineHeight: 1.35 }}>{r.title}</h3>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                       <span style={{ fontSize: '0.75rem', color: 'var(--muted)', fontWeight: 500 }}>{r.readingTime}</span>
-                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>Read {ARROW}</span>
+                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>{r.ctaLabel} {ARROW}</span>
                     </div>
                   </div>
                 </Link>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
   title: 'Mule Account Investigations: Why Connected Signals Matter | Verafye',
@@ -6,16 +7,18 @@ export const metadata = {
   openGraph: {
     title: 'Mule Account Investigations: Why Connected Signals Matter | Verafye',
     description: 'Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.',
-    url: 'https://verafye.com/resources/mule-account-investigations-connected-signals/',
+    url: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals/',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Mule Account Investigations: Why Connected Signals Matter | Verafye',
     description: 'Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.',
+    images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://verafye.com/resources/mule-account-investigations-connected-signals/',
+    canonical: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals/',
   },
 };
 
@@ -31,12 +34,14 @@ const relatedResources = [
     category: 'Product Insights',
     readingTime: '5 min read',
     href: '/resources/what-is-investigation-intelligence/',
+    ctaLabel: 'Read Article',
   },
   {
     title: 'Why Fraud and AML Investigations Break Down in Payment Platforms',
     category: 'Industry Insights',
     readingTime: '6 min read',
     href: '/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/',
+    ctaLabel: 'Read Insight',
   },
 ];
 
@@ -96,13 +101,13 @@ export default function ArticlePage() {
                 Use Case Deep Dives
               </span>
               <span style={{ fontSize: '0.75rem', color: 'var(--muted)', fontWeight: 500 }}>7 min read</span>
-              <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2025</span>
+              <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2026</span>
             </div>
             <h1 style={{ fontSize: 'clamp(1.625rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.2, letterSpacing: '-0.025em' }}>
               Mule Account Investigations: Why Connected Signals Matter
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
-              Mule account activity is one of the most difficult risk patterns for financial crime teams to investigate &mdash; and the harder problem is connecting the signals that show how accounts, transactions, beneficiaries, identities, devices, and behaviors may be related.
+              Mule account activity is one of the most difficult risk patterns for financial crime teams to investigate  -  and the harder problem is connecting the signals that show how accounts, transactions, beneficiaries, identities, devices, and behaviors may be related.
             </p>
           </div>
         </div>
@@ -117,7 +122,7 @@ export default function ArticlePage() {
               A single account may look ordinary. A single transaction may not be enough to prove suspicious activity. A single beneficiary may not raise concern in isolation. But when these signals are connected, a clearer picture of mule-style behavior can emerge.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              That is why mule account investigations need connected investigation workflows &mdash; not just more alerts.
+              That is why mule account investigations need connected investigation workflows  -  not just more alerts.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -170,7 +175,7 @@ export default function ArticlePage() {
               For example, an analyst might review a recently reactivated account that starts receiving inbound payments from several unrelated sources. On its own, that may not be enough to trigger immediate concern. But when the analyst sees that the funds are being moved out quickly to newly added beneficiaries, that the same device has been used across other accounts, and that a linked identity attribute appears in prior cases, the picture changes.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              What looked like a routine payment review starts to look more like coordinated mule activity. That is the value of connected context &mdash; not more data for its own sake, but a faster path to the pattern behind the alert.
+              What looked like a routine payment review starts to look more like coordinated mule activity. That is the value of connected context  -  not more data for its own sake, but a faster path to the pattern behind the alert.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -270,7 +275,7 @@ export default function ArticlePage() {
               Mule account activity often cuts across both fraud and AML responsibilities. A fraud team may see account misuse, payment anomalies, and device-level evidence of coordinated activity. An AML team may see suspicious transaction flows, beneficiary networks that look like transaction laundering, and unusual movement of funds across accounts and jurisdictions.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              If these teams work from disconnected systems, they may review the same pattern twice &mdash; or worse, miss it entirely. A shared investigation layer that brings together fraud, AML, payment, identity, device, and case signals into a connected workflow can help:
+              If these teams work from disconnected systems, they may review the same pattern twice  -  or worse, miss it entirely. A shared investigation layer that brings together fraud, AML, payment, identity, device, and case signals into a connected workflow can help:
             </p>
             <BulletList items={[
               'Align fraud and AML perspectives.',
@@ -331,7 +336,7 @@ export default function ArticlePage() {
             <BulletList items={[
               'Review connected context instead of scattered alerts.',
               'Identify relationship patterns and mule-style clusters.',
-              'Structure case workflows and standardise how cases are reviewed.',
+              'Structure case workflows and standardize how cases are reviewed.',
               'Capture reviewer actions and decision history.',
               'Maintain evidence-ready investigation records that are easier to reconstruct and explain.',
             ]} />
@@ -368,6 +373,13 @@ export default function ArticlePage() {
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
               <Link href="/request-demo" className="btn-primary">Request Demo</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
+              <PdfDownloadButton
+                pdfPath="/downloads/resources/mule-account-investigations-connected-signals.pdf"
+                pdfFilename="verafye-mule-account-investigations-connected-signals.pdf"
+                resourceTitle="Mule Account Investigations: Why Connected Signals Matter"
+                resourceCategory="Use Case Deep Dives"
+                articleSlug="mule-account-investigations-connected-signals"
+              />
             </div>
           </div>
         </div>
@@ -389,7 +401,7 @@ export default function ArticlePage() {
                     <h3 style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem', lineHeight: 1.35 }}>{r.title}</h3>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                       <span style={{ fontSize: '0.75rem', color: 'var(--muted)', fontWeight: 500 }}>{r.readingTime}</span>
-                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>Read {ARROW}</span>
+                      <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>{r.ctaLabel} {ARROW}</span>
                     </div>
                   </div>
                 </Link>
