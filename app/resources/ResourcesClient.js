@@ -69,7 +69,7 @@ const resources = [
       </svg>
     ),
   },
-  /* ── PLANNED — no page yet ── */
+  /* ── LIVE — article pages exist ── */
   {
     category: 'product-insights',
     categoryLabel: 'Product Insights',
@@ -77,8 +77,8 @@ const resources = [
     summary: 'Understand why modern risk teams need to move beyond alert queues toward structured, explainable, and evidence-ready investigation workflows.',
     readingTime: '6 min read',
     ctaLabel: 'Read Article',
-    href: null,
-    status: 'planned',
+    href: '/resources/from-alerts-to-decisions-risk-team-operating-model/',
+    status: 'live',
     gradient: 'gradient-bg-4',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -94,8 +94,8 @@ const resources = [
     summary: 'Learn why digital and neo banks need investigation-ready workflows that connect fraud, AML, account, payment, identity, and device context.',
     readingTime: '6 min read',
     ctaLabel: 'Read Insight',
-    href: null,
-    status: 'planned',
+    href: '/resources/why-digital-banks-need-investigation-ready-risk-workflows/',
+    status: 'live',
     gradient: 'gradient-bg-1',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -111,8 +111,8 @@ const resources = [
     summary: 'Understand how evidence packs help financial crime teams maintain structured, traceable, and review-ready investigation records.',
     readingTime: '5 min read',
     ctaLabel: 'Read Perspective',
-    href: null,
-    status: 'planned',
+    href: '/resources/evidence-packs-audit-ready-investigation-records/',
+    status: 'live',
     gradient: 'gradient-bg-2',
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

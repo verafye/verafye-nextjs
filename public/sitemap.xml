@@ -150,6 +150,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.verafye.com/resources/from-alerts-to-decisions-risk-team-operating-model/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/resources/why-digital-banks-need-investigation-ready-risk-workflows/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/resources/evidence-packs-audit-ready-investigation-records/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.verafye.com/faq/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -157,14 +172,7 @@
   <url>
     <loc>https://www.verafye.com/security-trust/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Legal -->
-  <url>
-    <loc>https://www.verafye.com/cookie-policy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.verafye.com/privacy-policy/</loc>
@@ -176,5 +184,9 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
+  <url>
+    <loc>https://www.verafye.com/cookie-policy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

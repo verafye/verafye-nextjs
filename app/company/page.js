@@ -237,11 +237,11 @@ export default function Page() {
       <div style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'2rem'}}>
         <div className="card card-elevated" style={{'padding':'2.5rem'}}>
           <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--secondary)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.75rem'}}>Vision</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>A world where financial crime teams see the full picture before they make the call.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>To enable regulated financial institutions to operate with clarity, confidence, and control in an increasingly complex financial crime landscape.</p>
         </div>
         <div className="card card-elevated" style={{'padding':'2.5rem'}}>
           <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--secondary)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.75rem'}}>Mission</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>Verafye connects fragmented fraud, AML, payment, identity, device, and transaction signals into explainable investigation workflows - helping regulated financial platforms move from alerts to decisions faster.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>To build connected investigation intelligence that helps fraud, AML, and payments teams turn fragmented signals into faster, more traceable financial crime decisions.</p>
         </div>
       </div>
     </div>
