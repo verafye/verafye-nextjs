@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SplitHeroWithVisualCard, { PlatformVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
   title: "Verafye Platform | Investigation Intelligence for Fraud + AML Operations",
@@ -18,24 +19,16 @@ export default function PlatformPage() {
   return (
     <>
 
-{/* HERO */}
-<section style={{'background':'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)','padding':'4rem 0'}}>
-  <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
-    <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>VERAFYE PLATFORM</p>
-    <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem','letterSpacing':'-0.025em','lineHeight':'1.15'}}>One investigation layer for connected financial crime operations</h1>
-    <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1rem','lineHeight':'1.4'}}>Unify fraud, AML, payments, identity, device, and behavior signals into investigation-ready cases, explainable decisions, and audit-ready workflows.</p>
-    <p className="animate-fade-up delay-250" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'48rem','marginLeft':'auto','marginRight':'auto'}}>The Verafye platform brings together signal ingestion, alert clustering, graph intelligence, case workflows, evidence, and audit trails - giving lean risk teams an Investigation Intelligence Layer built for connected fraud, AML, and payment risk operations. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.</p>
-    <div className="animate-fade-up delay-300" style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'0.75rem'}}>
-      <Link href="/request-demo" className="btn-primary">
-        Request Demo
-        <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </span>
-      </Link>
-      <Link href="/capabilities" className="btn-secondary">Explore Capabilities</Link>
-    </div>
-  </div>
-</section>
+{/* HERO — Option 1: Split Hero with Visual Card (approved) */}
+<SplitHeroWithVisualCard
+  eyebrow="VERAFYE PLATFORM"
+  title="One investigation layer for connected financial crime operations"
+  description="Unify fraud, AML, payments, identity, device, and behavior signals into investigation-ready cases, explainable decisions, and audit-ready workflows."
+  body="The Verafye platform brings together signal ingestion, alert clustering, graph intelligence, case workflows, evidence, and audit trails - giving lean risk teams an Investigation Intelligence Layer built for connected fraud, AML, and payment risk operations. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven."
+  primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+  secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
+  visualCard={<PlatformVisualCard />}
+/>
 
 {/* INVESTIGATION LAYER OVERVIEW */}
 <section style={{'padding':'4rem 0','background':'#fff'}}>

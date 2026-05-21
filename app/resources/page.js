@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SplitHeroWithVisualCard, { ResourcesVisualCard } from '../../components/SplitHeroWithVisualCard';
 import ResourcesClient from './ResourcesClient';
 
 export const metadata = {
@@ -31,29 +32,15 @@ export default function ResourcesPage() {
   return (
     <>
 
-      {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
-      <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '5rem 0 4rem' }}>
-        <div className="container">
-          <div style={{ maxWidth: '54rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Knowledge Hub</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Resources for Financial Crime, Fraud, and Payment Risk Teams
-            </h1>
-            <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto', marginBottom: '2.5rem' }}>
-              Insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated money movement operations.
-            </p>
-            <div className="animate-fade-up delay-300" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
-              <a href="#resources-grid" className="btn-primary">
-                Explore Resources
-                <span className="btn-arrow" style={{ marginLeft: '0.375rem' }}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                </span>
-              </a>
-              <Link href="/request-demo" className="btn-secondary">Request Demo</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* ── 1. HERO — Option 1: Split Hero with Visual Card (approved) ────── */}
+      <SplitHeroWithVisualCard
+        eyebrow="Knowledge Hub"
+        title="Resources for Financial Crime, Fraud, and Payment Risk Teams"
+        description="Insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated money movement operations."
+        primaryCTA={{ label: 'Explore Resources', href: '#resources-grid' }}
+        secondaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+        visualCard={<ResourcesVisualCard />}
+      />
 
       {/* ── 2. FEATURED RESOURCE ────────────────────────────────────────────── */}
       <section style={{ padding: '4rem 0', background: '#fff' }}>

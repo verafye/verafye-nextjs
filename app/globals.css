@@ -519,6 +519,33 @@ img { max-width: 100%; height: auto; }
   .container { max-width: 1280px; }
 }
 
+/* ───────── SPLIT HERO (inner pages — Option 1 approved layout) ───────── */
+/* Two-column: left = text content, right = abstract visual card.          */
+/* Apply via className="split-hero-grid" on the inner grid div.            */
+.split-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 460px);
+  gap: 3.5rem;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .split-hero-grid {
+    grid-template-columns: 1fr minmax(0, 380px);
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .split-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .split-hero-card-col {
+    max-width: 480px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
 /* ───────── Fix hero grid responsive stacking ───────── */
 @media (max-width:768px) {
   .hero-grid, .split-layout { grid-template-columns: 1fr !important; }

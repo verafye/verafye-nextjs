@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SplitHeroWithVisualCard, { GraphIntelligenceVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
   title: "Graph Intelligence for Risk Investigations | Verafye",
@@ -18,38 +19,16 @@ export default function GraphIntelligencePage() {
   return (
     <>
 
-      {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
-      {/*
-        CHANGE: Secondary CTA was "Contact Sales → /request-demo" - duplicate destination.
-        Replaced with "See Investigation Intelligence → /solutions/investigation-intelligence"
-        to keep visitors in the solution exploration flow rather than bouncing two
-        identical buttons off the same page.
-      */}
-      <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
-        <div className="container">
-          <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>GRAPH INTELLIGENCE</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Graph intelligence for connected financial crime investigations
-            </h1>
-            <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Reveal hidden relationships across users, accounts, merchants, devices, transactions, counterparties, and entities.
-            </p>
-            <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye uses graph intelligence to help risk teams see how alerts, entities, and behaviors connect - turning isolated events into network-level investigation context.
-            </p>
-            <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="/request-demo" className="btn-primary">
-                Request Demo
-                <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                </span>
-              </Link>
-              <Link href="/platform" className="btn-secondary">Explore Platform</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
+      <SplitHeroWithVisualCard
+        eyebrow="GRAPH INTELLIGENCE"
+        title="Graph intelligence for connected financial crime investigations"
+        description="Reveal hidden relationships across users, accounts, merchants, devices, transactions, counterparties, and entities."
+        body="Verafye uses graph intelligence to help risk teams see how alerts, entities, and behaviors connect - turning isolated events into network-level investigation context."
+        primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+        secondaryCTA={{ label: 'Explore Platform', href: '/platform' }}
+        visualCard={<GraphIntelligenceVisualCard />}
+      />
 
       {/* ── 2. PROBLEM STATEMENT ────────────────────────────────────────────── */}
       {/*

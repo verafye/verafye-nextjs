@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SplitHeroWithVisualCard, { MuleAccountVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
   title: "Mule Account Detection & Investigation | Verafye",
@@ -18,42 +19,16 @@ export default function MuleAccountDetectionPage() {
   return (
     <>
 
-      {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
-      {/*
-        CHANGE: Secondary CTA was "Contact Sales → /request-demo" - duplicate destination.
-        Replaced with "See Mule Network Detection Use Case → /use-cases/mule-network-detection"
-        which is the direct use-case page for this solution topic.
-
-        CHANGE: "graph intelligence" in hero sub-paragraph is now a linked phrase
-        → /solutions/graph-intelligence. "investigation-centric workflows" links
-        → /solutions/investigation-intelligence. Both are direct cross-references
-        to the other two solution pages without changing any copy.
-      */}
-      <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
-        <div className="container">
-          <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MULE ACCOUNT DETECTION</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Mule account detection with connected risk signals
-            </h1>
-            <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Connect account, identity, device, transaction, counterparty, and behavior signals to identify suspicious mule activity faster.
-            </p>
-            <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps teams detect and investigate mule account patterns by linking fragmented signals into case-ready context and graph-based relationship views.
-            </p>
-            <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="/request-demo" className="btn-primary">
-                Request Demo
-                <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                </span>
-              </Link>
-              <Link href="/solutions/graph-intelligence" className="btn-secondary">Explore Graph Intelligence</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
+      <SplitHeroWithVisualCard
+        eyebrow="MULE ACCOUNT DETECTION"
+        title="Mule account detection with connected risk signals"
+        description="Connect account, identity, device, transaction, counterparty, and behavior signals to identify suspicious mule activity faster."
+        body="Verafye helps teams detect and investigate mule account patterns by linking fragmented signals into case-ready context and graph-based relationship views."
+        primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+        secondaryCTA={{ label: 'Explore Graph Intelligence', href: '/solutions/graph-intelligence' }}
+        visualCard={<MuleAccountVisualCard />}
+      />
 
       {/* ── 2. PROBLEM STATEMENT ────────────────────────────────────────────── */}
       {/*

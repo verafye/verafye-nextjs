@@ -1,3 +1,5 @@
+import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
+
 export const metadata = {
   title: "Verafye Capabilities | Alert Clustering, Graph Intelligence & Case Workflows",
   description: "Explore Verafye capabilities - alert clustering, graph intelligence, entity resolution, case workflows, evidence packs, and audit-ready records for fraud and AML risk teams.",
@@ -160,46 +162,15 @@ const flowSteps = [
 export default function CapabilitiesPage() {
   return (
     <>
-      {/* ── Section 1: Hero (light) ── */}
-      <section style={{
-        background: 'linear-gradient(180deg, #F8FBFF 0%, #fff 100%)',
-        padding: 'clamp(3rem,6vw,4.5rem) 1.5rem clamp(2.5rem,5vw,3.5rem)',
-        textAlign: 'center',
-      }}>
-        <div className="container" style={{maxWidth: '56rem'}}>
-          <p className="eyebrow animate-fade-up" style={{marginBottom: '1.25rem'}}>
-            CAPABILITIES
-          </p>
-          <h1 className="animate-fade-up delay-100" style={{
-            fontSize: 'clamp(1.875rem,5vw,3.25rem)',
-            fontWeight: 700,
-            lineHeight: 1.15,
-            letterSpacing: '-0.025em',
-            color: 'var(--dark)',
-            marginBottom: '1.25rem',
-          }}>
-            Capabilities for faster, explainable investigations
-          </h1>
-          <p className="animate-fade-up delay-200" style={{
-            fontSize: 'clamp(1rem,2vw,1.25rem)',
-            color: 'var(--body)',
-            lineHeight: 1.65,
-            maxWidth: '44rem',
-            margin: '0 auto 2.25rem',
-          }}>
-            Explore how Verafye connects signals, clusters alerts, surfaces hidden networks, supports case decisions, preserves evidence packs, and maintains audit-ready investigation trails - delivering a practical operating workspace for fraud and AML risk teams.
-          </p>
-          <div className="animate-fade-up delay-300" style={{display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap'}}>
-            <a href="/request-demo" className="btn-primary">
-              Request Demo
-              <span style={{display: 'inline-flex', marginLeft: '0.5rem'}}>
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-              </span>
-            </a>
-            <a href="/platform" className="btn-secondary">Explore Platform</a>
-          </div>
-        </div>
-      </section>
+      {/* ── Section 1: Hero - Option 1: Split Hero with Visual Card (approved) ── */}
+      <SplitHeroWithVisualCard
+        eyebrow="CAPABILITIES"
+        title="Capabilities for faster, explainable investigations"
+        description="Explore how Verafye connects signals, clusters alerts, surfaces hidden networks, supports case decisions, preserves evidence packs, and maintains audit-ready investigation trails - delivering a practical operating workspace for fraud and AML risk teams."
+        primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+        secondaryCTA={{ label: 'Explore Platform', href: '/platform' }}
+        visualCard={<CapabilitiesVisualCard />}
+      />
 
       {/* ── Section 2: Overview intro ── */}
       <section style={{padding: 'clamp(2rem,4vw,3rem) 1.5rem 1.5rem', background: '#fff'}}>
