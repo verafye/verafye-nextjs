@@ -219,7 +219,7 @@ export default function PlatformPage() {
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></div>
         <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Signal Ingestion</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals through APIs, SDKs, and pre-built connectors into a unified investigation context.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals from existing systems into a unified investigation context.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
@@ -254,7 +254,7 @@ export default function PlatformPage() {
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h6v6H4z"/><path d="M14 4h6v6h-6z"/><path d="M4 14h6v6H4z"/><path d="M14 14h6v6h-6z"/><path d="M7 10v4"/><path d="M17 10v4"/><path d="M10 7h4"/><path d="M10 17h4"/></svg></div>
         <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Integrations &amp; Orchestration</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Connect third-party KYC, KYB, sanctions, watchlist, device, banking, and enrichment providers through flexible APIs, SDKs, and pre-built connectors.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Connect third-party KYC, KYB, sanctions, watchlist, device, banking, and enrichment providers through flexible integration paths and pre-built connectors.</p>
       </div>
 
     </div>
@@ -292,7 +292,7 @@ export default function PlatformPage() {
             ))}
           </div>
           <div style={{'padding':'0.75rem','background':'rgba(30,111,183,0.05)','borderRadius':'8px','border':'1px solid rgba(30,111,183,0.1)','marginTop':'auto'}}>
-            <p style={{'fontSize':'0.75rem','color':'#1E6FB7','lineHeight':1.55,'margin':0}}>Fragmented signals from multiple systems pulled through APIs, SDKs, and connectors</p>
+            <p style={{'fontSize':'0.75rem','color':'#1E6FB7','lineHeight':1.55,'margin':0}}>Fragmented signals from multiple systems connected through flexible integration paths and connectors</p>
           </div>
         </div>
 
@@ -439,11 +439,11 @@ export default function PlatformPage() {
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div className="hero-grid" style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'4rem','alignItems':'center'}}>
       <div>
-        <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>CONFIGURABLE RULES</p>
-        <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Configure rules without engineering dependency</h2>
-        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':1.7}}>Verafye supports configurable rule creation using predefined templates, parameters, conditions, thresholds, and outcomes - helping risk teams adapt monitoring and investigation logic without writing code.</p>
+        <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>CONFIGURABLE WORKFLOWS</p>
+        <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Governed investigation configuration for risk teams</h2>
+        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':1.7}}>Verafye supports governed investigation configuration, helping risk teams adapt review logic, workflows, and prioritization paths with appropriate controls - without requiring engineering dependency for routine adjustments.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.875rem'}}>
-          {['Predefined rule templates','Parameter and condition selection','Outcome and action configuration','Threshold adjustments','Rule review and governance workflows'].map((item, i) => (
+          {['Governed workflow and review logic configuration','Prioritization and escalation path controls','Rule review and approval workflows','Audit-ready change records for governance teams','Human review before any configuration goes live'].map((item, i) => (
             <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.75rem'}}>
               <div style={{'flexShrink':0,'width':'1.375rem','height':'1.375rem','borderRadius':'50%','background':'var(--primary)','display':'flex','alignItems':'center','justifyContent':'center'}}>
                 <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
@@ -454,28 +454,15 @@ export default function PlatformPage() {
         </div>
       </div>
       <div style={{'background':'var(--bg-slate)','border':'1px solid var(--border)','borderRadius':'1.25rem','padding':'2rem'}}>
-        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.08em','marginBottom':'1.25rem'}}>Rule configuration</div>
+        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.08em','marginBottom':'1.25rem'}}>Governed configuration</div>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.75rem'}}>
-          <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.875rem'}}>
-            <div style={{'fontSize':'0.6875rem','fontWeight':'600','color':'var(--muted)','marginBottom':'0.375rem','textTransform':'uppercase','letterSpacing':'0.06em'}}>Template</div>
-            <div style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--dark)'}}>Velocity - Payment Activity</div>
+          <div className="card" style={{'padding':'1.25rem'}}>
+            <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)','marginBottom':'0.375rem'}}>Investigation workflow configuration</div>
+            <div style={{'fontSize':'0.8125rem','color':'var(--muted)','lineHeight':1.6}}>Risk teams can adapt review logic, escalation paths, and prioritization settings with appropriate governance controls in place.</div>
           </div>
-          <div style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'0.5rem'}}>
-            <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.75rem'}}>
-              <div style={{'fontSize':'0.6875rem','color':'var(--muted)','marginBottom':'0.25rem'}}>Condition</div>
-              <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)'}}>Transaction volume pattern</div>
-            </div>
-            <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.75rem'}}>
-              <div style={{'fontSize':'0.6875rem','color':'var(--muted)','marginBottom':'0.25rem'}}>Window</div>
-              <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)'}}>Configurable time window</div>
-            </div>
-          </div>
-          <div style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'0.5rem','padding':'0.875rem'}}>
-            <div style={{'fontSize':'0.6875rem','fontWeight':'600','color':'var(--muted)','marginBottom':'0.375rem','textTransform':'uppercase','letterSpacing':'0.06em'}}>Outcome</div>
-            <div style={{'display':'flex','gap':'0.5rem','alignItems':'center'}}>
-              <div style={{'width':'0.5rem','height':'0.5rem','borderRadius':'50%','background':'#F59E0B','flexShrink':0}}></div>
-              <div style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--dark)'}}>Flag for review - medium priority</div>
-            </div>
+          <div className="card" style={{'padding':'1.25rem'}}>
+            <div style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--dark)','marginBottom':'0.375rem'}}>Approval and review workflows</div>
+            <div style={{'fontSize':'0.8125rem','color':'var(--muted)','lineHeight':1.6}}>Configuration changes follow governed review workflows before going live - maintaining auditability and operational oversight.</div>
           </div>
         </div>
       </div>
@@ -488,9 +475,9 @@ export default function PlatformPage() {
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div className="hero-grid" style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'4rem','alignItems':'center'}}>
       <div style={{'background':'linear-gradient(135deg,var(--bg-blue),#fff)','border':'1px solid rgba(30,111,183,0.12)','borderRadius':'1.25rem','padding':'2rem','order':'1'}}>
-        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.08em','marginBottom':'1rem'}}>Device &amp; Behavior Signal Capture</div>
+        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.08em','marginBottom':'1rem'}}>Device &amp; Behavior Signals</div>
         <div style={{'display':'flex','flexWrap':'wrap','gap':'0.5rem','marginBottom':'1.25rem'}}>
-          {['JS SDK','Android SDK','iOS SDK','Device ID','Session','Browser','IP / Proxy','VPN / Emulator','Behavior patterns'].map(tag => (
+          {['Device context','Session signals','Identity signals','Behavior patterns','Account activity'].map(tag => (
             <span key={tag} style={{'display':'inline-flex','padding':'0.3rem 0.7rem','borderRadius':'9999px','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.15)','fontSize':'0.6875rem','fontWeight':'500','color':'var(--primary)'}}>{tag}</span>
           ))}
         </div>
@@ -500,17 +487,17 @@ export default function PlatformPage() {
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>
           </div>
           <div>
-            <div style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.125rem'}}>Connected to case graph</div>
-            <div style={{'fontSize':'0.75rem','color':'var(--muted)'}}>Device + behavior signals surface in investigation context</div>
+            <div style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.125rem'}}>Connected to case context</div>
+            <div style={{'fontSize':'0.75rem','color':'var(--muted)'}}>Device and behavior signals surface in investigation workflows</div>
           </div>
         </div>
       </div>
       <div style={{'order':'2'}}>
         <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>DEVICE &amp; BEHAVIOR</p>
-        <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Capture device and behavior signals for stronger investigations</h2>
-        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':1.7}}>Verafye supports device and behavior signal capture through SDKs and integrations, helping teams connect session, device, browser, account, and activity patterns to fraud and AML investigations.</p>
+        <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Connect device and behavior context into investigations</h2>
+        <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem','lineHeight':1.7}}>Verafye can connect device, session, identity, and behavior signals into investigation workflows where available, helping teams review suspicious activity with broader context across account, payment, and behavioral signals.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.875rem'}}>
-          {['JS, Android, and iOS SDK support','Device and session signal capture','Behavior pattern analysis','Proxy, VPN, emulator, and suspicious environment indicators','Connection of device and behavior signals into cases and graph context'].map((item, i) => (
+          {['Device and session signal ingestion where available','Behavior context connected to account and transaction signals','Suspicious activity patterns surfaced for investigator review','Device and behavior signals linked into case and graph context','Human reviewer controls for investigation outcomes'].map((item, i) => (
             <div key={i} style={{'display':'flex','alignItems':'flex-start','gap':'0.75rem'}}>
               <div style={{'flexShrink':0,'width':'1.375rem','height':'1.375rem','borderRadius':'50%','background':'var(--primary)','display':'flex','alignItems':'center','justifyContent':'center','marginTop':'0.125rem'}}>
                 <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
@@ -575,8 +562,8 @@ export default function PlatformPage() {
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>APIS &amp; INTEGRATIONS</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Connect through APIs, SDKs, and pre-built integrations</h2>
-      <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>Verafye can connect with third-party KYC, KYB, sanctions, watchlist, device, email, phone, banking, enrichment, and ecosystem providers through flexible APIs, SDKs, and pre-built connectors.</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Connect through flexible integrations and pre-built connectors</h2>
+      <p style={{'fontSize':'clamp(0.938rem,1.8vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>Verafye can connect with third-party KYC, KYB, sanctions, watchlist, device, email, phone, banking, enrichment, and ecosystem providers through flexible integration paths and pre-built connectors.</p>
     </div>
     <div className="grid-3" style={{'maxWidth':'72rem','margin':'0 auto 2.5rem','gap':'1.5rem'}}>
       <div className="card card-elevated" style={{'padding':'2rem'}}>
@@ -586,8 +573,8 @@ export default function PlatformPage() {
       </div>
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></div>
-        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>SDKs</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>JS, Android, and iOS SDKs for device and behavior signal capture across web and mobile surfaces.</p>
+        <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Integration support</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Integration support for device and behavior signal capture across web and mobile surfaces where available.</p>
       </div>
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg></div>
@@ -688,7 +675,7 @@ export default function PlatformPage() {
       {[
         { title: 'Role-based access controls', body: 'Data access follows controlled, role-based patterns - analysts, investigators, and system processes access only what is appropriate to their workflow context.' },
         { title: 'End-to-end audit trails', body: 'All investigation actions, alert dispositions, and case progressions are logged and auditable - providing the traceable record compliance and governance functions require.' },
-        { title: 'Explainable decisioning', body: 'Every risk score and case recommendation is backed by documented, traceable reasoning - supporting explainability obligations for regulated financial crime workflows.' },
+        { title: 'Explainable decisioning', body: 'Verafye is designed so that risk scores and case recommendations can be reviewed with documented, traceable context - supporting explainability requirements for regulated financial crime workflows.' },
       ].map(item => (
         <div key={item.title} className="card" style={{'padding':'1.5rem'}}>
           <div style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>{item.title}</div>

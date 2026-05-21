@@ -139,13 +139,13 @@ export default function GraphIntelligencePage() {
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>),
                 gradient: 'gradient-bg-3',
                 title: 'Investigation Without Relationship Context',
-                body: 'Analysts review individual alerts with no access to entity relationships or network structure. Each case requires manual research to surface connections that a graph layer would surface automatically.',
+                body: 'Analysts review individual alerts with no access to entity relationships or network structure. Each case requires manual research to surface connections that connected signal intelligence can help bring into view.',
               },
               {
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01"/><path d="M7 20v-4"/><path d="M12 20v-8"/><path d="M17 20V8"/><path d="M22 4v16"/></svg>),
                 gradient: 'gradient-bg-4',
                 title: 'Coordinated Activity Appears Low-Risk in Isolation',
-                body: 'Each individual transaction or account within a fraud network may score low risk on its own. Only when viewed as a connected structure does the coordinated scheme become visible - and only graph traversal can surface it.',
+                body: 'Each individual transaction or account within a fraud network may score low risk on its own. Only when viewed as a connected structure does the coordinated scheme become visible - which is why connecting signals across entities and time is essential.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -168,16 +168,16 @@ export default function GraphIntelligencePage() {
                 A Graph-Native Intelligence Layer for Financial Crime Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects fraud, AML, and payments signals into a unified intelligence layer - resolving entities, mapping relationships, and surfacing network risk in real time. This gives institutions the connected view of risk that fragmented monitoring cannot provide, and the traceable detection that aligns with evolving regulatory expectations for cross-domain visibility.
+                Verafye connects fraud, AML, and payments signals into a unified intelligence layer - resolving entities, mapping relationships, and surfacing network risk across accounts and time windows. This gives institutions the connected view of risk that fragmented monitoring cannot provide, and the traceable detection that aligns with evolving regulatory expectations for cross-domain visibility.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
               {[
                 { step: '01', title: 'Entity Resolution', body: 'Verafye resolves identities across fragmented data sources - linking accounts, devices, phone numbers, addresses, and behavioral fingerprints into unified entity profiles.' },
-                { step: '02', title: 'Relationship Mapping', body: 'Every resolved entity is connected to others through shared attributes and transaction history, building a living graph of relationships across your institution.' },
-                { step: '03', title: 'Link Discovery', body: 'Verafye continuously traverses the graph to surface non-obvious links - connections that are invisible to rules engines and siloed monitoring systems.' },
+                { step: '02', title: 'Relationship Mapping', body: 'Every resolved entity is connected to others through shared attributes and transaction history, building a structured relationship map across accounts, devices, and entities.' },
+                { step: '03', title: 'Link Discovery', body: 'Verafye surfaces non-obvious links across connected entities - connections that are invisible to rules engines and siloed monitoring systems.' },
                 { step: '04', title: 'Network Clustering', body: 'Connected entities are grouped into clusters - revealing fraud rings, mule networks, and synthetic identity cohorts operating across accounts and payment rails.' },
-                { step: '05', title: 'Graph-Based Investigation Context', body: 'Every alert is enriched with relationship context from the graph, giving investigators the network view they need to make faster, higher-confidence decisions.' },
+                { step: '05', title: 'Graph-Based Investigation Context', body: 'Alerts are enriched with relationship context from the graph, giving investigators the network view they need to make faster, higher-confidence decisions.' },
                 { step: '06', title: 'Unified Intelligence Layer', body: 'Fraud, AML, and payments signals are connected into a single intelligence layer - eliminating the blind spots that form at system boundaries, and supporting the cross-domain visibility that institutions need to operate under evolving regulatory expectations.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
@@ -261,7 +261,7 @@ export default function GraphIntelligencePage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
                 title: 'Earlier Detection of Coordinated Fraud Networks',
-                body: 'Graph traversal surfaces coordinated schemes before they accumulate losses - connecting signals across accounts, devices, and time windows that point-in-time scoring misses.',
+                body: 'Connected signal intelligence helps surface coordinated schemes earlier - connecting signals across accounts, devices, and time windows that point-in-time scoring misses.',
               },
               {
                 gradient: 'gradient-bg-2',

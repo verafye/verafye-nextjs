@@ -69,7 +69,7 @@ const faqCategories = [
       },
       {
         q: 'Does Verafye support explainability for AI-assisted decisions?',
-        a: 'Yes. Explainability is a core design principle within Verafye. Every risk score, alert, and case recommendation is backed by traceable, documented reasoning  -  enabling institutions to review, understand, and justify outputs to internal stakeholders and regulators without relying on opaque, black-box outputs. This is particularly important for institutions operating under frameworks that require documented justification for automated or AI-assisted financial crime decisions.',
+        a: 'Yes. Explainability is a core design principle within Verafye. Risk scores, alerts, and case recommendations are designed to include traceable, documented reasoning  -  enabling institutions to review, understand, and justify outputs to internal stakeholders and regulators without relying on opaque, black-box outputs. This is particularly important for institutions operating under frameworks that require documented justification for automated or AI-assisted financial crime decisions.',
       },
     ],
   },

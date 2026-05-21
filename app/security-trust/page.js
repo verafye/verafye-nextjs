@@ -84,7 +84,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Explainable Decision Support',
-                body: 'Every alert, risk score, and case recommendation produced by Verafye is backed by documented, traceable reasoning. Explainability is built into the decisioning layer  -  enabling institutions to understand, review, and justify outputs to internal stakeholders and regulators.',
+                body: 'Verafye is designed to provide traceable context for alerts, scores, recommendations, and case actions - helping teams review and justify investigation outcomes to internal stakeholders and regulators.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -174,7 +174,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Operational Transparency',
-                  body: 'Platform behaviour  -  including detection logic, scoring rationale, and investigation workflow steps  -  is designed to be transparent and reviewable by internal compliance, risk, and governance teams.',
+                  body: 'Investigation context, reviewer actions, and workflow steps are designed to be transparent and reviewable for internal compliance, risk, and governance teams.',
                 },
               ].map(item => (
                 <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -211,7 +211,7 @@ export default function SecurityTrustPage() {
                 {
                   step: '02',
                   title: 'Improves Traceability and Explainability',
-                  body: 'Every risk score, alert, and case recommendation within Verafye is backed by traceable, documented reasoning  -  supporting the explainability obligations that regulators apply to automated decision-making in financial crime contexts.',
+                  body: 'Risk scores, alerts, and case recommendations within Verafye are designed to include traceable, documented reasoning  -  supporting the explainability obligations that regulators apply to automated decision-making in financial crime contexts.',
                 },
                 {
                   step: '03',
@@ -535,7 +535,7 @@ export default function SecurityTrustPage() {
               },
               {
                 q: 'How does Verafye handle explainability for AI-assisted decisions?',
-                a: 'Every risk score, alert, and case recommendation produced by Verafye is backed by traceable, documented reasoning. Explainability is built into the decisioning layer  -  enabling institutions to review, understand, and justify outputs to internal stakeholders and regulators without relying on black-box outputs.',
+                a: 'Verafye is designed so that risk scores, alerts, and case recommendations can be reviewed with traceable, documented context  -  enabling institutions to review, understand, and justify outputs to internal stakeholders and regulators without relying on black-box outputs.',
               },
               {
                 q: 'How does Verafye approach data handling for sensitive financial workflows?',

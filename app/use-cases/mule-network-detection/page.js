@@ -172,8 +172,8 @@ export default function MuleNetworkDetectionPage() {
                 'Full mule network clusters surfaced as single investigable units',
                 'Pre-assembled relationship maps, entity profiles, and transaction flows delivered at case creation',
                 'Unified fraud and AML view of the same network from a shared intelligence layer',
-                'Graph-native detection surfaces coordinated activity rules cannot see',
-                'SAR-ready context assembled automatically  -  analysts investigate, not reconstruct, with a complete audit trail supporting every filing decision',
+                'Connected signal intelligence surfaces coordinated activity rules cannot see',
+                'Pre-built investigation context helps analysts investigate rather than reconstruct  -  with a complete audit trail supporting structured regulatory documentation',
               ].map(item => (
                 <div key={item} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.875rem', alignItems: 'flex-start' }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.125rem' }}><path d="M20 6 9 17l-5-5"/></svg>
@@ -200,10 +200,10 @@ export default function MuleNetworkDetectionPage() {
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
-                { step: '01', title: 'Connects Accounts, Devices, Transactions, and Behaviours', body: 'Verafye resolves and connects entities across account records, device fingerprints, transaction histories, and behavioural signals  -  building a living graph of relationships that spans the full data landscape of a mule network.' },
-                { step: '02', title: 'Identifies Relationships and Patterns', body: 'Graph traversal surfaces non-obvious links between entities  -  shared devices, common identity attributes, overlapping transaction timing, and behavioural similarities  -  that individually appear innocuous but collectively reveal coordinated mule activity.' },
-                { step: '03', title: 'Clusters Related Entities Into Networks', body: 'Connected entities are grouped into mule network clusters  -  presenting coordinated structures as single, investigable units rather than isolated alerts, and enabling risk scoring at the network level rather than the account level.' },
-                { step: '04', title: 'Monitors Network Evolution Continuously', body: 'Verafye continuously monitors the graph for new connections, account reactivations, and changes in cluster behaviour  -  detecting network expansion and adaptation as they occur rather than after losses have already accumulated.' },
+                { step: '01', title: 'Connects Accounts, Devices, Transactions, and Behaviours', body: 'Verafye resolves and connects entities across account records, device fingerprints, transaction histories, and behavioural signals  -  building a structured relationship map that spans the full data landscape of a mule network.' },
+                { step: '02', title: 'Identifies Relationships and Patterns', body: 'Connected signal intelligence surfaces non-obvious links between entities  -  shared devices, common identity attributes, overlapping transaction timing, and behavioural similarities  -  that individually appear innocuous but collectively reveal coordinated mule activity.' },
+                { step: '03', title: 'Clusters Related Entities Into Networks', body: 'Connected entities are grouped into mule network clusters  -  presenting coordinated structures as single, investigable units rather than isolated alerts, and enabling risk assessment at the network level rather than the account level.' },
+                { step: '04', title: 'Monitors Network Evolution Over Time', body: 'Verafye surfaces new connections, account reactivations, and changes in cluster behaviour as new signals are connected  -  helping teams detect network expansion and adaptation earlier in the lifecycle.' },
                 { step: '05', title: 'Delivers Investigation-Ready Context', body: 'Each detected network cluster is delivered alongside pre-assembled investigation context  -  relationship maps, transaction flow summaries, entity profiles, and cross-system signals  -  enabling analysts to begin substantive investigation immediately.' },
                 { step: '06', title: 'Connects Fraud and AML Intelligence', body: 'Verafye unifies fraud and AML signals across the same network view  -  connecting inbound fraud proceeds to outbound money movement and enabling both teams to work from a shared, complete picture of mule activity.' },
               ].map(item => (

@@ -29,7 +29,7 @@ const primaryCapabilities = [
       </svg>
     ),
     title: 'Signal Ingestion',
-    body: 'Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals through REST APIs and SDKs - normalized into a unified investigation context.',
+    body: 'Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals through available signals and integration channels - normalized into a unified investigation context.',
   },
   {
     icon: (
@@ -68,7 +68,7 @@ const primaryCapabilities = [
       </svg>
     ),
     title: 'Integrations & Signal Orchestration',
-    body: 'Connect third-party KYC, KYB, sanctions, watchlist, device, banking, and enrichment signals into investigation workflows through flexible APIs, SDKs, and integration support.',
+    body: 'Connect third-party KYC, KYB, sanctions, watchlist, device, banking, and enrichment signals into investigation workflows through flexible integration paths and pre-built connectors.',
   },
 ];
 
@@ -80,7 +80,7 @@ const supportingCapabilities = [
       </svg>
     ),
     title: 'Configurable Rules',
-    body: 'Define and adjust risk rules using predefined templates, configurable thresholds, and parameter selection - with human review before any rule goes live.',
+    body: 'Define and adjust investigation configuration using governed configuration paths - with human review before any change goes live.',
   },
   {
     icon: (
@@ -89,7 +89,7 @@ const supportingCapabilities = [
       </svg>
     ),
     title: 'Device & Behavior Signals',
-    body: 'Capture device fingerprints, session behavior, and network indicators via JS, Android, and iOS SDKs - and connect them to account and transaction graph context.',
+    body: 'Capture device, session, and behavior signals where available - and connect them to account and transaction graph context.',
   },
   {
     icon: (
@@ -125,7 +125,7 @@ const supportingCapabilities = [
       </svg>
     ),
     title: 'APIs, SDKs & Integrations',
-    body: 'Connect Verafye to existing fraud, AML, payment, identity, and case systems via REST APIs, server-side SDKs, and pre-built connectors - and start ingesting signals into investigation-ready workflows built on the Verafye platform.',
+    body: 'Connect Verafye to existing fraud, AML, payment, identity, and case systems through flexible integration paths and pre-built connectors - and start ingesting signals into investigation-ready workflows built on the Verafye platform.',
   },
 ];
 
@@ -133,7 +133,7 @@ const flowSteps = [
   {
     num: 1,
     label: 'Collect signals',
-    desc: 'Transaction, identity, device, and behavior data ingested via APIs and SDKs',
+    desc: 'Transaction, identity, device, and behavior signals connected from existing systems',
   },
   {
     num: 2,

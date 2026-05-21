@@ -305,7 +305,7 @@ export default function InvestigationIntelligencePage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'Faster Case Resolution Across Fraud and AML',
-                body: 'From alert to disposition, Verafye shortens the entire investigation lifecycle - enabling faster SAR filing, quicker account action, and more timely regulatory response.',
+                body: 'From alert to disposition, Verafye helps compress the entire investigation lifecycle - supporting structured regulatory documentation, quicker account action, and more timely regulatory response.',
               },
               {
                 gradient: 'gradient-bg-2',

@@ -169,20 +169,20 @@ export default function MuleAccountDetectionPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Solves It</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                Graph-Native Detection for Connected Mule Networks
+                Connected Signal Detection for Mule Networks
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects the signals that mule networks leave across accounts, devices, identities, and transactions - building a real-time graph that exposes network structure and enables earlier detection. Investigation context is assembled automatically, giving fraud and AML teams the network evidence they need to act faster and document cases in a way that supports SAR filing and regulatory review.
+                Verafye connects mule-linked signals across accounts, devices, identities, beneficiaries, and transactions, helping risk teams review suspicious relationship patterns with structured case context and evidence trails. Fraud and AML teams get the network evidence they need to act faster and document cases in a way that supports structured review and regulatory reporting.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
                 { step: '01', title: 'Entity Resolution', body: 'Resolve identities across accounts, devices, phone numbers, addresses, and behavioural signals - building unified entity profiles that persist across the mule network graph.' },
-                { step: '02', title: 'Relationship Mapping', body: 'Map the connections between resolved entities - account-to-account relationships, shared device links, common identity attributes - into a living graph updated in real time.' },
+                { step: '02', title: 'Relationship Mapping', body: 'Map the connections between resolved entities - account-to-account relationships, shared device links, common identity attributes - into a structured relationship view updated as new signals arrive.' },
                 { step: '03', title: 'Network Clustering', body: 'Group connected entities into mule network clusters - surfacing the full structure of coordinated account relationships that transaction monitoring cannot see.' },
                 { step: '04', title: 'Connected Transaction Analysis', body: 'Trace money movement across linked accounts within the graph - identifying layering patterns, structured flows, and cross-account coordination invisible to event-level monitoring.' },
                 { step: '05', title: 'Cross-System Investigation Context', body: 'Aggregate fraud and AML signals from across systems into a unified investigation view - giving analysts the complete network picture without manual platform-switching.' },
-                { step: '06', title: 'Continuous Network Monitoring', body: 'The graph is continuously updated as new signals arrive - enabling ongoing monitoring of known mule clusters and early detection of emerging network structures.' },
+                { step: '06', title: 'Ongoing Network Monitoring', body: 'As new signals arrive and are connected, risk teams can continue monitoring known mule clusters and review emerging relationship patterns with updated case context.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
                   <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
@@ -288,8 +288,8 @@ export default function MuleAccountDetectionPage() {
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
-                title: 'Faster SAR Filing and Regulatory Response',
-                body: 'Graph-enriched investigation context accelerates the SAR filing process - giving compliance teams the network evidence and documentation they need to file confidently and on time.',
+                title: 'Structured Documentation for Regulatory Response',
+                body: 'Graph-enriched investigation context helps compliance teams build structured, evidence-backed documentation for regulatory reporting - with network evidence and case records that support review and response workflows.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>

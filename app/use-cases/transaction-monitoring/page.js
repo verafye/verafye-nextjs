@@ -176,7 +176,7 @@ export default function TransactionMonitoringPage() {
             <div style={{ background: 'var(--bg-tint)', border: '1px solid rgba(30,111,183,0.18)', borderRadius: '1rem', padding: '2rem' }}>
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>With Verafye</p>
               {[
-                'Every alert enriched with entity profile, device signals, and network context at generation',
+                'Alerts enriched with entity profile, device signals, and network context at generation',
                 'Contextual enrichment helps deprioritise legitimate activity earlier  -  fewer false positives reaching analysts',
                 'Unified fraud and AML monitoring layer  -  cross-domain risk visible in a single queue, with documented decision trails that support regulatory review',
                 'Pre-assembled case context delivered at alert creation  -  analysts investigate, not research',
@@ -202,7 +202,7 @@ export default function TransactionMonitoringPage() {
                 Connected Monitoring That Surfaces Risk, Not Just Alerts
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects transaction signals with entity profiles, behavioural patterns, and network relationships  -  so every alert arrives enriched with the context analysts need to assess, prioritise, and investigate without manual reconstruction.
+                Verafye connects transaction signals with entity profiles, behavioural patterns, and network relationships  -  so alerts arrive enriched with the context analysts need to assess, prioritise, and investigate without manual reconstruction.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
