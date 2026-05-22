@@ -95,6 +95,30 @@ NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.com/api/exte
 
 As verified on March 24, 2026, `https://www.verafye.com/api/request-demo` returns `404` from AmazonS3/CloudFront, while the upstream email API responds to CORS preflight with `Access-Control-Allow-Origin: *`. On that host, a public endpoint override is required unless you add a real reverse proxy in front of `/api/request-demo`.
 
+## Resource PDFs
+
+The gated article PDFs live under `public/downloads/resources/` and are published as part of the static export. The six production files are:
+
+- `digital-banks-investigation-ready-risk-workflows.pdf`
+- `evidence-packs-audit-ready-investigation-records.pdf`
+- `fraud-aml-investigations-payment-platforms.pdf`
+- `from-alerts-to-decisions-risk-team-operating-model.pdf`
+- `missing-layer-modern-financial-crime-investigations.pdf`
+- `mule-account-investigations-connected-signals.pdf`
+
+The PDF download modal uses `NEXT_PUBLIC_VERAFYE_LEAD_CAPTURE_ENDPOINT` when present. If it is not set, the modal already falls back to `https://dashboard.verafye.com/api/external-email/send`, so the production override is optional.
+
+For local development, put the endpoint in `.env.local`. For production, set it in the hosting platform environment only if you need to override the fallback.
+
+## Production Build
+
+Use the production build script and serve the exported site from `out`:
+
+```bash
+npm run build:prod
+npx serve@latest out
+```
+
 ## Notes
 
 - All original content, copy, and visual design preserved exactly
