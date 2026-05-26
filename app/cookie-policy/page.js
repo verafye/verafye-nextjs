@@ -1,15 +1,18 @@
 
 export const metadata = {
-  title: 'Cookie Policy | Verafye',
-  description: 'Learn how Verafye uses cookies and similar technologies to improve website performance, understand usage, and support relevant communications.',
+  title: "Cookie Policy | Verafye",
+  description: "Learn how Verafye uses cookies and similar technologies to improve website performance, understand usage, and support relevant communications.",
   openGraph: {
-    title: 'Cookie Policy | Verafye',
-    description: 'Learn how Verafye uses cookies and similar technologies to improve website performance, understand usage, and support relevant communications.',
+    title: "Cookie Policy | Verafye",
+    description: "Learn how Verafye uses cookies and similar technologies to improve website performance, understand usage, and support relevant communications.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cookie Policy | Verafye',
-    description: 'Learn how Verafye uses cookies and similar technologies to improve website performance, understand usage, and support relevant communications.',
+    title: "Cookie Policy | Verafye",
+    description: "Learn how Verafye uses cookies and similar technologies to improve website performance, understand usage, and support relevant communications.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/cookie-policy',
   },
 };
 

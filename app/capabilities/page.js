@@ -1,16 +1,19 @@
 import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Verafye Capabilities | Alert Clustering, Graph Intelligence & Case Workflows",
-  description: "Explore Verafye capabilities - alert clustering, graph intelligence, entity resolution, case workflows, evidence packs, and audit-ready records for fraud and AML risk teams.",
+  title: "Fraud & AML Capabilities | Verafye",
+  description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
   openGraph: {
-    title: "Verafye Capabilities | Alert Clustering, Graph Intelligence & Case Workflows",
-    description: "Explore Verafye capabilities - alert clustering, graph intelligence, entity resolution, case workflows, evidence packs, and audit-ready records for fraud and AML risk teams.",
+    title: "Fraud & AML Capabilities | Verafye",
+    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Verafye Capabilities | Alert Clustering, Graph Intelligence & Case Workflows",
-    description: "Explore Verafye capabilities - alert clustering, graph intelligence, entity resolution, case workflows, evidence packs, and audit-ready records for fraud and AML risk teams.",
+    title: "Fraud & AML Capabilities | Verafye",
+    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/capabilities',
   },
 };
 

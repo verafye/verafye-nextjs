@@ -2,16 +2,19 @@ import Link from 'next/link';
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: "Fraud, AML & Risk Investigation Use Cases | Verafye",
-  description: "Explore investigation use cases for regulated financial platforms - transaction monitoring, mule detection, scam investigation, account abuse, and investigation workflow modernization.",
+  title: "Fraud & AML Use Cases | Financial Crime Solutions",
+  description: "Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.",
   openGraph: {
-    title: "Fraud, AML & Risk Investigation Use Cases | Verafye",
-    description: "Explore investigation use cases for regulated financial platforms - transaction monitoring, mule detection, scam investigation, account abuse, and investigation workflow modernization.",
+    title: "Fraud & AML Use Cases | Financial Crime Solutions",
+    description: "Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud, AML & Risk Investigation Use Cases | Verafye",
-    description: "Explore investigation use cases for regulated financial platforms - transaction monitoring, mule detection, scam investigation, account abuse, and investigation workflow modernization.",
+    title: "Fraud & AML Use Cases | Financial Crime Solutions",
+    description: "Explore fraud and AML use cases for banking and fintech. Detect financial crime, manage regulatory risk, and ensure compliance in real-world scenarios.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/use-cases',
   },
 };
 

@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Intelligence for Digital Banks & Neo Banks | Verafye",
-  description: "Support digital banking risk teams with fraud, AML, mule, scam, payment, account, beneficiary, and transaction investigation workflows built on the Verafye platform.",
+  title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
+  description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
   openGraph: {
-    title: "Investigation Intelligence for Digital Banks & Neo Banks | Verafye",
-    description: "Support digital banking risk teams with fraud, AML, mule, scam, payment, account, beneficiary, and transaction investigation workflows built on the Verafye platform.",
+    title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
+    description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence for Digital Banks & Neo Banks | Verafye",
-    description: "Support digital banking risk teams with fraud, AML, mule, scam, payment, account, beneficiary, and transaction investigation workflows built on the Verafye platform.",
+    title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
+    description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/industries/digital-banks',
   },
 };
 

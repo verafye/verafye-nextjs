@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Transaction Monitoring Workflows | Verafye",
-  description: "Connect AML transaction monitoring alerts into investigation-ready cases. Surface suspicious networks, reduce alert noise, and support audit-ready workflows for regulated financial crime teams.",
+  title: "AML Transaction Monitoring Software | Detect Risk Faster",
+  description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
   openGraph: {
-    title: "Transaction Monitoring Workflows | Verafye",
-    description: "Connect AML transaction monitoring alerts into investigation-ready cases. Surface suspicious networks, reduce alert noise, and support audit-ready workflows for regulated financial crime teams.",
+    title: "AML Transaction Monitoring Software | Detect Risk Faster",
+    description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Transaction Monitoring Workflows | Verafye",
-    description: "Connect AML transaction monitoring alerts into investigation-ready cases. Surface suspicious networks, reduce alert noise, and support audit-ready workflows for regulated financial crime teams.",
+    title: "AML Transaction Monitoring Software | Detect Risk Faster",
+    description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/use-cases/transaction-monitoring',
   },
 };
 

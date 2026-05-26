@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
-  description: "Connect merchant, beneficiary, transaction, and account signals into explainable investigation workflows. Built for PSPs, PayFacs, and payment processors with evidence packs and audit-ready records.",
+  title: "Payment Fraud Detection Software | Protect Transactions",
+  description: "Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.",
   openGraph: {
-    title: "Investigation Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
-    description: "Connect merchant, beneficiary, transaction, and account signals into explainable investigation workflows. Built for PSPs, PayFacs, and payment processors with evidence packs and audit-ready records.",
+    title: "Payment Fraud Detection Software | Protect Transactions",
+    description: "Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
-    description: "Connect merchant, beneficiary, transaction, and account signals into explainable investigation workflows. Built for PSPs, PayFacs, and payment processors with evidence packs and audit-ready records.",
+    title: "Payment Fraud Detection Software | Protect Transactions",
+    description: "Payment fraud detection software identifying merchant fraud & coordinated attacks. Protect transactions, manage risk, and maintain regulatory compliance.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs',
   },
 };
 

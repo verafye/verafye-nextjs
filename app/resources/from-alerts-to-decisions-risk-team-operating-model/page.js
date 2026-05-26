@@ -2,23 +2,23 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: 'From Alerts to Decisions: The New Operating Model for Risk Teams | Verafye',
-  description: 'Understand why modern risk teams need to move beyond alert queues toward structured, explainable, and evidence-ready investigation workflows.',
+  title: "From Alerts to Decisions: The New Operating Model for Risk Teams | Verafye",
+  description: "Understand why modern risk teams need to move beyond alert queues toward structured, explainable, and evidence-ready investigation workflows.",
   openGraph: {
-    title: 'From Alerts to Decisions: The New Operating Model for Risk Teams | Verafye',
-    description: 'Understand why modern risk teams need to move beyond alert queues toward structured, explainable, and evidence-ready investigation workflows.',
+    title: "From Alerts to Decisions: The New Operating Model for Risk Teams | Verafye",
+    description: "Understand why modern risk teams need to move beyond alert queues toward structured, explainable, and evidence-ready investigation workflows.",
     url: 'https://www.verafye.com/resources/from-alerts-to-decisions-risk-team-operating-model/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'From Alerts to Decisions: The New Operating Model for Risk Teams | Verafye',
-    description: 'Understand why modern risk teams need to move beyond alert queues toward structured, explainable, and evidence-ready investigation workflows.',
+    title: "From Alerts to Decisions: The New Operating Model for Risk Teams | Verafye",
+    description: "Understand why modern risk teams need to move beyond alert queues toward structured, explainable, and evidence-ready investigation workflows.",
     images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://www.verafye.com/resources/from-alerts-to-decisions-risk-team-operating-model/',
+    canonical: 'https://www.verafye.com/resources/from-alerts-to-decisions-risk-team-operating-model',
   },
 };
 

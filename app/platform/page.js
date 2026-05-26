@@ -2,16 +2,19 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { PlatformVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Verafye Platform | Investigation Intelligence for Fraud + AML Operations",
-  description: "The Verafye platform connects signal ingestion, alert clustering, graph intelligence, case workflows, evidence packs, and audit-ready records - purpose-built for lean fraud and AML risk teams.",
+  title: "Financial Crime Detection Platform | AI Fraud & AML",
+  description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
   openGraph: {
-    title: "Verafye Platform | Investigation Intelligence for Fraud + AML Operations",
-    description: "The Verafye platform connects signal ingestion, alert clustering, graph intelligence, case workflows, evidence packs, and audit-ready records - purpose-built for lean fraud and AML risk teams.",
+    title: "Financial Crime Detection Platform | AI Fraud & AML",
+    description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Verafye Platform | Investigation Intelligence for Fraud + AML Operations",
-    description: "The Verafye platform connects signal ingestion, alert clustering, graph intelligence, case workflows, evidence packs, and audit-ready records - purpose-built for lean fraud and AML risk teams.",
+    title: "Financial Crime Detection Platform | AI Fraud & AML",
+    description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/platform',
   },
 };
 

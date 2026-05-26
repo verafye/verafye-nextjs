@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Network Detection | Graph-Based Investigation Intelligence | Verafye",
-  description: "Detect mule networks with graph-based investigation intelligence. Surface suspicious payment flows, beneficiary-linked risk, and coordinated account activity - with evidence trails supporting every investigation decision.",
+  title: "Mule Network Detection Software | Detect Fraud Rings",
+  description: "Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.",
   openGraph: {
-    title: "Mule Network Detection | Graph-Based Investigation Intelligence | Verafye",
-    description: "Detect mule networks with graph-based investigation intelligence. Surface suspicious payment flows, beneficiary-linked risk, and coordinated account activity - with evidence trails supporting every investigation decision.",
+    title: "Mule Network Detection Software | Detect Fraud Rings",
+    description: "Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Network Detection | Graph-Based Investigation Intelligence | Verafye",
-    description: "Detect mule networks with graph-based investigation intelligence. Surface suspicious payment flows, beneficiary-linked risk, and coordinated account activity - with evidence trails supporting every investigation decision.",
+    title: "Mule Network Detection Software | Detect Fraud Rings",
+    description: "Mule network detection software uncovering fraud rings & coordinated attacks. Detect money mule networks early to ensure robust AML & regulatory compliance.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/use-cases/mule-network-detection',
   },
 };
 

@@ -11,6 +11,9 @@ export const metadata = {
     title: "Privacy Policy | Verafye",
     description: "Read Verafye's privacy policy to understand how we collect, use, and protect your data across our fraud and AML platform.",
   },
+  alternates: {
+    canonical: 'https://www.verafye.com/privacy-policy',
+  },
 };
 
 const h2 = { fontSize: '1.375rem', fontWeight: '700', color: 'var(--dark)', margin: '1.5rem 0 0.5rem', lineHeight: 1.3 };

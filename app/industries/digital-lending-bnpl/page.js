@@ -1,17 +1,20 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Intelligence for Digital Lending & BNPL Risk Teams | Verafye",
-  description: "Connect application, identity, account, and network signals to surface synthetic identities, loan stacking, and coordinated fraud risk for digital lending and BNPL risk teams.",
+  title: "AI Fraud Detection for Digital Lending & BNPL | Prevent Loan Fraud",
+  description: "Detect synthetic identities, application fraud, loan stacking, and coordinated financial crime with AI-driven network intelligence for digital lending and BNPL platforms.",
   openGraph: {
-    title: "Investigation Intelligence for Digital Lending & BNPL Risk Teams | Verafye",
-    description: "Connect application, identity, account, and network signals to surface synthetic identities, loan stacking, and coordinated fraud risk for digital lending and BNPL risk teams.",
+    title: "AI Fraud Detection for Digital Lending & BNPL | Prevent Loan Fraud",
+    description: "Detect synthetic identities, application fraud, loan stacking, and coordinated financial crime with AI-driven network intelligence for digital lending and BNPL platforms.",
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence for Digital Lending & BNPL Risk Teams | Verafye",
-    description: "Connect application, identity, account, and network signals to surface synthetic identities, loan stacking, and coordinated fraud risk for digital lending and BNPL risk teams.",
+    title: "AI Fraud Detection for Digital Lending & BNPL | Prevent Loan Fraud",
+    description: "Detect synthetic identities, application fraud, loan stacking, and coordinated financial crime with AI-driven network intelligence for digital lending and BNPL platforms.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/industries/digital-lending-bnpl',
   },
 };
 

@@ -2,15 +2,18 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Security & Trust | Verafye",
-  description: "Security, trust, and regulatory-aligned infrastructure for regulated financial platforms. Controlled access, audit trails, evidence packs, reviewer controls, and DPDP-aware data practices.",
+  description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
   openGraph: {
     title: "Security & Trust | Verafye",
-    description: "Security, trust, and regulatory-aligned infrastructure for regulated financial platforms. Controlled access, audit trails, evidence packs, reviewer controls, and DPDP-aware data practices.",
+    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Security & Trust | Verafye",
-    description: "Security, trust, and regulatory-aligned infrastructure for regulated financial platforms. Controlled access, audit trails, evidence packs, reviewer controls, and DPDP-aware data practices.",
+    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/security-trust',
   },
 };
 

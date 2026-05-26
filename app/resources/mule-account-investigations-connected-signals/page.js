@@ -2,23 +2,23 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: 'Mule Account Investigations: Why Connected Signals Matter | Verafye',
-  description: 'Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.',
+  title: "Mule Account Investigations: Why Connected Signals Matter | Verafye",
+  description: "Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.",
   openGraph: {
-    title: 'Mule Account Investigations: Why Connected Signals Matter | Verafye',
-    description: 'Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.',
+    title: "Mule Account Investigations: Why Connected Signals Matter | Verafye",
+    description: "Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.",
     url: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mule Account Investigations: Why Connected Signals Matter | Verafye',
-    description: 'Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.',
+    title: "Mule Account Investigations: Why Connected Signals Matter | Verafye",
+    description: "Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.",
     images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals/',
+    canonical: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals',
   },
 };
 

@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Intelligence for Fintech Payment Platforms | Verafye",
-  description: "Investigation intelligence for payment-enabled fintech platforms - embedded finance, wallets, cross-border, and BaaS platforms. Connect risk signals into explainable investigation workflows.",
+  title: "Fraud Detection Platform for Fintech | Prevent Fraud",
+  description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
   openGraph: {
-    title: "Investigation Intelligence for Fintech Payment Platforms | Verafye",
-    description: "Investigation intelligence for payment-enabled fintech platforms - embedded finance, wallets, cross-border, and BaaS platforms. Connect risk signals into explainable investigation workflows.",
+    title: "Fraud Detection Platform for Fintech | Prevent Fraud",
+    description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence for Fintech Payment Platforms | Verafye",
-    description: "Investigation intelligence for payment-enabled fintech platforms - embedded finance, wallets, cross-border, and BaaS platforms. Connect risk signals into explainable investigation workflows.",
+    title: "Fraud Detection Platform for Fintech | Prevent Fraud",
+    description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/industries/fintech-platforms',
   },
 };
 

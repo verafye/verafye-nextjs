@@ -3,22 +3,22 @@ import SplitHeroWithVisualCard, { ResourcesVisualCard } from '../../components/S
 import ResourcesClient from './ResourcesClient';
 
 export const metadata = {
-  title: 'Resources for Financial Crime, Fraud & Payment Risk Teams | Verafye',
-  description: 'Explore Verafye insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated payment risk operations.',
+  title: "Fraud & AML Resources | Guides & Insights | Verafye",
+  description: "Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.",
   openGraph: {
-    title: 'Resources for Financial Crime, Fraud & Payment Risk Teams | Verafye',
-    description: 'Explore Verafye insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated payment risk operations.',
+    title: "Fraud & AML Resources | Guides & Insights | Verafye",
+    description: "Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.",
     url: 'https://www.verafye.com/resources/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye Resources - Investigation Intelligence for Risk Teams' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Resources for Financial Crime, Fraud & Payment Risk Teams | Verafye',
-    description: 'Explore Verafye insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated payment risk operations.',
+    title: "Fraud & AML Resources | Guides & Insights | Verafye",
+    description: "Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.",
     images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://www.verafye.com/resources/',
+    canonical: 'https://www.verafye.com/resources',
   },
 };
 

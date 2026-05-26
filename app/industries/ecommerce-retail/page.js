@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Payment Fraud & Account Abuse Investigation for E-Commerce | Verafye",
-  description: "Connect payment, account, device, and network signals to surface fraud patterns and account abuse for e-commerce and retail platforms. Investigation-ready cases with audit-ready evidence.",
+  title: "E-Commerce Fraud Detection Software | Prevent Payment Fraud",
+  description: "Detect payment fraud, account abuse, and coordinated attacks with AI-powered fraud detection for e-commerce and retail platforms. Reduce false positives and protect revenue.",
   openGraph: {
-    title: "Payment Fraud & Account Abuse Investigation for E-Commerce | Verafye",
-    description: "Connect payment, account, device, and network signals to surface fraud patterns and account abuse for e-commerce and retail platforms. Investigation-ready cases with audit-ready evidence.",
+    title: "E-Commerce Fraud Detection Software | Prevent Payment Fraud",
+    description: "Detect payment fraud, account abuse, and coordinated attacks with AI-powered fraud detection for e-commerce and retail platforms. Reduce false positives and protect revenue.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Payment Fraud & Account Abuse Investigation for E-Commerce | Verafye",
-    description: "Connect payment, account, device, and network signals to surface fraud patterns and account abuse for e-commerce and retail platforms. Investigation-ready cases with audit-ready evidence.",
+    title: "E-Commerce Fraud Detection Software | Prevent Payment Fraud",
+    description: "Detect payment fraud, account abuse, and coordinated attacks with AI-powered fraud detection for e-commerce and retail platforms. Reduce false positives and protect revenue.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/industries/ecommerce-retail',
   },
 };
 

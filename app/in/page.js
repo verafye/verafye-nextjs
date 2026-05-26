@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Verafye India | Investigation Intelligence for Payment, Fintech & Digital Banking Risk Teams",
-  description: "Investigation intelligence for India-based payment platforms, fintechs, digital banks, and lending risk teams. Connect UPI, wallet, account, and transaction signals into explainable investigation workflows.",
+  title: "Fraud Detection & Prevention Platform for Financial Services",
+  description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML compliance with AI-powered intelligence.",
   openGraph: {
-    title: "Verafye India | Investigation Intelligence for Payment, Fintech & Digital Banking Risk Teams",
-    description: "Investigation intelligence for India-based payment platforms, fintechs, digital banks, and lending risk teams. Connect UPI, wallet, account, and transaction signals into explainable investigation workflows.",
+    title: "Fraud Detection & Prevention Platform for Financial Services",
+    description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML compliance with AI-powered intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Verafye India | Investigation Intelligence for Payment, Fintech & Digital Banking Risk Teams",
-    description: "Investigation intelligence for India-based payment platforms, fintechs, digital banks, and lending risk teams. Connect UPI, wallet, account, and transaction signals into explainable investigation workflows.",
+    title: "Fraud Detection & Prevention Platform for Financial Services",
+    description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML compliance with AI-powered intelligence.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/in',
   },
 };
 

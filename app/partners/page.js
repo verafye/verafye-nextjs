@@ -2,16 +2,19 @@ import Link from 'next/link';
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: "Partners | Verafye",
-  description: "Explore Verafye's partner ecosystem - consulting, technology, and integration partners supporting fraud and AML investigation intelligence for regulated financial platforms.",
+  title: "Verafye Partners | Fraud & AML Ecosystem",
+  description: "Partner with Verafye to deliver advanced fraud and AML solutions. Build stronger financial crime detection with AI-driven intelligence.",
   openGraph: {
-    title: "Partners | Verafye",
-    description: "Explore Verafye's partner ecosystem - consulting, technology, and integration partners supporting fraud and AML investigation intelligence for regulated financial platforms.",
+    title: "Verafye Partners | Fraud & AML Ecosystem",
+    description: "Partner with Verafye to deliver advanced fraud and AML solutions. Build stronger financial crime detection with AI-driven intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Partners | Verafye",
-    description: "Explore Verafye's partner ecosystem - consulting, technology, and integration partners supporting fraud and AML investigation intelligence for regulated financial platforms.",
+    title: "Verafye Partners | Fraud & AML Ecosystem",
+    description: "Partner with Verafye to deliver advanced fraud and AML solutions. Build stronger financial crime detection with AI-driven intelligence.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/partners',
   },
 };
 

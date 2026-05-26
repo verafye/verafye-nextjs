@@ -12,6 +12,9 @@ export const metadata = {
     title: "Fraud Detection for Credit Unions | Reduce Risk",
     description: "Credit fraud detection solutions for transaction fraud & hidden risks. Protect members from financial crime and strengthen AML & regulatory compliance.",
   },
+  alternates: {
+    canonical: 'https://www.verafye.com/industries/credit-unions',
+  },
 };
 
 export default function CreditUnionsPage() {

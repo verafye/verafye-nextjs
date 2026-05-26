@@ -1,16 +1,19 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Workflows for Banks & Regional Institutions | Verafye",
-  description: "Connect fraud, AML, and payments signals from existing systems into explainable investigation workflows built on the Verafye platform - designed for banks and regional financial institutions.",
+  title: "Fraud Detection Software for Banks | Reduce Risk",
+  description: "Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.",
   openGraph: {
-    title: "Investigation Workflows for Banks & Regional Institutions | Verafye",
-    description: "Connect fraud, AML, and payments signals from existing systems into explainable investigation workflows built on the Verafye platform - designed for banks and regional financial institutions.",
+    title: "Fraud Detection Software for Banks | Reduce Risk",
+    description: "Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Workflows for Banks & Regional Institutions | Verafye",
-    description: "Connect fraud, AML, and payments signals from existing systems into explainable investigation workflows built on the Verafye platform - designed for banks and regional financial institutions.",
+    title: "Fraud Detection Software for Banks | Reduce Risk",
+    description: "Fraud detection software for banks detecting financial crime networks. Reduce false positives, improve fraud prevention & ensure regulatory compliance.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/industries/banks',
   },
 };
 

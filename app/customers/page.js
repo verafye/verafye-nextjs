@@ -1,11 +1,14 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Verafye Customers | Investigation Intelligence for Regulated Payment Platforms",
-  description: "Verafye serves PSPs, PayFacs, FinTech payment platforms, digital banks, and regulated money movement businesses - connecting fraud, AML, payment, identity, and behavior signals into investigation-ready workflows.",
+  title: "Verafye Customers | Fraud & AML Success Stories",
+  description: "Discover how financial institutions use Verafye to detect fraud, reduce false positives, and improve AML outcomes. Explore success stories.",
   openGraph: {
-    title: "Verafye Customers | Investigation Intelligence for Regulated Payment Platforms",
-    description: "Verafye serves PSPs, PayFacs, FinTech payment platforms, digital banks, and regulated money movement businesses - connecting fraud, AML, payment, identity, and behavior signals into investigation-ready workflows.",
+    title: "Verafye Customers | Fraud & AML Success Stories",
+    description: "Discover how financial institutions use Verafye to detect fraud, reduce false positives, and improve AML outcomes. Explore success stories.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/customers',
   },
 };
 

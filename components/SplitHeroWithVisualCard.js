@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * SplitHeroWithVisualCard
  *
@@ -32,6 +34,13 @@
  */
 
 import Link from 'next/link';
+
+/* ── GTM dataLayer helper ──────────────────────────────────────────────────── */
+function pushGTM(event, payload) {
+  if (typeof window !== 'undefined' && Array.isArray(window.dataLayer)) {
+    window.dataLayer.push({ event, ...payload });
+  }
+}
 
 /* ─── Shared: down-arrow connector between flow steps ───────────────────── */
 function DownConnector() {
@@ -567,6 +576,26 @@ export default function SplitHeroWithVisualCard({
     ? ({ children, ...rest }) => <a href={primaryCTA.href} {...rest}>{children}</a>
     : ({ children, ...rest }) => <Link href={primaryCTA?.href || '#'} {...rest}>{children}</Link>;
 
+  const handlePrimaryCTA = () => {
+    pushGTM('hero_cta_click', {
+      cta_label: primaryCTA?.label,
+      cta_href: primaryCTA?.href,
+      cta_type: 'primary',
+      page_section: 'hero',
+      hero_eyebrow: eyebrow,
+    });
+  };
+
+  const handleSecondaryCTA = () => {
+    pushGTM('hero_cta_click', {
+      cta_label: secondaryCTA?.label,
+      cta_href: secondaryCTA?.href,
+      cta_type: 'secondary',
+      page_section: 'hero',
+      hero_eyebrow: eyebrow,
+    });
+  };
+
   return (
     <section style={{ background, padding, overflow: 'hidden' }}>
       <div className="container" style={{ maxWidth: '1200px' }}>
@@ -631,7 +660,7 @@ export default function SplitHeroWithVisualCard({
               style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginTop: body ? 0 : '1.25rem' }}
             >
               {primaryCTA && (
-                <PrimaryBtn className="btn-primary">
+                <PrimaryBtn className="btn-primary" onClick={handlePrimaryCTA}>
                   {primaryCTA.label}
                   <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                     <ArrowRight />
@@ -639,7 +668,7 @@ export default function SplitHeroWithVisualCard({
                 </PrimaryBtn>
               )}
               {secondaryCTA && (
-                <Link href={secondaryCTA.href} className="btn-secondary">
+                <Link href={secondaryCTA.href} className="btn-secondary" onClick={handleSecondaryCTA}>
                   {secondaryCTA.label}
                 </Link>
               )}

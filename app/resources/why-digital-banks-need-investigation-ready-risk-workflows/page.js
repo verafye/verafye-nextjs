@@ -2,23 +2,23 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: 'Why Digital Banks Need Investigation-Ready Risk Workflows | Verafye',
-  description: 'Learn why digital and neo banks need investigation-ready workflows that connect fraud, AML, account, payment, identity, and device context.',
+  title: "Why Digital Banks Need Investigation-Ready Risk Workflows | Verafye",
+  description: "Learn why digital and neo banks need investigation-ready workflows that connect fraud, AML, account, payment, identity, and device context.",
   openGraph: {
-    title: 'Why Digital Banks Need Investigation-Ready Risk Workflows | Verafye',
-    description: 'Learn why digital and neo banks need investigation-ready workflows that connect fraud, AML, account, payment, identity, and device context.',
+    title: "Why Digital Banks Need Investigation-Ready Risk Workflows | Verafye",
+    description: "Learn why digital and neo banks need investigation-ready workflows that connect fraud, AML, account, payment, identity, and device context.",
     url: 'https://www.verafye.com/resources/why-digital-banks-need-investigation-ready-risk-workflows/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Why Digital Banks Need Investigation-Ready Risk Workflows | Verafye',
-    description: 'Learn why digital and neo banks need investigation-ready workflows that connect fraud, AML, account, payment, identity, and device context.',
+    title: "Why Digital Banks Need Investigation-Ready Risk Workflows | Verafye",
+    description: "Learn why digital and neo banks need investigation-ready workflows that connect fraud, AML, account, payment, identity, and device context.",
     images: ['/images/og-image.png'],
   },
   alternates: {
-    canonical: 'https://www.verafye.com/resources/why-digital-banks-need-investigation-ready-risk-workflows/',
+    canonical: 'https://www.verafye.com/resources/why-digital-banks-need-investigation-ready-risk-workflows',
   },
 };
 

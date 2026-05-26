@@ -2,16 +2,19 @@ import Link from 'next/link';
 import { ProductTrialHeroPanel } from '../components/HomepageHeroPanel';
 
 export const metadata = {
-  title: "Verafye | Intelligent Investigation Layer for Regulated Financial Platforms",
-  description: "The intelligent investigation layer for regulated financial platforms. Connect fraud, AML, and payments signals into explainable case workflows - built for PSPs, PayFacs, fintechs, digital banks, and lending risk teams.",
+  title: "AI Fraud & AML Platform | Detect Financial Crime Networks",
+  description: "Unify AML compliance & fraud detection with our AI-driven fraud prevention platform. Detect financial crime networks and ensure regulatory readiness.",
   openGraph: {
-    title: "Verafye | Intelligent Investigation Layer for Regulated Financial Platforms",
-    description: "The intelligent investigation layer for regulated financial platforms. Connect fraud, AML, and payments signals into explainable case workflows - built for PSPs, PayFacs, fintechs, digital banks, and lending risk teams.",
+    title: "AI Fraud & AML Platform | Detect Financial Crime Networks",
+    description: "Unify AML compliance & fraud detection with our AI-driven fraud prevention platform. Detect financial crime networks and ensure regulatory readiness.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Verafye | Intelligent Investigation Layer for Regulated Financial Platforms",
-    description: "The intelligent investigation layer for regulated financial platforms. Connect fraud, AML, and payments signals into explainable case workflows - built for PSPs, PayFacs, fintechs, digital banks, and lending risk teams.",
+    title: "AI Fraud & AML Platform | Detect Financial Crime Networks",
+    description: "Unify AML compliance & fraud detection with our AI-driven fraud prevention platform. Detect financial crime networks and ensure regulatory readiness.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/',
   },
 };
 
