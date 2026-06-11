@@ -27,7 +27,7 @@ export default function PlatformPage() {
   eyebrow="VERAFYE PLATFORM"
   title="Network Risk Intelligence for Modern Financial Crime Operations"
   description="Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
-  body="Built for teams operating under growing regulatory and operational complexity - start alongside existing systems and expand network coverage as value is proven."
+  body="Built for teams operating under growing regulatory and operational complexity - start with a scoped pilot alongside existing systems and expand network coverage as outcomes are proven."
   primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
   visualCard={<PlatformVisualCard />}
@@ -689,7 +689,7 @@ export default function PlatformPage() {
 <section style={{'padding':'3.5rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container" style={{'textAlign':'center','maxWidth':'48rem'}}>
     <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>See how Verafye connects your risk operations</h2>
-    <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>Explore how Verafye helps fraud, AML, and risk teams connect signals from existing systems into investigation-ready workflows built on the Verafye platform - and expand coverage as value is proven.</p>
+    <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>Explore how Verafye helps fraud, AML, and risk teams connect signals from existing systems into investigation-ready workflows - starting with a scoped pilot and expanding coverage as outcomes are proven.</p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/request-demo" className="btn-primary">
         Request Demo

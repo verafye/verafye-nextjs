@@ -107,7 +107,7 @@ export default function MSBsRemittancePlatformsPage() {
                 Network Risk Intelligence for Remittance Compliance Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Start alongside existing systems and expand network coverage as value is proven.
+                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Adoption starts with a scoped pilot alongside existing systems - expanding network coverage as outcomes are proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -191,7 +191,7 @@ export default function MSBsRemittancePlatformsPage() {
             See Network Risk Intelligence on Your Corridors
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            Start with connected investigations - and expand network coverage across teams, programs and corridors as value is proven.
+            Start with a scoped pilot - and expand network coverage across teams, programs and corridors as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

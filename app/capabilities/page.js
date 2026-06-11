@@ -467,7 +467,7 @@ export default function CapabilitiesPage() {
             maxWidth: '38rem',
             margin: '0 auto 2.25rem',
           }}>
-            See how Verafye helps regulated financial platforms connect alerts, explain risk, and close cases faster. Start with the capabilities your team needs - and expand as value is proven.
+            See how Verafye helps regulated financial platforms connect alerts, explain risk, and close cases faster. Start with a scoped pilot around the capabilities your team needs - and expand as outcomes are proven.
           </p>
           <div style={{display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap'}}>
             <a href="/request-demo" className="btn-primary">

@@ -43,7 +43,7 @@ export default function BanksPage() {
               Connect fraud, AML, payment, account, identity, device, and behavior signals into explainable investigation workflows.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps banks connect fragmented alerts and risk signals across systems, build investigation-ready cases, surface hidden networks, and maintain decision trails that support review, governance, and audit readiness. Start with focused mule detection, scam investigation, or payment risk workflows - and expand as value is proven.
+              Verafye helps banks connect fragmented alerts and risk signals across systems, build investigation-ready cases, surface hidden networks, and maintain decision trails that support review, governance, and audit readiness. Start with a scoped pilot across mule detection, scam investigation, or payment risk workflows - and expand as outcomes are proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -172,7 +172,7 @@ export default function BanksPage() {
                 An Intelligent Investigation Layer for Banking Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects fraud, AML, and payments signals from existing systems into investigation-ready workflows built on the Verafye platform - improving detection coverage, accelerating investigation, and supporting explainable, audit-ready outcomes. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
+                Verafye connects fraud, AML, and payments signals from existing systems into investigation-ready workflows built on the Verafye platform - improving detection coverage, accelerating investigation, and supporting explainable, audit-ready outcomes. Adoption starts with a scoped pilot - agreed data feeds, defined use cases, and clean target outcomes - expanding into Verafye-led investigation workflows once outcomes are proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -382,7 +382,7 @@ export default function BanksPage() {
             Explore Focused Investigation Workflows for Banking Risk Teams
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            Start with mule, scam, payment, fraud, or AML investigation workflows and expand as value is proven.
+            Start with a scoped pilot across mule, scam, payment, fraud, or AML investigation workflows and expand as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

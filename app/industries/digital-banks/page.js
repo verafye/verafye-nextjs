@@ -33,7 +33,7 @@ export default function DigitalBanksPage() {
               Connect onboarding, account, device, transaction, fraud, and AML signals into explainable investigations that help risk teams act faster.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps digital banking risk teams connect onboarding, account, payment, wallet, remittance, transaction, fraud, and AML signals into connected case intelligence - surfacing mule activity, synthetic identity patterns, scam flows, beneficiary-linked risk, and suspicious networks. Work alongside existing systems and expand investigation workflows as value is proven.
+              Verafye helps digital banking risk teams connect onboarding, account, payment, wallet, remittance, transaction, fraud, and AML signals into connected case intelligence - surfacing mule activity, synthetic identity patterns, scam flows, beneficiary-linked risk, and suspicious networks. Adoption starts with a scoped pilot alongside existing systems - expanding investigation workflows as outcomes are proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -162,7 +162,7 @@ export default function DigitalBanksPage() {
                 Network Risk Intelligence for Digital Banking
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into one connected network view - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye works alongside existing detection and monitoring systems, connecting signals into investigation-ready cases without requiring a platform replacement.
+                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into one connected network view - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye runs in parallel with existing detection and monitoring systems - starting with a scoped pilot on agreed data feeds and expanding as outcomes are proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -348,7 +348,7 @@ export default function DigitalBanksPage() {
             Explore Focused Investigation Workflows for Digital Banking Risk Teams
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            Start with mule detection, scam investigation, or payment risk workflows - and expand as value is proven.
+            Start with a scoped pilot across mule detection, scam investigation, or payment risk workflows - and expand as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

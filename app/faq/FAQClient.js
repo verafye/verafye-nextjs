@@ -22,7 +22,7 @@ const faqCategories = [
       },
       {
         q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
-        a: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into one connected network view. Teams can start with selected integrations, case evidence, or operational exports, then expand network coverage across teams, products and payment flows as value is proven. Existing systems remain in place during adoption - Verafye becomes the investigation workspace where fragmented signals are resolved into entities, mapped into networks, and built into cases.',
+        a: 'Verafye runs in parallel with your existing fraud and AML stack as a Network Risk Intelligence layer. It consumes the data your systems can provide - exports, event streams, case records and alerts - and resolves those signals into one connected network view. Adoption starts with a scoped pilot: agreed data feeds, a defined set of use cases, and clean target outcomes. Your existing systems keep running throughout - Verafye becomes the investigation workspace where their signals are resolved into entities, mapped into networks, and built into cases.',
       },
       {
         q: 'What makes Verafye different from traditional fraud and AML platforms?',
@@ -46,11 +46,11 @@ const faqCategories = [
       },
       {
         q: 'Can Verafye integrate with existing fraud, AML, and payments systems?',
-        a: 'Yes. Verafye integrates with the fraud monitoring, AML transaction monitoring, payments infrastructure, identity, device, and case management systems that organisations already operate. Signals from these systems are connected into one connected network view - enabling cross-domain detection and investigation across existing operational data.',
+        a: 'Verafye is designed to work with the data your fraud monitoring, AML transaction monitoring, payments, identity, device, and case systems can provide - through exports, event streams, or APIs where available. Because every stack is different, integration scope is defined during evaluation: we agree the data feeds, the use cases, and the target outcomes for a scoped pilot, then expand once outcomes are proven. We do not assume tool-by-tool integration up front.',
       },
       {
         q: 'Does Verafye replace the systems we already run?',
-        a: 'No. Verafye starts alongside the detection, monitoring and case systems you already operate and consumes the signals they produce. It adds the network layer those systems lack - entity resolution, cross-entity network mapping and real-time network risk scoring - and becomes the investigation workspace where their alerts turn into connected, audit-ready cases. As value is proven, teams expand network coverage across more systems, products and payment flows on their own timeline.',
+        a: 'No. Verafye runs in parallel with the detection, monitoring and case systems you already operate - adding the network layer those systems lack: entity resolution, cross-entity network mapping and real-time network risk scoring. Adoption starts with a scoped pilot built on agreed data feeds, a defined set of use cases, and clean target outcomes. Full commercial integration and launch follow once those outcomes are proven - on your timeline.',
       },
       {
         q: 'How long does a typical deployment take?',

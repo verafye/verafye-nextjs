@@ -370,7 +370,7 @@ export default function MuleAccountDetectionPage() {
             See how suspected mule-linked patterns become investigation-ready cases
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how suspected mule-linked patterns can be connected into investigation-ready cases - with evidence trails, reviewer controls, and audit-ready records built on the Verafye platform. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
+            See how suspected mule-linked patterns can be connected into investigation-ready cases - with evidence trails, reviewer controls, and audit-ready records built on the Verafye platform. Start with a scoped pilot on agreed data feeds, then expand into Verafye-led investigation workflows as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">

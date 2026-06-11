@@ -41,7 +41,7 @@ export default function PaymentProcessorsPage() {
               Connect merchant, sub-merchant, payment, fraud, AML, identity, device, and behavior signals into faster, explainable investigations.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Start alongside existing systems and expand network coverage across teams, programs and corridors as value is proven.
+              Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Start with a scoped pilot alongside existing systems and expand network coverage across teams, programs and corridors as outcomes are proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -351,7 +351,7 @@ export default function PaymentProcessorsPage() {
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', letterSpacing: '-0.02em' }}>
             Verafye Across Financial Institution Types
           </h2>
-          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - start alongside existing systems and expand network coverage across teams, programs and corridors as value is proven.</p>
+          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - start with a scoped pilot alongside existing systems and expand network coverage across teams, programs and corridors as outcomes are proven.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.75rem' }}>
             <Link href="/industries/banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Banks <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

@@ -522,11 +522,11 @@ export default function SecurityTrustPage() {
             {[
               {
                 q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
-                a: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform. Existing systems remain in place during adoption - Verafye becomes the investigation workspace where fragmented signals are resolved, entities mapped, and investigation cases built and closed.',
+                a: 'Verafye runs in parallel with existing fraud, AML, payment, identity, device, and case systems - consuming agreed data feeds and resolving those signals into one connected network view. Existing systems keep running throughout - Verafye becomes the investigation workspace where fragmented signals are resolved, entities mapped, and investigation cases built and closed.',
               },
               {
                 q: 'Can Verafye connect to our existing fraud, AML, and payments infrastructure?',
-                a: 'Yes. Verafye integrates with the fraud monitoring, AML transaction monitoring, payments, identity, and case management systems organisations already operate. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.',
+                a: 'Verafye works with the data your fraud monitoring, AML transaction monitoring, payments, identity, and case management systems can provide - through exports, event streams, or APIs where available. Integration scope is defined during evaluation: a scoped pilot with agreed data feeds, defined use cases, and clean target outcomes, expanding once outcomes are proven.',
               },
               {
                 q: 'Is Verafye designed for investigation auditability?',

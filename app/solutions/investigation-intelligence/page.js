@@ -396,7 +396,7 @@ export default function InvestigationIntelligencePage() {
             See how fragmented alerts become investigation-ready cases
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how fragmented alerts become investigation-ready cases inside the Verafye platform - with alert clustering, evidence packs, reviewer controls, and audit-ready workflows. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
+            See how fragmented alerts become investigation-ready cases inside the Verafye platform - with alert clustering, evidence packs, reviewer controls, and audit-ready workflows. Start with a scoped pilot on agreed data feeds, then expand into Verafye-led investigation workflows as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">
