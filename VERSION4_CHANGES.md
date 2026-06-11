@@ -58,4 +58,39 @@ Implemented June 11, 2026 per the frozen realignment prompt. Build verified (Nex
 - 3.3 stat block ("100% / Connect fraud and AML signals"): does not exist in this codebase version; no change applied.
 - 1.4 item 5 label: codebase uses "Banks & Regional Financial Institutions" (covers the separate banks + credit-unions pages); label kept, order applied.
 - Stale "AI-Native FRAML" footer (1.3): not present in this codebase; footer was already componentized and canonical.
-- /in regional page lacks an MSB section; not added (Section 8 scoped the page, nav, homepage card, and PSP H1 only).
+- /in regional page lacks an MSB section; not added (Section 8 scoped the page, nav, homepage card, and PSP H1 only). [Superseded - see Post-v4.0 Revisions below: MSB section added June 11.]
+
+---
+
+# POST-v4.0 REVISIONS (June 11-12, 2026) - SUPERSEDES PARTS OF THE FROZEN SPEC
+
+The frozen June 11 realignment spec is no longer the complete source of truth. Anyone working from that document must also apply the following approved revisions. Where they conflict with the spec, these revisions win.
+
+## R1. Pilot-first integration narrative (approved June 12) - OVERRIDES spec Section 3.2 (partial) and the Section 2.3/4.4 expansion phrasing
+
+Rationale: every prospect stack is different and data availability per tool is unverified. The website must not claim unconditional integration with arbitrary fraud/AML systems.
+
+Canonical adoption language (reuse this, not the spec's):
+
+- Verafye "runs in parallel with your existing fraud and AML stack as a Network Risk Intelligence layer."
+- Verafye "works with the data your systems can provide - through exports, event streams, or APIs where available." Integration scope is defined during evaluation. Never claim tool-by-tool integration up front.
+- Adoption framing: "starts with a scoped pilot - agreed data feeds, a defined set of use cases, and clean target outcomes. Full commercial integration and launch follow once those outcomes are proven."
+- All "expand as value is proven" phrasing is replaced by "scoped pilot ... expand as outcomes are proven."
+- NEVER phrase this as a "secondary FRAML solution" - FRAML remains banned (Rule 3); "secondary" is not approved positioning.
+- "without requiring a platform replacement" is retired sitewide.
+
+## R2. FAQ realignment (approved June 12)
+
+- "What is Verafye?" leads with the canonical positioning statement; the investigation-layer metaphor is a supporting line only (consistent with Rules 1-2).
+- Three FAQs added: "What is Network Risk Intelligence?", "Does Verafye replace the systems we already run?", "Does Verafye verify customer identities or make credit decisions?" (boundary, phrased without the Rule 3 banned terms).
+
+## R3. Additions beyond spec scope (approved June 11)
+
+- /in India page: MSB & Remittance card added (slot 2, RBI/FIU-IND framing); industries order corrected to Rule 8 (Lending last, as a strip after Marketplaces).
+- Homepage industries grid: 8th "Don't See Your Segment?" CTA card added (links to /request-demo).
+- Hosting is S3 static: vercel.json/_redirects removed; old /industries/ecommerce-retail/ URL is an in-page redirect stub; optional S3 --website-redirect command documented in deploy notes.
+- sitemap.xml corrected (ecommerce-retail removed; marketplaces, msbs-remittance-platforms, credit-unions added); robots.txt blocks /hero-visual-options/.
+
+## Still governed by the original spec (unchanged)
+
+Section 0 rules 1-10 (positioning statement, metaphor rule, banned phrases, unified/single-view rule, em dash rule, regulators-not-instruments, Lending-last ordering, disclaimers, no invented metrics) all remain in force.
