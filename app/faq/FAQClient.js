@@ -14,15 +14,19 @@ const faqCategories = [
     items: [
       {
         q: 'What is Verafye?',
-        a: 'Verafye is the intelligent investigation layer for regulated payment platforms and financial institutions - built for PSPs, PayFacs, payment processors, fintech payment platforms, digital banks, and the banks and financial institutions that operate regulated money movement. It connects fraud, AML, payments, identity, device, and behavior signals into investigation-ready workflows built on the Verafye platform - enabling graph-native detection of coordinated financial crime networks, structured investigation workflows, and connected cross-system signal intelligence.',
+        a: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Think of it as the intelligent investigation layer for regulated financial platforms - built for PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks, marketplaces, and lending and BNPL fraud teams.',
+      },
+      {
+        q: 'What is Network Risk Intelligence?',
+        a: 'Network Risk Intelligence is risk assessed at the level of the network, not the individual event. Most monitoring evaluates one transaction or one account at a time, so coordinated activity - mule networks, structuring rings, synthetic identity clusters - stays invisible because each event looks unremarkable on its own. Network Risk Intelligence resolves the entities behind the activity, maps the relationships between accounts, devices, merchants, beneficiaries and counterparties, and scores risk on the connected network as activity happens. The result is investigation-grade evidence: connected cases with documented context, rather than isolated alerts.',
       },
       {
         q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
-        a: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform. Teams can start with selected integrations, case evidence, or operational exports, then expand into deeper Verafye-led investigation workflows as value is proven. Existing systems remain in place during adoption - Verafye becomes the investigation workspace where fragmented signals are resolved, entities mapped, and cases built.',
+        a: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into one connected network view. Teams can start with selected integrations, case evidence, or operational exports, then expand network coverage across teams, products and payment flows as value is proven. Existing systems remain in place during adoption - Verafye becomes the investigation workspace where fragmented signals are resolved into entities, mapped into networks, and built into cases.',
       },
       {
         q: 'What makes Verafye different from traditional fraud and AML platforms?',
-        a: 'The core architectural difference is graph-native intelligence. Traditional platforms evaluate events at the transaction or account level - in isolation and against static rules. Verafye connects entities, transactions, devices, and behaviours across the graph, surfacing coordinated patterns and network-level risk that point-in-time monitoring cannot detect. Combined with investigation-centric workflows and cross-system signal aggregation, this delivers a fundamentally different quality of financial crime intelligence.',
+        a: 'The core architectural difference is graph-native Network Risk Intelligence. Traditional platforms evaluate events at the transaction or account level - in isolation and against static rules. Verafye resolves entities across fragmented data, maps cross-entity transaction networks, and scores risk on the network in real time - surfacing coordinated patterns that point-in-time monitoring cannot detect. Combined with investigation-centric workflows and cross-system signal aggregation, this converts alert noise into investigation-grade evidence rather than more alerts.',
       },
     ],
   },
@@ -42,11 +46,15 @@ const faqCategories = [
       },
       {
         q: 'Can Verafye integrate with existing fraud, AML, and payments systems?',
-        a: 'Yes. Verafye integrates with the fraud monitoring, AML transaction monitoring, payments infrastructure, identity, device, and case management systems that organisations already operate. Signals from these systems are connected into investigation-ready workflows built on the Verafye platform - enabling cross-domain detection and investigation across existing operational data.',
+        a: 'Yes. Verafye integrates with the fraud monitoring, AML transaction monitoring, payments infrastructure, identity, device, and case management systems that organisations already operate. Signals from these systems are connected into one connected network view - enabling cross-domain detection and investigation across existing operational data.',
+      },
+      {
+        q: 'Does Verafye replace the systems we already run?',
+        a: 'No. Verafye starts alongside the detection, monitoring and case systems you already operate and consumes the signals they produce. It adds the network layer those systems lack - entity resolution, cross-entity network mapping and real-time network risk scoring - and becomes the investigation workspace where their alerts turn into connected, audit-ready cases. As value is proven, teams expand network coverage across more systems, products and payment flows on their own timeline.',
       },
       {
         q: 'How long does a typical deployment take?',
-        a: 'Deployment timelines depend on the complexity of the existing environment, the number of systems being connected, and the specific use cases being addressed. Verafye is scoped to start with the most valuable signal sources and investigation workflows, then expand over time. Specific timelines are discussed during the evaluation and onboarding process.',
+        a: 'Deployment timelines depend on the complexity of the existing environment, the number of systems being connected, and the specific use cases being addressed. Verafye is scoped to start with the most valuable signal sources and investigation workflows, then expand network coverage over time. Specific timelines are discussed during the evaluation and onboarding process.',
       },
     ],
   },
@@ -85,7 +93,11 @@ const faqCategories = [
     items: [
       {
         q: 'What use cases does Verafye support?',
-        a: 'Verafye is purpose-built for financial crime detection and investigation across three primary use case clusters: mule network detection and connected fraud discovery, transaction monitoring enrichment and signal quality improvement, and investigation workflow modernisation. The platform is applicable across PSPs, PayFacs, payment processors, fintech payment platforms, digital banks, and regulated financial institutions - and can be scoped to the most relevant use cases for each organisation during evaluation.',
+        a: 'Verafye is purpose-built for financial crime detection and investigation across three primary use case clusters: mule network detection and connected fraud discovery, transaction monitoring enrichment and signal quality improvement, and investigation workflow modernisation. The platform is applicable across PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks and regulated financial institutions, marketplaces, and lending and BNPL fraud teams - and can be scoped to the most relevant use cases for each organisation during evaluation.',
+      },
+      {
+        q: 'Does Verafye verify customer identities or make credit decisions?',
+        a: 'No. Verafye is not an onboarding or identity verification system, and it does not score creditworthiness or decide applications. It consumes the identity and KYB signals your existing systems already produce and applies them after onboarding - investigating fraud and financial crime networks across accounts, payments and lending flows. Your onboarding and origination systems own those decisions; Verafye owns the investigation record around them.',
       },
       {
         q: 'How does Verafye improve investigation workflows?',
@@ -117,7 +129,7 @@ const faqCategories = [
       },
       {
         q: 'Does Verafye work with partners and system integrators?',
-        a: 'Yes. Verafye works with system integrators, technology partners, channel partners, and consulting firms to deliver financial crime intelligence solutions to regulated payment platforms, fintechs, and financial institutions. If you represent an organisation interested in partnering with Verafye, please visit our Partners page or contact us directly through the demo request form.',
+        a: 'Yes. Verafye works with system integrators, technology partners, channel partners, and consulting firms to deliver Network Risk Intelligence to regulated payment platforms, fintechs, and financial institutions. If you represent an organisation interested in partnering with Verafye, please visit our Partners page or contact us directly through the demo request form.',
       },
     ],
   },
