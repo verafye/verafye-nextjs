@@ -87,7 +87,7 @@ export default function ArticlePage() {
               Why Fraud and AML Investigations Break Down in Payment Platforms
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
-              Payment platforms operate in some of the most demanding risk environments in financial services  -  and investigations often break down not because detection is weak, but because the signals needed to understand risk are spread across too many systems.
+              Payment platforms operate in some of the most demanding risk environments in financial services - and investigations often break down not because detection is weak, but because the signals needed to understand risk are spread across too many systems.
             </p>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function ArticlePage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto' }}>
 
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Payment platforms handle high transaction volumes, multiple payment methods, merchant and customer activity, beneficiary relationships, cross-border flows, and fast-moving money movement patterns  -  all at once. Fraud and AML teams are expected to detect risk quickly, investigate suspicious activity, document decisions, and support internal and regulatory review. The result is familiar: alerts are generated, but the full context is slow to assemble.
+              Payment platforms handle high transaction volumes, multiple payment methods, merchant and customer activity, beneficiary relationships, cross-border flows, and fast-moving money movement patterns - all at once. Fraud and AML teams are expected to detect risk quickly, investigate suspicious activity, document decisions, and support internal and regulatory review. The result is familiar: alerts are generated, but the full context is slow to assemble.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -133,7 +133,7 @@ export default function ArticlePage() {
               'Beneficiary or counterparty context may require manual lookup.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              That fragmentation creates the real bottleneck. Analysts spend too much time gathering context  -  switching tabs, copying data, and reconstructing timelines  -  and not enough time assessing risk.
+              That fragmentation creates the real bottleneck. Analysts spend too much time gathering context - switching tabs, copying data, and reconstructing timelines - and not enough time assessing risk.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -223,7 +223,7 @@ export default function ArticlePage() {
                 Fraud and AML investigations in payment platforms often break down not because teams are unaware of risk, but because signals are fragmented across tools, workflows are manual and analyst-dependent, and context is scattered and hard to reconstruct.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, margin: 0 }}>
-                The next step is not more alerts. It is better investigation intelligence  -  connected workflows that help teams see relationships, explain risk, and close cases faster.
+                The next step is not more alerts. It is better investigation intelligence - connected workflows that help teams see relationships, explain risk, and close cases faster.
               </p>
             </div>
 

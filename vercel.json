@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/industries/ecommerce-retail",
+      "destination": "/industries/marketplaces/",
+      "permanent": true
+    },
+    {
+      "source": "/industries/ecommerce-retail/",
+      "destination": "/industries/marketplaces/",
+      "permanent": true
+    }
+  ]
+}

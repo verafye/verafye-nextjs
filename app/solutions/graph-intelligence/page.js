@@ -150,17 +150,17 @@ export default function GraphIntelligencePage() {
                 A Graph-Native Intelligence Layer for Financial Crime Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects fraud, AML, and payments signals into a unified intelligence layer - resolving entities, mapping relationships, and surfacing network risk across accounts and time windows. This gives institutions the connected view of risk that fragmented monitoring cannot provide, and the traceable detection that aligns with evolving regulatory expectations for cross-domain visibility.
+                Verafye connects fraud, AML, and payments signals into one connected network view - resolving entities, mapping relationships, and surfacing network risk across accounts and time windows. This gives institutions the connected view of risk that fragmented monitoring cannot provide, and the traceable detection that aligns with evolving regulatory expectations for cross-domain visibility.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
               {[
-                { step: '01', title: 'Entity Resolution', body: 'Verafye resolves identities across fragmented data sources - linking accounts, devices, phone numbers, addresses, and behavioral fingerprints into unified entity profiles.' },
+                { step: '01', title: 'Entity Resolution', body: 'Verafye resolves identities across fragmented data sources - linking accounts, devices, phone numbers, addresses, and behavioral fingerprints into resolved entity profiles.' },
                 { step: '02', title: 'Relationship Mapping', body: 'Every resolved entity is connected to others through shared attributes and transaction history, building a structured relationship map across accounts, devices, and entities.' },
                 { step: '03', title: 'Link Discovery', body: 'Verafye surfaces non-obvious links across connected entities - connections that are invisible to rules engines and siloed monitoring systems.' },
                 { step: '04', title: 'Network Clustering', body: 'Connected entities are grouped into clusters - revealing fraud rings, mule networks, and synthetic identity cohorts operating across accounts and payment rails.' },
                 { step: '05', title: 'Graph-Based Investigation Context', body: 'Alerts are enriched with relationship context from the graph, giving investigators the network view they need to make faster, higher-confidence decisions.' },
-                { step: '06', title: 'Unified Intelligence Layer', body: 'Fraud, AML, and payments signals are connected into a single intelligence layer - eliminating the blind spots that form at system boundaries, and supporting the cross-domain visibility that institutions need to operate under evolving regulatory expectations.' },
+                { step: '06', title: 'Connected Network View', body: 'Fraud, AML, and payments signals are connected into one network view - eliminating the blind spots that form at system boundaries, and supporting the cross-domain visibility that institutions need to operate under evolving regulatory expectations.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
                   <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
@@ -267,7 +267,7 @@ export default function GraphIntelligencePage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Stronger Cross-System Intelligence for Fraud and AML',
-                body: 'Unified fraud and AML signal intelligence eliminates blind spots at system boundaries - giving compliance and operations teams a complete picture of risk across the institution.',
+                body: 'Connected fraud and AML signal intelligence eliminates blind spots at system boundaries - giving compliance and operations teams a complete picture of risk across the institution.',
               },
               {
                 gradient: 'gradient-bg-2',

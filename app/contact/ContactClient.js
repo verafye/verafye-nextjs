@@ -32,7 +32,7 @@ export default function ContactClient() {
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '2rem', maxWidth: '56rem', margin: '0 auto' }}>
 
-            {/* Card 1 — Request Demo */}
+            {/* Card 1 - Request Demo */}
             <div className="card card-elevated" style={{ padding: '2.5rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', borderTop: '3px solid var(--primary)' }}>
               <div className="card-icon gradient-bg-4">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -74,7 +74,7 @@ export default function ContactClient() {
               </Link>
             </div>
 
-            {/* Card 2 — Become a Partner */}
+            {/* Card 2 - Become a Partner */}
             <div className="card card-elevated" style={{ padding: '2.5rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', borderTop: '3px solid #7C3AED' }}>
               <div className="card-icon" style={{ background: 'linear-gradient(135deg,#7C3AED,#a855f7)', borderRadius: '10px', width: '3rem', height: '3rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

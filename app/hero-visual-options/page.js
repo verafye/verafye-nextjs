@@ -443,7 +443,7 @@ function Option3Hero() {
       alignItems: 'center',
     }}>
 
-      {/* Floating chips — purely decorative, aria-hidden */}
+      {/* Floating chips - purely decorative, aria-hidden */}
       <div aria-hidden="true" style={{ position: 'absolute', inset: 0, zIndex: 0, pointerEvents: 'none' }}>
         {chips.map((chip, i) => (
           <div key={i} style={{
@@ -474,7 +474,7 @@ function Option3Hero() {
         }
       `}</style>
 
-      {/* Content — left-biased center column */}
+      {/* Content - left-biased center column */}
       <div className="container" style={{ maxWidth: '1200px', position: 'relative', zIndex: 1 }}>
         <div style={{ maxWidth: '46rem' }}>
 
@@ -511,7 +511,7 @@ function Option3Hero() {
             <Link href="/request-demo" className="btn-secondary">Request Demo</Link>
           </div>
 
-          {/* Topic tags — grounded row below CTAs */}
+          {/* Topic tags - grounded row below CTAs */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1.75rem' }}>
             {['Investigation Intelligence', 'Mule Account Risk', 'AML Workflows', 'Evidence Trails', 'Payment Risk'].map((tag, i) => (
               <span key={i} style={{

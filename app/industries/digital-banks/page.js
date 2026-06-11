@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
-  description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
+  title: "Network Risk Intelligence for Digital Banks & Neo Banks",
+  description: "Network Risk Intelligence for digital banks - resolve entities, map transaction networks and score risk in real time across onboarding, payments and AML functions.",
   openGraph: {
-    title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
-    description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
+    title: "Network Risk Intelligence for Digital Banks & Neo Banks | Verafye",
+    description: "Network Risk Intelligence for digital banks - resolve entities, map transaction networks and score risk in real time across onboarding, payments and AML functions.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AI Fraud Detection for Digital Banks | Real-Time Protection",
-    description: "AI fraud detection for digital banks detecting real-time threats & coordinated fraud. Uncover hidden risks, protect users & ensure regulatory compliance.",
+    title: "Network Risk Intelligence for Digital Banks & Neo Banks | Verafye",
+    description: "Network Risk Intelligence for digital banks - resolve entities, map transaction networks and score risk in real time across onboarding, payments and AML functions.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/digital-banks',
@@ -63,37 +63,37 @@ export default function DigitalBanksPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'Rapid Scale Creates Risk Infrastructure Gaps',
-                body: 'Digital banks scale user bases, product lines, and transaction volumes faster than risk infrastructure can adapt  -  exposing gaps in fraud coverage, monitoring capacity, and investigation throughput before they become visible in loss data.',
+                body: 'Digital banks scale user bases, product lines, and transaction volumes faster than risk infrastructure can adapt - exposing gaps in fraud coverage, monitoring capacity, and investigation throughput before they become visible in loss data.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Risk Signals Fragmented Across Systems and Channels',
-                body: 'Digital banking environments generate risk signals across onboarding, authentication, payments, and transaction flows  -  spread across separate systems with no shared intelligence layer, making cross-channel fraud and AML detection structurally difficult.',
+                body: 'Digital banking environments generate risk signals across onboarding, authentication, payments, and transaction flows - spread across separate systems with no shared intelligence layer, making cross-channel fraud and AML detection structurally difficult.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>),
                 title: 'Evolving Regulatory Expectations Across Jurisdictions',
-                body: 'Digital banks frequently operate across multiple regulatory environments  -  each with its own AML framework, fraud liability obligations, and reporting expectations. Meeting these requirements with disconnected tools creates growing operational and compliance exposure.',
+                body: 'Digital banks frequently operate across multiple regulatory environments - each with its own AML framework, fraud liability obligations, and reporting expectations. Meeting these requirements with disconnected tools creates growing operational and compliance exposure.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01M7 20v-4M12 20v-8M17 20V8M22 4v16"/></svg>),
                 title: 'Alert Volumes That Outpace Investigation Capacity',
-                body: 'High user growth drives proportional growth in monitoring alerts  -  and without intelligent prioritisation and pre-assembled case context, investigation queues accumulate faster than teams can process them, increasing regulatory risk and operational cost simultaneously.',
+                body: 'High user growth drives proportional growth in monitoring alerts - and without intelligent prioritisation and pre-assembled case context, investigation queues accumulate faster than teams can process them, increasing regulatory risk and operational cost simultaneously.',
               },
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Fraud Targeting New Products and Onboarding Flows',
-                body: 'Digital banking environments attract fraud specifically designed to exploit onboarding flows, referral incentives, and API-accessible payment rails  -  at rates that often outpace the development of detection coverage for new attack vectors.',
+                body: 'Digital banking environments attract fraud specifically designed to exploit onboarding flows, referral incentives, and API-accessible payment rails - at rates that often outpace the development of detection coverage for new attack vectors.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>),
                 title: 'Mule Networks, Synthetic Identities, and Account Takeover Across Channels',
-                body: 'Mule account patterns, synthetic identity fraud, and account takeover schemes span both onboarding and payment rails  -  but fragmented detection systems create visibility gaps that prevent connected investigation across these risk surfaces before losses escalate across the customer base.',
+                body: 'Mule account patterns, synthetic identity fraud, and account takeover schemes span both onboarding and payment rails - but fragmented detection systems create visibility gaps that prevent connected investigation across these risk surfaces before losses escalate across the customer base.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -121,19 +121,19 @@ export default function DigitalBanksPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>),
                 title: 'Point-in-Time Detection Misses Multi-Channel Patterns',
-                body: 'Fraud and AML systems evaluating individual events in isolation cannot see the coordinated patterns that span onboarding, payments, and account management in digital banking environments  -  leaving cross-channel schemes undetected until losses accumulate.',
+                body: 'Fraud and AML systems evaluating individual events in isolation cannot see the coordinated patterns that span onboarding, payments, and account management in digital banking environments - leaving cross-channel schemes undetected until losses accumulate.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'API-Led Environments Outpace Rule-Based Detection',
-                body: 'Static rule sets require continuous manual tuning to stay current with the evolving fraud patterns that target digital banking APIs and onboarding flows  -  leaving persistent coverage gaps between when new attack vectors emerge and when detection is deployed.',
+                body: 'Static rule sets require continuous manual tuning to stay current with the evolving fraud patterns that target digital banking APIs and onboarding flows - leaving persistent coverage gaps between when new attack vectors emerge and when detection is deployed.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Scaling Adds Headcount, Not Intelligence',
-                body: 'Without smarter infrastructure, growth in users and transaction volume means proportional growth in alert volumes  -  and in the analyst headcount required to process them. This model does not improve detection quality or investigation outcomes as the institution scales.',
+                body: 'Without smarter infrastructure, growth in users and transaction volume means proportional growth in alert volumes - and in the analyst headcount required to process them. This model does not improve detection quality or investigation outcomes as the institution scales.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -159,22 +159,22 @@ export default function DigitalBanksPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                A Unified Risk Intelligence Layer for Digital Banking
+                Network Risk Intelligence for Digital Banking
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into a single intelligence layer - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye works alongside existing detection and monitoring systems, connecting signals into investigation-ready cases without requiring a platform replacement.
+                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into one connected network view - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye works alongside existing detection and monitoring systems, connecting signals into investigation-ready cases without requiring a platform replacement.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connects Signals Across All Digital Banking Channels</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies signals from onboarding, authentication, payments, fraud monitoring, and AML systems into a single intelligence layer  -  enabling cross-channel detection that individual point solutions cannot provide and eliminating the blind spots that form at system boundaries.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from onboarding, authentication, payments, fraud monitoring, and AML systems into one connected network view - enabling cross-channel detection that individual point solutions cannot provide and eliminating the blind spots that form at system boundaries.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Risk Intelligence Across Users and Networks</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph intelligence layer maps relationships across users, devices, accounts, and transactions  -  surfacing account farming networks, synthetic identity cohorts, and coordinated fraud rings that rules-based and transaction-level detection cannot see.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph intelligence layer maps relationships across users, devices, accounts, and transactions - surfacing account farming networks, synthetic identity cohorts, and coordinated fraud rings that rules-based and transaction-level detection cannot see.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -182,7 +182,7 @@ export default function DigitalBanksPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>03</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Investigation Workflows That Scale With Growth</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Alerts are clustered and enriched with relationship context before reaching the analyst  -  reducing manual triage time, accelerating response, and enabling risk operations teams to handle increasing case volumes without proportional headcount increases.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Alerts are clustered and enriched with relationship context before reaching the analyst - reducing manual triage time, accelerating response, and enabling risk operations teams to handle increasing case volumes without proportional headcount increases.</p>
                 <Link href="/solutions/investigation-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Investigation Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -190,7 +190,7 @@ export default function DigitalBanksPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>04</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Aligned With Multi-Jurisdiction Regulatory Expectations</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye is built with explainability and auditability at its core  -  supporting the governance, documentation, and decision-trail requirements that regulators across jurisdictions increasingly expect from digital banking fraud and AML operations.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye is built with explainability and auditability at its core - supporting the governance, documentation, and decision-trail requirements that regulators across jurisdictions increasingly expect from digital banking fraud and AML operations.</p>
               </div>
             </div>
           </div>
@@ -277,19 +277,19 @@ export default function DigitalBanksPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
                 title: 'Connected Risk Visibility Across All Channels',
-                body: 'A unified graph view across users, devices, accounts, and transactions gives risk and compliance teams a complete picture of risk  -  across onboarding, payments, and AML functions  -  without requiring manual cross-system data gathering.',
+                body: 'One connected graph view across users, devices, accounts, and transactions gives risk and compliance teams a complete picture of risk - across onboarding, payments, and AML functions - without requiring manual cross-system data gathering.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Improved User Experience With Fewer False Positives',
-                body: 'Network context and cross-system signals reduce false positive rates  -  allowing more legitimate users through, reducing friction, and lowering the support overhead generated by incorrectly declined transactions and accounts.',
+                body: 'Network context and cross-system signals reduce false positive rates - allowing more legitimate users through, reducing friction, and lowering the support overhead generated by incorrectly declined transactions and accounts.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'Scalable Operations Without Headcount Growth',
-                body: 'Connected intelligence and structured investigation workflows decouple operational capacity from headcount growth  -  enabling risk teams to handle increasing alert and case volumes as the digital bank scales without proportional analyst hiring.',
+                body: 'Connected intelligence and structured investigation workflows decouple operational capacity from headcount growth - enabling risk teams to handle increasing alert and case volumes as the digital bank scales without proportional analyst hiring.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -301,13 +301,13 @@ export default function DigitalBanksPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Faster Response to Emerging Fraud Patterns',
-                body: 'Graph-based detection adapts to new fraud patterns through relationship signals rather than static rules  -  enabling faster response to emerging attack vectors across digital banking products and channels without waiting for manual rule updates.',
+                body: 'Graph-based detection adapts to new fraud patterns through relationship signals rather than static rules - enabling faster response to emerging attack vectors across digital banking products and channels without waiting for manual rule updates.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'Faster Investigation of Account, Payment, and Identity-Linked Risk',
-                body: 'Connected intelligence across account, payment, identity, and onboarding signals gives fraud and AML teams the context needed to investigate cases faster  -  reducing manual data gathering time and improving decision quality across the full investigation lifecycle.',
+                body: 'Connected intelligence across account, payment, identity, and onboarding signals gives fraud and AML teams the context needed to investigate cases faster - reducing manual data gathering time and improving decision quality across the full investigation lifecycle.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>

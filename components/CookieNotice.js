@@ -373,7 +373,7 @@ export default function CookieNotice() {
               </button>
             </div>
 
-            {/* Modal Body — Category rows */}
+            {/* Modal Body - Category rows */}
             <div style={{ padding: '0 1.5rem' }}>
               <CategoryRow
                 title="Essential Cookies"

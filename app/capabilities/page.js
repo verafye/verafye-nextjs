@@ -1,16 +1,16 @@
 import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Fraud & AML Capabilities | Verafye",
-  description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+  title: "Network Risk Intelligence Capabilities",
+  description: "Explore Verafye's Network Risk Intelligence capabilities - entity resolution, transaction network mapping, alert clustering and audit-ready investigations.",
   openGraph: {
-    title: "Fraud & AML Capabilities | Verafye",
-    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+    title: "Network Risk Intelligence Capabilities | Verafye",
+    description: "Explore Verafye's Network Risk Intelligence capabilities - entity resolution, transaction network mapping, alert clustering and audit-ready investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud & AML Capabilities | Verafye",
-    description: "Explore Verafye's fraud and AML capabilities. Detect financial crime networks using AI-driven intelligence across transactions and payments.",
+    title: "Network Risk Intelligence Capabilities | Verafye",
+    description: "Explore Verafye's Network Risk Intelligence capabilities - entity resolution, transaction network mapping, alert clustering and audit-ready investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/capabilities',
@@ -34,7 +34,7 @@ const primaryCapabilities = [
       </svg>
     ),
     title: 'Signal Ingestion',
-    body: 'Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals through available signals and integration channels - normalized into a unified investigation context.',
+    body: 'Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals through available signals and integration channels - normalized into one connected investigation context.',
   },
   {
     icon: (
@@ -279,7 +279,7 @@ export default function CapabilitiesPage() {
         </div>
       </section>
 
-      {/* ── Section 4: How capabilities work together — horizontal pictorial flow ── */}
+      {/* ── Section 4: How capabilities work together - horizontal pictorial flow ── */}
       <section className="section-light" style={{padding: 'clamp(3rem,6vw,4.5rem) 1.5rem'}}>
         <div className="container">
           <div style={{textAlign: 'center', maxWidth: '44rem', margin: '0 auto clamp(2rem,4vw,3rem)'}}>
@@ -299,11 +299,11 @@ export default function CapabilitiesPage() {
             </p>
           </div>
 
-          {/* Horizontal flow diagram — desktop left-to-right, mobile vertical */}
+          {/* Horizontal flow diagram - desktop left-to-right, mobile vertical */}
           <div className="cap-flow-outer" style={{maxWidth: '80rem', margin: '0 auto', overflowX: 'auto', paddingBottom: '0.5rem'}}>
             <div className="cap-flow-row">
 
-              {/* Stage 1 — Signals In */}
+              {/* Stage 1 - Signals In */}
               <div className="cap-flow-card" style={{borderTopColor: '#1E6FB7'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '1rem'}}>
                   <div style={{width: '2.25rem', height: '2.25rem', borderRadius: '9px', background: 'rgba(30,111,183,0.08)', border: '1px solid rgba(30,111,183,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
@@ -327,7 +327,7 @@ export default function CapabilitiesPage() {
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </div>
 
-              {/* Stage 2 — Connected Risk Layer */}
+              {/* Stage 2 - Connected Risk Layer */}
               <div className="cap-flow-card" style={{borderTopColor: '#7C3AED'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '1rem'}}>
                   <div style={{width: '2.25rem', height: '2.25rem', borderRadius: '9px', background: 'rgba(124,58,237,0.08)', border: '1px solid rgba(124,58,237,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
@@ -351,7 +351,7 @@ export default function CapabilitiesPage() {
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </div>
 
-              {/* Stage 3 — Investigation Intelligence */}
+              {/* Stage 3 - Investigation Intelligence */}
               <div className="cap-flow-card" style={{borderTopColor: '#0891B2'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '1rem'}}>
                   <div style={{width: '2.25rem', height: '2.25rem', borderRadius: '9px', background: 'rgba(8,145,178,0.08)', border: '1px solid rgba(8,145,178,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
@@ -375,7 +375,7 @@ export default function CapabilitiesPage() {
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </div>
 
-              {/* Stage 4 — Case Outcomes */}
+              {/* Stage 4 - Case Outcomes */}
               <div className="cap-flow-card" style={{borderTopColor: '#059669'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '1rem'}}>
                   <div style={{width: '2.25rem', height: '2.25rem', borderRadius: '9px', background: 'rgba(5,150,105,0.08)', border: '1px solid rgba(5,150,105,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
@@ -397,7 +397,7 @@ export default function CapabilitiesPage() {
             </div>
           </div>
 
-          {/* Responsive CSS — desktop: horizontal flex row; mobile: vertical stack */}
+          {/* Responsive CSS - desktop: horizontal flex row; mobile: vertical stack */}
           <style>{`
             .cap-flow-row {
               display: flex;

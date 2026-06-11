@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Detection for Credit Unions | Reduce Risk",
-  description: "Credit fraud detection solutions for transaction fraud & hidden risks. Protect members from financial crime and strengthen AML & regulatory compliance.",
+  title: "Network Risk Intelligence for Credit Unions",
+  description: "Network Risk Intelligence for credit unions - connect member, account, device and transaction signals into investigation-grade evidence and strengthen AML readiness.",
   openGraph: {
-    title: "Fraud Detection for Credit Unions | Reduce Risk",
-    description: "Credit fraud detection solutions for transaction fraud & hidden risks. Protect members from financial crime and strengthen AML & regulatory compliance.",
+    title: "Network Risk Intelligence for Credit Unions | Verafye",
+    description: "Network Risk Intelligence for credit unions - connect member, account, device and transaction signals into investigation-grade evidence and strengthen AML readiness.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection for Credit Unions | Reduce Risk",
-    description: "Credit fraud detection solutions for transaction fraud & hidden risks. Protect members from financial crime and strengthen AML & regulatory compliance.",
+    title: "Network Risk Intelligence for Credit Unions | Verafye",
+    description: "Network Risk Intelligence for credit unions - connect member, account, device and transaction signals into investigation-grade evidence and strengthen AML readiness.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/credit-unions',
@@ -63,19 +63,19 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 18v-7"/><path d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></svg>),
                 title: 'Same Regulatory Bar, Fewer Resources',
-                body: 'Regulators apply consistent fraud and AML expectations regardless of institution size. Community banks and credit unions face the same monitoring, investigation, and documentation requirements as tier-one institutions  -  but with smaller compliance teams and tighter operational budgets.',
+                body: 'Regulators apply consistent fraud and AML expectations regardless of institution size. Community banks and credit unions face the same monitoring, investigation, and documentation requirements as tier-one institutions - but with smaller compliance teams and tighter operational budgets.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Fragmented Tooling Across Fraud and AML',
-                body: 'Many smaller financial institutions operate with point solutions assembled over time  -  separate fraud detection, AML monitoring, and case management tools that do not share signals, creating blind spots and operational friction across the compliance function.',
+                body: 'Many smaller financial institutions operate with point solutions assembled over time - separate fraud detection, AML monitoring, and case management tools that do not share signals, creating blind spots and operational friction across the compliance function.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01M7 20v-4M12 20v-8M17 20V8M22 4v16"/></svg>),
                 title: 'Growing Alert Volumes Without Investigation Support',
-                body: 'Alert volumes from transaction monitoring and fraud systems consistently outpace investigation capacity  -  creating backlogs that increase regulatory risk and consume analyst time without improving detection quality or case outcomes.',
+                body: 'Alert volumes from transaction monitoring and fraud systems consistently outpace investigation capacity - creating backlogs that increase regulatory risk and consume analyst time without improving detection quality or case outcomes.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -87,13 +87,13 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>),
                 title: 'Inconsistent Investigation Workflows',
-                body: 'Without structured case management, investigation outcomes vary by analyst  -  affecting SAR quality, escalation consistency, and the audit trail documentation that regulators expect from institutions under examination.',
+                body: 'Without structured case management, investigation outcomes vary by analyst - affecting SAR quality, escalation consistency, and the audit trail documentation that regulators expect from institutions under examination.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>),
                 title: 'Manual Case Preparation and Audit Readiness Pressure',
-                body: 'Without structured investigation workflows and automated context assembly, analysts spend significant time preparing case documentation manually  -  creating audit readiness gaps, inconsistent SAR quality, and regulatory exposure for institutions that cannot sustain the overhead of manual case preparation.',
+                body: 'Without structured investigation workflows and automated context assembly, analysts spend significant time preparing case documentation manually - creating audit readiness gaps, inconsistent SAR quality, and regulatory exposure for institutions that cannot sustain the overhead of manual case preparation.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -121,7 +121,7 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>),
                 title: 'Fraud and AML Operate in Isolation',
-                body: 'Point solutions built for single domains  -  fraud or AML  -  cannot see cross-domain patterns. The boundary between fraud proceeds and money movement is precisely where coordinated financial crime operates, and where isolated systems have no visibility.',
+                body: 'Point solutions built for single domains - fraud or AML - cannot see cross-domain patterns. The boundary between fraud proceeds and money movement is precisely where coordinated financial crime operates, and where isolated systems have no visibility.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -133,13 +133,13 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Enterprise Platforms Are Oversized and Overpriced',
-                body: 'Tier-one enterprise fraud and AML platforms carry implementation complexity, cost, and maintenance overhead that is disproportionate for smaller financial institutions  -  leaving a gap between what is available and what is operationally practical.',
+                body: 'Tier-one enterprise fraud and AML platforms carry implementation complexity, cost, and maintenance overhead that is disproportionate for smaller financial institutions - leaving a gap between what is available and what is operationally practical.',
               },
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>),
                 title: 'Scaling Requires Headcount, Not Intelligence',
-                body: 'Without smarter prioritisation and automated context aggregation, growing alert volumes can only be addressed by adding analyst capacity  -  a cost model that is unsustainable for institutions with limited compliance team headroom.',
+                body: 'Without smarter prioritisation and automated context aggregation, growing alert volumes can only be addressed by adding analyst capacity - a cost model that is unsustainable for institutions with limited compliance team headroom.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -162,19 +162,19 @@ export default function CreditUnionsPage() {
                 Enterprise-Grade Intelligence Without Enterprise Complexity
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects fraud, AML, and payments signals from existing systems into investigation-ready workflows built on the Verafye platform  -  improving detection, structuring investigations, and supporting regulatory alignment. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
+                Verafye connects fraud, AML, and payments signals from existing systems into investigation-ready workflows built on the Verafye platform - improving detection, structuring investigations, and supporting regulatory alignment. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connects Fraud, AML, and Member Activity</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies signals from fraud monitoring, transaction monitoring, and member account activity into a single intelligence layer  -  eliminating the blind spots that form at system boundaries and enabling cross-domain detection across the full member portfolio.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from fraud monitoring, transaction monitoring, and member account activity into one connected network view - eliminating the blind spots that form at system boundaries and enabling cross-domain detection across the full member portfolio.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Risk Intelligence Across Member Networks</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph intelligence layer resolves entities, maps relationships, and clusters networks across accounts, devices, and transactions  -  surfacing coordinated fraud rings, mule activity, and AML typologies that rules-based systems cannot see.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph intelligence layer resolves entities, maps relationships, and clusters networks across accounts, devices, and transactions - surfacing coordinated fraud rings, mule activity, and AML typologies that rules-based systems cannot see.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -182,7 +182,7 @@ export default function CreditUnionsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>03</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Structured, Traceable Investigation Workflows</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye restructures the investigation experience  -  from individual alert handling to structured, context-rich case management. Analysts receive pre-assembled case context, network maps, and cross-system signals from the moment a case is created, reducing the time spent on manual reconstruction.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye restructures the investigation experience - from individual alert handling to structured, context-rich case management. Analysts receive pre-assembled case context, network maps, and cross-system signals from the moment a case is created, reducing the time spent on manual reconstruction.</p>
                 <Link href="/solutions/investigation-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Investigation Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -190,7 +190,7 @@ export default function CreditUnionsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>04</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Aligned With Evolving Regulatory Expectations</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye is built with explainability and auditability at its core  -  supporting the governance, documentation, and decision-trail requirements that regulators increasingly expect from financial crime infrastructure at institutions of all sizes.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye is built with explainability and auditability at its core - supporting the governance, documentation, and decision-trail requirements that regulators increasingly expect from financial crime infrastructure at institutions of all sizes.</p>
               </div>
             </div>
           </div>
@@ -277,25 +277,25 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Improved Visibility Across Member and Account Risk',
-                body: 'Graph-native intelligence gives fraud and AML teams a connected view of risk across member accounts, devices, and transactions  -  replacing fragmented, siloed monitoring with a unified picture of financial crime activity within the membership base.',
+                body: 'Graph-native intelligence gives fraud and AML teams a connected view of risk across member accounts, devices, and transactions - replacing fragmented, siloed monitoring with a connected picture of financial crime activity within the membership base.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
                 title: 'Faster Investigations With Less Manual Effort',
-                body: 'Pre-assembled case context, alert clustering, and structured investigation workflows reduce the time from alert to disposition  -  compressing investigation cycle times and enabling small teams to handle greater case volumes without proportional headcount growth.',
+                body: 'Pre-assembled case context, alert clustering, and structured investigation workflows reduce the time from alert to disposition - compressing investigation cycle times and enabling small teams to handle greater case volumes without proportional headcount growth.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'Stronger Regulatory Readiness',
-                body: 'Structured workflows, explainable decisioning, and complete audit trails support the documentation and evidence requirements that regulators expect  -  helping institutions demonstrate consistent, traceable financial crime operations during examination.',
+                body: 'Structured workflows, explainable decisioning, and complete audit trails support the documentation and evidence requirements that regulators expect - helping institutions demonstrate consistent, traceable financial crime operations during examination.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01M7 20v-4M12 20v-8M17 20V8M22 4v16"/></svg>),
                 title: 'Operational Efficiency Without Headcount Scaling',
-                body: 'Smarter prioritisation and automated context aggregation reduce the manual workload per investigation  -  enabling compliance teams to manage growing alert volumes without the proportional cost increases that purely analyst-led scaling requires.',
+                body: 'Smarter prioritisation and automated context aggregation reduce the manual workload per investigation - enabling compliance teams to manage growing alert volumes without the proportional cost increases that purely analyst-led scaling requires.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>

@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Verafye Customers | Fraud & AML Success Stories",
-  description: "Discover how financial institutions use Verafye to detect fraud, reduce false positives, and improve AML outcomes. Explore success stories.",
+  title: "Verafye Customers | Network Risk Intelligence Success Stories",
+  description: "Discover how payment and compliance teams use Verafye to connect alerts, investigate networks, and close cases faster. Explore success stories.",
   openGraph: {
-    title: "Verafye Customers | Fraud & AML Success Stories",
-    description: "Discover how financial institutions use Verafye to detect fraud, reduce false positives, and improve AML outcomes. Explore success stories.",
+    title: "Verafye Customers | Network Risk Intelligence Success Stories",
+    description: "Discover how payment and compliance teams use Verafye to connect alerts, investigate networks, and close cases faster. Explore success stories.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/customers',
@@ -34,7 +34,7 @@ export default function Page() {
     </div>
     <div className="grid-3" style={{'maxWidth':'72rem','margin':'0 auto','gap':'1.5rem'}}>
 
-      {/* 1 — PSPs, PayFacs & Payment Processors — PRIMARY */}
+      {/* 1 - PSPs, PayFacs & Payment Processors - PRIMARY */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg></div>
@@ -49,7 +49,7 @@ export default function Page() {
         </div>
       </div>
 
-      {/* 2 — FinTech Payment Platforms — PRIMARY */}
+      {/* 2 - FinTech Payment Platforms - PRIMARY */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></div>
@@ -64,14 +64,14 @@ export default function Page() {
         </div>
       </div>
 
-      {/* 3 — Digital Banks & Neo Banks — KEY SEGMENT */}
+      {/* 3 - Digital Banks & Neo Banks - KEY SEGMENT */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></div>
           <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#0D7A5F','background':'rgba(13,122,95,0.08)','border':'1px solid rgba(13,122,95,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Key Segment</span>
         </div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Digital Banks &amp; Neo Banks</h3>
-        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Digital and neo banks operate across wallet, payment, account, and lending surfaces where risk signals are fragmented from day one. Verafye connects account, device, identity, beneficiary, and transaction signals into a unified investigation layer designed for digital-first risk operations.</p>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Digital and neo banks operate across wallet, payment, account, and lending surfaces where risk signals are fragmented from day one. Verafye connects account, device, identity, beneficiary, and transaction signals into one connected network view designed for digital-first risk operations.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Mule account and scam investigation</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Wallet, payment, and account signal correlation</span></div>
@@ -79,29 +79,29 @@ export default function Page() {
         </div>
       </div>
 
-      {/* 4 — Banks & Regional Financial Institutions — SECONDARY */}
+      {/* 4 - Banks & Regional Financial Institutions - SECONDARY */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg></div>
           <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Secondary</span>
         </div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Banks &amp; Regional Financial Institutions</h3>
-        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Banks and regional institutions face increasing regulatory expectations around AML monitoring, fraud investigation, and decision traceability. Verafye connects fraud, AML, payments, and identity signals into a unified investigation layer - working alongside existing infrastructure.</p>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Banks and regional institutions face increasing regulatory expectations around AML monitoring, fraud investigation, and decision traceability. Verafye connects fraud, AML, payments, and identity signals into one connected network view - working alongside existing infrastructure.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
-          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Unified fraud and AML investigation layer</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Connected fraud and AML investigation view</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Audit-ready case records and evidence trails</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Regulatory-aligned investigation workflows</span></div>
         </div>
       </div>
 
-      {/* 5 — Digital Lending & BNPL — ADJACENCY */}
+      {/* 5 - Digital Lending & BNPL - ADJACENCY */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M12 12v6"/><path d="M9 15h6"/></svg></div>
           <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Adjacency</span>
         </div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Digital Lending &amp; BNPL</h3>
-        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Digital lenders and BNPL platforms face fraud network risk that spans borrower identity, device, beneficiary, and partner signals across the loan lifecycle. Verafye supports post-booking fraud investigation workflows - not credit underwriting or origination decisions.</p>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Digital lenders and BNPL platforms face fraud network risk that spans borrower identity, device, beneficiary, and partner signals across the loan lifecycle. Verafye supports post-booking fraud investigation workflows - it does not score creditworthiness or decide applications.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Fraud network investigation across borrower and partner signals</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Identity, device, and beneficiary linkage review</span></div>
@@ -109,17 +109,17 @@ export default function Page() {
         </div>
       </div>
 
-      {/* 6 — E-Commerce & Retail — ADJACENCY */}
+      {/* 6 - Marketplaces - ADJACENCY */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
           <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Adjacency</span>
         </div>
-        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>E-Commerce &amp; Retail</h3>
-        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>E-commerce and retail platforms face chargeback-linked fraud, account takeover risk, and payment network abuse. Verafye helps risk teams connect transaction, account, device, and beneficiary signals into investigation-ready cases - supporting faster review and clearer evidence trails.</p>
+        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Marketplaces</h3>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Marketplace platforms face seller fraud rings, buyer-seller collusion, and mule-linked payout networks. Verafye helps risk teams connect seller, buyer, device, payout, and transaction signals into investigation-ready cases - supporting faster review and clearer evidence trails.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
-          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Chargeback and payment fraud investigation</span></div>
-          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Account takeover and identity signal review</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Seller fraud ring and collusion investigation</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Mule-linked payout network review</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Transaction and device pattern correlation</span></div>
         </div>
       </div>

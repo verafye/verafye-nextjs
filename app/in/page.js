@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Detection & Prevention Platform for Financial Services",
-  description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML compliance with AI-powered intelligence.",
+  title: "Network Risk Intelligence for Financial Services in India",
+  description: "Help banks, NBFCs, fintechs, and PSPs in India investigate financial crime networks, reduce fraud risk, and strengthen AML readiness with graph-native Network Risk Intelligence.",
   openGraph: {
-    title: "Fraud Detection & Prevention Platform for Financial Services",
-    description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML compliance with AI-powered intelligence.",
+    title: "Network Risk Intelligence for Financial Services in India",
+    description: "Help banks, NBFCs, fintechs, and PSPs in India investigate financial crime networks, reduce fraud risk, and strengthen AML readiness with graph-native Network Risk Intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection & Prevention Platform for Financial Services",
-    description: "Help banks, NBFCs, fintechs, and PSPs in India detect financial crime networks, reduce fraud risk, and strengthen AML compliance with AI-powered intelligence.",
+    title: "Network Risk Intelligence for Financial Services in India",
+    description: "Help banks, NBFCs, fintechs, and PSPs in India investigate financial crime networks, reduce fraud risk, and strengthen AML readiness with graph-native Network Risk Intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/in',
@@ -293,7 +293,7 @@ export default function IndiaPage() {
         <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'4rem','height':'4rem','borderRadius':'0.875rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Lending &amp; NBFCs</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7,'marginBottom':'1.25rem'}}>Detect synthetic identity fraud and mule activity across application review and post-booking stages. Surface early warning signals and build investigation-ready case workflows for lending fraud risk teams. Selective adjacency - Verafye supports fraud investigation, not credit underwriting or loan origination decisions.</p>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7,'marginBottom':'1.25rem'}}>Detect synthetic identity fraud and mule activity across application review and post-booking stages. Surface early warning signals and build investigation-ready case workflows for lending fraud risk teams. Selective adjacency - Verafye supports fraud investigation around lending flows; it does not score creditworthiness or decide applications.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             Explore lending and NBFC risk workflows
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -329,15 +329,15 @@ export default function IndiaPage() {
 
     </div>
 
-    {/* 5. Retail & E-commerce */}
+    {/* 5. Marketplaces */}
     <div style={{'maxWidth':'72rem','margin':'1.5rem auto 0'}}>
       <div className="card" style={{'padding':'2rem 2.5rem','border':'1px solid var(--border)','background':'#F8FAFB','display':'flex','alignItems':'flex-start','gap':'1.5rem','flexWrap':'wrap'}}>
         <div style={{'flexShrink':0,'width':'2.75rem','height':'2.75rem','borderRadius':'0.75rem','background':'rgba(90,178,255,0.08)','border':'1px solid rgba(90,178,255,0.18)','display':'flex','alignItems':'center','justifyContent':'center'}}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5AB2FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
         </div>
         <div style={{'flex':1,'minWidth':'16rem'}}>
-          <h3 style={{'fontSize':'clamp(1rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Retail &amp; E-commerce</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7,'maxWidth':'52rem'}}>For commerce businesses with payment, identity, and fraud-risk exposure, Verafye can bring customer, transaction, and behavior signals into investigation workflows.</p>
+          <h3 style={{'fontSize':'clamp(1rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Marketplaces</h3>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7,'maxWidth':'52rem'}}>For marketplace platforms with payment, identity, and fraud-risk exposure, Verafye can bring seller, buyer, transaction, and behavior signals into investigation workflows.</p>
         </div>
       </div>
     </div>

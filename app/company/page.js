@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "About Verafye | AI Fraud & AML Platform",
-  description: "Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.",
+  title: { absolute: "About Verafye | Network Risk Intelligence" },
+  description: "Learn about Verafye, the graph-native Network Risk Intelligence platform helping payment, remittance and digital banking compliance teams convert alert noise into investigation-grade evidence.",
   openGraph: {
-    title: "About Verafye | AI Fraud & AML Platform",
-    description: "Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.",
+    title: "About Verafye | Network Risk Intelligence",
+    description: "Learn about Verafye, the graph-native Network Risk Intelligence platform helping payment, remittance and digital banking compliance teams convert alert noise into investigation-grade evidence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "About Verafye | AI Fraud & AML Platform",
-    description: "Learn about Verafye, an AI-driven fraud and AML platform helping financial institutions detect financial crime networks and reduce risk.",
+    title: "About Verafye | Network Risk Intelligence",
+    description: "Learn about Verafye, the graph-native Network Risk Intelligence platform helping payment, remittance and digital banking compliance teams convert alert noise into investigation-grade evidence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/company',
@@ -23,7 +23,7 @@ export default function Page() {
 <section style={{'background':'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)','padding':'4rem 0'}}>
   <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
     <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Company</p>
-    <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.025em'}}>The Intelligent Investigation Layer for Regulated Financial Platforms</h1>
+    <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.025em'}}>Building Network Risk Intelligence for Regulated Financial Platforms</h1>
     <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto'}}>Verafye helps fraud, AML, and risk teams connect alerts, explain risk, and close cases faster - without enterprise-heavy complexity.</p>
   </div>
 </section>
@@ -37,7 +37,7 @@ export default function Page() {
         <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem','letterSpacing':'-0.025em'}}>Truth, Made Actionable</h2>
         <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>The word <em>Vera</em> is Latin for truth.</p>
         <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>In financial crime, where signals are obscured across identities, transactions, and systems, truth is not abstract. It is the outcome institutions rely on.</p>
-        <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}><em>Fye</em> reflects transformation  -  to identify, clarify, and make something actionable.</p>
+        <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}><em>Fye</em> reflects transformation - to identify, clarify, and make something actionable.</p>
         <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>Verafye is built to do exactly that: turn fragmented signals into clear, actionable intelligence.</p>
       </div>
       <div style={{'borderRadius':'1.5rem','padding':'1rem 0.75rem','background':'#F8FBFF','border':'1px solid rgba(30,111,183,0.1)','boxShadow':'0 4px 24px rgba(30,111,183,0.07)','overflow':'hidden'}}>
@@ -91,7 +91,7 @@ export default function Page() {
           {/* ── SIGNAL SOURCE PILLS ── */}
           <text x="72" y="26" textAnchor="middle" fontSize="8" fill="#94A3B8" fontFamily="system-ui,-apple-system,sans-serif" fontWeight="700" letterSpacing="0.09em">SIGNAL SOURCES</text>
 
-          {/* Fraud — y=63 */}
+          {/* Fraud - y=63 */}
           <rect x="5" y="63" width="135" height="44" rx="9" fill="#FEF2F2" stroke="#FECACA" strokeWidth="1" filter="url(#wn_p)"/>
           <rect x="5" y="63" width="3.5" height="44" rx="1.5" fill="#DC2626" opacity="0.75"/>
           <circle cx="20" cy="85" r="5" fill="#DC2626" fillOpacity="0.12"/>
@@ -100,7 +100,7 @@ export default function Page() {
           <text x="32" y="94" fontSize="8" fill="#6B7280" fontFamily="system-ui,-apple-system,sans-serif">Transaction signals</text>
           <circle cx="133" cy="71" r="3" fill="#DC2626" fillOpacity="0.3"/>
 
-          {/* AML — y=115 */}
+          {/* AML - y=115 */}
           <rect x="5" y="115" width="135" height="44" rx="9" fill="#FFFBEB" stroke="#FDE68A" strokeWidth="1" filter="url(#wn_p)"/>
           <rect x="5" y="115" width="3.5" height="44" rx="1.5" fill="#D97706" opacity="0.75"/>
           <circle cx="20" cy="137" r="5" fill="#D97706" fillOpacity="0.12"/>
@@ -109,7 +109,7 @@ export default function Page() {
           <text x="32" y="146" fontSize="8" fill="#6B7280" fontFamily="system-ui,-apple-system,sans-serif">Monitoring alerts</text>
           <circle cx="133" cy="123" r="3" fill="#D97706" fillOpacity="0.3"/>
 
-          {/* Payments — y=167 */}
+          {/* Payments - y=167 */}
           <rect x="5" y="167" width="135" height="44" rx="9" fill="#EFF6FF" stroke="rgba(30,111,183,0.2)" strokeWidth="1" filter="url(#wn_p)"/>
           <rect x="5" y="167" width="3.5" height="44" rx="1.5" fill="#1E6FB7" opacity="0.75"/>
           <circle cx="20" cy="189" r="5" fill="#1E6FB7" fillOpacity="0.12"/>
@@ -118,7 +118,7 @@ export default function Page() {
           <text x="32" y="198" fontSize="8" fill="#6B7280" fontFamily="system-ui,-apple-system,sans-serif">Flow patterns</text>
           <circle cx="133" cy="175" r="3" fill="#1E6FB7" fillOpacity="0.3"/>
 
-          {/* Identity — y=219 */}
+          {/* Identity - y=219 */}
           <rect x="5" y="219" width="135" height="44" rx="9" fill="#F5F3FF" stroke="#DDD6FE" strokeWidth="1" filter="url(#wn_p)"/>
           <rect x="5" y="219" width="3.5" height="44" rx="1.5" fill="#7C3AED" opacity="0.75"/>
           <circle cx="20" cy="241" r="5" fill="#7C3AED" fillOpacity="0.12"/>
@@ -127,7 +127,7 @@ export default function Page() {
           <text x="32" y="250" fontSize="8" fill="#6B7280" fontFamily="system-ui,-apple-system,sans-serif">KYC / KYB signals</text>
           <circle cx="133" cy="227" r="3" fill="#7C3AED" fillOpacity="0.3"/>
 
-          {/* Device — y=271 */}
+          {/* Device - y=271 */}
           <rect x="5" y="271" width="135" height="44" rx="9" fill="#ECFEFF" stroke="#A5F3FC" strokeWidth="1" filter="url(#wn_p)"/>
           <rect x="5" y="271" width="3.5" height="44" rx="1.5" fill="#0891B2" opacity="0.75"/>
           <circle cx="20" cy="293" r="5" fill="#0891B2" fillOpacity="0.12"/>
@@ -136,7 +136,7 @@ export default function Page() {
           <text x="32" y="302" fontSize="8" fill="#6B7280" fontFamily="system-ui,-apple-system,sans-serif">{'Fingerprint & risk'}</text>
           <circle cx="133" cy="279" r="3" fill="#0891B2" fillOpacity="0.3"/>
 
-          {/* Behavior — y=323 */}
+          {/* Behavior - y=323 */}
           <rect x="5" y="323" width="135" height="44" rx="9" fill="#ECFDF5" stroke="#A7F3D0" strokeWidth="1" filter="url(#wn_p)"/>
           <rect x="5" y="323" width="3.5" height="44" rx="1.5" fill="#059669" opacity="0.75"/>
           <circle cx="20" cy="345" r="5" fill="#059669" fillOpacity="0.12"/>
@@ -148,7 +148,7 @@ export default function Page() {
           {/* ── INTELLIGENCE OUTPUT CARDS ── */}
           <text x="477" y="26" textAnchor="middle" fontSize="8" fill="#94A3B8" fontFamily="system-ui,-apple-system,sans-serif" fontWeight="700" letterSpacing="0.09em">INTELLIGENCE OUTPUTS</text>
 
-          {/* Graph Intelligence — y=81 center=110 */}
+          {/* Graph Intelligence - y=81 center=110 */}
           <rect x="400" y="81" width="155" height="58" rx="10" fill="#ffffff" stroke="rgba(30,111,183,0.12)" strokeWidth="1" filter="url(#wn_o)"/>
           <rect x="408" y="90" width="28" height="28" rx="7" fill="rgba(30,111,183,0.08)" stroke="rgba(30,111,183,0.15)" strokeWidth="1"/>
           <circle cx="418" cy="101" r="3" fill="#1E6FB7"/>
@@ -160,7 +160,7 @@ export default function Page() {
           <text x="444" y="115" fontSize="8" fill="#64748B" fontFamily="system-ui,-apple-system,sans-serif">{'Entity & network detection'}</text>
           <circle cx="548" cy="89" r="3.5" fill="#1E6FB7" fillOpacity="0.2" stroke="#1E6FB7" strokeWidth="0.75" strokeOpacity="0.4"/>
 
-          {/* Case Context — y=151 center=180 */}
+          {/* Case Context - y=151 center=180 */}
           <rect x="400" y="151" width="155" height="58" rx="10" fill="#ffffff" stroke="rgba(30,111,183,0.12)" strokeWidth="1" filter="url(#wn_o)"/>
           <rect x="408" y="160" width="28" height="28" rx="7" fill="rgba(124,58,237,0.07)" stroke="rgba(124,58,237,0.15)" strokeWidth="1"/>
           <rect x="415" y="165" width="14" height="17" rx="2" fill="none" stroke="#7C3AED" strokeWidth="1.5"/>
@@ -171,7 +171,7 @@ export default function Page() {
           <text x="444" y="185" fontSize="8" fill="#64748B" fontFamily="system-ui,-apple-system,sans-serif">Investigation summaries</text>
           <circle cx="548" cy="159" r="3.5" fill="#7C3AED" fillOpacity="0.2" stroke="#7C3AED" strokeWidth="0.75" strokeOpacity="0.4"/>
 
-          {/* Decision Support — y=221 center=250 */}
+          {/* Decision Support - y=221 center=250 */}
           <rect x="400" y="221" width="155" height="58" rx="10" fill="#ffffff" stroke="rgba(30,111,183,0.12)" strokeWidth="1" filter="url(#wn_o)"/>
           <rect x="408" y="230" width="28" height="28" rx="7" fill="rgba(5,150,105,0.07)" stroke="rgba(5,150,105,0.14)" strokeWidth="1"/>
           <path d="M415 244 L420 249 L431 237" stroke="#059669" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -179,7 +179,7 @@ export default function Page() {
           <text x="444" y="255" fontSize="8" fill="#64748B" fontFamily="system-ui,-apple-system,sans-serif">Explainable risk scoring</text>
           <circle cx="548" cy="229" r="3.5" fill="#059669" fillOpacity="0.2" stroke="#059669" strokeWidth="0.75" strokeOpacity="0.4"/>
 
-          {/* Audit Trail — y=291 center=320 */}
+          {/* Audit Trail - y=291 center=320 */}
           <rect x="400" y="291" width="155" height="58" rx="10" fill="#ffffff" stroke="rgba(30,111,183,0.12)" strokeWidth="1" filter="url(#wn_o)"/>
           <rect x="408" y="300" width="28" height="28" rx="7" fill="rgba(8,145,178,0.07)" stroke="rgba(8,145,178,0.14)" strokeWidth="1"/>
           <line x1="415" y1="308" x2="431" y2="308" stroke="#0891B2" strokeWidth="1.8" strokeLinecap="round"/>
@@ -193,7 +193,7 @@ export default function Page() {
           <rect x="5" y="380" width="550" height="30" rx="8" fill="rgba(30,111,183,0.04)" stroke="rgba(30,111,183,0.1)" strokeWidth="1"/>
           <circle cx="22" cy="395" r="4" fill="#1E6FB7" fillOpacity="0.15"/>
           <circle cx="22" cy="395" r="2.2" fill="#1E6FB7"/>
-          <text x="33" y="399" fontSize="8" fill="#1E6FB7" fontFamily="system-ui,-apple-system,sans-serif" fontWeight="600">6 signal types unified</text>
+          <text x="33" y="399" fontSize="8" fill="#1E6FB7" fontFamily="system-ui,-apple-system,sans-serif" fontWeight="600">6 signal types connected</text>
           <line x1="157" y1="385" x2="157" y2="405" stroke="rgba(30,111,183,0.15)" strokeWidth="1"/>
           <text x="167" y="399" fontSize="8" fill="#64748B" fontFamily="system-ui,-apple-system,sans-serif">4 intelligence outputs</text>
           <line x1="281" y1="385" x2="281" y2="405" stroke="rgba(30,111,183,0.15)" strokeWidth="1"/>
@@ -221,7 +221,7 @@ export default function Page() {
           <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','fontWeight':'600','color':'var(--dark)','lineHeight':'1.75'}}>Verafye was built to change that.</p>
         </div>
         <div>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform - giving fraud and AML teams a unified investigation workspace with graph-native detection, structured case management, and full audit trails.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform - giving fraud and AML teams a connected investigation workspace with graph-native detection, structured case management, and full audit trails.</p>
           <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. It is the investigation intelligence layer for regulated payment platforms and financial institutions operating under real compliance pressure.</p>
         </div>
       </div>
@@ -267,7 +267,7 @@ export default function Page() {
       <div className="card" style={{'padding':'2.5rem'}}>
         <div className="card-icon gradient-bg-2"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg></div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'700','marginBottom':'0.75rem'}}>Innovation</h3>
-        <p style={{'color':'var(--body)'}}>We apply graph intelligence, AI, and cross-system signal correlation to financial crime detection  -  building connected risk intelligence that improves as the problems it addresses evolve.</p>
+        <p style={{'color':'var(--body)'}}>We apply graph intelligence, AI, and cross-system signal correlation to financial crime detection - building connected risk intelligence that improves as the problems it addresses evolve.</p>
       </div>
       <div className="card" style={{'padding':'2.5rem'}}>
         <div className="card-icon gradient-bg-4"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></div>

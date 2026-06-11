@@ -52,7 +52,7 @@ export default function Page() {
 
             {/* ── 4. Intellectual Property ─────────────────────────────────── */}
             <h2 style={h2}>4. Intellectual Property</h2>
-            <p style={p}>All content, features, and functionality of our website and services — including but not limited to text, graphics, logos, icons, images, and software — are owned by Verafye or its licensors and are protected by applicable intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our prior written consent.</p>
+            <p style={p}>All content, features, and functionality of our website and services - including but not limited to text, graphics, logos, icons, images, and software - are owned by Verafye or its licensors and are protected by applicable intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our prior written consent.</p>
 
             {/* ── 5. Disclaimer of Warranties ──────────────────────────────── */}
             <h2 style={h2}>5. Disclaimer of Warranties</h2>

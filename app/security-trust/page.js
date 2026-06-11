@@ -2,15 +2,15 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Security & Trust | Verafye",
-  description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
+  description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and graph-native Network Risk Intelligence systems.",
   openGraph: {
     title: "Security & Trust | Verafye",
-    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
+    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and graph-native Network Risk Intelligence systems.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Security & Trust | Verafye",
-    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and AI-driven fraud and AML detection systems.",
+    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and graph-native Network Risk Intelligence systems.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/security-trust',
@@ -33,7 +33,7 @@ export default function SecurityTrustPage() {
               Built for regulated payment platforms and financial institutions that require strong security foundations, controlled data handling, and infrastructure aligned with evolving regulatory expectations.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye is designed for environments where security, operational integrity, and data protection are non-negotiable. The platform supports controlled access, reviewer controls, evidence packs, audit-ready case records, and privacy-conscious investigation workflows  -  helping regulated payment platforms, fintechs, and financial institutions handle sensitive investigation data responsibly.
+              Verafye is designed for environments where security, operational integrity, and data protection are non-negotiable. The platform supports controlled access, reviewer controls, evidence packs, audit-ready case records, and privacy-conscious investigation workflows - helping regulated payment platforms, fintechs, and financial institutions handle sensitive investigation data responsibly.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -67,7 +67,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Security-First Architecture',
-                body: 'Verafye is designed from the ground up with security as a foundational requirement  -  not a layer added after the fact. System boundaries, access controls, and data handling patterns are built to meet the operating standards of financial institutions and regulated payment platforms.',
+                body: 'Verafye is designed from the ground up with security as a foundational requirement - not a layer added after the fact. System boundaries, access controls, and data handling patterns are built to meet the operating standards of financial institutions and regulated payment platforms.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -77,7 +77,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Controlled Access and Auditability',
-                body: 'Access to data, decisions, and workflows is controlled, logged, and auditable throughout the platform. Every action taken within an investigation, every alert disposition, and every system interaction is traceable  -  supporting the governance requirements of enterprise financial crime operations.',
+                body: 'Access to data, decisions, and workflows is controlled, logged, and auditable throughout the platform. Every action taken within an investigation, every alert disposition, and every system interaction is traceable - supporting the governance requirements of enterprise financial crime operations.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -97,7 +97,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Infrastructure Designed for Sensitive Financial Workflows',
-                body: 'Verafye is purpose-built for the operational and data sensitivity requirements of financial crime teams  -  including fraud, AML, compliance, and investigation functions that handle regulated data across complex, multi-system environments.',
+                body: 'Verafye is purpose-built for the operational and data sensitivity requirements of financial crime teams - including fraud, AML, compliance, and investigation functions that handle regulated data across complex, multi-system environments.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -120,7 +120,7 @@ export default function SecurityTrustPage() {
                 Designed for Secure and Controlled Data Handling
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye's architecture reflects the data handling requirements of regulated payment platforms and financial institutions  -  with controlled access patterns, clearly defined system boundaries, and auditable data flows maintained consistently across the platform.
+                Verafye's architecture reflects the data handling requirements of regulated payment platforms and financial institutions - with controlled access patterns, clearly defined system boundaries, and auditable data flows maintained consistently across the platform.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
@@ -132,7 +132,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Controlled Access Patterns',
-                  body: 'Data access within Verafye follows controlled, role-based patterns  -  ensuring that analysts, investigators, and system processes access only the data and functions appropriate to their role and workflow context. Reviewer controls support decision approval workflows, controlled case escalation, and audit-log integrity across investigation teams.',
+                  body: 'Data access within Verafye follows controlled, role-based patterns - ensuring that analysts, investigators, and system processes access only the data and functions appropriate to their role and workflow context. Reviewer controls support decision approval workflows, controlled case escalation, and audit-log integrity across investigation teams.',
                 },
                 {
                   icon: (
@@ -141,7 +141,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Comprehensive Audit Trails',
-                  body: 'All actions taken within the platform  -  investigations opened, alerts dispositioned, cases escalated, and data accessed  -  are logged and auditable. Evidence packs preserve linked signals, analyst notes, decision rationale, and supporting records inside each case, providing the audit-ready documentation that compliance and governance functions require.',
+                  body: 'All actions taken within the platform - investigations opened, alerts dispositioned, cases escalated, and data accessed - are logged and auditable. Evidence packs preserve linked signals, analyst notes, decision rationale, and supporting records inside each case, providing the audit-ready documentation that compliance and governance functions require.',
                 },
                 {
                   icon: (
@@ -150,7 +150,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Secure System Boundaries',
-                  body: 'Verafye maintains clearly defined and secured system boundaries  -  controlling how data flows between internal components, external systems, and third-party integrations in a manner consistent with financial institution security requirements.',
+                  body: 'Verafye maintains clearly defined and secured system boundaries - controlling how data flows between internal components, external systems, and third-party integrations in a manner consistent with financial institution security requirements.',
                 },
                 {
                   icon: (
@@ -159,7 +159,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Controlled Data Flows',
-                  body: 'Data flows through the platform along defined, controlled pathways  -  with consistent handling standards applied across ingestion, processing, storage, and output to support data governance obligations.',
+                  body: 'Data flows through the platform along defined, controlled pathways - with consistent handling standards applied across ingestion, processing, storage, and output to support data governance obligations.',
                 },
                 {
                   icon: (
@@ -168,7 +168,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Deployment Flexibility',
-                  body: 'Verafye supports deployment models appropriate to the operating requirements of different institutions  -  enabling institutions to evaluate deployment options that align with their internal data residency, infrastructure, and security policies.',
+                  body: 'Verafye supports deployment models appropriate to the operating requirements of different institutions - enabling institutions to evaluate deployment options that align with their internal data residency, infrastructure, and security policies.',
                 },
                 {
                   icon: (
@@ -201,7 +201,7 @@ export default function SecurityTrustPage() {
                 Aligned with Evolving Financial Crime Expectations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye is designed to support financial institutions as they modernise fraud and AML infrastructure in response to evolving regulatory expectations  -  improving traceability, explainability, and operational effectiveness across financial crime workflows.
+                Verafye is designed to support financial institutions as they modernise fraud and AML infrastructure in response to evolving regulatory expectations - improving traceability, explainability, and operational effectiveness across financial crime workflows.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -209,22 +209,22 @@ export default function SecurityTrustPage() {
                 {
                   step: '01',
                   title: 'Supports Modern Fraud, AML, and Investigation Workflows',
-                  body: 'Verafye is purpose-built to support the operational workflows that regulators increasingly expect from financial crime functions  -  including structured investigation processes, documented decision trails, alert prioritisation, and cross-domain signal correlation across fraud and AML.',
+                  body: 'Verafye is purpose-built to support the operational workflows that regulators increasingly expect from financial crime functions - including structured investigation processes, documented decision trails, alert prioritisation, and cross-domain signal correlation across fraud and AML.',
                 },
                 {
                   step: '02',
                   title: 'Improves Traceability and Explainability',
-                  body: 'Risk scores, alerts, and case recommendations within Verafye are designed to include traceable, documented reasoning  -  supporting the explainability obligations that regulators apply to automated decision-making in financial crime contexts.',
+                  body: 'Risk scores, alerts, and case recommendations within Verafye are designed to include traceable, documented reasoning - supporting the explainability obligations that regulators apply to automated decision-making in financial crime contexts.',
                 },
                 {
                   step: '03',
                   title: 'Helps Institutions Modernise Legacy Infrastructure',
-                  body: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform  -  helping organisations modernise their financial crime intelligence capabilities as they expand into Verafye-led investigation workflows over time.',
+                  body: 'Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform - helping organisations modernise their financial crime intelligence capabilities as they expand into Verafye-led investigation workflows over time.',
                 },
                 {
                   step: '04',
                   title: 'Aligned with Evolving Regulatory Expectations',
-                  body: 'Regulatory expectations for financial crime infrastructure are moving in a consistent direction  -  toward greater connectivity, more explainable decisioning, and more structured investigation processes. Verafye is built with that direction in mind, supporting institutions as they align operations with evolving expectations across jurisdictions.',
+                  body: 'Regulatory expectations for financial crime infrastructure are moving in a consistent direction - toward greater connectivity, more explainable decisioning, and more structured investigation processes. Verafye is built with that direction in mind, supporting institutions as they align operations with evolving expectations across jurisdictions.',
                 },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
@@ -253,7 +253,7 @@ export default function SecurityTrustPage() {
               Investigation Layer Aligned to Regulatory Change
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '48rem', margin: '0 auto' }}>
-              Financial institutions operate across regulatory environments that differ by jurisdiction, institution type, and product  -  but share a common direction: greater transparency, stronger detection, and more structured investigation processes. Verafye is designed with that direction in mind.
+              Financial institutions operate across regulatory environments that differ by jurisdiction, institution type, and product - but share a common direction: greater transparency, stronger detection, and more structured investigation processes. Verafye is designed with that direction in mind.
             </p>
           </div>
 
@@ -268,7 +268,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Multi-Jurisdiction Support',
-                  body: 'Verafye is designed to support risk and compliance teams operating under frameworks and supervisory expectations such as FINTRAC (Canada), FCA (UK), FinCEN (US), RBI (India), and other relevant regulators  -  depending on customer geography and configuration. The platform supports the investigation, documentation, and evidence-trail workflows that different regulatory contexts require, without claiming formal certification under any specific framework.',
+                  body: 'Verafye is designed to support risk and compliance teams operating under frameworks and supervisory expectations such as FINTRAC (Canada), FCA (UK), FinCEN (US), RBI (India), and other relevant regulators - depending on customer geography and configuration. The platform supports the investigation, documentation, and evidence-trail workflows that different regulatory contexts require, without claiming formal certification under any specific framework.',
                 },
                 {
                   icon: (
@@ -277,7 +277,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'SAR and STR Reporting Workflows',
-                  body: 'Structured investigation workflows within Verafye are designed to support the evidence-gathering, case documentation, and decision-trail requirements that underpin SAR and STR filings across jurisdictions. Analysts work within a structured process that assembles the context regulators expect to see in high-quality filings  -  reducing reliance on manual reconstruction and improving consistency across the compliance team.',
+                  body: 'Structured investigation workflows within Verafye are designed to support the evidence-gathering, case documentation, and decision-trail requirements that underpin SAR and STR filings across jurisdictions. Analysts work within a structured process that assembles the context regulators expect to see in high-quality filings - reducing reliance on manual reconstruction and improving consistency across the compliance team.',
                 },
                 {
                   icon: (
@@ -286,7 +286,7 @@ export default function SecurityTrustPage() {
                     </svg>
                   ),
                   title: 'Alignment Without Overclaiming',
-                  body: 'Verafye does not position itself as a compliance solution or make claims of formal regulatory certification. It is infrastructure  -  designed to improve the detection, investigation, and documentation capabilities that help institutions operate within their own regulatory obligations, whatever those obligations are and wherever they apply.',
+                  body: 'Verafye does not position itself as a compliance solution or make claims of formal regulatory certification. It is infrastructure - designed to improve the detection, investigation, and documentation capabilities that help institutions operate within their own regulatory obligations, whatever those obligations are and wherever they apply.',
                 },
               ].map(item => (
                 <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -304,19 +304,19 @@ export default function SecurityTrustPage() {
               {[
                 {
                   label: 'Detection aligned to examiner expectations',
-                  desc: 'Graph-native detection and cross-system signal correlation support the network-level risk visibility that financial crime examiners increasingly expect institutions to demonstrate  -  across fraud, AML, and payments monitoring functions.',
+                  desc: 'Graph-native detection and cross-system signal correlation support the network-level risk visibility that financial crime examiners increasingly expect institutions to demonstrate - across fraud, AML, and payments monitoring functions.',
                 },
                 {
                   label: 'Audit-ready investigation records',
-                  desc: 'Every case opened, progressed, escalated, and closed within Verafye generates a complete, traceable record  -  providing the documented evidence trail that supports both internal governance and external regulatory review.',
+                  desc: 'Every case opened, progressed, escalated, and closed within Verafye generates a complete, traceable record - providing the documented evidence trail that supports both internal governance and external regulatory review.',
                 },
                 {
                   label: 'Explainability built into the decisioning layer',
-                  desc: 'Risk scores, alert outputs, and case recommendations are backed by documented, traceable reasoning  -  supporting the explainability obligations that regulators apply to automated decision-making in AML and fraud contexts.',
+                  desc: 'Risk scores, alert outputs, and case recommendations are backed by documented, traceable reasoning - supporting the explainability obligations that regulators apply to automated decision-making in AML and fraud contexts.',
                 },
                 {
                   label: 'Workflow consistency across teams and jurisdictions',
-                  desc: 'Structured investigation workflows standardise how cases are assessed and resolved across different teams and operating environments  -  supporting consistency of outcome and quality of documentation for teams operating under frameworks such as FINTRAC (Canada), FCA (UK), FinCEN (US), and RBI (India), depending on customer geography and configuration.',
+                  desc: 'Structured investigation workflows standardise how cases are assessed and resolved across different teams and operating environments - supporting consistency of outcome and quality of documentation for teams operating under frameworks such as FINTRAC (Canada), FCA (UK), FinCEN (US), and RBI (India), depending on customer geography and configuration.',
                 },
               ].map(item => (
                 <div key={item.label} className="card" style={{ padding: '1.75rem 2rem', display: 'flex', alignItems: 'flex-start', gap: '1.25rem' }}>
@@ -466,7 +466,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Flexible Deployment Models',
-                body: 'Verafye supports deployment configurations appropriate to the operating requirements and data governance policies of different institution types  -  enabling enterprise buyers to evaluate options aligned with their internal infrastructure, residency, and security standards.',
+                body: 'Verafye supports deployment configurations appropriate to the operating requirements and data governance policies of different institution types - enabling enterprise buyers to evaluate options aligned with their internal infrastructure, residency, and security standards.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -476,7 +476,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Operational Segregation',
-                body: 'Verafye maintains clear separation between operational functions, data domains, and access scopes  -  ensuring that fraud, AML, compliance, and investigation workflows operate within appropriately segregated environments consistent with enterprise governance requirements.',
+                body: 'Verafye maintains clear separation between operational functions, data domains, and access scopes - ensuring that fraud, AML, compliance, and investigation workflows operate within appropriately segregated environments consistent with enterprise governance requirements.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -486,7 +486,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Investigation Workflow Transparency',
-                body: 'Investigation workflows within Verafye are structured, documented, and auditable end to end  -  providing compliance and operations leaders with full visibility into how cases are opened, progressed, escalated, and closed across fraud and AML functions.',
+                body: 'Investigation workflows within Verafye are structured, documented, and auditable end to end - providing compliance and operations leaders with full visibility into how cases are opened, progressed, escalated, and closed across fraud and AML functions.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -496,7 +496,7 @@ export default function SecurityTrustPage() {
                   </svg>
                 ),
                 title: 'Scalable Platform Architecture',
-                body: 'Verafye is architected to handle increasing data volumes, user growth, and signal complexity without degrading performance or requiring proportional platform investment  -  supporting the operational scale requirements of regulated payment platforms, fintechs, and growing financial institutions.',
+                body: 'Verafye is architected to handle increasing data volumes, user growth, and signal complexity without degrading performance or requiring proportional platform investment - supporting the operational scale requirements of regulated payment platforms, fintechs, and growing financial institutions.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -530,7 +530,7 @@ export default function SecurityTrustPage() {
               },
               {
                 q: 'Is Verafye designed for investigation auditability?',
-                a: 'Auditability is a core design principle. All investigation actions, alert dispositions, case progressions, and system decisions within Verafye are logged and traceable  -  providing the documented record that compliance, governance, and regulatory review functions require.',
+                a: 'Auditability is a core design principle. All investigation actions, alert dispositions, case progressions, and system decisions within Verafye are logged and traceable - providing the documented record that compliance, governance, and regulatory review functions require.',
               },
               {
                 q: 'Can Verafye support different deployment models?',
@@ -538,11 +538,11 @@ export default function SecurityTrustPage() {
               },
               {
                 q: 'How does Verafye handle explainability for AI-assisted decisions?',
-                a: 'Verafye is designed so that risk scores, alerts, and case recommendations can be reviewed with traceable, documented context  -  enabling institutions to review, understand, and justify outputs to internal stakeholders and regulators without relying on black-box outputs.',
+                a: 'Verafye is designed so that risk scores, alerts, and case recommendations can be reviewed with traceable, documented context - enabling institutions to review, understand, and justify outputs to internal stakeholders and regulators without relying on black-box outputs.',
               },
               {
                 q: 'How does Verafye approach data handling for sensitive financial workflows?',
-                a: 'Verafye applies controlled access patterns, secure system boundaries, and auditable data flows throughout the platform. Data handling is designed to meet the sensitivity requirements of financial crime operations  -  including fraud, AML, compliance, and investigation functions that handle regulated and sensitive financial data.',
+                a: 'Verafye applies controlled access patterns, secure system boundaries, and auditable data flows throughout the platform. Data handling is designed to meet the sensitivity requirements of financial crime operations - including fraud, AML, compliance, and investigation functions that handle regulated and sensitive financial data.',
               },
             ].map((item, i) => (
               <div key={i} className="card" style={{ padding: '2rem' }}>

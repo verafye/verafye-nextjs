@@ -3,18 +3,18 @@ import SplitHeroWithVisualCard, { ResourcesVisualCard } from '../../components/S
 import ResourcesClient from './ResourcesClient';
 
 export const metadata = {
-  title: "Fraud & AML Resources | Guides & Insights | Verafye",
-  description: "Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.",
+  title: "Network Risk Intelligence Resources | Guides & Insights",
+  description: "Explore network risk intelligence resources, guides, and insights to investigate financial crime and improve risk management strategies.",
   openGraph: {
-    title: "Fraud & AML Resources | Guides & Insights | Verafye",
-    description: "Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.",
+    title: "Network Risk Intelligence Resources | Guides & Insights | Verafye",
+    description: "Explore network risk intelligence resources, guides, and insights to investigate financial crime and improve risk management strategies.",
     url: 'https://www.verafye.com/resources/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye Resources - Investigation Intelligence for Risk Teams' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud & AML Resources | Guides & Insights | Verafye",
-    description: "Explore fraud and AML resources, guides, and insights to detect financial crime and improve risk management strategies.",
+    title: "Network Risk Intelligence Resources | Guides & Insights | Verafye",
+    description: "Explore network risk intelligence resources, guides, and insights to investigate financial crime and improve risk management strategies.",
     images: ['/images/og-image.png'],
   },
   alternates: {
@@ -32,7 +32,7 @@ export default function ResourcesPage() {
   return (
     <>
 
-      {/* ── 1. HERO — Option 1: Split Hero with Visual Card (approved) ────── */}
+      {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
       <SplitHeroWithVisualCard
         eyebrow="Knowledge Hub"
         title="Resources for Financial Crime, Fraud, and Payment Risk Teams"

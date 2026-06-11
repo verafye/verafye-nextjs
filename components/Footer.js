@@ -26,11 +26,12 @@ const footerColumns = [
     heading: 'Industries',
     links: [
       { label: 'PSPs, PayFacs & Payment Processors',      href: '/industries/payment-processors-psps-payfacs' },
-      { label: 'FinTech Payment Platforms',                       href: '/industries/fintech-platforms' },
+      { label: 'MSBs & Remittance Platforms',             href: '/industries/msbs-remittance-platforms' },
       { label: 'Digital Banks & Neo Banks',               href: '/industries/digital-banks' },
+      { label: 'FinTech Payment Platforms',               href: '/industries/fintech-platforms' },
       { label: 'Banks & Regional Financial Institutions', href: '/industries/banks' },
+      { label: 'Marketplaces',                            href: '/industries/marketplaces' },
       { label: 'Digital Lending & BNPL',                  href: '/industries/digital-lending-bnpl' },
-      { label: 'E-Commerce & Retail',                     href: '/industries/ecommerce-retail' },
     ],
   },
   {

@@ -193,7 +193,7 @@ export default function PdfDownloadModal({
 
       setSubmitting(false);
       setSubmitError('We could not process your request. Please try again.');
-      return; // block download — do NOT proceed
+      return; // block download - do NOT proceed
     }
 
     // ── Analytics: form submit ─────────────────────────────────────────────

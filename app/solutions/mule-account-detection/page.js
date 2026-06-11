@@ -155,11 +155,11 @@ export default function MuleAccountDetectionPage() {
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
-                { step: '01', title: 'Entity Resolution', body: 'Resolve identities across accounts, devices, phone numbers, addresses, and behavioural signals - building unified entity profiles that persist across the mule network graph.' },
+                { step: '01', title: 'Entity Resolution', body: 'Resolve identities across accounts, devices, phone numbers, addresses, and behavioural signals - building resolved entity profiles that persist across the mule network graph.' },
                 { step: '02', title: 'Relationship Mapping', body: 'Map the connections between resolved entities - account-to-account relationships, shared device links, common identity attributes - into a structured relationship view updated as new signals arrive.' },
                 { step: '03', title: 'Network Clustering', body: 'Group connected entities into mule network clusters - surfacing the full structure of coordinated account relationships that transaction monitoring cannot see.' },
                 { step: '04', title: 'Connected Transaction Analysis', body: 'Trace money movement across linked accounts within the graph - identifying layering patterns, structured flows, and cross-account coordination invisible to event-level monitoring.' },
-                { step: '05', title: 'Cross-System Investigation Context', body: 'Aggregate fraud and AML signals from across systems into a unified investigation view - giving analysts the complete network picture without manual platform-switching.' },
+                { step: '05', title: 'Cross-System Investigation Context', body: 'Aggregate fraud and AML signals from across systems into one connected investigation view - giving analysts the complete network picture without manual platform-switching.' },
                 { step: '06', title: 'Ongoing Network Monitoring', body: 'As new signals arrive and are connected, risk teams can continue monitoring known mule clusters and review emerging relationship patterns with updated case context.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
@@ -261,7 +261,7 @@ export default function MuleAccountDetectionPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Stronger Coordination Between Fraud and AML Teams',
-                body: 'A unified intelligence layer connecting fraud and AML signals enables both teams to act on the same network-level view - improving coordination, reducing duplication, and strengthening SAR quality.',
+                body: 'One connected network view linking fraud and AML signals enables both teams to act on the same network-level view - improving coordination, reducing duplication, and strengthening SAR quality.',
               },
               {
                 gradient: 'gradient-bg-2',

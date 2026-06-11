@@ -1,4 +1,4 @@
-/* Verafye — Premium Design System (Stripe × Palantir) */
+/* Verafye - Premium Design System (Stripe × Palantir) */
 /* Brand Fonts: Avenir LT PRO (headers), Montserrat (body), Cerebri (buttons) */
 
 :root {
@@ -519,7 +519,7 @@ img { max-width: 100%; height: auto; }
   .container { max-width: 1280px; }
 }
 
-/* ───────── SPLIT HERO (inner pages — Option 1 approved layout) ───────── */
+/* ───────── SPLIT HERO (inner pages - Option 1 approved layout) ───────── */
 /* Two-column: left = text content, right = abstract visual card.          */
 /* Apply via className="split-hero-grid" on the inner grid div.            */
 .split-hero-grid {

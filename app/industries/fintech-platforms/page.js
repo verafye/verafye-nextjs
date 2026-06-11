@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Detection Platform for Fintech | Prevent Fraud",
-  description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
+  title: "Network Risk Intelligence for FinTech Payment Platforms",
+  description: "Network Risk Intelligence for fintech payment platforms - connect user, device and transaction signals into investigation-grade evidence that scales with growth.",
   openGraph: {
-    title: "Fraud Detection Platform for Fintech | Prevent Fraud",
-    description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
+    title: "Network Risk Intelligence for FinTech Payment Platforms | Verafye",
+    description: "Network Risk Intelligence for fintech payment platforms - connect user, device and transaction signals into investigation-grade evidence that scales with growth.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection Platform for Fintech | Prevent Fraud",
-    description: "Fraud detection platform for fintech to detect online payment fraud. Protect users, prevent financial crime & meet regulatory compliance with AI insights.",
+    title: "Network Risk Intelligence for FinTech Payment Platforms | Verafye",
+    description: "Network Risk Intelligence for fintech payment platforms - connect user, device and transaction signals into investigation-grade evidence that scales with growth.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/fintech-platforms',
@@ -71,25 +71,25 @@ export default function FintechPlatformsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'Rapid User and Transaction Growth',
-                body: 'Fintech platforms scale user bases and transaction volumes faster than risk infrastructure can keep pace  -  exposing gaps in fraud coverage, monitoring capacity, and investigation throughput before they become visible.',
+                body: 'Fintech platforms scale user bases and transaction volumes faster than risk infrastructure can keep pace - exposing gaps in fraud coverage, monitoring capacity, and investigation throughput before they become visible.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
                 title: 'Evolving Fraud Patterns Targeting New Platforms',
-                body: 'Fraudsters actively target growing fintech platforms  -  exploiting onboarding flows, referral programmes, and payment rails before risk teams have established detection coverage for new attack vectors.',
+                body: 'Fraudsters actively target growing fintech platforms - exploiting onboarding flows, referral programmes, and payment rails before risk teams have established detection coverage for new attack vectors.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>),
                 title: 'Balancing User Experience With Risk Controls',
-                body: 'Aggressive fraud controls that reduce losses also introduce friction  -  declining legitimate users, adding verification steps, and increasing drop-off rates that directly impact growth metrics and user retention.',
+                body: 'Aggressive fraud controls that reduce losses also introduce friction - declining legitimate users, adding verification steps, and increasing drop-off rates that directly impact growth metrics and user retention.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Fragmented Fraud, Risk, and AML Systems',
-                body: 'Fintech platforms often assemble risk stacks from multiple point solutions  -  fraud scoring, device intelligence, AML monitoring, and case management  -  that do not share signals, creating gaps that coordinated fraud exploits.',
+                body: 'Fintech platforms often assemble risk stacks from multiple point solutions - fraud scoring, device intelligence, AML monitoring, and case management - that do not share signals, creating gaps that coordinated fraud exploits.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -101,7 +101,7 @@ export default function FintechPlatformsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Investigation Workflows That Do Not Scale With Team Size',
-                body: 'Small risk teams at fast-growing fintech platforms face growing investigation workloads without the structured workflows or connected context that would allow them to manage case volumes efficiently  -  creating unclear case ownership, inconsistent outcomes, and mounting backlogs as alert volumes increase.',
+                body: 'Small risk teams at fast-growing fintech platforms face growing investigation workloads without the structured workflows or connected context that would allow them to manage case volumes efficiently - creating unclear case ownership, inconsistent outcomes, and mounting backlogs as alert volumes increase.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -129,25 +129,25 @@ export default function FintechPlatformsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>),
                 title: 'Static Rules Struggle With Evolving Fraud Patterns',
-                body: 'Rule-based detection models require continuous manual tuning to stay current with evolving attack vectors. Fast-moving fintech platforms attract fraud faster than static rules can adapt  -  leaving coverage gaps that persist until detected losses force a response.',
+                body: 'Rule-based detection models require continuous manual tuning to stay current with evolving attack vectors. Fast-moving fintech platforms attract fraud faster than static rules can adapt - leaving coverage gaps that persist until detected losses force a response.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Risk Signals Are Fragmented Across Systems',
-                body: 'Device intelligence, behavioural signals, transaction data, and AML indicators live in separate tools with no shared intelligence layer. Coordinated fraud that spans these domains remains invisible until each system is queried independently  -  by which point the activity has often already occurred.',
+                body: 'Device intelligence, behavioural signals, transaction data, and AML indicators live in separate tools with no shared intelligence layer. Coordinated fraud that spans these domains remains invisible until each system is queried independently - by which point the activity has often already occurred.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'High False Positives Impact User Experience',
-                body: 'Overly broad risk controls generate false positives that block legitimate users  -  increasing support costs, damaging NPS scores, and creating churn among exactly the active users a growing fintech platform needs to retain.',
+                body: 'Overly broad risk controls generate false positives that block legitimate users - increasing support costs, damaging NPS scores, and creating churn among exactly the active users a growing fintech platform needs to retain.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
                 title: 'Scaling Requires Manual Operations Instead of Intelligence',
-                body: 'Traditional risk stacks respond to growth by adding analyst headcount and expanding rule sets  -  a model that increases cost linearly with scale and does not improve detection quality or investigation speed as the platform grows.',
+                body: 'Traditional risk stacks respond to growth by adding analyst headcount and expanding rule sets - a model that increases cost linearly with scale and does not improve detection quality or investigation speed as the platform grows.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -164,7 +164,7 @@ export default function FintechPlatformsPage() {
       {/*
         CHANGE: Steps 02 and 03 now carry inline solution page links.
         CHANGE: Step 04 body updated to include trust language
-        "aligned with evolving regulatory expectations"  -  this step is about
+        "aligned with evolving regulatory expectations" - this step is about
         scalability, which also encompasses compliance scalability.
       */}
       <section style={{ padding: '4rem 0', background: '#fff' }}>
@@ -176,19 +176,19 @@ export default function FintechPlatformsPage() {
                 A Scalable Intelligence Layer for Payment Fintech Risk Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects user, device, transaction, and behavioural signals into a unified intelligence layer  -  delivering graph-based detection and investigation-centric workflows that scale with platform growth without proportional increases in analyst headcount or rule management overhead.
+                Verafye connects user, device, transaction, and behavioural signals into one connected network view - delivering graph-based detection and investigation-centric workflows that scale with platform growth without proportional increases in analyst headcount or rule management overhead.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected User, Device, Transaction, and Behavioral Signals</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies signals from user onboarding, device intelligence, transaction monitoring, and behavioural analysis into one connected layer  -  enabling cross-domain detection that reveals coordinated fraud patterns invisible to individual point solutions.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies signals from user onboarding, device intelligence, transaction monitoring, and behavioural analysis into one connected layer - enabling cross-domain detection that reveals coordinated fraud patterns invisible to individual point solutions.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Graph-Based Fraud Detection</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph-native intelligence layer maps relationships across users, devices, accounts, and transactions  -  surfacing account farming networks, referral abuse rings, and synthetic identity cohorts that rules-based and transaction-level detection misses.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph-native intelligence layer maps relationships across users, devices, accounts, and transactions - surfacing account farming networks, referral abuse rings, and synthetic identity cohorts that rules-based and transaction-level detection misses.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -196,7 +196,7 @@ export default function FintechPlatformsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>03</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Investigation-Centric Workflows</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Alerts are clustered and enriched with relationship context before reaching the analyst  -  reducing manual triage time, accelerating response to active fraud, and enabling risk operations teams to handle higher case volumes without adding headcount.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Alerts are clustered and enriched with relationship context before reaching the analyst - reducing manual triage time, accelerating response to active fraud, and enabling risk operations teams to handle higher case volumes without adding headcount.</p>
                 <Link href="/solutions/investigation-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Investigation Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -204,7 +204,7 @@ export default function FintechPlatformsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>04</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Scalable Architecture Built for Growth</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye is designed to scale with platform growth  -  handling increasing user volumes, transaction throughput, and signal complexity while remaining aligned with evolving regulatory expectations and without requiring proportional increases in analyst capacity or manual rule management overhead.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye is designed to scale with platform growth - handling increasing user volumes, transaction throughput, and signal complexity while remaining aligned with evolving regulatory expectations and without requiring proportional increases in analyst capacity or manual rule management overhead.</p>
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function FintechPlatformsPage() {
             ))}
           </div>
 
-          {/* CHANGE: Use-case links  -  fintech page had no use-case links at all. */}
+          {/* CHANGE: Use-case links - fintech page had no use-case links at all. */}
           <div style={{ textAlign: 'center', marginTop: '2.5rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.75rem' }}>
             <Link href="/use-cases/mule-network-detection" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Mule Network Detection <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -301,37 +301,37 @@ export default function FintechPlatformsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
                 title: 'Improved Fraud Detection Without Increasing Friction',
-                body: 'Graph-native detection surfaces coordinated fraud patterns and network-based schemes without tightening controls across the full user base  -  improving detection coverage while preserving the user experience that drives platform growth.',
+                body: 'Graph-native detection surfaces coordinated fraud patterns and network-based schemes without tightening controls across the full user base - improving detection coverage while preserving the user experience that drives platform growth.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Better User Experience With Reduced False Positives',
-                body: 'Smarter risk scoring grounded in network context reduces false positive rates  -  allowing more legitimate users through, reducing unnecessary friction, and lowering the support overhead generated by incorrectly declined transactions and accounts.',
+                body: 'Smarter risk scoring grounded in network context reduces false positive rates - allowing more legitimate users through, reducing unnecessary friction, and lowering the support overhead generated by incorrectly declined transactions and accounts.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'Faster Response to Evolving Fraud Patterns',
-                body: 'Graph-based detection adapts to new fraud patterns through relationship signals rather than static rules  -  enabling faster response to emerging attack vectors without waiting for manual rule updates to be developed, tested, and deployed.',
+                body: 'Graph-based detection adapts to new fraud patterns through relationship signals rather than static rules - enabling faster response to emerging attack vectors without waiting for manual rule updates to be developed, tested, and deployed.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'Scalable Operations Without Headcount Increase',
-                body: 'Connected intelligence and structured investigation workflows decouple operational capacity from headcount growth  -  enabling risk teams to handle increasing alert and case volumes as the platform scales without proportional analyst hiring.',
+                body: 'Connected intelligence and structured investigation workflows decouple operational capacity from headcount growth - enabling risk teams to handle increasing alert and case volumes as the platform scales without proportional analyst hiring.',
               },
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Better Visibility Into Connected Risk',
-                body: 'A unified graph view across users, devices, accounts, and transactions gives risk and product teams a complete picture of connected risk patterns  -  enabling proactive intervention and better-informed product decisions around risk controls.',
+                body: 'One connected graph view across users, devices, accounts, and transactions gives risk and product teams a complete picture of connected risk patterns - enabling proactive intervention and better-informed product decisions around risk controls.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
                 title: 'More Scalable Risk Operations Without Enterprise-Heavy Complexity',
-                body: 'Connected intelligence and structured investigation workflows give growing fintech platforms the risk operations capability of a larger institution  -  without the implementation complexity, vendor overhead, or headcount requirements that enterprise-tier platforms require to operate at scale.',
+                body: 'Connected intelligence and structured investigation workflows give growing fintech platforms the risk operations capability of a larger institution - without the implementation complexity, vendor overhead, or headcount requirements that enterprise-tier platforms require to operate at scale.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -345,7 +345,7 @@ export default function FintechPlatformsPage() {
       </section>
 
       {/* ── 7. RELATED INDUSTRIES ───────────────────────────────────────────── */}
-      {/* CHANGE: New section  -  no cross-links between industry pages existed. */}
+      {/* CHANGE: New section - no cross-links between industry pages existed. */}
       <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Also Serving</p>

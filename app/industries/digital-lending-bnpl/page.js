@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AI Fraud Detection for Digital Lending & BNPL | Prevent Loan Fraud",
-  description: "Detect synthetic identities, application fraud, loan stacking, and coordinated financial crime with AI-driven network intelligence for digital lending and BNPL platforms.",
+  title: "Network Risk Intelligence for Investigation-Led Lending & BNPL",
+  description: "Investigation intelligence for lending and BNPL risk teams - mule-linked borrower networks, synthetic identity clusters and coordinated application rings.",
   openGraph: {
-    title: "AI Fraud Detection for Digital Lending & BNPL | Prevent Loan Fraud",
-    description: "Detect synthetic identities, application fraud, loan stacking, and coordinated financial crime with AI-driven network intelligence for digital lending and BNPL platforms.",
+    title: "Network Risk Intelligence for Investigation-Led Lending & BNPL | Verafye",
+    description: "Investigation intelligence for lending and BNPL risk teams - mule-linked borrower networks, synthetic identity clusters and coordinated application rings.",
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AI Fraud Detection for Digital Lending & BNPL | Prevent Loan Fraud",
-    description: "Detect synthetic identities, application fraud, loan stacking, and coordinated financial crime with AI-driven network intelligence for digital lending and BNPL platforms.",
+    title: "Network Risk Intelligence for Investigation-Led Lending & BNPL | Verafye",
+    description: "Investigation intelligence for lending and BNPL risk teams - mule-linked borrower networks, synthetic identity clusters and coordinated application rings.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/digital-lending-bnpl',
@@ -31,10 +31,13 @@ export default function DigitalLendingBnplPage() {
               Investigation Intelligence for Digital Lending &amp; BNPL Risk Teams
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.55 }}>
-              Connect fraud, identity, payment, device, and repayment signals into explainable investigations for lending and BNPL workflows.
+              Connect fraud, identity, payment, device and repayment signals into explainable investigations for lending and BNPL fraud workflows.
+            </p>
+            <p className="animate-fade-up delay-250" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--dark)', fontWeight: 600, marginBottom: '1.25rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
+              Verafye is not a credit underwriting or loan decisioning system. It investigates fraud and financial crime networks around lending flows - it does not score creditworthiness.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps digital lenders and BNPL providers move from fragmented signals to structured investigation cases - surfacing synthetic identities, application fraud, first-party fraud, mule-linked borrowers, and suspicious networks at application review and post-booking stages. Verafye supports fraud risk investigation workflows, not credit underwriting or loan origination decisions.
+              Verafye helps digital lenders and BNPL providers move from fragmented signals to structured investigation cases - surfacing synthetic identities, application fraud, first-party fraud, mule-linked borrowers, and suspicious networks at application review and post-booking stages.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
@@ -94,7 +97,7 @@ export default function DigitalLendingBnplPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>),
                 title: 'Audit Gaps in Decision Documentation',
-                body: 'Regulators and internal audit increasingly require documented rationale for origination decisions, decline actions, and fraud dispositions. Disconnected tools create fragmented evidence trails and compliance exposure.',
+                body: 'Regulators and internal audit increasingly require documented rationale for fraud flags, case dispositions and escalation actions. Verafye documents the investigation record - your origination systems own the credit decision.',
               },
             ].map((item, i) => (
               <div key={i} className="card card-elevated" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -129,7 +132,7 @@ export default function DigitalLendingBnplPage() {
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
               </div>
               <h3 style={{ fontSize: 'clamp(1.125rem,2vw,1.375rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem' }}>Synthetic identity detection</h3>
-              <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--body)', lineHeight: 1.7 }}>Connect identity, device, bureau, and behavioral signals at origination to surface synthetic identity patterns that bypass single-layer checks - before fraud exposure materialises.</p>
+              <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--body)', lineHeight: 1.7 }}>Connect identity, device and behavioral signals at application review to surface synthetic identity patterns that bypass single-layer checks - before fraud exposure materialises.</p>
             </div>
 
             <div className="card" style={{ padding: '2.5rem', position: 'relative', overflow: 'hidden' }}>
@@ -146,8 +149,8 @@ export default function DigitalLendingBnplPage() {
               <div className="card-icon gradient-bg-4" style={{ marginBottom: '1.25rem' }}>
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg>
               </div>
-              <h3 style={{ fontSize: 'clamp(1.125rem,2vw,1.375rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem' }}>Repayment and default risk patterns</h3>
-              <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--body)', lineHeight: 1.7 }}>Surface early warning signals across payment behaviour, repayment cadence, and account activity - connecting risk indicators across the borrower lifecycle into investigation-ready cases.</p>
+              <h3 style={{ fontSize: 'clamp(1.125rem,2vw,1.375rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem' }}>Repayment fraud patterns</h3>
+              <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--body)', lineHeight: 1.7 }}>Surface emerging fraud indicators across payment behaviour, repayment cadence, and account activity - connecting fraud intent signals across the borrower lifecycle into investigation-ready cases.</p>
             </div>
 
             <div className="card" style={{ padding: '2.5rem', position: 'relative', overflow: 'hidden' }}>
@@ -176,7 +179,7 @@ export default function DigitalLendingBnplPage() {
             {[
               { label: 'Application Identity Data', color: '#1E6FB7', bg: 'rgba(30,111,183,0.07)', border: 'rgba(30,111,183,0.18)' },
               { label: 'Device Fingerprint & Session', color: '#7C3AED', bg: 'rgba(124,58,237,0.07)', border: 'rgba(124,58,237,0.18)' },
-              { label: 'Bureau & Identity Signals', color: '#0891B2', bg: 'rgba(8,145,178,0.07)', border: 'rgba(8,145,178,0.18)' },
+              { label: 'Identity Verification Signals', color: '#0891B2', bg: 'rgba(8,145,178,0.07)', border: 'rgba(8,145,178,0.18)' },
               { label: 'Behavioral Patterns', color: '#059669', bg: 'rgba(5,150,105,0.07)', border: 'rgba(5,150,105,0.18)' },
               { label: 'Repayment & Payment Events', color: '#D97706', bg: 'rgba(217,119,6,0.07)', border: 'rgba(217,119,6,0.18)' },
               { label: 'Account & Counterparty Relationships', color: '#1E6FB7', bg: 'rgba(30,111,183,0.07)', border: 'rgba(30,111,183,0.18)' },
@@ -210,8 +213,8 @@ export default function DigitalLendingBnplPage() {
             {[
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
-                title: 'Origination Fraud Investigation',
-                body: 'Structured cases at loan origination that connect identity, device, bureau, and behavioral signals - with investigation context assembled before analyst review begins.',
+                title: 'Application Fraud Investigation',
+                body: 'Structured cases that connect identity, device and behavioral signals around lending flows, assembled for analyst review. Verafye informs fraud dispositions; it does not decide applications.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
@@ -225,8 +228,8 @@ export default function DigitalLendingBnplPage() {
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg>),
-                title: 'Early Warning Signal Workflows',
-                body: 'Build structured EWS queues that surface risk indicators across repayment behaviour, account activity, and network patterns - before default exposure materialises.',
+                title: 'Fraud Pattern Early Warning',
+                body: 'Surface emerging fraud indicators across repayment behavior, account activity and network patterns. Focused on fraud and financial crime risk - not credit risk.',
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>),
@@ -284,7 +287,7 @@ export default function DigitalLendingBnplPage() {
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', color: 'var(--primary)', marginBottom: '1.5rem' }}>After Verafye</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 {[
-                  'Fraud, identity, device, and bureau signals connected into investigation-ready origination cases',
+                  'Fraud, identity and device signals connected into investigation-ready application fraud cases',
                   'First-party and BNPL fraud patterns surfaced through connected repayment, device, and behavior context',
                   'Graph intelligence exposes mule networks and coordinated borrower rings across applications',
                   'Alert clustering reduces noise - analysts start with structured cases, not raw alert queues',

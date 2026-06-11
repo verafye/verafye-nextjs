@@ -2,16 +2,16 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { PlatformVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Financial Crime Detection Platform | AI Fraud & AML",
-  description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
+  title: "Platform - Graph-Native Network Risk Intelligence",
+  description: "Verafye is a graph-native Network Risk Intelligence platform - resolving entities, mapping cross-entity transaction networks and scoring risk in real time for payment, remittance and digital banking compliance teams.",
   openGraph: {
-    title: "Financial Crime Detection Platform | AI Fraud & AML",
-    description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
+    title: "Platform - Graph-Native Network Risk Intelligence | Verafye",
+    description: "Verafye is a graph-native Network Risk Intelligence platform - resolving entities, mapping cross-entity transaction networks and scoring risk in real time for payment, remittance and digital banking compliance teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Financial Crime Detection Platform | AI Fraud & AML",
-    description: "Financial crime detection platform unifying fraud & AML. Detect hidden risks, ensure regulatory compliance, and reduce false positives with Verafye.",
+    title: "Platform - Graph-Native Network Risk Intelligence | Verafye",
+    description: "Verafye is a graph-native Network Risk Intelligence platform - resolving entities, mapping cross-entity transaction networks and scoring risk in real time for payment, remittance and digital banking compliance teams.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/platform',
@@ -22,12 +22,12 @@ export default function PlatformPage() {
   return (
     <>
 
-{/* HERO — Option 1: Split Hero with Visual Card (approved) */}
+{/* HERO - Option 1: Split Hero with Visual Card (approved) */}
 <SplitHeroWithVisualCard
   eyebrow="VERAFYE PLATFORM"
-  title="One investigation layer for connected financial crime operations"
-  description="Unify fraud, AML, payments, identity, device, and behavior signals into investigation-ready cases, explainable decisions, and audit-ready workflows."
-  body="The Verafye platform brings together signal ingestion, alert clustering, graph intelligence, case workflows, evidence, and audit trails - giving lean risk teams an Investigation Intelligence Layer built for connected fraud, AML, and payment risk operations. Start by connecting signals from existing systems, then expand into Verafye-led investigation workflows as value is proven."
+  title="Network Risk Intelligence for Modern Financial Crime Operations"
+  description="Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
+  body="Built for teams operating under growing regulatory and operational complexity - start alongside existing systems and expand network coverage as value is proven."
   primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
   visualCard={<PlatformVisualCard />}
@@ -70,11 +70,11 @@ export default function PlatformPage() {
       <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>The Verafye platform moves risk signals through a connected investigation layer - from signal ingestion and alert clustering through graph intelligence and case workflows to audit-ready case decisions.</p>
     </div>
 
-    {/* Horizontal flow — scrollable on mobile */}
+    {/* Horizontal flow - scrollable on mobile */}
     <div style={{'overflowX':'auto','paddingBottom':'0.5rem'}}>
       <div className="plat-flow-row">
 
-        {/* Stage 1 — Ingest Signals */}
+        {/* Stage 1 - Ingest Signals */}
         <div className="plat-flow-card" style={{'borderTopColor':'#1E6FB7'}}>
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
@@ -89,7 +89,7 @@ export default function PlatformPage() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 2 — Connect Risk Context */}
+        {/* Stage 2 - Connect Risk Context */}
         <div className="plat-flow-card" style={{'borderTopColor':'#7C3AED'}}>
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(124,58,237,0.08)','border':'1px solid rgba(124,58,237,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
@@ -104,7 +104,7 @@ export default function PlatformPage() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 3 — Cluster Alerts */}
+        {/* Stage 3 - Cluster Alerts */}
         <div className="plat-flow-card" style={{'borderTopColor':'#0891B2'}}>
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(8,145,178,0.08)','border':'1px solid rgba(8,145,178,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0891B2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
@@ -119,7 +119,7 @@ export default function PlatformPage() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 4 — Surface Investigation Context */}
+        {/* Stage 4 - Surface Investigation Context */}
         <div className="plat-flow-card" style={{'borderTopColor':'#D97706'}}>
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(217,119,6,0.08)','border':'1px solid rgba(217,119,6,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D97706" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
@@ -134,7 +134,7 @@ export default function PlatformPage() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 5 — Support Decisions */}
+        {/* Stage 5 - Support Decisions */}
         <div className="plat-flow-card" style={{'borderTopColor':'#059669'}}>
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(5,150,105,0.08)','border':'1px solid rgba(5,150,105,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
@@ -149,7 +149,7 @@ export default function PlatformPage() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 6 — Preserve Audit Trails */}
+        {/* Stage 6 - Preserve Audit Trails */}
         <div className="plat-flow-card" style={{'borderTopColor':'#1E6FB7','background':'linear-gradient(135deg,#EFF6FF,#fff)'}}>
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
@@ -215,7 +215,7 @@ export default function PlatformPage() {
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></div>
         <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Signal Ingestion</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals from existing systems into a unified investigation context.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Ingest fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, and third-party enrichment signals from existing systems into one connected investigation context.</p>
       </div>
 
       <div className="card card-elevated" style={{'padding':'2rem','position':'relative','overflow':'hidden'}}>
@@ -270,7 +270,7 @@ export default function PlatformPage() {
     <div style={{'overflowX':'auto','paddingBottom':'1rem'}}>
       <div className="arch-flow-row">
 
-        {/* Stage 1 — Signals In */}
+        {/* Stage 1 - Signals In */}
         <div className="arch-card" style={{'borderTopColor':'#1E6FB7'}}>
           <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
             <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#1E6FB7','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
@@ -297,7 +297,7 @@ export default function PlatformPage() {
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 2 — Connected Risk Layer */}
+        {/* Stage 2 - Connected Risk Layer */}
         <div className="arch-card" style={{'borderTopColor':'#7C3AED'}}>
           <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
             <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#7C3AED','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
@@ -315,7 +315,7 @@ export default function PlatformPage() {
             ))}
           </div>
           <div style={{'padding':'0.75rem','background':'rgba(124,58,237,0.05)','borderRadius':'8px','border':'1px solid rgba(124,58,237,0.1)','marginTop':'auto'}}>
-            <p style={{'fontSize':'0.75rem','color':'#7C3AED','lineHeight':1.55,'margin':0}}>Signals unified, entities resolved, and alerts clustered into connected risk context</p>
+            <p style={{'fontSize':'0.75rem','color':'#7C3AED','lineHeight':1.55,'margin':0}}>Signals connected, entities resolved, and alerts clustered into connected risk context</p>
           </div>
         </div>
 
@@ -324,7 +324,7 @@ export default function PlatformPage() {
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 3 — Investigation Intelligence */}
+        {/* Stage 3 - Investigation Intelligence */}
         <div className="arch-card" style={{'borderTopColor':'#0891B2'}}>
           <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
             <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#0891B2','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
@@ -351,7 +351,7 @@ export default function PlatformPage() {
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
 
-        {/* Stage 4 — Case Outcomes */}
+        {/* Stage 4 - Case Outcomes */}
         <div className="arch-card" style={{'borderTopColor':'#059669','background':'linear-gradient(145deg,#F0FDF9,#ffffff)'}}>
           <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
             <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#059669','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>

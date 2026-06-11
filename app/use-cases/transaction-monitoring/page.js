@@ -24,12 +24,12 @@ export default function TransactionMonitoringPage() {
       {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
       {/*
         CHANGE: Secondary CTA "Contact Sales → /request-demo" replaced with
-        "Explore Graph Intelligence → /solutions/graph-intelligence"  -  the
+        "Explore Graph Intelligence → /solutions/graph-intelligence" - the
         primary solution that powers the connected monitoring described on this page.
 
         CHANGE: Hero body sharpened from "Move beyond rule-based alerts to
         context-aware monitoring across transactions, entities, and behaviors"  - 
-        vague and generic  -  to specific enterprise language that names the outcome
+        vague and generic - to specific enterprise language that names the outcome
         and the mechanism.
 
         CHANGE: Hero sub-paragraph sharpened from "enabling more accurate detection
@@ -65,7 +65,7 @@ export default function TransactionMonitoringPage() {
       {/* ── 2. PROBLEM ──────────────────────────────────────────────────────── */}
       {/*
         CHANGE: H2 sharpened from "Challenges in Transaction Monitoring Today" to
-        "Rule-Based Monitoring Generates Cost  -  Not Intelligence"  -  enterprise-specific,
+        "Rule-Based Monitoring Generates Cost - Not Intelligence" - enterprise-specific,
         names the operational consequence directly.
       */}
       <section style={{ padding: '4rem 0', background: '#fff' }}>
@@ -74,18 +74,18 @@ export default function TransactionMonitoringPage() {
             <div>
               <p className="eyebrow" style={{ marginBottom: '1rem' }}>The Problem</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', letterSpacing: '-0.025em', lineHeight: 1.2 }}>
-                Rule-Based Monitoring Generates Cost  -  Not Intelligence
+                Rule-Based Monitoring Generates Cost - Not Intelligence
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Transaction monitoring remains one of the highest-cost, lowest-signal functions in financial crime operations. Legacy monitoring stacks generate enormous alert volumes, yet the majority of those alerts do not lead to substantive investigations  -  consuming analyst capacity without meaningfully improving risk detection or compliance outcomes. Transaction monitoring is also a non-discretionary AML obligation: regulators expect institutions to demonstrate effective controls, proportionate coverage, and the documented decision trails that examiners scrutinise during review.
+                Transaction monitoring remains one of the highest-cost, lowest-signal functions in financial crime operations. Legacy monitoring stacks generate enormous alert volumes, yet the majority of those alerts do not lead to substantive investigations - consuming analyst capacity without meaningfully improving risk detection or compliance outcomes. Transaction monitoring is also a non-discretionary AML obligation: regulators expect institutions to demonstrate effective controls, proportionate coverage, and the documented decision trails that examiners scrutinise during review.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {[
-                { label: 'High Alert Volumes with Low Signal Quality', desc: 'Rules-based monitoring generates millions of alerts annually  -  the vast majority of which are false positives that consume analyst time without surfacing genuine financial crime risk' },
-                { label: 'Fragmented Data Across Systems', desc: 'Transaction data, device signals, entity attributes, and behavioural patterns sit in separate systems with no shared intelligence layer  -  preventing the cross-signal detection that modern financial crime demands' },
+                { label: 'High Alert Volumes with Low Signal Quality', desc: 'Rules-based monitoring generates millions of alerts annually - the vast majority of which are false positives that consume analyst time without surfacing genuine financial crime risk' },
+                { label: 'Fragmented Data Across Systems', desc: 'Transaction data, device signals, entity attributes, and behavioural patterns sit in separate systems with no shared intelligence layer - preventing the cross-signal detection that modern financial crime demands' },
                 { label: 'Alerts Without Entity or Network Context', desc: 'Alerts are generated at the transaction level without the entity, relationship, or network context that analysts need to assess risk accurately and make confident investigation decisions' },
-                { label: 'Manual Reconstruction Before Every Investigation', desc: 'Without pre-assembled context and structured workflows, analysts spend the majority of their time gathering information rather than investigating  -  extending cycle times and limiting throughput' },
+                { label: 'Manual Reconstruction Before Every Investigation', desc: 'Without pre-assembled context and structured workflows, analysts spend the majority of their time gathering information rather than investigating - extending cycle times and limiting throughput' },
               ].map(item => (
                 <div key={item.label} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--primary)', flexShrink: 0, marginTop: '0.45rem' }} />
@@ -115,25 +115,25 @@ export default function TransactionMonitoringPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>),
                 title: 'Static Rules Create False Positives',
-                body: 'Rules engines fire on individual transaction attributes  -  amount thresholds, velocity patterns, geographic triggers  -  without access to the entity, relationship, or behavioural context that would distinguish genuine risk from routine activity. The result is persistently high false positive rates that erode analyst trust and inflate operational cost.',
+                body: 'Rules engines fire on individual transaction attributes - amount thresholds, velocity patterns, geographic triggers - without access to the entity, relationship, or behavioural context that would distinguish genuine risk from routine activity. The result is persistently high false positive rates that erode analyst trust and inflate operational cost.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'No Context Beyond the Transaction',
-                body: 'Transaction monitoring systems evaluate payments in isolation  -  without awareness of the entity behind the transaction, the device used, the behavioural history, or the network of related accounts. This absence of context means alerts arrive without the information analysts need to assess them meaningfully.',
+                body: 'Transaction monitoring systems evaluate payments in isolation - without awareness of the entity behind the transaction, the device used, the behavioural history, or the network of related accounts. This absence of context means alerts arrive without the information analysts need to assess them meaningfully.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>),
                 title: 'Disconnected From Investigation Workflows',
-                body: 'Alert generation and case investigation remain disconnected processes in most monitoring stacks. Analysts receive alerts with no structured investigation context  -  requiring manual platform switching, data retrieval, and case assembly before any substantive review can begin.',
+                body: 'Alert generation and case investigation remain disconnected processes in most monitoring stacks. Analysts receive alerts with no structured investigation context - requiring manual platform switching, data retrieval, and case assembly before any substantive review can begin.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Scaling Requires Headcount, Not Intelligence',
-                body: 'As transaction volumes grow, alert volumes scale proportionally under rules-based monitoring  -  and the only response available is adding analyst capacity. This model does not improve detection quality, reduce false positives, or accelerate investigation as the institution scales.',
+                body: 'As transaction volumes grow, alert volumes scale proportionally under rules-based monitoring - and the only response available is adding analyst capacity. This model does not improve detection quality, reduce false positives, or accelerate investigation as the institution scales.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -148,7 +148,7 @@ export default function TransactionMonitoringPage() {
 
       {/* ── 4. BEFORE / AFTER ───────────────────────────────────────────────── */}
       {/*
-        CHANGE: New section  -  no before/after contrast existed on this page.
+        CHANGE: New section - no before/after contrast existed on this page.
         Task brief requires "Before vs After clarity". Two-column contrast makes
         the operational shift immediately scannable for enterprise buyers.
       */}
@@ -164,11 +164,11 @@ export default function TransactionMonitoringPage() {
             <div style={{ background: 'var(--error-bg)', border: '1px solid var(--error-border)', borderRadius: '1rem', padding: '2rem' }}>
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: '#DC2626', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Without Verafye</p>
               {[
-                'Alerts generated on transaction attributes alone  -  no entity or network context',
-                'High false positive rates  -  analysts spend most of their time ruling out noise',
-                'Fraud and AML monitoring queues are separate  -  cross-domain risk invisible and compliance gaps harder to evidence',
+                'Alerts generated on transaction attributes alone - no entity or network context',
+                'High false positive rates - analysts spend most of their time ruling out noise',
+                'Fraud and AML monitoring queues are separate - cross-domain risk invisible and compliance gaps harder to evidence',
                 'Analysts manually switch platforms to gather case context before investigation begins',
-                'Alert volumes grow with transaction volumes  -  headcount scales with cost, not intelligence',
+                'Alert volumes grow with transaction volumes - headcount scales with cost, not intelligence',
               ].map(item => (
                 <div key={item} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.875rem', alignItems: 'flex-start' }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#DC2626" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.125rem' }}><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
@@ -180,10 +180,10 @@ export default function TransactionMonitoringPage() {
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>With Verafye</p>
               {[
                 'Alerts enriched with entity profile, device signals, and network context at generation',
-                'Contextual enrichment helps deprioritise legitimate activity earlier  -  fewer false positives reaching analysts',
-                'Unified fraud and AML monitoring layer  -  cross-domain risk visible in a single queue, with documented decision trails that support regulatory review',
-                'Pre-assembled case context delivered at alert creation  -  analysts investigate, not research',
-                'Intelligence improves with scale  -  graph detection surfaces coordinated risk that rules miss',
+                'Contextual enrichment helps deprioritise legitimate activity earlier - fewer false positives reaching analysts',
+                'Connected fraud and AML monitoring view - cross-domain risk visible in a single queue, with documented decision trails that support regulatory review',
+                'Pre-assembled case context delivered at alert creation - analysts investigate, not research',
+                'Intelligence improves with scale - graph detection surfaces coordinated risk that rules miss',
               ].map(item => (
                 <div key={item} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.875rem', alignItems: 'flex-start' }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.125rem' }}><path d="M20 6 9 17l-5-5"/></svg>
@@ -205,17 +205,17 @@ export default function TransactionMonitoringPage() {
                 Connected Monitoring That Surfaces Risk, Not Just Alerts
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects transaction signals with entity profiles, behavioural patterns, and network relationships  -  so alerts arrive enriched with the context analysts need to assess, prioritise, and investigate without manual reconstruction.
+                Verafye connects transaction signals with entity profiles, behavioural patterns, and network relationships - so alerts arrive enriched with the context analysts need to assess, prioritise, and investigate without manual reconstruction.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
-                { step: '01', title: 'Connects Transactions with Entities and Behaviours', body: 'Every transaction alert is enriched with the entity profile behind it  -  account history, device signals, identity attributes, and behavioural patterns  -  giving analysts the full picture at the moment an alert is surfaced rather than after manual research.' },
-                { step: '02', title: 'Uses Graph Intelligence to Surface Network Risk', body: 'Graph traversal connects transaction patterns across related accounts, devices, and entities  -  surfacing coordinated activity, network-level risk, and relationship context that transaction-level monitoring cannot see in isolation.' },
-                { step: '03', title: 'Improves Alert Prioritisation', body: 'Alerts are organized by entity context, network risk, and cross-system signals  -  ensuring investigation queues are ordered by genuine risk rather than transaction volume, recency, or alert age alone.' },
-                { step: '04', title: 'Reduces False Positives Through Contextual Enrichment', body: 'Contextual enrichment at the alert stage allows legitimate activity to be identified and deprioritised earlier in the workflow  -  reducing the false positive rate that drives analyst fatigue and operational cost without sacrificing genuine detection coverage.' },
-                { step: '05', title: 'Connects Monitoring to Investigation Workflows With Evidence Trails', body: 'Verafye connects transaction monitoring directly to investigation workflows  -  delivering alerts as structured, context-rich cases with pre-assembled evidence, enabling analysts to move from alert to investigation decision without manual context gathering, and preserving audit-ready evidence trails for compliance review.' },
-                { step: '06', title: 'Connects Fraud and AML Monitoring Signals', body: 'Transaction signals from fraud and AML monitoring are connected into a single intelligence layer  -  eliminating the blind spots that form at the boundary between fraud detection and AML transaction monitoring and enabling cross-domain risk assessment.' },
+                { step: '01', title: 'Connects Transactions with Entities and Behaviours', body: 'Every transaction alert is enriched with the entity profile behind it - account history, device signals, identity attributes, and behavioural patterns - giving analysts the full picture at the moment an alert is surfaced rather than after manual research.' },
+                { step: '02', title: 'Uses Graph Intelligence to Surface Network Risk', body: 'Graph traversal connects transaction patterns across related accounts, devices, and entities - surfacing coordinated activity, network-level risk, and relationship context that transaction-level monitoring cannot see in isolation.' },
+                { step: '03', title: 'Improves Alert Prioritisation', body: 'Alerts are organized by entity context, network risk, and cross-system signals - ensuring investigation queues are ordered by genuine risk rather than transaction volume, recency, or alert age alone.' },
+                { step: '04', title: 'Reduces False Positives Through Contextual Enrichment', body: 'Contextual enrichment at the alert stage allows legitimate activity to be identified and deprioritised earlier in the workflow - reducing the false positive rate that drives analyst fatigue and operational cost without sacrificing genuine detection coverage.' },
+                { step: '05', title: 'Connects Monitoring to Investigation Workflows With Evidence Trails', body: 'Verafye connects transaction monitoring directly to investigation workflows - delivering alerts as structured, context-rich cases with pre-assembled evidence, enabling analysts to move from alert to investigation decision without manual context gathering, and preserving audit-ready evidence trails for compliance review.' },
+                { step: '06', title: 'Connects Fraud and AML Monitoring Signals', body: 'Transaction signals from fraud and AML monitoring are connected into one network view - eliminating the blind spots that form at the boundary between fraud detection and AML transaction monitoring and enabling cross-domain risk assessment.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
                   <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
@@ -302,38 +302,38 @@ export default function TransactionMonitoringPage() {
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
-                title: 'Fewer False Positives  -  More Analyst Capacity for Genuine Risk',
-                body: 'Contextual enrichment at the alert stage enables legitimate activity to be identified and deprioritised earlier  -  reducing false positive rates that inflate investigation workload and erode analyst confidence in the monitoring system.',
+                title: 'Fewer False Positives - More Analyst Capacity for Genuine Risk',
+                body: 'Contextual enrichment at the alert stage enables legitimate activity to be identified and deprioritised earlier - reducing false positive rates that inflate investigation workload and erode analyst confidence in the monitoring system.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
-                title: 'Better Signal Quality  -  Alerts That Carry Genuine Risk',
-                body: 'Graph intelligence and cross-system signal aggregation improve the quality of monitoring outputs  -  surfacing alerts that carry genuine risk indicators rather than triggering on transaction attributes alone, improving the ratio of actionable to non-actionable alerts.',
+                title: 'Better Signal Quality - Alerts That Carry Genuine Risk',
+                body: 'Graph intelligence and cross-system signal aggregation improve the quality of monitoring outputs - surfacing alerts that carry genuine risk indicators rather than triggering on transaction attributes alone, improving the ratio of actionable to non-actionable alerts.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
-                title: 'Faster Investigations  -  Context Delivered at Alert Creation',
-                body: 'Pre-assembled case context and direct integration between monitoring and investigation workflows eliminate the manual research phase  -  enabling analysts to move from alert to investigation decision faster and with greater confidence.',
+                title: 'Faster Investigations - Context Delivered at Alert Creation',
+                body: 'Pre-assembled case context and direct integration between monitoring and investigation workflows eliminate the manual research phase - enabling analysts to move from alert to investigation decision faster and with greater confidence.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
-                title: 'Scalable Operations  -  Intelligence Grows With Volume',
-                body: 'Better alert prioritisation, reduced false positives, and structured investigation workflows reduce the per-alert workload  -  enabling institutions to manage growing transaction volumes without proportional increases in analyst headcount.',
+                title: 'Scalable Operations - Intelligence Grows With Volume',
+                body: 'Better alert prioritisation, reduced false positives, and structured investigation workflows reduce the per-alert workload - enabling institutions to manage growing transaction volumes without proportional increases in analyst headcount.',
               },
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
-                title: 'Complete Risk Visibility  -  Across Transactions and Entities',
-                body: 'A unified intelligence layer connecting transaction monitoring to entity profiles, network relationships, and cross-system signals gives fraud and AML teams a complete, contextual picture of risk  -  enabling better-informed decisions across monitoring, investigation, and reporting functions. This connected view also supports the explainability and audit trail requirements that regulators expect from institutions operating transaction monitoring programmes.',
+                title: 'Complete Risk Visibility - Across Transactions and Entities',
+                body: 'One connected network view linking transaction monitoring to entity profiles, network relationships, and cross-system signals gives fraud and AML teams a complete, contextual picture of risk - enabling better-informed decisions across monitoring, investigation, and reporting functions. This connected view also supports the explainability and audit trail requirements that regulators expect from institutions operating transaction monitoring programmes.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'More Connected Monitoring Across Signals, Entities, and Systems',
-                body: 'A unified intelligence layer connecting transaction monitoring to entity profiles, network relationships, and cross-system signals closes the gap between alert generation and investigation context  -  enabling fraud and AML teams to act on a more complete picture of risk across the monitoring programme.',
+                body: 'One connected network view linking transaction monitoring to entity profiles, network relationships, and cross-system signals closes the gap between alert generation and investigation context - enabling fraud and AML teams to act on a more complete picture of risk across the monitoring programme.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -348,7 +348,7 @@ export default function TransactionMonitoringPage() {
 
       {/* ── 8. INDUSTRY AND USE-CASE LINKS ──────────────────────────────────── */}
       {/*
-        CHANGE: New section  -  no industry or cross-use-case links existed.
+        CHANGE: New section - no industry or cross-use-case links existed.
         Task brief requires linking to relevant industries and solutions.
         All three industry segments are relevant to transaction monitoring.
       */}
@@ -360,7 +360,7 @@ export default function TransactionMonitoringPage() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                 {[
                   { href: '/industries/banks', label: 'Banks', desc: 'High-volume transaction monitoring across retail, commercial, and correspondent banking operations' },
-                  { href: '/industries/payment-processors-psps-payfacs', label: 'Payment Processors / PSPs / PayFacs', desc: 'Real-time monitoring at payment scale  -  connected across merchant, device, and transaction signals' },
+                  { href: '/industries/payment-processors-psps-payfacs', label: 'Payment Processors / PSPs / PayFacs', desc: 'Real-time monitoring at payment scale - connected across merchant, device, and transaction signals' },
                   { href: '/industries/fintech-platforms', label: 'Fintech Platforms', desc: 'Scalable monitoring for fast-growing platforms with evolving fraud patterns and AML obligations' },
                   { href: '/industries/digital-banks', label: 'Digital Banks & Neo Banks', desc: 'Connected investigation intelligence for digital banking risk teams covering mule detection, scam investigation, payment fraud, and beneficiary-linked risk' },
                 ].map(item => (

@@ -33,11 +33,12 @@ const navItems = [
     href: '/industries/payment-processors-psps-payfacs',
     children: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
-      { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
+      { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
+      { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
       { href: '/industries/banks',                            label: 'Banks & Regional Financial Institutions' },
+      { href: '/industries/marketplaces',                     label: 'Marketplaces' },
       { href: '/industries/digital-lending-bnpl',             label: 'Digital Lending & BNPL' },
-      { href: '/industries/ecommerce-retail',                 label: 'E-Commerce & Retail' },
     ],
   },
   {
@@ -92,11 +93,12 @@ const mobileNavGroups = [
     headingHref: '/industries/payment-processors-psps-payfacs',
     items: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
-      { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
+      { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
+      { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
       { href: '/industries/banks',                            label: 'Banks & Regional Financial Institutions' },
+      { href: '/industries/marketplaces',                     label: 'Marketplaces' },
       { href: '/industries/digital-lending-bnpl',             label: 'Digital Lending & BNPL' },
-      { href: '/industries/ecommerce-retail',                 label: 'E-Commerce & Retail' },
     ],
   },
   {

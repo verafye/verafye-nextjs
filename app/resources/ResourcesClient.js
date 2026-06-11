@@ -17,7 +17,7 @@ const ARROW = (
 );
 
 const resources = [
-  /* ── LIVE — article pages exist ── */
+  /* ── LIVE - article pages exist ── */
   {
     category: 'product-insights',
     categoryLabel: 'Product Insights',
@@ -69,7 +69,7 @@ const resources = [
       </svg>
     ),
   },
-  /* ── LIVE — article pages exist ── */
+  /* ── LIVE - article pages exist ── */
   {
     category: 'product-insights',
     categoryLabel: 'Product Insights',
@@ -120,7 +120,7 @@ const resources = [
       </svg>
     ),
   },
-  /* ── BACKLOG — hidden pending editorial review ──
+  /* ── BACKLOG - hidden pending editorial review ──
   {
     category: 'industry-insights',
     categoryLabel: 'Industry Insights',
@@ -311,7 +311,7 @@ function ResourceCard({ resource }) {
 }
 
 
-// ── Analytics helper — pushes to GTM dataLayer if available ──────────────
+// ── Analytics helper - pushes to GTM dataLayer if available ──────────────
 function pushEvent(event, payload) {
   if (typeof window !== 'undefined' && Array.isArray(window.dataLayer)) {
     window.dataLayer.push({ event, ...payload });

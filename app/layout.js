@@ -11,23 +11,23 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL('https://www.verafye.com'),
   title: {
-    default: 'Verafye - Intelligent Investigation Layer for Regulated Financial Platforms',
+    default: 'Network Risk Intelligence for Payment & Compliance Teams | Verafye',
     template: '%s | Verafye',
   },
-  description: 'Verafye helps regulated financial platforms connect fraud, AML, payments, identity, device, and behavior signals into explainable investigations and audit-ready case workflows.',
-  keywords: ['investigation layer', 'financial crime investigation', 'fraud and AML investigation', 'alert clustering', 'graph intelligence', 'case intelligence', 'AML investigation workflows', 'payment risk intelligence', 'audit-ready investigations'],
+  description: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.',
+  keywords: ['network risk intelligence', 'graph-native risk platform', 'entity resolution', 'transaction network mapping', 'mule network detection', 'investigation-grade evidence', 'payment risk intelligence', 'alert clustering', 'audit-ready investigations'],
   openGraph: {
-    title: 'Verafye - Intelligent Investigation Layer for Regulated Financial Platforms',
-    description: 'Verafye helps regulated financial platforms connect fraud, AML, payments, identity, device, and behavior signals into explainable investigations and audit-ready case workflows.',
+    title: 'Network Risk Intelligence for Payment & Compliance Teams | Verafye',
+    description: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.',
     url: 'https://www.verafye.com',
     siteName: 'Verafye',
     type: 'website',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Intelligent Investigation Layer' }],
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Network Risk Intelligence' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Verafye - Intelligent Investigation Layer for Regulated Financial Platforms',
-    description: 'Verafye helps regulated financial platforms connect fraud, AML, payments, identity, device, and behavior signals into explainable investigations and audit-ready case workflows.',
+    title: 'Network Risk Intelligence for Payment & Compliance Teams | Verafye',
+    description: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.',
     images: ['/images/og-image.png'],
   },
   robots: {
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Google Consent Mode v2 — defaults (must run BEFORE GTM) */}
+        {/* Google Consent Mode v2 - defaults (must run BEFORE GTM) */}
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

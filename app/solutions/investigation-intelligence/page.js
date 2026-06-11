@@ -22,7 +22,7 @@ export default function InvestigationIntelligencePage() {
   return (
     <>
 
-      {/* ── 1. HERO — Option 1: Split Hero with Visual Card (approved) ────── */}
+      {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
       <SplitHeroWithVisualCard
         eyebrow="INVESTIGATION INTELLIGENCE"
         title="Investigation intelligence for lean fraud, AML, and risk teams"
@@ -173,7 +173,7 @@ export default function InvestigationIntelligencePage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>03</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Signal Aggregation</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye aggregates signals from fraud, AML, and payments systems into a unified investigation view - eliminating the need for analysts to manually switch between platforms.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye aggregates signals from fraud, AML, and payments systems into one connected investigation view - eliminating the need for analysts to manually switch between platforms.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>04</div>
