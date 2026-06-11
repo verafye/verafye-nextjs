@@ -4,5 +4,6 @@ Allow: /
 # Block non-public paths
 Disallow: /api/
 Disallow: /_next/
+Disallow: /hero-visual-options/
 
 Sitemap: https://www.verafye.com/sitemap.xml
