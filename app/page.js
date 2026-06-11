@@ -458,6 +458,19 @@ export default function Page() {
         </div>
       </Link>
 
+      {/* 8. Don't see your segment - CTA card */}
+      <Link href="/request-demo" style={{'textDecoration':'none','display':'block'}}>
+        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%','background':'linear-gradient(160deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.18)'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>Don't See Your Segment?</h3>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Verafye adapts to regulated money movement of all kinds. Tell us about your risk and compliance workflows - we'll show you how connected investigations fit.</p>
+          <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
+            Talk to our solutions team
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </div>
+      </Link>
+
     </div>
 
     <div style={{'textAlign':'center','marginTop':'3rem'}}>
@@ -599,7 +612,7 @@ export default function Page() {
   </div>
 </section>
 
-{/* ─── FINAL CTA BAND ────────────────────────────────────────────────────────── */}
+{/* ─── FINAL CTA BAND ────────────────────────────────────────────────────── */}
 <section style={{'padding':'3.5rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container" style={{'textAlign':'center','maxWidth':'48rem'}}>
     <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>
