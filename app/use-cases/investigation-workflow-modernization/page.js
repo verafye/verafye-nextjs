@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Investigation Software | AML Case Management",
-  description: "Fraud investigation software streamlining AML case management. Connect signals, ease regulatory reporting, reduce manual effort & resolve cases faster.",
+  title: "Investigation Workflow Software for Fraud & AML",
+  description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
+  keywords: ["investigation workflow software", "aml case management", "fraud investigation workflows", "investigation automation", "compliance workflows"],
   openGraph: {
-    title: "Fraud Investigation Software | AML Case Management",
-    description: "Fraud investigation software streamlining AML case management. Connect signals, ease regulatory reporting, reduce manual effort & resolve cases faster.",
+    title: "Investigation Workflow Software for Fraud & AML | Verafye",
+    description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Investigation Software | AML Case Management",
-    description: "Fraud investigation software streamlining AML case management. Connect signals, ease regulatory reporting, reduce manual effort & resolve cases faster.",
+    title: "Investigation Workflow Software for Fraud & AML | Verafye",
+    description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/use-cases/investigation-workflow-modernization',

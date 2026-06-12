@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Credit Unions",
-  description: "Network Risk Intelligence for credit unions - connect member, account, device and transaction signals into investigation-grade evidence and strengthen AML readiness.",
+  title: "Fraud & AML Investigations for Credit Unions",
+  description: "Connect member, account, device and transaction intelligence to uncover hidden financial crime networks, reduce fraud risk and improve AML readiness.",
+  keywords: ["fraud detection software for credit unions", "aml compliance credit unions", "member risk intelligence", "financial crime investigations", "credit union fraud prevention"],
   openGraph: {
-    title: "Network Risk Intelligence for Credit Unions | Verafye",
-    description: "Network Risk Intelligence for credit unions - connect member, account, device and transaction signals into investigation-grade evidence and strengthen AML readiness.",
+    title: "Fraud & AML Investigations for Credit Unions | Verafye",
+    description: "Connect member, account, device and transaction intelligence to uncover hidden financial crime networks, reduce fraud risk and improve AML readiness.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Credit Unions | Verafye",
-    description: "Network Risk Intelligence for credit unions - connect member, account, device and transaction signals into investigation-grade evidence and strengthen AML readiness.",
+    title: "Fraud & AML Investigations for Credit Unions | Verafye",
+    description: "Connect member, account, device and transaction intelligence to uncover hidden financial crime networks, reduce fraud risk and improve AML readiness.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/credit-unions',

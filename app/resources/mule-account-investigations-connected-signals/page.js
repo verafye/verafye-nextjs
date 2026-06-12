@@ -2,19 +2,20 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: "Mule Account Investigations: Why Connected Signals Matter | Verafye",
-  description: "Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.",
+  title: "Connected Intelligence for Mule Investigations",
+  description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",
+  keywords: ["mule account investigations", "money mule detection", "fraud network investigations", "aml investigations", "transaction intelligence"],
   openGraph: {
-    title: "Mule Account Investigations: Why Connected Signals Matter | Verafye",
-    description: "Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.",
+    title: "Connected Intelligence for Mule Investigations | Verafye",
+    description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",
     url: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Account Investigations: Why Connected Signals Matter | Verafye",
-    description: "Learn why mule account investigations require connected visibility across accounts, transactions, beneficiaries, devices, identities, behavior, and case history.",
+    title: "Connected Intelligence for Mule Investigations | Verafye",
+    description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",
     images: ['/images/og-image.png'],
   },
   alternates: {

@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AML Transaction Monitoring Software | Detect Risk Faster",
-  description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
+  title: "Transaction Monitoring Software for AML Teams",
+  description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
+  keywords: ["aml transaction monitoring software", "suspicious activity monitoring", "transaction intelligence", "financial crime detection", "aml compliance monitoring"],
   openGraph: {
-    title: "AML Transaction Monitoring Software | Detect Risk Faster",
-    description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
+    title: "Transaction Monitoring Software for AML Teams | Verafye",
+    description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AML Transaction Monitoring Software | Detect Risk Faster",
-    description: "AML transaction monitoring software to detect suspicious activity & hidden fraud. Use AI insights to ensure regulatory compliance and manage risk.",
+    title: "Transaction Monitoring Software for AML Teams | Verafye",
+    description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/use-cases/transaction-monitoring',

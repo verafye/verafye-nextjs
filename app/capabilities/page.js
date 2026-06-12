@@ -1,16 +1,17 @@
 import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Network Risk Intelligence Capabilities",
-  description: "Explore Verafye's Network Risk Intelligence capabilities - entity resolution, transaction network mapping, alert clustering and audit-ready investigations.",
+  title: "Fraud & AML Investigation Capabilities",
+  description: "Explore entity resolution, graph intelligence, transaction analysis and investigation workflows that help teams uncover risk faster.",
+  keywords: ["network risk intelligence capabilities", "entity resolution", "graph analytics", "transaction intelligence", "investigation workflows", "financial crime investigations", "risk intelligence software", "fraud analytics platform"],
   openGraph: {
-    title: "Network Risk Intelligence Capabilities | Verafye",
-    description: "Explore Verafye's Network Risk Intelligence capabilities - entity resolution, transaction network mapping, alert clustering and audit-ready investigations.",
+    title: "Fraud & AML Investigation Capabilities | Verafye",
+    description: "Explore entity resolution, graph intelligence, transaction analysis and investigation workflows that help teams uncover risk faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence Capabilities | Verafye",
-    description: "Explore Verafye's Network Risk Intelligence capabilities - entity resolution, transaction network mapping, alert clustering and audit-ready investigations.",
+    title: "Fraud & AML Investigation Capabilities | Verafye",
+    description: "Explore entity resolution, graph intelligence, transaction analysis and investigation workflows that help teams uncover risk faster.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/capabilities',

@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: { absolute: "About Verafye | Network Risk Intelligence" },
-  description: "Learn about Verafye, the graph-native Network Risk Intelligence platform helping payment, remittance and digital banking compliance teams convert alert noise into investigation-grade evidence.",
+  title: { absolute: "Financial Crime Intelligence Experts | Verafye" },
+  description: "Learn how Verafye helps fraud, AML and risk teams transform fragmented alerts into investigation-ready intelligence and compliance outcomes.",
+  keywords: ["financial crime technology company", "network risk intelligence company", "fraud investigation platform provider", "aml technology company", "compliance technology", "risk intelligence solutions", "graph analytics company"],
   openGraph: {
-    title: "About Verafye | Network Risk Intelligence",
-    description: "Learn about Verafye, the graph-native Network Risk Intelligence platform helping payment, remittance and digital banking compliance teams convert alert noise into investigation-grade evidence.",
+    title: "Financial Crime Intelligence Experts | Verafye",
+    description: "Learn how Verafye helps fraud, AML and risk teams transform fragmented alerts into investigation-ready intelligence and compliance outcomes.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "About Verafye | Network Risk Intelligence",
-    description: "Learn about Verafye, the graph-native Network Risk Intelligence platform helping payment, remittance and digital banking compliance teams convert alert noise into investigation-grade evidence.",
+    title: "Financial Crime Intelligence Experts | Verafye",
+    description: "Learn how Verafye helps fraud, AML and risk teams transform fragmented alerts into investigation-ready intelligence and compliance outcomes.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/company',

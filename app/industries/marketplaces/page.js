@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Marketplace Risk Teams",
-  description: "Investigation intelligence for marketplace risk teams - seller fraud rings, buyer-seller collusion and mule-linked payout networks, connected into investigation-grade evidence.",
+  title: "Detect Marketplace Fraud & Collusion Faster",
+  description: "Uncover seller fraud rings, buyer-seller collusion and mule-linked payout networks with Network Risk Intelligence built for marketplace risk teams.",
+  keywords: ["marketplace fraud software", "seller risk intelligence", "fraud ring detection", "payout fraud prevention", "marketplace compliance"],
   openGraph: {
-    title: "Network Risk Intelligence for Marketplace Risk Teams | Verafye",
-    description: "Investigation intelligence for marketplace risk teams - seller fraud rings, buyer-seller collusion and mule-linked payout networks, connected into investigation-grade evidence.",
+    title: "Detect Marketplace Fraud & Collusion Faster | Verafye",
+    description: "Uncover seller fraud rings, buyer-seller collusion and mule-linked payout networks with Network Risk Intelligence built for marketplace risk teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Marketplace Risk Teams | Verafye",
-    description: "Investigation intelligence for marketplace risk teams - seller fraud rings, buyer-seller collusion and mule-linked payout networks, connected into investigation-grade evidence.",
+    title: "Detect Marketplace Fraud & Collusion Faster | Verafye",
+    description: "Uncover seller fraud rings, buyer-seller collusion and mule-linked payout networks with Network Risk Intelligence built for marketplace risk teams.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/marketplaces',

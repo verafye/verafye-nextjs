@@ -1,11 +1,12 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Verafye Customers | Network Risk Intelligence Success Stories",
-  description: "Discover how payment and compliance teams use Verafye to connect alerts, investigate networks, and close cases faster. Explore success stories.",
+  title: "Fraud & AML Success Stories from Institutions",
+  description: "Discover how banks, fintechs and payment providers use Verafye to uncover financial crime networks, reduce risk and accelerate investigations.",
+  keywords: ["fraud investigation success stories", "aml compliance case studies", "financial crime investigation outcomes", "banking fraud prevention", "fintech risk management", "customer success stories"],
   openGraph: {
-    title: "Verafye Customers | Network Risk Intelligence Success Stories",
-    description: "Discover how payment and compliance teams use Verafye to connect alerts, investigate networks, and close cases faster. Explore success stories.",
+    title: "Fraud & AML Success Stories from Institutions | Verafye",
+    description: "Discover how banks, fintechs and payment providers use Verafye to uncover financial crime networks, reduce risk and accelerate investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/customers',

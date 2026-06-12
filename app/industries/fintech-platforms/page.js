@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for FinTech Payment Platforms",
-  description: "Network Risk Intelligence for fintech payment platforms - connect user, device and transaction signals into investigation-grade evidence that scales with growth.",
+  title: "Scale Fraud & AML Investigations with Confidence",
+  description: "Connect user, device and transaction intelligence to uncover hidden risks, improve compliance and support fintech growth at scale.",
+  keywords: ["fintech fraud detection", "aml compliance fintech", "risk intelligence platform", "transaction monitoring fintech", "fintech compliance software"],
   openGraph: {
-    title: "Network Risk Intelligence for FinTech Payment Platforms | Verafye",
-    description: "Network Risk Intelligence for fintech payment platforms - connect user, device and transaction signals into investigation-grade evidence that scales with growth.",
+    title: "Scale Fraud & AML Investigations with Confidence | Verafye",
+    description: "Connect user, device and transaction intelligence to uncover hidden risks, improve compliance and support fintech growth at scale.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for FinTech Payment Platforms | Verafye",
-    description: "Network Risk Intelligence for fintech payment platforms - connect user, device and transaction signals into investigation-grade evidence that scales with growth.",
+    title: "Scale Fraud & AML Investigations with Confidence | Verafye",
+    description: "Connect user, device and transaction intelligence to uncover hidden risks, improve compliance and support fintech growth at scale.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/fintech-platforms',

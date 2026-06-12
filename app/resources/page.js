@@ -3,18 +3,19 @@ import SplitHeroWithVisualCard, { ResourcesVisualCard } from '../../components/S
 import ResourcesClient from './ResourcesClient';
 
 export const metadata = {
-  title: "Network Risk Intelligence Resources | Guides & Insights",
-  description: "Explore network risk intelligence resources, guides, and insights to investigate financial crime and improve risk management strategies.",
+  title: "Fraud, AML & Risk Intelligence Resources",
+  description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
+  keywords: ["fraud prevention resources", "aml compliance resources", "financial crime investigation guides", "risk intelligence insights"],
   openGraph: {
-    title: "Network Risk Intelligence Resources | Guides & Insights | Verafye",
-    description: "Explore network risk intelligence resources, guides, and insights to investigate financial crime and improve risk management strategies.",
+    title: "Fraud, AML & Risk Intelligence Resources | Verafye",
+    description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
     url: 'https://www.verafye.com/resources/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye Resources - Investigation Intelligence for Risk Teams' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence Resources | Guides & Insights | Verafye",
-    description: "Explore network risk intelligence resources, guides, and insights to investigate financial crime and improve risk management strategies.",
+    title: "Fraud, AML & Risk Intelligence Resources | Verafye",
+    description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
     images: ['/images/og-image.png'],
   },
   alternates: {

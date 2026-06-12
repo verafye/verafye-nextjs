@@ -1,16 +1,17 @@
 import RequestDemoClient from './RequestDemoClient';
 
 export const metadata = {
-  title: "Request a Demo | Verafye Network Risk Intelligence",
-  description: "Request a demo of Verafye's graph-native Network Risk Intelligence platform. See how entity resolution and network mapping convert alert noise into investigation-grade evidence.",
+  title: "Request a Network Risk Intelligence Demo",
+  description: "See how fraud, AML and risk teams uncover hidden financial crime networks, accelerate investigations and improve compliance outcomes.",
+  keywords: ["network risk intelligence demo", "fraud investigation software demo", "aml compliance platform demo", "financial crime intelligence demo"],
   openGraph: {
-    title: "Request a Demo | Verafye Network Risk Intelligence",
-    description: "Request a demo of Verafye's graph-native Network Risk Intelligence platform. See how entity resolution and network mapping convert alert noise into investigation-grade evidence.",
+    title: "Request a Network Risk Intelligence Demo | Verafye",
+    description: "See how fraud, AML and risk teams uncover hidden financial crime networks, accelerate investigations and improve compliance outcomes.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Request a Demo | Verafye Network Risk Intelligence",
-    description: "Request a demo of Verafye's graph-native Network Risk Intelligence platform. See how entity resolution and network mapping convert alert noise into investigation-grade evidence.",
+    title: "Request a Network Risk Intelligence Demo | Verafye",
+    description: "See how fraud, AML and risk teams uncover hidden financial crime networks, accelerate investigations and improve compliance outcomes.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/request-demo',

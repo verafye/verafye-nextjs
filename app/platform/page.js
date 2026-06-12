@@ -2,16 +2,17 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { PlatformVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Platform - Graph-Native Network Risk Intelligence",
-  description: "Verafye is a graph-native Network Risk Intelligence platform - resolving entities, mapping cross-entity transaction networks and scoring risk in real time for payment, remittance and digital banking compliance teams.",
+  title: "Graph-Native Network Risk Intelligence Platform",
+  description: "Resolve entities, map transaction networks and uncover hidden financial crime risks with investigation-grade intelligence for fraud and AML teams.",
+  keywords: ["graph native risk intelligence platform", "network risk intelligence software", "entity resolution platform", "transaction network analysis", "financial crime intelligence platform", "investigation intelligence"],
   openGraph: {
-    title: "Platform - Graph-Native Network Risk Intelligence | Verafye",
-    description: "Verafye is a graph-native Network Risk Intelligence platform - resolving entities, mapping cross-entity transaction networks and scoring risk in real time for payment, remittance and digital banking compliance teams.",
+    title: "Graph-Native Network Risk Intelligence Platform | Verafye",
+    description: "Resolve entities, map transaction networks and uncover hidden financial crime risks with investigation-grade intelligence for fraud and AML teams.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Platform - Graph-Native Network Risk Intelligence | Verafye",
-    description: "Verafye is a graph-native Network Risk Intelligence platform - resolving entities, mapping cross-entity transaction networks and scoring risk in real time for payment, remittance and digital banking compliance teams.",
+    title: "Graph-Native Network Risk Intelligence Platform | Verafye",
+    description: "Resolve entities, map transaction networks and uncover hidden financial crime risks with investigation-grade intelligence for fraud and AML teams.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/platform',

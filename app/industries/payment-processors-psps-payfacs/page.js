@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for PSPs, PayFacs & Payment Processors",
-  description: "Connect merchant, sub-merchant, beneficiary and transaction signals into investigation-grade evidence. Graph-native Network Risk Intelligence for payment platforms.",
+  title: "Reduce Payment Fraud with Network Intelligence",
+  description: "Connect merchants, sub-merchants and transaction intelligence to uncover hidden risks, reduce fraud losses and strengthen compliance.",
+  keywords: ["payment fraud detection software", "merchant risk monitoring", "payment compliance software", "transaction intelligence", "psp fraud prevention", "payfac risk management"],
   openGraph: {
-    title: "Network Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
-    description: "Connect merchant, sub-merchant, beneficiary and transaction signals into investigation-grade evidence. Graph-native Network Risk Intelligence for payment platforms.",
+    title: "Reduce Payment Fraud with Network Intelligence | Verafye",
+    description: "Connect merchants, sub-merchants and transaction intelligence to uncover hidden risks, reduce fraud losses and strengthen compliance.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
-    description: "Connect merchant, sub-merchant, beneficiary and transaction signals into investigation-grade evidence. Graph-native Network Risk Intelligence for payment platforms.",
+    title: "Reduce Payment Fraud with Network Intelligence | Verafye",
+    description: "Connect merchants, sub-merchants and transaction intelligence to uncover hidden risks, reduce fraud losses and strengthen compliance.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs',

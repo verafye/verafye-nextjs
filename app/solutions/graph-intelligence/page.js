@@ -2,16 +2,17 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { GraphIntelligenceVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Network Intelligence Platform | Detect Fraud Networks",
-  description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+  title: "Detect Hidden Fraud Networks with Graph Intelligence",
+  description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
+  keywords: ["graph intelligence", "fraud network analysis", "entity resolution", "relationship analytics", "graph analytics platform", "fraud ring detection"],
   openGraph: {
-    title: "Network Intelligence Platform | Detect Fraud Networks",
-    description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+    title: "Detect Hidden Fraud Networks with Graph Intelligence | Verafye",
+    description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Intelligence Platform | Detect Fraud Networks",
-    description: "Verafye's network intelligence platform uses graph-based analysis to uncover fraud rings, ensure AML compliance, and support regulatory investigations.",
+    title: "Detect Hidden Fraud Networks with Graph Intelligence | Verafye",
+    description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/solutions/graph-intelligence',

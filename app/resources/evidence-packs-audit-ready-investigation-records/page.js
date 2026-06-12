@@ -2,19 +2,20 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: "Evidence Packs: Building Audit-Ready Investigation Records | Verafye",
-  description: "Understand how evidence packs help financial crime teams maintain structured, traceable, and review-ready investigation records.",
+  title: "Build Audit-Ready Investigation Records",
+  description: "Learn how structured evidence packs improve investigation transparency, regulatory reporting and audit readiness for financial crime teams.",
+  keywords: ["audit ready investigations", "investigation evidence management", "compliance reporting", "regulatory audit trails", "investigation documentation"],
   openGraph: {
-    title: "Evidence Packs: Building Audit-Ready Investigation Records | Verafye",
-    description: "Understand how evidence packs help financial crime teams maintain structured, traceable, and review-ready investigation records.",
+    title: "Build Audit-Ready Investigation Records | Verafye",
+    description: "Learn how structured evidence packs improve investigation transparency, regulatory reporting and audit readiness for financial crime teams.",
     url: 'https://www.verafye.com/resources/evidence-packs-audit-ready-investigation-records/',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Evidence Packs: Building Audit-Ready Investigation Records | Verafye",
-    description: "Understand how evidence packs help financial crime teams maintain structured, traceable, and review-ready investigation records.",
+    title: "Build Audit-Ready Investigation Records | Verafye",
+    description: "Learn how structured evidence packs improve investigation transparency, regulatory reporting and audit readiness for financial crime teams.",
     images: ['/images/og-image.png'],
   },
   alternates: {

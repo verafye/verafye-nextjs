@@ -1,17 +1,18 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Investigation-Led Lending & BNPL",
-  description: "Investigation intelligence for lending and BNPL risk teams - mule-linked borrower networks, synthetic identity clusters and coordinated application rings.",
+  title: "Stop Synthetic Identity & Lending Fraud",
+  description: "Detect borrower networks, synthetic identities and coordinated application fraud rings before losses escalate and compliance risks increase.",
+  keywords: ["lending fraud detection", "synthetic identity fraud", "application fraud detection", "bnpl fraud prevention", "borrower risk intelligence", "fraud analytics"],
   openGraph: {
-    title: "Network Risk Intelligence for Investigation-Led Lending & BNPL | Verafye",
-    description: "Investigation intelligence for lending and BNPL risk teams - mule-linked borrower networks, synthetic identity clusters and coordinated application rings.",
+    title: "Stop Synthetic Identity & Lending Fraud | Verafye",
+    description: "Detect borrower networks, synthetic identities and coordinated application fraud rings before losses escalate and compliance risks increase.",
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Investigation-Led Lending & BNPL | Verafye",
-    description: "Investigation intelligence for lending and BNPL risk teams - mule-linked borrower networks, synthetic identity clusters and coordinated application rings.",
+    title: "Stop Synthetic Identity & Lending Fraud | Verafye",
+    description: "Detect borrower networks, synthetic identities and coordinated application fraud rings before losses escalate and compliance risks increase.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/digital-lending-bnpl',

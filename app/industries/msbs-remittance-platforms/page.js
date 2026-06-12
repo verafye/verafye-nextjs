@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for MSBs & Remittance Platforms",
-  description: "Connect sender, beneficiary, agent, corridor and transaction signals into investigation-grade evidence - built for MSBs and remittance platforms under FINTRAC, FinCEN and FCA expectations.",
+  title: "AML Investigations for Remittance Providers",
+  description: "Connect sender, beneficiary and transaction intelligence to uncover money laundering risks, improve AML compliance and accelerate investigations.",
+  keywords: ["remittance aml software", "money laundering detection", "cross border transaction monitoring", "remittance compliance", "aml investigations"],
   openGraph: {
-    title: "Network Risk Intelligence for MSBs & Remittance Platforms | Verafye",
-    description: "Connect sender, beneficiary, agent, corridor and transaction signals into investigation-grade evidence - built for MSBs and remittance platforms under FINTRAC, FinCEN and FCA expectations.",
+    title: "AML Investigations for Remittance Providers | Verafye",
+    description: "Connect sender, beneficiary and transaction intelligence to uncover money laundering risks, improve AML compliance and accelerate investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for MSBs & Remittance Platforms | Verafye",
-    description: "Connect sender, beneficiary, agent, corridor and transaction signals into investigation-grade evidence - built for MSBs and remittance platforms under FINTRAC, FinCEN and FCA expectations.",
+    title: "AML Investigations for Remittance Providers | Verafye",
+    description: "Connect sender, beneficiary and transaction intelligence to uncover money laundering risks, improve AML compliance and accelerate investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/msbs-remittance-platforms',

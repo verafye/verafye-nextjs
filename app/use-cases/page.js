@@ -2,16 +2,17 @@ import Link from 'next/link';
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: "Network Risk Intelligence Use Cases | Financial Crime Investigation",
-  description: "Explore network risk intelligence use cases for banking and fintech - mule network detection, transaction monitoring and investigation workflow modernization.",
+  title: "Financial Crime Investigation Use Cases",
+  description: "Explore proven fraud, AML and risk investigation use cases including mule detection, transaction monitoring and workflow modernization.",
+  keywords: ["fraud investigation use cases", "aml compliance use cases", "financial crime investigation workflows", "risk intelligence applications"],
   openGraph: {
-    title: "Network Risk Intelligence Use Cases | Financial Crime Investigation",
-    description: "Explore network risk intelligence use cases for banking and fintech - mule network detection, transaction monitoring and investigation workflow modernization.",
+    title: "Financial Crime Investigation Use Cases | Verafye",
+    description: "Explore proven fraud, AML and risk investigation use cases including mule detection, transaction monitoring and workflow modernization.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence Use Cases | Financial Crime Investigation",
-    description: "Explore network risk intelligence use cases for banking and fintech - mule network detection, transaction monitoring and investigation workflow modernization.",
+    title: "Financial Crime Investigation Use Cases | Verafye",
+    description: "Explore proven fraud, AML and risk investigation use cases including mule detection, transaction monitoring and workflow modernization.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/use-cases',

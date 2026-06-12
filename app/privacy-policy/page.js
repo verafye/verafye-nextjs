@@ -1,15 +1,16 @@
 
 export const metadata = {
-  title: "Privacy Policy | Verafye",
-  description: "Read Verafye's privacy policy to understand how we collect, use, and protect your data across our fraud and AML platform.",
+  title: "Privacy & Data Protection for Fraud & AML Operations",
+  description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",
+  keywords: ["privacy policy", "data protection", "privacy compliance", "data security", "information governance"],
   openGraph: {
-    title: "Privacy Policy | Verafye",
-    description: "Read Verafye's privacy policy to understand how we collect, use, and protect your data across our fraud and AML platform.",
+    title: "Privacy & Data Protection for Fraud & AML Operations | Verafye",
+    description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Privacy Policy | Verafye",
-    description: "Read Verafye's privacy policy to understand how we collect, use, and protect your data across our fraud and AML platform.",
+    title: "Privacy & Data Protection for Fraud & AML Operations | Verafye",
+    description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/privacy-policy',

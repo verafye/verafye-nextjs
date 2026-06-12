@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Financial Services in India",
-  description: "Help banks, NBFCs, fintechs, and PSPs in India investigate financial crime networks, reduce fraud risk, and strengthen AML readiness with graph-native Network Risk Intelligence.",
+  title: "Network Risk Intelligence for India's Finance",
+  description: "Help banks, NBFCs, fintechs and PSPs uncover hidden financial crime networks, improve AML readiness and strengthen fraud investigations.",
+  keywords: ["fraud detection software india", "aml compliance software india", "network risk intelligence india", "financial crime investigations india", "risk intelligence platform india", "fintech compliance india", "banking fraud detection india"],
   openGraph: {
-    title: "Network Risk Intelligence for Financial Services in India",
-    description: "Help banks, NBFCs, fintechs, and PSPs in India investigate financial crime networks, reduce fraud risk, and strengthen AML readiness with graph-native Network Risk Intelligence.",
+    title: "Network Risk Intelligence for India's Finance | Verafye",
+    description: "Help banks, NBFCs, fintechs and PSPs uncover hidden financial crime networks, improve AML readiness and strengthen fraud investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Financial Services in India",
-    description: "Help banks, NBFCs, fintechs, and PSPs in India investigate financial crime networks, reduce fraud risk, and strengthen AML readiness with graph-native Network Risk Intelligence.",
+    title: "Network Risk Intelligence for India's Finance | Verafye",
+    description: "Help banks, NBFCs, fintechs and PSPs uncover hidden financial crime networks, improve AML readiness and strengthen fraud investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/in',

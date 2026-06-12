@@ -1,15 +1,16 @@
 
 export const metadata = {
-  title: "Terms & Conditions | Verafye",
-  description: "Review Verafye's terms and conditions for using our fraud and AML platform, including policies, responsibilities, and compliance guidelines.",
+  title: "Terms & Conditions for Verafye Platform Use",
+  description: "Review the terms governing access to Verafye's fraud, AML and Network Risk Intelligence platform and related services.",
+  keywords: ["terms and conditions", "platform governance", "legal compliance", "software usage terms"],
   openGraph: {
-    title: "Terms & Conditions | Verafye",
-    description: "Review Verafye's terms and conditions for using our fraud and AML platform, including policies, responsibilities, and compliance guidelines.",
+    title: "Terms & Conditions for Verafye Platform Use | Verafye",
+    description: "Review the terms governing access to Verafye's fraud, AML and Network Risk Intelligence platform and related services.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Terms & Conditions | Verafye",
-    description: "Review Verafye's terms and conditions for using our fraud and AML platform, including policies, responsibilities, and compliance guidelines.",
+    title: "Terms & Conditions for Verafye Platform Use | Verafye",
+    description: "Review the terms governing access to Verafye's fraud, AML and Network Risk Intelligence platform and related services.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/terms',

@@ -2,16 +2,17 @@ import Link from 'next/link';
 import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: "Verafye Partners | Network Risk Intelligence Ecosystem",
-  description: "Partner with Verafye to deliver graph-native Network Risk Intelligence - stronger financial crime investigation for payment and compliance teams.",
+  title: "Build Stronger Financial Crime Solutions",
+  description: "Partner with Verafye to deliver Network Risk Intelligence that helps financial institutions investigate fraud and AML risks faster.",
+  keywords: ["financial crime technology partners", "fraud prevention ecosystem", "aml compliance partners", "regtech partnerships", "risk intelligence partnerships"],
   openGraph: {
-    title: "Verafye Partners | Network Risk Intelligence Ecosystem",
-    description: "Partner with Verafye to deliver graph-native Network Risk Intelligence - stronger financial crime investigation for payment and compliance teams.",
+    title: "Build Stronger Financial Crime Solutions | Verafye",
+    description: "Partner with Verafye to deliver Network Risk Intelligence that helps financial institutions investigate fraud and AML risks faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Verafye Partners | Network Risk Intelligence Ecosystem",
-    description: "Partner with Verafye to deliver graph-native Network Risk Intelligence - stronger financial crime investigation for payment and compliance teams.",
+    title: "Build Stronger Financial Crime Solutions | Verafye",
+    description: "Partner with Verafye to deliver Network Risk Intelligence that helps financial institutions investigate fraud and AML risks faster.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/partners',

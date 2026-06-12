@@ -2,16 +2,17 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { MuleAccountVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Mule Account Detection Platform | Stop Fraud Networks",
-  description: "Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.",
+  title: "Mule Account Detection Software for AML Teams",
+  description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
+  keywords: ["mule account detection software", "money mule detection", "fraud network detection", "aml investigations", "financial crime prevention"],
   openGraph: {
-    title: "Mule Account Detection Platform | Stop Fraud Networks",
-    description: "Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.",
+    title: "Mule Account Detection Software for AML Teams | Verafye",
+    description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Account Detection Platform | Stop Fraud Networks",
-    description: "Mule account detection platform to identify money mule activity early. Stop financial crime, manage regulatory risk, and ensure AML compliance faster.",
+    title: "Mule Account Detection Software for AML Teams | Verafye",
+    description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/solutions/mule-account-detection',

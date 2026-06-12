@@ -2,16 +2,17 @@ import Link from 'next/link';
 import { ProductTrialHeroPanel } from '../components/HomepageHeroPanel';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Payment & Compliance Teams | Verafye",
-  description: "Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.",
+  title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
+  description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
+  keywords: ["network risk intelligence platform", "financial crime investigation platform", "fraud detection software", "aml compliance software", "graph intelligence platform", "entity resolution", "transaction intelligence", "investigation intelligence", "financial crime intelligence", "risk analytics"],
   openGraph: {
-    title: "Network Risk Intelligence for Payment & Compliance Teams | Verafye",
-    description: "Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.",
+    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
+    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Payment & Compliance Teams | Verafye",
-    description: "Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.",
+    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
+    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/',

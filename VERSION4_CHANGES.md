@@ -91,6 +91,12 @@ Canonical adoption language (reuse this, not the spec's):
 - Hosting is S3 static: vercel.json/_redirects removed; old /industries/ecommerce-retail/ URL is an in-page redirect stub; optional S3 --website-redirect command documented in deploy notes.
 - sitemap.xml corrected (ecommerce-retail removed; marketplaces, msbs-remittance-platforms, credit-unions added); robots.txt blocks /hero-visual-options/.
 
+## R4. SEO metadata pass (approved June 13)
+
+- All 38 public pages received keyword-researched titles, meta descriptions, OG and Twitter values plus per-page meta keywords (supplied via reviewed SEO sheet; Twitter mirrors OG by approval).
+- Homepage/sitewide default audience framing changed from "Payment & Compliance Teams" to "Fraud & AML Teams" - conscious override of spec Section 1.1, driven by keyword research.
+- 10 over-length items trimmed to <=60/<=160 chars with owner approval; Media pages retain as-built metadata pending next review cycle.
+
 ## Still governed by the original spec (unchanged)
 
 Section 0 rules 1-10 (positioning statement, metaphor rule, banned phrases, unified/single-view rule, em dash rule, regulators-not-instruments, Lending-last ordering, disclaimers, no invented metrics) all remain in force.

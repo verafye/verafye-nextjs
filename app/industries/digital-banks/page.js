@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Digital Banks & Neo Banks",
-  description: "Network Risk Intelligence for digital banks - resolve entities, map transaction networks and score risk in real time across onboarding, payments and AML functions.",
+  title: "Reduce Fraud Risk in Digital Banking",
+  description: "Uncover hidden fraud networks, accelerate AML investigations and improve onboarding, payment and account risk decisions with connected intelligence.",
+  keywords: ["digital banking fraud detection", "aml software for digital banks", "onboarding fraud prevention", "transaction intelligence", "risk analytics for digital banks"],
   openGraph: {
-    title: "Network Risk Intelligence for Digital Banks & Neo Banks | Verafye",
-    description: "Network Risk Intelligence for digital banks - resolve entities, map transaction networks and score risk in real time across onboarding, payments and AML functions.",
+    title: "Reduce Fraud Risk in Digital Banking | Verafye",
+    description: "Uncover hidden fraud networks, accelerate AML investigations and improve onboarding, payment and account risk decisions with connected intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Digital Banks & Neo Banks | Verafye",
-    description: "Network Risk Intelligence for digital banks - resolve entities, map transaction networks and score risk in real time across onboarding, payments and AML functions.",
+    title: "Reduce Fraud Risk in Digital Banking | Verafye",
+    description: "Uncover hidden fraud networks, accelerate AML investigations and improve onboarding, payment and account risk decisions with connected intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/digital-banks',

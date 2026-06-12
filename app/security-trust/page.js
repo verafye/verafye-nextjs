@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Security & Trust | Verafye",
-  description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and graph-native Network Risk Intelligence systems.",
+  title: "Enterprise Security & Trust for Fraud & AML Teams",
+  description: "Protect sensitive investigation data with enterprise-grade security, compliance controls and governance built for regulated institutions.",
+  keywords: ["enterprise security", "compliance controls", "data protection", "information security", "governance and risk management"],
   openGraph: {
-    title: "Security & Trust | Verafye",
-    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and graph-native Network Risk Intelligence systems.",
+    title: "Enterprise Security & Trust for Fraud & AML Teams | Verafye",
+    description: "Protect sensitive investigation data with enterprise-grade security, compliance controls and governance built for regulated institutions.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Security & Trust | Verafye",
-    description: "Learn how Verafye ensures security and trust with strong data protection, compliance, and graph-native Network Risk Intelligence systems.",
+    title: "Enterprise Security & Trust for Fraud & AML Teams | Verafye",
+    description: "Protect sensitive investigation data with enterprise-grade security, compliance controls and governance built for regulated institutions.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/security-trust',

@@ -1,16 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Banks",
-  description: "Network Risk Intelligence for banks - connect fraud, AML and payment signals into investigation-grade evidence, reduce false positives and support regulatory readiness.",
+  title: "Reduce Fraud Risk Across Banking Networks",
+  description: "Connect fraud, AML and transaction intelligence to uncover hidden risks, improve compliance and accelerate banking investigations.",
+  keywords: ["fraud detection software for banks", "aml software for banks", "banking risk intelligence", "financial crime investigations for banks", "transaction monitoring for banks", "banking compliance solutions"],
   openGraph: {
-    title: "Network Risk Intelligence for Banks | Verafye",
-    description: "Network Risk Intelligence for banks - connect fraud, AML and payment signals into investigation-grade evidence, reduce false positives and support regulatory readiness.",
+    title: "Reduce Fraud Risk Across Banking Networks | Verafye",
+    description: "Connect fraud, AML and transaction intelligence to uncover hidden risks, improve compliance and accelerate banking investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Banks | Verafye",
-    description: "Network Risk Intelligence for banks - connect fraud, AML and payment signals into investigation-grade evidence, reduce false positives and support regulatory readiness.",
+    title: "Reduce Fraud Risk Across Banking Networks | Verafye",
+    description: "Connect fraud, AML and transaction intelligence to uncover hidden risks, improve compliance and accelerate banking investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/banks',

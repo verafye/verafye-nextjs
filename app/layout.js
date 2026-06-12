@@ -11,14 +11,14 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL('https://www.verafye.com'),
   title: {
-    default: 'Network Risk Intelligence for Payment & Compliance Teams | Verafye',
+    default: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
     template: '%s | Verafye',
   },
-  description: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.',
-  keywords: ['network risk intelligence', 'graph-native risk platform', 'entity resolution', 'transaction network mapping', 'mule network detection', 'investigation-grade evidence', 'payment risk intelligence', 'alert clustering', 'audit-ready investigations'],
+  description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
+  keywords: ["network risk intelligence platform", "financial crime investigation platform", "fraud detection software", "aml compliance software", "graph intelligence platform", "entity resolution", "transaction intelligence", "investigation intelligence", "financial crime intelligence", "risk analytics"],
   openGraph: {
-    title: 'Network Risk Intelligence for Payment & Compliance Teams | Verafye',
-    description: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.',
+    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
+    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
     url: 'https://www.verafye.com',
     siteName: 'Verafye',
     type: 'website',
@@ -26,8 +26,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Network Risk Intelligence for Payment & Compliance Teams | Verafye',
-    description: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance and digital banking compliance teams - resolving entities, mapping transaction networks and scoring risk in real time.',
+    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
+    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
     images: ['/images/og-image.png'],
   },
   robots: {

@@ -2,16 +2,17 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { InvestigationVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Fraud Intelligence Platform | Faster Investigations",
-  description: "Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.",
+  title: "Investigation Intelligence Platform for Fraud Teams",
+  description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
+  keywords: ["investigation intelligence platform", "financial crime investigations", "fraud case management", "aml investigations", "investigation workflows"],
   openGraph: {
-    title: "Fraud Intelligence Platform | Faster Investigations",
-    description: "Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.",
+    title: "Investigation Intelligence Platform for Fraud Teams | Verafye",
+    description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Intelligence Platform | Faster Investigations",
-    description: "Fraud intelligence platform connecting signals to accelerate regulatory investigations. Uncover hidden patterns, ensure compliance & detect financial crime.",
+    title: "Investigation Intelligence Platform for Fraud Teams | Verafye",
+    description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/solutions/investigation-intelligence',
