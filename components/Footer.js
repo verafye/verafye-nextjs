@@ -48,6 +48,7 @@ const footerColumns = [
       { label: 'Customers',        href: '/customers' },
       { label: 'Partners',         href: '/partners' },
       { label: 'Resources',        href: '/resources' },
+      { label: 'Media & Press',    href: '/media' },
       { label: 'FAQ',              href: '/faq' },
       { label: 'Security & Trust', href: '/security-trust' },
       { label: 'Contact',          href: '/contact' },

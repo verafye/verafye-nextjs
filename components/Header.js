@@ -60,6 +60,7 @@ const navItems = [
     children: [
       { href: '/company',         label: 'About' },
       { href: '/partners',        label: 'Partners' },
+      { href: '/media',           label: 'Media & Press' },
       { href: '/security-trust',  label: 'Security & Trust' },
     ],
   },
@@ -128,6 +129,7 @@ const mobileNavGroups = [
     items: [
       { href: '/company',        label: 'About' },
       { href: '/partners',       label: 'Partners' },
+      { href: '/media',          label: 'Media & Press' },
       { href: '/security-trust', label: 'Security & Trust' },
     ],
   },
