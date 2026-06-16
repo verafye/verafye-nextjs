@@ -59,7 +59,7 @@ export default function ContactClient() {
               <Link
                 href="/request-demo"
                 className="btn-primary"
-                style={{ marginTop: 'auto', textAlign: 'center', display: 'block' }}
+                style={{ marginTop: 'auto', width: '100%' }}
                 onClick={() => pushGTM('contact_cta_click', {
                   cta_label: 'Request Demo',
                   cta_href: '/request-demo',
@@ -101,7 +101,7 @@ export default function ContactClient() {
               <Link
                 href="/become-a-partner"
                 className="btn-secondary"
-                style={{ marginTop: 'auto', textAlign: 'center', display: 'block' }}
+                style={{ marginTop: 'auto', width: '100%' }}
                 onClick={() => pushGTM('contact_cta_click', {
                   cta_label: 'Partner with Verafye',
                   cta_href: '/become-a-partner',
