@@ -97,6 +97,12 @@ Canonical adoption language (reuse this, not the spec's):
 - Homepage/sitewide default audience framing changed from "Payment & Compliance Teams" to "Fraud & AML Teams" - conscious override of spec Section 1.1, driven by keyword research.
 - 10 over-length items trimmed to <=60/<=160 chars with owner approval; Media pages retain as-built metadata pending next review cycle.
 
+## R5. Homepage H1 broadened (approved June 15)
+
+- Homepage hero H1 changed from "...for Payment and Compliance Teams" to "...for Fraud, AML and Risk Teams" - conscious override of spec Section 2.1.
+- Rationale: function-based framing is segment-neutral, so it includes banks, NBFCs, fintechs and embedded/open-banking providers (India partnership conversations) without naming any segment. Also aligns the visible H1 with the SEO title tag set in R4.
+- Scope: homepage H1 only; eyebrow, subhead, body and industries grid already read broad.
+
 ## Still governed by the original spec (unchanged)
 
 Section 0 rules 1-10 (positioning statement, metaphor rule, banned phrases, unified/single-view rule, em dash rule, regulators-not-instruments, Lending-last ordering, disclaimers, no invented metrics) all remain in force.

@@ -36,7 +36,7 @@ export default function Page() {
 
         {/* H1 */}
         <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          Graph-Native Network Risk Intelligence for Payment and Compliance Teams
+          Graph-Native Network Risk Intelligence for Fraud, AML and Risk Teams
         </h1>
 
         {/* Sub-line */}
