@@ -29,7 +29,7 @@ export default function GraphIntelligencePage() {
         title="Graph intelligence for connected financial crime investigations"
         description="Reveal hidden relationships across users, accounts, merchants, devices, transactions, counterparties, and entities."
         body="Verafye uses graph intelligence to help risk teams see how alerts, entities, and behaviors connect - turning isolated events into network-level investigation context."
-        primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+        primaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
         secondaryCTA={{ label: 'Explore Platform', href: '/platform' }}
         visualCard={<GraphIntelligenceVisualCard />}
       />
@@ -390,7 +390,7 @@ export default function GraphIntelligencePage() {
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">
-              Request Demo
+              Request a Risk Shadowing Review
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>

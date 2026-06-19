@@ -22,7 +22,7 @@ export default function Page() {
     <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Customers</p>
     <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.035em'}}>Built for Payment-Led Regulated Platforms and Lean Financial Crime Teams</h1>
     <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto 2.5rem'}}>Verafye leads with PSPs, PayFacs, payment processors, payment aggregators, MSBs and remittance platforms - and expands into digital banks, neo banks, NBFCs, digital lenders and selected banks. Same risk pattern, different buyer label by geography.</p>
-    <div className="animate-fade-up delay-300"><Link href="/request-demo" className="btn-primary">Request Demo <span className="btn-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link></div>
+    <div className="animate-fade-up delay-300"><Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review <span className="btn-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link></div>
   </div>
 </section>
 
@@ -188,15 +188,15 @@ export default function Page() {
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>Platform Impact</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','letterSpacing':'-0.03em'}}>Indicative Outcomes</h2>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','letterSpacing':'-0.03em'}}>Outcomes Teams See</h2>
     </div>
     <div className="grid-4" style={{'maxWidth':'64rem','margin':'0 auto'}}>
-      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>Up to 60%</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Reduction in per-case investigation time through connected alert clustering</p></div>
-      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>Up to 3x</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Faster alert-to-case closure for teams using connected investigation queues</p></div>
-      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>50%+</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Fewer false positive alerts reaching front-line analyst review</p></div>
-      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>Weeks</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Typical time to first connected investigation workflow - not months</p></div>
+      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>Faster</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Faster investigation triage through connected alert clustering</p></div>
+      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>Clearer</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Improved alert-to-case clarity with connected investigation queues</p></div>
+      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>Less noise</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Reduced manual investigation effort and noise reaching analyst review</p></div>
+      <div className="card" style={{'padding':'1.75rem','textAlign':'center'}}><div className="stat-value" style={{'marginBottom':'0.5rem'}}>Audit-ready</div><p style={{'fontSize':'0.8125rem','fontWeight':'500','color':'var(--body)'}}>Stronger audit-readiness and more consistent case decisions</p></div>
     </div>
-    <p style={{'textAlign':'center','fontSize':'0.8125rem','color':'var(--muted)','marginTop':'2rem','fontStyle':'italic'}}>Indicative outcomes based on representative investigation workflow improvements. Actual results vary by environment, integration scope, and team configuration.</p>
+    <p style={{'textAlign':'center','fontSize':'0.8125rem','color':'var(--muted)','marginTop':'2rem','fontStyle':'italic'}}>Qualitative outcomes teams report from connected investigation workflows. Actual results vary by environment, integration scope, and team configuration.</p>
   </div>
 </section>
 
@@ -207,7 +207,7 @@ export default function Page() {
     <p style={{'fontSize':'clamp(0.938rem,2vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem','maxWidth':'40rem','marginLeft':'auto','marginRight':'auto'}}>Talk to our team about connecting fraud, AML, and payment risk signals into investigation-ready cases - designed for regulated payment platforms, fintechs, and digital banks operating under real compliance pressure.</p>
     <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--muted)','maxWidth':'34rem','margin':'0 auto 2.5rem'}}>PSPs, PayFacs, FinTech payment platforms, digital banks, and regulated money movement businesses are building investigation intelligence ahead of regulatory review cycles. Verafye is built for that operating reality.</p>
     <div style={{'display':'flex','flexWrap':'wrap','gap':'1rem','justifyContent':'center'}}>
-      <Link href="/request-demo" className="btn-primary">Request Demo <span className="btn-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link>
+      <Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review <span className="btn-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link>
       <Link href="/platform" className="btn-secondary">Explore Platform</Link>
     </div>
     <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>No commitment required. Speak directly with our solutions team.</p>

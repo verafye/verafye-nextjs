@@ -223,7 +223,7 @@ export default function ArticlePage() {
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
-              <Link href="/request-demo" className="btn-primary">Request Demo</Link>
+              <Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
               <PdfDownloadButton
                 pdfPath="/downloads/resources/evidence-packs-audit-ready-investigation-records.pdf"

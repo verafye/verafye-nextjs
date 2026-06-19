@@ -29,7 +29,7 @@ export default function InvestigationIntelligencePage() {
         title="Investigation intelligence for lean fraud, AML, and risk teams"
         description="Connect alerts, explain risk, and close cases faster with case intelligence, graph context, and audit-ready workflows."
         body="Investigation Intelligence is the operating layer within the Verafye platform that turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
-        primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+        primaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
         secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
         visualCard={<InvestigationVisualCard />}
       />
@@ -401,7 +401,7 @@ export default function InvestigationIntelligencePage() {
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/request-demo" className="btn-primary">
-              Request Demo
+              Request a Risk Shadowing Review
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>

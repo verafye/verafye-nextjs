@@ -36,9 +36,9 @@ const navItems = [
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
-      { href: '/industries/banks',                            label: 'Banks & Regional Financial Institutions' },
+      { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },
+      { href: '/industries/banks',                            label: 'Selected Banks & Credit Unions' },
       { href: '/industries/marketplaces',                     label: 'Marketplaces' },
-      { href: '/industries/digital-lending-bnpl',             label: 'Digital Lending & BNPL' },
     ],
   },
   {
@@ -97,9 +97,9 @@ const mobileNavGroups = [
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
-      { href: '/industries/banks',                            label: 'Banks & Regional Financial Institutions' },
+      { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },
+      { href: '/industries/banks',                            label: 'Selected Banks & Credit Unions' },
       { href: '/industries/marketplaces',                     label: 'Marketplaces' },
-      { href: '/industries/digital-lending-bnpl',             label: 'Digital Lending & BNPL' },
     ],
   },
   {
@@ -476,7 +476,7 @@ export default function Header() {
                 window.trackEvent('demo_cta_click', { location: 'header' })
               }
             >
-              Request Demo
+              Explore Risk Shadowing
             </Link>
           </div>
 
@@ -566,7 +566,7 @@ export default function Header() {
                 window.trackEvent('demo_cta_click', { location: 'mobile_menu' });
             }}
           >
-            Request Demo
+            Request a Risk Shadowing Review
           </Link>
         </div>
       </>,

@@ -29,7 +29,7 @@ export default function PlatformPage() {
   title="Network Risk Intelligence for Modern Financial Crime Operations"
   description="Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
   body="Built for teams operating under growing regulatory and operational complexity - start with a scoped pilot alongside existing systems and expand network coverage as outcomes are proven."
-  primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+  primaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
   visualCard={<PlatformVisualCard />}
 />
@@ -73,7 +73,7 @@ export default function PlatformPage() {
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>HOW IT WORKS</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'0.875rem'}}>From signals to outcomes - one connected flow</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>The Verafye platform moves risk signals through a connected investigation layer - from signal ingestion and alert clustering through graph intelligence and case workflows to audit-ready case decisions.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye detects hidden network risk through graph-native intelligence, risk scoring, relationship analysis, and signal correlation - then carries that risk through clustering, investigation, and audit-ready decisions in one connected flow. Detection-capable and investigation-first, working alongside the systems you already run.</p>
     </div>
 
     {/* Horizontal flow - scrollable on mobile */}
@@ -100,9 +100,9 @@ export default function PlatformPage() {
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(124,58,237,0.08)','border':'1px solid rgba(124,58,237,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7C3AED" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
           </div>
-          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>02 · Connect</div>
-          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Connect Risk Context</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Map signals to accounts, devices, entities, and counterparties - building a connected risk picture per case.</p>
+          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>02 · Resolve</div>
+          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Resolve Entities</h3>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Resolve accounts, devices, merchants, beneficiaries, and counterparties into linked entities and relationships across sources.</p>
         </div>
 
         {/* Arrow */}
@@ -115,9 +115,9 @@ export default function PlatformPage() {
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(8,145,178,0.08)','border':'1px solid rgba(8,145,178,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0891B2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
           </div>
-          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>03 · Cluster</div>
-          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Cluster Alerts</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Group related alerts and entity signals into investigation-ready cases - replacing isolated queues with connected clusters.</p>
+          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>03 · Detect</div>
+          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Detect Network Risk</h3>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Graph-native intelligence, risk scoring, relationship analysis, and signal correlation surface hidden networks, mule patterns, and coordinated risk that rule-based tools miss.</p>
         </div>
 
         {/* Arrow */}
@@ -130,9 +130,9 @@ export default function PlatformPage() {
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(217,119,6,0.08)','border':'1px solid rgba(217,119,6,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D97706" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
           </div>
-          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#D97706','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>04 · Investigate</div>
-          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Surface Investigation Context</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Case context, graph views, AI-assisted summaries, and evidence surfaced before analysts take any action.</p>
+          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#D97706','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>04 · Cluster</div>
+          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Cluster Cases</h3>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Related alerts and detected activity are grouped into connected, investigation-ready cases - not isolated queues.</p>
         </div>
 
         {/* Arrow */}
@@ -145,9 +145,9 @@ export default function PlatformPage() {
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(5,150,105,0.08)','border':'1px solid rgba(5,150,105,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
           </div>
-          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#059669','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>05 · Decide</div>
-          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Support Decisions</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Structured workflows, risk scoring, and suggested next steps help analysts reach faster, explainable outcomes.</p>
+          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#059669','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>05 · Investigate</div>
+          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Investigate Context</h3>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Case context, graph views, AI-assisted summaries, and evidence are surfaced before analysts take any action.</p>
         </div>
 
         {/* Arrow */}
@@ -160,9 +160,9 @@ export default function PlatformPage() {
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
           </div>
-          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>06 · Record</div>
-          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Preserve Audit Trails</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Every action, decision rationale, and evidence reference captured in structured audit trails for compliance and regulatory review.</p>
+          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>06 · Decide</div>
+          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Decide & Record</h3>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Analysts reach faster, explainable outcomes - with every action, rationale, and evidence reference captured in structured, audit-ready records.</p>
         </div>
 
       </div>
@@ -679,9 +679,9 @@ export default function PlatformPage() {
     </div>
     <div style={{'display':'grid','gridTemplateColumns':'repeat(5,1fr)','gap':'1rem'}}>
       {[
-        { label: 'ISO/IEC 27001', sub: 'Information Security Management' },
-        { label: 'SOC 2 Type I',  sub: 'Security & Availability Controls' },
-        { label: 'PCI DSS: SAQ-D', sub: 'Payment Data Security' },
+        { label: 'ISO/IEC 27001-aligned controls', sub: 'Information Security Management' },
+        { label: 'SOC 2 readiness posture',  sub: 'Security & Availability Controls' },
+        { label: 'PCI DSS SAQ-D aligned', sub: 'Payment Data Security' },
         { label: 'GDPR-aligned',  sub: 'EU Data Protection' },
         { label: 'DPDP-aware',    sub: 'India Data Protection Readiness' },
       ].map(b => (
@@ -716,7 +716,7 @@ export default function PlatformPage() {
     <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>Explore how Verafye helps fraud, AML, and risk teams connect signals from existing systems into investigation-ready workflows - starting with a scoped pilot and expanding coverage as outcomes are proven.</p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/request-demo" className="btn-primary">
-        Request Demo
+        Request a Risk Shadowing Review
         <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </span>

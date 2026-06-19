@@ -1,6 +1,8 @@
 // 301 redirect target: /industries/marketplaces/
 // This page renders a client-side fallback for static export hosting.
-// The true 301 is configured in vercel.json (Vercel) and public/_redirects (Netlify).
+// This static export cannot emit a server 301. A host-level 301 (S3 routing rule or
+// CloudFront function) should be configured at deploy time; until then this page issues
+// a client-side redirect plus a canonical tag to /industries/marketplaces/.
 export const metadata = {
   title: 'Network Risk Intelligence for Marketplace Risk Teams',
   robots: { index: false, follow: true },

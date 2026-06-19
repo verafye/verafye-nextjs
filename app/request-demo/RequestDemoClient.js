@@ -335,10 +335,16 @@ export default function RequestDemoClient() {
                           <label className="form-label" htmlFor="companyType">Company Type <span style={{ color: 'var(--error)' }}>*</span></label>
                           <select id="companyType" name="companyType" className="form-select" value={form.companyType} onChange={handleChange} style={errors.companyType ? { borderColor: 'var(--error)' } : {}}>
                             <option value="">Select type…</option>
-                            <option value="Bank">Bank</option>
-                            <option value="Payment Processor / PSP">Payment Processor / PSP</option>
+                            <option value="PSP / Payment Processor">PSP / Payment Processor</option>
                             <option value="PayFac">PayFac</option>
-                            <option value="Fintech Platform">Fintech Platform</option>
+                            <option value="Payment Aggregator">Payment Aggregator</option>
+                            <option value="MSB / Remittance Platform">MSB / Remittance Platform</option>
+                            <option value="Digital Bank / Neo Bank">Digital Bank / Neo Bank</option>
+                            <option value="Wallet / Payment Fintech">Wallet / Payment Fintech</option>
+                            <option value="NBFC / Digital Lender">NBFC / Digital Lender</option>
+                            <option value="Bank / Credit Union / Sponsor Bank">Bank / Credit Union / Sponsor Bank</option>
+                            <option value="Marketplace / Commerce Platform">Marketplace / Commerce Platform</option>
+                            <option value="Partner / System Integrator">Partner / System Integrator</option>
                             <option value="Other">Other</option>
                           </select>
                           {errors.companyType && <p style={{ fontSize: '0.75rem', color: 'var(--error)', marginTop: '0.25rem' }}>{errors.companyType}</p>}

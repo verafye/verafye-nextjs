@@ -25,13 +25,13 @@ const footerColumns = [
   {
     heading: 'Industries',
     links: [
-      { label: 'PSPs, PayFacs & Payment Processors',      href: '/industries/payment-processors-psps-payfacs' },
-      { label: 'MSBs & Remittance Platforms',             href: '/industries/msbs-remittance-platforms' },
-      { label: 'Digital Banks & Neo Banks',               href: '/industries/digital-banks' },
-      { label: 'FinTech Payment Platforms',               href: '/industries/fintech-platforms' },
-      { label: 'Banks & Regional Financial Institutions', href: '/industries/banks' },
-      { label: 'Marketplaces',                            href: '/industries/marketplaces' },
-      { label: 'Digital Lending & BNPL',                  href: '/industries/digital-lending-bnpl' },
+      { label: 'PSPs, PayFacs & Payment Processors', href: '/industries/payment-processors-psps-payfacs' },
+      { label: 'MSBs & Remittance Platforms',        href: '/industries/msbs-remittance-platforms' },
+      { label: 'Digital Banks & Neo Banks',          href: '/industries/digital-banks' },
+      { label: 'FinTech Payment Platforms',          href: '/industries/fintech-platforms' },
+      { label: 'NBFCs & Digital Lending',            href: '/industries/digital-lending-bnpl' },
+      { label: 'Selected Banks & Credit Unions',     href: '/industries/banks' },
+      { label: 'Marketplaces',                       href: '/industries/marketplaces' },
     ],
   },
   {
@@ -98,7 +98,7 @@ export default function Footer() {
                 letterSpacing: '0.01em',
               }}
             >
-              Request a Demo →
+              Request a Risk Shadowing Review →
             </Link>
             {/* LinkedIn */}
             <div style={{ marginTop: '1.25rem' }}>
@@ -161,7 +161,7 @@ export default function Footer() {
             <Link href="/cookie-policy">Cookie Policy</Link>
             <Link href="/terms">Terms of Service</Link>
             <Link href="/security-trust">Security &amp; Trust</Link>
-            <Link href="/request-demo">Request Demo</Link>
+            <Link href="/request-demo">Risk Shadowing Review</Link>
             <CookiePreferencesLink />
           </div>
         </div>

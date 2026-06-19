@@ -52,7 +52,7 @@ export default function Page() {
         {/* CTAs */}
         <div className="animate-fade-up delay-300" style={{'display':'flex','flexWrap':'wrap','gap':'0.75rem','marginBottom':'1.5rem'}}>
           <Link href="/request-demo" className="btn-primary">
-            Request Demo
+            Request a Risk Shadowing Review
             <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </span>
@@ -135,9 +135,9 @@ export default function Page() {
     </p>
     <div className="cert-grid">
       {[
-        { label: 'ISO/IEC 27001',  sub: 'Information Security Management' },
-        { label: 'SOC 2 Type I',   sub: 'Security & Availability Controls' },
-        { label: 'PCI DSS: SAQ-D', sub: 'Payment Data Security' },
+        { label: 'ISO/IEC 27001-aligned controls',  sub: 'Information Security Management' },
+        { label: 'SOC 2 readiness posture',   sub: 'Security & Availability Controls' },
+        { label: 'PCI DSS SAQ-D aligned', sub: 'Payment Data Security' },
         { label: 'GDPR-aligned',   sub: 'EU Data Protection' },
         { label: 'DPDP-aware',     sub: 'India Data Protection Readiness' },
       ].map((b) => (
@@ -500,7 +500,7 @@ export default function Page() {
 
     <div style={{'textAlign':'center','marginTop':'3rem'}}>
       <Link href="/customers" className="btn-secondary">
-        View Customer Stories
+        View Who We Serve
         <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </span>
@@ -648,7 +648,7 @@ export default function Page() {
     </p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/request-demo" className="btn-primary">
-        Request Demo
+        Request a Risk Shadowing Review
         <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </span>

@@ -21,7 +21,7 @@
  *     title="One investigation layer..."
  *     description="Unify fraud, AML..."
  *     body="The Verafye platform..."
- *     primaryCTA={{ label: 'Request Demo', href: '/request-demo' }}
+ *     primaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
  *     secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
  *     visualCard={<PlatformVisualCard />}
  *   />
