@@ -227,6 +227,14 @@ export default function CapabilitiesPage() {
                 </div>
               ))}
             </div>
+            <div style={{maxWidth: '72rem', margin: '1.75rem auto 0'}}>
+              <p style={{fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem'}}>Applied Across</p>
+              <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.5rem'}}>
+                {['PSP merchant & sub-merchant risk','PayFac portfolio risk','MSB & remittance corridor risk','Mule account & mule network detection','Linked beneficiaries','Device-linked networks','Identity-linked networks','Wallet & digital bank risk','NBFC & digital lending fraud patterns','Marketplace seller & payout risk (adjacency)'].map(t => (
+                  <span key={t} style={{fontSize: '0.75rem', fontWeight: 600, color: 'var(--body)', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '999px', padding: '0.35rem 0.8rem'}}>{t}</span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>

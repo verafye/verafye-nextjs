@@ -38,9 +38,14 @@ export default function PlatformPage() {
 <section style={{'padding':'4rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION LAYER OVERVIEW</p>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>BUILT FOR TRANSACTION-LED RISK ENVIRONMENTS</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.5rem','letterSpacing':'-0.025em'}}>Built to connect the systems risk teams already use</h2>
-      <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>Fraud alerts, AML monitoring, payment events, identity checks, device signals, behavioral patterns, and third-party enrichment often live in separate tools. Verafye brings these signals into one investigation layer so analysts can see the full risk story before making a decision.</p>
+      <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>Verafye is built for transaction-led financial crime environments where payments, accounts, merchants, devices, identities, beneficiaries, and counterparties create network-level risk. Fraud alerts, AML monitoring, payment events, identity checks, device signals, and behavioral patterns often live in separate tools - Verafye brings them into one network view so analysts see the full risk story before making a decision.</p>
+      <div style={{'display':'flex','flexWrap':'wrap','gap':'0.5rem','justifyContent':'center','marginTop':'1.5rem'}}>
+        {['Merchant risk','Payment risk','Mule-account risk','Beneficiary risk','Device & identity linkage','Cross-account networks','Cross-merchant networks','Remittance & corridor risk','Digital-bank & wallet risk','Lending & disbursement risk'].map(t => (
+          <span key={t} style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--primary)','background':'rgba(30,111,183,0.07)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'999px','padding':'0.35rem 0.8rem'}}>{t}</span>
+        ))}
+      </div>
     </div>
     <div className="grid-3" style={{'maxWidth':'72rem','margin':'0 auto'}}>
       <div className="card card-elevated" style={{'padding':'2rem'}}>

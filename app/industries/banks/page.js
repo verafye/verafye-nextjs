@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Reduce Fraud Risk Across Banking Networks",
-  description: "Connect fraud, AML and transaction intelligence to uncover hidden risks, improve compliance and accelerate banking investigations.",
-  keywords: ["fraud detection software for banks", "aml software for banks", "banking risk intelligence", "financial crime investigations for banks", "transaction monitoring for banks", "banking compliance solutions"],
+  title: "Network Risk Intelligence for Selected Banks and Credit Unions",
+  description: "Verafye supports selected banks, community banks, credit unions, and sponsor-bank ecosystems with graph-native financial crime investigation intelligence.",
+  keywords: ["network risk intelligence banks", "community bank aml", "credit union fraud investigation", "sponsor bank oversight", "regional bank financial crime", "lean bank risk teams"],
   openGraph: {
-    title: "Reduce Fraud Risk Across Banking Networks | Verafye",
-    description: "Connect fraud, AML and transaction intelligence to uncover hidden risks, improve compliance and accelerate banking investigations.",
+    title: "Network Risk Intelligence for Selected Banks and Credit Unions | Verafye",
+    description: "Verafye supports selected banks, community banks, credit unions, and sponsor-bank ecosystems with graph-native financial crime investigation intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Reduce Fraud Risk Across Banking Networks | Verafye",
-    description: "Connect fraud, AML and transaction intelligence to uncover hidden risks, improve compliance and accelerate banking investigations.",
+    title: "Network Risk Intelligence for Selected Banks and Credit Unions | Verafye",
+    description: "Verafye supports selected banks, community banks, credit unions, and sponsor-bank ecosystems with graph-native financial crime investigation intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/banks',
@@ -36,15 +36,15 @@ export default function BanksPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>BANKS</p>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>SELECTED BANKS &amp; CREDIT UNIONS</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Investigation Intelligence for Banking Risk Operations
+              Network Risk Intelligence for Selected Banks and Credit Unions
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Connect fraud, AML, payment, account, identity, device, and behavior signals into explainable investigation workflows.
+              Verafye supports selected banks, regional banks, community banks, credit unions, digital banks, and sponsor-bank ecosystems where fragmented alerts and network-level financial crime risk create investigation bottlenecks.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps banks connect fragmented alerts and risk signals across systems, build investigation-ready cases, surface hidden networks, and maintain decision trails that support review, governance, and audit readiness. Start with a scoped pilot across mule detection, scam investigation, or payment risk workflows - and expand as outcomes are proven.
+              A selective, region-specific segment. Bank GTM is most relevant where teams are lean, existing tools are fragmented, sponsor-bank oversight creates compliance accountability, community bank and credit union risk operations need explainability, and digital-bank operating models create high-volume network risk. Start with a scoped pilot across mule detection, scam investigation, or payment risk workflows - and expand as outcomes are proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">

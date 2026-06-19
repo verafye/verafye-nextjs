@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Reduce Payment Fraud with Network Intelligence",
-  description: "Connect merchants, sub-merchants and transaction intelligence to uncover hidden risks, reduce fraud losses and strengthen compliance.",
-  keywords: ["payment fraud detection software", "merchant risk monitoring", "payment compliance software", "transaction intelligence", "psp fraud prevention", "payfac risk management"],
+  title: "PSP and PayFac Risk Intelligence",
+  description: "Verafye helps PSPs and PayFacs detect merchant, transaction, and mule-network risk with graph-native intelligence and audit-ready investigations.",
+  keywords: ["psp risk intelligence", "payfac fraud detection", "merchant risk monitoring", "transaction laundering detection", "mule-linked merchants", "payment fraud aml"],
   openGraph: {
-    title: "Reduce Payment Fraud with Network Intelligence | Verafye",
-    description: "Connect merchants, sub-merchants and transaction intelligence to uncover hidden risks, reduce fraud losses and strengthen compliance.",
+    title: "PSP and PayFac Risk Intelligence | Verafye",
+    description: "Verafye helps PSPs and PayFacs detect merchant, transaction, and mule-network risk with graph-native intelligence and audit-ready investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Reduce Payment Fraud with Network Intelligence | Verafye",
-    description: "Connect merchants, sub-merchants and transaction intelligence to uncover hidden risks, reduce fraud losses and strengthen compliance.",
+    title: "PSP and PayFac Risk Intelligence | Verafye",
+    description: "Verafye helps PSPs and PayFacs detect merchant, transaction, and mule-network risk with graph-native intelligence and audit-ready investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs',
@@ -39,7 +39,7 @@ export default function PaymentProcessorsPage() {
               Investigation intelligence for PSPs, PayFacs, processors, and fintechs
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Connect merchant, sub-merchant, payment, fraud, AML, identity, device, and behavior signals into faster, explainable investigations.
+              Verafye helps PSPs, PayFacs, and payment processors detect network-level risk across merchants, accounts, devices, identities, transactions, beneficiaries, and payouts.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Start with a scoped pilot alongside existing systems and expand network coverage across teams, programs and corridors as outcomes are proven.

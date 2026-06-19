@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for India's Finance",
-  description: "Help banks, NBFCs, fintechs and PSPs uncover hidden financial crime networks, improve AML readiness and strengthen fraud investigations.",
-  keywords: ["fraud detection software india", "aml compliance software india", "network risk intelligence india", "financial crime investigations india", "risk intelligence platform india", "fintech compliance india", "banking fraud detection india"],
+  title: "Network Risk Intelligence for Payment Aggregators, PSPs and NBFCs in India",
+  description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
+  keywords: ["payment aggregator risk india", "psp fraud india", "payment gateway aml india", "nbfc fraud detection india", "mule account detection india", "upi fraud investigation", "digital lending fraud india"],
   openGraph: {
-    title: "Network Risk Intelligence for India's Finance | Verafye",
-    description: "Help banks, NBFCs, fintechs and PSPs uncover hidden financial crime networks, improve AML readiness and strengthen fraud investigations.",
+    title: "Network Risk Intelligence for Payment Aggregators, PSPs and NBFCs in India | Verafye",
+    description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for India's Finance | Verafye",
-    description: "Help banks, NBFCs, fintechs and PSPs uncover hidden financial crime networks, improve AML readiness and strengthen fraud investigations.",
+    title: "Network Risk Intelligence for Payment Aggregators, PSPs and NBFCs in India | Verafye",
+    description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/in',
@@ -178,17 +178,17 @@ export default function IndiaPage() {
 
         {/* Eyebrow */}
         <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>
-          Built for India's PSPs, PAs, NBFCs, fintechs, and banks
+          Built for India's payment aggregators, PSPs, payment gateways, wallet/payment fintechs, NBFCs and digital lenders
         </p>
 
         {/* H1 */}
         <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          Investigation Intelligence for India's Regulated Financial Platforms
+          Network Risk Intelligence for India's Payment-Led Platforms
         </h1>
 
         {/* Sub-line */}
         <p className="animate-fade-up delay-150" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1rem','lineHeight':'1.4'}}>
-          Connect fraud, AML, payment, lending, and identity signals into explainable investigations aligned to India's risk and compliance needs.
+          Network intelligence across merchants, customers, devices, accounts, and beneficiaries - built for payment aggregator due diligence, mule account detection, and UPI and payment-scale investigation pressure on lean compliance teams.
         </p>
 
         {/* Supporting line */}

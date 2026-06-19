@@ -81,7 +81,7 @@ export default function Footer() {
               maxWidth: '16rem',
               margin: '0 0 1.5rem 0',
             }}>
-              The intelligent investigation layer for regulated financial platforms - helping fraud, AML, and risk teams connect alerts, explain risk, and close cases faster.
+              Built for payment-led regulated platforms and lean financial crime teams - detecting hidden network risk, connecting fragmented signals, and producing audit-ready investigations.
             </p>
             {/* Trust badge / CTA */}
             <Link

@@ -2,17 +2,17 @@ import Link from 'next/link';
 import { ProductTrialHeroPanel } from '../components/HomepageHeroPanel';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
-  description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
-  keywords: ["network risk intelligence platform", "financial crime investigation platform", "fraud detection software", "aml compliance software", "graph intelligence platform", "entity resolution", "transaction intelligence", "investigation intelligence", "financial crime intelligence", "risk analytics"],
+  title: { absolute: "Network Risk Intelligence for Fraud, AML and Payments Risk Teams | Verafye" },
+  description: "Verafye helps payment-led regulated platforms detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and produce audit-ready investigations.",
+  keywords: ["network risk intelligence platform", "payment risk intelligence", "psp payfac fraud", "msb remittance aml", "financial crime investigation platform", "graph intelligence platform", "entity resolution", "mule network detection", "alert clustering", "audit-ready investigations"],
   openGraph: {
-    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
-    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
+    title: "Network Risk Intelligence for Fraud, AML and Payments Risk Teams | Verafye",
+    description: "Verafye helps payment-led regulated platforms detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and produce audit-ready investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
-    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
+    title: "Network Risk Intelligence for Fraud, AML and Payments Risk Teams | Verafye",
+    description: "Verafye helps payment-led regulated platforms detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and produce audit-ready investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/',
@@ -41,12 +41,12 @@ export default function Page() {
 
         {/* Sub-line */}
         <p className="animate-fade-up delay-150" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1.25rem','lineHeight':'1.4'}}>
-          The intelligent investigation layer for regulated financial platforms - connect alerts, explain risk, and close cases faster, without enterprise-heavy complexity.
+          Built for payment-led regulated financial platforms and lean financial crime teams.
         </p>
 
         {/* Body */}
         <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem'}}>
-          Verafye helps regulated financial platforms detect hidden risk patterns, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and turn them into explainable, audit-ready investigations - without enterprise-heavy complexity.
+          Verafye helps PSPs, PayFacs, MSBs, remittance platforms, digital banks, NBFCs, and selected banks detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and turn them into explainable, audit-ready investigations.
         </p>
 
         {/* CTAs */}
@@ -363,8 +363,14 @@ export default function Page() {
 <section style={{'padding':'4rem 0','background':'var(--bg-tint)'}}>
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>BUILT FOR REGULATED FINANCIAL PLATFORMS</p>
-      <h2 style={{'fontSize':'clamp(1.25rem,3.5vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Investigation intelligence across the financial ecosystem</h2>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>WHO WE SERVE</p>
+      <h2 style={{'fontSize':'clamp(1.25rem,3.5vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Built for payment-led regulated platforms</h2>
+    </div>
+
+    {/* TIER 1 - Core Markets */}
+    <div style={{'maxWidth':'72rem','margin':'0 auto 1rem'}}>
+      <p style={{'fontSize':'0.75rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.1em','margin':'0 0 0.25rem'}}>Core Markets</p>
+      <p style={{'fontSize':'0.8125rem','color':'var(--muted)','margin':0}}>Our primary wedge - PSPs, PayFacs, payment processors, payment aggregators, MSBs and remittance platforms.</p>
     </div>
     <div className="grid-2" style={{'maxWidth':'72rem','margin':'0 auto'}}>
 
@@ -393,6 +399,15 @@ export default function Page() {
           </span>
         </div>
       </Link>
+
+    </div>
+
+    {/* TIER 2 - Expansion Markets */}
+    <div style={{'maxWidth':'72rem','margin':'2.5rem auto 1rem'}}>
+      <p style={{'fontSize':'0.75rem','fontWeight':'700','color':'var(--secondary)','textTransform':'uppercase','letterSpacing':'0.1em','margin':'0 0 0.25rem'}}>Expansion Markets</p>
+      <p style={{'fontSize':'0.8125rem','color':'var(--muted)','margin':0}}>Near-term expansion - digital banks, neo banks, payment-led fintechs, NBFCs, digital lenders, and selected banks.</p>
+    </div>
+    <div className="grid-2" style={{'maxWidth':'72rem','margin':'0 auto'}}>
 
       {/* 3. Digital Banks / Neo Banks */}
       <Link href="/industries/digital-banks" style={{'textDecoration':'none','display':'block'}}>
@@ -433,20 +448,7 @@ export default function Page() {
         </div>
       </Link>
 
-      {/* 6. Marketplaces */}
-      <Link href="/industries/marketplaces" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
-          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
-          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Marketplaces</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Network risk intelligence for marketplace risk teams - seller fraud rings, buyer-seller collusion and mule-linked payout networks.</p>
-          <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
-            View Marketplaces solution
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </span>
-        </div>
-      </Link>
-
-      {/* 7. Digital Lending & BNPL - ALWAYS LAST */}
+      {/* Digital Lending & BNPL */}
       <Link href="/industries/digital-lending-bnpl" style={{'textDecoration':'none','display':'block'}}>
         <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div>
@@ -459,7 +461,29 @@ export default function Page() {
         </div>
       </Link>
 
-      {/* 8. Don't see your segment - CTA card */}
+    </div>
+
+    {/* TIER 3 - Network-Risk Adjacencies */}
+    <div style={{'maxWidth':'72rem','margin':'2.5rem auto 1rem'}}>
+      <p style={{'fontSize':'0.75rem','fontWeight':'700','color':'var(--muted)','textTransform':'uppercase','letterSpacing':'0.1em','margin':'0 0 0.25rem'}}>Network-Risk Adjacencies</p>
+      <p style={{'fontSize':'0.8125rem','color':'var(--muted)','margin':0}}>Controlled expansion - marketplaces, e-commerce and quick commerce platforms where seller, buyer, payout and mule-network risk resembles financial crime network risk.</p>
+    </div>
+    <div className="grid-2" style={{'maxWidth':'72rem','margin':'0 auto'}}>
+
+      {/* Marketplaces - network-risk adjacency */}
+      <Link href="/industries/marketplaces" style={{'textDecoration':'none','display':'block'}}>
+        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Marketplaces</h3>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>A network-risk adjacency - seller fraud rings, buyer-seller collusion and mule-linked payout networks where commerce risk resembles financial crime network risk.</p>
+          <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
+            View Marketplaces solution
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </div>
+      </Link>
+
+      {/* Don't see your segment - CTA card */}
       <Link href="/request-demo" style={{'textDecoration':'none','display':'block'}}>
         <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%','background':'linear-gradient(160deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.18)'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>

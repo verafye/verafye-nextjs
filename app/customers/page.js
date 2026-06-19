@@ -1,12 +1,12 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud & AML Success Stories from Institutions",
-  description: "Discover how banks, fintechs and payment providers use Verafye to uncover financial crime networks, reduce risk and accelerate investigations.",
-  keywords: ["fraud investigation success stories", "aml compliance case studies", "financial crime investigation outcomes", "banking fraud prevention", "fintech risk management", "customer success stories"],
+  title: "Who Verafye Serves - Payment-Led Regulated Platforms",
+  description: "Verafye's ICP hierarchy - PSPs, PayFacs, payment processors, MSBs and remittance platforms first; digital banks, NBFCs and selected banks as expansion; marketplaces as a network-risk adjacency.",
+  keywords: ["psp payfac risk intelligence", "msb remittance aml", "payment-led financial platforms", "network risk intelligence customers", "fintech fraud investigation", "lean financial crime teams"],
   openGraph: {
-    title: "Fraud & AML Success Stories from Institutions | Verafye",
-    description: "Discover how banks, fintechs and payment providers use Verafye to uncover financial crime networks, reduce risk and accelerate investigations.",
+    title: "Who Verafye Serves - Payment-Led Regulated Platforms | Verafye",
+    description: "Verafye's ICP hierarchy - PSPs, PayFacs, payment processors, MSBs and remittance platforms first; digital banks, NBFCs and selected banks as expansion; marketplaces as a network-risk adjacency.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/customers',
@@ -20,8 +20,8 @@ export default function Page() {
 <section style={{'background':'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)','padding':'4rem 0'}}>
   <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
     <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Customers</p>
-    <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.035em'}}>Built for Regulated Payment Platforms and Money Movement Risk Teams</h1>
-    <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto 2.5rem'}}>Verafye serves PSPs, PayFacs, payment processors, FinTech payment platforms, digital banks, and regulated money movement businesses - connecting fraud, AML, payment, identity, device, and behavior signals into explainable investigation workflows designed for lean risk teams.</p>
+    <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.035em'}}>Built for Payment-Led Regulated Platforms and Lean Financial Crime Teams</h1>
+    <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto 2.5rem'}}>Verafye leads with PSPs, PayFacs, payment processors, payment aggregators, MSBs and remittance platforms - and expands into digital banks, neo banks, NBFCs, digital lenders and selected banks. Same risk pattern, different buyer label by geography.</p>
     <div className="animate-fade-up delay-300"><Link href="/request-demo" className="btn-primary">Request Demo <span className="btn-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link></div>
   </div>
 </section>
@@ -31,7 +31,8 @@ export default function Page() {
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>Who We Serve</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','letterSpacing':'-0.03em'}}>Regulated Payment Platforms, FinTechs, and Digital Banks</h2>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','letterSpacing':'-0.03em'}}>An ICP hierarchy, not a flat list</h2>
+      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.7,'marginTop':'1rem'}}>Primary markets are our wedge. Expansion markets are next. Banks are selective and region-specific, and commerce platforms are a controlled network-risk adjacency.</p>
     </div>
     <div className="grid-3" style={{'maxWidth':'72rem','margin':'0 auto','gap':'1.5rem'}}>
 
@@ -39,7 +40,7 @@ export default function Page() {
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg></div>
-          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#1E6FB7','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Primary</span>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#1E6FB7','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Primary Market</span>
         </div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>PSPs, PayFacs &amp; Payment Processors</h3>
         <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>PSPs, PayFacs, and payment processors carry compliance and fraud liability across high-volume, multi-rail environments. Verafye connects merchant, sub-merchant, transaction, and beneficiary signals into investigation-ready workflows - without replacing existing detection infrastructure.</p>
@@ -50,11 +51,26 @@ export default function Page() {
         </div>
       </div>
 
-      {/* 2 - FinTech Payment Platforms - PRIMARY */}
+      {/* 1b - MSBs & Remittance Platforms - PRIMARY */}
+      <div className="card card-elevated" style={{'padding':'2rem'}}>
+        <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
+          <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#1E6FB7','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Primary Market</span>
+        </div>
+        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>MSBs &amp; Remittance Platforms</h3>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>MSBs and remittance platforms carry corridor, agent, and beneficiary risk that event-level monitoring cannot connect. Verafye connects sender, receiver, corridor, transaction, device, identity, and beneficiary signals into investigation-ready network risk intelligence.</p>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Corridor and agent-linked risk investigation</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Mule beneficiary and structuring pattern review</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Cross-border AML case-ready evidence</span></div>
+        </div>
+      </div>
+
+      {/* 2 - FinTech Payment Platforms - KEY EXPANSION */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg></div>
-          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#1E6FB7','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Primary</span>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#0D7A5F','background':'rgba(13,122,95,0.08)','border':'1px solid rgba(13,122,95,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Key Expansion</span>
         </div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>FinTech Payment Platforms</h3>
         <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>FinTech payment platforms scale faster than risk infrastructure can keep pace. Verafye provides investigation intelligence that connects payment, account, identity, device, and beneficiary signals into reviewable cases - built for lean teams and API-led environments.</p>
@@ -69,7 +85,7 @@ export default function Page() {
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></div>
-          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#0D7A5F','background':'rgba(13,122,95,0.08)','border':'1px solid rgba(13,122,95,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Key Segment</span>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#0D7A5F','background':'rgba(13,122,95,0.08)','border':'1px solid rgba(13,122,95,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Key Expansion</span>
         </div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Digital Banks &amp; Neo Banks</h3>
         <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Digital and neo banks operate across wallet, payment, account, and lending surfaces where risk signals are fragmented from day one. Verafye connects account, device, identity, beneficiary, and transaction signals into one connected network view designed for digital-first risk operations.</p>
@@ -84,10 +100,10 @@ export default function Page() {
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg></div>
-          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Secondary</span>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Selective Market</span>
         </div>
-        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Banks &amp; Regional Financial Institutions</h3>
-        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Banks and regional institutions face increasing regulatory expectations around AML monitoring, fraud investigation, and decision traceability. Verafye connects fraud, AML, payments, and identity signals into one connected network view - working alongside existing infrastructure.</p>
+        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Selected Banks &amp; Credit Unions</h3>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>A selective, region-specific segment. Verafye supports selected banks, community banks, credit unions, regional banks, and sponsor-bank ecosystems where lean teams, fragmented tools, and network-level financial crime risk create investigation bottlenecks.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Connected fraud and AML investigation view</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Audit-ready case records and evidence trails</span></div>
@@ -99,9 +115,9 @@ export default function Page() {
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><path d="M12 12v6"/><path d="M9 15h6"/></svg></div>
-          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Adjacency</span>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#0D7A5F','background':'rgba(13,122,95,0.08)','border':'1px solid rgba(13,122,95,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Key Expansion</span>
         </div>
-        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Digital Lending &amp; BNPL</h3>
+        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>NBFCs &amp; Digital Lenders</h3>
         <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Digital lenders and BNPL platforms face fraud network risk that spans borrower identity, device, beneficiary, and partner signals across the loan lifecycle. Verafye supports post-booking fraud investigation workflows - it does not score creditworthiness or decide applications.</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Fraud network investigation across borrower and partner signals</span></div>
@@ -114,7 +130,7 @@ export default function Page() {
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
-          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Adjacency</span>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#64748b','background':'rgba(100,116,139,0.08)','border':'1px solid rgba(100,116,139,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Network-Risk Adjacency</span>
         </div>
         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Marketplaces</h3>
         <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Marketplace platforms face seller fraud rings, buyer-seller collusion, and mule-linked payout networks. Verafye helps risk teams connect seller, buyer, device, payout, and transaction signals into investigation-ready cases - supporting faster review and clearer evidence trails.</p>
@@ -125,6 +141,44 @@ export default function Page() {
         </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+{/* GEO ICP */}
+<section style={{'padding':'4rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
+  <div className="container" style={{'maxWidth':'64rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>ICP by Region</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.5rem)','fontWeight':'800','color':'var(--dark)','letterSpacing':'-0.03em','marginBottom':'1rem'}}>Same risk pattern, different buyer label by geography</h2>
+      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>The network-level financial crime pattern is consistent worldwide. The institution that owns it - and the regulator that oversees it - changes by region.</p>
+    </div>
+    <div className="card card-elevated" style={{'padding':'0','overflow':'hidden'}}>
+      <div style={{'overflowX':'auto'}}>
+        <table style={{'width':'100%','borderCollapse':'collapse','fontSize':'0.875rem'}}>
+          <thead>
+            <tr style={{'background':'var(--bg-tint)','textAlign':'left'}}>
+              <th style={{'padding':'0.875rem 1.25rem','fontWeight':'700','color':'var(--dark)','whiteSpace':'nowrap','borderBottom':'1px solid var(--border)'}}>Region</th>
+              <th style={{'padding':'0.875rem 1.25rem','fontWeight':'700','color':'var(--dark)','borderBottom':'1px solid var(--border)'}}>Primary ICP</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ['North America', 'MSBs, payment processors, PayFacs, community banks, credit unions, sponsor-bank ecosystems'],
+              ['India', 'Payment aggregators, PSPs, payment gateways, wallet/payment fintechs, digital banks, NBFCs, digital lenders, selected banks'],
+              ['APAC', 'Wallets, PSPs, payment fintechs, remittance platforms, digital banks'],
+              ['LATAM', 'Wallets, PSPs, fintechs, remittance platforms, digital banks'],
+              ['Middle East', 'MSBs, exchange houses, remittance firms, PSPs, selected banks'],
+              ['Europe / UK', 'Payment institutions, EMIs, MSBs, fintechs, selected challenger banks'],
+            ].map((row, i, arr) => (
+              <tr key={row[0]} style={{'borderBottom': i < arr.length - 1 ? '1px solid var(--border-light)' : 'none'}}>
+                <td style={{'padding':'0.875rem 1.25rem','fontWeight':'700','color':'var(--primary)','whiteSpace':'nowrap','verticalAlign':'top'}}>{row[0]}</td>
+                <td style={{'padding':'0.875rem 1.25rem','color':'var(--body)','lineHeight':1.6}}>{row[1]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </section>

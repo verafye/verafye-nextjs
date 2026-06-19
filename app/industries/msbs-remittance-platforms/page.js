@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AML Investigations for Remittance Providers",
-  description: "Connect sender, beneficiary and transaction intelligence to uncover money laundering risks, improve AML compliance and accelerate investigations.",
-  keywords: ["remittance aml software", "money laundering detection", "cross border transaction monitoring", "remittance compliance", "aml investigations"],
+  title: "MSB and Remittance AML Risk Intelligence",
+  description: "Graph-native network risk intelligence for MSBs and remittance platforms. Connect sender, receiver, corridor, and beneficiary signals into investigation-ready cases.",
+  keywords: ["msb aml software", "remittance aml intelligence", "cross border transaction monitoring", "mule beneficiary detection", "corridor risk", "structuring detection"],
   openGraph: {
-    title: "AML Investigations for Remittance Providers | Verafye",
-    description: "Connect sender, beneficiary and transaction intelligence to uncover money laundering risks, improve AML compliance and accelerate investigations.",
+    title: "MSB and Remittance AML Risk Intelligence | Verafye",
+    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Connect sender, receiver, corridor, and beneficiary signals into investigation-ready cases.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AML Investigations for Remittance Providers | Verafye",
-    description: "Connect sender, beneficiary and transaction intelligence to uncover money laundering risks, improve AML compliance and accelerate investigations.",
+    title: "MSB and Remittance AML Risk Intelligence | Verafye",
+    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Connect sender, receiver, corridor, and beneficiary signals into investigation-ready cases.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/msbs-remittance-platforms',
@@ -31,7 +31,7 @@ export default function MSBsRemittancePlatformsPage() {
               Network Risk Intelligence for MSBs and Remittance Platforms
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye resolves senders, beneficiaries, agents and counterparties across corridors - mapping cross-entity transaction networks and scoring risk in real time, so lean compliance teams convert alert noise into investigation-grade evidence regulators can audit.
+              Verafye helps MSBs and remittance platforms connect sender, receiver, corridor, transaction, device, identity, and beneficiary signals into investigation-ready network risk intelligence - so lean compliance teams convert alert noise into evidence regulators can audit.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo" className="btn-primary">
