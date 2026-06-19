@@ -164,7 +164,7 @@ export default function BecomeAPartnerClient() {
               Become a Verafye Partner
             </h1>
             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
-              Collaborate with Verafye to bring connected fraud, AML, and payment investigation intelligence to regulated financial platforms.
+              Collaborate with Verafye to bring connected fraud, AML, and payment investigation intelligence to regulated financial platforms. Partners, BaaS providers, embedded finance platforms, processors, consultants, and technology providers can use Verafye to extend network-risk visibility and support sponsor-bank and program oversight workflows across client programs.
             </p>
           </div>
         </div>

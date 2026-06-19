@@ -339,6 +339,7 @@ export default function RequestDemoClient() {
                             <option value="PayFac">PayFac</option>
                             <option value="Payment Aggregator">Payment Aggregator</option>
                             <option value="MSB / Remittance Platform">MSB / Remittance Platform</option>
+                            <option value="BaaS / Embedded Finance Provider">BaaS / Embedded Finance Provider</option>
                             <option value="Digital Bank / Neo Bank">Digital Bank / Neo Bank</option>
                             <option value="Wallet / Payment Fintech">Wallet / Payment Fintech</option>
                             <option value="NBFC / Digital Lender">NBFC / Digital Lender</option>

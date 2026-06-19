@@ -46,7 +46,7 @@ export default function Page() {
 
         {/* Body */}
         <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem'}}>
-          Verafye helps PSPs, PayFacs, MSBs, remittance platforms, digital banks, NBFCs, and selected banks detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and turn them into explainable, audit-ready investigations.
+          Verafye helps PSPs, PayFacs, MSBs, remittance platforms, BaaS providers, embedded finance platforms, digital banks, NBFCs, and selected banks detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and turn them into explainable, audit-ready investigations.
         </p>
 
         {/* CTAs */}
@@ -370,7 +370,7 @@ export default function Page() {
     {/* TIER 1 - Core Markets */}
     <div style={{'maxWidth':'72rem','margin':'0 auto 1rem'}}>
       <p style={{'fontSize':'0.75rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.1em','margin':'0 0 0.25rem'}}>Core Markets</p>
-      <p style={{'fontSize':'0.8125rem','color':'var(--muted)','margin':0}}>Our primary wedge - PSPs, PayFacs, payment processors, payment aggregators, MSBs and remittance platforms.</p>
+      <p style={{'fontSize':'0.8125rem','color':'var(--muted)','margin':0}}>Our primary wedge - PSPs, PayFacs, payment processors, payment aggregators, MSBs, remittance platforms, and BaaS / embedded finance providers.</p>
     </div>
     <div className="grid-2" style={{'maxWidth':'72rem','margin':'0 auto'}}>
 
@@ -395,6 +395,19 @@ export default function Page() {
           <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Connect sender, beneficiary, agent and corridor signals into investigation-grade evidence - built for MSBs and remittance platforms under FINTRAC, FinCEN and FCA expectations.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View MSBs &amp; Remittance solution
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </div>
+      </Link>
+
+      {/* 3. BaaS / Embedded Finance Providers */}
+      <Link href="/risk-shadowing-review" style={{'textDecoration':'none','display':'block'}}>
+        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>BaaS &amp; Embedded Finance Providers</h3>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>An independent Network Risk Intelligence layer across fintech programs, sponsor-bank relationships, payment flows, identity, device, ledger, and case signals - connecting fragmented signals into investigation-ready evidence.</p>
+          <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
+            Explore a Risk Shadowing Review
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </span>
         </div>

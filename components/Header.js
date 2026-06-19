@@ -34,6 +34,7 @@ const navItems = [
     children: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
+      { href: '/risk-shadowing-review',                       label: 'BaaS / Embedded Finance' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
       { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },
@@ -95,6 +96,7 @@ const mobileNavGroups = [
     items: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
+      { href: '/risk-shadowing-review',                       label: 'BaaS / Embedded Finance' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
       { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },

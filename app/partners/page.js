@@ -35,7 +35,7 @@ export default function PartnersPage() {
               Collaborate with Verafye to bring connected investigation intelligence to regulated payment platforms, fintechs, digital banks, and financial institutions globally.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              We work with strategic partners, system integrators, and ecosystem players to deliver scalable fraud, risk, and AML intelligence solutions.
+              We work with strategic partners, system integrators, and ecosystem players to deliver scalable fraud, risk, and AML intelligence solutions. Partners, BaaS providers, embedded finance platforms, processors, consultants, and technology providers can use Verafye to extend network-risk visibility across client programs, sponsor-bank relationships, payment flows, identity signals, device patterns, and investigation workflows.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/become-a-partner" className="btn-primary">

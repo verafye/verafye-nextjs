@@ -27,6 +27,7 @@ const footerColumns = [
     links: [
       { label: 'PSPs, PayFacs & Payment Processors', href: '/industries/payment-processors-psps-payfacs' },
       { label: 'MSBs & Remittance Platforms',        href: '/industries/msbs-remittance-platforms' },
+      { label: 'BaaS / Embedded Finance',            href: '/risk-shadowing-review' },
       { label: 'Digital Banks & Neo Banks',          href: '/industries/digital-banks' },
       { label: 'FinTech Payment Platforms',          href: '/industries/fintech-platforms' },
       { label: 'NBFCs & Digital Lending',            href: '/industries/digital-lending-bnpl' },

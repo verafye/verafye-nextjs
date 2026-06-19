@@ -21,7 +21,7 @@ export default function Page() {
   <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
     <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Customers</p>
     <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.035em'}}>Built for Payment-Led Regulated Platforms and Lean Financial Crime Teams</h1>
-    <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto 2.5rem'}}>Verafye leads with PSPs, PayFacs, payment processors, payment aggregators, MSBs and remittance platforms - and expands into digital banks, neo banks, NBFCs, digital lenders and selected banks. Same risk pattern, different buyer label by geography.</p>
+    <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto 2.5rem'}}>Verafye leads with PSPs, PayFacs, payment processors, payment aggregators, MSBs, remittance platforms, and BaaS / embedded finance providers - and expands into digital banks, neo banks, NBFCs, digital lenders and selected banks. Same risk pattern, different buyer label by geography.</p>
     <div className="animate-fade-up delay-300"><Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review <span className="btn-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link></div>
   </div>
 </section>
@@ -63,6 +63,21 @@ export default function Page() {
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Corridor and agent-linked risk investigation</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Mule beneficiary and structuring pattern review</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Cross-border AML case-ready evidence</span></div>
+        </div>
+      </div>
+
+      {/* 1c - BaaS & Embedded Finance Providers - PRIMARY */}
+      <div className="card card-elevated" style={{'padding':'2rem'}}>
+        <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
+          <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+          <span style={{'fontSize':'0.625rem','fontWeight':'700','letterSpacing':'0.08em','textTransform':'uppercase','color':'#1E6FB7','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','borderRadius':'4px','padding':'0.2rem 0.5rem','whiteSpace':'nowrap'}}>Primary Market</span>
+        </div>
+        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>BaaS &amp; Embedded Finance Providers</h3>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>BaaS and embedded finance providers operate across sponsor banks, fintech programs, payment flows, ledger events, identity signals, device patterns, and case workflows. Verafye helps connect fragmented program, payment, fraud, AML, identity, and partner-risk signals into investigation-ready Network Risk Intelligence.</p>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Cross-program fraud and AML visibility</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Sponsor-bank ecosystem oversight support</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Ledger, account, wallet, identity, and device signal linkage</span></div>
         </div>
       </div>
 
@@ -164,12 +179,12 @@ export default function Page() {
           </thead>
           <tbody>
             {[
-              ['North America', 'MSBs, payment processors, PayFacs, community banks, credit unions, sponsor-bank ecosystems'],
+              ['North America', 'MSBs, payment processors, PayFacs, BaaS providers, embedded finance platforms, community banks, credit unions, sponsor-bank ecosystems'],
               ['India', 'Payment aggregators, PSPs, payment gateways, wallet/payment fintechs, digital banks, NBFCs, digital lenders, selected banks'],
               ['APAC', 'Wallets, PSPs, payment fintechs, remittance platforms, digital banks'],
               ['LATAM', 'Wallets, PSPs, fintechs, remittance platforms, digital banks'],
-              ['Middle East', 'MSBs, exchange houses, remittance firms, PSPs, selected banks'],
-              ['Europe / UK', 'Payment institutions, EMIs, MSBs, fintechs, selected challenger banks'],
+              ['Middle East', 'MSBs, exchange houses, remittance firms, PSPs, BaaS and embedded finance where applicable, selected banks'],
+              ['Europe / UK', 'Payment institutions, EMIs, MSBs, BaaS providers, embedded finance platforms, fintechs, selected challenger banks'],
             ].map((row, i, arr) => (
               <tr key={row[0]} style={{'borderBottom': i < arr.length - 1 ? '1px solid var(--border-light)' : 'none'}}>
                 <td style={{'padding':'0.875rem 1.25rem','fontWeight':'700','color':'var(--primary)','whiteSpace':'nowrap','verticalAlign':'top'}}>{row[0]}</td>

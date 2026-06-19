@@ -217,6 +217,9 @@ export default function PlatformPage() {
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto'}}>
         Verafye is designed for flexible adoption. Start alongside existing systems by ingesting alerts, transactions, events, entities, device signals, identity signals, payment data, behavioral signals, and case data. Expand into graph-native detection, risk scoring, clustering, case workflow, evidence management, and decisioning as value is proven.
       </p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'1.25rem auto 0'}}>
+        BaaS and embedded finance providers can use Verafye as an independent Network Risk Intelligence layer to connect payment, ledger, identity, KYC/KYB, device, program, partner, and case signals across fragmented systems - supporting cross-program and sponsor-bank ecosystem oversight workflows without replacing existing systems. Inputs are configurable based on use case and available data.
+      </p>
     </div>
     <blockquote style={{'margin':'0 auto','maxWidth':'46rem','padding':'2rem 2.5rem','background':'linear-gradient(165deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'14px','textAlign':'center'}}>
       <p style={{'fontSize':'clamp(1.0625rem,2.2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','lineHeight':1.4,'letterSpacing':'-0.02em','margin':0}}>

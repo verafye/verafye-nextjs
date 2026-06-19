@@ -206,17 +206,17 @@ export default function CapabilitiesPage() {
               {[
                 {
                   label: 'Detection Intelligence',
-                  body: 'Graph-based risk detection, risk scoring, mule network detection, transaction pattern detection, entity-link analysis, and cross-account, cross-merchant, cross-device, and cross-beneficiary risk discovery.',
+                  body: 'Graph-based risk detection, risk scoring, mule network detection, transaction pattern detection, entity-link analysis, and cross-account, cross-merchant, cross-device, and cross-beneficiary risk discovery - including cross-program network risk and sponsor-bank ecosystem risk patterns for BaaS and embedded finance providers.',
                   icon: (<svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
                 },
                 {
                   label: 'Investigation Intelligence',
-                  body: 'Alert clustering, case context, analyst summaries, evidence packs, investigation workflow, case collaboration, and network visualization.',
+                  body: 'Alert clustering, case context, analyst summaries, evidence packs, investigation workflow, case collaboration, and network visualization - including program-level case clustering, partner-risk context, and investigation-ready evidence across sponsor-bank and embedded-finance workflows.',
                   icon: (<svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 },
                 {
                   label: 'Decision Intelligence',
-                  body: 'Explainability, audit trails, escalation logic, reviewer controls, SAR/STR support where applicable, and defensible decision records.',
+                  body: 'Explainability, audit trails, escalation logic, reviewer controls, SAR/STR support where applicable, and defensible decision records - including audit-ready program-risk summaries and explainable evidence for sponsor-bank, BaaS, and fintech oversight workflows.',
                   icon: (<svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>),
                 },
               ].map((p, i) => (
@@ -230,7 +230,7 @@ export default function CapabilitiesPage() {
             <div style={{maxWidth: '72rem', margin: '1.75rem auto 0'}}>
               <p style={{fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem'}}>Applied Across</p>
               <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.5rem'}}>
-                {['PSP merchant & sub-merchant risk','PayFac portfolio risk','MSB & remittance corridor risk','Mule account & mule network detection','Linked beneficiaries','Device-linked networks','Identity-linked networks','Wallet & digital bank risk','NBFC & digital lending fraud patterns','Marketplace seller & payout risk (adjacency)'].map(t => (
+                {['PSP merchant & sub-merchant risk','PayFac portfolio risk','MSB & remittance corridor risk','BaaS & embedded finance program risk','Sponsor-bank ecosystem risk','Cross-program network risk','Mule account & mule network detection','Linked beneficiaries','Device-linked networks','Identity-linked networks','Wallet & digital bank risk','NBFC & digital lending fraud patterns','Marketplace seller & payout risk (adjacency)'].map(t => (
                   <span key={t} style={{fontSize: '0.75rem', fontWeight: 600, color: 'var(--body)', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '999px', padding: '0.35rem 0.8rem'}}>{t}</span>
                 ))}
               </div>
