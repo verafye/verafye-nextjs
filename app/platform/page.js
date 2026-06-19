@@ -203,6 +203,24 @@ export default function PlatformPage() {
   `}</style>
 </section>
 
+{/* FLEXIBLE ADOPTION */}
+<section className="section-light" style={{'padding':'4rem 0'}}>
+  <div className="container" style={{'maxWidth':'64rem'}}>
+    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>FLEXIBLE ADOPTION</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Two ways to adopt Verafye</h2>
+      <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto'}}>
+        Verafye is designed for flexible adoption. Start alongside existing systems by ingesting alerts, transactions, events, entities, device signals, identity signals, payment data, behavioral signals, and case data. Expand into graph-native detection, risk scoring, clustering, case workflow, evidence management, and decisioning as value is proven.
+      </p>
+    </div>
+    <blockquote style={{'margin':'0 auto','maxWidth':'46rem','padding':'2rem 2.5rem','background':'linear-gradient(165deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'14px','textAlign':'center'}}>
+      <p style={{'fontSize':'clamp(1.0625rem,2.2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','lineHeight':1.4,'letterSpacing':'-0.02em','margin':0}}>
+        Start alongside existing systems. Expand into broader detection, investigation, and decisioning workflows as value is proven.
+      </p>
+    </blockquote>
+  </div>
+</section>
+
 {/* CORE PLATFORM MODULES */}
 <section style={{'padding':'4rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>

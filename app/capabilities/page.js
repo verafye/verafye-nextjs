@@ -198,6 +198,39 @@ export default function CapabilitiesPage() {
         </div>
       </section>
 
+      {/* ── Section 2b: Three pillars ── */}
+      <section style={{padding: 'clamp(1rem,3vw,2rem) 1.5rem 0', background: '#fff'}}>
+        <div className="container">
+          <div style={{maxWidth: '72rem', margin: '0 auto'}}>
+            <div className="grid-3" style={{gap: '1.25rem'}}>
+              {[
+                {
+                  label: 'Detection Intelligence',
+                  body: 'Graph-based risk detection, risk scoring, mule network detection, transaction pattern detection, entity-link analysis, and cross-account, cross-merchant, cross-device, and cross-beneficiary risk discovery.',
+                  icon: (<svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
+                },
+                {
+                  label: 'Investigation Intelligence',
+                  body: 'Alert clustering, case context, analyst summaries, evidence packs, investigation workflow, case collaboration, and network visualization.',
+                  icon: (<svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
+                },
+                {
+                  label: 'Decision Intelligence',
+                  body: 'Explainability, audit trails, escalation logic, reviewer controls, SAR/STR support where applicable, and defensible decision records.',
+                  icon: (<svg width="22" height="22" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>),
+                },
+              ].map((p, i) => (
+                <div key={i} className="card card-elevated" style={{padding: '2rem'}}>
+                  <div className="card-icon gradient-bg-4" style={{marginBottom: '1.1rem'}}>{p.icon}</div>
+                  <h3 style={{fontSize: 'clamp(1.0625rem,1.8vw,1.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', letterSpacing: '-0.015em'}}>{p.label}</h3>
+                  <p style={{fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.65}}>{p.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Section 3a: Primary capabilities ── */}
       <section className="section-light" style={{padding: 'clamp(2rem,4vw,3.5rem) 1.5rem'}}>
         <div className="container">

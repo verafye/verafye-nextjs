@@ -46,7 +46,7 @@ export default function Page() {
 
         {/* Body */}
         <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem'}}>
-          Verafye connects fraud, AML, payment, identity, device and behavior signals into one network view - resolving entities, mapping cross-entity transaction networks and scoring risk in real time, so lean teams move from fragmented alerts to explainable, audit-ready cases faster.
+          Verafye helps regulated financial platforms detect hidden risk patterns, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and turn them into explainable, audit-ready investigations - without enterprise-heavy complexity.
         </p>
 
         {/* CTAs */}
@@ -158,9 +158,9 @@ export default function Page() {
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>WHY VERAFYE</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Investigation intelligence, not another detection engine</h2>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Detection that does not stop at alerts</h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto'}}>
-        Most tools generate more alerts. Verafye connects the alerts you already have, clusters related signals, builds entity and network context, and helps analysts move from review to decision with explainable case intelligence.
+        Most risk tools stop at alert generation. Verafye goes further - detecting hidden network risk, connecting fragmented alerts and signals, clustering them into investigation-ready cases, and helping teams make faster, explainable, audit-ready decisions.
       </p>
     </div>
     <div className="grid-3" style={{'maxWidth':'80rem','margin':'0 auto'}}>
@@ -264,12 +264,12 @@ export default function Page() {
 
     <div className="hvw-flow">
       {[
-        { n:1, title:'Ingest Signals',      body:'Fraud, AML, payment, identity, device, and behavior signals arrive through APIs and integrations.',                 icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg> },
-        { n:2, title:'Resolve Entities',    body:'Users, accounts, devices, merchants, and counterparties are identified and normalized across sources.',             icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> },
-        { n:3, title:'Cluster Alerts',      body:'Related alerts across fraud, AML, and payments are grouped into connected cases - not isolated queues.',          icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg> },
-        { n:4, title:'Build Graph Context', body:'Hidden relationships across entities, transactions, and counterparties are surfaced automatically.',               icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg> },
-        { n:5, title:'Form Cases',          body:'Analysts start with structured context, risk summaries, and suggested next steps - not raw alert queues.',       icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg> },
-        { n:6, title:'Document Decisions',  body:'Every action is logged with audit trails, evidence, and case notes - built for compliance review.',               icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> },
+        { n:1, title:'Ingest Alerts & Signals', body:'Alerts, transactions, events, and fraud, AML, payment, identity, device, and behavior signals arrive through APIs and integrations.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg> },
+        { n:2, title:'Resolve Entities & Relationships', body:'Users, accounts, devices, merchants, and counterparties are resolved and linked across sources.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> },
+        { n:3, title:'Detect Network Risk', body:'Graph-native analysis surfaces hidden networks, linked entities, mule patterns, and coordinated risk that rule-based tools miss.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg> },
+        { n:4, title:'Cluster into Cases',  body:'Related alerts and detected activity across fraud, AML, and payments are grouped into connected, investigation-ready cases.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg> },
+        { n:5, title:'Prioritize Investigations', body:'Analysts start with risk-scored cases, structured context, and suggested next steps - not raw alert queues.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg> },
+        { n:6, title:'Decide & Document',   body:'Every action is logged with audit trails, evidence, and case notes - producing explainable, audit-ready decision records.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> },
       ].flatMap((step, idx, arr) => {
         const stepEl = (
           <div key={`step-${step.n}`} className="hvw-step">
@@ -497,8 +497,8 @@ export default function Page() {
   `}</style>
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE INVESTIGATION LAYER FOR LEAN RISK TEAMS</p>
-      <h2 style={{'fontSize':'clamp(1.25rem,3.5vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Inputs in. Intelligence out. Decisions made.</h2>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE NETWORK RISK INTELLIGENCE LAYER FOR LEAN RISK TEAMS</p>
+      <h2 style={{'fontSize':'clamp(1.25rem,3.5vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Detect. Connect. Investigate. Decide.</h2>
     </div>
 
     <div className="inv-map">
@@ -530,7 +530,7 @@ export default function Page() {
       <div style={{'background':'linear-gradient(160deg,#0F2B5B 0%,#1A5EA0 100%)','borderRadius':'20px','padding':'2.5rem 1.75rem','color':'#fff','boxShadow':'0 8px 36px rgba(30,111,183,0.22), 0 2px 8px rgba(0,0,0,0.1)'}}>
         <p style={{'fontSize':'0.5625rem','fontWeight':'700','letterSpacing':'0.14em','textTransform':'uppercase','color':'rgba(255,255,255,0.5)','marginBottom':'0.375rem'}}>Verafye</p>
         <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','marginBottom':'0.25rem','lineHeight':1.2}}>Intelligence Layer</p>
-        <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.6)','marginBottom':'1.75rem'}}>Cross-functional · Explainable · Audit-ready</p>
+        <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.6)','marginBottom':'1.75rem'}}>Graph-native · Detection-capable · Audit-ready</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem'}}>
           {[
             { label: 'Connected Signals',     icon: <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg> },
