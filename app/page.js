@@ -51,7 +51,7 @@ export default function Page() {
 
         {/* CTAs */}
         <div className="animate-fade-up delay-300" style={{'display':'flex','flexWrap':'wrap','gap':'0.75rem','marginBottom':'1.5rem'}}>
-          <Link href="/request-demo" className="btn-primary">
+          <Link href="/risk-shadowing-review" className="btn-primary">
             Request a Risk Shadowing Review
             <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -401,13 +401,13 @@ export default function Page() {
       </Link>
 
       {/* 3. BaaS / Embedded Finance Providers */}
-      <Link href="/risk-shadowing-review" style={{'textDecoration':'none','display':'block'}}>
+      <Link href="/industries/baas-embedded-finance" style={{'textDecoration':'none','display':'block'}}>
         <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>BaaS &amp; Embedded Finance Providers</h3>
           <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>An independent Network Risk Intelligence layer across fintech programs, sponsor-bank relationships, payment flows, identity, device, ledger, and case signals - connecting fragmented signals into investigation-ready evidence.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
-            Explore a Risk Shadowing Review
+            View BaaS &amp; Embedded Finance solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </span>
         </div>
@@ -660,7 +660,7 @@ export default function Page() {
       Discover how Verafye helps lean fraud, AML, and risk teams connect alerts, explain risk, and close cases faster. Start with a scoped pilot - and expand network coverage across teams, products and payment flows as outcomes are proven.
     </p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
-      <Link href="/request-demo" className="btn-primary">
+      <Link href="/risk-shadowing-review" className="btn-primary">
         Request a Risk Shadowing Review
         <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

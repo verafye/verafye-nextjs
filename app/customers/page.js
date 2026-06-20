@@ -22,7 +22,7 @@ export default function Page() {
     <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Customers</p>
     <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.035em'}}>Built for Payment-Led Regulated Platforms and Lean Financial Crime Teams</h1>
     <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto 2.5rem'}}>Verafye leads with PSPs, PayFacs, payment processors, payment aggregators, MSBs, remittance platforms, and BaaS / embedded finance providers - and expands into digital banks, neo banks, NBFCs, digital lenders and selected banks. Same risk pattern, different buyer label by geography.</p>
-    <div className="animate-fade-up delay-300"><Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review <span className="btn-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link></div>
+    <div className="animate-fade-up delay-300"><Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review <span className="btn-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link></div>
   </div>
 </section>
 
@@ -79,6 +79,10 @@ export default function Page() {
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Sponsor-bank ecosystem oversight support</span></div>
           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Ledger, account, wallet, identity, and device signal linkage</span></div>
         </div>
+        <Link href="/industries/baas-embedded-finance" style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem','marginTop':'1.25rem'}}>
+          View BaaS &amp; Embedded Finance solution
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </Link>
       </div>
 
       {/* 2 - FinTech Payment Platforms - KEY EXPANSION */}
@@ -222,7 +226,7 @@ export default function Page() {
     <p style={{'fontSize':'clamp(0.938rem,2vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem','maxWidth':'40rem','marginLeft':'auto','marginRight':'auto'}}>Talk to our team about connecting fraud, AML, and payment risk signals into investigation-ready cases - designed for regulated payment platforms, fintechs, and digital banks operating under real compliance pressure.</p>
     <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--muted)','maxWidth':'34rem','margin':'0 auto 2.5rem'}}>PSPs, PayFacs, FinTech payment platforms, digital banks, and regulated money movement businesses are building investigation intelligence ahead of regulatory review cycles. Verafye is built for that operating reality.</p>
     <div style={{'display':'flex','flexWrap':'wrap','gap':'1rem','justifyContent':'center'}}>
-      <Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review <span className="btn-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link>
+      <Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review <span className="btn-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link>
       <Link href="/platform" className="btn-secondary">Explore Platform</Link>
     </div>
     <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>No commitment required. Speak directly with our solutions team.</p>

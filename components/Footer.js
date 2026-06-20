@@ -11,6 +11,7 @@ const footerColumns = [
       { label: 'Investigation Intelligence', href: '/solutions/investigation-intelligence' },
       { label: 'Graph Intelligence',         href: '/solutions/graph-intelligence' },
       { label: 'Mule Account Detection',     href: '/solutions/mule-account-detection' },
+      { label: 'Risk Shadowing Review',      href: '/risk-shadowing-review' },
     ],
   },
   {
@@ -27,7 +28,7 @@ const footerColumns = [
     links: [
       { label: 'PSPs, PayFacs & Payment Processors', href: '/industries/payment-processors-psps-payfacs' },
       { label: 'MSBs & Remittance Platforms',        href: '/industries/msbs-remittance-platforms' },
-      { label: 'BaaS / Embedded Finance',            href: '/risk-shadowing-review' },
+      { label: 'BaaS / Embedded Finance',            href: '/industries/baas-embedded-finance' },
       { label: 'Digital Banks & Neo Banks',          href: '/industries/digital-banks' },
       { label: 'FinTech Payment Platforms',          href: '/industries/fintech-platforms' },
       { label: 'NBFCs & Digital Lending',            href: '/industries/digital-lending-bnpl' },

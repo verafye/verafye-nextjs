@@ -349,7 +349,7 @@ export default function MuleAccountDetectionPage() {
             Built for security-conscious regulated environments
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center', marginBottom: '1rem' }}>
-            {['ISO/IEC 27001 · Information Security Management', 'SOC 2 Type I · Security & Availability Controls', 'PCI DSS: SAQ-D · Payment Data Security', 'GDPR-aligned · EU Data Protection', 'DPDP-aware · India Data Protection Readiness'].map(t => (
+            {['ISO/IEC 27001-aligned controls', 'SOC 2 readiness posture', 'PCI DSS SAQ-D aligned', 'GDPR-aligned · EU Data Protection', 'DPDP-aware · India Data Protection Readiness'].map(t => (
               <span key={t} style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--dark)', background: 'var(--bg-light)', border: '1px solid var(--border)', borderRadius: '6px', padding: '0.35rem 0.875rem' }}>{t}</span>
             ))}
           </div>

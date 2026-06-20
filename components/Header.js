@@ -34,7 +34,7 @@ const navItems = [
     children: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
-      { href: '/risk-shadowing-review',                       label: 'BaaS / Embedded Finance' },
+      { href: '/industries/baas-embedded-finance',           label: 'BaaS / Embedded Finance' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
       { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },
@@ -96,7 +96,7 @@ const mobileNavGroups = [
     items: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
-      { href: '/risk-shadowing-review',                       label: 'BaaS / Embedded Finance' },
+      { href: '/industries/baas-embedded-finance',           label: 'BaaS / Embedded Finance' },
       { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
       { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },
@@ -470,7 +470,7 @@ export default function Header() {
           <div className="header-actions" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             <GeoSelector />
             <Link
-              href="/request-demo"
+              href="/risk-shadowing-review"
               className="btn-primary btn-sm"
               onClick={() =>
                 typeof window !== 'undefined' &&
@@ -558,7 +558,7 @@ export default function Header() {
           ))}
 
           <Link
-            href="/request-demo"
+            href="/risk-shadowing-review"
             className="btn-primary"
             style={{ marginTop: '1.5rem', textAlign: 'center', display: 'block' }}
             onClick={() => {
@@ -568,7 +568,7 @@ export default function Header() {
                 window.trackEvent('demo_cta_click', { location: 'mobile_menu' });
             }}
           >
-            Request a Risk Shadowing Review
+            Explore Risk Shadowing
           </Link>
         </div>
       </>,

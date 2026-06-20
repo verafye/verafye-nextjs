@@ -9,6 +9,7 @@ const INITIAL_FORM = {
   company: '',
   role: '',
   companyType: '',
+  inquiryType: 'Risk Shadowing Review',
   message: '',
 };
 
@@ -23,19 +24,21 @@ function buildRequestDemoPayload(form) {
   const company = form.company.trim();
   const role = form.role.trim();
   const companyType = form.companyType.trim();
+  const inquiryType = form.inquiryType.trim();
   const message = form.message.trim();
 
   return {
     clientName: company,
     emailAddress: form.email.trim(),
     phoneNumber: '',
-    subject: `Request Demo - ${company}`,
+    subject: `${inquiryType || 'Risk Shadowing Review'} - ${company}`,
     message: [
       `Contact Name: ${fullName}`,
       `Work Email: ${form.email.trim()}`,
       `Company: ${company}`,
       `Role / Title: ${role}`,
       `Company Type: ${companyType}`,
+      `Inquiry Type: ${inquiryType}`,
       message ? `Message: ${message}` : null,
     ].filter(Boolean).join('\n'),
     institutionUuid: null,
@@ -163,12 +166,12 @@ export default function RequestDemoClient() {
       <section style={{ background: 'linear-gradient(135deg, #F5F9FF 0%, #EEF4FF 60%, #fff 100%)', padding: '2.25rem 0 2rem', borderBottom: '1px solid rgba(30,111,183,0.07)' }}>
         <div className="container">
           <div style={{ maxWidth: '56rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>Request Demo</p>
+            <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>Risk Shadowing Review</p>
             <h1 style={{ fontSize: 'clamp(1.75rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              See Verafye in Action
+              Request a Risk Shadowing Review
             </h1>
             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
-              Connected fraud, AML, and payment intelligence for regulated financial institutions and payment platforms.
+              Share a focused use case or evaluation goal, and we will help assess whether Verafye can run alongside your existing fraud, AML, KYC, identity, payment, device, ledger, and case systems.
             </p>
           </div>
         </div>
@@ -352,6 +355,18 @@ export default function RequestDemoClient() {
                         </div>
                       </div>
 
+                      {/* Inquiry Type */}
+                      <div className="form-group">
+                        <label className="form-label" htmlFor="inquiryType">Inquiry Type</label>
+                        <select id="inquiryType" name="inquiryType" className="form-select" value={form.inquiryType} onChange={handleChange}>
+                          <option value="Risk Shadowing Review">Risk Shadowing Review</option>
+                          <option value="Product Walkthrough">Product Walkthrough</option>
+                          <option value="Partnership Discussion">Partnership Discussion</option>
+                          <option value="Product Evaluation">Product Evaluation</option>
+                          <option value="Other">Other</option>
+                        </select>
+                      </div>
+
                       {/* Message */}
                       <div className="form-group">
                         <label className="form-label" htmlFor="message">Message <span style={{ fontSize: '0.75rem', fontWeight: 400, color: 'var(--muted-light)' }}>(optional)</span></label>
@@ -365,7 +380,7 @@ export default function RequestDemoClient() {
                         aria-busy={isSubmitting}
                         style={{ width: '100%', height: '3rem', fontSize: '0.9375rem', marginTop: '0.5rem', opacity: isSubmitting ? 0.72 : 1, cursor: isSubmitting ? 'wait' : 'pointer' }}
                       >
-                        {isSubmitting ? 'Submitting...' : 'Request Demo'}
+                        {isSubmitting ? 'Submitting...' : 'Request Risk Shadowing Review'}
                         <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </span>
