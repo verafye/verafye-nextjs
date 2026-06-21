@@ -117,11 +117,10 @@ export default function Page() {
 </section>
 
 {/* ─── TRUST / SECURITY STRIP ───────────────────────────────────────────── */}
-{/* GDPR is labelled "GDPR-aligned" - not "certified" - as GDPR is not a cert.
-    4 blocks must always render in a single row on desktop (grid-template-columns: repeat(4,1fr)). */}
+{/* Certification logos. GDPR shown as "Compliant" (legislative framework, not a certification scheme). */}
 <section style={{'padding':'2.5rem 0','background':'#fff','borderBottom':'1px solid var(--border)'}}>
   <style>{`
-    .cert-grid { display: grid; grid-template-columns: repeat(5,1fr); gap: 1rem; max-width: 72rem; margin: 0 auto; }
+    .cert-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; max-width: 60rem; margin: 0 auto; align-items: stretch; }
     @media (max-width: 900px) { .cert-grid { grid-template-columns: repeat(3,1fr); } }
     @media (max-width: 540px) { .cert-grid { grid-template-columns: repeat(2,1fr); } }
     @media (max-width: 380px) { .cert-grid { grid-template-columns: 1fr; } }
@@ -135,20 +134,18 @@ export default function Page() {
     </p>
     <div className="cert-grid">
       {[
-        { label: 'ISO/IEC 27001-aligned controls',  sub: 'Information Security Management' },
-        { label: 'SOC 2 readiness posture',   sub: 'Security & Availability Controls' },
-        { label: 'PCI DSS SAQ-D aligned', sub: 'Payment Data Security' },
-        { label: 'GDPR-aligned',   sub: 'EU Data Protection' },
-        { label: 'DPDP-aware',     sub: 'India Data Protection Readiness' },
+        { src: '/certifications/iso-27001.svg',   alt: 'ISO/IEC 27001:2022 certified' },
+        { src: '/certifications/soc-2-type-1.svg', alt: 'SOC 2 Type I' },
+        { src: '/certifications/pci-dss.svg',      alt: 'PCI DSS SAQ-D compliant' },
+        { src: '/certifications/gdpr.svg',         alt: 'GDPR compliant' },
       ].map((b) => (
-        <div key={b.label} style={{'display':'flex','flexDirection':'column','alignItems':'center','justifyContent':'center','gap':'0.25rem','padding':'1rem 1.25rem','border':'1px solid var(--border)','borderRadius':'10px','background':'#FAFBFD','textAlign':'center'}}>
-          <span style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.01em','lineHeight':1.2}}>{b.label}</span>
-          <span style={{'fontSize':'0.75rem','color':'var(--muted)','lineHeight':1.3}}>{b.sub}</span>
+        <div key={b.src} style={{'display':'flex','alignItems':'center','justifyContent':'center','padding':'1rem','border':'1px solid var(--border)','borderRadius':'10px','background':'#FAFBFD'}}>
+          <img src={b.src} alt={b.alt} width="120" height="80" style={{'width':'100%','maxWidth':'120px','height':'auto'}} />
         </div>
       ))}
     </div>
     <p style={{'textAlign':'center','fontSize':'0.75rem','color':'var(--muted)','marginTop':'1.25rem','lineHeight':1.6,'maxWidth':'44rem','marginLeft':'auto','marginRight':'auto'}}>
-      Verafye is designed with security controls and architectural patterns aligned to these frameworks. Framework certification status is available on request.
+      Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D, and maintains GDPR-compliant and DPDP-aware data practices. Certificates are available on request. GDPR is a legislative framework, not a certification scheme.
     </p>
   </div>
 </section>

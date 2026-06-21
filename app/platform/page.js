@@ -682,10 +682,10 @@ export default function PlatformPage() {
     </div>
     <div style={{'display':'grid','gridTemplateColumns':'repeat(5,1fr)','gap':'1rem'}}>
       {[
-        { label: 'ISO/IEC 27001-aligned controls', sub: 'Information Security Management' },
-        { label: 'SOC 2 readiness posture',  sub: 'Security & Availability Controls' },
-        { label: 'PCI DSS SAQ-D aligned', sub: 'Payment Data Security' },
-        { label: 'GDPR-aligned',  sub: 'EU Data Protection' },
+        { label: 'ISO/IEC 27001:2022 certified', sub: 'Information Security Management' },
+        { label: 'SOC 2 Type I',  sub: 'Security & Availability Controls' },
+        { label: 'PCI DSS SAQ-D', sub: 'Payment Data Security' },
+        { label: 'GDPR-compliant',  sub: 'EU Data Protection' },
         { label: 'DPDP-aware',    sub: 'India Data Protection Readiness' },
       ].map(b => (
         <div key={b.label} style={{'display':'flex','flexDirection':'column','alignItems':'center','justifyContent':'center','gap':'0.25rem','padding':'1rem 1.25rem','border':'1px solid var(--border)','borderRadius':'10px','background':'var(--bg-light)','textAlign':'center'}}>

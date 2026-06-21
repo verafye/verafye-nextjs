@@ -375,12 +375,12 @@ export default function InvestigationIntelligencePage() {
             Built for security-conscious regulated environments
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center', marginBottom: '1rem' }}>
-            {['ISO/IEC 27001-aligned controls', 'SOC 2 readiness posture', 'PCI DSS SAQ-D aligned', 'GDPR-aligned · EU Data Protection', 'DPDP-aware · India Data Protection Readiness'].map(t => (
+            {['ISO/IEC 27001:2022 certified', 'SOC 2 Type I', 'PCI DSS SAQ-D', 'GDPR-compliant · EU Data Protection', 'DPDP-aware · India Data Protection Readiness'].map(t => (
               <span key={t} style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--dark)', background: 'var(--bg-light)', border: '1px solid var(--border)', borderRadius: '6px', padding: '0.35rem 0.875rem' }}>{t}</span>
             ))}
           </div>
           <p style={{ textAlign: 'center', fontSize: '0.6875rem', color: 'var(--muted)', maxWidth: '44rem', margin: '0 auto', lineHeight: 1.65 }}>
-            Verafye is designed with controls aligned to these frameworks. Certification status available on request. <a href="/security-trust" style={{ color: 'var(--primary)' }}>Security &amp; Trust page →</a>
+            Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D. Certificates available on request. <a href="/security-trust" style={{ color: 'var(--primary)' }}>Security &amp; Trust page →</a>
           </p>
         </div>
       </section>

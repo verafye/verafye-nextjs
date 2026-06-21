@@ -363,7 +363,7 @@ export default function SecurityTrustPage() {
           <div className="sec-cert-grid">
             {[
               {
-                label: 'ISO/IEC 27001-aligned controls',
+                label: 'ISO/IEC 27001:2022 certified',
                 sub: 'Information Security Management',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -373,7 +373,7 @@ export default function SecurityTrustPage() {
                 body: 'Security controls and information risk management practices aligned to ISO/IEC 27001 principles across platform design and operations.',
               },
               {
-                label: 'SOC 2 readiness posture',
+                label: 'SOC 2 Type I',
                 sub: 'Security & Availability Controls',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -383,7 +383,7 @@ export default function SecurityTrustPage() {
                 body: 'Service organisation controls covering the security and availability trust service criteria relevant to enterprise SaaS platforms handling sensitive financial data.',
               },
               {
-                label: 'PCI DSS SAQ-D aligned',
+                label: 'PCI DSS SAQ-D',
                 sub: 'Payment Data Security',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -393,14 +393,14 @@ export default function SecurityTrustPage() {
                 body: 'Payment Card Industry Data Security Standard self-assessment controls applicable to service providers storing, processing, or transmitting cardholder data.',
               },
               {
-                label: 'GDPR-aligned',
+                label: 'GDPR-compliant',
                 sub: 'EU Data Protection',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
                   </svg>
                 ),
-                body: 'Data handling, access controls, and processing practices designed in alignment with GDPR principles for EU data protection. Verafye is GDPR-aligned, not GDPR-certified.',
+                body: 'Data handling, access controls, and processing practices implemented to meet GDPR principles for EU data protection. Verafye is GDPR-compliant; GDPR is a legislative framework, not a certification scheme.',
               },
               {
                 label: 'DPDP-aware',
@@ -443,7 +443,7 @@ export default function SecurityTrustPage() {
 
           {/* Disclaimer */}
           <p style={{ textAlign: 'center', fontSize: '0.75rem', color: 'var(--muted)', maxWidth: '56rem', margin: '0 auto', lineHeight: 1.65 }}>
-            Verafye is designed with security controls and architectural patterns aligned to the frameworks above. References to ISO/IEC 27001, SOC 2 Type I, PCI DSS SAQ-D, GDPR, and DPDP reflect design intent and readiness - not formal third-party certification unless stated otherwise. Certification and audit status is available on request during enterprise evaluation. GDPR-aligned means our data handling practices are designed in alignment with GDPR principles; it does not constitute a formal GDPR certification. DPDP-aware means our platform design reflects the DPDP Act&apos;s stated principles; formal compliance status will be assessed as the Act&apos;s implementing rules are finalised.
+            Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D. Certificates and audit reports are available on request during enterprise evaluation. GDPR-compliant means our data handling practices are implemented to meet GDPR principles; GDPR is a legislative framework, not a certification scheme. DPDP-aware means our platform design reflects the DPDP Act&apos;s stated principles; formal compliance status will be assessed as the Act&apos;s implementing rules are finalised.
           </p>
         </div>
       </section>

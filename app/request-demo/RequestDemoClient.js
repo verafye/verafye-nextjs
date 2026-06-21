@@ -462,7 +462,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
                       </button>
 
                       <p style={{ fontSize: '0.6875rem', color: 'var(--muted)', textAlign: 'center', marginTop: '1rem', lineHeight: 1.65 }}>
-                        By submitting this form, you agree to be contacted by the Verafye team regarding your demo request. We process your data to respond to your enquiry and for related business purposes. We do not sell your personal data. Your data is handled in accordance with our <a href="/privacy-policy" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>Privacy Policy</a>, which includes information on your rights under applicable data protection law (including GDPR-aligned and DPDP-aware practices for EU and India visitors).
+                        By submitting this form, you agree to be contacted by the Verafye team regarding your demo request. We process your data to respond to your enquiry and for related business purposes. We do not sell your personal data. Your data is handled in accordance with our <a href="/privacy-policy" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>Privacy Policy</a>, which includes information on your rights under applicable data protection law (including GDPR-compliant and DPDP-aware practices for EU and India visitors).
                       </p>
                     </form>
                   </>

@@ -127,7 +127,7 @@ export default function ContactClient() {
             Information submitted through the forms linked from this page is handled in accordance with our{' '}
             <a href="/privacy-policy" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>Privacy Policy</a>.
             {' '}We process contact data to respond to your enquiry and for related business communications. We do not sell personal data.
-            {' '}GDPR-aligned and DPDP-aware practices apply for EU and India visitors. To exercise your data rights, contact{' '}
+            {' '}GDPR-compliant and DPDP-aware practices apply for EU and India visitors. To exercise your data rights, contact{' '}
             <a href="mailto:privacy@verafye.com" style={{ color: 'var(--primary)' }}>privacy@verafye.com</a>.
           </p>
         </div>

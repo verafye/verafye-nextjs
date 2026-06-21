@@ -159,7 +159,7 @@ export default function Page() {
             {/* ── 10. GDPR Alignment ────────────────────────────────────────── */}
             <h2 style={h2}>10. GDPR and EU/UK Data Protection</h2>
             <p style={p}>Verafye&apos;s data handling practices are designed in alignment with the principles of the EU General Data Protection Regulation (GDPR) and the UK GDPR. This means our processing of personal data is designed to be lawful, fair, and transparent; collected for specified, explicit, and legitimate purposes; limited to what is necessary; accurate; retained no longer than necessary; and handled with appropriate security.</p>
-            <p style={p}>Verafye is GDPR-aligned, not GDPR-certified. GDPR is a legislative framework, not a certification scheme. Our alignment with GDPR principles reflects our commitment to privacy-respecting data practices for all individuals whose data we process, regardless of their location.</p>
+            <p style={p}>Verafye is GDPR-compliant, not GDPR-certified. GDPR is a legislative framework, not a certification scheme. Our alignment with GDPR principles reflects our commitment to privacy-respecting data practices for all individuals whose data we process, regardless of their location.</p>
             <p style={p}>For EEA and UK residents, the legal bases on which we process personal data include: your consent (where obtained), the performance of a contract or steps taken at your request prior to entering a contract, compliance with legal obligations, and our legitimate interests (such as responding to enquiries and operating our business), where those interests are not overridden by your rights.</p>
 
             {/* ── 11. Children ──────────────────────────────────────────────── */}
