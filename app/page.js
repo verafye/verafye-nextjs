@@ -134,13 +134,13 @@ export default function Page() {
     </p>
     <div className="cert-grid">
       {[
-        { src: '/certifications/iso-27001.svg',   alt: 'ISO/IEC 27001:2022 certified' },
-        { src: '/certifications/soc-2-type-1.svg', alt: 'SOC 2 Type I' },
-        { src: '/certifications/pci-dss.svg',      alt: 'PCI DSS SAQ-D compliant' },
-        { src: '/certifications/gdpr.svg',         alt: 'GDPR compliant' },
+        { src: '/certifications/iso-27001.png', alt: 'ISO/IEC 27001:2022 certified' },
+        { src: '/certifications/soc-aicpa.png', alt: 'AICPA SOC 2 Type I' },
+        { src: '/certifications/pci-dss.png',   alt: 'PCI DSS SAQ-D compliant' },
+        { src: '/certifications/gdpr.png',      alt: 'GDPR compliant' },
       ].map((b) => (
-        <div key={b.src} style={{'display':'flex','alignItems':'center','justifyContent':'center','padding':'1rem','border':'1px solid var(--border)','borderRadius':'10px','background':'#FAFBFD'}}>
-          <img src={b.src} alt={b.alt} width="120" height="80" style={{'width':'100%','maxWidth':'120px','height':'auto'}} />
+        <div key={b.src} style={{'display':'flex','alignItems':'center','justifyContent':'center','minHeight':'7rem','padding':'1.25rem 1rem','border':'1px solid var(--border)','borderRadius':'10px','background':'#fff'}}>
+          <img src={b.src} alt={b.alt} loading="lazy" style={{'maxHeight':'64px','maxWidth':'100%','width':'auto','height':'auto','objectFit':'contain'}} />
         </div>
       ))}
     </div>
