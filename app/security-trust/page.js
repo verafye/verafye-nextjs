@@ -443,9 +443,9 @@ export default function SecurityTrustPage() {
                 </svg>
               </div>
               <div>
-                <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>India Data Protection - DPDP Readiness</div>
+                <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>India Data Protection: Privacy-by-Design Approach</div>
                 <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
-                  India&apos;s Digital Personal Data Protection Act (DPDP Act, 2023) establishes a data protection framework for personal data processed in India. The implementing rules and regulatory guidance are still being finalised. Verafye&apos;s platform is designed to be DPDP-aware - with data handling practices, access controls, and processing transparency built to align with the DPDP Act&apos;s core principles as that framework matures. Verafye does not claim DPDP certification or full DPDP compliance, as the Act&apos;s implementing rules are not yet fully in force.
+                  Verafye follows a privacy-by-design approach for personal data processing, with access controls, transparency practices, and security measures intended to support compliance with applicable Indian data protection requirements. Our controls and policies are reviewed and updated as the DPDP framework continues its phased implementation.
                 </p>
               </div>
             </div>
