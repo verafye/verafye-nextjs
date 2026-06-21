@@ -6,6 +6,7 @@ const INITIAL_FORM = {
   firstName: '',
   lastName: '',
   email: '',
+  phone: '',
   company: '',
   role: '',
   companyType: '',
@@ -17,6 +18,22 @@ const REQUEST_DEMO_ENDPOINT =
   process.env.NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT ||
   'https://dashboard.verafye.com/api/external-email/send';
 
+const FREE_EMAIL_DOMAINS = new Set([
+  'gmail.com', 'googlemail.com', 'yahoo.com', 'yahoo.co.in', 'yahoo.co.uk', 'ymail.com', 'rocketmail.com',
+  'hotmail.com', 'hotmail.co.uk', 'outlook.com', 'live.com', 'msn.com', 'aol.com',
+  'icloud.com', 'me.com', 'mac.com', 'proton.me', 'protonmail.com', 'pm.me',
+  'gmx.com', 'gmx.net', 'mail.com', 'zoho.com', 'yandex.com', 'yandex.ru',
+  'hey.com', 'fastmail.com', 'tutanota.com', 'hushmail.com', 'qq.com', '163.com', '126.com', 'rediffmail.com',
+]);
+
+function isWorkEmail(email) {
+  const value = (email || '').trim().toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) return false;
+  const domain = value.split('@')[1];
+  if (!domain) return false;
+  return !FREE_EMAIL_DOMAINS.has(domain);
+}
+
 function buildRequestDemoPayload(form) {
   const firstName = form.firstName.trim();
   const lastName = form.lastName.trim();
@@ -25,16 +42,18 @@ function buildRequestDemoPayload(form) {
   const role = form.role.trim();
   const companyType = form.companyType.trim();
   const inquiryType = form.inquiryType.trim();
+  const phone = form.phone.trim();
   const message = form.message.trim();
 
   return {
     clientName: company,
     emailAddress: form.email.trim(),
-    phoneNumber: '',
+    phoneNumber: phone,
     subject: `${inquiryType || 'Risk Shadowing Review'} - ${company}`,
     message: [
       `Contact Name: ${fullName}`,
       `Work Email: ${form.email.trim()}`,
+      `Phone: ${phone}`,
       `Company: ${company}`,
       `Role / Title: ${role}`,
       `Company Type: ${companyType}`,
@@ -78,7 +97,16 @@ export default function RequestDemoClient() {
     const e = {};
     if (!form.firstName.trim()) e.firstName = 'Required';
     if (!form.lastName.trim()) e.lastName = 'Required';
-    if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) e.email = 'Valid work email required';
+    if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+      e.email = 'Valid work email required';
+    } else if (!isWorkEmail(form.email)) {
+      e.email = 'Please use your work email. Public email domains are not accepted.';
+    }
+    if (!form.phone.trim()) {
+      e.phone = 'Required';
+    } else if (!/^\+[0-9][0-9\s().-]{6,}$/.test(form.phone.trim())) {
+      e.phone = 'Include country code, e.g. +1 415 555 0100';
+    }
     if (!form.company.trim()) e.company = 'Required';
     if (!form.role.trim()) e.role = 'Required';
     if (!form.companyType) e.companyType = 'Please select a company type';
@@ -333,6 +361,13 @@ export default function RequestDemoClient() {
                         <label className="form-label" htmlFor="email">Work Email <span style={{ color: 'var(--error)' }}>*</span></label>
                         <input id="email" name="email" type="email" className="form-input" placeholder="jane@yourcompany.com" value={form.email} onChange={handleChange} style={errors.email ? { borderColor: 'var(--error)' } : {}} />
                         {errors.email && <p style={{ fontSize: '0.75rem', color: 'var(--error)', marginTop: '0.25rem' }}>{errors.email}</p>}
+                      </div>
+
+                      {/* Phone */}
+                      <div className="form-group">
+                        <label className="form-label" htmlFor="phone">Phone Number <span style={{ color: 'var(--error)' }}>*</span></label>
+                        <input id="phone" name="phone" type="tel" className="form-input" placeholder="Include country code +, e.g. +1 415 555 0100" value={form.phone} onChange={handleChange} style={errors.phone ? { borderColor: 'var(--error)' } : {}} />
+                        {errors.phone && <p style={{ fontSize: '0.75rem', color: 'var(--error)', marginTop: '0.25rem' }}>{errors.phone}</p>}
                       </div>
 
                       {/* Company */}
