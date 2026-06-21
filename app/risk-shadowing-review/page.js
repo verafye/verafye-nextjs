@@ -58,34 +58,6 @@ export default function RiskShadowingReviewPage() {
         </div>
       </section>
 
-      {/* ── C. HOW IT WORKS ──────────────────────────────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
-        <div className="container">
-          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
-              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How It Works</p>
-              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-                A low-friction way to evaluate Verafye
-              </h2>
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
-              {[
-                { step: '01', title: 'Select a focused use case', body: 'Choose a focused fraud, AML, or payment-risk scenario that matters to your team.' },
-                { step: '02', title: 'Share a controlled dataset', body: 'Provide a controlled dataset or focused workflow. Inputs are configurable based on use case and available data.' },
-                { step: '03', title: 'Run an independent network-risk review', body: 'Verafye runs an independent review alongside your existing systems to surface hidden network risk.' },
-                { step: '04', title: 'Review findings with Verafye', body: 'Walk through the findings with our team and decide whether to expand into a deeper evaluation.' },
-              ].map(item => (
-                <div key={item.step} className="card" style={{ padding: '2rem' }}>
-                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
-                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ── D. WHERE IT IS USEFUL ────────────────────────────────────────────── */}
       <section style={{ padding: '4rem 0', background: '#fff' }}>
         <div className="container">
@@ -111,6 +83,67 @@ export default function RiskShadowingReviewPage() {
                 <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── INPUTS: WHAT VERAFYE CAN ANALYZE ────────────────── */}
+      <section className="section-light" style={{ padding: '4rem 0' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 2.5rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Inputs</p>
+              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+                What Verafye can analyze
+              </h2>
+              <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share into a connected network-risk view that works alongside your existing systems.
+              </p>
+            </div>
+            <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
+              {[
+                'Fraud, AML, payment, identity, device, and behavior signals from existing systems',
+                'KYC/KYB and watchlist signals where available',
+                'Transaction, account, wallet, card, or ACH payment events where applicable',
+                'Merchant, sub-merchant, and beneficiary records',
+                'Ledger events and program-level metadata where applicable',
+                'Sponsor-bank relationship metadata where available',
+                'Case and investigation records',
+              ].map(item => (
+                <div key={item} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.15rem' }}><path d="M20 6 9 17l-5-5"/></svg>
+                  <span style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.6 }}>{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── C. HOW IT WORKS ──────────────────────────────────────────────────── */}
+      <section className="section-light" style={{ padding: '4rem 0' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How It Works</p>
+              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+                A low-friction way to evaluate Verafye
+              </h2>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+              {[
+                { step: '01', title: 'Select a focused use case', body: 'Choose a focused fraud, AML, or payment-risk scenario that matters to your team.' },
+                { step: '02', title: 'Share a controlled dataset', body: 'Provide a controlled dataset or focused workflow. Inputs are configurable based on use case and available data.' },
+                { step: '03', title: 'Run an independent network-risk review', body: 'Verafye runs an independent review alongside your existing systems to surface hidden network risk.' },
+                { step: '04', title: 'Review findings with Verafye', body: 'Walk through the findings with our team and decide whether to expand into a deeper evaluation.' },
+              ].map(item => (
+                <div key={item.step} className="card" style={{ padding: '2rem' }}>
+                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
+                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
