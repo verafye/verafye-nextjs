@@ -31,8 +31,8 @@ export default function Page() {
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>Who We Serve</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','letterSpacing':'-0.03em'}}>Built for payment-led financial crime teams</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.7,'marginTop':'1rem'}}>Verafye helps fraud, AML, and payments risk teams connect fragmented signals into investigation-ready Network Risk Intelligence across regulated and payment-led environments.</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','letterSpacing':'-0.03em'}}>How Verafye fits across segments</h2>
+      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.7,'marginTop':'1rem'}}>Each segment carries a different mix of merchant, payment, identity, device, and beneficiary risk. Explore how Verafye fits yours.</p>
     </div>
     <div className="grid-3" style={{'maxWidth':'72rem','margin':'0 auto','gap':'1.5rem'}}>
 
