@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Verafye Risk Shadowing Review - Sample Evidence Pack (INTERNAL)</title>
+<style>
+  :root{
+    --primary:#1E6FB7; --dark:#0F2438; --body:#33475B; --muted:#5B7186;
+    --border:#E2EAF2; --tint:#F4F8FD; --blue:#EFF6FF; --line:#9CB7D4;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--body); line-height:1.6; background:#F0F4F8;
+    -webkit-font-smoothing:antialiased;
+  }
+  .sheet{
+    max-width:60rem; margin:1.5rem auto; background:#fff;
+    border:1px solid var(--border); border-radius:14px;
+    padding:clamp(1.5rem,4vw,3rem); box-shadow:0 4px 24px rgba(15,36,56,0.06);
+  }
+  .internal-banner{
+    max-width:60rem; margin:1.5rem auto 0; background:#FFF4E5;
+    border:1px solid #F2C98A; border-radius:10px; padding:0.875rem 1.25rem;
+    font-size:0.8125rem; color:#8A5A12; font-weight:600;
+    display:flex; gap:0.6rem; align-items:flex-start;
+  }
+  .brand{display:flex; align-items:center; gap:0.6rem; margin-bottom:0.5rem;}
+  .brand-mark{
+    width:2rem; height:2rem; border-radius:7px;
+    background:var(--primary); color:#fff; font-weight:800; font-size:0.95rem;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .brand-name{font-weight:800; color:var(--dark); font-size:1.05rem; letter-spacing:-0.01em;}
+  h1{font-size:clamp(1.4rem,3vw,2rem); color:var(--dark); letter-spacing:-0.02em; margin:0.25rem 0 0.5rem;}
+  .subtitle{font-size:0.95rem; color:var(--muted); margin:0 0 1.25rem;}
+  .disclaimer{
+    background:var(--blue); border:1px solid rgba(30,111,183,0.18); border-radius:8px;
+    padding:0.75rem 1rem; font-size:0.8125rem; color:var(--body); margin-bottom:2rem;
+  }
+  section.block{margin-bottom:2.25rem;}
+  .eyebrow{
+    font-size:0.6875rem; font-weight:700; color:var(--primary);
+    text-transform:uppercase; letter-spacing:0.1em; margin:0 0 0.75rem;
+  }
+  h2{font-size:1.05rem; color:var(--dark); margin:0 0 0.75rem; letter-spacing:-0.01em;}
+  p{margin:0 0 0.75rem; font-size:0.9375rem;}
+  .kv{display:grid; grid-template-columns:1fr 1fr; gap:0.25rem 1.5rem; margin-bottom:1rem;}
+  .kv .row{display:flex; justify-content:space-between; gap:1rem; border-bottom:1px solid var(--border); padding:0.4rem 0;}
+  .kv .k{font-size:0.8125rem; color:var(--muted); font-weight:600;}
+  .kv .v{font-size:0.8125rem; color:var(--dark); font-weight:600; text-align:right;}
+  .counts{display:grid; grid-template-columns:repeat(auto-fit,minmax(9rem,1fr)); gap:0.75rem;}
+  .count{border:1px solid var(--border); border-radius:9px; padding:0.875rem 1rem; background:var(--tint);}
+  .count .n{font-size:1.25rem; font-weight:800; color:var(--dark); line-height:1;}
+  .count .l{font-size:0.75rem; color:var(--muted); margin-top:0.25rem; line-height:1.4;}
+  ul{margin:0; padding-left:1.1rem; display:flex; flex-direction:column; gap:0.4rem;}
+  li{font-size:0.875rem; color:var(--body); line-height:1.6;}
+  .note{font-size:0.75rem; color:var(--muted); font-style:italic; margin:0 0 1rem;}
+  .graph-wrap{border:1px solid var(--border); border-radius:10px; padding:1rem; background:#fff; overflow-x:auto;}
+  .chips{display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.875rem;}
+  .chip{font-size:0.75rem; font-weight:600; color:var(--body); background:var(--tint); border:1px solid var(--border); border-radius:999px; padding:0.3rem 0.7rem;}
+  table{width:100%; border-collapse:collapse; font-size:0.8125rem;}
+  th{text-align:left; padding:0.6rem 0.75rem; font-weight:700; color:var(--dark); border-bottom:2px solid var(--border);}
+  td{padding:0.6rem 0.75rem; border-bottom:1px solid var(--border); color:var(--body); vertical-align:top;}
+  td.ind{color:var(--dark); font-weight:600;}
+  .table-scroll{overflow-x:auto;}
+  .checklist{display:grid; grid-template-columns:repeat(auto-fit,minmax(14rem,1fr)); gap:0.5rem;}
+  .checklist .item{display:flex; gap:0.5rem; align-items:center; font-size:0.8125rem; color:var(--body);}
+  .checklist .item::before{content:"\2713"; color:var(--primary); font-weight:800;}
+  .decision .row{display:flex; flex-wrap:wrap; gap:0.5rem 1rem; border-bottom:1px solid var(--border); padding:0.45rem 0;}
+  .decision .k{font-size:0.8125rem; color:var(--muted); font-weight:600; min-width:13rem;}
+  .decision .v{font-size:0.8125rem; color:var(--dark); flex:1;}
+  footer{max-width:60rem; margin:0 auto 2.5rem; padding:0 clamp(1.5rem,4vw,3rem); font-size:0.75rem; color:var(--muted);}
+  @media (max-width:640px){ .kv{grid-template-columns:1fr;} }
+  @media print{
+    body{background:#fff;}
+    .internal-banner{background:#fff; border-color:#bbb; color:#000;}
+    .sheet{box-shadow:none; border:none; margin:0; max-width:100%; border-radius:0;}
+    section.block{break-inside:avoid;}
+    .graph-wrap{break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+
+<div class="internal-banner">
+  <span>&#9888;</span>
+  <span>INTERNAL - SALES USE ONLY. Not for public distribution or the public website. Synthetic data only. Share during qualified walkthroughs.</span>
+</div>
+
+<div class="sheet">
+  <div class="brand">
+    <div class="brand-mark">V</div>
+    <div class="brand-name">Verafye</div>
+  </div>
+  <h1>Risk Shadowing Review - Sample Evidence Pack</h1>
+  <p class="subtitle">Illustrative output structure for a Risk Shadowing Review. Synthetic example for analyst and compliance walkthroughs.</p>
+  <div class="disclaimer">
+    This example uses synthetic data only and is provided to illustrate the structure of Verafye's Risk Shadowing outputs. All entities, identifiers, counts, and relationships are fabricated. Nothing here represents a real customer, transaction, or confirmed finding.
+  </div>
+
+  <!-- A -->
+  <section class="block">
+    <p class="eyebrow">A &middot; Review Summary</p>
+    <div class="kv">
+      <div class="row"><span class="k">Case ID</span><span class="v">RS-2026-014</span></div>
+      <div class="row"><span class="k">Review Type</span><span class="v">Risk Shadowing Review</span></div>
+      <div class="row"><span class="k">Use Case</span><span class="v">Mule-linked merchant and beneficiary network</span></div>
+      <div class="row"><span class="k">Segment</span><span class="v">PSP / PayFac / BaaS ecosystem</span></div>
+      <div class="row"><span class="k">Data Scope</span><span class="v">Controlled historical sample</span></div>
+      <div class="row"><span class="k">Review Period</span><span class="v">Synthetic 14-day window</span></div>
+      <div class="row"><span class="k">Output Type</span><span class="v">Investigation-ready evidence pack</span></div>
+      <div class="row"><span class="k">Status</span><span class="v">Analyst review recommended</span></div>
+    </div>
+    <p>Verafye identified a linked risk cluster across multiple merchants, wallets, beneficiaries, device fingerprints, and payment events. The cluster showed repeated beneficiary reuse, shared device patterns, overlapping KYC attributes, and structured transaction behavior across entities that were previously reviewed as separate alerts.</p>
+  </section>
+
+  <!-- B -->
+  <section class="block">
+    <p class="eyebrow">B &middot; Input Signals Analyzed</p>
+    <p class="note">Synthetic sample counts.</p>
+    <div class="counts">
+      <div class="count"><div class="n">42</div><div class="l">existing alerts</div></div>
+      <div class="count"><div class="n">318</div><div class="l">payment events</div></div>
+      <div class="count"><div class="n">9</div><div class="l">merchants / sub-merchants</div></div>
+      <div class="count"><div class="n">27</div><div class="l">wallet or account identifiers</div></div>
+      <div class="count"><div class="n">14</div><div class="l">beneficiaries</div></div>
+      <div class="count"><div class="n">6</div><div class="l">anonymized device fingerprints</div></div>
+      <div class="count"><div class="n">3</div><div class="l">prior case references</div></div>
+      <div class="count"><div class="n">2</div><div class="l">program-level identifiers</div></div>
+      <div class="count"><div class="n">1</div><div class="l">sponsor-bank review tag</div></div>
+    </div>
+  </section>
+
+  <!-- C -->
+  <section class="block">
+    <p class="eyebrow">C &middot; Network Risk Finding</p>
+    <p>Verafye detected that several alerts previously treated as separate events were linked through shared beneficiaries, repeated device fingerprints, similar KYB attributes, overlapping payout timing, and circular payment behavior.</p>
+    <ul>
+      <li>Merchant A and Merchant C share Beneficiary B-204</li>
+      <li>Wallet 1042 and Wallet 1189 share Device Hash D-91F3</li>
+      <li>Merchant B and Program Alpha show repeated payout timing patterns</li>
+      <li>Beneficiary B-204 appears across four unrelated alert events</li>
+      <li>Account Cluster 17 shows repeated low-value structuring behavior</li>
+      <li>Prior Case C-077 links to the same beneficiary and device pattern</li>
+    </ul>
+  </section>
+
+  <!-- D -->
+  <section class="block">
+    <p class="eyebrow">D &middot; Graph-Linked Entity View</p>
+    <div class="graph-wrap">
+      <svg viewBox="0 0 720 420" width="100%" style="min-width:520px; display:block;" role="img" aria-label="Synthetic graph-linked entity view">
+        <g stroke="#9CB7D4" stroke-width="1.5">
+          <line x1="150" y1="80" x2="430" y2="200"/>
+          <line x1="610" y1="95" x2="430" y2="200"/>
+          <line x1="120" y1="230" x2="225" y2="330"/>
+          <line x1="300" y1="265" x2="225" y2="330"/>
+          <line x1="380" y1="70" x2="635" y2="360"/>
+          <line x1="430" y1="200" x2="430" y2="355"/>
+          <line x1="560" y1="255" x2="430" y2="200"/>
+        </g>
+        <g font-size="11" fill="#5B7186" font-weight="600">
+          <text x="285" y="135">Shared beneficiary</text>
+          <text x="505" y="140">Shared beneficiary</text>
+          <text x="150" y="290">Shared device</text>
+          <text x="245" y="300">Shared device</text>
+          <text x="500" y="215">Repeated payout timing</text>
+          <text x="440" y="290">Linked prior case</text>
+          <text x="470" y="235">Circular payment flow</text>
+        </g>
+        <g>
+          <g><rect x="92" y="64" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="150" y="84" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Merchant A</text></g>
+          <g><rect x="322" y="44" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="380" y="64" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Merchant B</text></g>
+          <g><rect x="552" y="79" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="610" y="99" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Merchant C</text></g>
+          <g><rect x="62" y="214" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="120" y="234" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Wallet 1042</text></g>
+          <g><rect x="242" y="249" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="300" y="269" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Wallet 1189</text></g>
+          <g><rect x="167" y="329" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="225" y="349" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Device D-91F3</text></g>
+          <g><rect x="372" y="184" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="430" y="204" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Beneficiary B-204</text></g>
+          <g><rect x="502" y="239" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="560" y="259" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Account Cluster 17</text></g>
+          <g><rect x="577" y="349" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="635" y="369" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Program Alpha</text></g>
+          <g><rect x="372" y="349" width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" stroke-width="1.5"/><text x="430" y="369" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E6FB7">Prior Case C-077</text></g>
+        </g>
+      </svg>
+    </div>
+    <div class="chips">
+      <span class="chip">Shared beneficiary</span>
+      <span class="chip">Shared device fingerprint</span>
+      <span class="chip">Similar KYB metadata</span>
+      <span class="chip">Repeated payout timing</span>
+      <span class="chip">Linked prior case</span>
+      <span class="chip">Same program-level pattern</span>
+      <span class="chip">Circular payment flow</span>
+    </div>
+  </section>
+
+  <!-- E -->
+  <section class="block">
+    <p class="eyebrow">E &middot; Risk Indicators</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Indicator</th><th>Synthetic observation</th><th>Why it matters</th><th>Suggested review action</th></tr></thead>
+        <tbody>
+          <tr><td class="ind">Shared beneficiary across unrelated merchants</td><td>Beneficiary B-204 across Merchant A and Merchant C</td><td>May indicate coordinated payout consolidation</td><td>Review beneficiary linkage across merchants</td></tr>
+          <tr><td class="ind">Device reuse across multiple wallets</td><td>Device Hash D-91F3 on Wallet 1042 and Wallet 1189</td><td>Suggests shared control of accounts</td><td>Validate device across related sessions</td></tr>
+          <tr><td class="ind">Structured low-value transactions</td><td>Account Cluster 17 repeated low-value activity</td><td>May indicate structuring behavior</td><td>Review transaction sequencing</td></tr>
+          <tr><td class="ind">Repeated payout timing</td><td>Merchant B and Program Alpha aligned timing</td><td>Suggests coordinated activity</td><td>Review payout schedules for the cluster</td></tr>
+          <tr><td class="ind">KYB metadata overlap</td><td>Overlapping onboarding attributes</td><td>May indicate linked ownership or control</td><td>Review onboarding and ownership records</td></tr>
+          <tr><td class="ind">Prior case linkage</td><td>Prior Case C-077 shares beneficiary and device</td><td>Connects current cluster to past review</td><td>Compare prior case with current cluster</td></tr>
+          <tr><td class="ind">Cross-program recurrence</td><td>Pattern recurs across program-level identifiers</td><td>May indicate cross-program network risk</td><td>Review activity across programs</td></tr>
+          <tr><td class="ind">Unusual counterparty concentration</td><td>Concentrated counterparties around B-204</td><td>Suggests narrow payout network</td><td>Review counterparty concentration</td></tr>
+          <tr><td class="ind">Alert clustering across fraud and AML rules</td><td>42 alerts cluster across rule types</td><td>Linked activity may span fraud and AML</td><td>Joint fraud and AML review</td></tr>
+          <tr><td class="ind">Linked activity outside a single provider view</td><td>Linkage spans providers and programs</td><td>Single-system view may miss the network</td><td>Review connected, cross-provider context</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- F -->
+  <section class="block">
+    <p class="eyebrow">F &middot; Risk Narrative</p>
+    <p>Viewed individually, the alerts appeared to involve separate merchants and wallets. When connected through Verafye's graph-native intelligence layer, the activity formed a linked network involving shared beneficiaries, repeated device patterns, overlapping KYB attributes, and recurring payment timing. The evidence may indicate a connected network and suggests review. The cluster should be reviewed as a connected network case rather than separate low-priority alerts, and requires analyst validation. Recommended for investigation.</p>
+  </section>
+
+  <!-- G -->
+  <section class="block">
+    <p class="eyebrow">G &middot; Case-Ready Evidence Pack</p>
+    <div class="checklist">
+      <div class="item">Cluster summary</div>
+      <div class="item">Linked entity list</div>
+      <div class="item">Relationship map</div>
+      <div class="item">Alert-to-case grouping</div>
+      <div class="item">Risk indicators</div>
+      <div class="item">Supporting payment events</div>
+      <div class="item">KYC / KYB linkage summary</div>
+      <div class="item">Device and identity linkage summary</div>
+      <div class="item">Prior case references</div>
+      <div class="item">Analyst notes</div>
+      <div class="item">Recommended review steps</div>
+      <div class="item">Audit-ready decision summary</div>
+    </div>
+  </section>
+
+  <!-- H -->
+  <section class="block">
+    <p class="eyebrow">H &middot; Analyst Review Notes</p>
+    <ul>
+      <li>Review Beneficiary B-204 across all linked merchants and wallets.</li>
+      <li>Validate whether Merchant A, Merchant B, and Merchant C share ownership, control, or onboarding attributes.</li>
+      <li>Review Device Hash D-91F3 across related wallets and sessions.</li>
+      <li>Compare Prior Case C-077 with current cluster RS-2026-014.</li>
+      <li>Escalate for enhanced review if ownership, beneficiary, or device linkage is confirmed.</li>
+    </ul>
+  </section>
+
+  <!-- I -->
+  <section class="block">
+    <p class="eyebrow">I &middot; Audit-Ready Decision Support</p>
+    <div class="decision">
+      <div class="row"><span class="k">Recommended disposition</span><span class="v">Enhanced review recommended</span></div>
+      <div class="row"><span class="k">Confidence direction</span><span class="v">Network linkage observed, analyst validation required</span></div>
+      <div class="row"><span class="k">Suggested escalation</span><span class="v">Fraud and AML joint review</span></div>
+      <div class="row"><span class="k">Evidence basis</span><span class="v">Shared beneficiary, shared device, KYB overlap, payment timing, prior case link</span></div>
+      <div class="row"><span class="k">Documentation status</span><span class="v">Case-ready summary available</span></div>
+      <div class="row"><span class="k">Next action</span><span class="v">Validate linked entities and determine whether escalation, monitoring, filing review, or customer outreach is required</span></div>
+    </div>
+    <p class="note">Filing review may be considered based on institution policy and analyst validation.</p>
+  </section>
+
+  <!-- J -->
+  <section class="block">
+    <p class="eyebrow">J &middot; What This Demonstrates</p>
+    <p>This synthetic example shows how Verafye can help teams move from fragmented alerts to connected investigation context. A Risk Shadowing Review can reveal linked entities, suspicious clusters, repeated identifiers, beneficiary reuse, device patterns, and case relationships that may not be visible inside a single system or provider view.</p>
+    <ul>
+      <li>Connects alerts into case-ready clusters</li>
+      <li>Detects hidden network relationships</li>
+      <li>Helps analysts see entity, device, merchant, beneficiary, and payment linkages</li>
+      <li>Produces evidence packs for review</li>
+      <li>Supports explainable, audit-ready decisions</li>
+      <li>Lets teams validate value before deeper deployment</li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  Verafye - Network Risk Intelligence. Internal sales asset. Synthetic data only. Verafye is designed to support fraud and AML investigation workflows alongside existing systems. We do not claim regulatory approval, certification, or guaranteed fraud prevention. Not for public distribution.
+</footer>
+
+</body>
+</html>
