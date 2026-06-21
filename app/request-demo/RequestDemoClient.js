@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 const INITIAL_FORM = {
@@ -24,7 +23,6 @@ const VARIANTS = {
     submitLabel: 'Request Demo',
     defaultInquiry: 'Product Walkthrough',
     category: 'Request Demo',
-    unlockSample: false,
   },
   'risk-shadowing': {
     eyebrow: 'Risk Shadowing Review',
@@ -34,7 +32,6 @@ const VARIANTS = {
     submitLabel: 'Request Risk Shadowing Review',
     defaultInquiry: 'Risk Shadowing Review',
     category: 'Risk Shadowing Review',
-    unlockSample: true,
   },
 };
 
@@ -97,7 +94,6 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [toast, setToast] = useState(null);
-  const router = useRouter();
 
   useEffect(() => {
     if (!toast) return undefined;
@@ -192,15 +188,9 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
         });
       }
 
-      const unlockSample = cfg.unlockSample;
       setForm({ ...INITIAL_FORM, inquiryType: cfg.defaultInquiry });
       setErrors({});
-      if (unlockSample && typeof window !== 'undefined') {
-        window.sessionStorage.setItem('rsr_sample_unlocked', 'true');
-        router.push('/sample-output');
-        return;
-      }
-      setToast({ type: 'success', title: 'Request Received', message: 'Thank you! We will get back to you soon.' });
+      setToast({ type: 'success', title: 'Request Received', message: 'Thanks. The Verafye team will follow up to schedule your Risk Shadowing Review or sample output walkthrough.' });
       setSubmitted(true);
     } catch (error) {
       setToast({ type: 'error', title: 'Error', message: 'Something went wrong. Please try again later.' });
@@ -360,7 +350,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
                     </div>
                     <h3 style={{ fontSize: '1.375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem', letterSpacing: '-0.02em' }}>Request received</h3>
                     <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '2rem', maxWidth: '22rem', marginLeft: 'auto', marginRight: 'auto' }}>
-                      Thank you - our team will be in touch within 1–2 business days to schedule your personalised demo.
+                      Thanks. The Verafye team will follow up to schedule your Risk Shadowing Review or sample output walkthrough.
                     </p>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
                       <Link href="/" className="btn-primary">Back to home</Link>

@@ -34,7 +34,7 @@ export default function RiskShadowingReviewPage() {
               Test Verafye alongside your existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye independently connects fragmented signals, detects hidden network risk, clusters related activity, and produces investigation-ready evidence before deeper deployment.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="/risk-shadowing-review/request" className="btn-primary">
+              <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
                 Request a Risk Shadowing Review
                 <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -188,7 +188,7 @@ export default function RiskShadowingReviewPage() {
             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1.75rem', maxWidth: '38rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Request a walkthrough of a synthetic example showing how Verafye can connect fragmented alerts, payment, identity, device, merchant, beneficiary, ledger, and case signals into a graph-linked investigation summary and audit-ready evidence pack.
             </p>
-            <Link href="/risk-shadowing-review/request" className="btn-primary">
+            <Link href="/request-demo?intent=sample-output-walkthrough" className="btn-primary">
               Request Sample Output Walkthrough
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -239,13 +239,13 @@ export default function RiskShadowingReviewPage() {
             Detailed sample outputs are shared during qualified walkthroughs.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
-            <Link href="/risk-shadowing-review/request" className="btn-primary">
+            <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
               Request a Risk Shadowing Review
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>
             </Link>
-            <Link href="/risk-shadowing-review/request" className="btn-secondary">Request Sample Output Walkthrough</Link>
+            <Link href="/request-demo?intent=sample-output-walkthrough" className="btn-secondary">Request Sample Output Walkthrough</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
             Verafye is designed to support fraud and AML investigation workflows alongside existing systems. We do not claim regulatory approval, certification, or guaranteed fraud prevention.

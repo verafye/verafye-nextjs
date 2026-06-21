@@ -470,7 +470,7 @@ export default function Header() {
           <div className="header-actions" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             <GeoSelector />
             <Link
-              href="/request-demo"
+              href="/risk-shadowing-review"
               className="btn-primary btn-sm"
               onClick={() =>
                 typeof window !== 'undefined' &&
@@ -478,7 +478,7 @@ export default function Header() {
                 window.trackEvent('demo_cta_click', { location: 'header' })
               }
             >
-              Demo Request
+              Explore Risk Shadowing
             </Link>
           </div>
 
@@ -558,7 +558,7 @@ export default function Header() {
           ))}
 
           <Link
-            href="/request-demo"
+            href="/risk-shadowing-review"
             className="btn-primary"
             style={{ marginTop: '1.5rem', textAlign: 'center', display: 'block' }}
             onClick={() => {
@@ -568,7 +568,7 @@ export default function Header() {
                 window.trackEvent('demo_cta_click', { location: 'mobile_menu' });
             }}
           >
-            Demo Request
+            Explore Risk Shadowing
           </Link>
         </div>
       </>,
