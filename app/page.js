@@ -363,7 +363,7 @@ export default function Page() {
 <section style={{'padding':'4rem 0','background':'var(--bg-tint)'}}>
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 3.5rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>WHERE VERAFYE FITS</p>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>WHO WE SERVE</p>
       <h2 style={{'fontSize':'clamp(1.25rem,3.5vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Where Verafye Fits</h2>
       <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':1.7,'marginTop':'1rem','maxWidth':'48rem','marginLeft':'auto','marginRight':'auto'}}>Verafye helps teams connect fragmented fraud, AML, payment, identity, device, merchant, account, wallet, ledger, beneficiary, and case signals across regulated and payment-led environments.</p>
     </div>
