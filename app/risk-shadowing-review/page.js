@@ -22,7 +22,7 @@ export default function RiskShadowingReviewPage() {
   return (
     <>
 
-      {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
+      {/* ── A. HERO ──────────────────────────────────────────────────────────── */}
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
@@ -31,22 +31,62 @@ export default function RiskShadowingReviewPage() {
               Risk Shadowing Review for payment-led financial crime teams
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Test Verafye alongside your existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye independently connects fragmented signals, detects hidden network risk, clusters related activity, and produces investigation-ready evidence packs before deeper deployment.
+              Test Verafye alongside your existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye independently connects fragmented signals, detects hidden network risk, clusters related activity, and produces investigation-ready evidence before deeper deployment.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="/request-demo" className="btn-primary">
+              <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
                 Request a Risk Shadowing Review
                 <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </span>
               </Link>
-              <Link href="/platform" className="btn-secondary">Explore Platform</Link>
+              <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── 2. WHERE RISK SHADOWING IS MOST USEFUL ──────────────────────────── */}
+      {/* ── B. WHY RISK SHADOWING ────────────────────────────────────────────── */}
+      <section style={{ padding: '3.5rem 0', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '50rem', margin: '0 auto', textAlign: 'center' }}>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Risk Shadowing</p>
+            <p style={{ fontSize: 'clamp(1.0625rem,2.2vw,1.375rem)', color: 'var(--dark)', lineHeight: 1.5, fontWeight: 500, letterSpacing: '-0.01em' }}>
+              Risk Shadowing lets teams validate hidden network risk and investigation value against a controlled dataset or focused workflow without replacing existing systems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── C. HOW IT WORKS ──────────────────────────────────────────────────── */}
+      <section className="section-light" style={{ padding: '4rem 0' }}>
+        <div className="container">
+          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How It Works</p>
+              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+                A low-friction way to evaluate Verafye
+              </h2>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+              {[
+                { step: '01', title: 'Select a focused use case', body: 'Choose a focused fraud, AML, or payment-risk scenario that matters to your team.' },
+                { step: '02', title: 'Share a controlled dataset', body: 'Provide a controlled dataset or focused workflow. Inputs are configurable based on use case and available data.' },
+                { step: '03', title: 'Run an independent network-risk review', body: 'Verafye runs an independent review alongside your existing systems to surface hidden network risk.' },
+                { step: '04', title: 'Review findings with Verafye', body: 'Walk through the findings with our team and decide whether to expand into a deeper evaluation.' },
+              ].map(item => (
+                <div key={item.step} className="card" style={{ padding: '2rem' }}>
+                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
+                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── D. WHERE IT IS USEFUL ────────────────────────────────────────────── */}
       <section style={{ padding: '4rem 0', background: '#fff' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
@@ -75,342 +115,61 @@ export default function RiskShadowingReviewPage() {
         </div>
       </section>
 
-      {/* ── 3. WHAT VERAFYE CAN ANALYZE ─────────────────────────────────────── */}
+      {/* ── E. WHAT TEAMS RECEIVE ────────────────────────────────────────────── */}
       <section className="section-light" style={{ padding: '4rem 0' }}>
         <div className="container">
-          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 2.5rem' }}>
-              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Inputs</p>
-              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                What Verafye can analyze
-              </h2>
-              <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share into a connected network-risk view that works alongside your existing systems.
-              </p>
-            </div>
-            <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
-              {[
-                'Fraud, AML, payment, identity, device, and behavior signals from existing systems',
-                'KYC/KYB and watchlist signals where available',
-                'Transaction, account, wallet, card, or ACH payment events where applicable',
-                'Merchant, sub-merchant, and beneficiary records',
-                'Ledger events and program-level metadata where applicable',
-                'Sponsor-bank relationship metadata where available',
-                'Case and investigation records',
-              ].map(item => (
-                <div key={item} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.15rem' }}><path d="M20 6 9 17l-5-5"/></svg>
-                  <span style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.6 }}>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 4. HOW IT WORKS ─────────────────────────────────────────────────── */}
-      <section style={{ padding: '4rem 0', background: '#fff' }}>
-        <div className="container">
-          <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
-              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How It Works</p>
-              <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-                A low-friction way to evaluate Verafye
-              </h2>
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
-              {[
-                { step: '01', title: 'Connect available signals', body: 'Share the fraud, AML, payment, identity, device, ledger, merchant, beneficiary, and case signals you can provide. Inputs are configurable based on use case and available data.' },
-                { step: '02', title: 'Detect hidden network risk', body: 'Verafye independently connects fragmented signals and detects hidden network risk through graph-native relationship analysis and risk scoring.' },
-                { step: '03', title: 'Cluster related activity', body: 'Related alerts, accounts, identities, and entities are clustered into coherent, investigation-ready cases that reduce manual review effort.' },
-                { step: '04', title: 'Produce investigation-ready evidence', body: 'Verafye produces investigation-ready evidence packs that support audit-ready decisions, helping you validate hidden network risk against a controlled dataset or workflow before deeper deployment.' },
-              ].map(item => (
-                <div key={item.step} className="card" style={{ padding: '2rem' }}>
-                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
-                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 5. SAMPLE RISK SHADOWING EVIDENCE PACK ──────────────────────────── */}
-      <section className="section-light" style={{ padding: '4rem 0' }}>
-        <div className="container">
-          <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 1.5rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Sample Output</p>
-            <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1rem' }}>
-              See what a Risk Shadowing Review can produce
+          <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Outcomes</p>
+            <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+              What teams receive
             </h2>
-            <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-              Review a synthetic example of how Verafye connects fragmented signals into a graph-linked, investigation-ready evidence pack for analyst and compliance review.
+          </div>
+          <div className="grid-2" style={{ maxWidth: '64rem', margin: '0 auto' }}>
+            {[
+              { title: 'Risk cluster summary', body: 'A high-level view of connected risk clusters surfaced across your shared signals.' },
+              { title: 'Linked entity view', body: 'A connected view of how related entities appear across the reviewed dataset.' },
+              { title: 'Case-ready evidence', body: 'Investigation-ready evidence prepared for analyst and compliance review.' },
+              { title: 'Audit-ready review notes', body: 'Explainable notes that support consistent, audit-ready decisions.' },
+              { title: 'Recommended next-step areas', body: 'Suggested areas for further review, validation, or deeper evaluation.' },
+            ].map(item => (
+              <div key={item.title} className="card card-elevated" style={{ padding: '2rem', display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.15rem' }}><path d="M20 6 9 17l-5-5"/></svg>
+                <div>
+                  <h3 style={{ fontSize: 'clamp(1rem,1.8vw,1.1875rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.375rem' }}>{item.title}</h3>
+                  <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.65 }}>{item.body}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── TEASER: SAMPLE OUTPUT ────────────────────────────────────────────── */}
+      <section style={{ padding: '4rem 0', background: '#fff' }}>
+        <div className="container" style={{ maxWidth: '46rem', textAlign: 'center' }}>
+          <div className="card card-elevated" style={{ padding: 'clamp(2rem,4vw,3rem)', background: 'linear-gradient(165deg,#EFF6FF 0%,#F8FBFF 100%)', border: '1px solid rgba(30,111,183,0.15)' }}>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Sample Output</p>
+            <h2 style={{ fontSize: 'clamp(1.375rem,3vw,2.25rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.02em', marginBottom: '1rem' }}>
+              Want to see a sample Risk Shadowing output?
+            </h2>
+            <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1.75rem', maxWidth: '38rem', marginLeft: 'auto', marginRight: 'auto' }}>
+              Request a walkthrough of a synthetic example showing how Verafye can connect fragmented alerts, payment, identity, device, merchant, beneficiary, ledger, and case signals into a graph-linked investigation summary and audit-ready evidence pack.
+            </p>
+            <Link href="/request-demo?intent=sample-output-walkthrough" className="btn-primary">
+              Request Sample Output Walkthrough
+              <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </Link>
+            <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
+              Sample walkthroughs use synthetic data only and are shared during qualified discussions.
             </p>
           </div>
-          <div style={{ maxWidth: '52rem', margin: '0 auto 2rem' }}>
-            <div className="card" style={{ padding: '1rem 1.25rem', background: 'rgba(30,111,183,0.06)', border: '1px solid rgba(30,111,183,0.18)', display: 'flex', gap: '0.625rem', alignItems: 'flex-start' }}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.1rem' }}><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-              <span style={{ fontSize: '0.8125rem', color: 'var(--body)', lineHeight: 1.6 }}>This example uses synthetic data only and is provided to illustrate the structure of Verafye&apos;s Risk Shadowing outputs.</span>
-            </div>
-          </div>
-
-          <div className="card card-elevated" style={{ maxWidth: '60rem', margin: '0 auto', padding: 'clamp(1.5rem,3vw,2.5rem)' }}>
-
-            {/* A. REVIEW SUMMARY */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>A · Review Summary</p>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem 1.5rem', marginBottom: '1rem' }}>
-                {[
-                  ['Case ID', 'RS-2026-014'],
-                  ['Review Type', 'Risk Shadowing Review'],
-                  ['Use Case', 'Mule-linked merchant and beneficiary network'],
-                  ['Segment', 'PSP / PayFac / BaaS ecosystem'],
-                  ['Data Scope', 'Controlled historical sample'],
-                  ['Review Period', 'Synthetic 14-day window'],
-                  ['Output Type', 'Investigation-ready evidence pack'],
-                  ['Status', 'Analyst review recommended'],
-                ].map(([k, v]) => (
-                  <div key={k} style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', borderBottom: '1px solid var(--border)', padding: '0.4rem 0' }}>
-                    <span style={{ fontSize: '0.8125rem', color: 'var(--muted)', fontWeight: 600 }}>{k}</span>
-                    <span style={{ fontSize: '0.8125rem', color: 'var(--dark)', fontWeight: 600, textAlign: 'right' }}>{v}</span>
-                  </div>
-                ))}
-              </div>
-              <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7 }}>
-                Verafye identified a linked risk cluster across multiple merchants, wallets, beneficiaries, device fingerprints, and payment events. The cluster showed repeated beneficiary reuse, shared device patterns, overlapping KYC attributes, and structured transaction behavior across entities that were previously reviewed as separate alerts.
-              </p>
-            </div>
-
-            {/* B. INPUT SIGNALS ANALYZED */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>B · Input Signals Analyzed</p>
-              <p style={{ fontSize: '0.75rem', color: 'var(--muted)', marginBottom: '1rem', fontStyle: 'italic' }}>Synthetic sample counts.</p>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(9rem, 1fr))', gap: '0.75rem' }}>
-                {[
-                  ['42', 'existing alerts'],
-                  ['318', 'payment events'],
-                  ['9', 'merchants / sub-merchants'],
-                  ['27', 'wallet or account identifiers'],
-                  ['14', 'beneficiaries'],
-                  ['6', 'anonymized device fingerprints'],
-                  ['3', 'prior case references'],
-                  ['2', 'program-level identifiers'],
-                  ['1', 'sponsor-bank review tag'],
-                ].map(([n, l]) => (
-                  <div key={l} className="card" style={{ padding: '0.875rem 1rem' }}>
-                    <div style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--dark)', lineHeight: 1 }}>{n}</div>
-                    <div style={{ fontSize: '0.75rem', color: 'var(--muted)', marginTop: '0.25rem', lineHeight: 1.4 }}>{l}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* C. NETWORK RISK FINDING */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>C · Network Risk Finding</p>
-              <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>
-                Verafye detected that several alerts previously treated as separate events were linked through shared beneficiaries, repeated device fingerprints, similar KYB attributes, overlapping payout timing, and circular payment behavior.
-              </p>
-              <ul style={{ margin: 0, paddingLeft: '1.1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-                {[
-                  'Merchant A and Merchant C share Beneficiary B-204',
-                  'Wallet 1042 and Wallet 1189 share Device Hash D-91F3',
-                  'Merchant B and Program Alpha show repeated payout timing patterns',
-                  'Beneficiary B-204 appears across four unrelated alert events',
-                  'Account Cluster 17 shows repeated low-value structuring behavior',
-                  'Prior Case C-077 links to the same beneficiary and device pattern',
-                ].map(r => (
-                  <li key={r} style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.6 }}>{r}</li>
-                ))}
-              </ul>
-            </div>
-
-            {/* D. GRAPH-LINKED ENTITY VIEW */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>D · Graph-Linked Entity View</p>
-              <div className="card" style={{ padding: '1rem', background: '#fff', overflowX: 'auto' }}>
-                <svg viewBox="0 0 720 420" width="100%" style={{ minWidth: '520px', display: 'block' }} role="img" aria-label="Synthetic graph-linked entity view">
-                  <g stroke="#9CB7D4" strokeWidth="1.5">
-                    <line x1="150" y1="80" x2="430" y2="200"/>
-                    <line x1="610" y1="95" x2="430" y2="200"/>
-                    <line x1="120" y1="230" x2="225" y2="330"/>
-                    <line x1="300" y1="265" x2="225" y2="330"/>
-                    <line x1="380" y1="70" x2="635" y2="360"/>
-                    <line x1="430" y1="200" x2="430" y2="355"/>
-                    <line x1="560" y1="255" x2="430" y2="200"/>
-                  </g>
-                  <g fontSize="11" fill="#5B7186" fontWeight="600">
-                    <text x="285" y="135">Shared beneficiary</text>
-                    <text x="505" y="140">Shared beneficiary</text>
-                    <text x="150" y="290">Shared device</text>
-                    <text x="245" y="300">Shared device</text>
-                    <text x="500" y="215">Repeated payout timing</text>
-                    <text x="440" y="290">Linked prior case</text>
-                    <text x="470" y="235">Circular payment flow</text>
-                  </g>
-                  {[
-                    [150, 80, 'Merchant A'],
-                    [380, 60, 'Merchant B'],
-                    [610, 95, 'Merchant C'],
-                    [120, 230, 'Wallet 1042'],
-                    [300, 265, 'Wallet 1189'],
-                    [225, 345, 'Device D-91F3'],
-                    [430, 200, 'Beneficiary B-204'],
-                    [560, 255, 'Account Cluster 17'],
-                    [635, 365, 'Program Alpha'],
-                    [430, 365, 'Prior Case C-077'],
-                  ].map(([x, y, label]) => (
-                    <g key={label}>
-                      <rect x={x - 58} y={y - 16} width="116" height="32" rx="8" fill="#EFF6FF" stroke="#1E6FB7" strokeWidth="1.5"/>
-                      <text x={x} y={y + 4} textAnchor="middle" fontSize="11.5" fontWeight="700" fill="#1E6FB7">{label}</text>
-                    </g>
-                  ))}
-                </svg>
-              </div>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.875rem' }}>
-                {['Shared beneficiary', 'Shared device fingerprint', 'Similar KYB metadata', 'Repeated payout timing', 'Linked prior case', 'Same program-level pattern', 'Circular payment flow'].map(e => (
-                  <span key={e} style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--body)', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '999px', padding: '0.3rem 0.7rem' }}>{e}</span>
-                ))}
-              </div>
-            </div>
-
-            {/* E. RISK INDICATORS */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>E · Risk Indicators</p>
-              <div style={{ overflowX: 'auto' }}>
-                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.8125rem', minWidth: '640px' }}>
-                  <thead>
-                    <tr style={{ textAlign: 'left', borderBottom: '2px solid var(--border)' }}>
-                      <th style={{ padding: '0.6rem 0.75rem', fontWeight: 700, color: 'var(--dark)' }}>Indicator</th>
-                      <th style={{ padding: '0.6rem 0.75rem', fontWeight: 700, color: 'var(--dark)' }}>Synthetic observation</th>
-                      <th style={{ padding: '0.6rem 0.75rem', fontWeight: 700, color: 'var(--dark)' }}>Why it matters</th>
-                      <th style={{ padding: '0.6rem 0.75rem', fontWeight: 700, color: 'var(--dark)' }}>Suggested review action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {[
-                      ['Shared beneficiary across unrelated merchants', 'Beneficiary B-204 across Merchant A and Merchant C', 'May indicate coordinated payout consolidation', 'Review beneficiary linkage across merchants'],
-                      ['Device reuse across multiple wallets', 'Device Hash D-91F3 on Wallet 1042 and Wallet 1189', 'Suggests shared control of accounts', 'Validate device across related sessions'],
-                      ['Structured low-value transactions', 'Account Cluster 17 repeated low-value activity', 'May indicate structuring behavior', 'Review transaction sequencing'],
-                      ['Repeated payout timing', 'Merchant B and Program Alpha aligned timing', 'Suggests coordinated activity', 'Review payout schedules for the cluster'],
-                      ['KYB metadata overlap', 'Overlapping onboarding attributes', 'May indicate linked ownership or control', 'Review onboarding and ownership records'],
-                      ['Prior case linkage', 'Prior Case C-077 shares beneficiary and device', 'Connects current cluster to past review', 'Compare prior case with current cluster'],
-                      ['Cross-program recurrence', 'Pattern recurs across program-level identifiers', 'May indicate cross-program network risk', 'Review activity across programs'],
-                      ['Unusual counterparty concentration', 'Concentrated counterparties around B-204', 'Suggests narrow payout network', 'Review counterparty concentration'],
-                      ['Alert clustering across fraud and AML rules', '42 alerts cluster across rule types', 'Linked activity may span fraud and AML', 'Joint fraud and AML review'],
-                      ['Linked activity outside a single provider view', 'Linkage spans providers and programs', 'Single-system view may miss the network', 'Review connected, cross-provider context'],
-                    ].map(row => (
-                      <tr key={row[0]} style={{ borderBottom: '1px solid var(--border)' }}>
-                        <td style={{ padding: '0.6rem 0.75rem', color: 'var(--dark)', fontWeight: 600 }}>{row[0]}</td>
-                        <td style={{ padding: '0.6rem 0.75rem', color: 'var(--body)' }}>{row[1]}</td>
-                        <td style={{ padding: '0.6rem 0.75rem', color: 'var(--body)' }}>{row[2]}</td>
-                        <td style={{ padding: '0.6rem 0.75rem', color: 'var(--body)' }}>{row[3]}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            {/* F. RISK NARRATIVE */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>F · Risk Narrative</p>
-              <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7 }}>
-                Viewed individually, the alerts appeared to involve separate merchants and wallets. When connected through Verafye&apos;s graph-native intelligence layer, the activity formed a linked network involving shared beneficiaries, repeated device patterns, overlapping KYB attributes, and recurring payment timing. The evidence may indicate a connected network and suggests review. The cluster should be reviewed as a connected network case rather than separate low-priority alerts, and requires analyst validation. Recommended for investigation.
-              </p>
-            </div>
-
-            {/* G. CASE-READY EVIDENCE PACK */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>G · Case-Ready Evidence Pack</p>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(13rem, 1fr))', gap: '0.5rem' }}>
-                {[
-                  'Cluster summary', 'Linked entity list', 'Relationship map', 'Alert-to-case grouping', 'Risk indicators', 'Supporting payment events', 'KYC / KYB linkage summary', 'Device and identity linkage summary', 'Prior case references', 'Analyst notes', 'Recommended review steps', 'Audit-ready decision summary',
-                ].map(i => (
-                  <div key={i} style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><path d="M20 6 9 17l-5-5"/></svg>
-                    <span style={{ fontSize: '0.8125rem', color: 'var(--body)' }}>{i}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* H. ANALYST REVIEW NOTES */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>H · Analyst Review Notes</p>
-              <ul style={{ margin: 0, paddingLeft: '1.1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-                {[
-                  'Review Beneficiary B-204 across all linked merchants and wallets.',
-                  'Validate whether Merchant A, Merchant B, and Merchant C share ownership, control, or onboarding attributes.',
-                  'Review Device Hash D-91F3 across related wallets and sessions.',
-                  'Compare Prior Case C-077 with current cluster RS-2026-014.',
-                  'Escalate for enhanced review if ownership, beneficiary, or device linkage is confirmed.',
-                ].map(n => (
-                  <li key={n} style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.6 }}>{n}</li>
-                ))}
-              </ul>
-            </div>
-
-            {/* I. AUDIT-READY DECISION SUPPORT */}
-            <div style={{ marginBottom: '2.25rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>I · Audit-Ready Decision Support</p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                {[
-                  ['Recommended disposition', 'Enhanced review recommended'],
-                  ['Confidence direction', 'Network linkage observed, analyst validation required'],
-                  ['Suggested escalation', 'Fraud and AML joint review'],
-                  ['Evidence basis', 'Shared beneficiary, shared device, KYB overlap, payment timing, prior case link'],
-                  ['Documentation status', 'Case-ready summary available'],
-                  ['Next action', 'Validate linked entities and determine whether escalation, monitoring, filing review, or customer outreach is required'],
-                ].map(([k, v]) => (
-                  <div key={k} style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem 1rem', borderBottom: '1px solid var(--border)', padding: '0.45rem 0' }}>
-                    <span style={{ fontSize: '0.8125rem', color: 'var(--muted)', fontWeight: 600, minWidth: '12rem' }}>{k}</span>
-                    <span style={{ fontSize: '0.8125rem', color: 'var(--dark)', flex: 1 }}>{v}</span>
-                  </div>
-                ))}
-              </div>
-              <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '0.875rem', fontStyle: 'italic' }}>
-                Filing review may be considered based on institution policy and analyst validation.
-              </p>
-            </div>
-
-            {/* J. WHAT THIS DEMONSTRATES */}
-            <div>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>J · What This Demonstrates</p>
-              <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>
-                This synthetic example shows how Verafye can help teams move from fragmented alerts to connected investigation context. A Risk Shadowing Review can reveal linked entities, suspicious clusters, repeated identifiers, beneficiary reuse, device patterns, and case relationships that may not be visible inside a single system or provider view.
-              </p>
-              <ul style={{ margin: 0, paddingLeft: '1.1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
-                {[
-                  'Connects alerts into case-ready clusters',
-                  'Detects hidden network relationships',
-                  'Helps analysts see entity, device, merchant, beneficiary, and payment linkages',
-                  'Produces evidence packs for review',
-                  'Supports explainable, audit-ready decisions',
-                  'Lets teams validate value before deeper deployment',
-                ].map(b => (
-                  <li key={b} style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.6 }}>{b}</li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Evidence pack CTA */}
-            <div style={{ marginTop: '2.25rem', paddingTop: '2rem', borderTop: '1px solid var(--border)', display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
-              <Link href="/request-demo" className="btn-primary">
-                Request a Risk Shadowing Review
-                <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                </span>
-              </Link>
-              <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
-            </div>
-          </div>
         </div>
       </section>
 
-      {/* ── 6. FAQ ──────────────────────────────────────────────────────────── */}
-      <section style={{ padding: '4rem 0', background: '#fff' }}>
+      {/* ── FAQ ──────────────────────────────────────────────────────────────── */}
+      <section className="section-light" style={{ padding: '4rem 0' }}>
         <div className="container" style={{ maxWidth: '52rem' }}>
           <div style={{ textAlign: 'center', margin: '0 auto 2.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>FAQ</p>
@@ -420,10 +179,10 @@ export default function RiskShadowingReviewPage() {
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             {[
-              { q: 'Which teams is Risk Shadowing for?', a: 'Risk Shadowing is a generic evaluation motion for payment-led financial crime teams, including PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, and selected banks. It connects fragmented signals into an independent network-risk view across whichever segment applies to you.' },
-              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'No. Verafye works alongside the systems you already run as an independent Network Risk Intelligence layer. It connects fragmented signals and produces investigation-ready evidence, supporting your existing oversight workflows rather than replacing them.' },
-              { q: 'What data do we need to provide?', a: 'Inputs are configurable based on use case and available data. You can start with the signals you are able to share, such as fraud, AML, payment, identity, device, ledger, merchant, beneficiary, and case data, and expand coverage over time. Not every team needs to supply every data type.' },
-              { q: 'What do we get at the end of a Risk Shadowing Review?', a: 'You get an independent view of hidden network risk across your connected signals, clustered cases that reduce manual review effort, and an investigation-ready evidence pack that supports audit-ready decisions before deeper deployment.' },
+              { q: 'Which teams is Risk Shadowing for?', a: 'Risk Shadowing is a low-friction evaluation motion for payment-led financial crime teams, including PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, and selected banks.' },
+              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'No. Verafye is designed to work alongside the systems you already run as an independent Network Risk Intelligence layer, supporting your existing oversight workflows rather than replacing them.' },
+              { q: 'What data do we need to provide?', a: 'Inputs are configurable based on use case and available data. You can start with a controlled dataset for a focused use case and expand coverage over time. Not every team needs to supply every data type.' },
+              { q: 'Can we see a sample output?', a: 'Yes. Detailed sample outputs are shared during qualified walkthroughs using synthetic data only. Request a sample output walkthrough and our team will walk you through it.' },
             ].map(item => (
               <div key={item.q} className="card card-elevated" style={{ padding: '1.75rem 2rem' }}>
                 <h3 style={{ fontSize: 'clamp(1rem,1.8vw,1.1875rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.q}</h3>
@@ -434,23 +193,26 @@ export default function RiskShadowingReviewPage() {
         </div>
       </section>
 
-      {/* ── 7. FINAL CTA ────────────────────────────────────────────────────── */}
+      {/* ── F. FINAL CTA ─────────────────────────────────────────────────────── */}
       <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
             Validate hidden network risk against your own data
           </h2>
-          <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '38rem', margin: '0 auto 2.5rem' }}>
+          <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '38rem', margin: '0 auto 1.25rem' }}>
             Start a Risk Shadowing Review alongside your existing systems. Built for payment-led financial crime teams across PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance, digital banks, NBFCs, and selected banks.
           </p>
+          <p style={{ fontSize: '0.875rem', color: 'var(--muted)', maxWidth: '38rem', margin: '0 auto 2.5rem' }}>
+            Detailed sample outputs are shared during qualified walkthroughs.
+          </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
-            <Link href="/request-demo" className="btn-primary">
+            <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
               Request a Risk Shadowing Review
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>
             </Link>
-            <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
+            <Link href="/request-demo?intent=sample-output-walkthrough" className="btn-secondary">Request Sample Output Walkthrough</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
             Verafye is designed to support fraud and AML investigation workflows alongside existing systems. We do not claim regulatory approval, certification, or guaranteed fraud prevention.

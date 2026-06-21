@@ -62,6 +62,18 @@ export default function RequestDemoClient() {
     return () => window.clearTimeout(timeoutId);
   }, [toast]);
 
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const intent = new URLSearchParams(window.location.search).get('intent');
+    const map = {
+      'risk-shadowing-review': 'Risk Shadowing Review',
+      'sample-output-walkthrough': 'Sample Output Walkthrough',
+    };
+    if (intent && map[intent]) {
+      setForm(prev => ({ ...prev, inquiryType: map[intent] }));
+    }
+  }, []);
+
   function validate() {
     const e = {};
     if (!form.firstName.trim()) e.firstName = 'Required';
@@ -172,6 +184,9 @@ export default function RequestDemoClient() {
             </h1>
             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
               Share a focused use case or evaluation goal, and we will help assess whether Verafye can run alongside your existing fraud, AML, KYC, identity, payment, device, ledger, and case systems.
+            </p>
+            <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '0.625rem', lineHeight: 1.6 }}>
+              Sample Risk Shadowing outputs are shared during qualified walkthroughs using synthetic data only.
             </p>
           </div>
         </div>
@@ -360,6 +375,7 @@ export default function RequestDemoClient() {
                         <label className="form-label" htmlFor="inquiryType">Inquiry Type</label>
                         <select id="inquiryType" name="inquiryType" className="form-select" value={form.inquiryType} onChange={handleChange}>
                           <option value="Risk Shadowing Review">Risk Shadowing Review</option>
+                          <option value="Sample Output Walkthrough">Sample Output Walkthrough</option>
                           <option value="Product Walkthrough">Product Walkthrough</option>
                           <option value="Partnership Discussion">Partnership Discussion</option>
                           <option value="Product Evaluation">Product Evaluation</option>
