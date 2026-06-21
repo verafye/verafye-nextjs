@@ -229,7 +229,7 @@ export default function InvestigationIntelligencePage() {
               },
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>),
-                title: 'Evidence packs &amp; audit-ready records',
+                title: 'Evidence packs & audit-ready records',
                 body: 'Preserve linked signals, case context, analyst notes, decision rationale, and supporting records in structured evidence packs - with decision history, audit logs, and review records for compliance and governance.',
               },
             ].map(item => (

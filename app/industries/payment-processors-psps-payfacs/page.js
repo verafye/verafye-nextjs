@@ -36,7 +36,7 @@ export default function PaymentProcessorsPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>PAYMENT PLATFORMS</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Investigation intelligence for PSPs, PayFacs, processors, and fintechs
+              Investigation intelligence for PSPs, PayFacs, and payment processors
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps PSPs, PayFacs, and payment processors detect network-level risk across merchants, accounts, devices, identities, transactions, beneficiaries, and payouts.
