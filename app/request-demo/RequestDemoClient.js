@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 const INITIAL_FORM = {
@@ -72,6 +73,7 @@ export default function RequestDemoClient() {
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [toast, setToast] = useState(null);
+  const router = useRouter();
 
   useEffect(() => {
     if (!toast) return undefined;
@@ -166,9 +168,15 @@ export default function RequestDemoClient() {
         });
       }
 
-      setToast({ type: 'success', title: 'Request Received', message: 'Thank you! We will get back to you soon.' });
+      const unlockSample = ['Risk Shadowing Review', 'Sample Output Walkthrough'].includes(form.inquiryType);
       setForm(INITIAL_FORM);
       setErrors({});
+      if (unlockSample && typeof window !== 'undefined') {
+        window.sessionStorage.setItem('rsr_sample_unlocked', 'true');
+        router.push('/sample-output');
+        return;
+      }
+      setToast({ type: 'success', title: 'Request Received', message: 'Thank you! We will get back to you soon.' });
       setSubmitted(true);
     } catch (error) {
       setToast({ type: 'error', title: 'Error', message: 'Something went wrong. Please try again later.' });
