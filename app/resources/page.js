@@ -39,7 +39,7 @@ export default function ResourcesPage() {
         title="Resources for Financial Crime, Fraud, and Payment Risk Teams"
         description="Insights on investigation intelligence, fraud and AML workflows, mule account risk, evidence trails, and regulated money movement operations."
         primaryCTA={{ label: 'Explore Resources', href: '#resources-grid' }}
-        secondaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
+        secondaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
         visualCard={<ResourcesVisualCard />}
       />
 
@@ -116,8 +116,8 @@ export default function ResourcesPage() {
             Explore how Verafye helps regulated payment, fintech, and digital banking risk teams move from alerts to decisions faster.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
-            <Link href="/request-demo" className="btn-primary">
-              Request a Risk Shadowing Review
+            <Link href="/risk-shadowing-review" className="btn-primary">
+              Explore Risk Shadowing Review
               <span className="btn-arrow" style={{ marginLeft: '0.375rem' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>

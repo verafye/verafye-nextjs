@@ -29,7 +29,7 @@ export default function MuleAccountDetectionPage() {
         title="Mule account detection with connected risk signals"
         description="Connect account, identity, device, transaction, counterparty, and behavior signals to identify suspicious mule activity faster."
         body="Verafye helps teams detect and investigate mule account patterns by linking fragmented signals into case-ready context and graph-based relationship views."
-        primaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
+        primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
         secondaryCTA={{ label: 'Explore Graph Intelligence', href: '/solutions/graph-intelligence' }}
         visualCard={<MuleAccountVisualCard />}
       />
@@ -374,8 +374,8 @@ export default function MuleAccountDetectionPage() {
             See how suspected mule-linked patterns can be connected into investigation-ready cases - with evidence trails, reviewer controls, and audit-ready records built on the Verafye platform. Start with a scoped pilot on agreed data feeds, then expand into Verafye-led investigation workflows as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
-            <Link href="/request-demo" className="btn-primary">
-              Request a Risk Shadowing Review
+            <Link href="/risk-shadowing-review" className="btn-primary">
+              Explore Risk Shadowing Review
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>

@@ -44,7 +44,7 @@ export default function PartnersPage() {
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </span>
               </Link>
-              <Link href="/request-demo" className="btn-secondary">Request a Risk Shadowing Review</Link>
+              <Link href="/risk-shadowing-review" className="btn-secondary">Explore Risk Shadowing Review</Link>
             </div>
           </div>
         </div>
@@ -310,8 +310,8 @@ export default function PartnersPage() {
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>
             </Link>
-            <Link href="/request-demo" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9375rem', fontWeight: 600, color: 'rgba(255,255,255,0.8)', border: '1px solid rgba(255,255,255,0.25)', borderRadius: '8px', padding: '0.75rem 1.5rem', transition: 'border-color 0.15s' }}>
-              Request a Risk Shadowing Review
+            <Link href="/risk-shadowing-review" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9375rem', fontWeight: 600, color: 'rgba(255,255,255,0.8)', border: '1px solid rgba(255,255,255,0.25)', borderRadius: '8px', padding: '0.75rem 1.5rem', transition: 'border-color 0.15s' }}>
+              Explore Risk Shadowing Review
             </Link>
           </div>
         </div>

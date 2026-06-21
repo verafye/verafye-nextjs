@@ -15,6 +15,29 @@ const INITIAL_FORM = {
   message: '',
 };
 
+const VARIANTS = {
+  demo: {
+    eyebrow: 'Request Demo',
+    heading: 'See Verafye in Action',
+    lead: 'Connected fraud, AML, and payment intelligence for regulated financial institutions and payment platforms.',
+    note: null,
+    submitLabel: 'Request Demo',
+    defaultInquiry: 'Product Walkthrough',
+    category: 'Request Demo',
+    unlockSample: false,
+  },
+  'risk-shadowing': {
+    eyebrow: 'Risk Shadowing Review',
+    heading: 'Request a Risk Shadowing Review',
+    lead: 'Share a focused use case or evaluation goal, and we will help assess whether Verafye can run alongside your existing fraud, AML, KYC, identity, payment, device, ledger, and case systems.',
+    note: 'Sample Risk Shadowing outputs are shared during qualified walkthroughs using synthetic data only.',
+    submitLabel: 'Request Risk Shadowing Review',
+    defaultInquiry: 'Risk Shadowing Review',
+    category: 'Risk Shadowing Review',
+    unlockSample: true,
+  },
+};
+
 const REQUEST_DEMO_ENDPOINT =
   process.env.NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT ||
   'https://dashboard.verafye.com/api/external-email/send';
@@ -35,7 +58,7 @@ function isWorkEmail(email) {
   return !FREE_EMAIL_DOMAINS.has(domain);
 }
 
-function buildRequestDemoPayload(form) {
+function buildRequestDemoPayload(form, cfg) {
   const firstName = form.firstName.trim();
   const lastName = form.lastName.trim();
   const fullName = [firstName, lastName].filter(Boolean).join(' ');
@@ -50,7 +73,7 @@ function buildRequestDemoPayload(form) {
     clientName: company,
     emailAddress: form.email.trim(),
     phoneNumber: phone,
-    subject: `${inquiryType || 'Risk Shadowing Review'} - ${company}`,
+    subject: `${inquiryType || cfg.category} - ${company}`,
     message: [
       `Contact Name: ${fullName}`,
       `Work Email: ${form.email.trim()}`,
@@ -63,12 +86,13 @@ function buildRequestDemoPayload(form) {
     ].filter(Boolean).join('\n'),
     institutionUuid: null,
     fileReference: null,
-    category: 'Request Demo',
+    category: cfg.category,
   };
 }
 
-export default function RequestDemoClient() {
-  const [form, setForm] = useState(INITIAL_FORM);
+export default function RequestDemoClient({ variant = 'demo' } = {}) {
+  const cfg = VARIANTS[variant] || VARIANTS.demo;
+  const [form, setForm] = useState(() => ({ ...INITIAL_FORM, inquiryType: cfg.defaultInquiry }));
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -134,7 +158,7 @@ export default function RequestDemoClient() {
       const response = await fetch(REQUEST_DEMO_ENDPOINT, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(buildRequestDemoPayload(form)),
+        body: JSON.stringify(buildRequestDemoPayload(form, cfg)),
       });
 
       let result = null;
@@ -168,8 +192,8 @@ export default function RequestDemoClient() {
         });
       }
 
-      const unlockSample = ['Risk Shadowing Review', 'Sample Output Walkthrough'].includes(form.inquiryType);
-      setForm(INITIAL_FORM);
+      const unlockSample = cfg.unlockSample;
+      setForm({ ...INITIAL_FORM, inquiryType: cfg.defaultInquiry });
       setErrors({});
       if (unlockSample && typeof window !== 'undefined') {
         window.sessionStorage.setItem('rsr_sample_unlocked', 'true');
@@ -214,16 +238,18 @@ export default function RequestDemoClient() {
       <section style={{ background: 'linear-gradient(135deg, #F5F9FF 0%, #EEF4FF 60%, #fff 100%)', padding: '2.25rem 0 2rem', borderBottom: '1px solid rgba(30,111,183,0.07)' }}>
         <div className="container">
           <div style={{ maxWidth: '56rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>Risk Shadowing Review</p>
+            <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>{cfg.eyebrow}</p>
             <h1 style={{ fontSize: 'clamp(1.75rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Request a Risk Shadowing Review
+              {cfg.heading}
             </h1>
             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
-              Share a focused use case or evaluation goal, and we will help assess whether Verafye can run alongside your existing fraud, AML, KYC, identity, payment, device, ledger, and case systems.
+              {cfg.lead}
             </p>
-            <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '0.625rem', lineHeight: 1.6 }}>
-              Sample Risk Shadowing outputs are shared during qualified walkthroughs using synthetic data only.
-            </p>
+            {cfg.note && (
+              <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '0.625rem', lineHeight: 1.6 }}>
+                {cfg.note}
+              </p>
+            )}
           </div>
         </div>
       </section>
@@ -439,7 +465,7 @@ export default function RequestDemoClient() {
                         aria-busy={isSubmitting}
                         style={{ width: '100%', height: '3rem', fontSize: '0.9375rem', marginTop: '0.5rem', opacity: isSubmitting ? 0.72 : 1, cursor: isSubmitting ? 'wait' : 'pointer' }}
                       >
-                        {isSubmitting ? 'Submitting...' : 'Request Risk Shadowing Review'}
+                        {isSubmitting ? 'Submitting...' : cfg.submitLabel}
                         <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </span>

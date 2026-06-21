@@ -34,8 +34,8 @@ export default function MarketplacesPage() {
               A controlled expansion segment. Verafye can support marketplaces and commerce platforms where seller, buyer, payout, device, identity, and mule-network risk resembles financial crime network risk - connecting those signals into explainable investigations of coordinated abuse.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="/request-demo" className="btn-primary">
-                Request a Risk Shadowing Review
+              <Link href="/risk-shadowing-review" className="btn-primary">
+                Explore Risk Shadowing Review
                 <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </span>
@@ -279,7 +279,7 @@ export default function MarketplacesPage() {
       {/* ── 7. CTA ──────────────────────────────────────────────────────────── */}
       <section style={{ padding: '4rem 0', background: '#EFF6FF' }}>
         <div className="container" style={{ maxWidth: '52rem', textAlign: 'center' }}>
-          <p className="eyebrow" style={{ marginBottom: '1rem' }}>Request a Risk Shadowing Review</p>
+          <p className="eyebrow" style={{ marginBottom: '1rem' }}>Risk Shadowing Review</p>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', letterSpacing: '-0.025em' }}>
             Explore Marketplace Network Risk Investigation
           </h2>
@@ -287,8 +287,8 @@ export default function MarketplacesPage() {
             Connect seller, buyer, device, payout and transaction signals into investigation-ready workflows.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
-            <Link href="/request-demo" className="btn-primary">
-              Request a Risk Shadowing Review
+            <Link href="/risk-shadowing-review" className="btn-primary">
+              Explore Risk Shadowing Review
               <span style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>

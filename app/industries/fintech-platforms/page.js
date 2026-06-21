@@ -45,8 +45,8 @@ export default function FintechPlatformsPage() {
               Verafye helps payment-enabled fintech platforms move beyond siloed risk tools by connecting signals across payment flows, onboarding, accounts, devices, and AML workflows - helping teams investigate faster, see hidden networks, and make explainable decisions built on the Verafye platform.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
-              <Link href="/request-demo" className="btn-primary">
-                Request a Risk Shadowing Review
+              <Link href="/risk-shadowing-review" className="btn-primary">
+                Explore Risk Shadowing Review
                 <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </span>
@@ -375,8 +375,8 @@ export default function FintechPlatformsPage() {
             Bring fragmented payment, fraud, AML, identity, device, behavior, and transaction signals into one investigation-ready workflow.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
-            <Link href="/request-demo" className="btn-primary">
-              Request a Risk Shadowing Review
+            <Link href="/risk-shadowing-review" className="btn-primary">
+              Explore Risk Shadowing Review
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>

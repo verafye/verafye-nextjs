@@ -245,7 +245,7 @@ export default function ArticlePage() {
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
-              <Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review</Link>
+              <Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
               <PdfDownloadButton
                 pdfPath="/downloads/resources/fraud-aml-investigations-payment-platforms.pdf"
