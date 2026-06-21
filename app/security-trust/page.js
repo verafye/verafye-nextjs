@@ -355,7 +355,7 @@ export default function SecurityTrustPage() {
               Security Frameworks and Trust Posture
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-              Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D, and maintains GDPR-compliant and DPDP-aware data practices. Certificates and audit reports are available on request during enterprise evaluation.
+              Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D, maintains GDPR-compliant data practices, and follows a privacy-by-design approach for personal data under India's DPDP framework. Certificates and audit reports are available on request during enterprise evaluation.
             </p>
           </div>
 
@@ -407,14 +407,14 @@ export default function SecurityTrustPage() {
                 body: 'Data handling, access controls, and processing practices implemented to meet GDPR principles for EU data protection. Verafye is GDPR-compliant; GDPR is a legislative framework, not a certification scheme.',
               },
               {
-                label: 'DPDP-aware',
-                sub: 'India Data Protection Readiness',
+                label: 'India DPDP',
+                sub: 'Privacy-by-Design Approach',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
                   </svg>
                 ),
-                body: 'Platform design and data handling practices are DPDP-aware, reflecting readiness for India\'s Digital Personal Data Protection Act as its implementation framework evolves.',
+                body: 'Privacy-by-design data handling, access controls, and transparency practices intended to support compliance with applicable Indian data protection requirements, reviewed as the DPDP framework continues its phased implementation.',
               },
             ].map(item => (
               <div key={item.label} className="card card-elevated" style={{ padding: '1.75rem 1.5rem', display: 'flex', flexDirection: 'column', gap: '0.625rem' }}>
@@ -453,7 +453,7 @@ export default function SecurityTrustPage() {
 
           {/* Disclaimer */}
           <p style={{ textAlign: 'center', fontSize: '0.75rem', color: 'var(--muted)', maxWidth: '56rem', margin: '0 auto', lineHeight: 1.65 }}>
-            Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D. Certificates and audit reports are available on request during enterprise evaluation. GDPR-compliant means our data handling practices are implemented to meet GDPR principles; GDPR is a legislative framework, not a certification scheme. DPDP-aware means our platform design reflects the DPDP Act&apos;s stated principles; formal compliance status will be assessed as the Act&apos;s implementing rules are finalised.
+            Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D. Certificates and audit reports are available on request during enterprise evaluation. GDPR-compliant means our data handling practices are implemented to meet GDPR principles; GDPR is a legislative framework, not a certification scheme. For India, Verafye follows a privacy-by-design approach for personal data processing intended to support compliance with applicable Indian data protection requirements; controls and policies are reviewed and updated as the DPDP framework continues its phased implementation.
           </p>
         </div>
       </section>
