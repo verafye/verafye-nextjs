@@ -355,7 +355,7 @@ export default function SecurityTrustPage() {
               Security Frameworks and Trust Posture
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-              Verafye is designed with security controls and architectural patterns aligned to the frameworks that financial institutions and regulated payment platforms rely on. Certification status is available on request during enterprise evaluation.
+              Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D, and maintains GDPR-compliant and DPDP-aware data practices. Certificates and audit reports are available on request during enterprise evaluation.
             </p>
           </div>
 
@@ -364,6 +364,7 @@ export default function SecurityTrustPage() {
             {[
               {
                 label: 'ISO/IEC 27001:2022 certified',
+                logo: '/certifications/iso-27001.png',
                 sub: 'Information Security Management',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -374,6 +375,7 @@ export default function SecurityTrustPage() {
               },
               {
                 label: 'SOC 2 Type I',
+                logo: '/certifications/soc-aicpa.png',
                 sub: 'Security & Availability Controls',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -384,6 +386,7 @@ export default function SecurityTrustPage() {
               },
               {
                 label: 'PCI DSS SAQ-D',
+                logo: '/certifications/pci-dss.png',
                 sub: 'Payment Data Security',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -394,6 +397,7 @@ export default function SecurityTrustPage() {
               },
               {
                 label: 'GDPR-compliant',
+                logo: '/certifications/gdpr.png',
                 sub: 'EU Data Protection',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -414,9 +418,15 @@ export default function SecurityTrustPage() {
               },
             ].map(item => (
               <div key={item.label} className="card card-elevated" style={{ padding: '1.75rem 1.5rem', display: 'flex', flexDirection: 'column', gap: '0.625rem' }}>
-                <div style={{ width: '2.25rem', height: '2.25rem', borderRadius: '8px', background: 'var(--bg-blue)', border: '1px solid rgba(30,111,183,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.25rem' }}>
-                  {item.icon}
-                </div>
+                {item.logo ? (
+                  <div style={{ height: '3rem', display: 'flex', alignItems: 'center', justifyContent: 'flex-start', marginBottom: '0.25rem' }}>
+                    <img src={item.logo} alt={item.label} loading="lazy" style={{ maxHeight: '3rem', maxWidth: '130px', width: 'auto', height: 'auto', objectFit: 'contain' }} />
+                  </div>
+                ) : (
+                  <div style={{ width: '2.25rem', height: '2.25rem', borderRadius: '8px', background: 'var(--bg-blue)', border: '1px solid rgba(30,111,183,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '0.25rem' }}>
+                    {item.icon}
+                  </div>
+                )}
                 <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--dark)', lineHeight: 1.2 }}>{item.label}</div>
                 <div style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--secondary)', lineHeight: 1.3 }}>{item.sub}</div>
                 <div style={{ fontSize: '0.8125rem', color: 'var(--body)', lineHeight: 1.65 }}>{item.body}</div>
