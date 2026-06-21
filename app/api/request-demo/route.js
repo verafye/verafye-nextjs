@@ -1,3 +1,7 @@
+// This route is not used in static export deployments (output: 'export').
+// The client posts directly to NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT (external endpoint).
+// Retained only for reference in future non-static deployments.
+
 const DEFAULT_REQUEST_DEMO_API_URL =
   process.env.NODE_ENV === 'production'
     ? 'https://dashboard.verafye.com/api/external-email/send'

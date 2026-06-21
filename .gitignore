@@ -7,3 +7,8 @@ out/
 .env.local
 *.bak*
 out.zip
+
+# Build artifacts and local env (added in QA hygiene pass)
+.env*.local
+*.zip
+!public/downloads/resources.zip

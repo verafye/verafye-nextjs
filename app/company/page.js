@@ -430,14 +430,14 @@ export default function Page() {
       <section style={{ padding: '4rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            See Verafye in Action
+            Explore Risk Shadowing
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
             Talk to our team about how Verafye supports fraud, AML, and payment risk operations for regulated payment platforms, fintechs, and financial institutions.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
-            <Link href="/request-demo" className="btn-primary">
-              Request Demo
+            <Link href="/risk-shadowing-review" className="btn-primary">
+              Explore Risk Shadowing Review
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>

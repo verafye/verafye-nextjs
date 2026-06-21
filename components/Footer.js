@@ -87,7 +87,7 @@ export default function Footer() {
             </p>
             {/* Trust badge / CTA */}
             <Link
-              href="/request-demo"
+              href="/request-demo?intent=risk-shadowing-review"
               style={{
                 display: 'inline-block',
                 fontSize: '0.75rem',
@@ -163,7 +163,7 @@ export default function Footer() {
             <Link href="/cookie-policy">Cookie Policy</Link>
             <Link href="/terms">Terms of Service</Link>
             <Link href="/security-trust">Security &amp; Trust</Link>
-            <Link href="/request-demo">Risk Shadowing Review</Link>
+            <Link href="/risk-shadowing-review">Risk Shadowing Review</Link>
             <CookiePreferencesLink />
           </div>
         </div>

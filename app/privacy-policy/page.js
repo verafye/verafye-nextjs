@@ -48,7 +48,7 @@ export default function Page() {
             <h2 style={h2}>2. Information We Collect</h2>
 
             <h3 style={h3}>2.1 Information you provide directly</h3>
-            <p style={p}>When you submit a form on our website - including the Request Demo form, the Become a Partner form, or any contact enquiry - we collect:</p>
+            <p style={p}>When you submit a form on our website - including the request form, the Become a Partner form, or any contact enquiry - we collect:</p>
             <ul style={ul}>
               <li>First and last name</li>
               <li>Work email address</li>
@@ -76,7 +76,7 @@ export default function Page() {
             <h2 style={h2}>3. How We Use Your Information</h2>
             <p style={p}>We use the information we collect for the following purposes:</p>
             <ul style={ul}>
-              <li><strong>To respond to your enquiry</strong> - processing demo requests, partner applications, and general contact submissions</li>
+              <li><strong>To respond to your enquiry</strong> - processing review and walkthrough requests, partner applications, and general contact submissions</li>
               <li><strong>To communicate with you</strong> - sending follow-up communications relevant to your enquiry and, where you have indicated interest, information about Verafye products, updates, or events</li>
               <li><strong>To improve our website</strong> - understanding how visitors interact with our content so we can improve navigation, performance, and relevance</li>
               <li><strong>To measure marketing effectiveness</strong> - attributing website visits and form submissions to marketing channels through analytics and campaign tracking tools</li>

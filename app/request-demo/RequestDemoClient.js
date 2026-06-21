@@ -16,11 +16,11 @@ const INITIAL_FORM = {
 
 const VARIANTS = {
   demo: {
-    eyebrow: 'Request Demo',
-    heading: 'See Verafye in Action',
+    eyebrow: 'Verafye Walkthrough',
+    heading: 'Book a Verafye Walkthrough',
     lead: 'Connected fraud, AML, and payment intelligence for regulated financial institutions and payment platforms.',
     note: null,
-    submitLabel: 'Request Demo',
+    submitLabel: 'Book a Verafye Walkthrough',
     defaultInquiry: 'Product Walkthrough',
     category: 'Request Demo',
   },
@@ -254,9 +254,9 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
 
               {/* What You'll See */}
               <div>
-                <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>In the Demo</p>
+                <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>In the Walkthrough</p>
                 <h2 style={{ fontSize: 'clamp(1.0625rem,2vw,1.3125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', letterSpacing: '-0.02em' }}>
-                  What You'll See
+                  What We'll Walk Through
                 </h2>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem' }}>
                   {[
@@ -319,7 +319,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   {[
                     { n: '1', title: 'Intro call to understand your use case', desc: 'A brief conversation to learn about your environment, team, and priorities.' },
-                    { n: '2', title: 'Tailored product walkthrough', desc: 'A focused demo built around the scenarios most relevant to your institution.' },
+                    { n: '2', title: 'Tailored product walkthrough', desc: 'A focused walkthrough built around the scenarios most relevant to your institution.' },
                     { n: '3', title: 'Deployment and integration discussion', desc: 'An overview of how Verafye connects to your existing stack and data sources.' },
                     { n: '4', title: 'Next steps aligned to your environment', desc: 'Clear, no-pressure guidance on how to evaluate Verafye within your organisation.' },
                   ].map(item => (
@@ -462,7 +462,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
                       </button>
 
                       <p style={{ fontSize: '0.6875rem', color: 'var(--muted)', textAlign: 'center', marginTop: '1rem', lineHeight: 1.65 }}>
-                        By submitting this form, you agree to be contacted by the Verafye team regarding your demo request. We process your data to respond to your enquiry and for related business purposes. We do not sell your personal data. Your data is handled in accordance with our <a href="/privacy-policy" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>Privacy Policy</a>, which includes information on your rights under applicable data protection law (including GDPR-compliant and DPDP-aware practices for EU and India visitors).
+                        By submitting this form, you agree to be contacted by the Verafye team regarding your review request. We process your data to respond to your enquiry and for related business purposes. We do not sell your personal data. Your data is handled in accordance with our <a href="/privacy-policy" style={{ color: 'var(--primary)', textDecoration: 'underline' }}>Privacy Policy</a>, which includes information on your rights under applicable data protection law (including GDPR-compliant and DPDP-aware practices for EU and India visitors).
                       </p>
                     </form>
                   </>
@@ -500,11 +500,11 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
               See How Verafye Fits Your Operations
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.0625rem)', color: 'var(--body)', marginBottom: '1.75rem', lineHeight: 1.7 }}>
-              Request a demo to see how Verafye connects fraud, AML, and payments intelligence for financial institutions operating under real investigative and regulatory pressure.
+              Request a Risk Shadowing Review to see how Verafye connects fraud, AML, and payments intelligence for financial institutions operating under real investigative and regulatory pressure.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <button type="button" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); typeof window !== 'undefined' && window.trackEvent && window.trackEvent('demo_cta_click', { location: 'page_bottom' }); }} className="btn-primary" style={{ cursor: 'pointer' }}>
-                Request Demo
+                Request Risk Shadowing Review
                 <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </span>

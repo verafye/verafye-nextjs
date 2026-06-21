@@ -176,7 +176,7 @@ export default function Page() {
 {/* CTA */}
 <section style={{'padding':'4rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container" style={{'textAlign':'center','maxWidth':'48rem'}}>
-    <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.03em'}}>See Verafye in Action</h2>
+    <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.03em'}}>Explore Risk Shadowing</h2>
     <p style={{'fontSize':'clamp(0.938rem,2vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem','maxWidth':'40rem','marginLeft':'auto','marginRight':'auto'}}>Talk to our team about connecting fraud, AML, and payment risk signals into investigation-ready cases - designed for regulated payment platforms, fintechs, and digital banks operating under real compliance pressure.</p>
     <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--muted)','maxWidth':'34rem','margin':'0 auto 2.5rem'}}>PSPs, PayFacs, FinTech payment platforms, digital banks, and regulated money movement businesses are building investigation intelligence ahead of regulatory review cycles. Verafye is built for that operating reality.</p>
     <div style={{'display':'flex','flexWrap':'wrap','gap':'1rem','justifyContent':'center'}}>

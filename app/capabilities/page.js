@@ -512,8 +512,8 @@ export default function CapabilitiesPage() {
             See how Verafye helps regulated financial platforms connect alerts, explain risk, and close cases faster. Start with a scoped pilot around the capabilities your team needs - and expand as outcomes are proven.
           </p>
           <div style={{display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap'}}>
-            <a href="/request-demo" className="btn-primary">
-              Request Demo
+            <a href="/risk-shadowing-review" className="btn-primary">
+              Explore Risk Shadowing Review
               <span style={{display: 'inline-flex', marginLeft: '0.5rem'}}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>
