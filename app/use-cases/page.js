@@ -150,10 +150,10 @@ export default function UseCasesPage() {
           {/* Shared section-level CTA */}
           <div style={{ textAlign: 'center', marginTop: '3rem' }}>
             <Link
-              href="/request-demo"
+              href="/risk-shadowing-review"
               style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.875rem 2rem', background: 'var(--primary)', color: '#fff', borderRadius: '0.5rem', fontSize: '0.9375rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '-0.01em' }}
             >
-              See Verafye in action
+              Explore Verafye through Risk Shadowing
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
               </svg>

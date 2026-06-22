@@ -16,7 +16,7 @@ export default function CTA({ title, subtitle, showBullets = true }) {
           {subtitle || defaultSubtitle}
         </p>
         <div style={{display:'flex',flexWrap:'wrap',gap:'1rem',justifyContent:'center'}}>
-          <Link href="/request-demo" className="btn-primary">Request a Risk Shadowing Review <span className="btn-arrow"><IconArrowRight /></span></Link>
+          <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">Request a Risk Shadowing Review <span className="btn-arrow"><IconArrowRight /></span></Link>
           <Link href="/platform" className="btn-secondary">Explore Platform</Link>
         </div>
         {showBullets && (

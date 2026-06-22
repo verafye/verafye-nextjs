@@ -42,10 +42,10 @@ export default function ContactClient() {
               </div>
               <div>
                 <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.75rem', letterSpacing: '-0.02em' }}>
-                  Request a Demo
+                  Request a Risk Shadowing Review
                 </h2>
                 <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.7, marginBottom: '0' }}>
-                  See Verafye in action. We'll walk you through a tailored session showing how the platform connects fraud, AML, and payment signals into explainable investigations relevant to your environment.
+                  Explore Verafye through Risk Shadowing. We'll walk you through a tailored session showing how the platform connects fraud, AML, and payment signals into explainable investigations relevant to your environment.
                 </p>
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.8125rem', color: 'var(--muted)' }}>

@@ -12,3 +12,9 @@ out.zip
 .env*.local
 *.zip
 !public/downloads/resources.zip
+.env.production
+sales-assets/
+
+# sales-assets/ holds INTERNAL sales collateral (not part of the website build).
+# Already isolated: not imported, not in public/, not in out/. Untrack with
+# `git rm --cached -r sales-assets` if a clean public handoff is needed.

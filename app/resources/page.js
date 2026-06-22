@@ -110,7 +110,7 @@ export default function ResourcesPage() {
         <div className="container" style={{ textAlign: 'center', maxWidth: '56rem' }}>
           <p className="eyebrow" style={{ marginBottom: '1.25rem' }}>Get Started</p>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,3rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.2, letterSpacing: '-0.025em' }}>
-            See Verafye in action
+            Explore Verafye through Risk Shadowing
           </h2>
           <p style={{ fontSize: 'clamp(0.9375rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
             Explore how Verafye helps regulated payment, fintech, and digital banking risk teams move from alerts to decisions faster.

@@ -248,7 +248,7 @@ export default function RiskShadowingReviewPage() {
             <Link href="/request-demo?intent=sample-output-walkthrough" className="btn-secondary">Request Sample Output Walkthrough</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
-            Verafye is designed to support fraud and AML investigation workflows alongside existing systems. We do not claim regulatory approval, certification, or guaranteed fraud prevention.
+            Verafye is designed to support fraud and AML investigation workflows alongside existing systems. We do not claim regulatory approval, regulator certification, endorsement, or guaranteed fraud prevention.
           </p>
         </div>
       </section>

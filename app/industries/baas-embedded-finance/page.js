@@ -215,7 +215,7 @@ export default function BaasEmbeddedFinancePage() {
             <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
-            Verafye works alongside existing systems as an independent Network Risk Intelligence layer. We do not claim regulatory approval, certification, or guaranteed fraud prevention.
+            Verafye works alongside existing systems as an independent Network Risk Intelligence layer. We do not claim regulatory approval, regulator certification, endorsement, or guaranteed fraud prevention.
           </p>
         </div>
       </section>
