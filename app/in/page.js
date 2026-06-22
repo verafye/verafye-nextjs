@@ -351,7 +351,7 @@ export default function IndiaPage() {
         </div>
         <div style={{'flex':1,'minWidth':'16rem'}}>
           <h3 style={{'fontSize':'clamp(1rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Lending &amp; NBFCs</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7,'maxWidth':'52rem'}}>Detect synthetic identity fraud and mule activity across application review and post-booking stages for lending fraud risk teams. Selective adjacency - Verafye supports fraud investigation around lending flows; it does not score creditworthiness or decide applications.</p>
+          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7,'maxWidth':'52rem'}}>Detect synthetic identity fraud and mule activity across application review and post-booking stages for lending fraud risk teams. Applicable where lending flows create linked fraud risk. Verafye supports fraud investigation around lending flows; it does not score creditworthiness or decide applications.</p>
         </div>
       </div>
     </div>

@@ -75,7 +75,7 @@ export default function RiskShadowingReviewPage() {
               { gradient: 'gradient-bg-4', title: 'Digital bank and wallet mule risk', body: 'Surface mule-linked accounts, wallets, and devices across onboarding, payment, and beneficiary activity.' },
               { gradient: 'gradient-bg-1', title: 'NBFC and digital lending fraud investigation', body: 'Surface mule-linked borrower networks, synthetic identity clusters, and coordinated application patterns for investigation.' },
               { gradient: 'gradient-bg-2', title: 'Selected bank and sponsor-bank oversight workflows', body: 'Support program and sponsor-bank oversight with connected, investigation-ready evidence across providers.' },
-              { gradient: 'gradient-bg-3', title: 'Marketplace network risk (adjacency)', body: 'As a network-risk adjacency, surface seller, buyer, payout, and device-linked patterns where commerce risk resembles financial crime network risk.' },
+              { gradient: 'gradient-bg-3', title: 'Marketplace and commerce network risk', body: 'Surface seller, buyer, payout, and device-linked patterns in commerce environments where commerce risk resembles financial crime network risk.' },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
                 <div className={`card-icon ${item.gradient}`}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg></div>

@@ -21,7 +21,7 @@ export default function ContactClient() {
               How can we help?
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', lineHeight: 1.7 }}>
-              Whether you want to see Verafye in action or explore a partnership, select the path that fits your situation.
+              Whether you want to explore Risk Shadowing, schedule a Verafye walkthrough, or discuss a partnership, select the path that fits your situation.
             </p>
           </div>
         </div>

@@ -26,12 +26,12 @@ export default function MarketplacesPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MARKETPLACES · NETWORK-RISK ADJACENCY</p>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MARKETPLACES · COMMERCE NETWORK RISK</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Network risk intelligence for marketplace risk teams
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              A controlled expansion segment. Verafye can support marketplaces and commerce platforms where seller, buyer, payout, device, identity, and mule-network risk resembles financial crime network risk - connecting those signals into explainable investigations of coordinated abuse.
+              Verafye can support marketplaces and commerce platforms where seller, buyer, payout, device, identity, and mule-network risk resembles financial crime network risk - connecting those signals into explainable investigations of coordinated abuse.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/risk-shadowing-review" className="btn-primary">
