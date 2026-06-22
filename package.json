@@ -11,7 +11,7 @@
     "lint": "echo \"No ESLint configured for this project; 'next lint' was removed in Next.js 16.\" && exit 0"
   },
   "dependencies": {
-    "next": "^16.2.0",
+    "next": "^16.2.9",
     "react": "^18.3.0",
     "react-dom": "^18.3.0"
   },

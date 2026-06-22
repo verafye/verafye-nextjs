@@ -145,7 +145,7 @@ export default function Page() {
       ))}
     </div>
     <p style={{'textAlign':'center','fontSize':'0.75rem','color':'var(--muted)','marginTop':'1.25rem','lineHeight':1.6,'maxWidth':'44rem','marginLeft':'auto','marginRight':'auto'}}>
-      Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D, and maintains GDPR-compliant and DPDP-aware data practices. Certificates are available on request. GDPR is a legislative framework, not a certification scheme.
+      Verafye holds ISO/IEC 27001:2022, SOC 2 Type I, and PCI DSS SAQ-D, and maintains GDPR-compliant and DPDP-aware data practices. Certificates are available on request.
     </p>
   </div>
 </section>
