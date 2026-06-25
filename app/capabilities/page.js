@@ -112,8 +112,8 @@ const supportingCapabilities = [
         <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
       </svg>
     ),
-    title: 'AI-Assisted Decision Support',
-    body: 'Surface contextual signals, case summaries, and risk indicators to help analysts reach faster, explainable decisions - with humans in control of every outcome.',
+    title: 'Embedded Decision Intelligence',
+    body: 'Surface contextual signals, case summaries, and risk indicators through embedded intelligence — helping analysts reach faster, explainable decisions with humans in control of every outcome.',
   },
   {
     icon: (
@@ -132,6 +132,15 @@ const supportingCapabilities = [
     ),
     title: 'APIs, SDKs & Integrations',
     body: 'Connect Verafye to existing fraud, AML, payment, identity, and case systems through flexible integration paths and pre-built connectors - and start ingesting signals into investigation-ready workflows built on the Verafye platform.',
+  },
+  {
+    icon: (
+      <svg width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <rect x="2" y="3" width="20" height="4" rx="1"/><rect x="2" y="10" width="20" height="4" rx="1"/><rect x="2" y="17" width="20" height="4" rx="1"/>
+      </svg>
+    ),
+    title: 'AI-Native Architecture',
+    body: 'Verafye embeds intelligence across ingestion, entity resolution, graph analytics, investigations, and evidence creation — rather than introducing AI as a separate assistant layer. Embedded at ingestion, resolution, and case generation for consistent provenance.',
   },
 ];
 

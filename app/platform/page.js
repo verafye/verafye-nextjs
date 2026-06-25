@@ -147,7 +147,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#059669','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>05 · Investigate</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Investigate Context</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Case context, graph views, AI-assisted summaries, and evidence are surfaced before analysts take any action.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Case context, graph views, embedded intelligence summaries, and evidence are surfaced before analysts take any action.</p>
         </div>
 
         {/* Arrow */}
@@ -284,13 +284,29 @@ export default function PlatformPage() {
   </div>
 </section>
 
-{/* INVESTIGATION INTELLIGENCE ARCHITECTURE */}
+{/* AI-NATIVE INVESTIGATION INTELLIGENCE ARCHITECTURE */}
 <section style={{'padding':'4rem 0','background':'linear-gradient(180deg,#F8FBFF 0%,#ffffff 100%)'}}>
   <div className="container" style={{'maxWidth':'80rem'}}>
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>ARCHITECTURE</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Investigation Intelligence Architecture</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75}}>The Verafye platform brings signals, alerts, relationships, evidence, and workflows into a single Investigation Intelligence Layer - helping risk teams understand entity relationships, prioritize cases, make explainable decisions, and preserve audit-ready investigation records.</p>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>AI-NATIVE ARCHITECTURE</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>AI-Native Investigation Intelligence Architecture</h2>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.25rem'}}>Most financial crime platforms were not originally designed around AI. As a result, many now layer AI assistants, summarization tools, and orchestration components on top of existing architectures to bridge fragmented workflows.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>Verafye took a different approach. Intelligence is embedded into the platform architecture itself — at signal ingestion, entity resolution, graph reasoning, detection and risk scoring, investigation workflows, and evidence generation. Graph reasoning, alert correlation, case context, provenance tracking, and audit trails are native capabilities — not separate layers added on top.</p>
+
+      {/* Compact architecture schematic */}
+      <div style={{'overflowX':'auto','paddingBottom':'0.25rem'}}>
+        <div style={{'display':'flex','alignItems':'center','justifyContent':'center','gap':'0','minWidth':'580px','margin':'0 auto','maxWidth':'56rem'}}>
+          {['Signal Ingestion','Entity Resolution','Graph Reasoning','Detection & Risk Scoring','Case Generation','Audit-Ready Evidence'].map((label, i, arr) => (
+            <div key={i} style={{'display':'contents'}}>
+              <div style={{'display':'flex','flexDirection':'column','alignItems':'center','gap':'0.25rem','padding':'0.5rem 0.625rem','background':'rgba(30,111,183,0.05)','border':'1px solid rgba(30,111,183,0.14)','borderRadius':'7px','flexShrink':0}}>
+                <span style={{'fontSize':'0.625rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.07em','whiteSpace':'nowrap'}}>{label}</span>
+              </div>
+              {i < arr.length - 1 && <div style={{'flexShrink':0,'padding':'0 0.25rem'}}><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#9CB7D4" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></div>}
+            </div>
+          ))}
+        </div>
+      </div>
+      <p style={{'fontSize':'0.75rem','color':'var(--muted)','marginTop':'0.75rem','lineHeight':1.6}}>Embedded intelligence across ingestion, entity resolution, graph reasoning and case evidence — so teams start with connected context, not disconnected tools.</p>
     </div>
 
     {/* Architecture 4-stage flow */}
