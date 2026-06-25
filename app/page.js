@@ -345,17 +345,12 @@ export default function Page() {
 
     {/* Proof element — microquote */}
     <div style={{'maxWidth':'48rem','margin':'0 auto 2rem','padding':'1.75rem 2rem','background':'#fff','border':'1px solid var(--border)','borderRadius':'12px','borderLeft':'3px solid var(--primary)'}}>
-      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'fontStyle':'italic','marginBottom':'1rem'}}>
+      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'fontStyle':'italic','marginBottom':'1.25rem'}}>
         &ldquo;We stopped assembling investigation context from separate tools and started from structured, connected cases.&rdquo;
       </p>
-      <div style={{'display':'flex','alignItems':'center','gap':'0.75rem'}}>
-        <div style={{'width':'2.25rem','height':'2.25rem','borderRadius':'50%','background':'linear-gradient(135deg,rgba(30,111,183,0.12),rgba(90,178,255,0.12))','border':'1px solid rgba(30,111,183,0.2)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-        </div>
-        <div>
-          <p style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','margin':0}}>Risk Operations Scenario</p>
-          <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>Payment Services Provider</p>
-        </div>
+      <div style={{'borderTop':'1px solid var(--border)','paddingTop':'1rem'}}>
+        <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'var(--dark)','margin':'0 0 0.125rem'}}>Daniel</p>
+        <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>COO, Remit24X7 &mdash; A Payments Fintech</p>
       </div>
     </div>
 
