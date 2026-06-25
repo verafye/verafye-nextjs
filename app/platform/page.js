@@ -291,7 +291,7 @@ export default function PlatformPage() {
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>AI-NATIVE ARCHITECTURE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>AI-Native Investigation Intelligence Architecture</h2>
       <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.25rem'}}>Most financial crime platforms were not originally designed around AI. As a result, many now layer AI assistants, summarization tools, and orchestration components on top of existing architectures to bridge fragmented workflows.</p>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>Verafye took a different approach. Intelligence is embedded into the platform architecture itself — at signal ingestion, entity resolution, graph reasoning, detection and risk scoring, investigation workflows, and evidence generation. Graph reasoning, alert correlation, case context, provenance tracking, and audit trails are native capabilities — not separate layers added on top.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>Verafye took a different approach. Intelligence is embedded into the platform architecture itself - at signal ingestion, entity resolution, graph reasoning, detection and risk scoring, investigation workflows, and evidence generation. Graph reasoning, alert correlation, case context, provenance tracking, and audit trails are native capabilities - not separate layers added on top.</p>
 
       {/* Compact architecture schematic */}
       <div style={{'overflowX':'auto','paddingBottom':'0.25rem'}}>
@@ -306,7 +306,7 @@ export default function PlatformPage() {
           ))}
         </div>
       </div>
-      <p style={{'fontSize':'0.75rem','color':'var(--muted)','marginTop':'0.75rem','lineHeight':1.6}}>Embedded intelligence across ingestion, entity resolution, graph reasoning and case evidence — so teams start with connected context, not disconnected tools.</p>
+      <p style={{'fontSize':'0.75rem','color':'var(--muted)','marginTop':'0.75rem','lineHeight':1.6}}>Embedded intelligence across ingestion, entity resolution, graph reasoning and case evidence - so teams start with connected context, not disconnected tools.</p>
     </div>
 
     {/* Architecture 4-stage flow */}

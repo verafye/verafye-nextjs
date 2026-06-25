@@ -113,7 +113,7 @@ const supportingCapabilities = [
       </svg>
     ),
     title: 'Embedded Decision Intelligence',
-    body: 'Surface contextual signals, case summaries, and risk indicators through embedded intelligence — helping analysts reach faster, explainable decisions with humans in control of every outcome.',
+    body: 'Surface contextual signals, case summaries, and risk indicators through embedded intelligence - helping analysts reach faster, explainable decisions with humans in control of every outcome.',
   },
   {
     icon: (
@@ -140,7 +140,7 @@ const supportingCapabilities = [
       </svg>
     ),
     title: 'AI-Native Architecture',
-    body: 'Verafye embeds intelligence across ingestion, entity resolution, graph analytics, investigations, and evidence creation — rather than introducing AI as a separate assistant layer. Embedded at ingestion, resolution, and case generation for consistent provenance.',
+    body: 'Verafye embeds intelligence across ingestion, entity resolution, graph analytics, investigations, and evidence creation - rather than introducing AI as a separate assistant layer. Embedded at ingestion, resolution, and case generation for consistent provenance.',
   },
 ];
 

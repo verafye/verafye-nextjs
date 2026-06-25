@@ -307,7 +307,7 @@ export default function Page() {
         Built for AI.<br/>Not rebuilt with AI.
       </h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>
-        Most incumbents bolt AI onto legacy platforms. Verafye was architected around AI from day one — so investigations are automated by design, not by layers of AI agents compensating for fragmented systems.
+        Most incumbents bolt AI onto legacy platforms. Verafye was architected around AI from day one - so investigations are automated by design, not by layers of AI agents compensating for fragmented systems.
       </p>
     </div>
 
@@ -320,7 +320,7 @@ export default function Page() {
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="4" rx="1"/><rect x="2" y="10" width="20" height="4" rx="1"/><rect x="2" y="17" width="20" height="4" rx="1"/></svg>
         </div>
         <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Built, not bolted.</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Intelligence is embedded into the platform architecture — not added afterwards as an assistant or orchestration layer.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Intelligence is embedded into the platform architecture - not added afterwards as an assistant or orchestration layer.</p>
       </div>
 
       <div className="card" style={{'padding':'2.5rem','position':'relative','overflow':'hidden'}}>
@@ -329,7 +329,7 @@ export default function Page() {
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
         </div>
         <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Correlated, not compiled.</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Alert signals from across your ecosystem are automatically correlated into investigation-ready case context — so analysts start with a structured picture, not a stack of disconnected alerts.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Alert signals from across your ecosystem are automatically correlated into investigation-ready case context - so analysts start with a structured picture, not a stack of disconnected alerts.</p>
       </div>
 
       <div className="card" style={{'padding':'2.5rem','position':'relative','overflow':'hidden'}}>
@@ -338,7 +338,7 @@ export default function Page() {
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
         </div>
         <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>Automated, not autonomous.</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Investigation workflows are automated through architecture and embedded intelligence — with human review and validation at every decision point.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Investigation workflows are automated through architecture and embedded intelligence - with human review and validation at every decision point.</p>
       </div>
 
     </div>
@@ -350,13 +350,13 @@ export default function Page() {
       </p>
       <div style={{'borderTop':'1px solid var(--border)','paddingTop':'1rem'}}>
         <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'var(--dark)','margin':'0 0 0.125rem'}}>Daniel</p>
-        <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>COO, Remit24X7 &mdash; A Payments Fintech</p>
+        <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>COO, Remit24X7 - A Payments Fintech</p>
       </div>
     </div>
 
     {/* Human-in-the-loop governance note */}
     <p style={{'textAlign':'center','fontSize':'0.875rem','color':'var(--muted)','maxWidth':'44rem','margin':'0 auto','lineHeight':1.7}}>
-      Every automated step produces explainable, audit-ready evidence. Verafye is designed for human review at every decision point — not autonomous filing.
+      Every automated step produces explainable, audit-ready evidence. Verafye is designed for human review at every decision point - not autonomous filing.
     </p>
 
   </div>
