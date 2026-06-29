@@ -375,14 +375,9 @@ export default function Page() {
         <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>
           Our analysts were spending more time pulling together context than actually investigating. Having alerts, entity relationships, and case history in one place changed the way the team works.
         </p>
-        <div style={{'display':'flex','alignItems':'center','gap':'0.75rem'}}>
-          <div style={{'width':'2.25rem','height':'2.25rem','borderRadius':'50%','background':'linear-gradient(135deg,rgba(30,111,183,0.12),rgba(90,178,255,0.12))','border':'1px solid rgba(30,111,183,0.2)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          </div>
-          <div>
-            <p style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','margin':0}}>Investigation Team Scenario</p>
-            <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>Digital Bank</p>
-          </div>
+        <div>
+          <p style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','margin':0}}>Investigation Team</p>
+          <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>Digital Bank</p>
         </div>
       </div>
 
@@ -390,14 +385,9 @@ export default function Page() {
         <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>
           The graph view made it immediately obvious that what looked like three separate cases was actually one mule network. That kind of visibility used to take days of manual digging.
         </p>
-        <div style={{'display':'flex','alignItems':'center','gap':'0.75rem'}}>
-          <div style={{'width':'2.25rem','height':'2.25rem','borderRadius':'50%','background':'linear-gradient(135deg,rgba(30,111,183,0.12),rgba(90,178,255,0.12))','border':'1px solid rgba(30,111,183,0.2)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          </div>
-          <div>
-            <p style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','margin':0}}>Compliance Team Scenario</p>
-            <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>Payment Services Provider</p>
-          </div>
+        <div>
+          <p style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','margin':0}}>Compliance Team</p>
+          <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>Payment Services Provider</p>
         </div>
       </div>
 
@@ -405,14 +395,9 @@ export default function Page() {
         <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>
           We run a lean risk team. What Verafye gives us is the ability to handle investigation volumes we couldn&apos;t have managed with the same headcount before.
         </p>
-        <div style={{'display':'flex','alignItems':'center','gap':'0.75rem'}}>
-          <div style={{'width':'2.25rem','height':'2.25rem','borderRadius':'50%','background':'linear-gradient(135deg,rgba(30,111,183,0.12),rgba(90,178,255,0.12))','border':'1px solid rgba(30,111,183,0.2)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          </div>
-          <div>
-            <p style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','margin':0}}>Risk Operations Scenario</p>
-            <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>MSB - Crossborder Services</p>
-          </div>
+        <div>
+          <p style={{'fontSize':'0.8125rem','fontWeight':'700','color':'var(--dark)','margin':0}}>Risk Operations</p>
+          <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>MSB - Cross border Services</p>
         </div>
       </div>
 
@@ -695,3 +680,4 @@ export default function Page() {
     </>
   );
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
