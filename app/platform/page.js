@@ -293,130 +293,99 @@ export default function PlatformPage() {
       <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.25rem'}}>Most financial crime platforms were not originally designed around AI. As a result, many now layer AI assistants, summarization tools, and orchestration components on top of existing architectures to bridge fragmented workflows.</p>
       <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>Verafye took a different approach. Intelligence is embedded into the platform architecture itself - at signal ingestion, entity resolution, graph reasoning, detection and risk scoring, investigation workflows, and evidence generation. Graph reasoning, alert correlation, case context, provenance tracking, and audit trails are native capabilities - not separate layers added on top.</p>
 
-      {/* Compact architecture schematic */}
-      <div style={{'overflowX':'auto','paddingBottom':'0.25rem'}}>
-        <div style={{'display':'flex','alignItems':'center','justifyContent':'center','gap':'0','minWidth':'580px','margin':'0 auto','maxWidth':'56rem'}}>
-          {['Signal Ingestion','Entity Resolution','Graph Reasoning','Detection & Risk Scoring','Case Generation','Audit-Ready Evidence'].map((label, i, arr) => (
-            <div key={i} style={{'display':'contents'}}>
-              <div style={{'display':'flex','flexDirection':'column','alignItems':'center','gap':'0.25rem','padding':'0.5rem 0.625rem','background':'rgba(30,111,183,0.05)','border':'1px solid rgba(30,111,183,0.14)','borderRadius':'7px','flexShrink':0}}>
-                <span style={{'fontSize':'0.625rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.07em','whiteSpace':'nowrap'}}>{label}</span>
-              </div>
-              {i < arr.length - 1 && <div style={{'flexShrink':0,'padding':'0 0.25rem'}}><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#9CB7D4" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></div>}
+    </div>
+
+    {/* Architecture 4-stage grid — 2×2, no scroll */}
+    <div style={{'display':'grid','gridTemplateColumns':'repeat(2,1fr)','gap':'1.5rem','maxWidth':'80rem','margin':'0 auto'}}>
+
+      {/* Stage 1 - Signals In */}
+      <div className="arch-card" style={{'borderTopColor':'#1E6FB7'}}>
+        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
+          <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#1E6FB7','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
+            <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>01</span>
+          </div>
+          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em'}}>Signals In</span>
+        </div>
+        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Connected risk signals</h3>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
+          {['Payments','Identity','Device','Behavior','AML / Watchlist','Transactions','Third-party signals'].map((item,i) => (
+            <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
+              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#1E6FB7','opacity':0.45,'flexShrink':0}}></div>
+              <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
             </div>
           ))}
         </div>
+        <div style={{'padding':'0.75rem','background':'rgba(30,111,183,0.05)','borderRadius':'8px','border':'1px solid rgba(30,111,183,0.1)','marginTop':'auto'}}>
+          <p style={{'fontSize':'0.75rem','color':'#1E6FB7','lineHeight':1.55,'margin':0}}>Fragmented signals from multiple systems connected through flexible integration paths and connectors</p>
+        </div>
       </div>
-      <p style={{'fontSize':'0.75rem','color':'var(--muted)','marginTop':'0.75rem','lineHeight':1.6}}>Embedded intelligence across ingestion, entity resolution, graph reasoning and case evidence - so teams start with connected context, not disconnected tools.</p>
-    </div>
 
-    {/* Architecture 4-stage flow */}
-    <div style={{'overflowX':'auto','paddingBottom':'1rem'}}>
-      <div className="arch-flow-row">
-
-        {/* Stage 1 - Signals In */}
-        <div className="arch-card" style={{'borderTopColor':'#1E6FB7'}}>
-          <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
-            <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#1E6FB7','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-              <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>01</span>
+      {/* Stage 2 - Connected Risk Layer */}
+      <div className="arch-card" style={{'borderTopColor':'#7C3AED'}}>
+        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
+          <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#7C3AED','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
+            <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>02</span>
+          </div>
+          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em'}}>Connected Risk Layer</span>
+        </div>
+        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Graph-native intelligence</h3>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
+          {['Signal aggregation','Entity resolution','Alert clustering','Graph intelligence','Risk context'].map((item,i) => (
+            <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
+              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#7C3AED','opacity':0.45,'flexShrink':0}}></div>
+              <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
             </div>
-            <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em'}}>Signals In</span>
-          </div>
-          <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Connected risk signals</h3>
-          <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
-            {['Payments','Identity','Device','Behavior','AML / Watchlist','Transactions','Third-party signals'].map((item,i) => (
-              <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
-                <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#1E6FB7','opacity':0.45,'flexShrink':0}}></div>
-                <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
-              </div>
-            ))}
-          </div>
-          <div style={{'padding':'0.75rem','background':'rgba(30,111,183,0.05)','borderRadius':'8px','border':'1px solid rgba(30,111,183,0.1)','marginTop':'auto'}}>
-            <p style={{'fontSize':'0.75rem','color':'#1E6FB7','lineHeight':1.55,'margin':0}}>Fragmented signals from multiple systems connected through flexible integration paths and connectors</p>
-          </div>
+          ))}
         </div>
-
-        {/* Arrow */}
-        <div className="arch-arrow">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        <div style={{'padding':'0.75rem','background':'rgba(124,58,237,0.05)','borderRadius':'8px','border':'1px solid rgba(124,58,237,0.1)','marginTop':'auto'}}>
+          <p style={{'fontSize':'0.75rem','color':'#7C3AED','lineHeight':1.55,'margin':0}}>Signals connected, entities resolved, and alerts clustered into connected risk context</p>
         </div>
-
-        {/* Stage 2 - Connected Risk Layer */}
-        <div className="arch-card" style={{'borderTopColor':'#7C3AED'}}>
-          <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
-            <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#7C3AED','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-              <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>02</span>
-            </div>
-            <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em'}}>Connected Risk Layer</span>
-          </div>
-          <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Graph-native intelligence</h3>
-          <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
-            {['Signal aggregation','Entity resolution','Alert clustering','Graph intelligence','Risk context'].map((item,i) => (
-              <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
-                <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#7C3AED','opacity':0.45,'flexShrink':0}}></div>
-                <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
-              </div>
-            ))}
-          </div>
-          <div style={{'padding':'0.75rem','background':'rgba(124,58,237,0.05)','borderRadius':'8px','border':'1px solid rgba(124,58,237,0.1)','marginTop':'auto'}}>
-            <p style={{'fontSize':'0.75rem','color':'#7C3AED','lineHeight':1.55,'margin':0}}>Signals connected, entities resolved, and alerts clustered into connected risk context</p>
-          </div>
-        </div>
-
-        {/* Arrow */}
-        <div className="arch-arrow">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </div>
-
-        {/* Stage 3 - Investigation Intelligence */}
-        <div className="arch-card" style={{'borderTopColor':'#0891B2'}}>
-          <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
-            <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#0891B2','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-              <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>03</span>
-            </div>
-            <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em'}}>Investigation Intelligence</span>
-          </div>
-          <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Case-ready intelligence</h3>
-          <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
-            {['Case context','Prioritization','Reviewer controls','Explainable decision support','Analyst workflows','Evidence packs & audit trail'].map((item,i) => (
-              <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
-                <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#0891B2','opacity':0.45,'flexShrink':0}}></div>
-                <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
-              </div>
-            ))}
-          </div>
-          <div style={{'padding':'0.75rem','background':'rgba(8,145,178,0.05)','borderRadius':'8px','border':'1px solid rgba(8,145,178,0.1)','marginTop':'auto'}}>
-            <p style={{'fontSize':'0.75rem','color':'#0891B2','lineHeight':1.55,'margin':0}}>Connected risk context transformed into structured, analyst-ready investigation workflows</p>
-          </div>
-        </div>
-
-        {/* Arrow */}
-        <div className="arch-arrow">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-        </div>
-
-        {/* Stage 4 - Case Outcomes */}
-        <div className="arch-card" style={{'borderTopColor':'#059669','background':'linear-gradient(145deg,#F0FDF9,#ffffff)'}}>
-          <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
-            <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#059669','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-              <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>04</span>
-            </div>
-            <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#059669','textTransform':'uppercase','letterSpacing':'0.1em'}}>Case Outcomes</span>
-          </div>
-          <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Better investigations, less effort</h3>
-          <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
-            {['Faster investigations','Clearer decisions','Audit-ready records','Better risk visibility','Lean team efficiency'].map((item,i) => (
-              <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
-                <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#059669','opacity':0.5,'flexShrink':0}}></div>
-                <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
-              </div>
-            ))}
-          </div>
-          <div style={{'padding':'0.75rem','background':'rgba(5,150,105,0.05)','borderRadius':'8px','border':'1px solid rgba(5,150,105,0.1)','marginTop':'auto'}}>
-            <p style={{'fontSize':'0.75rem','color':'#059669','lineHeight':1.55,'margin':0}}>Lean teams operating faster, with greater clarity and full audit-readiness</p>
-          </div>
-        </div>
-
       </div>
+
+      {/* Stage 3 - Investigation Intelligence */}
+      <div className="arch-card" style={{'borderTopColor':'#0891B2'}}>
+        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
+          <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#0891B2','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
+            <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>03</span>
+          </div>
+          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em'}}>Investigation Intelligence</span>
+        </div>
+        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Case-ready intelligence</h3>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
+          {['Case context','Prioritization','Reviewer controls','Explainable decision support','Analyst workflows','Evidence packs & audit trail'].map((item,i) => (
+            <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
+              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#0891B2','opacity':0.45,'flexShrink':0}}></div>
+              <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
+            </div>
+          ))}
+        </div>
+        <div style={{'padding':'0.75rem','background':'rgba(8,145,178,0.05)','borderRadius':'8px','border':'1px solid rgba(8,145,178,0.1)','marginTop':'auto'}}>
+          <p style={{'fontSize':'0.75rem','color':'#0891B2','lineHeight':1.55,'margin':0}}>Connected risk context transformed into structured, analyst-ready investigation workflows</p>
+        </div>
+      </div>
+
+      {/* Stage 4 - Case Outcomes */}
+      <div className="arch-card" style={{'borderTopColor':'#059669','background':'linear-gradient(145deg,#F0FDF9,#ffffff)'}}>
+        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
+          <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#059669','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
+            <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>04</span>
+          </div>
+          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#059669','textTransform':'uppercase','letterSpacing':'0.1em'}}>Case Outcomes</span>
+        </div>
+        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Better investigations, less effort</h3>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
+          {['Faster investigations','Clearer decisions','Audit-ready records','Better risk visibility','Lean team efficiency'].map((item,i) => (
+            <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
+              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#059669','opacity':0.5,'flexShrink':0}}></div>
+              <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
+            </div>
+          ))}
+        </div>
+        <div style={{'padding':'0.75rem','background':'rgba(5,150,105,0.05)','borderRadius':'8px','border':'1px solid rgba(5,150,105,0.1)','marginTop':'auto'}}>
+          <p style={{'fontSize':'0.75rem','color':'#059669','lineHeight':1.55,'margin':0}}>Lean teams operating faster, with greater clarity and full audit-readiness</p>
+        </div>
+      </div>
+
     </div>
 
     {/* Section CTA */}
@@ -432,14 +401,7 @@ export default function PlatformPage() {
   </div>
 
   <style>{`
-    .arch-flow-row {
-      display: flex;
-      align-items: stretch;
-      gap: 0;
-      min-width: 860px;
-    }
     .arch-card {
-      flex: 1;
       background: #fff;
       border: 1px solid var(--border);
       border-top-width: 3px;
@@ -453,22 +415,8 @@ export default function PlatformPage() {
     .arch-card:hover {
       box-shadow: 0 6px 24px rgba(0,0,0,0.08);
     }
-    .arch-arrow {
-      display: flex;
-      align-items: center;
-      padding: 0 0.5rem;
-      flex-shrink: 0;
-    }
-    @media (max-width: 860px) {
-      .arch-flow-row {
-        flex-direction: column;
-        min-width: 0;
-      }
-      .arch-arrow {
-        transform: rotate(90deg);
-        padding: 0.375rem 0;
-        justify-content: center;
-      }
+    @media (max-width: 640px) {
+      .arch-card { padding: 1.25rem 1rem; }
     }
   `}</style>
 </section>
@@ -749,3 +697,4 @@ export default function PlatformPage() {
     </>
   );
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
