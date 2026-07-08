@@ -19,5 +19,5 @@ export const metadata = {
 };
 
 export default function RequestDemoPage() {
-  return <RequestDemoClient variant="risk-shadowing" />;
+  return <RequestDemoClient variant="demo" />;
 }

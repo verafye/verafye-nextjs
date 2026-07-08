@@ -43,7 +43,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* Google Consent Mode v2 - defaults (must run BEFORE GTM) */}
         <script dangerouslySetInnerHTML={{ __html: `
