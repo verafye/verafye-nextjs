@@ -2,17 +2,17 @@ import Link from 'next/link';
 import { ProductTrialHeroPanel } from '../components/HomepageHeroPanel';
 
 export const metadata = {
-  title: { absolute: "Network Risk Intelligence for Fraud, AML and Payments Risk Teams | Verafye" },
-  description: "Verafye helps payment-led regulated platforms detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and produce audit-ready investigations.",
+  title: { absolute: "Fraud Detection & Prevention Solutions for Financial Services | Verafye" },
+  description: "Detect fraud, AML and payment risk with Verafye's graph-native Network Risk Intelligence platform. Connect fragmented signals into explainable, audit-ready investigations.",
   keywords: ["network risk intelligence platform", "payment risk intelligence", "psp payfac fraud", "msb remittance aml", "financial crime investigation platform", "graph intelligence platform", "entity resolution", "mule network detection", "alert clustering", "audit-ready investigations"],
   openGraph: {
-    title: "Network Risk Intelligence for Fraud, AML and Payments Risk Teams | Verafye",
-    description: "Verafye helps payment-led regulated platforms detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and produce audit-ready investigations.",
+    title: "Fraud Detection & Prevention Solutions for Financial Services | Verafye",
+    description: "Detect fraud, AML and payment risk with Verafye's graph-native Network Risk Intelligence platform. Connect fragmented signals into explainable, audit-ready investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Fraud, AML and Payments Risk Teams | Verafye",
-    description: "Verafye helps payment-led regulated platforms detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and produce audit-ready investigations.",
+    title: "Fraud Detection & Prevention Solutions for Financial Services | Verafye",
+    description: "Detect fraud, AML and payment risk with Verafye's graph-native Network Risk Intelligence platform. Connect fragmented signals into explainable, audit-ready investigations.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/',
@@ -29,15 +29,15 @@ export default function Page() {
     <div className="hero-grid" style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'2.5rem','alignItems':'center'}}>
       <div style={{'maxWidth':'36rem'}}>
 
-        {/* Eyebrow */}
-        <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>
-          Built for lean fraud, AML, and risk teams
-        </p>
-
-        {/* H1 */}
-        <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          Graph-Native Network Risk Intelligence for Fraud, AML and Risk Teams
+        {/* SEO H1 — replaces eyebrow, keyword-targeted, eyebrow style */}
+        <h1 className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>
+          Fraud Prevention Solutions for Financial Services
         </h1>
+
+        {/* Visual heading — demoted to h2, identical appearance */}
+        <h2 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
+          Graph-Native Network Risk Intelligence for Fraud, AML and Risk Teams
+        </h2>
 
         {/* Sub-line */}
         <p className="animate-fade-up delay-150" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1.25rem','lineHeight':'1.4'}}>
@@ -46,8 +46,19 @@ export default function Page() {
 
         {/* Body */}
         <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem'}}>
-          Verafye helps PSPs, PayFacs, MSBs, remittance platforms, BaaS providers, embedded finance platforms, digital banks, NBFCs, and selected banks detect hidden network risk, connect fragmented fraud, AML, payment, identity, device, and behavior signals, and turn them into explainable, audit-ready investigations.
+          Verafye is the fraud, AML, and risk intelligence platform for PSPs, PayFacs, MSBs, remittance platforms, BaaS providers, embedded finance platforms, and digital banks. Connect fragmented signals across payments, identity, devices, and behavior - and turn them into explainable, audit-ready investigations.
         </p>
+
+        {/* Outcome hook chip */}
+        <div className="animate-fade-up delay-250" style={{'display':'inline-flex','alignItems':'center','gap':'0.625rem','background':'rgba(16,185,129,0.08)','border':'1px solid rgba(16,185,129,0.25)','borderRadius':'8px','padding':'0.5rem 1rem','marginBottom':'1.5rem'}}>
+          <div style={{'flexShrink':0,'width':'1.5rem','height':'1.5rem','background':'rgba(16,185,129,0.15)','borderRadius':'5px','display':'flex','alignItems':'center','justifyContent':'center'}}>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <span style={{'fontSize':'0.8125rem','lineHeight':1.4}}>
+            <span style={{'fontWeight':'700','color':'#059669'}}>Investigation-ready cases in &lt; 3 weeks</span>
+            <span style={{'color':'var(--body)'}}> · using your existing data</span>
+          </span>
+        </div>
 
         {/* CTAs */}
         <div className="animate-fade-up delay-300" style={{'display':'flex','flexWrap':'wrap','gap':'0.75rem','marginBottom':'1.5rem'}}>
@@ -60,10 +71,15 @@ export default function Page() {
           <Link href="/platform" className="btn-secondary">Explore Platform</Link>
         </div>
 
-        {/* Trust micro-copy */}
-        <p className="animate-fade-up delay-400" style={{'fontSize':'0.813rem','color':'var(--muted)','marginBottom':'1.5rem'}}>
-          Built for fraud, AML, compliance, and risk teams operating across fragmented systems and growing regulatory expectations.
-        </p>
+        {/* RSR motion explainer */}
+        <div className="animate-fade-up delay-400" style={{'marginBottom':'1.5rem'}}>
+          <p style={{'fontSize':'0.6875rem','fontWeight':'600','color':'var(--muted)','textTransform':'uppercase','letterSpacing':'0.08em','marginBottom':'0.625rem'}}>How a Risk Shadowing Review works</p>
+          <div style={{'display':'flex','flexDirection':'column','gap':'0.375rem'}}>
+            <p style={{'fontSize':'0.875rem','color':'var(--body)','lineHeight':1.55}}><span style={{'color':'var(--primary)','fontWeight':'600','marginRight':'0.375rem'}}>→</span>You share a defined window of your existing alerts and payment data.</p>
+            <p style={{'fontSize':'0.875rem','color':'var(--body)','lineHeight':1.55}}><span style={{'color':'var(--primary)','fontWeight':'600','marginRight':'0.375rem'}}>→</span>Verafye maps connected risk across merchants, accounts, devices, and beneficiaries.</p>
+            <p style={{'fontSize':'0.875rem','color':'var(--body)','lineHeight':1.55}}><span style={{'color':'var(--primary)','fontWeight':'600','marginRight':'0.375rem'}}>→</span>You receive an investigation-ready evidence pack with linked cases and analyst review steps.</p>
+          </div>
+        </div>
 
         {/* Tags */}
         <div className="animate-fade-up delay-500" style={{'display':'flex','flexWrap':'wrap','gap':'0.625rem'}}>
@@ -298,16 +314,71 @@ export default function Page() {
   </div>
 </section>
 
+{/* ─── IN PRODUCTION — CUSTOMER PROOF ────────────────────────────────────── */}
+<section style={{'padding':'4rem 0','background':'#fff','borderTop':'1px solid var(--border)'}}>
+  <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
+
+    <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>IN PRODUCTION</p>
+    <h2 style={{'fontSize':'clamp(1.5rem,3.5vw,2.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','letterSpacing':'-0.025em','lineHeight':1.2}}>
+      Used by regulated payment platforms to investigate connected risk
+    </h2>
+    <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto 2.5rem'}}>
+      MSBs, remittance platforms, and cross-border payment infrastructure providers across Canada, the UK, EU, and Hong Kong run Verafye as their core fraud, AML, and risk intelligence platform - connecting alerts, surfacing network risk, and producing investigation-ready cases across their payment operations.
+    </p>
+
+    {/* Logos */}
+    <div style={{'display':'flex','alignItems':'center','justifyContent':'center','flexWrap':'wrap','gap':'2.5rem','marginBottom':'2.5rem'}}>
+      <img
+        src="/images/customers/remit247-logo.webp"
+        alt="Remit247"
+        style={{'height':'32px','width':'auto','filter':'brightness(0)','opacity':0.8}}
+      />
+      <img
+        src="/images/customers/payrock-logo.svg"
+        alt="Payrock"
+        style={{'height':'32px','width':'auto','opacity':0.8}}
+      />
+      <img
+        src="/images/customers/blackstripe-logo.png"
+        alt="BlackStripe"
+        style={{'height':'32px','width':'auto','opacity':0.8}}
+      />
+    </div>
+
+    {/* Bridge to testimonial */}
+    <p style={{'fontSize':'clamp(0.8125rem,1.4vw,0.9375rem)','color':'var(--muted)','marginBottom':'2rem','fontStyle':'italic'}}>
+      What regulated teams say about running Verafye as their core fraud and AML platform.
+    </p>
+
+    {/* Daniel testimonial */}
+    <blockquote style={{'maxWidth':'40rem','margin':'0 auto','background':'var(--bg-tint)','borderRadius':'1rem','padding':'1.75rem 2rem','borderLeft':'3px solid var(--primary)','textAlign':'left'}}>
+      <p style={{'fontSize':'clamp(0.9375rem,1.6vw,1.0625rem)','color':'var(--dark)','lineHeight':1.75,'marginBottom':'1rem','fontStyle':'italic'}}>
+        &ldquo;We stopped assembling investigation context from separate tools and started from structured, connected cases.&rdquo;
+      </p>
+      <footer style={{'display':'flex','alignItems':'center','gap':'0.75rem'}}>
+        <div style={{'width':'36px','height':'36px','borderRadius':'50%','background':'var(--primary)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
+          <span style={{'color':'#fff','fontWeight':'700','fontSize':'0.875rem'}}>D</span>
+        </div>
+        <div>
+          <p style={{'fontWeight':'700','color':'var(--dark)','fontSize':'0.9375rem','marginBottom':'0.1rem'}}>Daniel</p>
+          <p style={{'color':'var(--muted)','fontSize':'0.8125rem'}}>COO, Remit247 &mdash; MSB &amp; Cross-Border Payments, Canada</p>
+        </div>
+      </footer>
+    </blockquote>
+
+  </div>
+</section>
+
 {/* ─── AI-NATIVE ARCHITECTURE ─────────────────────────────────────────────── */}
 <section style={{'padding':'4rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'52rem','margin':'0 auto 2.75rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>AI-NATIVE ARCHITECTURE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em','lineHeight':1.15}}>
-        Built for AI.<br/>Not rebuilt with AI.
+        Agents compensate for fragmented data.<br/>We fix the fragmentation.
       </h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>
-        Most incumbents bolt AI onto legacy platforms. Verafye was architected around AI from day one - so investigations are automated by design, not by layers of AI agents compensating for fragmented systems.
+        Layering AI agents over disconnected systems doesn't solve the underlying problem — it works around it. Verafye resolves the fragmentation itself: connecting signals, resolving entities, and surfacing investigation-ready context from your existing data. No workarounds. No orchestration overhead.
       </p>
     </div>
 
@@ -405,6 +476,83 @@ export default function Page() {
   </div>
 </section>
 
+{/* ─── OUTCOME METRICS ──────────────────────────────────────────────────── */}
+<section style={{'padding':'3.5rem 0','background':'var(--dark)'}}>
+  <div className="container">
+    <p style={{'textAlign':'center','fontSize':'0.6875rem','fontWeight':'600','color':'rgba(255,255,255,0.45)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'2.5rem'}}>
+      Results from live customer deployments
+    </p>
+    <div style={{'display':'grid','gridTemplateColumns':'repeat(3,1fr)','gap':'1.5rem','maxWidth':'64rem','margin':'0 auto'}}>
+
+      <div style={{'textAlign':'center','padding':'2rem 1.5rem','background':'rgba(255,255,255,0.04)','border':'1px solid rgba(255,255,255,0.08)','borderRadius':'14px'}}>
+        <p style={{'fontSize':'clamp(2.5rem,5vw,3.75rem)','fontWeight':'800','color':'#fff','lineHeight':1,'marginBottom':'0.5rem','letterSpacing':'-0.03em'}}>60<span style={{'fontSize':'0.55em','fontWeight':'700','color':'#5ABEFF'}}>%</span></p>
+        <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>Faster investigations</p>
+        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Reduction in investigation time after switching to structured, connected case context — live cross-border payments client.</p>
+      </div>
+
+      <div style={{'textAlign':'center','padding':'2rem 1.5rem','background':'rgba(255,255,255,0.04)','border':'1px solid rgba(255,255,255,0.08)','borderRadius':'14px'}}>
+        <p style={{'fontSize':'clamp(2.5rem,5vw,3.75rem)','fontWeight':'800','color':'#fff','lineHeight':1,'marginBottom':'0.5rem','letterSpacing':'-0.03em'}}>4<span style={{'fontSize':'0.55em','fontWeight':'700','color':'#5ABEFF'}}>×</span></p>
+        <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>More connected alerts per case</p>
+        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Graph clustering surfaces 4× more related signals per investigation versus manual, siloed alert review.</p>
+      </div>
+
+      <div style={{'textAlign':'center','padding':'2rem 1.5rem','background':'rgba(255,255,255,0.04)','border':'1px solid rgba(255,255,255,0.08)','borderRadius':'14px'}}>
+        <p style={{'fontSize':'clamp(2.5rem,5vw,3.75rem)','fontWeight':'800','color':'#fff','lineHeight':1,'marginBottom':'0.5rem','letterSpacing':'-0.03em'}}>&lt;3<span style={{'fontSize':'0.55em','fontWeight':'700','color':'#5ABEFF'}}> wks</span></p>
+        <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>To first evidence pack</p>
+        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Average time from data ingestion to a structured, investigation-ready evidence pack via Risk Shadowing Review.</p>
+      </div>
+
+    </div>
+    <p style={{'textAlign':'center','fontSize':'0.6875rem','color':'rgba(255,255,255,0.3)','marginTop':'2rem','lineHeight':1.6}}>
+      Metrics reflect live customer outcomes. Individual results vary based on data volume, alert complexity, and team configuration.
+    </p>
+  </div>
+</section>
+
+{/* ─── PAIN-FIRST BUYER SECTION ──────────────────────────────────────────── */}
+<section style={{'padding':'4.5rem 0','background':'#fff','borderTop':'1px solid var(--border)'}}>
+  <div className="container">
+    <div style={{'textAlign':'center','maxWidth':'52rem','margin':'0 auto 3.5rem'}}>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE INVESTIGATION PROBLEM</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.03em','lineHeight':1.2,'marginBottom':'1.25rem'}}>Your alerts are firing.<br/>Your cases aren&apos;t closing.</h2>
+      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':1.7}}>Fraud, AML, payment, identity, and device signals sit in separate systems. Your investigators see alerts — not the connected network behind them.</p>
+    </div>
+
+    <div className="grid-3" style={{'maxWidth':'72rem','margin':'0 auto 3rem'}}>
+
+      <div style={{'background':'#FAFBFF','border':'1px solid var(--border)','borderRadius':'1rem','padding':'2rem','borderTop':'3px solid #EF4444'}}>
+        <div style={{'width':'3rem','height':'3rem','borderRadius':'0.75rem','background':'#FEF2F2','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1.25rem'}}>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#EF4444" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/><line x1="2" y1="2" x2="22" y2="22"/></svg>
+        </div>
+        <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem','lineHeight':1.3}}>Hundreds of alerts. No network picture.</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.75}}>Fraud and AML systems fire independently. Investigators work each alert in isolation — no merchant linkage, no beneficiary chain, no device cluster. The same coordinated ring gets reviewed as six separate cases.</p>
+      </div>
+
+      <div style={{'background':'#FAFBFF','border':'1px solid var(--border)','borderRadius':'1rem','padding':'2rem','borderTop':'3px solid #F59E0B'}}>
+        <div style={{'width':'3rem','height':'3rem','borderRadius':'0.75rem','background':'#FFFBEB','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1.25rem'}}>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem','lineHeight':1.3}}>The evidence exists. Finding it takes days.</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.75}}>Transaction logs, onboarding records, device fingerprints, prior SARs — all there, all in separate systems. Getting them into a single investigation view means pulling from five tools by hand. Cases that should close in hours take weeks.</p>
+      </div>
+
+      <div style={{'background':'#FAFBFF','border':'1px solid var(--border)','borderRadius':'1rem','padding':'2rem','borderTop':'3px solid #8B5CF6'}}>
+        <div style={{'width':'3rem','height':'3rem','borderRadius':'0.75rem','background':'#F5F3FF','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1.25rem'}}>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+        </div>
+        <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem','lineHeight':1.3}}>Fragmented data gives fragmented answers to examiners.</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.75}}>When regulators ask for a connected evidence trail — who flagged what, when, and why a case escalated or closed — disconnected systems produce disconnected responses. SAR quality gaps and missing escalation rationale become repeat exam findings.</p>
+      </div>
+
+    </div>
+
+    <div style={{'textAlign':'center','maxWidth':'44rem','margin':'0 auto','padding':'1.75rem 2rem','background':'var(--bg-tint)','borderRadius':'0.875rem','border':'1px solid var(--border)'}}>
+      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--dark)','fontWeight':'600','lineHeight':1.65,'margin':0}}>Verafye connects those signals into investigation-ready cases — without replacing your existing detection systems.</p>
+    </div>
+
+  </div>
+</section>
+
 {/* ─── BUILT FOR REGULATED FINANCIAL PLATFORMS ───────────────────────────── */}
 <section style={{'padding':'4rem 0','background':'var(--bg-tint)'}}>
   <div className="container">
@@ -414,10 +562,25 @@ export default function Page() {
       <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':1.7,'marginTop':'1rem','maxWidth':'48rem','marginLeft':'auto','marginRight':'auto'}}>Verafye helps teams connect fragmented fraud, AML, payment, identity, device, merchant, account, wallet, ledger, beneficiary, and case signals across regulated and payment-led environments.</p>
     </div>
 
-    <div className="grid-2" style={{'maxWidth':'72rem','margin':'0 auto'}}>
+    <style>{`
+      .featured-icp-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+      .featured-icp-card { position: relative; overflow: hidden; background: linear-gradient(145deg,#EFF6FF 0%,#F0F9FF 100%) !important; border: 2px solid #BFDBFE !important; }
+      .featured-icp-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg,#1E6FB7,#3B82F6); border-radius: 1rem 1rem 0 0; }
+      .featured-icp-pill { display: inline-flex; align-items: center; gap: 0.25rem; background: rgba(30,111,183,0.1); border: 1px solid rgba(30,111,183,0.2); border-radius: 9999px; padding: 0.1875rem 0.625rem; font-size: 0.6875rem; font-weight: 700; color: #1E6FB7; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 1.25rem; }
+      .std-icp-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; }
+      @media (max-width: 860px) { .featured-icp-row { grid-template-columns: 1fr; } .std-icp-grid { grid-template-columns: 1fr 1fr; } }
+      @media (max-width: 560px) { .std-icp-grid { grid-template-columns: 1fr; } }
+    `}</style>
+
+    {/* Featured row: PSPs & MSBs */}
+    <div className="featured-icp-row" style={{'maxWidth':'72rem','margin':'0 auto 1.25rem'}}>
 
       <Link href="/industries/payment-processors-psps-payfacs" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
+        <div className="card card-elevated card-hover featured-icp-card" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
+          <div className="featured-icp-pill">
+            <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Primary Segment
+          </div>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>PSPs, PayFacs &amp; Payment Processors</h3>
           <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Connect merchant, sub-merchant, transaction, and payout risk signals into faster, explainable investigations.</p>
@@ -429,7 +592,11 @@ export default function Page() {
       </Link>
 
       <Link href="/industries/msbs-remittance-platforms" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
+        <div className="card card-elevated card-hover featured-icp-card" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
+          <div className="featured-icp-pill">
+            <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Primary Segment
+          </div>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>MSBs &amp; Remittance Platforms</h3>
           <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Connect sender, beneficiary, agent, and corridor signals into investigation-grade evidence for cross-border compliance teams.</p>
@@ -440,11 +607,19 @@ export default function Page() {
         </div>
       </Link>
 
+    </div>
+
+    {/* Divider */}
+    <div style={{'maxWidth':'72rem','margin':'0 auto 1.25rem','height':'1px','background':'var(--border)'}} />
+
+    {/* Standard 3-col grid: remaining segments */}
+    <div className="std-icp-grid" style={{'maxWidth':'72rem','margin':'0 auto'}}>
+
       <Link href="/industries/baas-embedded-finance" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
-          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
-          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>BaaS &amp; Embedded Finance Providers</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>An independent Network Risk Intelligence layer across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
+        <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>BaaS &amp; Embedded Finance Providers</h3>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>An independent Network Risk Intelligence layer across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -453,10 +628,10 @@ export default function Page() {
       </Link>
 
       <Link href="/industries/digital-banks" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
-          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/><path d="M7 15h.01"/><path d="M11 15h2"/></svg></div>
-          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>Digital Banks &amp; Neo Banks</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Connected risk intelligence covering mule detection, scam investigation, account abuse, and beneficiary-linked risk.</p>
+        <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/><path d="M7 15h.01"/><path d="M11 15h2"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Digital Banks &amp; Neo Banks</h3>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Connected risk intelligence covering mule detection, scam investigation, account abuse, and beneficiary-linked risk.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -465,10 +640,10 @@ export default function Page() {
       </Link>
 
       <Link href="/industries/fintech-platforms" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
-          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
-          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>FinTech Payment Platforms</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Investigation intelligence for payment-enabled fintechs, wallets, and cross-border flows built for lean, API-led teams.</p>
+        <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>FinTech Payment Platforms</h3>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Investigation intelligence for payment-enabled fintechs, wallets, and cross-border flows built for lean, API-led teams.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -477,10 +652,10 @@ export default function Page() {
       </Link>
 
       <Link href="/industries/digital-lending-bnpl" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
-          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div>
-          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>NBFCs &amp; Digital Lending</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Surface mule-linked borrower networks, synthetic identity clusters, and coordinated application rings for investigation.</p>
+        <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>NBFCs &amp; Digital Lending</h3>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Surface mule-linked borrower networks, synthetic identity clusters, and coordinated application rings for investigation.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -489,10 +664,10 @@ export default function Page() {
       </Link>
 
       <Link href="/industries/banks" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
-          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/></svg></div>
-          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>Selected Banks &amp; Credit Unions</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Connect fraud, AML, and payment risk signals into explainable case workflows that support audit readiness and governance.</p>
+        <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Selected Banks &amp; Credit Unions</h3>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Connect fraud, AML, and payment risk signals into explainable case workflows that support audit readiness and governance.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -501,10 +676,10 @@ export default function Page() {
       </Link>
 
       <Link href="/industries/marketplaces" style={{'textDecoration':'none','display':'block'}}>
-        <div className="card card-elevated card-hover" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
-          <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
-          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>Marketplaces &amp; Commerce Platforms</h3>
-          <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.125rem)','color':'var(--body)','marginBottom':'1.25rem'}}>Surface seller, buyer, payout, and device-linked network risk where commerce risk resembles financial crime network risk.</p>
+        <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
+          <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+          <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Marketplaces &amp; Commerce Platforms</h3>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Surface seller, buyer, payout, and device-linked network risk where commerce risk resembles financial crime network risk.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -660,7 +835,7 @@ export default function Page() {
       See how Verafye connects your investigations
     </h2>
     <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>
-      Discover how Verafye helps lean fraud, AML, and risk teams connect alerts, explain risk, and close cases faster. Start with a scoped pilot - and expand network coverage across teams, products and payment flows as outcomes are proven.
+      Request a Risk Shadowing Review and see connected risk across your existing alerts - without replacing any of your current systems. You receive an investigation-ready evidence pack with linked case clusters, risk indicators, and analyst review steps.
     </p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/risk-shadowing-review" className="btn-primary">
@@ -671,7 +846,10 @@ export default function Page() {
       </Link>
       <Link href="/platform" className="btn-secondary">Explore Platform</Link>
     </div>
-    <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>
+    <p style={{'fontSize':'0.875rem','color':'var(--primary)','fontWeight':'600','marginTop':'1.75rem','letterSpacing':'-0.01em'}}>
+      API-led alongside your existing systems. Connected risk outputs in 2 weeks.
+    </p>
+    <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'0.5rem'}}>
       No commitment required. Speak directly with our solutions team.
     </p>
   </div>

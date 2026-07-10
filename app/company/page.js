@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: { absolute: "Financial Crime Intelligence Experts | Verafye" },
-  description: "Learn how Verafye helps fraud, AML and risk teams transform fragmented alerts into investigation-ready intelligence and compliance outcomes.",
+  title: "Meet the Financial Crime Intelligence Experts",
+  description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
   keywords: ["financial crime technology company", "network risk intelligence company", "fraud investigation platform provider", "aml technology company", "compliance technology", "risk intelligence solutions", "graph analytics company"],
   openGraph: {
-    title: "Financial Crime Intelligence Experts | Verafye",
-    description: "Learn how Verafye helps fraud, AML and risk teams transform fragmented alerts into investigation-ready intelligence and compliance outcomes.",
+    title: "Meet the Financial Crime Intelligence Experts",
+    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Financial Crime Intelligence Experts | Verafye",
-    description: "Learn how Verafye helps fraud, AML and risk teams transform fragmented alerts into investigation-ready intelligence and compliance outcomes.",
+    title: "Meet the Financial Crime Intelligence Experts",
+    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/company',
@@ -23,7 +23,7 @@ export default function Page() {
     <>
 <section style={{'background':'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)','padding':'4rem 0'}}>
   <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
-    <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Company</p>
+    <h1 className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Company</h1>
     <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.025em'}}>Building Network Risk Intelligence for Regulated Financial Platforms</h1>
     <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto'}}>Verafye helps fraud, AML, and risk teams connect alerts, explain risk, and close cases faster - without enterprise-heavy complexity.</p>
   </div>

@@ -551,8 +551,9 @@ export function CapabilitiesVisualCard() {
 /**
  * @param {object}  props
  * @param {string}  props.eyebrow          Uppercase label above H1
- * @param {string}  props.title            H1 text
- * @param {string}  [props.description]    Bold subtitle beneath H1
+ * @param {string}  [props.seoH1]          SEO-targeted H1 text (rendered small, eyebrow style). When provided, title is demoted to h2.
+ * @param {string}  props.title            Visual heading text (h1 when no seoH1, h2 when seoH1 present)
+ * @param {string}  [props.description]    Bold subtitle beneath heading
  * @param {string}  [props.body]           Secondary paragraph beneath subtitle
  * @param {object}  props.primaryCTA       { label, href } - use href="#anchor" for anchor links
  * @param {object}  [props.secondaryCTA]   { label, href }
@@ -562,6 +563,7 @@ export function CapabilitiesVisualCard() {
  */
 export default function SplitHeroWithVisualCard({
   eyebrow,
+  seoH1,
   title,
   description,
   body,
@@ -603,23 +605,43 @@ export default function SplitHeroWithVisualCard({
 
           {/* ── Left column: text ───────────────────────────────────────────── */}
           <div>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>
-              {eyebrow}
-            </p>
-
-            <h1
-              className="animate-fade-up delay-100"
-              style={{
-                fontSize: 'clamp(1.875rem,4.5vw,3.25rem)',
-                fontWeight: 700,
-                color: 'var(--dark)',
-                marginBottom: '1.25rem',
-                lineHeight: 1.12,
-                letterSpacing: '-0.03em',
-              }}
-            >
-              {title}
+            {/* Eyebrow / SEO H1 — always an <h1> for semantic correctness.
+                When seoH1 is provided it replaces the eyebrow text entirely.
+                When no seoH1, the eyebrow label itself becomes the h1. */}
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>
+              {seoH1 || eyebrow}
             </h1>
+
+            {/* Visual heading — h1 when no seoH1 present, h2 when seoH1 takes the h1 role */}
+            {seoH1 ? (
+              <h2
+                className="animate-fade-up delay-100"
+                style={{
+                  fontSize: 'clamp(1.875rem,4.5vw,3.25rem)',
+                  fontWeight: 700,
+                  color: 'var(--dark)',
+                  marginBottom: '1.25rem',
+                  lineHeight: 1.12,
+                  letterSpacing: '-0.03em',
+                }}
+              >
+                {title}
+              </h2>
+            ) : (
+              <h1
+                className="animate-fade-up delay-100"
+                style={{
+                  fontSize: 'clamp(1.875rem,4.5vw,3.25rem)',
+                  fontWeight: 700,
+                  color: 'var(--dark)',
+                  marginBottom: '1.25rem',
+                  lineHeight: 1.12,
+                  letterSpacing: '-0.03em',
+                }}
+              >
+                {title}
+              </h1>
+            )}
 
             {description && (
               <p

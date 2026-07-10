@@ -5,12 +5,12 @@ export const metadata = {
   description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
   keywords: ["risk shadowing review", "network risk intelligence", "fraud aml evaluation", "investigation-ready evidence", "graph-native risk detection", "payments risk evaluation"],
   openGraph: {
-    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams | Verafye",
+    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
     description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams | Verafye",
+    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
     description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
   },
   alternates: {
@@ -26,7 +26,7 @@ export default function RiskShadowingReviewPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>RISK SHADOWING REVIEW</p>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>RISK SHADOWING REVIEW</h1>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Risk Shadowing Review for payment-led financial crime teams
             </h1>
@@ -42,6 +42,9 @@ export default function RiskShadowingReviewPage() {
               </Link>
               <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
             </div>
+            <p className="animate-fade-up delay-500" style={{ fontSize: '0.875rem', color: 'var(--primary)', fontWeight: '600', marginTop: '1.25rem', letterSpacing: '-0.01em' }}>
+              API-led alongside your existing systems. Connected risk outputs in 2 weeks.
+            </p>
           </div>
         </div>
       </section>

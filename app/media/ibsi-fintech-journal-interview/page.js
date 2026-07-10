@@ -4,12 +4,12 @@ export const metadata = {
   title: "IBSi FinTech Journal Interview - Digital Trust & Network Risk",
   description: "Verafye CEO Abhishek Tuppada speaks with the IBSi FinTech Journal on why digital trust is becoming FinTech's new growth engine - and why fraud prevention needs better context, not more alerts.",
   openGraph: {
-    title: "Why Digital Trust Is Becoming FinTech's New Growth Engine | Verafye in IBSi FinTech Journal",
+    title: "IBSi FinTech Journal Interview - Digital Trust & Network Risk",
     description: "Verafye CEO Abhishek Tuppada speaks with the IBSi FinTech Journal on why digital trust is becoming FinTech's new growth engine - and why fraud prevention needs better context, not more alerts.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Why Digital Trust Is Becoming FinTech's New Growth Engine | Verafye in IBSi FinTech Journal",
+    title: "IBSi FinTech Journal Interview - Digital Trust & Network Risk",
     description: "Verafye CEO Abhishek Tuppada speaks with the IBSi FinTech Journal on why digital trust is becoming FinTech's new growth engine - and why fraud prevention needs better context, not more alerts.",
   },
   alternates: {
@@ -44,7 +44,7 @@ export default function IBSiInterviewPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0 3rem' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MEDIA &middot; THE BIG INTERVIEW</p>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MEDIA &middot; THE BIG INTERVIEW</h1>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.75rem,4.5vw,3rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Why Digital Trust Is Becoming FinTech's New Growth Engine
             </h1>

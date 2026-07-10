@@ -26,10 +26,10 @@ export default function MarketplacesPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MARKETPLACES · PLATFORM COMMERCE · SELLER ECOSYSTEMS</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Marketplace</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Network Risk Intelligence for Marketplace Risk Teams
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations - surfacing seller fraud rings, buyer-seller collusion, fake listing abuse, payout abuse, refund/return abuse, and coordinated account networks.
             </p>
@@ -332,7 +332,7 @@ export default function MarketplacesPage() {
             </Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
-            Verafye works alongside existing trust-and-safety, fraud, payment, and case management systems as an independent investigation intelligence layer. We do not replace these systems, perform content moderation, or guarantee fraud prevention outcomes.
+            Verafye is designed to support fraud and AML investigation workflows. We do not claim regulatory certification, approval, or endorsement, and do not guarantee fraud prevention outcomes.
           </p>
         </div>
       </section>

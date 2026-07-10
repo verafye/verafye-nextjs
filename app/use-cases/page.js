@@ -3,15 +3,15 @@ import CTA from '@/components/CTA';
 
 export const metadata = {
   title: "Financial Crime Investigation Use Cases",
-  description: "Explore proven fraud, AML and risk investigation use cases including mule detection, transaction monitoring and workflow modernization.",
+  description: "Explore fraud, AML and payment investigation use cases that help financial institutions uncover hidden financial crime with connected intelligence.",
   keywords: ["fraud investigation use cases", "aml compliance use cases", "financial crime investigation workflows", "risk intelligence applications"],
   openGraph: {
-    title: "Financial Crime Investigation Use Cases | Verafye",
+    title: "Financial Crime Investigation Use Cases",
     description: "Explore proven fraud, AML and risk investigation use cases including mule detection, transaction monitoring and workflow modernization.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Financial Crime Investigation Use Cases | Verafye",
+    title: "Financial Crime Investigation Use Cases",
     description: "Explore proven fraud, AML and risk investigation use cases including mule detection, transaction monitoring and workflow modernization.",
   },
   alternates: {
@@ -73,7 +73,7 @@ export default function UseCasesPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Use Cases</p>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Use Cases</h1>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Fraud, AML &amp; Investigation Use Cases
             </h1>

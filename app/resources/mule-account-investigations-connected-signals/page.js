@@ -6,17 +6,13 @@ export const metadata = {
   description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",
   keywords: ["mule account investigations", "money mule detection", "fraud network investigations", "aml investigations", "transaction intelligence"],
   openGraph: {
-    title: "Connected Intelligence for Mule Investigations | Verafye",
+    title: "Connected Intelligence for Mule Investigations",
     description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",
-    url: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals/',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
-    type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connected Intelligence for Mule Investigations | Verafye",
+    title: "Connected Intelligence for Mule Investigations",
     description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",
-    images: ['/images/og-image.png'],
   },
   alternates: {
     canonical: 'https://www.verafye.com/resources/mule-account-investigations-connected-signals',

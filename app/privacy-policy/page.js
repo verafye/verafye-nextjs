@@ -4,12 +4,12 @@ export const metadata = {
   description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",
   keywords: ["privacy policy", "data protection", "privacy compliance", "data security", "information governance"],
   openGraph: {
-    title: "Privacy & Data Protection for Fraud & AML Operations | Verafye",
+    title: "Privacy & Data Protection for Fraud & AML Operations",
     description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Privacy & Data Protection for Fraud & AML Operations | Verafye",
+    title: "Privacy & Data Protection for Fraud & AML Operations",
     description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",
   },
   alternates: {

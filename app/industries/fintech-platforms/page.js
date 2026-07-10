@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Intelligence for Payment-Enabled Fintech Platforms",
+  title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
   description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence — surfacing account farming, referral abuse, wallet misuse, payout fraud, and cross-product risk patterns.",
   keywords: ["payment fintech fraud detection", "wallet risk intelligence", "prepaid card fraud", "lending app fraud", "referral abuse detection", "account farming fintech", "payout fraud investigation", "fintech aml investigation", "payment app risk intelligence", "fintech investigation workflow"],
   openGraph: {
-    title: "Investigation Intelligence for Payment-Enabled Fintech Platforms | Verafye",
+    title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
     description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence for Payment-Enabled Fintech Platforms | Verafye",
+    title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
     description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence.",
   },
   alternates: {
@@ -26,10 +26,10 @@ export default function FintechPlatformsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>PAYMENT FINTECH PLATFORMS</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fintech Fraud Prevention Solution</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation Intelligence for Payment-Enabled Fintech Platforms
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps wallets, card programs, lending apps, payroll/expense platforms, merchant apps, and multi-product fintechs connect onboarding, account, device, transaction, payment, wallet, payout, repayment, fraud, and AML signals into investigation-ready intelligence.
             </p>
@@ -221,7 +221,7 @@ export default function FintechPlatformsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>04</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Explainable Case Decisions and Audit-Ready Evidence</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Every investigation produces a structured case record covering alert context, network evidence, analyst decisions, and disposition trail - supporting the explainability and documentation standards that fraud and AML reviewers, compliance teams, and external auditors require. Verafye does not provide regulatory approval or automatically file regulatory reports.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Every investigation produces a structured case record covering alert context, network evidence, analyst decisions, and disposition trail - supporting the explainability and documentation standards that fraud and AML reviewers, compliance teams, and external auditors require.</p>
               </div>
             </div>
           </div>
@@ -398,7 +398,7 @@ export default function FintechPlatformsPage() {
             No commitment required. Speak directly with our solutions team.
           </p>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '0.5rem', fontStyle: 'italic' }}>
-            Verafye works alongside existing fraud scoring, AML transaction monitoring, KYC/KYB, and payment systems as an independent investigation intelligence layer. We do not replace these systems, claim regulatory approval, or guarantee fraud prevention outcomes.
+            Verafye is designed to support fraud and AML investigation workflows. We do not claim regulatory certification, approval, or endorsement, and do not guarantee fraud prevention outcomes.
           </p>
         </div>
       </section>

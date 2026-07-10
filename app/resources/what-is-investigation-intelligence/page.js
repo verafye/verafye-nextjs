@@ -6,17 +6,13 @@ export const metadata = {
   description: "Discover how investigation intelligence connects fragmented signals into explainable, audit-ready investigations that improve analyst productivity.",
   keywords: ["investigation intelligence", "financial crime intelligence", "investigation workflows", "fraud analytics", "aml investigations"],
   openGraph: {
-    title: "What Is Investigation Intelligence? | Verafye",
+    title: "What Is Investigation Intelligence?",
     description: "Discover how investigation intelligence connects fragmented signals into explainable, audit-ready investigations that improve analyst productivity.",
-    url: 'https://www.verafye.com/resources/what-is-investigation-intelligence/',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
-    type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "What Is Investigation Intelligence? | Verafye",
+    title: "What Is Investigation Intelligence?",
     description: "Discover how investigation intelligence connects fragmented signals into explainable, audit-ready investigations that improve analyst productivity.",
-    images: ['/images/og-image.png'],
   },
   alternates: {
     canonical: 'https://www.verafye.com/resources/what-is-investigation-intelligence',

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Payment Aggregators, PSPs and NBFCs in India",
+  title: "Fraud Detection Platform for Payment Aggregators, PSPs and NBFCs in India",
   description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
   keywords: ["payment aggregator risk india", "psp fraud india", "payment gateway aml india", "nbfc fraud detection india", "mule account detection india", "upi fraud investigation", "digital lending fraud india"],
   openGraph: {
-    title: "Network Risk Intelligence for Payment Aggregators, PSPs and NBFCs in India | Verafye",
+    title: "Fraud Detection Platform for Payment Aggregators, PSPs and NBFCs in India",
     description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Payment Aggregators, PSPs and NBFCs in India | Verafye",
+    title: "Fraud Detection Platform for Payment Aggregators, PSPs and NBFCs in India",
     description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
   },
   alternates: {
@@ -177,14 +177,12 @@ export default function IndiaPage() {
       <div style={{'maxWidth':'36rem'}}>
 
         {/* Eyebrow */}
-        <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>
-          Built for India's payment aggregators, PSPs, payment gateways, wallet/payment fintechs, NBFCs and digital lenders
-        </p>
+        <h1 className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Fraud Prevention Solution for Payment Aggregators, PSPs and NBFCs in India</h1>
 
         {/* H1 */}
-        <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
+        <h2 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
           Network Risk Intelligence for India's Payment-Led Platforms
-        </h1>
+        </h2>
 
         {/* Sub-line */}
         <p className="animate-fade-up delay-150" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1rem','lineHeight':'1.4'}}>

@@ -5,7 +5,12 @@ export const metadata = {
   description: "Verafye serves payment-led regulated financial platforms and lean fraud, AML, and payments risk teams - PSPs, PayFacs, processors, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, lenders, selected banks, and commerce platforms.",
   keywords: ["psp payfac risk intelligence", "msb remittance aml", "payment-led financial platforms", "network risk intelligence customers", "fintech fraud investigation", "lean financial crime teams"],
   openGraph: {
-    title: "Who Verafye Serves - Payment-Led Regulated Platforms | Verafye",
+    title: "Who Verafye Serves - Payment-Led Regulated Platforms",
+    description: "Verafye serves payment-led regulated financial platforms and lean fraud, AML, and payments risk teams - PSPs, PayFacs, processors, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, lenders, selected banks, and commerce platforms.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Who Verafye Serves - Payment-Led Regulated Platforms",
     description: "Verafye serves payment-led regulated financial platforms and lean fraud, AML, and payments risk teams - PSPs, PayFacs, processors, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, lenders, selected banks, and commerce platforms.",
   },
   alternates: {
@@ -19,7 +24,7 @@ export default function Page() {
 {/* HERO */}
 <section style={{'background':'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)','padding':'4rem 0'}}>
   <div className="container" style={{'maxWidth':'56rem','textAlign':'center'}}>
-    <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Customers</p>
+    <h1 className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Customers</h1>
     <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.75rem)','fontWeight':'800','color':'var(--dark)','marginBottom':'2rem','letterSpacing':'-0.035em'}}>Built for Payment-Led Regulated Platforms and Lean Financial Crime Teams</h1>
     <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto 2.5rem'}}>Verafye supports fraud, AML, and payments risk teams across PSPs, PayFacs, payment processors, payment aggregators, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, neo banks, NBFCs, digital lenders, selected banks, and commerce platforms.</p>
     <div className="animate-fade-up delay-300"><Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review <span className="btn-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span></Link></div>

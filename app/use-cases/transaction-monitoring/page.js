@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Transaction Monitoring Software for AML Teams",
-  description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
+  title: "AML Transaction Monitoring Software | Detect Risk Faster",
+  description: "Detect suspicious transactions, reduce false positives and uncover hidden financial crime with graph-native transaction monitoring and investigation intelligence.",
   keywords: ["aml transaction monitoring software", "suspicious activity monitoring", "transaction intelligence", "financial crime detection", "aml compliance monitoring"],
   openGraph: {
-    title: "Transaction Monitoring Software for AML Teams | Verafye",
+    title: "AML Transaction Monitoring Software | Detect Risk Faster",
     description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Transaction Monitoring Software for AML Teams | Verafye",
+    title: "AML Transaction Monitoring Software | Detect Risk Faster",
     description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
   },
   alternates: {
@@ -40,7 +40,7 @@ export default function TransactionMonitoringPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>TRANSACTION MONITORING</p>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>TRANSACTION MONITORING</h1>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Transaction monitoring with connected investigation intelligence
             </h1>

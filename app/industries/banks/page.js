@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Intelligence for Selected Banks, Regional Financial Institutions, and Credit Unions | Verafye",
+  title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions ",
   description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   keywords: ["mule network detection banks", "scam proceeds investigation bank", "real-time payment risk bank", "fraud to aml escalation", "sar str preparation bank", "community bank investigation intelligence", "credit union fraud aml investigation", "regional bank financial crime", "bank investigation workflow", "lean bank risk teams"],
   openGraph: {
-    title: "Investigation Intelligence for Selected Banks, Regional Financial Institutions, and Credit Unions | Verafye",
+    title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions ",
     description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence for Selected Banks, Regional Financial Institutions, and Credit Unions | Verafye",
+    title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions ",
     description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   },
   alternates: {
@@ -26,10 +26,10 @@ export default function BanksPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>SELECTED BANKS, REGIONAL INSTITUTIONS &amp; CREDIT UNIONS</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention Solution for Banks</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation Intelligence for Selected Banks, Regional Financial Institutions, and Credit Unions
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps banking fraud and AML teams connect fraud, AML, account, payment, identity, device, and behavioral signals into explainable investigation workflows - surfacing mule networks, scam proceeds, account-to-account payment risk, suspicious counterparties, and cross-system financial-crime patterns faster.
             </p>
@@ -371,7 +371,7 @@ export default function BanksPage() {
             No commitment required. Speak directly with our solutions team.
           </p>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '0.5rem', fontStyle: 'italic' }}>
-            Verafye works alongside existing fraud detection, AML transaction monitoring, core banking, payment, and case management systems as an independent investigation intelligence layer. We do not replace these systems, claim regulatory certification, or guarantee fraud prevention outcomes.
+            Verafye is designed to support fraud and AML investigation workflows. We do not claim regulatory certification, approval, or endorsement, and do not guarantee fraud prevention outcomes.
           </p>
         </div>
       </section>

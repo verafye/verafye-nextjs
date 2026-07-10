@@ -1,9 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Sample Risk Shadowing Output",
+  title: "Sample Risk Shadowing Output | Verafye",
   description: "Detailed sample outputs are shared during qualified walkthroughs using synthetic data only.",
-  robots: { index: false, follow: false },
+  openGraph: {
+    title: "Sample Risk Shadowing Output | Verafye",
+    description: "Detailed sample outputs are shared during qualified walkthroughs using synthetic data only.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Sample Risk Shadowing Output | Verafye",
+    description: "Detailed sample outputs are shared during qualified walkthroughs using synthetic data only.",
+  },
   alternates: {
     canonical: 'https://www.verafye.com/sample-output',
   },

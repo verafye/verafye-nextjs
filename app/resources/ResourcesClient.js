@@ -120,6 +120,57 @@ const resources = [
       </svg>
     ),
   },
+  /* ── LIVE - article pages exist ── */
+  {
+    category: 'industry-insights',
+    categoryLabel: 'Industry Insights',
+    title: 'Why Alert-Based Detection Misses Network-Level Fraud Risk',
+    summary: 'Alert-based systems generate outputs, not investigations. Understand why coordinated fraud and AML risk is only visible when signals are connected at the network level.',
+    readingTime: '8 min read',
+    ctaLabel: 'Read Insight',
+    href: '/resources/network-risk-vs-alert-based-detection/',
+    status: 'live',
+    gradient: 'gradient-bg-2',
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/>
+      </svg>
+    ),
+  },
+  {
+    category: 'use-case-deep-dives',
+    categoryLabel: 'Use Case Deep Dives',
+    title: 'Detecting Structuring in Cross-Border MSB and Remittance Operations',
+    summary: 'Structuring in MSB and remittance environments is fragmented across senders, corridors, and beneficiaries. See how connected signal analysis surfaces patterns that per-sender monitoring misses.',
+    readingTime: '8 min read',
+    ctaLabel: 'Explore Use Case',
+    href: '/resources/structuring-detection-cross-border-msbs/',
+    status: 'live',
+    gradient: 'gradient-bg-4',
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+        <line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/>
+      </svg>
+    ),
+  },
+  {
+    category: 'use-case-deep-dives',
+    categoryLabel: 'Use Case Deep Dives',
+    title: 'Mule Network Detection in Remittance and Cross-Border Payment Operations',
+    summary: 'Mule networks exploit remittance volume and corridor complexity to evade alert-based detection. Learn how graph-native analysis surfaces coordinated mule activity across senders, accounts, and beneficiaries.',
+    readingTime: '8 min read',
+    ctaLabel: 'Explore Use Case',
+    href: '/resources/mule-detection-in-remittance/',
+    status: 'live',
+    gradient: 'gradient-bg-3',
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/>
+        <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
+      </svg>
+    ),
+  },
   /* ── BACKLOG - hidden pending editorial review ──
   {
     category: 'industry-insights',

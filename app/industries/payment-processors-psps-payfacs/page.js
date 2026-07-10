@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "PSP and PayFac Risk Intelligence",
-  description: "Verafye helps PSPs and PayFacs detect merchant, transaction, and mule-network risk with graph-native intelligence and audit-ready investigations.",
-  keywords: ["psp risk intelligence", "payfac fraud detection", "merchant risk monitoring", "transaction laundering detection", "mule-linked merchants", "payment fraud aml"],
+  title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions ",
+  description: "Detect merchant fraud, payout abuse and payment risk with graph-native Network Risk Intelligence built for PSPs, PayFacs and payment processors.",
+  keywords: ["psp risk intelligence", "payfac fraud detection", "merchant risk monitoring", "transaction laundering detection", "payment processor fraud", "sub-merchant risk", "chargeback fraud detection", "payment fraud investigation"],
   openGraph: {
-    title: "PSP and PayFac Risk Intelligence | Verafye",
-    description: "Verafye helps PSPs and PayFacs detect merchant, transaction, and mule-network risk with graph-native intelligence and audit-ready investigations.",
+    title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions ",
+    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "PSP and PayFac Risk Intelligence | Verafye",
-    description: "Verafye helps PSPs and PayFacs detect merchant, transaction, and mule-network risk with graph-native intelligence and audit-ready investigations.",
+    title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions ",
+    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs',
@@ -34,10 +34,10 @@ export default function PaymentProcessorsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>PAYMENT PLATFORMS</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Payment Fraud Prevention Solution</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation intelligence for PSPs, PayFacs, and payment processors
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps PSPs, PayFacs, and payment processors detect network-level risk across merchants, accounts, devices, identities, transactions, beneficiaries, and payouts.
             </p>

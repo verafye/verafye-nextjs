@@ -6,17 +6,13 @@ export const metadata = {
   description: "Explore the operational gaps, disconnected systems and missing context that slow investigations and increase compliance risk.",
   keywords: ["payment fraud investigations", "aml investigations", "financial crime operations", "payment risk intelligence"],
   openGraph: {
-    title: "Why Fraud & AML Investigations Fail in Payments | Verafye",
+    title: "Why Fraud & AML Investigations Fail in Payments",
     description: "Explore the operational gaps, disconnected systems and missing context that slow investigations and increase compliance risk.",
-    url: 'https://www.verafye.com/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
-    type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Why Fraud & AML Investigations Fail in Payments | Verafye",
+    title: "Why Fraud & AML Investigations Fail in Payments",
     description: "Explore the operational gaps, disconnected systems and missing context that slow investigations and increase compliance risk.",
-    images: ['/images/og-image.png'],
   },
   alternates: {
     canonical: 'https://www.verafye.com/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms',

@@ -2,16 +2,16 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { MuleAccountVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Mule Account Detection Software for AML Teams",
-  description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
+  title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
+  description: "Detect mule accounts, linked identities and hidden financial crime networks with graph-native Network Risk Intelligence for faster AML investigations.",
   keywords: ["mule account detection software", "money mule detection", "fraud network detection", "aml investigations", "financial crime prevention"],
   openGraph: {
-    title: "Mule Account Detection Software for AML Teams | Verafye",
+    title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
     description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Account Detection Software for AML Teams | Verafye",
+    title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
     description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
   },
   alternates: {
@@ -26,6 +26,7 @@ export default function MuleAccountDetectionPage() {
       {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
       <SplitHeroWithVisualCard
         eyebrow="MULE ACCOUNT DETECTION"
+        seoH1="Mule Account Detection Solution"
         title="Mule account detection with connected risk signals"
         description="Connect account, identity, device, transaction, counterparty, and behavior signals to identify suspicious mule activity faster."
         body="Verafye helps teams detect and investigate mule account patterns by linking fragmented signals into case-ready context and graph-based relationship views."

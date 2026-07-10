@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Reduce Fraud Risk in Digital Banking",
-  description: "Uncover hidden fraud networks, accelerate AML investigations and improve onboarding, payment and account risk decisions with connected intelligence.",
-  keywords: ["digital banking fraud detection", "aml software for digital banks", "onboarding fraud prevention", "transaction intelligence", "risk analytics for digital banks"],
+  title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
+  description: "Detect account takeover, synthetic identities, payment fraud and AML risk in real time using graph-native Network Risk Intelligence.",
+  keywords: ["digital banking fraud detection", "neo bank risk intelligence", "synthetic identity detection", "account farming detection", "mule network detection digital bank", "scam fraud investigation", "aml software digital banks", "onboarding fraud prevention", "ato detection digital banking", "audit ready fraud investigation"],
   openGraph: {
-    title: "Reduce Fraud Risk in Digital Banking | Verafye",
-    description: "Uncover hidden fraud networks, accelerate AML investigations and improve onboarding, payment and account risk decisions with connected intelligence.",
+    title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
+    description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations — surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Reduce Fraud Risk in Digital Banking | Verafye",
-    description: "Uncover hidden fraud networks, accelerate AML investigations and improve onboarding, payment and account risk decisions with connected intelligence.",
+    title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
+    description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations — surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/digital-banks',
@@ -26,10 +26,10 @@ export default function DigitalBanksPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>DIGITAL BANKS &amp; NEO BANKS</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Digital Banks</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation Intelligence for Digital Banks and Neo Banking Risk Teams
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Connect onboarding, account, device, transaction, fraud, and AML signals into explainable investigations that help risk teams act faster.
             </p>

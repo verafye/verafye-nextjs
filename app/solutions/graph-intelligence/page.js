@@ -3,15 +3,15 @@ import SplitHeroWithVisualCard, { GraphIntelligenceVisualCard } from '../../../c
 
 export const metadata = {
   title: "Detect Hidden Fraud Networks with Graph Intelligence",
-  description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
+  description: "Uncover hidden fraud networks by connecting accounts, devices, merchants and transactions with graph intelligence built for fraud and AML investigations.",
   keywords: ["graph intelligence", "fraud network analysis", "entity resolution", "relationship analytics", "graph analytics platform", "fraud ring detection"],
   openGraph: {
-    title: "Detect Hidden Fraud Networks with Graph Intelligence | Verafye",
+    title: "Detect Hidden Fraud Networks with Graph Intelligence",
     description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Detect Hidden Fraud Networks with Graph Intelligence | Verafye",
+    title: "Detect Hidden Fraud Networks with Graph Intelligence",
     description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
   },
   alternates: {
@@ -26,6 +26,7 @@ export default function GraphIntelligencePage() {
       {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
       <SplitHeroWithVisualCard
         eyebrow="GRAPH INTELLIGENCE"
+        seoH1="Graph Intelligence Solutions for Financial Crime"
         title="Graph intelligence for connected financial crime investigations"
         description="Reveal hidden relationships across users, accounts, merchants, devices, transactions, counterparties, and entities."
         body="Verafye uses graph intelligence to help risk teams see how alerts, entities, and behaviors connect - turning isolated events into network-level investigation context."

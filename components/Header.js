@@ -45,7 +45,10 @@ const navItems = [
   {
     label: 'Customers',
     href: '/customers',
-    children: null,
+    children: [
+      { href: '/customers',     label: 'Who We Serve' },
+      { href: '/case-studies',  label: 'Case Studies' },
+    ],
   },
   {
     label: 'Resources',
@@ -115,7 +118,10 @@ const mobileNavGroups = [
   {
     heading: 'Customers',
     headingHref: '/customers',
-    items: [],
+    items: [
+      { href: '/customers',    label: 'Who We Serve' },
+      { href: '/case-studies', label: 'Case Studies' },
+    ],
   },
   {
     heading: 'Resources',

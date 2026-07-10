@@ -6,17 +6,13 @@ export const metadata = {
   description: "Discover how risk teams replace fragmented alerts with connected investigations, explainable decisions and stronger governance.",
   keywords: ["investigation workflow modernization", "risk operations", "investigation management", "fraud operations", "aml operations"],
   openGraph: {
-    title: "Modernize Risk Investigations Beyond Alert Queues | Verafye",
+    title: "Modernize Risk Investigations Beyond Alert Queues",
     description: "Discover how risk teams replace fragmented alerts with connected investigations, explainable decisions and stronger governance.",
-    url: 'https://www.verafye.com/resources/from-alerts-to-decisions-risk-team-operating-model/',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
-    type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Modernize Risk Investigations Beyond Alert Queues | Verafye",
+    title: "Modernize Risk Investigations Beyond Alert Queues",
     description: "Discover how risk teams replace fragmented alerts with connected investigations, explainable decisions and stronger governance.",
-    images: ['/images/og-image.png'],
   },
   alternates: {
     canonical: 'https://www.verafye.com/resources/from-alerts-to-decisions-risk-team-operating-model',

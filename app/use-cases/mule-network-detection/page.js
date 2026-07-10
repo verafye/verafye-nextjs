@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Network Detection Software for Fraud Teams",
-  description: "Uncover mule networks, coordinated fraud rings and hidden transaction relationships with connected intelligence that strengthens AML investigations.",
+  title: "Mule Network Detection Software | Detect Fraud Rings",
+  description: "Detect coordinated mule networks, suspicious money flows and hidden financial crime relationships using graph-native investigation intelligence.",
   keywords: ["mule network detection software", "money mule networks", "fraud ring detection", "transaction network analysis", "aml investigations"],
   openGraph: {
-    title: "Mule Network Detection Software for Fraud Teams | Verafye",
+    title: "Mule Network Detection Software | Detect Fraud Rings",
     description: "Uncover mule networks, coordinated fraud rings and hidden transaction relationships with connected intelligence that strengthens AML investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Network Detection Software for Fraud Teams | Verafye",
+    title: "Mule Network Detection Software | Detect Fraud Rings",
     description: "Uncover mule networks, coordinated fraud rings and hidden transaction relationships with connected intelligence that strengthens AML investigations.",
   },
   alternates: {
@@ -32,7 +32,7 @@ export default function MuleNetworkDetectionPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MULE NETWORK DETECTION</p>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MULE NETWORK DETECTION</h1>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Detect mule networks with graph-based investigation intelligence
             </h1>

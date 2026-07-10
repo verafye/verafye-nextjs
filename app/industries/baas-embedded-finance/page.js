@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for BaaS and Embedded Finance",
-  description: "Verafye helps BaaS and embedded finance providers connect fragmented sponsor-bank, fintech-program, ledger, payment, KYC/KYB, identity, device, account, wallet, and case signals into investigation-ready network risk intelligence.",
-  keywords: ["baas risk intelligence", "embedded finance risk intelligence", "sponsor-bank ecosystem risk", "program-level network risk", "baas fraud and aml investigation", "fintech program risk"],
+  title: "Fraud Prevention  Solutions for Embedded Finance | Verafye",
+  description: "Connect payment, ledger, identity and partner data to detect hidden fraud and financial crime across embedded finance and BaaS ecosystems.",
+  keywords: ["baas risk intelligence", "embedded finance risk", "sponsor bank oversight", "program risk intelligence", "fintech partner risk", "baas fraud aml investigation", "ledger payment correlation", "cross-program risk detection", "embedded finance compliance"],
   openGraph: {
-    title: "Network Risk Intelligence for BaaS and Embedded Finance | Verafye",
-    description: "Verafye helps BaaS and embedded finance providers connect fragmented sponsor-bank, fintech-program, ledger, payment, KYC/KYB, identity, device, account, wallet, and case signals into investigation-ready network risk intelligence.",
+    title: "Fraud Prevention  Solutions for Embedded Finance | Verafye",
+    description: "Verafye helps BaaS providers, embedded finance platforms, and sponsor-bank oversight teams connect program, ledger, payment, account, wallet, KYC/KYB, identity, device, and case signals into investigation-ready program risk intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for BaaS and Embedded Finance | Verafye",
-    description: "Verafye helps BaaS and embedded finance providers connect fragmented sponsor-bank, fintech-program, ledger, payment, KYC/KYB, identity, device, account, wallet, and case signals into investigation-ready network risk intelligence.",
+    title: "Fraud Prevention  Solutions for Embedded Finance | Verafye",
+    description: "Verafye helps BaaS providers, embedded finance platforms, and sponsor-bank oversight teams connect program, ledger, payment, account, wallet, KYC/KYB, identity, device, and case signals into investigation-ready program risk intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/baas-embedded-finance',
@@ -26,10 +26,10 @@ export default function BaasEmbeddedFinancePage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>BaaS &amp; EMBEDDED FINANCE</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Embedded Finance Fraud Prevention  Solutions</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Network Risk Intelligence for BaaS and embedded finance ecosystems
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps BaaS and embedded finance providers connect fragmented sponsor-bank, fintech-program, ledger, payment, KYC/KYB, identity, device, account, wallet, and case signals into investigation-ready Network Risk Intelligence.
             </p>
@@ -215,7 +215,7 @@ export default function BaasEmbeddedFinancePage() {
             <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
-            Verafye works alongside existing systems as an independent Network Risk Intelligence layer. We do not claim regulatory approval, regulator certification, endorsement, or guaranteed fraud prevention.
+            Verafye is designed to support fraud and AML investigation workflows. We do not claim regulatory certification, approval, or endorsement, and do not guarantee fraud prevention outcomes.
           </p>
         </div>
       </section>

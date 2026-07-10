@@ -2,16 +2,16 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { InvestigationVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Investigation Intelligence Platform for Fraud Teams",
-  description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
+  title: "Fraud Investigation Solutions | Faster Investigations",
+  description: "Connect fraud, AML and payment signals into investigation-ready workflows with graph-native intelligence that accelerates case resolution and improves analyst productivity.",
   keywords: ["investigation intelligence platform", "financial crime investigations", "fraud case management", "aml investigations", "investigation workflows"],
   openGraph: {
-    title: "Investigation Intelligence Platform for Fraud Teams | Verafye",
+    title: "Fraud Investigation Solutions | Faster Investigations",
     description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence Platform for Fraud Teams | Verafye",
+    title: "Fraud Investigation Solutions | Faster Investigations",
     description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
   },
   alternates: {
@@ -26,6 +26,7 @@ export default function InvestigationIntelligencePage() {
       {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
       <SplitHeroWithVisualCard
         eyebrow="INVESTIGATION INTELLIGENCE"
+        seoH1="Fraud Investigation Solution"
         title="Investigation intelligence for lean fraud, AML, and risk teams"
         description="Connect alerts, explain risk, and close cases faster with case intelligence, graph context, and audit-ready workflows."
         body="Investigation Intelligence is the operating layer within the Verafye platform that turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."

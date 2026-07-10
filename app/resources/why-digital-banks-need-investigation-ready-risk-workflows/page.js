@@ -6,17 +6,13 @@ export const metadata = {
   description: "Learn how digital banks improve fraud detection, AML compliance and risk operations through connected investigation workflows.",
   keywords: ["investigation ready workflows", "banking risk operations", "digital banking fraud prevention", "aml workflow modernization"],
   openGraph: {
-    title: "Why Digital Banks Need Investigation-Ready Workflows | Verafye",
+    title: "Why Digital Banks Need Investigation-Ready Workflows",
     description: "Learn how digital banks improve fraud detection, AML compliance and risk operations through connected investigation workflows.",
-    url: 'https://www.verafye.com/resources/why-digital-banks-need-investigation-ready-risk-workflows/',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Investigation Intelligence' }],
-    type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Why Digital Banks Need Investigation-Ready Workflows | Verafye",
+    title: "Why Digital Banks Need Investigation-Ready Workflows",
     description: "Learn how digital banks improve fraud detection, AML compliance and risk operations through connected investigation workflows.",
-    images: ['/images/og-image.png'],
   },
   alternates: {
     canonical: 'https://www.verafye.com/resources/why-digital-banks-need-investigation-ready-risk-workflows',

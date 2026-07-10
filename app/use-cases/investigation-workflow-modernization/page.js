@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Investigation Workflow Software for Fraud & AML",
+  title: "Fraud Investigation Workflow Software | AML Case Management",
   description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
   keywords: ["investigation workflow software", "aml case management", "fraud investigation workflows", "investigation automation", "compliance workflows"],
   openGraph: {
-    title: "Investigation Workflow Software for Fraud & AML | Verafye",
+    title: "Fraud Investigation Workflow Software | AML Case Management",
     description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Workflow Software for Fraud & AML | Verafye",
+    title: "Fraud Investigation Workflow Software | AML Case Management",
     description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
   },
   alternates: {
@@ -35,7 +35,7 @@ export default function InvestigationWorkflowModernizationPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>INVESTIGATION WORKFLOW MODERNIZATION</p>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>INVESTIGATION WORKFLOW MODERNIZATION</h1>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Modernize investigation workflows without replacing your entire risk stack
             </h1>

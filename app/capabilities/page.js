@@ -1,17 +1,17 @@
 import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Detection-to-Decision Capabilities for Fraud & AML Teams",
-  description: "Detection Intelligence, Investigation Intelligence, and Decision Intelligence - graph-native network risk detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams.",
+  title: "Fraud Detection & AML Capabilities | Verafye",
+  description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   keywords: ["network risk intelligence capabilities", "entity resolution", "graph analytics", "transaction intelligence", "investigation workflows", "financial crime investigations", "risk intelligence software", "fraud analytics platform"],
   openGraph: {
-    title: "Detection-to-Decision Capabilities for Fraud & AML Teams | Verafye",
-    description: "Detection Intelligence, Investigation Intelligence, and Decision Intelligence - graph-native network risk detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams.",
+    title: "Fraud Detection & AML Capabilities | Verafye",
+    description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Detection-to-Decision Capabilities for Fraud & AML Teams | Verafye",
-    description: "Detection Intelligence, Investigation Intelligence, and Decision Intelligence - graph-native network risk detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams.",
+    title: "Fraud Detection & AML Capabilities | Verafye",
+    description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/capabilities',
@@ -178,6 +178,7 @@ export default function CapabilitiesPage() {
       {/* ── Section 1: Hero - Option 1: Split Hero with Visual Card (approved) ── */}
       <SplitHeroWithVisualCard
         eyebrow="CAPABILITIES"
+        seoH1="Fraud Detection & AML Capabilities"
         title="Capabilities for detection-to-decision financial crime operations"
         description="Detection Intelligence, Investigation Intelligence, and Decision Intelligence in one platform - graph-native network risk detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams."
         primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
