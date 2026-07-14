@@ -414,17 +414,6 @@ export default function Page() {
 
     </div>
 
-    {/* Proof element — microquote */}
-    <div style={{'maxWidth':'48rem','margin':'0 auto 2rem','padding':'1.75rem 2rem','background':'#fff','border':'1px solid var(--border)','borderRadius':'12px','borderLeft':'3px solid var(--primary)'}}>
-      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'fontStyle':'italic','marginBottom':'1.25rem'}}>
-        &ldquo;We stopped assembling investigation context from separate tools and started from structured, connected cases.&rdquo;
-      </p>
-      <div style={{'borderTop':'1px solid var(--border)','paddingTop':'1rem'}}>
-        <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'var(--dark)','margin':'0 0 0.125rem'}}>Daniel</p>
-        <p style={{'fontSize':'0.75rem','color':'var(--muted)','margin':0}}>COO, Remit24X7 - A Payments Fintech</p>
-      </div>
-    </div>
-
     {/* Human-in-the-loop governance note */}
     <p style={{'textAlign':'center','fontSize':'0.875rem','color':'var(--muted)','maxWidth':'44rem','margin':'0 auto','lineHeight':1.7}}>
       Every automated step produces explainable, audit-ready evidence. Verafye is designed for human review at every decision point - not autonomous filing.
@@ -579,7 +568,7 @@ export default function Page() {
         <div className="card card-elevated card-hover featured-icp-card" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
           <div className="featured-icp-pill">
             <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            Primary Segment
+            In Production
           </div>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>PSPs, PayFacs &amp; Payment Processors</h3>
@@ -595,7 +584,7 @@ export default function Page() {
         <div className="card card-elevated card-hover featured-icp-card" style={{'padding':'2.5rem','cursor':'pointer','height':'100%'}}>
           <div className="featured-icp-pill">
             <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            Primary Segment
+            In Production
           </div>
           <div className="card-icon gradient-bg-4" style={{'width':'5rem','height':'5rem','borderRadius':'1rem'}}><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
           <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.875rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem'}}>MSBs &amp; Remittance Platforms</h3>
