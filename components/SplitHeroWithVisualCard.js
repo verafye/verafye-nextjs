@@ -18,7 +18,7 @@
  *
  *   <SplitHeroWithVisualCard
  *     eyebrow="VERAFYE PLATFORM"
- *     title="One investigation layer..."
+ *     title="Network Risk Intelligence for Modern Financial Crime Operations"
  *     description="Unify fraud, AML..."
  *     body="The Verafye platform..."
  *     primaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
@@ -136,7 +136,7 @@ const cardShell = {
 
 /* ════════════════════════════════════════════════════════════════════════════
    PLATFORM VISUAL CARD
-   Abstract flow: Signals In → Connected Risk Layer → Case Workflow → Evidence Trail
+   Abstract flow: Signals In → Entity and Network Intelligence → Case Workflow → Evidence Trail
    ════════════════════════════════════════════════════════════════════════════ */
 export function PlatformVisualCard() {
   const steps = [
@@ -146,7 +146,7 @@ export function PlatformVisualCard() {
       accent: 'var(--primary)', bg: '#EEF6FF',
     },
     {
-      num: '02', label: 'Connected Risk Layer',
+      num: '02', label: 'Graph-native Intelligence',
       desc: 'Alerts clustered and enriched with entity and relationship context',
       accent: '#7C3AED', bg: '#F5F3FF',
     },
@@ -605,12 +605,18 @@ export default function SplitHeroWithVisualCard({
 
           {/* ── Left column: text ───────────────────────────────────────────── */}
           <div>
-            {/* Eyebrow / SEO H1 — always an <h1> for semantic correctness.
-                When seoH1 is provided it replaces the eyebrow text entirely.
-                When no seoH1, the eyebrow label itself becomes the h1. */}
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>
-              {seoH1 || eyebrow}
-            </h1>
+            {/* Eyebrow / SEO H1 — when seoH1 is provided it renders as <h1> and the title
+                renders as <h2>. When no seoH1, the eyebrow is a <p> and the title takes the
+                <h1> role. Each path produces exactly one H1 per page. */}
+            {seoH1 ? (
+              <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>
+                {seoH1}
+              </h1>
+            ) : (
+              <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>
+                {eyebrow}
+              </p>
+            )}
 
             {/* Visual heading — h1 when no seoH1 present, h2 when seoH1 takes the h1 role */}
             {seoH1 ? (

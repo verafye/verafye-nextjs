@@ -29,13 +29,13 @@ export default function PlatformPage() {
   seoH1="Financial Crime Detection Platform"
   title="Network Risk Intelligence for Modern Financial Crime Operations"
   description="Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
-  body="Built for teams operating under growing regulatory and operational complexity - start with a scoped pilot alongside existing systems and expand network coverage as outcomes are proven."
+  body="Built for teams operating under growing regulatory and operational complexity - connect selected data sources, expand coverage through proven stages, and build toward Verafye-led detection, investigation, and decisioning workflows."
   primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
   visualCard={<PlatformVisualCard />}
 />
 
-{/* INVESTIGATION LAYER OVERVIEW */}
+{/* PLATFORM CAPABILITY OVERVIEW */}
 <section style={{'padding':'4rem 0','background':'#fff'}}>
   <div className="container" style={{'maxWidth':'72rem'}}>
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
@@ -252,7 +252,7 @@ export default function PlatformPage() {
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>HOW IT WORKS</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'0.875rem'}}>From signals to outcomes - one connected flow</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye detects hidden network risk through graph-native intelligence, risk scoring, relationship analysis, and signal correlation - then carries that risk through clustering, investigation, and audit-ready decisions in one connected flow. Detection-capable and investigation-first, working alongside the systems you already run.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye detects hidden network risk through graph-native intelligence, risk scoring, relationship analysis, and signal correlation - then carries that risk through clustering, investigation, and audit-ready decisions in one connected flow. Detection-capable and investigation-first, built to connect selected data sources into a unified risk intelligence workflow.</p>
     </div>
 
     {/* Horizontal flow - scrollable on mobile */}
@@ -392,17 +392,28 @@ export default function PlatformPage() {
   <div className="container" style={{'maxWidth':'64rem'}}>
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>FLEXIBLE ADOPTION</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Two ways to adopt Verafye</h2>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>A phased path to Verafye-led workflows</h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto'}}>
-        Verafye is designed for flexible adoption. Start alongside existing systems by ingesting alerts, transactions, events, entities, device signals, identity signals, payment data, behavioral signals, and case data. Expand into graph-native detection, risk scoring, clustering, case workflow, evidence management, and decisioning as value is proven.
+        Verafye is designed for outcome-led adoption. Begin with a scoped Risk Shadowing Review on selected data sources, then expand detection, investigation, and decisioning coverage as value is proven at each stage.
       </p>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'1.25rem auto 0'}}>
-        Teams across payment-led and regulated financial platforms can use Verafye as an independent Network Risk Intelligence layer to connect fraud, AML, payment, ledger, identity, KYC/KYB, device, merchant, beneficiary, program, partner, and case signals across fragmented systems - supporting investigation and oversight workflows without replacing existing systems. Inputs are configurable based on segment, use case, and available data.
-      </p>
+    </div>
+    <div style={{'display':'grid','gridTemplateColumns':'repeat(auto-fit,minmax(13rem,1fr))','gap':'1.25rem','maxWidth':'56rem','margin':'0 auto 2rem'}}>
+      {[
+        { stage: '01', label: 'Shadow', desc: 'Connect selected data feeds. Run Verafye in observation mode. Receive an investigation-ready evidence pack with network risk findings from your live data.' },
+        { stage: '02', label: 'Augment', desc: 'Verafye risk context surfaces within investigation workflows. Teams begin actioning Verafye-led clusters and investigation-ready cases.' },
+        { stage: '03', label: 'Operate', desc: 'Verafye becomes the primary investigation workspace. Detection, case formation, and audit-ready decisions run through the Verafye platform.' },
+        { stage: '04', label: 'Consolidate', desc: 'Use Verafye as the primary investigation and evidence environment for selected, agreed use cases where the customer chooses to do so. An optional expansion destination, not a universal replacement.' },
+      ].map(item => (
+        <div key={item.stage} style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'12px','padding':'1.5rem'}}>
+          <div style={{'fontSize':'0.5625rem','fontWeight':'800','color':'var(--primary)','letterSpacing':'0.1em','textTransform':'uppercase','marginBottom':'0.5rem'}}>{item.stage}</div>
+          <div style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>{item.label}</div>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.65,'margin':0}}>{item.desc}</p>
+        </div>
+      ))}
     </div>
     <blockquote style={{'margin':'0 auto','maxWidth':'46rem','padding':'2rem 2.5rem','background':'linear-gradient(165deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'14px','textAlign':'center'}}>
       <p style={{'fontSize':'clamp(1.0625rem,2.2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','lineHeight':1.4,'letterSpacing':'-0.02em','margin':0}}>
-        Start alongside existing systems. Expand into broader detection, investigation, and decisioning workflows as value is proven.
+        Start with a scoped Risk Shadowing Review on selected data sources. Expand into detection, investigation, and decisioning workflows as outcomes are proven.
       </p>
     </blockquote>
   </div>
@@ -499,13 +510,13 @@ export default function PlatformPage() {
         </div>
       </div>
 
-      {/* Stage 2 - Connected Risk Layer */}
+      {/* Stage 2 - Entity and Network Intelligence */}
       <div className="arch-card" style={{'borderTopColor':'#7C3AED'}}>
         <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
           <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#7C3AED','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
             <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>02</span>
           </div>
-          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em'}}>Connected Risk Layer</span>
+          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em'}}>Entity and Network Intelligence</span>
         </div>
         <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Graph-native intelligence</h3>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>

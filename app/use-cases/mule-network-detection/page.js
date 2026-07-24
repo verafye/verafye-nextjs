@@ -32,7 +32,7 @@ export default function MuleNetworkDetectionPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MULE NETWORK DETECTION</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MULE NETWORK DETECTION</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Detect mule networks with graph-based investigation intelligence
             </h1>
@@ -78,7 +78,7 @@ export default function MuleNetworkDetectionPage() {
                 { label: 'Operate Across Systems and Institutions', desc: 'Mule networks span multiple banks, payment platforms, and accounts - exploiting the lack of cross-institution visibility to move funds without triggering individual institution-level alerts' },
                 { label: 'Low-Risk Signals at Transaction Level', desc: 'Each individual transaction within a mule network may appear routine - only the pattern across connected accounts and time reveals the coordinated nature of the activity' },
                 { label: 'Networks Evolve Rapidly', desc: 'Mule recruiters continuously onboard new accounts, retire compromised ones, and adapt movement patterns - making static detection models increasingly ineffective over time' },
-                { label: 'Lack of Connected Visibility', desc: 'Without a graph intelligence layer connecting accounts, devices, identities, and behaviours, institutions cannot see the structure of mule networks operating within their portfolio' },
+                { label: 'Lack of Connected Visibility', desc: 'Without connected graph-based analysis across accounts, devices, identities, and behaviours, institutions cannot see the structure of mule networks operating within their portfolio' },
               ].map(item => (
                 <div key={item.label} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--primary)', flexShrink: 0, marginTop: '0.45rem' }} />
@@ -120,7 +120,7 @@ export default function MuleNetworkDetectionPage() {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Signals Remain Disconnected Across Systems',
-                body: 'Device intelligence, identity attributes, transaction data, and AML signals live in separate tools that do not share a common intelligence layer - preventing the cross-signal correlation that would reveal shared infrastructure across a mule network.',
+                body: 'Device intelligence, identity attributes, transaction data, and AML signals live in separate tools with no common risk view - preventing the cross-signal correlation that would reveal shared infrastructure across a mule network.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -175,7 +175,7 @@ export default function MuleNetworkDetectionPage() {
               {[
                 'Full mule network clusters surfaced as single investigable units',
                 'Pre-assembled relationship maps, entity profiles, and transaction flows delivered at case creation',
-                'Connected fraud and AML view of the same network from a shared intelligence layer',
+                'Connected fraud and AML view of the same network through resolved entities and relationship maps',
                 'Connected signal intelligence surfaces coordinated activity rules cannot see',
                 'Pre-built investigation context helps analysts investigate rather than reconstruct - with a complete audit trail supporting structured regulatory documentation',
               ].map(item => (
@@ -315,7 +315,7 @@ export default function MuleNetworkDetectionPage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Complete Network Visibility - Fraud and AML Connected',
-                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a complete, real-time picture of mule network structure - enabling proactive intervention and better-informed decisions on account action and SAR filing. The shared intelligence layer supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
+                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a complete, real-time picture of mule network structure - enabling proactive intervention and better-informed decisions on account action and SAR filing. Verafye&apos;s investigation-ready case structure supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
               },
               {
                 gradient: 'gradient-bg-1',

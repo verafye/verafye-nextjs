@@ -27,7 +27,7 @@ const ARROW = (
 
 const relatedResources = [
   {
-    title: 'The Missing Layer in Modern Financial Crime Investigations',
+    title: 'What Is Investigation Intelligence?',
     category: 'Product Insights',
     readingTime: '5 min read',
     href: '/resources/what-is-investigation-intelligence/',
@@ -45,6 +45,8 @@ const relatedResources = [
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "Modernize Risk Investigations Beyond Alert Queues", "description": "How risk teams can move from alert queue management to investigation-led operating models using connected risk intelligence.", "url": "https://www.verafye.com/resources/from-alerts-to-decisions-risk-team-operating-model/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* ── BREADCRUMB ─────────────────────────────────────────────────────── */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -305,6 +307,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

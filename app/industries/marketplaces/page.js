@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Network Risk Intelligence for Marketplace Risk Teams | Verafye",
+  title: "Network Risk Intelligence for Marketplace Risk Teams",
   description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations — surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
   keywords: ["marketplace fraud investigation", "seller fraud ring detection", "buyer seller collusion", "marketplace payout abuse", "refund abuse investigation", "review manipulation detection", "marketplace risk intelligence", "fake listing fraud", "seller payout ring", "marketplace investigation workflow"],
   openGraph: {
-    title: "Network Risk Intelligence for Marketplace Risk Teams | Verafye",
+    title: "Network Risk Intelligence for Marketplace Risk Teams",
     description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations — surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Marketplace Risk Teams | Verafye",
+    title: "Network Risk Intelligence for Marketplace Risk Teams",
     description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations — surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
   },
   alternates: {
@@ -26,10 +26,10 @@ export default function MarketplacesPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Marketplace</h1>
-            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Marketplace</p>
+            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Network Risk Intelligence for Marketplace Risk Teams
-            </h2>
+            </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations - surfacing seller fraud rings, buyer-seller collusion, fake listing abuse, payout abuse, refund/return abuse, and coordinated account networks.
             </p>
@@ -94,7 +94,7 @@ export default function MarketplacesPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" x2="6" y1="1" y2="4"/><line x1="10" x2="10" y1="1" y2="4"/><line x1="14" x2="14" y1="1" y2="4"/></svg>),
                 title: 'Coordinated Account Abuse Across Buyer and Seller Surfaces',
-                body: 'ATO, synthetic identity clusters, shared device reuse, and promo abuse operating across both buyer and seller surfaces feed the same coordinated networks - but fragmented signals held in separate systems make the cross-surface connections impossible to see without a shared investigation layer.',
+                body: 'ATO, synthetic identity clusters, shared device reuse, and promo abuse operating across both buyer and seller surfaces feed the same coordinated networks - but fragmented signals held in separate systems make the cross-surface connections impossible to see without connected cross-surface case context.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -116,7 +116,7 @@ export default function MarketplacesPage() {
               What Verafye Is - and What It Is Not
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--body)', marginTop: '0.75rem', lineHeight: 1.7 }}>
-              Verafye is a graph-native network risk intelligence and investigation layer. It connects signals across the marketplace lifecycle into evidence-backed investigation cases. It is not a content moderation, trust-and-safety, or marketplace policy system.
+              Verafye is a graph-native Network Risk Intelligence platform applied to marketplace risk. It connects signals across the marketplace lifecycle into evidence-backed investigation cases. It is not a content moderation, trust-and-safety, or marketplace policy system.
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))', gap: '1rem' }}>
@@ -139,7 +139,7 @@ export default function MarketplacesPage() {
               {
                 icon: (<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>),
                 label: 'Not a replacement for marketplace ops tools',
-                body: 'Verafye works alongside existing marketplace operations, seller management, and abuse tooling.',
+                body: 'Verafye investigates coordinated financial and transactional risk patterns. Marketplace operations, seller management, and existing abuse tooling retain their own functions.',
               },
             ].map(item => (
               <div key={item.label} style={{ background: '#fff', border: '1px solid var(--border)', borderRadius: '10px', padding: '1.25rem 1.5rem' }}>
@@ -167,7 +167,7 @@ export default function MarketplacesPage() {
             {[
               {
                 title: 'Connect seller, buyer, listing, device, payout, payment, refund, dispute, and review signals',
-                body: 'Verafye brings together signals from seller onboarding, listing activity, payments, payouts, device fingerprinting, buyer behavior, refund and return history, disputes, and review patterns into one connected investigation layer - giving analysts the full lifecycle signal picture before any decision is made.',
+                body: 'Verafye connects signals from seller onboarding, listing activity, payments, payouts, device fingerprinting, buyer behavior, refund and return history, disputes, and review patterns into investigation-ready cases - giving analysts the full lifecycle signal picture before any decision is made.',
               },
               {
                 title: 'Surface seller fraud rings, buyer-seller collusion, and coordinated abuse as connected cases',
@@ -267,7 +267,7 @@ export default function MarketplacesPage() {
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.5rem' }}>After Verafye</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 {[
-                  'Seller, buyer, listing, device, payout, payment, refund, dispute, and review signals connected in one investigation layer',
+                  'Seller, buyer, listing, device, payout, payment, refund, dispute, and review signals resolved and connected into investigation-ready cases',
                   'Seller fraud rings, collusion clusters, and coordinated abuse surfaced as connected cases - related accounts linked with graph evidence',
                   'Refund, promo, and review abuse networks visible as connected schemes rather than isolated policy incidents',
                   'Payout abuse and suspicious consolidation patterns mapped with graph context before they escalate externally',
@@ -298,7 +298,7 @@ export default function MarketplacesPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
             {[
               { href: '/industries/fintech-platforms', label: 'Payment Fintech Platforms', desc: 'Referral abuse, account farming, cross-product payment and payout fraud' },
-              { href: '/industries/psps', label: 'PSPs & PayFacs', desc: 'Merchant onboarding risk, transaction laundering, chargeback and fraud rings' },
+              { href: '/industries/payment-processors-psps-payfacs', label: 'PSPs & PayFacs', desc: 'Merchant onboarding risk, transaction laundering, chargeback and fraud rings' },
               { href: '/industries/digital-banks', label: 'Digital Banks & Neobanks', desc: 'ATO, synthetic identity, promo abuse, and outbound payment fraud' },
             ].map((item, i) => (
               <a key={i} href={item.href} style={{ display: 'block', padding: '1.5rem', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '10px', textDecoration: 'none', transition: 'border-color 0.2s' }}>
@@ -318,7 +318,7 @@ export default function MarketplacesPage() {
             See Marketplace Network Risk Investigation in Practice
           </h2>
           <p style={{ fontSize: 'clamp(0.9375rem,1.8vw,1.125rem)', color: 'var(--body)', marginBottom: '2.5rem', lineHeight: 1.7 }}>
-            Start with a scoped workflow across seller fraud rings, payout abuse, refund and promo schemes, or dispute manipulation. Verafye works alongside existing trust-and-safety, payment, and fraud tooling as an independent investigation intelligence layer.
+            Start with a scoped workflow across seller fraud rings, payout abuse, refund and promo schemes, or dispute manipulation. Verafye applies Network Risk Intelligence to connected seller, buyer, device, payment, and payout relationships, complementing existing trust-and-safety, payment, and fraud tooling.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
             <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">

@@ -40,7 +40,7 @@ export default function TransactionMonitoringPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>TRANSACTION MONITORING</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>TRANSACTION MONITORING</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Transaction monitoring with connected investigation intelligence
             </h1>
@@ -84,7 +84,7 @@ export default function TransactionMonitoringPage() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {[
                 { label: 'High Alert Volumes with Low Signal Quality', desc: 'Rules-based monitoring generates millions of alerts annually - the vast majority of which are false positives that consume analyst time without surfacing genuine financial crime risk' },
-                { label: 'Fragmented Data Across Systems', desc: 'Transaction data, device signals, entity attributes, and behavioural patterns sit in separate systems with no shared intelligence layer - preventing the cross-signal detection that modern financial crime demands' },
+                { label: 'Fragmented Data Across Systems', desc: 'Transaction data, device signals, entity attributes, and behavioural patterns sit in separate systems with no shared network risk view - preventing the cross-signal detection that modern financial crime demands' },
                 { label: 'Alerts Without Entity or Network Context', desc: 'Alerts are generated at the transaction level without the entity, relationship, or network context that analysts need to assess risk accurately and make confident investigation decisions' },
                 { label: 'Manual Reconstruction Before Every Investigation', desc: 'Without pre-assembled context and structured workflows, analysts spend the majority of their time gathering information rather than investigating - extending cycle times and limiting throughput' },
               ].map(item => (
@@ -412,7 +412,7 @@ export default function TransactionMonitoringPage() {
             Turn transaction alerts into explainable investigations
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            See how transaction monitoring workflows can feed alert clustering, review queues, case formation, and evidence trails - giving risk teams clearer investigations without replacing existing monitoring infrastructure.
+            See how transaction monitoring workflows can feed alert clustering, review queues, case formation, and evidence trails - giving risk teams clearer, evidence-grade investigations from the signals monitoring already generates.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/risk-shadowing-review" className="btn-primary">

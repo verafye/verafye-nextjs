@@ -3,20 +3,20 @@ import SplitHeroWithVisualCard, { ResourcesVisualCard } from '../../components/S
 import ResourcesClient from './ResourcesClient';
 
 export const metadata = {
-  title: "Fraud & AML Resources | Guides & Insights | Verafye",
+  title: "Fraud & AML Investigation Guides and Insights",
   description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
   keywords: ["fraud prevention resources", "aml compliance resources", "financial crime investigation guides", "risk intelligence insights"],
   openGraph: {
-    title: "Fraud & AML Resources | Guides & Insights | Verafye",
+    title: "Fraud & AML Investigation Guides and Insights",
     description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud & AML Resources | Guides & Insights | Verafye",
+    title: "Fraud & AML Investigation Guides and Insights",
     description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/resources',
+    canonical: 'https://www.verafye.com/resources/',
   },
 };
 
@@ -63,10 +63,10 @@ export default function ResourcesPage() {
                     Product Insights
                   </span>
                   <h2 style={{ fontSize: 'clamp(1.25rem,3vw,2rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', lineHeight: 1.25, letterSpacing: '-0.02em' }}>
-                    The Missing Layer in Modern Financial Crime Investigations
+                    What Is Investigation Intelligence?
                   </h2>
                   <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.75, marginBottom: '1.5rem', maxWidth: '44rem' }}>
-                    Understand why modern financial crime teams need investigation intelligence to connect fragmented alerts, risk signals, workflows, and evidence trails into explainable decisions.
+                    Understand how Investigation Intelligence connects fragmented alerts, risk signals, workflows, and evidence trails into structured, explainable, and audit-ready investigations.
                   </p>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
                     <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>

@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Network Detection in Remittance and Cross-Border Payment Operations | Verafye",
+  title: "Mule Network Detection in Remittance and Cross-Border Payments",
   description: "Mule networks in remittance exploit cross-border volume and corridor complexity to evade detection. Learn how connected signal analysis surfaces mule activity in remittance platforms.",
   keywords: ["mule detection remittance", "money mule networks cross-border", "msb mule account detection", "remittance fraud aml", "cross-border mule detection", "mule network investigation"],
   openGraph: {
-    title: "Mule Network Detection in Remittance and Cross-Border Payment Operations | Verafye",
+    title: "Mule Network Detection in Remittance and Cross-Border Payments",
     description: "Mule networks in remittance exploit cross-border volume and corridor complexity to evade detection. Learn how connected signal analysis surfaces mule activity in remittance platforms.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Network Detection in Remittance and Cross-Border Payment Operations | Verafye",
+    title: "Mule Network Detection in Remittance and Cross-Border Payments",
     description: "Mule networks in remittance exploit cross-border volume and corridor complexity to evade detection. Learn how connected signal analysis surfaces mule activity in remittance platforms.",
   },
   alternates: {
@@ -62,6 +62,8 @@ const BulletList = ({ items }) => (
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "Mule Network Detection in Remittance and Cross-Border Payments", "description": "How remittance and cross-border payment platforms can detect mule networks by connecting sender, beneficiary, and corridor signals.", "url": "https://www.verafye.com/resources/mule-detection-in-remittance/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* BREADCRUMB */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -190,7 +192,7 @@ export default function ArticlePage() {
               'Investigator analysis and escalation rationale, documented in a structured format that can support SAR narrative and regulatory examination.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Building this view from disconnected systems — transaction platforms, onboarding records, device logs, prior case files — introduces time delays, inconsistencies, and coverage gaps. An investigation layer that connects these signals from the start produces a more complete and defensible case record.
+              Building this view from disconnected systems — transaction platforms, onboarding records, device logs, prior case files — introduces time delays, inconsistencies, and coverage gaps. When these signals are connected from the start of an investigation rather than assembled manually, the result is a more complete and defensible case record.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -216,7 +218,7 @@ export default function ArticlePage() {
                 Mule networks in remittance and cross-border payment operations are structured to be invisible at the transaction level. They only become visible when the signals connecting senders, accounts, devices, and beneficiaries are mapped at the network level.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, margin: 0 }}>
-                MSBs and remittance platforms that add a graph-native investigation layer above their existing detection systems can surface these networks earlier, investigate faster, and build the evidence trail needed for SAR filing and regulatory examination.
+                For MSBs and remittance platforms, connecting sender, beneficiary, device, and transaction signals at the network level surfaces coordinated mule patterns earlier, enables faster investigation, and builds the evidence trail needed for SAR filing and regulatory examination.
               </p>
             </div>
 
@@ -275,6 +277,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

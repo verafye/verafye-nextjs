@@ -29,7 +29,7 @@ export default function InvestigationIntelligencePage() {
         seoH1="Fraud Investigation Solution"
         title="Investigation intelligence for lean fraud, AML, and risk teams"
         description="Connect alerts, explain risk, and close cases faster with case intelligence, graph context, and audit-ready workflows."
-        body="Investigation Intelligence is the operating layer within the Verafye platform that turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
+        body="Investigation Intelligence within the Verafye platform turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
         primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
         secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
         visualCard={<InvestigationVisualCard />}
@@ -155,7 +155,7 @@ export default function InvestigationIntelligencePage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Solves It</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                An Investigation-Centric Intelligence Layer
+                From Fragmented Alerts to Investigation-Ready Cases
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
                 Verafye restructures the investigation experience - from alert-centric triage to structured, context-rich case resolution - by clustering signals, forming reviewable cases, aggregating cross-system intelligence, and delivering decision support at the point of investigation. Every case carries a structured evidence pack and full audit trail, with reviewer controls that support the traceability and consistency institutions need to operate under increasing examiner scrutiny.

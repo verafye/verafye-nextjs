@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { getLeadCaptureEndpoint } from '@/app/lib/endpoints';
 
 /* ─────────────────────────────────────────────────────────────
    PdfDownloadModal
@@ -13,35 +14,14 @@ import { useState } from 'react';
      onClose          – callback fired when the modal should be dismissed
    ───────────────────────────────────────────────────────────── */
 
-const CONSUMER_DOMAINS = new Set([
-  'gmail.com',
-  'yahoo.com',
-  'outlook.com',
-  'hotmail.com',
-  'aol.com',
-  'icloud.com',
-  'protonmail.com',
-  'me.com',
-  'mac.com',
-  'live.com',
-  'msn.com',
-  'ymail.com',
-]);
-
-function isBusinessEmail(email) {
-  const parts = email.toLowerCase().trim().split('@');
-  if (parts.length !== 2) return false;
-  const domain = parts[1];
-  return !CONSUMER_DOMAINS.has(domain);
+function isValidEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((email || '').trim());
 }
 
 // ── Lead-capture endpoint ─────────────────────────────────────────────────
-// Set NEXT_PUBLIC_VERAFYE_LEAD_CAPTURE_ENDPOINT in your .env.local to
-// override (useful for staging). Defaults to the same upstream used by the
-// Request Demo form.
-const LEAD_CAPTURE_ENDPOINT =
-  process.env.NEXT_PUBLIC_VERAFYE_LEAD_CAPTURE_ENDPOINT ||
-  'https://dashboard.verafye.com/api/external-email/send';
+// Resolved at submit time via getLeadCaptureEndpoint().
+// No hardcoded fallback — missing env var fails clearly at form submission.
+// See .env.local.example and docs/form-endpoint-configuration.md.
 
 // ── Analytics helper ───────────────────────────────────────────────────────
 function pushEvent(event, payload) {
@@ -99,11 +79,8 @@ export default function PdfDownloadModal({
     } else {
       setNameError('');
     }
-    if (!email.trim()) {
-      setEmailError('Please enter your business email address.');
-      valid = false;
-    } else if (!isBusinessEmail(email)) {
-      setEmailError('Please use your business email address.');
+    if (!email.trim() || !isValidEmail(email)) {
+      setEmailError('Please enter a valid email address.');
       valid = false;
     } else {
       setEmailError('');
@@ -163,7 +140,7 @@ export default function PdfDownloadModal({
     };
 
     try {
-      const response = await fetch(LEAD_CAPTURE_ENDPOINT, {
+      const response = await fetch(getLeadCaptureEndpoint(), {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify(apiPayload),

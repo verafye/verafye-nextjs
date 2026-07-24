@@ -63,6 +63,33 @@ export default function RootLayout({ children }) {
         {/* Google Tag Manager */}
         <script dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T2N2Z2S2');` }} />
         {/* End Google Tag Manager */}
+        {/* Structured data — Organization + WebSite */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://www.verafye.com/#organization",
+              "name": "Verafye",
+              "url": "https://www.verafye.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.verafye.com/images/favicon-512.png"
+              },
+              "description": "Verafye is a graph-native Network Risk Intelligence platform for fraud and AML teams at regulated financial institutions and payment platforms.",
+              "sameAs": [
+                "https://www.linkedin.com/company/104417539"
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.verafye.com/#website",
+              "url": "https://www.verafye.com",
+              "name": "Verafye",
+              "publisher": { "@id": "https://www.verafye.com/#organization" }
+            }
+          ]
+        }) }} />
         {/* Preconnect for font performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

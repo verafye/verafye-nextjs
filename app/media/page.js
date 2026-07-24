@@ -37,7 +37,7 @@ export default function MediaPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MEDIA &amp; PRESS</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MEDIA &amp; PRESS</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Verafye in the News
             </h1>

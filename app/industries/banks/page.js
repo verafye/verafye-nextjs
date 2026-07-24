@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions ",
+  title: "Fraud Prevention for Banks and Regional Financial Institutions",
   description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   keywords: ["mule network detection banks", "scam proceeds investigation bank", "real-time payment risk bank", "fraud to aml escalation", "sar str preparation bank", "community bank investigation intelligence", "credit union fraud aml investigation", "regional bank financial crime", "bank investigation workflow", "lean bank risk teams"],
   openGraph: {
-    title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions ",
+    title: "Fraud Prevention for Banks and Regional Financial Institutions",
     description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions ",
+    title: "Fraud Prevention for Banks and Regional Financial Institutions",
     description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   },
   alternates: {
@@ -26,15 +26,15 @@ export default function BanksPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention Solution for Banks</h1>
-            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Investigation Intelligence for Selected Banks, Regional Financial Institutions, and Credit Unions
-            </h2>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention Solution for Banks</p>
+            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+              Connected Financial-Crime Risk Detection for Selected Banks, Regional Financial Institutions, and Credit Unions
+            </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps banking fraud and AML teams connect fraud, AML, account, payment, identity, device, and behavioral signals into explainable investigation workflows - surfacing mule networks, scam proceeds, account-to-account payment risk, suspicious counterparties, and cross-system financial-crime patterns faster.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Start with a scoped workflow across mule detection, scam investigation, payment-risk review, or fraud-to-AML escalation. Verafye complements existing fraud, AML, core banking, payment, and case management systems rather than replacing them.
+              Start with a scoped pilot across mule detection, scam investigation, payment-risk review, or fraud-to-AML escalation, using agreed data from existing fraud, AML, core banking, payment, and case management systems. Adoption expands into Verafye-led workflows as outcomes are validated.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
@@ -140,7 +140,7 @@ export default function BanksPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Lean Teams Cannot Manually Correlate Signals Across Systems at Volume',
-                body: 'Community banks, regional banks, and credit unions with lean compliance teams cannot manually pivot across transaction monitoring, fraud, core banking, device, and identity systems per case. Without a connected investigation layer, manual data gathering consumes the investigation time lean teams do not have.',
+                body: 'Community banks, regional banks, and credit unions with lean compliance teams cannot manually pivot across transaction monitoring, fraud, core banking, device, and identity systems per case. Without pre-assembled case context, manual data gathering consumes the investigation time lean teams do not have.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -160,22 +160,22 @@ export default function BanksPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                Investigation Intelligence That Works Alongside Your Existing Banking Systems
+                Connecting Account, Payment, Identity, and Device Signals into Investigation-Ready Cases
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye does not replace AML transaction monitoring, fraud detection systems, core banking, payment infrastructure, or case management workflows. It connects their signals - fraud, AML, payment, account, identity, device, and behavioral - into pre-assembled investigation cases that analysts can act on faster, with better network context, and with explainable, audit-ready documentation. Adoption starts with a scoped workflow - agreed signal feeds, defined use cases, clear target outcomes - and expands as results are proven.
+                Verafye begins with agreed signal feeds from fraud monitoring, AML transaction monitoring, core banking, payment infrastructure, and case management workflows. It resolves entities, maps relationships, and builds pre-assembled investigation cases that analysts can act on faster, with better network context, and with explainable, audit-ready documentation. Adoption starts with a scoped pilot covering agreed use cases and expands into Verafye-led workflows as outcomes are validated.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Fraud, AML, Payment, Account, Identity, Device, and Behavioral Signals</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from existing fraud monitoring, AML transaction monitoring, core banking, payment systems, device intelligence, identity, and behavioral sources into one connected investigation layer - making the full signal picture visible across accounts, customers, counterparties, and payment flows without replacing any existing system.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from fraud monitoring, AML transaction monitoring, core banking, payment systems, device intelligence, identity, and behavioral sources, resolving entities and mapping relationships across accounts, customers, counterparties, and payment flows into investigation-ready cases.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Graph-Based Detection of Mule Networks, Scam Flows, and Payment-Linked Account Risk</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph-native intelligence layer maps relationships across accounts, counterparties, devices, payments, and identities - surfacing fan-in/fan-out mule networks, scam proceeds flows, account-to-account payment risk patterns, and synthetic identity clusters that transaction-level and rule-based detection cannot see.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Graph intelligence maps relationships across accounts, counterparties, devices, payments, and identities - surfacing fan-in/fan-out mule networks, scam proceeds flows, account-to-account payment risk patterns, and synthetic identity clusters that transaction-level and rule-based detection cannot see.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -212,7 +212,7 @@ export default function BanksPage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Cross-signal intelligence across fraud, AML, payment, account, device, and identity',
-                body: 'Unify signals from existing fraud monitoring, AML transaction monitoring, core banking, payment, device, identity, and behavioral sources into one connected investigation layer - without replacing any existing system.',
+                body: 'Connect signals from fraud monitoring, AML transaction monitoring, core banking, payment, device, identity, and behavioral sources into investigation-ready cases across accounts, customers, counterparties, and payment flows.',
                 href: '/platform',
                 cta: 'View Platform',
               },

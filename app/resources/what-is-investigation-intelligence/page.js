@@ -45,6 +45,8 @@ const relatedResources = [
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "What Is Investigation Intelligence?", "description": "Understand investigation intelligence: how it connects signals, accelerates case formation and improves AML and fraud outcomes.", "url": "https://www.verafye.com/resources/what-is-investigation-intelligence/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* ── BREADCRUMB ─────────────────────────────────────────────────────── */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -53,7 +55,7 @@ export default function ArticlePage() {
             <span>/</span>
             <Link href="/resources/" style={{ color: 'var(--muted)', textDecoration: 'none' }}>Resources</Link>
             <span>/</span>
-            <span style={{ color: 'var(--body)' }}>The Missing Layer in Modern Financial Crime Investigations</span>
+            <span style={{ color: 'var(--body)' }}>What Is Investigation Intelligence?</span>
           </nav>
         </div>
       </section>
@@ -70,7 +72,7 @@ export default function ArticlePage() {
               <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2026</span>
             </div>
             <h1 style={{ fontSize: 'clamp(1.625rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.2, letterSpacing: '-0.025em' }}>
-              The Missing Layer in Modern Financial Crime Investigations
+              What Is Investigation Intelligence?
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
               Fraud, AML, and risk teams are drowning in alerts - not because detection is broken, but because the work after the alert is messy.
@@ -165,7 +167,7 @@ export default function ArticlePage() {
               Where Verafye Fits
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is built as an intelligent investigation layer for regulated financial institutions and platforms. It connects fragmented risk signals into structured workflows so teams can:
+              Verafye is a graph-native Network Risk Intelligence platform for regulated payment platforms and financial institutions. Investigation Intelligence is a core capability within the platform - the ability to assemble fragmented entities, alerts, relationships, and evidence into coherent, prioritised, and traceable investigations. It connects those signals into structured, investigation-ready workflows so teams can:
             </p>
             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.75rem', padding: '1.5rem 1.75rem', marginBottom: '1.5rem' }}>
               {[
@@ -206,13 +208,7 @@ export default function ArticlePage() {
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
               <Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
-              <PdfDownloadButton
-                pdfPath="/downloads/resources/missing-layer-modern-financial-crime-investigations.pdf"
-                pdfFilename="verafye-missing-layer-modern-financial-crime-investigations.pdf"
-                resourceTitle="The Missing Layer in Modern Financial Crime Investigations"
-                resourceCategory="Product Insights"
-                articleSlug="what-is-investigation-intelligence"
-              />
+              {/* PDF download temporarily unavailable — source document pending regeneration with approved positioning */}
             </div>
           </div>
         </div>
@@ -249,6 +245,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

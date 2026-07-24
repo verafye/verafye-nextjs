@@ -2,16 +2,16 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { MuleAccountVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
+  title: "Mule Account Detection for AML and Fraud Teams",
   description: "Detect mule accounts, linked identities and hidden financial crime networks with graph-native Network Risk Intelligence for faster AML investigations.",
   keywords: ["mule account detection software", "money mule detection", "fraud network detection", "aml investigations", "financial crime prevention"],
   openGraph: {
-    title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
+    title: "Mule Account Detection for AML and Fraud Teams",
     description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
+    title: "Mule Account Detection for AML and Fraud Teams",
     description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
   },
   alternates: {
@@ -123,7 +123,7 @@ export default function MuleAccountDetectionPage() {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>),
                 title: 'Fraud and AML Signals Reviewed in Separate Workflows',
-                body: 'Mule activity generates signals across both fraud and AML systems. When teams operate in isolation with no shared intelligence layer, network-level risk remains invisible to both - and neither has the complete picture.',
+                body: 'Mule activity generates signals across both fraud and AML systems. When teams operate in isolation with no shared risk view, network-level risk remains invisible to both - and neither has the complete picture.',
               },
               {
                 gradient: 'gradient-bg-4',

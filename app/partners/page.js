@@ -27,15 +27,15 @@ export default function PartnersPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Partners &amp; Alliances</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Partners &amp; Alliances</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Partner with Verafye
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Collaborate with Verafye to bring connected investigation intelligence to regulated payment platforms, fintechs, digital banks, and financial institutions globally.
+              Collaborate with Verafye to bring connected risk detection and investigation to regulated payment platforms, payment fintechs, digital banks, and financial institutions.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              We work with strategic partners, system integrators, and ecosystem players to deliver scalable fraud, risk, and AML intelligence solutions. Partners, BaaS providers, embedded finance platforms, processors, consultants, and technology providers can use Verafye to extend network-risk visibility across client programs, sponsor-bank relationships, payment flows, identity signals, device patterns, and investigation workflows.
+              We work with referral and advisory partners, regional GTM partners, implementation and consulting firms, and technology partners to help regulated payment institutions, payment fintechs, and digital banks identify coordinated risk, form investigation-ready cases, and operationalise evidence-grade investigation workflows. Partner engagements begin with a clearly identified customer problem, agreed target segments, and a joint plan.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/become-a-partner" className="btn-primary">
@@ -68,8 +68,8 @@ export default function PartnersPage() {
                     <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
                   </svg>
                 ),
-                title: 'Intelligent Investigation Layer',
-                body: 'Verafye is purpose-built for the investigation infrastructure modernisation cycle underway across banks, payment processors, and fintech platforms - giving partners a differentiated, in-demand solution to bring to market.',
+                title: 'Purpose-Built Network Risk Intelligence Platform',
+                body: 'Verafye is purpose-built for regulated payment platforms facing connected-risk problems that rule-based detection and siloed alert queues cannot resolve - giving partners a technically differentiated, in-demand solution to bring to qualified customers in payment, fintech, and financial institution markets.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -79,7 +79,7 @@ export default function PartnersPage() {
                   </svg>
                 ),
                 title: 'Graph-Based Intelligence Differentiation',
-                body: 'Graph-native detection and investigation intelligence represents a genuine architectural differentiation in the financial crime market - providing partners with a compelling, technically distinctive proposition across fraud, AML, and payments conversations.',
+                body: 'Graph-native risk detection and investigation represents a genuine architectural differentiation in the financial crime market - providing partners with a compelling, technically distinctive proposition across fraud, AML, and payments conversations.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -109,7 +109,7 @@ export default function PartnersPage() {
                   </svg>
                 ),
                 title: 'Flexible Commercial Models',
-                body: 'Verafye works with partners to develop commercial arrangements appropriate to the partnership model - whether resale, referral, co-sell, or deeper strategic collaboration - with flexibility designed to support sustainable, long-term partner relationships.',
+                body: 'Verafye works with partners to develop commercial arrangements appropriate to the partnership model - whether referral, advisory engagement, implementation support, or deeper strategic collaboration - with flexibility designed to support sustainable, long-term partner relationships.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -139,9 +139,9 @@ export default function PartnersPage() {
                     <path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M9 21V9"/>
                   </svg>
                 ),
-                title: 'Channel and Reseller Partners',
-                body: 'Channel and reseller partners bring Verafye to financial institutions within their existing customer base or regional focus - selling, co-selling, or distributing the Verafye platform with commercial terms designed to support scalable, repeatable partner revenue.',
-                tags: ['Resale', 'Co-sell', 'Regional distribution'],
+                title: 'Referral and Advisory Partners',
+                body: 'Referral and advisory partners introduce qualified regulated payment institutions, fintech platforms, and financial institutions to Verafye. They support executive access, provide market context, and facilitate the first qualified opportunity conversation around a connected-risk or investigation challenge.',
+                tags: ['Introductions', 'Advisory', 'Opportunity facilitation'],
               },
               {
                 icon: (
@@ -149,9 +149,9 @@ export default function PartnersPage() {
                     <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
                   </svg>
                 ),
-                title: 'System Integrators',
-                body: 'System integrators implement and integrate Verafye within broader financial crime technology programmes - connecting the platform to existing fraud, AML, payments, and case management infrastructure as part of large-scale institutional transformation projects.',
-                tags: ['Implementation', 'Integration', 'Programme delivery'],
+                title: 'Implementation and Consulting Partners',
+                body: 'Implementation and consulting partners support data mapping, integration planning, workflow configuration, and customer enablement - helping regulated institutions operationalise Verafye within the agreed deployment scope and use cases.',
+                tags: ['Data mapping', 'Workflow configuration', 'Customer enablement'],
               },
               {
                 icon: (
@@ -159,8 +159,8 @@ export default function PartnersPage() {
                     <circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/>
                   </svg>
                 ),
-                title: 'Technology and Platform Partnerships',
-                body: 'Technology partners integrate Verafye capabilities into their own platforms or connect their technology into the Verafye intelligence layer - creating joint solutions that extend value for mutual customers across fraud, AML, and payments workflows.',
+                title: 'Technology and Data Partners',
+                body: 'Technology and data partners connect complementary identity, device, payment, or risk capabilities with the Verafye platform - extending the signals and operational context available for connected-risk detection and investigation.',
                 tags: ['API integration', 'Joint solutions', 'Ecosystem'],
               },
               {
@@ -170,7 +170,7 @@ export default function PartnersPage() {
                   </svg>
                 ),
                 title: 'Strategic Alliances',
-                body: 'Strategic alliances are built with organisations sharing a common vision around financial crime infrastructure modernisation - including joint go-to-market programmes, co-developed solutions, and collaborative engagement across target markets and customer segments.',
+                body: 'Strategic partnerships are explored with organisations sharing a common focus on regulated financial-crime risk - including verified joint GTM programmes, collaborative engagement across shared target customer segments, and co-developed capabilities where appropriate.',
                 tags: ['Joint GTM', 'Co-development', 'Strategic alignment'],
               },
             ].map(item => (
@@ -206,8 +206,8 @@ export default function PartnersPage() {
                     <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
                   </svg>
                 ),
-                title: 'System Integrators',
-                body: 'Large and mid-tier SIs delivering financial crime, compliance, and risk technology programmes to banks and financial institutions - looking for modern, integrable fraud and AML intelligence platforms.',
+                title: 'Referral and Advisory Partners',
+                body: 'Executive-level advisors, financial crime specialists, and industry consultants who can introduce Verafye to qualified regulated payment institutions with a connected-risk or investigation problem.',
               },
               {
                 icon: (
@@ -215,8 +215,8 @@ export default function PartnersPage() {
                     <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/>
                   </svg>
                 ),
-                title: 'Banking Technology Providers',
-                body: 'Core banking, digital banking, and financial infrastructure providers whose customers - mid-market banks, community banks, and regional financial institutions - face growing financial crime and compliance demands.',
+                title: 'Technology and Data Partners',
+                body: 'Technology and data providers with complementary identity, device, payment, or risk capabilities that can extend the signals available for connected-risk detection and investigation on the Verafye platform.',
               },
               {
                 icon: (
@@ -224,8 +224,8 @@ export default function PartnersPage() {
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                   </svg>
                 ),
-                title: 'Consulting Firms',
-                body: 'Risk, compliance, and financial crime consulting firms advising banks, fintechs, and payment platforms on infrastructure modernisation, regulatory response, and operational improvement programmes.',
+                title: 'Implementation and Consulting Firms',
+                body: 'Risk, compliance, and financial crime consulting firms that help regulated payment platforms and financial institutions map data, configure workflows, and operationalise Verafye within agreed deployment scope.',
               },
               {
                 icon: (
@@ -233,8 +233,8 @@ export default function PartnersPage() {
                     <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
                   </svg>
                 ),
-                title: 'Regional Distribution Partners',
-                body: 'Partners with established relationships and market presence in specific geographies - enabling Verafye to reach financial institutions across regional markets through trusted, locally-connected distribution channels.',
+                title: 'Regional and GTM Partners',
+                body: 'Partners with established relationships and market presence in specific geographies - enabling Verafye to identify, qualify and progress Network Risk Intelligence opportunities in agreed markets and customer segments.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
@@ -275,7 +275,7 @@ export default function PartnersPage() {
                 {
                   step: '03',
                   title: 'Flexible Commercial Arrangements',
-                  body: 'Commercial arrangements are developed to suit the partnership model - whether referral, resale, co-sell, or deeper strategic collaboration. Verafye is committed to commercial structures that support sustainable partner economics and long-term relationship value.',
+                  body: 'Commercial arrangements are developed to suit the partnership model - whether referral, advisory engagement, implementation support, or deeper strategic collaboration. Verafye is committed to commercial structures that support sustainable partner economics and long-term relationship value.',
                 },
                 {
                   step: '04',

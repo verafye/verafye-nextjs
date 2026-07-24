@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "cross-env NODE_OPTIONS=--max-old-space-size=4096 next build",
-    "build:dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.dev/api/external-email/send next build",
-    "build:prod": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.com/api/external-email/send next build",
+    "build:dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.dev/api/external-email/send NEXT_PUBLIC_VERAFYE_LEAD_CAPTURE_ENDPOINT=https://dashboard.verafye.dev/api/lead-capture next build",
+    "build:prod": "cross-env NODE_OPTIONS=--max-old-space-size=4096 NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT=https://dashboard.verafye.com/api/external-email/send NEXT_PUBLIC_VERAFYE_LEAD_CAPTURE_ENDPOINT=https://dashboard.verafye.com/api/lead-capture next build",
     "start": "next start",
-    "lint": "echo \"No ESLint configured for this project; 'next lint' was removed in Next.js 16.\" && exit 0"
+    "lint": "eslint app components scripts --ext .js,.jsx,.mjs --max-warnings=0",
+    "validate:site": "node scripts/validate-site.mjs",
+    "validate:links": "node scripts/validate-links.mjs"
   },
   "dependencies": {
     "next": "^16.2.9",
@@ -16,6 +18,9 @@
     "react-dom": "^18.3.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2"
   }
 }

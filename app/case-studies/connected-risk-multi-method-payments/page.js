@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Building a Connected Risk View Across Alternative Payment Methods | Verafye Case Study",
+  title: "Building a Connected Risk View Across Alternative Payment Methods",
   description: "How a multi-method payment infrastructure provider uses Verafye to evaluate risk consistently across wallets, bank transfers, QR payments, and crypto channels spanning multiple markets.",
   keywords: ["alternative payment methods fraud", "multi-channel payment risk", "apm aml investigation", "payment infrastructure risk intelligence", "cross-channel fraud detection"],
   openGraph: {
-    title: "Building a Connected Risk View Across Alternative Payment Methods | Verafye Case Study",
+    title: "Building a Connected Risk View Across Alternative Payment Methods",
     description: "How a multi-method payment infrastructure provider uses Verafye to evaluate risk consistently across wallets, bank transfers, QR payments, and crypto channels spanning multiple markets.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Building a Connected Risk View Across Alternative Payment Methods | Verafye Case Study",
+    title: "Building a Connected Risk View Across Alternative Payment Methods",
     description: "How a multi-method payment infrastructure provider uses Verafye to evaluate risk consistently across wallets, bank transfers, QR payments, and crypto channels spanning multiple markets.",
   },
   alternates: {
@@ -124,13 +124,13 @@ export default function CaseStudyPage() {
               The Verafye Approach
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye provides an independent Network Risk Intelligence layer alongside the platform&apos;s existing payment, fraud, and compliance systems. It connects relevant transaction, merchant, customer, beneficiary, account, payment-method, and geographic signals into a common investigation context.
+              Verafye is integrated into the platform&apos;s payment and compliance environment for connected-risk investigation. It resolves entities and maps relationships across transaction, merchant, customer, beneficiary, account, payment-method, and geographic signals into a common investigation context.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
               Verafye enables the risk team to:
             </p>
             <CheckList items={[
-              'Evaluate risk consistently across different payment methods from a single investigation layer.',
+              'Evaluate risk consistently across different payment methods from one connected investigation view.',
               'Connect activity across merchants, accounts, counterparties, and markets.',
               'Identify shared beneficiaries, devices, IP addresses, or payment attributes across channels.',
               'Detect unusual velocity, geographic, and behavioural patterns across the platform.',
@@ -140,7 +140,7 @@ export default function CaseStudyPage() {
               'Support audit and compliance review across multiple operating entities.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              The objective is not to replace the platform&apos;s transaction-processing or channel-specific controls. Verafye provides the connected intelligence required to investigate activity spanning those systems.
+              Verafye provides the connected intelligence required to investigate activity spanning those systems - building investigation-ready cases from the signals that transaction-processing and channel-specific controls already generate.
             </p>
 
             {/* OPERATIONAL OUTCOME */}
@@ -148,7 +148,7 @@ export default function CaseStudyPage() {
               The Operational Outcome
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              The platform gains a common investigation layer for examining risk across payment methods, regions, and processing relationships. This enables:
+              The platform gains a common investigation view for examining risk across payment methods, regions, and processing relationships. This enables:
             </p>
             <CheckList items={[
               'Greater consistency in risk evaluation across markets and payment channels.',
@@ -163,16 +163,16 @@ export default function CaseStudyPage() {
             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem', marginTop: '2.5rem' }}>
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Deployment Model</p>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '0.75rem' }}>
-                Verafye is deployed alongside the platform&apos;s existing payment and risk infrastructure through API-led integration. The implementation can begin with selected transaction flows or risk scenarios and expand progressively across methods, markets, and operating entities.
+                Verafye is deployed through API-led integration into the platform&apos;s payment and risk environment. The implementation can begin with selected transaction flows or risk scenarios and expand progressively across methods, markets, and operating entities.
               </p>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, margin: 0 }}>
                 First connected-risk outputs can be produced within <strong style={{ color: 'var(--dark)' }}>1–2 weeks</strong> for the initial agreed scope, subject to data readiness and integration completion.
               </p>
             </div>
 
-            {/* VERIFIED RESULT */}
+            {/* DEPLOYMENT RESULT */}
             <div style={{ background: 'linear-gradient(135deg,#EFF6FF,#F0F9FF)', border: '2px solid rgba(30,111,183,0.2)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Verified Result</p>
+              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Deployment Result</p>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1.5rem', flexWrap: 'wrap' }}>
                 <div style={{ flexShrink: 0 }}>
                   <p style={{ fontSize: 'clamp(2.25rem,5vw,3rem)', fontWeight: 800, color: 'var(--primary)', lineHeight: 1, letterSpacing: '-0.03em', margin: 0 }}>~55%</p>
@@ -187,9 +187,6 @@ export default function CaseStudyPage() {
                   </p>
                 </div>
               </div>
-              <p style={{ fontSize: '0.75rem', color: 'var(--muted)', marginTop: '1.25rem', lineHeight: 1.6, margin: '1.25rem 0 0', fontStyle: 'italic' }}>
-                Indicative figure based on industry benchmarks for cross-channel investigation platforms. Actual result to be confirmed with production data.
-              </p>
             </div>
 
           </div>
@@ -205,7 +202,7 @@ export default function CaseStudyPage() {
                 Connect risk across your payment methods and markets
               </h3>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
-                Verafye adds a network-level investigation layer across your existing payment and risk infrastructure — without replacing it.
+                Verafye connects risk signals across your payment and risk environment - building network-level investigation context from the signals your infrastructure already generates.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>

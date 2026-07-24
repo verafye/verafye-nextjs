@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Detecting Structuring in Cross-Border MSB and Remittance Operations | Verafye",
+  title: "Detecting Structuring in Cross-Border MSB Operations",
   description: "Structuring in MSB and remittance environments is fragmented across senders, corridors, and time. Learn how connected signal analysis improves structuring detection and SAR quality.",
   keywords: ["structuring detection msb", "smurfing aml detection", "cross-border structuring", "remittance aml compliance", "msb transaction monitoring", "structuring investigation"],
   openGraph: {
-    title: "Detecting Structuring in Cross-Border MSB and Remittance Operations | Verafye",
+    title: "Detecting Structuring in Cross-Border MSB Operations",
     description: "Structuring in MSB and remittance environments is fragmented across senders, corridors, and time. Learn how connected signal analysis improves structuring detection and SAR quality.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Detecting Structuring in Cross-Border MSB and Remittance Operations | Verafye",
+    title: "Detecting Structuring in Cross-Border MSB Operations",
     description: "Structuring in MSB and remittance environments is fragmented across senders, corridors, and time. Learn how connected signal analysis improves structuring detection and SAR quality.",
   },
   alternates: {
@@ -62,6 +62,8 @@ const BulletList = ({ items }) => (
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "Detecting Structuring in Cross-Border MSB Operations", "description": "Structuring across corridors and time windows is hard to detect with individual transaction alerts. Connected risk intelligence surfaces the pattern.", "url": "https://www.verafye.com/resources/structuring-detection-cross-border-msbs/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* BREADCRUMB */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -178,14 +180,14 @@ export default function ArticlePage() {
               'A time-stamped investigation trail that can be reconstructed and reviewed during examination.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Building this evidence picture from fragmented systems is time-consuming and introduces gaps. A connected investigation layer that aggregates signals automatically produces a stronger foundation for SAR filing and exam readiness.
+              Building this evidence picture from fragmented systems is time-consuming and introduces gaps. Connecting the relevant signals automatically — across senders, corridors, beneficiaries, and time — produces a stronger foundation for SAR filing and exam readiness.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
               How Verafye Supports Structuring Detection in MSB and Remittance Operations
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye connects payment, identity, device, and behavioral signals across MSB and remittance platforms into a graph-native investigation layer. For structuring detection specifically, it supports:
+              Verafye is a graph-native Network Risk Intelligence platform for MSB and remittance operations. It connects payment, identity, device, and behavioral signals into investigation-ready cases. For structuring detection specifically, it supports:
             </p>
             <BulletList items={[
               'Beneficiary-level aggregation across senders, corridors, and time windows — surfacing patterns that per-sender monitoring misses.',
@@ -263,6 +265,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

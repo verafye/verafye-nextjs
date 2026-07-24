@@ -1,16 +1,16 @@
 import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Fraud Detection & AML Capabilities | Verafye",
+  title: "Fraud Detection & AML Capabilities",
   description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   keywords: ["network risk intelligence capabilities", "entity resolution", "graph analytics", "transaction intelligence", "investigation workflows", "financial crime investigations", "risk intelligence software", "fraud analytics platform"],
   openGraph: {
-    title: "Fraud Detection & AML Capabilities | Verafye",
+    title: "Fraud Detection & AML Capabilities",
     description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection & AML Capabilities | Verafye",
+    title: "Fraud Detection & AML Capabilities",
     description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   },
   alternates: {
@@ -26,7 +26,7 @@ const primaryCapabilities = [
       </svg>
     ),
     title: 'Investigation Intelligence',
-    body: 'Connect signals, cases, and entities across fraud and AML workflows into an Investigation Intelligence Layer built on the Verafye platform - so risk teams see patterns, relationships, and investigation-ready context, not just alerts.',
+    body: 'Connect signals, cases, and entities across fraud and AML workflows through Investigation Intelligence capabilities within the Verafye platform - so risk teams see patterns, relationships, and investigation-ready context, not just alerts.',
   },
   {
     icon: (
@@ -347,7 +347,7 @@ export default function CapabilitiesPage() {
               From signals to decisions - one connected flow
             </h2>
             <p style={{fontSize: '1rem', color: 'var(--body)', lineHeight: 1.65}}>
-              Verafye capabilities are designed to work as a connected layer. Each stage feeds into the next so risk teams always have context when they need it.
+              Verafye capabilities work together across detection, entity resolution, network analysis, case formation, investigation, evidence, and decisioning. Each stage feeds into the next so risk teams always have context when they need it.
             </p>
           </div>
 
@@ -379,7 +379,7 @@ export default function CapabilitiesPage() {
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </div>
 
-              {/* Stage 2 - Connected Risk Layer */}
+              {/* Stage 2 - Signal Correlation and Entity Resolution */}
               <div className="cap-flow-card" style={{borderTopColor: '#7C3AED'}}>
                 <div style={{display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '1rem'}}>
                   <div style={{width: '2.25rem', height: '2.25rem', borderRadius: '9px', background: 'rgba(124,58,237,0.08)', border: '1px solid rgba(124,58,237,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
@@ -387,7 +387,7 @@ export default function CapabilitiesPage() {
                   </div>
                   <span style={{fontSize: '0.5625rem', fontWeight: 700, color: '#7C3AED', background: 'rgba(124,58,237,0.07)', border: '1px solid rgba(124,58,237,0.18)', borderRadius: '20px', padding: '0.2rem 0.625rem', textTransform: 'uppercase', letterSpacing: '0.06em', whiteSpace: 'nowrap'}}>Stage 2</span>
                 </div>
-                <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Connected Risk Layer</h3>
+                <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Signal Correlation and Entity Resolution</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
                   Normalize signals, link entities, cluster alerts across accounts, merchants, beneficiaries, and devices, and add graph-based relationship context
                 </p>

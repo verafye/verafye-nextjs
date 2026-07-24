@@ -2,16 +2,16 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
-  description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
+  description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
   keywords: ["risk shadowing review", "network risk intelligence", "fraud aml evaluation", "investigation-ready evidence", "graph-native risk detection", "payments risk evaluation"],
   openGraph: {
     title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
-    description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
+    description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
-    description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
+    description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/risk-shadowing-review',
@@ -26,12 +26,12 @@ export default function RiskShadowingReviewPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>RISK SHADOWING REVIEW</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>RISK SHADOWING REVIEW</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Risk Shadowing Review for payment-led financial crime teams
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Test Verafye alongside your existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye independently connects fragmented signals, detects hidden network risk, clusters related activity, and produces investigation-ready evidence before deeper deployment.
+              Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye resolves entities, detects hidden networks, clusters related activity, and produces investigation-ready evidence for review.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
@@ -43,7 +43,7 @@ export default function RiskShadowingReviewPage() {
               <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
             </div>
             <p className="animate-fade-up delay-500" style={{ fontSize: '0.875rem', color: 'var(--primary)', fontWeight: '600', marginTop: '1.25rem', letterSpacing: '-0.01em' }}>
-              API-led alongside your existing systems. Connected risk outputs in 2 weeks.
+              API-led integration on agreed data feeds. First connected-risk outputs within two weeks.
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function RiskShadowingReviewPage() {
           <div style={{ maxWidth: '50rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Risk Shadowing</p>
             <p style={{ fontSize: 'clamp(1.0625rem,2.2vw,1.375rem)', color: 'var(--dark)', lineHeight: 1.5, fontWeight: 500, letterSpacing: '-0.01em' }}>
-              Risk Shadowing lets teams validate hidden network risk and investigation value against a controlled dataset or focused workflow without replacing existing systems.
+              Risk Shadowing lets teams validate Verafye's network risk detection and investigation capabilities against a controlled dataset or focused workflow, with no changes to live production processes.
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function RiskShadowingReviewPage() {
             {[
               { gradient: 'gradient-bg-1', title: 'PSP and PayFac merchant and payout risk', body: 'Connect merchant, sub-merchant, transaction, and payout signals to surface linked activity across portfolios.' },
               { gradient: 'gradient-bg-2', title: 'MSB and remittance corridor and beneficiary risk', body: 'Connect sender, beneficiary, corridor, and agent signals to surface structuring and beneficiary reuse.' },
-              { gradient: 'gradient-bg-3', title: 'BaaS and embedded finance program risk', body: 'Connect program, sponsor-bank, ledger, payment, and case signals into an independent cross-program network-risk view.' },
+              { gradient: 'gradient-bg-3', title: 'BaaS and embedded finance program risk', body: 'Connect program, sponsor-bank, ledger, payment, and case signals to surface coordinated risk patterns across programs.' },
               { gradient: 'gradient-bg-4', title: 'Digital bank and wallet mule risk', body: 'Surface mule-linked accounts, wallets, and devices across onboarding, payment, and beneficiary activity.' },
               { gradient: 'gradient-bg-1', title: 'NBFC and digital lending fraud investigation', body: 'Surface mule-linked borrower networks, synthetic identity clusters, and coordinated application patterns for investigation.' },
               { gradient: 'gradient-bg-2', title: 'Selected bank and sponsor-bank oversight workflows', body: 'Support program and sponsor-bank oversight with connected, investigation-ready evidence across providers.' },
@@ -100,7 +100,7 @@ export default function RiskShadowingReviewPage() {
                 What Verafye can analyze
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share into a connected network-risk view that works alongside your existing systems.
+                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share to resolve entities, detect hidden networks, and form investigation-ready cases.
               </p>
             </div>
             <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -137,7 +137,7 @@ export default function RiskShadowingReviewPage() {
               {[
                 { step: '01', title: 'Select a focused use case', body: 'Choose a focused fraud, AML, or payment-risk scenario that matters to your team.' },
                 { step: '02', title: 'Share a controlled dataset', body: 'Provide a controlled dataset or focused workflow. Inputs are configurable based on use case and available data.' },
-                { step: '03', title: 'Run an independent network-risk review', body: 'Verafye runs an independent review alongside your existing systems to surface hidden network risk.' },
+                { step: '03', title: 'Run a focused network-risk review', body: 'Verafye processes the shared dataset, resolves entities, and forms investigation-ready cases across the agreed scope.' },
                 { step: '04', title: 'Review findings with Verafye', body: 'Walk through the findings with our team and decide whether to expand into a deeper evaluation.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
@@ -216,7 +216,7 @@ export default function RiskShadowingReviewPage() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             {[
               { q: 'Which teams is Risk Shadowing for?', a: 'Risk Shadowing is a low-friction evaluation motion for payment-led financial crime teams, including PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, and selected banks.' },
-              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'No. Verafye is designed to work alongside the systems you already run as an independent Network Risk Intelligence layer, supporting your existing oversight workflows rather than replacing them.' },
+              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'Risk Shadowing Review does not alter live workflows or require changes to existing systems. Verafye connects to agreed data feeds, resolves entities, detects hidden networks, and produces investigation-ready cases from the shared dataset. After evaluation, adoption is flexible: teams can integrate selected Verafye outputs into existing operational workflows, or expand into Verafye-led investigation, evidence, and decision operations as outcomes are proven.' },
               { q: 'What data do we need to provide?', a: 'Inputs are configurable based on use case and available data. You can start with a controlled dataset for a focused use case and expand coverage over time. Not every team needs to supply every data type.' },
               { q: 'Can we see a sample output?', a: 'Yes. Detailed sample outputs are shared during qualified walkthroughs using synthetic data only. Request a sample output walkthrough and our team will walk you through it.' },
             ].map(item => (
@@ -236,7 +236,7 @@ export default function RiskShadowingReviewPage() {
             Validate hidden network risk against your own data
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '38rem', margin: '0 auto 1.25rem' }}>
-            Start a Risk Shadowing Review alongside your existing systems. Built for payment-led financial crime teams across PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance, digital banks, NBFCs, and selected banks.
+            Start a Risk Shadowing Review on agreed data feeds from your environment. Built for payment-led financial crime teams across PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance, digital banks, NBFCs, and selected banks.
           </p>
           <p style={{ fontSize: '0.875rem', color: 'var(--muted)', maxWidth: '38rem', margin: '0 auto 2.5rem' }}>
             Detailed sample outputs are shared during qualified walkthroughs.
@@ -251,7 +251,7 @@ export default function RiskShadowingReviewPage() {
             <Link href="/request-demo?intent=sample-output-walkthrough" className="btn-secondary">Request Sample Output Walkthrough</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
-            Verafye is designed to support fraud and AML investigation workflows alongside existing systems. We do not claim regulatory approval, regulator certification, endorsement, or guaranteed fraud prevention.
+            Verafye is designed to support fraud and AML investigation workflows in regulated financial environments. We do not claim regulatory approval, regulator certification, endorsement, or guaranteed fraud prevention.
           </p>
         </div>
       </section>

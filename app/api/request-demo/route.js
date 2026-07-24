@@ -1,22 +1,41 @@
-// This route is not used in static export deployments (output: 'export').
-// The client posts directly to NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT (external endpoint).
-// Retained only for reference in future non-static deployments.
+/**
+ * app/api/request-demo/route.js
+ *
+ * DEAD CODE — not reachable in static export deployments.
+ *
+ * next.config.js sets `output: 'export'`. Next.js excludes API routes from
+ * static exports entirely — this file is never compiled into the output bundle
+ * and never runs in production.
+ *
+ * All form submissions post directly from the browser to the external endpoint
+ * configured via NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT. See:
+ *   - app/lib/endpoints.js           — endpoint resolution utility
+ *   - app/request-demo/RequestDemoClient.js — Request Demo form
+ *   - app/become-a-partner/BecomeAPartnerClient.js — Partner Enquiry form
+ *   - docs/form-endpoint-configuration.md — full architecture documentation
+ *
+ * This file is retained as a reference implementation in case the project
+ * is migrated to a server-rendered deployment in future. If that happens,
+ * update VERAFYE_REQUEST_DEMO_API_URL to the correct backend URL and wire
+ * the clients to POST to /api/request-demo instead of the external endpoint.
+ *
+ * DO NOT remove this comment or the dead-code designation without confirming
+ * that output: 'export' has been removed from next.config.js.
+ */
 
-const DEFAULT_REQUEST_DEMO_API_URL =
-  process.env.NODE_ENV === 'production'
-    ? 'https://dashboard.verafye.com/api/external-email/send'
-    : 'https://dashboard.verafye.dev/api/external-email/send';
-
-const REQUEST_DEMO_API_URL =
-  process.env.VERAFYE_REQUEST_DEMO_API_URL ||
-  process.env.NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_API_URL ||
-  DEFAULT_REQUEST_DEMO_API_URL;
+const VERAFYE_REQUEST_DEMO_API_URL = process.env.VERAFYE_REQUEST_DEMO_API_URL;
 
 export const runtime = 'nodejs';
 
 export async function POST(request) {
-  let payload;
+  if (!VERAFYE_REQUEST_DEMO_API_URL) {
+    return Response.json(
+      { status: 0, data: null, error: 'VERAFYE_REQUEST_DEMO_API_URL is not configured' },
+      { status: 500 }
+    );
+  }
 
+  let payload;
   try {
     payload = await request.json();
   } catch {
@@ -27,7 +46,7 @@ export async function POST(request) {
   }
 
   try {
-    const upstreamResponse = await fetch(REQUEST_DEMO_API_URL, {
+    const upstreamResponse = await fetch(VERAFYE_REQUEST_DEMO_API_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -38,16 +57,12 @@ export async function POST(request) {
     });
 
     const contentType = upstreamResponse.headers.get('content-type') || '';
-
     if (contentType.includes('application/json')) {
       const data = await upstreamResponse.json();
-      return Response.json(data, {
-        status: upstreamResponse.status,
-      });
+      return Response.json(data, { status: upstreamResponse.status });
     }
 
     const text = await upstreamResponse.text();
-
     return new Response(text, {
       status: upstreamResponse.status,
       headers: contentType ? { 'content-type': contentType } : undefined,

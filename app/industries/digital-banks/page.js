@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
+  title: "Fraud Prevention for Digital Banks and Neo Banks",
   description: "Detect account takeover, synthetic identities, payment fraud and AML risk in real time using graph-native Network Risk Intelligence.",
   keywords: ["digital banking fraud detection", "neo bank risk intelligence", "synthetic identity detection", "account farming detection", "mule network detection digital bank", "scam fraud investigation", "aml software digital banks", "onboarding fraud prevention", "ato detection digital banking", "audit ready fraud investigation"],
   openGraph: {
-    title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
+    title: "Fraud Prevention for Digital Banks and Neo Banks",
     description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations — surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
+    title: "Fraud Prevention for Digital Banks and Neo Banks",
     description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations — surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
   },
   alternates: {
@@ -26,15 +26,15 @@ export default function DigitalBanksPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Digital Banks</h1>
-            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Digital Banks</p>
+            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation Intelligence for Digital Banks and Neo Banking Risk Teams
-            </h2>
+            </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Connect onboarding, account, device, transaction, fraud, and AML signals into explainable investigations that help risk teams act faster.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps digital banking risk teams connect onboarding, account, payment, wallet, remittance, transaction, fraud, and AML signals into connected case intelligence - surfacing mule activity, synthetic identity patterns, scam flows, beneficiary-linked risk, and suspicious networks. Adoption starts with a scoped pilot alongside existing systems - expanding investigation workflows as outcomes are proven.
+              Verafye helps digital banking risk teams connect onboarding, account, payment, wallet, remittance, transaction, fraud, and AML signals into connected case intelligence - surfacing mule activity, synthetic identity patterns, scam flows, beneficiary-linked risk, and suspicious networks. Verafye can begin with selected data feeds and expand into Verafye-led investigation workflows as outcomes are proven.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/risk-shadowing-review" className="btn-primary">
@@ -70,7 +70,7 @@ export default function DigitalBanksPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Risk Signals Fragmented Across Systems and Channels',
-                body: 'Digital banking environments generate risk signals across onboarding, authentication, payments, and transaction flows - spread across separate systems with no shared intelligence layer, making cross-channel fraud and AML detection structurally difficult.',
+                body: 'Digital banking environments generate risk signals across onboarding, authentication, payments, and transaction flows - spread across separate systems with no shared risk view, making cross-channel fraud and AML detection structurally difficult.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -163,19 +163,19 @@ export default function DigitalBanksPage() {
                 Network Risk Intelligence for Digital Banking
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into one connected network view - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye runs in parallel with existing detection and monitoring systems - starting with a scoped pilot on agreed data feeds and expanding as outcomes are proven.
+                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into one connected network view - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye can begin with a scoped pilot on agreed data feeds and expand into Verafye-led investigation operations as outcomes are proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connects Signals Across All Digital Banking Channels</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from onboarding, authentication, payments, fraud monitoring, and AML systems into one connected network view - enabling cross-channel detection that individual point solutions cannot provide and eliminating the blind spots that form at system boundaries.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from onboarding, authentication, payments, fraud monitoring, and AML systems into a connected investigation context - enabling cross-channel detection that individual point solutions cannot provide and eliminating the blind spots that form at system boundaries.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Risk Intelligence Across Users and Networks</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph intelligence layer maps relationships across users, devices, accounts, and transactions - surfacing account farming networks, synthetic identity cohorts, and coordinated fraud rings that rules-based and transaction-level detection cannot see.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye maps relationships across users, devices, accounts, and transactions - surfacing account farming networks, synthetic identity cohorts, and coordinated fraud rings that rules-based and transaction-level detection cannot see.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -212,7 +212,7 @@ export default function DigitalBanksPage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Connected lifecycle signals',
-                body: 'Unify onboarding, identity, device, account, transaction, fraud, and AML signals into one investigation layer.',
+                body: 'Unify onboarding, identity, device, account, transaction, fraud, and AML signals into a connected investigation context for cross-channel risk operations.',
                 href: '/platform',
                 cta: 'View Platform',
               },

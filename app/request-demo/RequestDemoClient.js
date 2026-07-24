@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { getRequestDemoEndpoint } from '@/app/lib/endpoints';
 
 const INITIAL_FORM = {
   firstName: '',
@@ -27,7 +28,7 @@ const VARIANTS = {
   'risk-shadowing': {
     eyebrow: 'Risk Shadowing Review',
     heading: 'Request a Risk Shadowing Review',
-    lead: 'Share a focused use case or evaluation goal, and we will help assess whether Verafye can run alongside your existing fraud, AML, KYC, identity, payment, device, ledger, and case systems.',
+    lead: 'Share a focused use case or evaluation goal, and we will help assess how Verafye can connect the relevant risk signals, identify coordinated activity and form investigation-ready cases using an agreed data scope.',
     note: 'Sample Risk Shadowing outputs are shared during qualified walkthroughs using synthetic data only.',
     submitLabel: 'Request Risk Shadowing Review',
     defaultInquiry: 'Risk Shadowing Review',
@@ -35,24 +36,12 @@ const VARIANTS = {
   },
 };
 
-const REQUEST_DEMO_ENDPOINT =
-  process.env.NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT ||
-  'https://dashboard.verafye.com/api/external-email/send';
+// Endpoint is resolved at submit time via getRequestDemoEndpoint().
+// No hardcoded fallback — a missing env var fails clearly at form submission.
 
-const FREE_EMAIL_DOMAINS = new Set([
-  'gmail.com', 'googlemail.com', 'yahoo.com', 'yahoo.co.in', 'yahoo.co.uk', 'ymail.com', 'rocketmail.com',
-  'hotmail.com', 'hotmail.co.uk', 'outlook.com', 'live.com', 'msn.com', 'aol.com',
-  'icloud.com', 'me.com', 'mac.com', 'proton.me', 'protonmail.com', 'pm.me',
-  'gmx.com', 'gmx.net', 'mail.com', 'zoho.com', 'yandex.com', 'yandex.ru',
-  'hey.com', 'fastmail.com', 'tutanota.com', 'hushmail.com', 'qq.com', '163.com', '126.com', 'rediffmail.com',
-]);
-
-function isWorkEmail(email) {
+function isValidEmail(email) {
   const value = (email || '').trim().toLowerCase();
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) return false;
-  const domain = value.split('@')[1];
-  if (!domain) return false;
-  return !FREE_EMAIL_DOMAINS.has(domain);
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 }
 
 function buildRequestDemoPayload(form, cfg) {
@@ -119,10 +108,8 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
     const e = {};
     if (!form.firstName.trim()) e.firstName = 'Required';
     if (!form.lastName.trim()) e.lastName = 'Required';
-    if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-      e.email = 'Valid work email required';
-    } else if (!isWorkEmail(form.email)) {
-      e.email = 'Please use your work email. Public email domains are not accepted.';
+    if (!form.email.trim() || !isValidEmail(form.email)) {
+      e.email = 'Valid email address required';
     }
     if (!form.phone.trim()) {
       e.phone = 'Required';
@@ -151,7 +138,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(REQUEST_DEMO_ENDPOINT, {
+      const response = await fetch(getRequestDemoEndpoint(), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(buildRequestDemoPayload(form, cfg)),
@@ -285,7 +272,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
                         </svg>
                       ),
                       title: 'Cross-System Intelligence',
-                      desc: 'See how Verafye unifies signals from fraud, AML, and payments systems into a single connected intelligence layer.',
+                      desc: 'See how Verafye connects signals from fraud, AML, and payments systems into one network-level investigation view.',
                     },
                     {
                       icon: (
@@ -320,7 +307,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
                   {[
                     { n: '1', title: 'Intro call to understand your use case', desc: 'A brief conversation to learn about your environment, team, and priorities.' },
                     { n: '2', title: 'Tailored product walkthrough', desc: 'A focused walkthrough built around the scenarios most relevant to your institution.' },
-                    { n: '3', title: 'Deployment and integration discussion', desc: 'An overview of how Verafye connects to your existing stack and data sources.' },
+                    { n: '3', title: 'Deployment and integration discussion', desc: 'An overview of how Verafye connects risk signals, identifies network-level activity, and forms investigation-ready cases.' },
                     { n: '4', title: 'Next steps aligned to your environment', desc: 'Clear, no-pressure guidance on how to evaluate Verafye within your organisation.' },
                   ].map(item => (
                     <div key={item.n} style={{ display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
@@ -382,8 +369,9 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
 
                       {/* Work Email */}
                       <div className="form-group">
-                        <label className="form-label" htmlFor="email">Work Email <span style={{ color: 'var(--error)' }}>*</span></label>
+                        <label className="form-label" htmlFor="email">Email <span style={{ color: 'var(--error)' }}>*</span></label>
                         <input id="email" name="email" type="email" className="form-input" placeholder="jane@yourcompany.com" value={form.email} onChange={handleChange} style={errors.email ? { borderColor: 'var(--error)' } : {}} />
+                        <p style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.45)', marginTop: '0.25rem' }}>Work email preferred for faster qualification</p>
                         {errors.email && <p style={{ fontSize: '0.75rem', color: 'var(--error)', marginTop: '0.25rem' }}>{errors.email}</p>}
                       </div>
 

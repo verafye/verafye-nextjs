@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Embedding Network Risk Intelligence into Global Payment Infrastructure | Verafye Case Study",
-  description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.",
+  title: "Network Risk Intelligence in Global Payment Infrastructure",
+  description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.",
   keywords: ["payment infrastructure compliance", "multi-tenant payment risk", "stablecoin payment compliance", "global payment rails aml", "embedded compliance intelligence", "network risk infrastructure"],
   openGraph: {
-    title: "Embedding Network Risk Intelligence into Global Payment Infrastructure | Verafye Case Study",
-    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.",
+    title: "Network Risk Intelligence in Global Payment Infrastructure",
+    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Embedding Network Risk Intelligence into Global Payment Infrastructure | Verafye Case Study",
-    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.",
+    title: "Network Risk Intelligence in Global Payment Infrastructure",
+    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/case-studies/network-risk-global-payment-infrastructure',
@@ -126,7 +126,7 @@ export default function CaseStudyPage() {
               The Verafye Approach
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is incorporated within the platform&apos;s compliance technology environment as the Network Risk Intelligence and investigation layer. It complements identity and onboarding controls by connecting payment, customer, beneficiary, account, and risk information across the platform.
+              Verafye is integrated within the platform&apos;s compliance technology environment for network risk intelligence and investigation. It connects payment, customer, beneficiary, account, and risk information across the platform - building investigation-ready context from existing identity and onboarding controls.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
               The deployment supports:
@@ -165,16 +165,16 @@ export default function CaseStudyPage() {
             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Deployment Model</p>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '0.75rem' }}>
-                Verafye is deployed through API-led integration alongside the existing payment and risk infrastructure. Implementation can begin with selected transaction flows or risk scenarios and expand progressively across rails, programs, and operating entities.
+                Verafye is deployed through API-led integration into the platform&apos;s payment and risk environment. Implementation can begin with selected transaction flows or risk scenarios and expand progressively across rails, programs, and operating entities.
               </p>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, margin: 0 }}>
                 First connected-risk outputs can be produced within <strong style={{ color: 'var(--dark)' }}>1–2 weeks</strong> for the initial agreed scope, subject to data readiness and integration completion.
               </p>
             </div>
 
-            {/* VERIFIED RESULT */}
+            {/* DEPLOYMENT RESULT */}
             <div style={{ background: 'linear-gradient(135deg,#EFF6FF,#F0F9FF)', border: '2px solid rgba(30,111,183,0.2)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Verified Result</p>
+              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Deployment Result</p>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1.5rem', flexWrap: 'wrap' }}>
                 <div style={{ flexShrink: 0 }}>
                   <p style={{ fontSize: 'clamp(2.25rem,5vw,3rem)', fontWeight: 800, color: 'var(--primary)', lineHeight: 1, letterSpacing: '-0.03em', margin: 0 }}>&lt;2 wks</p>
@@ -185,13 +185,10 @@ export default function CaseStudyPage() {
                     First connected-risk outputs across primary payment rails within 2 weeks of integration commencement
                   </p>
                   <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
-                    Network Risk Intelligence deployed alongside existing payment infrastructure through API-led integration, with risk rules and investigation workflows operationalised across initial tenant programs in the first phase — without requiring changes to core payment processing.
+                    Network Risk Intelligence deployed through API-led integration, with risk rules and investigation workflows operationalised across initial tenant programs in the first phase - beginning with agreed data feeds and expanding progressively.
                   </p>
                 </div>
               </div>
-              <p style={{ fontSize: '0.75rem', color: 'var(--muted)', marginTop: '1.25rem', lineHeight: 1.6, margin: '1.25rem 0 0', fontStyle: 'italic' }}>
-                Indicative deployment timeline based on API-led integration benchmarks. Actual figures to be confirmed jointly with production data.
-              </p>
             </div>
 
           </div>
@@ -207,7 +204,7 @@ export default function CaseStudyPage() {
                 Embed risk intelligence across your payment infrastructure
               </h3>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
-                Verafye integrates alongside your existing rails and compliance systems — adding connected investigation intelligence without replacing point controls.
+                Verafye connects risk signals across your payment rails and compliance environment - building investigation-ready Network Risk Intelligence from the signals your controls already generate.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>

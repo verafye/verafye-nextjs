@@ -1,0 +1,15 @@
+# Verafye — Host-level redirect rules
+# Format: Netlify / Cloudflare Pages _redirects syntax
+# Place this file at the root of your deployed static output (or ensure your
+# hosting provider serves it from the site root).
+#
+# These are PERMANENT (301) redirects. The static fallback pages at these
+# routes also carry noindex + canonical to the destination, providing
+# client-side redirection for hosting environments that do not process this file.
+#
+# See docs/hosting-redirects.md for full implementation notes.
+
+/industries/ecommerce-retail/          /industries/marketplaces/                          301
+/industries/ecommerce-retail           /industries/marketplaces/                          301
+/risk-shadowing-review/request/        /request-demo/?intent=risk-shadowing-review        301
+/risk-shadowing-review/request         /request-demo/?intent=risk-shadowing-review        301

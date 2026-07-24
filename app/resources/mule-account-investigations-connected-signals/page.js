@@ -27,7 +27,7 @@ const ARROW = (
 
 const relatedResources = [
   {
-    title: 'The Missing Layer in Modern Financial Crime Investigations',
+    title: 'What Is Investigation Intelligence?',
     category: 'Product Insights',
     readingTime: '5 min read',
     href: '/resources/what-is-investigation-intelligence/',
@@ -76,6 +76,8 @@ const SignalCard = ({ num, title, intro, items }) => (
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "Connected Intelligence for Mule Investigations", "description": "How connected signal intelligence transforms mule account investigations from isolated alerts to network-level case formation.", "url": "https://www.verafye.com/resources/mule-account-investigations-connected-signals/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* BREADCRUMB */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -272,7 +274,7 @@ export default function ArticlePage() {
               Mule account activity often cuts across both fraud and AML responsibilities. A fraud team may see account misuse, payment anomalies, and device-level evidence of coordinated activity. An AML team may see suspicious transaction flows, beneficiary networks that look like transaction laundering, and unusual movement of funds across accounts and jurisdictions.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              If these teams work from disconnected systems, they may review the same pattern twice - or worse, miss it entirely. A shared investigation layer that brings together fraud, AML, payment, identity, device, and case signals into a connected workflow can help:
+              If these teams work from disconnected systems, they may review the same pattern twice - or worse, miss it entirely. When fraud, AML, payment, identity, device, and case signals are brought together into a connected investigation workflow, teams are better positioned to:
             </p>
             <BulletList items={[
               'Align fraud and AML perspectives.',
@@ -370,13 +372,7 @@ export default function ArticlePage() {
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
               <Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
-              <PdfDownloadButton
-                pdfPath="/downloads/resources/mule-account-investigations-connected-signals.pdf"
-                pdfFilename="verafye-mule-account-investigations-connected-signals.pdf"
-                resourceTitle="Mule Account Investigations: Why Connected Signals Matter"
-                resourceCategory="Use Case Deep Dives"
-                articleSlug="mule-account-investigations-connected-signals"
-              />
+              {/* PDF download temporarily unavailable — source document pending regeneration with approved positioning */}
             </div>
           </div>
         </div>
@@ -413,6 +409,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

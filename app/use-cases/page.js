@@ -73,7 +73,7 @@ export default function UseCasesPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Use Cases</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Use Cases</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Fraud, AML &amp; Investigation Use Cases
             </h1>
@@ -93,7 +93,7 @@ export default function UseCasesPage() {
               One platform, three core use cases
             </h2>
             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '48rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye connects fraud, AML, payments, identity, device, and behavior signals into a single investigation layer - improving visibility, efficiency, and decision quality across each of these workflows.
+              Verafye connects fraud, AML, payments, identity, device, and behavior signals into investigation-ready cases - improving visibility, efficiency, and decision quality across each of these workflows.
             </p>
           </div>
           {/* How it connects - 3-column context strip */}

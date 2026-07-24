@@ -21,8 +21,8 @@ const resources = [
   {
     category: 'product-insights',
     categoryLabel: 'Product Insights',
-    title: 'The Missing Layer in Modern Financial Crime Investigations',
-    summary: 'Understand why modern financial crime teams need investigation intelligence to connect fragmented alerts, risk signals, workflows, and evidence trails into explainable decisions.',
+    title: 'What Is Investigation Intelligence?',
+    summary: 'Understand how Investigation Intelligence connects fragmented alerts, risk signals, workflows, and evidence trails into structured, explainable, and audit-ready investigations.',
     readingTime: '5 min read',
     ctaLabel: 'Read Article',
     href: '/resources/what-is-investigation-intelligence/',

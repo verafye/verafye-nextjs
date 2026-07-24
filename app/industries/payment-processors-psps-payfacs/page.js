@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions ",
+  title: "Payment Fraud Prevention for PSPs, PayFacs and Payment Processors",
   description: "Detect merchant fraud, payout abuse and payment risk with graph-native Network Risk Intelligence built for PSPs, PayFacs and payment processors.",
   keywords: ["psp risk intelligence", "payfac fraud detection", "merchant risk monitoring", "transaction laundering detection", "payment processor fraud", "sub-merchant risk", "chargeback fraud detection", "payment fraud investigation"],
   openGraph: {
-    title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions ",
+    title: "Payment Fraud Prevention for PSPs, PayFacs and Payment Processors",
     description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions ",
+    title: "Payment Fraud Prevention for PSPs, PayFacs and Payment Processors",
     description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
   },
   alternates: {
@@ -34,15 +34,15 @@ export default function PaymentProcessorsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Payment Fraud Prevention Solution</h1>
-            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Payment Fraud Prevention Solution</p>
+            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation intelligence for PSPs, PayFacs, and payment processors
-            </h2>
+            </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps PSPs, PayFacs, and payment processors detect network-level risk across merchants, accounts, devices, identities, transactions, beneficiaries, and payouts.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Start with a scoped pilot alongside existing systems and expand network coverage across teams, programs and corridors as outcomes are proven.
+              Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Verafye can begin with selected alerts, payment records, and entity data. Following validation, customers may expand into Verafye-led investigation, evidence, and decision operations across teams, programs, and corridors.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/risk-shadowing-review" className="btn-primary">
@@ -142,7 +142,7 @@ export default function PaymentProcessorsPage() {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Signals Across Systems Remain Disconnected',
-                body: 'Device intelligence, behavioural signals, transaction data, and merchant attributes are rarely connected into a shared intelligence layer - leaving cross-signal patterns that indicate coordinated fraud undetected across the stack.',
+                body: 'Device intelligence, behavioural signals, transaction data, and merchant attributes are rarely connected into a single risk view - leaving cross-signal patterns that indicate coordinated fraud undetected across the platform.',
               },
               {
                 gradient: 'gradient-bg-4',
@@ -183,12 +183,12 @@ export default function PaymentProcessorsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Merchant, Transaction, Device, and Behavioral Signals</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies merchant risk signals, transaction data, device intelligence, and behavioural patterns into one connected layer - enabling cross-domain detection that individual point solutions cannot provide.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies merchant risk signals, transaction data, device intelligence, and behavioural patterns into a connected investigation context - enabling cross-domain detection that individual point solutions cannot provide.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Graph-Based Fraud Detection</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph-native intelligence layer connects entities across merchants, devices, accounts, and transactions - surfacing coordinated fraud rings, card testing networks, and synthetic merchant schemes that transaction-level scoring misses.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye resolves entities and maps relationships across merchants, devices, accounts, and transactions - surfacing coordinated fraud rings, card testing networks, and synthetic merchant schemes that transaction-level scoring misses.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -233,7 +233,7 @@ export default function PaymentProcessorsPage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Cross-merchant signal aggregation',
-                body: 'Bring together payment, merchant, sub-merchant, beneficiary, account, mule, user, counterparty, fraud, and AML signals in one investigation layer - supporting both fraud and AML alert context for payment risk operations.',
+                body: 'Bring together payment, merchant, sub-merchant, beneficiary, account, mule, user, counterparty, fraud, and AML signals into a connected investigation context - supporting both fraud and AML case coverage for payment risk operations.',
                 href: '/platform',
                 cta: 'View Platform',
               },
@@ -352,7 +352,7 @@ export default function PaymentProcessorsPage() {
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', letterSpacing: '-0.02em' }}>
             Verafye Across Financial Institution Types
           </h2>
-          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - start with a scoped pilot alongside existing systems and expand network coverage across teams, programs and corridors as outcomes are proven.</p>
+          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - beginning with a scoped pilot on agreed data feeds and expanding network coverage across teams, programs, and corridors as outcomes are proven.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.75rem' }}>
             <Link href="/industries/banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Banks <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

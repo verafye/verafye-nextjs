@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { getRequestDemoEndpoint } from '@/app/lib/endpoints';
 
 const INITIAL_FORM = {
   firstName: '',
@@ -12,9 +13,8 @@ const INITIAL_FORM = {
   message: '',
 };
 
-const REQUEST_DEMO_ENDPOINT =
-  process.env.NEXT_PUBLIC_VERAFYE_REQUEST_DEMO_ENDPOINT ||
-  'https://dashboard.verafye.com/api/external-email/send';
+// Endpoint resolved at submit time via getRequestDemoEndpoint().
+// No hardcoded fallback — missing env var fails clearly at form submission.
 
 function buildPartnerPayload(form) {
   const firstName = form.firstName.trim();
@@ -86,7 +86,7 @@ export default function BecomeAPartnerClient() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch(REQUEST_DEMO_ENDPOINT, {
+      const response = await fetch(getRequestDemoEndpoint(), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(buildPartnerPayload(form)),
@@ -164,7 +164,7 @@ export default function BecomeAPartnerClient() {
               Become a Verafye Partner
             </h1>
             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
-              Collaborate with Verafye to bring connected fraud, AML, and payment investigation intelligence to regulated financial platforms. Partners, BaaS providers, embedded finance platforms, processors, consultants, and technology providers can use Verafye to extend network-risk visibility and support sponsor-bank and program oversight workflows across client programs.
+              Collaborate with Verafye to bring connected risk detection and investigation to regulated payment platforms, payment fintechs, and financial institutions. We work with referral and advisory partners, regional GTM partners, implementation and consulting firms, and technology partners to help qualified customers identify coordinated risk, form investigation-ready cases, and operationalise evidence-grade investigation workflows.
             </p>
           </div>
         </div>
@@ -192,8 +192,8 @@ export default function BecomeAPartnerClient() {
                           <path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M9 21V9"/>
                         </svg>
                       ),
-                      title: 'Channel & Reseller Partners',
-                      desc: 'Bring Verafye to your existing customer base through co-sell, resale, or regional distribution arrangements.',
+                      title: 'Referral and Advisory Partners',
+                      desc: 'Introduce qualified regulated payment institutions and fintech platforms to Verafye, supporting executive access and the first qualified opportunity conversation.',
                     },
                     {
                       icon: (
@@ -201,8 +201,8 @@ export default function BecomeAPartnerClient() {
                           <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
                         </svg>
                       ),
-                      title: 'System Integrators',
-                      desc: 'Implement and integrate Verafye within broader financial crime technology programmes for banks and financial institutions.',
+                      title: 'Implementation and Consulting Partners',
+                      desc: 'Support data mapping, integration planning, workflow configuration, and customer enablement for regulated institutions operationalising Verafye.',
                     },
                     {
                       icon: (
@@ -211,7 +211,7 @@ export default function BecomeAPartnerClient() {
                         </svg>
                       ),
                       title: 'Technology Partners',
-                      desc: 'Integrate Verafye capabilities into your platform or connect your technology into the Verafye intelligence layer for mutual customers.',
+                      desc: 'Integrate Verafye capabilities into your platform or connect your technology with the Verafye platform for mutual customers.',
                     },
                     {
                       icon: (
@@ -288,7 +288,7 @@ export default function BecomeAPartnerClient() {
                     <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.375rem', letterSpacing: '-0.02em' }}>Partner Enquiry</h2>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '0.875rem', lineHeight: 1.6 }}>Tell us about your organisation and how you would like to work with Verafye. No commitment required.</p>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '1.75rem', lineHeight: 1.6, paddingBottom: '1rem', borderBottom: '1px solid var(--border)' }}>
-                      Verafye supports flexible partnership models - from channel and resale through to technology integration and strategic alliance - tailored to how you go to market.
+                      Verafye supports flexible partnership models - from referral and advisory through to technology integration and strategic collaboration - tailored to how you go to market.
                     </p>
                     <form onSubmit={handleSubmit} noValidate>
 
@@ -379,8 +379,8 @@ export default function BecomeAPartnerClient() {
         <div className="container">
           <div style={{ maxWidth: '56rem', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem' }}>
             {[
-              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>, text: 'Graph-based investigation intelligence for financial crime teams' },
-              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>, text: 'Flexible commercial models across resale, co-sell, and integration' },
+              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>, text: 'Graph-native Network Risk Intelligence for regulated payment and financial crime teams' },
+              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>, text: 'Flexible commercial models across referral, advisory, implementation, and technology integration' },
               { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>, text: 'Fast integration into existing fraud, AML, and payments infrastructure' },
             ].map(item => (
               <div key={item.text} style={{ display: 'flex', alignItems: 'center', gap: '0.625rem' }}>

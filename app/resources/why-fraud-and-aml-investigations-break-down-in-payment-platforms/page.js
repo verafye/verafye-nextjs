@@ -27,7 +27,7 @@ const ARROW = (
 
 const relatedResources = [
   {
-    title: 'The Missing Layer in Modern Financial Crime Investigations',
+    title: 'What Is Investigation Intelligence?',
     category: 'Product Insights',
     readingTime: '5 min read',
     href: '/resources/what-is-investigation-intelligence/',
@@ -56,6 +56,8 @@ const BulletList = ({ items }) => (
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "Why Fraud & AML Investigations Fail in Payments", "description": "Explore why fraud and AML investigations break down in payment platforms and how connected risk intelligence addresses the gap.", "url": "https://www.verafye.com/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* BREADCRUMB */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -206,7 +208,7 @@ export default function ArticlePage() {
               Where Verafye Fits
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye acts as the investigation intelligence layer for payment risk operations. It connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform. This helps payment risk teams:
+              Verafye is a graph-native Network Risk Intelligence platform built for payment risk operations. It connects fraud, AML, payment, identity, device, and case signals into investigation-ready workflows. This helps payment risk teams:
             </p>
             <BulletList items={[
               'Bring together fragmented context across alerts, accounts, transactions, beneficiaries, devices, identities, and cases.',
@@ -243,13 +245,7 @@ export default function ArticlePage() {
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
               <Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
-              <PdfDownloadButton
-                pdfPath="/downloads/resources/fraud-aml-investigations-payment-platforms.pdf"
-                pdfFilename="verafye-fraud-aml-investigations-payment-platforms.pdf"
-                resourceTitle="Why Fraud and AML Investigations Break Down in Payment Platforms"
-                resourceCategory="Industry Insights"
-                articleSlug="why-fraud-and-aml-investigations-break-down-in-payment-platforms"
-              />
+              {/* PDF download temporarily unavailable — source document pending regeneration with approved positioning */}
             </div>
           </div>
         </div>
@@ -286,6 +282,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

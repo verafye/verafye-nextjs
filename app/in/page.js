@@ -177,7 +177,7 @@ export default function IndiaPage() {
       <div style={{'maxWidth':'36rem'}}>
 
         {/* Eyebrow */}
-        <h1 className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Fraud Prevention Solution for Payment Aggregators, PSPs and NBFCs in India</h1>
+        <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Fraud Prevention Solution for Payment Aggregators, PSPs and NBFCs in India</p>
 
         {/* H1 */}
         <h2 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>

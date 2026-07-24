@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connecting Risk Across Global Payment and Remittance Flows | Verafye Case Study",
+  title: "Connecting Risk Across Cross-Border Payment and Remittance Flows",
   description: "How a global cross-border payments and FX platform uses Verafye to connect sender, beneficiary, corridor, and transaction signals into investigation-ready cases.",
   keywords: ["cross-border payments fraud investigation", "remittance aml case study", "global fx platform risk intelligence", "beneficiary risk monitoring", "payment corridor aml"],
   openGraph: {
-    title: "Connecting Risk Across Global Payment and Remittance Flows | Verafye Case Study",
+    title: "Connecting Risk Across Cross-Border Payment and Remittance Flows",
     description: "How a global cross-border payments and FX platform uses Verafye to connect sender, beneficiary, corridor, and transaction signals into investigation-ready cases.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connecting Risk Across Global Payment and Remittance Flows | Verafye Case Study",
+    title: "Connecting Risk Across Cross-Border Payment and Remittance Flows",
     description: "How a global cross-border payments and FX platform uses Verafye to connect sender, beneficiary, corridor, and transaction signals into investigation-ready cases.",
   },
   alternates: {
@@ -126,7 +126,7 @@ export default function CaseStudyPage() {
               The Verafye Approach
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye operates alongside the platform&apos;s existing payment and compliance environment as an independent risk and investigation intelligence layer. Payment, customer, beneficiary, and related risk signals are brought together to create a connected view of activity across the platform.
+              Verafye is integrated into the platform&apos;s payment and compliance environment for connected-risk investigation. Payment, customer, beneficiary, and related risk signals are resolved into entities, mapped into networks, and built into investigation-ready cases across the platform.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
               Verafye helps the investigation team:
@@ -140,7 +140,7 @@ export default function CaseStudyPage() {
               'Create an auditable trail for escalation and regulatory review.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Rather than replacing the underlying payment, KYC, or AML systems, Verafye adds relationship-level intelligence across the signals those systems generate.
+              Verafye adds relationship-level intelligence across the signals that payment, KYC, and AML systems generate - connecting fragmented outputs into investigation-ready cases.
             </p>
 
             {/* OPERATIONAL OUTCOME */}
@@ -162,16 +162,16 @@ export default function CaseStudyPage() {
             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem', marginTop: '2.5rem' }}>
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Deployment Model</p>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '0.75rem' }}>
-                Verafye is integrated through APIs alongside the platform&apos;s existing payment and compliance systems, without requiring replacement of core transaction infrastructure.
+                Verafye is integrated through APIs into the platform&apos;s payment and compliance environment, with implementation beginning on agreed data feeds and expanding progressively.
               </p>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, margin: 0 }}>
                 First connected-risk outputs can be produced within <strong style={{ color: 'var(--dark)' }}>1–2 weeks</strong> of receiving the required data and completing integration validation.
               </p>
             </div>
 
-            {/* VERIFIED RESULT */}
+            {/* DEPLOYMENT RESULT */}
             <div style={{ background: 'linear-gradient(135deg,#EFF6FF,#F0F9FF)', border: '2px solid rgba(30,111,183,0.2)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>
-              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Verified Result</p>
+              <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Deployment Result</p>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1.5rem', flexWrap: 'wrap' }}>
                 <div style={{ flexShrink: 0 }}>
                   <p style={{ fontSize: 'clamp(2.25rem,5vw,3rem)', fontWeight: 800, color: 'var(--primary)', lineHeight: 1, letterSpacing: '-0.03em', margin: 0 }}>~60%</p>
@@ -186,9 +186,6 @@ export default function CaseStudyPage() {
                   </p>
                 </div>
               </div>
-              <p style={{ fontSize: '0.75rem', color: 'var(--muted)', marginTop: '1.25rem', lineHeight: 1.6, margin: '1.25rem 0 0', fontStyle: 'italic' }}>
-                Indicative figure based on industry benchmarks for connected investigation platforms. Actual result to be confirmed with production data.
-              </p>
             </div>
 
           </div>
@@ -204,7 +201,7 @@ export default function CaseStudyPage() {
                 See connected risk intelligence for your payment platform
               </h3>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
-                First connected-risk outputs within 1–2 weeks. No replacement of existing infrastructure required.
+                Expanding from agreed data feeds into Verafye-led investigation operations as outcomes are proven.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>

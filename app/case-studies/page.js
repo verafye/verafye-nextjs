@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Customer Case Studies | Verafye",
+  title: "Customer Case Studies",
   description: "See how regulated payment platforms use Verafye's Network Risk Intelligence to connect fragmented signals, surface hidden risk, and produce investigation-ready cases.",
   keywords: ["verafye case studies", "payment platform fraud investigation", "msb aml case study", "network risk intelligence customers", "fintech fraud aml platform"],
   openGraph: {
-    title: "Customer Case Studies | Verafye",
+    title: "Customer Case Studies",
     description: "See how regulated payment platforms use Verafye's Network Risk Intelligence to connect fragmented signals, surface hidden risk, and produce investigation-ready cases.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Customer Case Studies | Verafye",
+    title: "Customer Case Studies",
     description: "See how regulated payment platforms use Verafye's Network Risk Intelligence to connect fragmented signals, surface hidden risk, and produce investigation-ready cases.",
   },
   alternates: {
@@ -29,7 +29,7 @@ const cases = [
     href: '/case-studies/connected-risk-global-payments-fx/',
     segment: 'Cross-Border Payments & FX',
     title: 'Connecting Risk Across Global Payment and Remittance Flows',
-    summary: 'A global payments and foreign-exchange platform needed investigation-level visibility across senders, beneficiaries, corridors, and transaction patterns — without replacing its existing compliance stack.',
+    summary: 'A global payments and foreign-exchange platform needed investigation-level visibility across senders, beneficiaries, corridors, and transaction patterns - connecting fragmented signals into investigation-ready cases.',
     challenge: 'Cross-border payment risk rarely exists within a single transaction. Investigators were manually assembling context across disconnected systems.',
     outcome: 'Faster access to connected entity and transaction context. Greater visibility into repeated beneficiary and counterparty relationships. More consistent escalation decisions.',
     gradient: 'gradient-bg-1',
@@ -60,7 +60,7 @@ const cases = [
     href: '/case-studies/network-risk-global-payment-infrastructure/',
     segment: 'Regulated Global Payment Infrastructure',
     title: 'Embedding Network Risk Intelligence into Global Payment Infrastructure',
-    summary: 'A regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.',
+    summary: 'A regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.',
     challenge: 'Individual KYC, sanctions, and transaction controls provided signals, but those signals needed to be connected into an investigation-ready view across a multi-tenant platform.',
     outcome: 'Consistent controls across payment rails and customer programs. Connected investigations across customers, accounts, and counterparties. Risk intelligence embedded within the payment platform experience.',
     gradient: 'gradient-bg-2',
@@ -135,7 +135,7 @@ export default function CaseStudiesPage() {
             See how Verafye fits your environment
           </h2>
           <p style={{ fontSize: 'clamp(0.9375rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.7 }}>
-            A Risk Shadowing Review produces your first connected-risk outputs within 1–2 weeks — using your existing data and without replacing your current stack.
+            A Risk Shadowing Review produces your first connected-risk outputs within 1–2 weeks, beginning with agreed data feeds and expanding into Verafye-led investigation operations as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
             <Link href="/risk-shadowing-review" className="btn-primary">

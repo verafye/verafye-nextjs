@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Why Alert-Based Detection Misses Network-Level Fraud Risk | Verafye",
+  title: "Why Alert-Based Detection Misses Network-Level Fraud Risk",
   description: "Alert-based detection generates outputs, not investigations. Learn why network-level risk requires graph intelligence to connect entities, accounts, and behaviors into investigation-ready cases.",
   keywords: ["network risk detection", "alert-based fraud detection limitations", "graph intelligence fraud", "network-level aml", "fraud investigation platform", "connected risk detection"],
   openGraph: {
-    title: "Why Alert-Based Detection Misses Network-Level Fraud Risk | Verafye",
+    title: "Why Alert-Based Detection Misses Network-Level Fraud Risk",
     description: "Alert-based detection generates outputs, not investigations. Learn why network-level risk requires graph intelligence to connect entities, accounts, and behaviors into investigation-ready cases.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Why Alert-Based Detection Misses Network-Level Fraud Risk | Verafye",
+    title: "Why Alert-Based Detection Misses Network-Level Fraud Risk",
     description: "Alert-based detection generates outputs, not investigations. Learn why network-level risk requires graph intelligence to connect entities, accounts, and behaviors into investigation-ready cases.",
   },
   alternates: {
@@ -40,7 +40,7 @@ const relatedResources = [
     ctaLabel: 'Read Insight',
   },
   {
-    title: 'The Missing Layer in Modern Financial Crime Investigations',
+    title: 'What Is Investigation Intelligence?',
     category: 'Product Insights',
     readingTime: '5 min read',
     href: '/resources/what-is-investigation-intelligence/',
@@ -62,6 +62,8 @@ const BulletList = ({ items }) => (
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "Why Alert-Based Detection Misses Network-Level Fraud Risk", "description": "Alert-based detection cannot surface coordinated fraud rings or cross-entity risk. Network risk intelligence provides the missing connected view.", "url": "https://www.verafye.com/resources/network-risk-vs-alert-based-detection/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* BREADCRUMB */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -160,7 +162,7 @@ export default function ArticlePage() {
               The consequence is not just speed. It is coverage. When investigators cannot quickly connect related alerts and signals, they tend to close or deprioritize cases that appear isolated but are actually linked. A coordinated ring may generate a dozen alerts across different accounts, all of which get reviewed individually and none of which get escalated as a connected network.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              This is where the structural limitation of alert-based detection becomes operationally significant. More alerts does not mean better coverage. It means more queue — unless there is a layer that connects those alerts into cases.
+              This is where the structural limitation of alert-based detection becomes operationally significant. More alerts does not mean better coverage. It means more queue — unless those alerts are connected into cases with shared entity and relationship context.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -196,14 +198,14 @@ export default function ArticlePage() {
               'Case closure rates improve because investigators can make supported decisions rather than relying on incomplete context.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              This does not require replacing existing detection systems. Alert-based tools continue to generate the signals. What changes is the layer above them — the one that connects those signals into cases that investigators can actually work from.
+              Alert-based tools continue to generate useful signals. What is often missing is the capability to connect those signals into cases that investigators can actually work from — by resolving entities, mapping relationships, and surfacing coordinated patterns across accounts, devices, and corridors.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
               How Verafye Supports Network-Level Investigation
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is built on a graph-native architecture that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms — and turns them into investigation-ready cases. It does not replace existing fraud or AML detection systems. It sits above them, connecting their outputs into a shared investigation layer.
+              Verafye is a graph-native Network Risk Intelligence platform that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms — and turns them into investigation-ready cases. Verafye may begin with selected signal feeds from existing detection systems, connecting those alongside other sources into a coordinated, network-level investigation view.
             </p>
             <BulletList items={[
               'Resolves entities across data sources to surface shared accounts, devices, identities, and beneficiaries.',
@@ -222,7 +224,7 @@ export default function ArticlePage() {
                 Alert-based detection is a necessary foundation — but it is not sufficient for detecting coordinated, network-level financial crime. The patterns that matter most are the ones that exist between events, not within them.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, margin: 0 }}>
-                Adding a graph-native investigation layer above existing detection systems allows teams to connect signals into cases — without replacing the tools that generate them.
+                Connecting entities, relationships, and signals across accounts, devices, and corridors gives teams a clearer picture of coordinated risk — and a faster path from fragmented alerts to investigation-ready cases.
               </p>
             </div>
 
@@ -239,7 +241,7 @@ export default function ArticlePage() {
                 See network-level risk intelligence in action
               </h3>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
-                Verafye connects your existing alert signals into graph-native, investigation-ready cases — without replacing your current detection stack.
+                Verafye connects entities, relationships, and risk signals from across your payment platform into graph-native, investigation-ready cases.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
@@ -281,6 +283,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

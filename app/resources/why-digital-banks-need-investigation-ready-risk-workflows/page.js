@@ -45,6 +45,8 @@ const relatedResources = [
 export default function ArticlePage() {
   return (
     <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "Article", "headline": "Why Digital Banks Need Investigation-Ready Workflows", "description": "Digital banks face unique fraud and AML risks. Investigation-ready workflows connected across signals improve both speed and regulatory quality.", "url": "https://www.verafye.com/resources/why-digital-banks-need-investigation-ready-risk-workflows/", "publisher": {"@id": "https://www.verafye.com/#organization"}, "author": {"@id": "https://www.verafye.com/#organization"}}' }} />
+      <>
       {/* ── BREADCRUMB ─────────────────────────────────────────────────────── */}
       <section style={{ background: '#fff', padding: '1.5rem 0 0', borderBottom: '1px solid var(--border-light)' }}>
         <div className="container">
@@ -282,6 +284,7 @@ export default function ArticlePage() {
         </div>
       </section>
 
+    </>
     </>
   );
 }

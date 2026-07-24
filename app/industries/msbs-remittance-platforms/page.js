@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AML Solutions for MSBs & Remittance Platforms | Verafye",
+  title: "AML and Mule Detection for MSBs and Remittance Platforms",
   description: "Detect mule networks, suspicious beneficiary flows and cross-border financial crime using graph-native investigation intelligence for MSBs and remittance providers.",
   keywords: ["msb aml software", "remittance aml intelligence", "cross border transaction monitoring", "mule network detection", "corridor risk", "structuring detection", "sar str preparation", "sponsor bank compliance", "fintrac aml", "fincen msb"],
   openGraph: {
-    title: "AML Solutions for MSBs & Remittance Platforms | Verafye",
+    title: "AML and Mule Detection for MSBs and Remittance Platforms",
     description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "AML Solutions for MSBs & Remittance Platforms | Verafye",
+    title: "AML and Mule Detection for MSBs and Remittance Platforms",
     description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
   },
   alternates: {
@@ -26,10 +26,10 @@ export default function MSBsRemittancePlatformsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>AML Solutions for MSBs & Remittance</h1>
-            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>AML Solutions for MSBs & Remittance</p>
+            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Network Risk Intelligence for MSBs and Remittance Platforms
-            </h2>
+            </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps MSBs and remittance platforms connect sender, receiver, corridor, transaction, device, identity, and beneficiary signals into investigation-ready network risk intelligence - so lean compliance teams convert alert noise into evidence regulators can audit.
             </p>
@@ -108,7 +108,7 @@ export default function MSBsRemittancePlatformsPage() {
                 Network Risk Intelligence for Remittance Compliance Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Adoption starts with a scoped pilot alongside existing systems - expanding network coverage as outcomes are proven.
+                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye can begin with a scoped pilot on agreed data feeds, expanding network coverage as outcomes are proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>

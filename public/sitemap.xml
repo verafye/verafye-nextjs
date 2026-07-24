@@ -153,6 +153,28 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Case Studies -->
+  <url>
+    <loc>https://www.verafye.com/case-studies/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/case-studies/connected-risk-global-payments-fx/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/case-studies/connected-risk-multi-method-payments/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/case-studies/network-risk-global-payment-infrastructure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Resources articles -->
   <url>
     <loc>https://www.verafye.com/resources/what-is-investigation-intelligence/</loc>
@@ -185,6 +207,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.verafye.com/resources/network-risk-vs-alert-based-detection/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/resources/mule-detection-in-remittance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/resources/structuring-detection-cross-border-msbs/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.verafye.com/media/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -213,5 +250,15 @@
     <loc>https://www.verafye.com/terms/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/cookie-policy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.verafye.com/sample-output/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

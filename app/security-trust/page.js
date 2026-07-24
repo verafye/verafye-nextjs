@@ -26,7 +26,7 @@ export default function SecurityTrustPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Security &amp; Trust</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Security &amp; Trust</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Security, Trust, and Regulatory-Aligned Infrastructure
             </h1>
@@ -251,7 +251,7 @@ export default function SecurityTrustPage() {
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Regulatory Alignment</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-              Investigation Layer Aligned to Regulatory Change
+              Network Risk Intelligence Platform Aligned to Regulatory Change
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '48rem', margin: '0 auto' }}>
               Financial institutions operate across regulatory environments that differ by jurisdiction, institution type, and product - but share a common direction: greater transparency, stronger detection, and more structured investigation processes. Verafye is designed with that direction in mind.
@@ -533,7 +533,7 @@ export default function SecurityTrustPage() {
             {[
               {
                 q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
-                a: 'Verafye runs in parallel with existing fraud, AML, payment, identity, device, and case systems - consuming agreed data feeds and resolving those signals into one connected network view. Existing systems keep running throughout - Verafye becomes the investigation workspace where fragmented signals are resolved, entities mapped, and investigation cases built and closed.',
+                a: 'Verafye begins with selected data feeds from your existing fraud, AML, payment, identity, device, and case systems - connecting those signals into one network risk view. As outcomes are proven, teams expand into Verafye-led investigation workflows where fragmented signals are resolved, entities mapped, and investigation cases built and closed.',
               },
               {
                 q: 'Can Verafye connect to our existing fraud, AML, and payments infrastructure?',
@@ -569,7 +569,7 @@ export default function SecurityTrustPage() {
       <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-            Trusted Investigation Layer for Financial Crime Operations
+            Trusted Network Risk Intelligence Platform for Financial Crime Operations
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 1.25rem' }}>
             Explore how Verafye supports secure, reliable, and intelligence-led financial crime operations across fraud, AML, and payments.

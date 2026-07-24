@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Prevention  Solutions for Embedded Finance | Verafye",
+  title: "Fraud Prevention for Embedded Finance and BaaS Platforms",
   description: "Connect payment, ledger, identity and partner data to detect hidden fraud and financial crime across embedded finance and BaaS ecosystems.",
   keywords: ["baas risk intelligence", "embedded finance risk", "sponsor bank oversight", "program risk intelligence", "fintech partner risk", "baas fraud aml investigation", "ledger payment correlation", "cross-program risk detection", "embedded finance compliance"],
   openGraph: {
-    title: "Fraud Prevention  Solutions for Embedded Finance | Verafye",
+    title: "Fraud Prevention for Embedded Finance and BaaS Platforms",
     description: "Verafye helps BaaS providers, embedded finance platforms, and sponsor-bank oversight teams connect program, ledger, payment, account, wallet, KYC/KYB, identity, device, and case signals into investigation-ready program risk intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Prevention  Solutions for Embedded Finance | Verafye",
+    title: "Fraud Prevention for Embedded Finance and BaaS Platforms",
     description: "Verafye helps BaaS providers, embedded finance platforms, and sponsor-bank oversight teams connect program, ledger, payment, account, wallet, KYC/KYB, identity, device, and case signals into investigation-ready program risk intelligence.",
   },
   alternates: {
@@ -26,10 +26,10 @@ export default function BaasEmbeddedFinancePage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Embedded Finance Fraud Prevention  Solutions</h1>
-            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Embedded Finance Fraud Prevention  Solutions</p>
+            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Network Risk Intelligence for BaaS and embedded finance ecosystems
-            </h2>
+            </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps BaaS and embedded finance providers connect fragmented sponsor-bank, fintech-program, ledger, payment, KYC/KYB, identity, device, account, wallet, and case signals into investigation-ready Network Risk Intelligence.
             </p>
@@ -119,10 +119,10 @@ export default function BaasEmbeddedFinancePage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
-                Independent Network Risk Intelligence for BaaS ecosystems
+                Network Risk Intelligence for BaaS ecosystems
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye works alongside existing BaaS, embedded finance, sponsor-bank, KYC/KYB, identity, payment, ledger, device, and case systems. It connects fragmented signals, resolves entities, detects hidden network risk, clusters related activity, and produces investigation-ready evidence for review.
+                Verafye resolves entities and detects hidden network risk across fragmented BaaS program signals spanning KYC/KYB, identity, payment, ledger, device, and case data, clustering related activity and producing investigation-ready evidence for review. Verafye can begin with a scoped pilot on agreed data feeds and expand into Verafye-led investigation operations as outcomes are proven.
               </p>
             </div>
             <div className="grid-2" style={{ maxWidth: '64rem', margin: '0 auto' }}>

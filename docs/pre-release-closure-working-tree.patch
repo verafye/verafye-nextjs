@@ -1,0 +1,1586 @@
+diff --git a/app/become-a-partner/BecomeAPartnerClient.js b/app/become-a-partner/BecomeAPartnerClient.js
+index 28941a8..5ca9891 100644
+--- a/app/become-a-partner/BecomeAPartnerClient.js
++++ b/app/become-a-partner/BecomeAPartnerClient.js
+@@ -164,7 +164,7 @@ export default function BecomeAPartnerClient() {
+               Become a Verafye Partner
+             </h1>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
+-              Collaborate with Verafye to bring connected fraud, AML, and payment investigation intelligence to regulated financial platforms. Partners, BaaS providers, embedded finance platforms, processors, consultants, and technology providers can use Verafye to extend network-risk visibility and support sponsor-bank and program oversight workflows across client programs.
++              Collaborate with Verafye to bring connected risk detection and investigation to regulated payment platforms, payment fintechs, and financial institutions. We work with referral and advisory partners, regional GTM partners, implementation and consulting firms, and technology partners to help qualified customers identify coordinated risk, form investigation-ready cases, and operationalise evidence-grade investigation workflows.
+             </p>
+           </div>
+         </div>
+@@ -192,8 +192,8 @@ export default function BecomeAPartnerClient() {
+                           <path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M9 21V9"/>
+                         </svg>
+                       ),
+-                      title: 'Channel & Reseller Partners',
+-                      desc: 'Bring Verafye to your existing customer base through co-sell, resale, or regional distribution arrangements.',
++                      title: 'Referral and Advisory Partners',
++                      desc: 'Introduce qualified regulated payment institutions and fintech platforms to Verafye, supporting executive access and the first qualified opportunity conversation.',
+                     },
+                     {
+                       icon: (
+@@ -201,8 +201,8 @@ export default function BecomeAPartnerClient() {
+                           <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
+                         </svg>
+                       ),
+-                      title: 'System Integrators',
+-                      desc: 'Implement and integrate Verafye within broader financial crime technology programmes for banks and financial institutions.',
++                      title: 'Implementation and Consulting Partners',
++                      desc: 'Support data mapping, integration planning, workflow configuration, and customer enablement for regulated institutions operationalising Verafye.',
+                     },
+                     {
+                       icon: (
+@@ -211,7 +211,7 @@ export default function BecomeAPartnerClient() {
+                         </svg>
+                       ),
+                       title: 'Technology Partners',
+-                      desc: 'Integrate Verafye capabilities into your platform or connect your technology into the Verafye intelligence layer for mutual customers.',
++                      desc: 'Integrate Verafye capabilities into your platform or connect your technology with the Verafye platform for mutual customers.',
+                     },
+                     {
+                       icon: (
+@@ -288,7 +288,7 @@ export default function BecomeAPartnerClient() {
+                     <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.375rem', letterSpacing: '-0.02em' }}>Partner Enquiry</h2>
+                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '0.875rem', lineHeight: 1.6 }}>Tell us about your organisation and how you would like to work with Verafye. No commitment required.</p>
+                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '1.75rem', lineHeight: 1.6, paddingBottom: '1rem', borderBottom: '1px solid var(--border)' }}>
+-                      Verafye supports flexible partnership models - from channel and resale through to technology integration and strategic alliance - tailored to how you go to market.
++                      Verafye supports flexible partnership models - from referral and advisory through to technology integration and strategic collaboration - tailored to how you go to market.
+                     </p>
+                     <form onSubmit={handleSubmit} noValidate>
+ 
+@@ -379,8 +379,8 @@ export default function BecomeAPartnerClient() {
+         <div className="container">
+           <div style={{ maxWidth: '56rem', margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '2rem' }}>
+             {[
+-              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>, text: 'Graph-based investigation intelligence for financial crime teams' },
+-              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>, text: 'Flexible commercial models across resale, co-sell, and integration' },
++              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>, text: 'Graph-native Network Risk Intelligence for regulated payment and financial crime teams' },
++              { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>, text: 'Flexible commercial models across referral, advisory, implementation, and technology integration' },
+               { icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>, text: 'Fast integration into existing fraud, AML, and payments infrastructure' },
+             ].map(item => (
+               <div key={item.text} style={{ display: 'flex', alignItems: 'center', gap: '0.625rem' }}>
+diff --git a/app/capabilities/page.js b/app/capabilities/page.js
+index 4854245..732adc0 100644
+--- a/app/capabilities/page.js
++++ b/app/capabilities/page.js
+@@ -26,7 +26,7 @@ const primaryCapabilities = [
+       </svg>
+     ),
+     title: 'Investigation Intelligence',
+-    body: 'Connect signals, cases, and entities across fraud and AML workflows into an Investigation Intelligence Layer built on the Verafye platform - so risk teams see patterns, relationships, and investigation-ready context, not just alerts.',
++    body: 'Connect signals, cases, and entities across fraud and AML workflows through Investigation Intelligence capabilities within the Verafye platform - so risk teams see patterns, relationships, and investigation-ready context, not just alerts.',
+   },
+   {
+     icon: (
+@@ -347,7 +347,7 @@ export default function CapabilitiesPage() {
+               From signals to decisions - one connected flow
+             </h2>
+             <p style={{fontSize: '1rem', color: 'var(--body)', lineHeight: 1.65}}>
+-              Verafye capabilities are designed to work as a connected layer. Each stage feeds into the next so risk teams always have context when they need it.
++              Verafye capabilities work together across detection, entity resolution, network analysis, case formation, investigation, evidence, and decisioning. Each stage feeds into the next so risk teams always have context when they need it.
+             </p>
+           </div>
+ 
+@@ -379,7 +379,7 @@ export default function CapabilitiesPage() {
+                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+               </div>
+ 
+-              {/* Stage 2 - Connected Risk Layer */}
++              {/* Stage 2 - Signal Correlation and Entity Resolution */}
+               <div className="cap-flow-card" style={{borderTopColor: '#7C3AED'}}>
+                 <div style={{display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '1rem'}}>
+                   <div style={{width: '2.25rem', height: '2.25rem', borderRadius: '9px', background: 'rgba(124,58,237,0.08)', border: '1px solid rgba(124,58,237,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
+@@ -387,7 +387,7 @@ export default function CapabilitiesPage() {
+                   </div>
+                   <span style={{fontSize: '0.5625rem', fontWeight: 700, color: '#7C3AED', background: 'rgba(124,58,237,0.07)', border: '1px solid rgba(124,58,237,0.18)', borderRadius: '20px', padding: '0.2rem 0.625rem', textTransform: 'uppercase', letterSpacing: '0.06em', whiteSpace: 'nowrap'}}>Stage 2</span>
+                 </div>
+-                <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Connected Risk Layer</h3>
++                <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Signal Correlation and Entity Resolution</h3>
+                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
+                   Normalize signals, link entities, cluster alerts across accounts, merchants, beneficiaries, and devices, and add graph-based relationship context
+                 </p>
+diff --git a/app/case-studies/connected-risk-global-payments-fx/page.js b/app/case-studies/connected-risk-global-payments-fx/page.js
+index 36cc042..66cb791 100644
+--- a/app/case-studies/connected-risk-global-payments-fx/page.js
++++ b/app/case-studies/connected-risk-global-payments-fx/page.js
+@@ -126,7 +126,7 @@ export default function CaseStudyPage() {
+               The Verafye Approach
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              Verafye operates alongside the platform&apos;s existing payment and compliance environment as an independent risk and investigation intelligence layer. Payment, customer, beneficiary, and related risk signals are brought together to create a connected view of activity across the platform.
++              Verafye is integrated into the platform&apos;s payment and compliance environment for connected-risk investigation. Payment, customer, beneficiary, and related risk signals are resolved into entities, mapped into networks, and built into investigation-ready cases across the platform.
+             </p>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+               Verafye helps the investigation team:
+@@ -140,7 +140,7 @@ export default function CaseStudyPage() {
+               'Create an auditable trail for escalation and regulatory review.',
+             ]} />
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
+-              Rather than replacing the underlying payment, KYC, or AML systems, Verafye adds relationship-level intelligence across the signals those systems generate.
++              Verafye adds relationship-level intelligence across the signals that payment, KYC, and AML systems generate - connecting fragmented outputs into investigation-ready cases.
+             </p>
+ 
+             {/* OPERATIONAL OUTCOME */}
+@@ -162,7 +162,7 @@ export default function CaseStudyPage() {
+             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem', marginTop: '2.5rem' }}>
+               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Deployment Model</p>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '0.75rem' }}>
+-                Verafye is integrated through APIs alongside the platform&apos;s existing payment and compliance systems, without requiring replacement of core transaction infrastructure.
++                Verafye is integrated through APIs into the platform&apos;s payment and compliance environment, with implementation beginning on agreed data feeds and expanding progressively.
+               </p>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, margin: 0 }}>
+                 First connected-risk outputs can be produced within <strong style={{ color: 'var(--dark)' }}>1–2 weeks</strong> of receiving the required data and completing integration validation.
+@@ -204,7 +204,7 @@ export default function CaseStudyPage() {
+                 See connected risk intelligence for your payment platform
+               </h3>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
+-                First connected-risk outputs within 1–2 weeks. No replacement of existing infrastructure required.
++                Expanding from agreed data feeds into Verafye-led investigation operations as outcomes are proven.
+               </p>
+             </div>
+             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
+diff --git a/app/case-studies/connected-risk-multi-method-payments/page.js b/app/case-studies/connected-risk-multi-method-payments/page.js
+index c97e322..b83c2a2 100644
+--- a/app/case-studies/connected-risk-multi-method-payments/page.js
++++ b/app/case-studies/connected-risk-multi-method-payments/page.js
+@@ -124,13 +124,13 @@ export default function CaseStudyPage() {
+               The Verafye Approach
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              Verafye provides an independent Network Risk Intelligence layer alongside the platform&apos;s existing payment, fraud, and compliance systems. It connects relevant transaction, merchant, customer, beneficiary, account, payment-method, and geographic signals into a common investigation context.
++              Verafye is integrated into the platform&apos;s payment and compliance environment for connected-risk investigation. It resolves entities and maps relationships across transaction, merchant, customer, beneficiary, account, payment-method, and geographic signals into a common investigation context.
+             </p>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+               Verafye enables the risk team to:
+             </p>
+             <CheckList items={[
+-              'Evaluate risk consistently across different payment methods from a single investigation layer.',
++              'Evaluate risk consistently across different payment methods from one connected investigation view.',
+               'Connect activity across merchants, accounts, counterparties, and markets.',
+               'Identify shared beneficiaries, devices, IP addresses, or payment attributes across channels.',
+               'Detect unusual velocity, geographic, and behavioural patterns across the platform.',
+@@ -140,7 +140,7 @@ export default function CaseStudyPage() {
+               'Support audit and compliance review across multiple operating entities.',
+             ]} />
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
+-              The objective is not to replace the platform&apos;s transaction-processing or channel-specific controls. Verafye provides the connected intelligence required to investigate activity spanning those systems.
++              Verafye provides the connected intelligence required to investigate activity spanning those systems - building investigation-ready cases from the signals that transaction-processing and channel-specific controls already generate.
+             </p>
+ 
+             {/* OPERATIONAL OUTCOME */}
+@@ -148,7 +148,7 @@ export default function CaseStudyPage() {
+               The Operational Outcome
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              The platform gains a common investigation layer for examining risk across payment methods, regions, and processing relationships. This enables:
++              The platform gains a common investigation view for examining risk across payment methods, regions, and processing relationships. This enables:
+             </p>
+             <CheckList items={[
+               'Greater consistency in risk evaluation across markets and payment channels.',
+@@ -163,7 +163,7 @@ export default function CaseStudyPage() {
+             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem', marginTop: '2.5rem' }}>
+               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Deployment Model</p>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '0.75rem' }}>
+-                Verafye is deployed alongside the platform&apos;s existing payment and risk infrastructure through API-led integration. The implementation can begin with selected transaction flows or risk scenarios and expand progressively across methods, markets, and operating entities.
++                Verafye is deployed through API-led integration into the platform&apos;s payment and risk environment. The implementation can begin with selected transaction flows or risk scenarios and expand progressively across methods, markets, and operating entities.
+               </p>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, margin: 0 }}>
+                 First connected-risk outputs can be produced within <strong style={{ color: 'var(--dark)' }}>1–2 weeks</strong> for the initial agreed scope, subject to data readiness and integration completion.
+@@ -205,7 +205,7 @@ export default function CaseStudyPage() {
+                 Connect risk across your payment methods and markets
+               </h3>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
+-                Verafye adds a network-level investigation layer across your existing payment and risk infrastructure — without replacing it.
++                Verafye connects risk signals across your payment and risk environment - building network-level investigation context from the signals your infrastructure already generates.
+               </p>
+             </div>
+             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
+diff --git a/app/case-studies/network-risk-global-payment-infrastructure/page.js b/app/case-studies/network-risk-global-payment-infrastructure/page.js
+index e0258c6..f329e5d 100644
+--- a/app/case-studies/network-risk-global-payment-infrastructure/page.js
++++ b/app/case-studies/network-risk-global-payment-infrastructure/page.js
+@@ -2,16 +2,16 @@ import Link from 'next/link';
+ 
+ export const metadata = {
+   title: "Embedding Network Risk Intelligence into Global Payment Infrastructure | Verafye Case Study",
+-  description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.",
++  description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.",
+   keywords: ["payment infrastructure compliance", "multi-tenant payment risk", "stablecoin payment compliance", "global payment rails aml", "embedded compliance intelligence", "network risk infrastructure"],
+   openGraph: {
+     title: "Embedding Network Risk Intelligence into Global Payment Infrastructure | Verafye Case Study",
+-    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.",
++    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.",
+   },
+   twitter: {
+     card: 'summary_large_image',
+     title: "Embedding Network Risk Intelligence into Global Payment Infrastructure | Verafye Case Study",
+-    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.",
++    description: "How a regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.",
+   },
+   alternates: {
+     canonical: 'https://www.verafye.com/case-studies/network-risk-global-payment-infrastructure',
+@@ -126,7 +126,7 @@ export default function CaseStudyPage() {
+               The Verafye Approach
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              Verafye is incorporated within the platform&apos;s compliance technology environment as the Network Risk Intelligence and investigation layer. It complements identity and onboarding controls by connecting payment, customer, beneficiary, account, and risk information across the platform.
++              Verafye is integrated within the platform&apos;s compliance technology environment for network risk intelligence and investigation. It connects payment, customer, beneficiary, account, and risk information across the platform - building investigation-ready context from existing identity and onboarding controls.
+             </p>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+               The deployment supports:
+@@ -165,7 +165,7 @@ export default function CaseStudyPage() {
+             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>
+               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--muted)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1rem' }}>Deployment Model</p>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '0.75rem' }}>
+-                Verafye is deployed through API-led integration alongside the existing payment and risk infrastructure. Implementation can begin with selected transaction flows or risk scenarios and expand progressively across rails, programs, and operating entities.
++                Verafye is deployed through API-led integration into the platform&apos;s payment and risk environment. Implementation can begin with selected transaction flows or risk scenarios and expand progressively across rails, programs, and operating entities.
+               </p>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75, margin: 0 }}>
+                 First connected-risk outputs can be produced within <strong style={{ color: 'var(--dark)' }}>1–2 weeks</strong> for the initial agreed scope, subject to data readiness and integration completion.
+@@ -185,7 +185,7 @@ export default function CaseStudyPage() {
+                     First connected-risk outputs across primary payment rails within 2 weeks of integration commencement
+                   </p>
+                   <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
+-                    Network Risk Intelligence deployed alongside existing payment infrastructure through API-led integration, with risk rules and investigation workflows operationalised across initial tenant programs in the first phase — without requiring changes to core payment processing.
++                    Network Risk Intelligence deployed through API-led integration, with risk rules and investigation workflows operationalised across initial tenant programs in the first phase - beginning with agreed data feeds and expanding progressively.
+                   </p>
+                 </div>
+               </div>
+@@ -207,7 +207,7 @@ export default function CaseStudyPage() {
+                 Embed risk intelligence across your payment infrastructure
+               </h3>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
+-                Verafye integrates alongside your existing rails and compliance systems — adding connected investigation intelligence without replacing point controls.
++                Verafye connects risk signals across your payment rails and compliance environment - building investigation-ready Network Risk Intelligence from the signals your controls already generate.
+               </p>
+             </div>
+             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
+diff --git a/app/case-studies/page.js b/app/case-studies/page.js
+index 8768bdb..98b2c5f 100644
+--- a/app/case-studies/page.js
++++ b/app/case-studies/page.js
+@@ -29,7 +29,7 @@ const cases = [
+     href: '/case-studies/connected-risk-global-payments-fx/',
+     segment: 'Cross-Border Payments & FX',
+     title: 'Connecting Risk Across Global Payment and Remittance Flows',
+-    summary: 'A global payments and foreign-exchange platform needed investigation-level visibility across senders, beneficiaries, corridors, and transaction patterns — without replacing its existing compliance stack.',
++    summary: 'A global payments and foreign-exchange platform needed investigation-level visibility across senders, beneficiaries, corridors, and transaction patterns - connecting fragmented signals into investigation-ready cases.',
+     challenge: 'Cross-border payment risk rarely exists within a single transaction. Investigators were manually assembling context across disconnected systems.',
+     outcome: 'Faster access to connected entity and transaction context. Greater visibility into repeated beneficiary and counterparty relationships. More consistent escalation decisions.',
+     gradient: 'gradient-bg-1',
+@@ -60,7 +60,7 @@ const cases = [
+     href: '/case-studies/network-risk-global-payment-infrastructure/',
+     segment: 'Regulated Global Payment Infrastructure',
+     title: 'Embedding Network Risk Intelligence into Global Payment Infrastructure',
+-    summary: 'A regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities embedded Verafye as its compliance intelligence layer.',
++    summary: 'A regulated global payment infrastructure provider spanning multi-currency accounts, cross-border rails, card processing, and stablecoin capabilities integrated Verafye for connected-risk investigation across its compliance environment.',
+     challenge: 'Individual KYC, sanctions, and transaction controls provided signals, but those signals needed to be connected into an investigation-ready view across a multi-tenant platform.',
+     outcome: 'Consistent controls across payment rails and customer programs. Connected investigations across customers, accounts, and counterparties. Risk intelligence embedded within the payment platform experience.',
+     gradient: 'gradient-bg-2',
+@@ -135,7 +135,7 @@ export default function CaseStudiesPage() {
+             See how Verafye fits your environment
+           </h2>
+           <p style={{ fontSize: 'clamp(0.9375rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.7 }}>
+-            A Risk Shadowing Review produces your first connected-risk outputs within 1–2 weeks — using your existing data and without replacing your current stack.
++            A Risk Shadowing Review produces your first connected-risk outputs within 1–2 weeks, beginning with agreed data feeds and expanding into Verafye-led investigation operations as outcomes are proven.
+           </p>
+           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
+             <Link href="/risk-shadowing-review" className="btn-primary">
+diff --git a/app/company/page.js b/app/company/page.js
+index 6cd8bc1..3b603a8 100644
+--- a/app/company/page.js
++++ b/app/company/page.js
+@@ -42,7 +42,7 @@ export default function Page() {
+         <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>Verafye is built to do exactly that: turn fragmented signals into clear, actionable intelligence.</p>
+       </div>
+       <div style={{'borderRadius':'1.5rem','padding':'1rem 0.75rem','background':'#F8FBFF','border':'1px solid rgba(30,111,183,0.1)','boxShadow':'0 4px 24px rgba(30,111,183,0.07)','overflow':'hidden'}}>
+-        <svg viewBox="0 0 560 415" fill="none" xmlns="http://www.w3.org/2000/svg" style={{'width':'100%','display':'block'}} role="img" aria-label="Verafye investigation intelligence layer connecting risk signals into explainable case outcomes">
++        <svg viewBox="0 0 560 415" fill="none" xmlns="http://www.w3.org/2000/svg" style={{'width':'100%','display':'block'}} role="img" aria-label="Verafye graph-native Network Risk Intelligence platform connecting fragmented risk signals into explainable case outcomes">
+           <defs>
+             <radialGradient id="wn_amb" cx="50%" cy="50%" r="50%">
+               <stop offset="0%" stopColor="#1E6FB7" stopOpacity="0.09"/>
+@@ -87,7 +87,7 @@ export default function Page() {
+           <circle cx="280" cy="215" r="32" fill="url(#wn_blu)" filter="url(#wn_c)"/>
+           <path d="M269 215 L278 224 L294 203" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+           <text x="280" y="264" textAnchor="middle" fontSize="9" fill="#1E6FB7" fontFamily="system-ui,-apple-system,sans-serif" fontWeight="700" letterSpacing="0.1em">VERAFYE</text>
+-          <text x="280" y="277" textAnchor="middle" fontSize="7.5" fill="#64748B" fontFamily="system-ui,-apple-system,sans-serif" letterSpacing="0.04em">Intelligence Layer</text>
++          <text x="280" y="277" textAnchor="middle" fontSize="7.5" fill="#64748B" fontFamily="system-ui,-apple-system,sans-serif" letterSpacing="0.04em">Risk Intelligence Platform</text>
+ 
+           {/* ── SIGNAL SOURCE PILLS ── */}
+           <text x="72" y="26" textAnchor="middle" fontSize="8" fill="#94A3B8" fontFamily="system-ui,-apple-system,sans-serif" fontWeight="700" letterSpacing="0.09em">SIGNAL SOURCES</text>
+@@ -223,7 +223,7 @@ export default function Page() {
+         </div>
+         <div>
+           <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform - giving fraud and AML teams a connected investigation workspace with graph-native detection, structured case management, and full audit trails.</p>
+-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. It is the investigation intelligence layer for regulated payment platforms and financial institutions operating under real compliance pressure.</p>
++          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. Verafye is a graph-native Network Risk Intelligence platform built for regulated payment platforms and financial institutions operating under real compliance pressure.</p>
+         </div>
+       </div>
+     </div>
+diff --git a/app/customers/page.js b/app/customers/page.js
+index a744df0..0397846 100644
+--- a/app/customers/page.js
++++ b/app/customers/page.js
+@@ -47,7 +47,7 @@ export default function Page() {
+           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg></div>
+         </div>
+         <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>PSPs, PayFacs &amp; Payment Processors</h3>
+-        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>PSPs, PayFacs, and payment processors carry compliance and fraud liability across high-volume, multi-rail environments. Verafye connects merchant, sub-merchant, transaction, and beneficiary signals into investigation-ready workflows - without replacing existing detection infrastructure.</p>
++        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>PSPs, PayFacs, and payment processors carry compliance and fraud liability across high-volume, multi-rail environments. Verafye connects merchant, sub-merchant, transaction, and beneficiary signals into investigation-ready workflows - with adoption beginning on agreed data feeds and expanding into Verafye-led operations as outcomes are proven.</p>
+         <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
+           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Sub-merchant and merchant risk investigation</span></div>
+           <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Transaction and beneficiary signal correlation</span></div>
+diff --git a/app/faq/FAQClient.js b/app/faq/FAQClient.js
+index 609720c..46f8400 100644
+--- a/app/faq/FAQClient.js
++++ b/app/faq/FAQClient.js
+@@ -14,7 +14,7 @@ const faqCategories = [
+     items: [
+       {
+         q: 'What is Verafye?',
+-        a: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Think of it as the intelligent investigation layer for regulated financial platforms - built for PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks, marketplaces, and lending and BNPL fraud teams.',
++        a: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye is purpose-built for regulated payment platforms: PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks, marketplaces, and lending and BNPL fraud teams.',
+       },
+       {
+         q: 'Does Verafye detect fraud and AML risk, or only support investigations?',
+@@ -26,7 +26,7 @@ const faqCategories = [
+       },
+       {
+         q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
+-        a: 'Verafye runs in parallel with your existing fraud and AML stack as a Network Risk Intelligence layer. It consumes the data your systems can provide - exports, event streams, case records and alerts - and resolves those signals into one connected network view. Adoption starts with a scoped pilot: agreed data feeds, a defined set of use cases, and clean target outcomes. Your existing systems keep running throughout - Verafye becomes the investigation workspace where their signals are resolved into entities, mapped into networks, and built into cases.',
++        a: 'Verafye can initially connect to outputs from existing fraud monitoring, AML transaction monitoring, payment, identity, device, and case systems - through exports, event streams, or APIs where available. Those signals are resolved into entities, mapped into networks, and built into investigation-ready cases within Verafye. Adoption starts with a scoped pilot covering agreed data feeds, a defined set of use cases, and target outcomes. The investigation workspace expands into Verafye-led workflows as those outcomes are proven.',
+       },
+       {
+         q: 'What makes Verafye different from traditional fraud and AML platforms?',
+@@ -54,7 +54,7 @@ const faqCategories = [
+       },
+       {
+         q: 'Does Verafye replace the systems we already run?',
+-        a: 'No. Verafye runs in parallel with the detection, monitoring and case systems you already operate - adding the network layer those systems lack: entity resolution, cross-entity network mapping and real-time network risk scoring. Adoption starts with a scoped pilot built on agreed data feeds, a defined set of use cases, and clean target outcomes. Full commercial integration and launch follow once those outcomes are proven - on your timeline.',
++        a: 'Verafye does not require a disruptive replacement programme to begin. It can initially use selected outputs from existing fraud, AML, payment, identity and case systems. Customers can then integrate selected findings into existing operational workflows, or expand into Verafye-led investigation, evidence and decision workflows based on the agreed scope.',
+       },
+       {
+         q: 'How long does a typical deployment take?',
+diff --git a/app/industries/baas-embedded-finance/page.js b/app/industries/baas-embedded-finance/page.js
+index 4c2c03e..eb4fbd5 100644
+--- a/app/industries/baas-embedded-finance/page.js
++++ b/app/industries/baas-embedded-finance/page.js
+@@ -119,10 +119,10 @@ export default function BaasEmbeddedFinancePage() {
+             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
+               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
+               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+-                Independent Network Risk Intelligence for BaaS ecosystems
++                Network Risk Intelligence for BaaS ecosystems
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+-                Verafye works alongside existing BaaS, embedded finance, sponsor-bank, KYC/KYB, identity, payment, ledger, device, and case systems. It connects fragmented signals, resolves entities, detects hidden network risk, clusters related activity, and produces investigation-ready evidence for review.
++                Verafye resolves entities and detects hidden network risk across fragmented BaaS program signals spanning KYC/KYB, identity, payment, ledger, device, and case data, clustering related activity and producing investigation-ready evidence for review. Verafye can begin with a scoped pilot on agreed data feeds and expand into Verafye-led investigation operations as outcomes are proven.
+               </p>
+             </div>
+             <div className="grid-2" style={{ maxWidth: '64rem', margin: '0 auto' }}>
+diff --git a/app/industries/banks/page.js b/app/industries/banks/page.js
+index 7c4c7d4..da5a684 100644
+--- a/app/industries/banks/page.js
++++ b/app/industries/banks/page.js
+@@ -28,13 +28,13 @@ export default function BanksPage() {
+           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
+             <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention Solution for Banks</h1>
+             <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+-              Investigation Intelligence for Selected Banks, Regional Financial Institutions, and Credit Unions
++              Connected Financial-Crime Risk Detection for Selected Banks, Regional Financial Institutions, and Credit Unions
+             </h2>
+             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
+               Verafye helps banking fraud and AML teams connect fraud, AML, account, payment, identity, device, and behavioral signals into explainable investigation workflows - surfacing mule networks, scam proceeds, account-to-account payment risk, suspicious counterparties, and cross-system financial-crime patterns faster.
+             </p>
+             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
+-              Start with a scoped workflow across mule detection, scam investigation, payment-risk review, or fraud-to-AML escalation. Verafye complements existing fraud, AML, core banking, payment, and case management systems rather than replacing them.
++              Start with a scoped pilot across mule detection, scam investigation, payment-risk review, or fraud-to-AML escalation, using agreed data from existing fraud, AML, core banking, payment, and case management systems. Adoption expands into Verafye-led workflows as outcomes are validated.
+             </p>
+             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
+               <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
+@@ -140,7 +140,7 @@ export default function BanksPage() {
+                 gradient: 'gradient-bg-1',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
+                 title: 'Lean Teams Cannot Manually Correlate Signals Across Systems at Volume',
+-                body: 'Community banks, regional banks, and credit unions with lean compliance teams cannot manually pivot across transaction monitoring, fraud, core banking, device, and identity systems per case. Without a connected investigation layer, manual data gathering consumes the investigation time lean teams do not have.',
++                body: 'Community banks, regional banks, and credit unions with lean compliance teams cannot manually pivot across transaction monitoring, fraud, core banking, device, and identity systems per case. Without pre-assembled case context, manual data gathering consumes the investigation time lean teams do not have.',
+               },
+             ].map(item => (
+               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
+@@ -160,22 +160,22 @@ export default function BanksPage() {
+             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Fits</p>
+               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+-                Investigation Intelligence That Works Alongside Your Existing Banking Systems
++                Connecting Account, Payment, Identity, and Device Signals into Investigation-Ready Cases
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+-                Verafye does not replace AML transaction monitoring, fraud detection systems, core banking, payment infrastructure, or case management workflows. It connects their signals - fraud, AML, payment, account, identity, device, and behavioral - into pre-assembled investigation cases that analysts can act on faster, with better network context, and with explainable, audit-ready documentation. Adoption starts with a scoped workflow - agreed signal feeds, defined use cases, clear target outcomes - and expands as results are proven.
++                Verafye begins with agreed signal feeds from fraud monitoring, AML transaction monitoring, core banking, payment infrastructure, and case management workflows. It resolves entities, maps relationships, and builds pre-assembled investigation cases that analysts can act on faster, with better network context, and with explainable, audit-ready documentation. Adoption starts with a scoped pilot covering agreed use cases and expands into Verafye-led workflows as outcomes are validated.
+               </p>
+             </div>
+             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Fraud, AML, Payment, Account, Identity, Device, and Behavioral Signals</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from existing fraud monitoring, AML transaction monitoring, core banking, payment systems, device intelligence, identity, and behavioral sources into one connected investigation layer - making the full signal picture visible across accounts, customers, counterparties, and payment flows without replacing any existing system.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from fraud monitoring, AML transaction monitoring, core banking, payment systems, device intelligence, identity, and behavioral sources, resolving entities and mapping relationships across accounts, customers, counterparties, and payment flows into investigation-ready cases.</p>
+               </div>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Graph-Based Detection of Mule Networks, Scam Flows, and Payment-Linked Account Risk</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph-native intelligence layer maps relationships across accounts, counterparties, devices, payments, and identities - surfacing fan-in/fan-out mule networks, scam proceeds flows, account-to-account payment risk patterns, and synthetic identity clusters that transaction-level and rule-based detection cannot see.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Graph intelligence maps relationships across accounts, counterparties, devices, payments, and identities - surfacing fan-in/fan-out mule networks, scam proceeds flows, account-to-account payment risk patterns, and synthetic identity clusters that transaction-level and rule-based detection cannot see.</p>
+                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                 </Link>
+@@ -212,7 +212,7 @@ export default function BanksPage() {
+               {
+                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
+                 title: 'Cross-signal intelligence across fraud, AML, payment, account, device, and identity',
+-                body: 'Unify signals from existing fraud monitoring, AML transaction monitoring, core banking, payment, device, identity, and behavioral sources into one connected investigation layer - without replacing any existing system.',
++                body: 'Connect signals from fraud monitoring, AML transaction monitoring, core banking, payment, device, identity, and behavioral sources into investigation-ready cases across accounts, customers, counterparties, and payment flows.',
+                 href: '/platform',
+                 cta: 'View Platform',
+               },
+diff --git a/app/industries/credit-unions/page.js b/app/industries/credit-unions/page.js
+index eea9bf8..0b10e3f 100644
+--- a/app/industries/credit-unions/page.js
++++ b/app/industries/credit-unions/page.js
+@@ -28,7 +28,7 @@ export default function CreditUnionsPage() {
+           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
+             <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Credit Unions</h1>
+             <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+-              Investigation intelligence for community banks and credit unions
++              Connected Risk Detection for Community Banks and Credit Unions
+             </h2>
+             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
+               Connect fraud, AML, account, payment, identity, device, and behavior signals into faster, explainable investigations without enterprise-heavy complexity.
+@@ -82,7 +82,7 @@ export default function CreditUnionsPage() {
+                 gradient: 'gradient-bg-4',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
+                 title: 'Limited Visibility Across Member Activity',
+-                body: 'Without a connected intelligence layer, credit unions cannot see the relationship patterns across member accounts, devices, and transactions that reveal coordinated fraud, mule activity, or AML exposure operating within their membership base.',
++                body: 'Without resolved entity relationships and connected case context across member accounts, devices, and transactions, credit unions cannot see the patterns that reveal coordinated fraud, mule activity, or AML exposure operating within their membership base.',
+               },
+               {
+                 gradient: 'gradient-bg-1',
+@@ -170,12 +170,12 @@ export default function CreditUnionsPage() {
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connects Fraud, AML, and Member Activity</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from fraud monitoring, transaction monitoring, and member account activity into one connected network view - eliminating the blind spots that form at system boundaries and enabling cross-domain detection across the full member portfolio.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from fraud monitoring, transaction monitoring, and member account activity, resolving entities and mapping relationships to surface coordinated risk patterns across the full member portfolio.</p>
+               </div>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Risk Intelligence Across Member Networks</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph intelligence layer resolves entities, maps relationships, and clusters networks across accounts, devices, and transactions - surfacing coordinated fraud rings, mule activity, and AML typologies that rules-based systems cannot see.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Graph intelligence resolves entities, maps relationships, and clusters networks across accounts, devices, and transactions - surfacing coordinated fraud rings, mule activity, and AML typologies that rules-based systems cannot see.</p>
+                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                 </Link>
+@@ -211,7 +211,7 @@ export default function CreditUnionsPage() {
+             {[
+               {
+                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
+-                title: 'Connected investigation layer',
++                title: 'Connected investigation context',
+                 body: 'Unify signals from fraud, AML, core banking, payment, identity, device, and behavior systems.',
+                 href: '/platform',
+                 cta: 'View Platform',
+diff --git a/app/industries/digital-banks/page.js b/app/industries/digital-banks/page.js
+index 48726f9..1e12bed 100644
+--- a/app/industries/digital-banks/page.js
++++ b/app/industries/digital-banks/page.js
+@@ -34,7 +34,7 @@ export default function DigitalBanksPage() {
+               Connect onboarding, account, device, transaction, fraud, and AML signals into explainable investigations that help risk teams act faster.
+             </p>
+             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
+-              Verafye helps digital banking risk teams connect onboarding, account, payment, wallet, remittance, transaction, fraud, and AML signals into connected case intelligence - surfacing mule activity, synthetic identity patterns, scam flows, beneficiary-linked risk, and suspicious networks. Adoption starts with a scoped pilot alongside existing systems - expanding investigation workflows as outcomes are proven.
++              Verafye helps digital banking risk teams connect onboarding, account, payment, wallet, remittance, transaction, fraud, and AML signals into connected case intelligence - surfacing mule activity, synthetic identity patterns, scam flows, beneficiary-linked risk, and suspicious networks. Verafye can begin with selected data feeds and expand into Verafye-led investigation workflows as outcomes are proven.
+             </p>
+             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
+               <Link href="/risk-shadowing-review" className="btn-primary">
+@@ -70,7 +70,7 @@ export default function DigitalBanksPage() {
+                 gradient: 'gradient-bg-2',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
+                 title: 'Risk Signals Fragmented Across Systems and Channels',
+-                body: 'Digital banking environments generate risk signals across onboarding, authentication, payments, and transaction flows - spread across separate systems with no shared intelligence layer, making cross-channel fraud and AML detection structurally difficult.',
++                body: 'Digital banking environments generate risk signals across onboarding, authentication, payments, and transaction flows - spread across separate systems with no shared risk view, making cross-channel fraud and AML detection structurally difficult.',
+               },
+               {
+                 gradient: 'gradient-bg-3',
+@@ -163,19 +163,19 @@ export default function DigitalBanksPage() {
+                 Network Risk Intelligence for Digital Banking
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+-                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into one connected network view - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye runs in parallel with existing detection and monitoring systems - starting with a scoped pilot on agreed data feeds and expanding as outcomes are proven.
++                Verafye connects user, device, transaction, and behavioural signals across onboarding, payments, fraud, and AML systems into one connected network view - delivering graph-native detection, investigation-centric workflows, and cross-system visibility that scales with the institution. Verafye can begin with a scoped pilot on agreed data feeds and expand into Verafye-led investigation operations as outcomes are proven.
+               </p>
+             </div>
+             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connects Signals Across All Digital Banking Channels</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from onboarding, authentication, payments, fraud monitoring, and AML systems into one connected network view - enabling cross-channel detection that individual point solutions cannot provide and eliminating the blind spots that form at system boundaries.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye connects signals from onboarding, authentication, payments, fraud monitoring, and AML systems into a connected investigation context - enabling cross-channel detection that individual point solutions cannot provide and eliminating the blind spots that form at system boundaries.</p>
+               </div>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Risk Intelligence Across Users and Networks</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph intelligence layer maps relationships across users, devices, accounts, and transactions - surfacing account farming networks, synthetic identity cohorts, and coordinated fraud rings that rules-based and transaction-level detection cannot see.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye maps relationships across users, devices, accounts, and transactions - surfacing account farming networks, synthetic identity cohorts, and coordinated fraud rings that rules-based and transaction-level detection cannot see.</p>
+                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                 </Link>
+@@ -212,7 +212,7 @@ export default function DigitalBanksPage() {
+               {
+                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
+                 title: 'Connected lifecycle signals',
+-                body: 'Unify onboarding, identity, device, account, transaction, fraud, and AML signals into one investigation layer.',
++                body: 'Unify onboarding, identity, device, account, transaction, fraud, and AML signals into a connected investigation context for cross-channel risk operations.',
+                 href: '/platform',
+                 cta: 'View Platform',
+               },
+diff --git a/app/industries/digital-lending-bnpl/page.js b/app/industries/digital-lending-bnpl/page.js
+index caafb33..948672d 100644
+--- a/app/industries/digital-lending-bnpl/page.js
++++ b/app/industries/digital-lending-bnpl/page.js
+@@ -28,7 +28,7 @@ export default function DigitalLendingBnplPage() {
+           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
+             <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Digital lending Fraud Prevention Solution</h1>
+             <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+-              Investigation Intelligence for Digital Lending &amp; BNPL Risk Teams
++              Connected Borrower Risk Detection for Digital Lending and BNPL Risk Teams
+             </h2>
+             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.55 }}>
+               Connect fraud, identity, payment, device and repayment signals into explainable investigations for lending and BNPL fraud workflows.
+@@ -121,7 +121,7 @@ export default function DigitalLendingBnplPage() {
+               From fragmented alerts to investigation-ready lending cases
+             </h2>
+             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', marginTop: '1.25rem', lineHeight: 1.7, maxWidth: '48rem', margin: '1.25rem auto 0' }}>
+-              Verafye acts as the investigation layer for lending and BNPL risk teams - connecting signals from origination through servicing, surfacing hidden networks, and helping analysts reach explainable decisions faster.
++              Verafye connects borrower, identity, device, application, repayment, and payment signals from origination through servicing, surfaces coordinated networks, and forms investigation-ready cases that help lending risk teams reach explainable decisions faster.
+             </p>
+           </div>
+           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto', gap: '2rem' }}>
+diff --git a/app/industries/fintech-platforms/page.js b/app/industries/fintech-platforms/page.js
+index 933f155..08001da 100644
+--- a/app/industries/fintech-platforms/page.js
++++ b/app/industries/fintech-platforms/page.js
+@@ -193,19 +193,19 @@ export default function FintechPlatformsPage() {
+                 Investigation Intelligence Built for Payment-Enabled Fintech Platforms
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+-                Verafye works alongside existing fraud scoring, device intelligence, AML transaction monitoring, KYC/KYB, payment, and case management tools. Verafye does not replace these systems; it connects their signals across the full user and payment lifecycle - from onboarding through account activity, payment, repayment, and payout - into investigation-ready cases that lean fintech risk teams can act on without manual cross-system data gathering.
++                Verafye connects signals across the full user and payment lifecycle into investigation-ready cases that lean fintech risk teams can act on without manual data gathering. Signal coverage spans onboarding through account activity, payment, repayment, and payout. Verafye can begin with selected data feeds and expand into Verafye-led investigation, evidence, and decision operations as outcomes are proven.
+               </p>
+             </div>
+             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Lifecycle Signals - Onboarding Through Payment, Payout, and Repayment</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies onboarding, identity, device, account, transaction, payment, wallet, payout, repayment, fraud, and AML signals into one connected investigation layer - making the full user and payment lifecycle visible to risk teams rather than split across separate tools with no shared context.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies onboarding, identity, device, account, transaction, payment, wallet, payout, repayment, fraud, and AML signals into a connected investigation context - making the full user and payment lifecycle visible to risk teams rather than fragmented across separate tools.</p>
+               </div>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Graph-Based Detection of Account Farming, Referral Abuse, Synthetic Identity, and Payout Networks</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph-native intelligence layer maps relationships across users, devices, accounts, payments, wallets, payout destinations, and behavioral signals - surfacing account farming cohorts, referral abuse rings, synthetic identity clusters, and cross-product device reuse that transaction-level and rules-based detection cannot see.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye maps relationships across users, devices, accounts, payments, wallets, payout destinations, and behavioral signals - surfacing account farming cohorts, referral abuse rings, synthetic identity clusters, and cross-product device reuse that transaction-level and rules-based detection cannot see.</p>
+                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                 </Link>
+diff --git a/app/industries/marketplaces/page.js b/app/industries/marketplaces/page.js
+index 47587d4..1055b56 100644
+--- a/app/industries/marketplaces/page.js
++++ b/app/industries/marketplaces/page.js
+@@ -94,7 +94,7 @@ export default function MarketplacesPage() {
+                 gradient: 'gradient-bg-2',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" x2="6" y1="1" y2="4"/><line x1="10" x2="10" y1="1" y2="4"/><line x1="14" x2="14" y1="1" y2="4"/></svg>),
+                 title: 'Coordinated Account Abuse Across Buyer and Seller Surfaces',
+-                body: 'ATO, synthetic identity clusters, shared device reuse, and promo abuse operating across both buyer and seller surfaces feed the same coordinated networks - but fragmented signals held in separate systems make the cross-surface connections impossible to see without a shared investigation layer.',
++                body: 'ATO, synthetic identity clusters, shared device reuse, and promo abuse operating across both buyer and seller surfaces feed the same coordinated networks - but fragmented signals held in separate systems make the cross-surface connections impossible to see without connected cross-surface case context.',
+               },
+             ].map(item => (
+               <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
+@@ -116,7 +116,7 @@ export default function MarketplacesPage() {
+               What Verafye Is - and What It Is Not
+             </h2>
+             <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--body)', marginTop: '0.75rem', lineHeight: 1.7 }}>
+-              Verafye is a graph-native network risk intelligence and investigation layer. It connects signals across the marketplace lifecycle into evidence-backed investigation cases. It is not a content moderation, trust-and-safety, or marketplace policy system.
++              Verafye is a graph-native Network Risk Intelligence platform applied to marketplace risk. It connects signals across the marketplace lifecycle into evidence-backed investigation cases. It is not a content moderation, trust-and-safety, or marketplace policy system.
+             </p>
+           </div>
+           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))', gap: '1rem' }}>
+@@ -139,7 +139,7 @@ export default function MarketplacesPage() {
+               {
+                 icon: (<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>),
+                 label: 'Not a replacement for marketplace ops tools',
+-                body: 'Verafye works alongside existing marketplace operations, seller management, and abuse tooling.',
++                body: 'Verafye investigates coordinated financial and transactional risk patterns. Marketplace operations, seller management, and existing abuse tooling retain their own functions.',
+               },
+             ].map(item => (
+               <div key={item.label} style={{ background: '#fff', border: '1px solid var(--border)', borderRadius: '10px', padding: '1.25rem 1.5rem' }}>
+@@ -167,7 +167,7 @@ export default function MarketplacesPage() {
+             {[
+               {
+                 title: 'Connect seller, buyer, listing, device, payout, payment, refund, dispute, and review signals',
+-                body: 'Verafye brings together signals from seller onboarding, listing activity, payments, payouts, device fingerprinting, buyer behavior, refund and return history, disputes, and review patterns into one connected investigation layer - giving analysts the full lifecycle signal picture before any decision is made.',
++                body: 'Verafye connects signals from seller onboarding, listing activity, payments, payouts, device fingerprinting, buyer behavior, refund and return history, disputes, and review patterns into investigation-ready cases - giving analysts the full lifecycle signal picture before any decision is made.',
+               },
+               {
+                 title: 'Surface seller fraud rings, buyer-seller collusion, and coordinated abuse as connected cases',
+@@ -267,7 +267,7 @@ export default function MarketplacesPage() {
+               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.5rem' }}>After Verafye</p>
+               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                 {[
+-                  'Seller, buyer, listing, device, payout, payment, refund, dispute, and review signals connected in one investigation layer',
++                  'Seller, buyer, listing, device, payout, payment, refund, dispute, and review signals resolved and connected into investigation-ready cases',
+                   'Seller fraud rings, collusion clusters, and coordinated abuse surfaced as connected cases - related accounts linked with graph evidence',
+                   'Refund, promo, and review abuse networks visible as connected schemes rather than isolated policy incidents',
+                   'Payout abuse and suspicious consolidation patterns mapped with graph context before they escalate externally',
+@@ -318,7 +318,7 @@ export default function MarketplacesPage() {
+             See Marketplace Network Risk Investigation in Practice
+           </h2>
+           <p style={{ fontSize: 'clamp(0.9375rem,1.8vw,1.125rem)', color: 'var(--body)', marginBottom: '2.5rem', lineHeight: 1.7 }}>
+-            Start with a scoped workflow across seller fraud rings, payout abuse, refund and promo schemes, or dispute manipulation. Verafye works alongside existing trust-and-safety, payment, and fraud tooling as an independent investigation intelligence layer.
++            Start with a scoped workflow across seller fraud rings, payout abuse, refund and promo schemes, or dispute manipulation. Verafye applies Network Risk Intelligence to connected seller, buyer, device, payment, and payout relationships, complementing existing trust-and-safety, payment, and fraud tooling.
+           </p>
+           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
+             <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
+diff --git a/app/industries/msbs-remittance-platforms/page.js b/app/industries/msbs-remittance-platforms/page.js
+index e0636a6..19bcc5d 100644
+--- a/app/industries/msbs-remittance-platforms/page.js
++++ b/app/industries/msbs-remittance-platforms/page.js
+@@ -108,7 +108,7 @@ export default function MSBsRemittancePlatformsPage() {
+                 Network Risk Intelligence for Remittance Compliance Operations
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+-                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Adoption starts with a scoped pilot alongside existing systems - expanding network coverage as outcomes are proven.
++                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye can begin with a scoped pilot on agreed data feeds, expanding network coverage as outcomes are proven.
+               </p>
+             </div>
+             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+diff --git a/app/industries/payment-processors-psps-payfacs/page.js b/app/industries/payment-processors-psps-payfacs/page.js
+index dd20076..5bcb8da 100644
+--- a/app/industries/payment-processors-psps-payfacs/page.js
++++ b/app/industries/payment-processors-psps-payfacs/page.js
+@@ -42,7 +42,7 @@ export default function PaymentProcessorsPage() {
+               Verafye helps PSPs, PayFacs, and payment processors detect network-level risk across merchants, accounts, devices, identities, transactions, beneficiaries, and payouts.
+             </p>
+             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
+-              Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Start with a scoped pilot alongside existing systems and expand network coverage across teams, programs and corridors as outcomes are proven.
++              Verafye helps payment platforms detect connected risk patterns across merchants, sub-merchants, beneficiaries, accounts, users, counterparties, and transactions - turning fragmented fraud and AML alerts into investigation-ready cases with evidence packs and audit-ready records your risk team can act on faster. Verafye can begin with selected alerts, payment records, and entity data. Following validation, customers may expand into Verafye-led investigation, evidence, and decision operations across teams, programs, and corridors.
+             </p>
+             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
+               <Link href="/risk-shadowing-review" className="btn-primary">
+@@ -142,7 +142,7 @@ export default function PaymentProcessorsPage() {
+                 gradient: 'gradient-bg-3',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
+                 title: 'Signals Across Systems Remain Disconnected',
+-                body: 'Device intelligence, behavioural signals, transaction data, and merchant attributes are rarely connected into a shared intelligence layer - leaving cross-signal patterns that indicate coordinated fraud undetected across the stack.',
++                body: 'Device intelligence, behavioural signals, transaction data, and merchant attributes are rarely connected into a single risk view - leaving cross-signal patterns that indicate coordinated fraud undetected across the platform.',
+               },
+               {
+                 gradient: 'gradient-bg-4',
+@@ -183,12 +183,12 @@ export default function PaymentProcessorsPage() {
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Merchant, Transaction, Device, and Behavioral Signals</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies merchant risk signals, transaction data, device intelligence, and behavioural patterns into one connected layer - enabling cross-domain detection that individual point solutions cannot provide.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies merchant risk signals, transaction data, device intelligence, and behavioural patterns into a connected investigation context - enabling cross-domain detection that individual point solutions cannot provide.</p>
+               </div>
+               <div className="card" style={{ padding: '2rem' }}>
+                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
+                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Graph-Based Fraud Detection</h3>
+-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>A graph-native intelligence layer connects entities across merchants, devices, accounts, and transactions - surfacing coordinated fraud rings, card testing networks, and synthetic merchant schemes that transaction-level scoring misses.</p>
++                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye resolves entities and maps relationships across merchants, devices, accounts, and transactions - surfacing coordinated fraud rings, card testing networks, and synthetic merchant schemes that transaction-level scoring misses.</p>
+                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                 </Link>
+@@ -233,7 +233,7 @@ export default function PaymentProcessorsPage() {
+               {
+                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
+                 title: 'Cross-merchant signal aggregation',
+-                body: 'Bring together payment, merchant, sub-merchant, beneficiary, account, mule, user, counterparty, fraud, and AML signals in one investigation layer - supporting both fraud and AML alert context for payment risk operations.',
++                body: 'Bring together payment, merchant, sub-merchant, beneficiary, account, mule, user, counterparty, fraud, and AML signals into a connected investigation context - supporting both fraud and AML case coverage for payment risk operations.',
+                 href: '/platform',
+                 cta: 'View Platform',
+               },
+@@ -352,7 +352,7 @@ export default function PaymentProcessorsPage() {
+           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', letterSpacing: '-0.02em' }}>
+             Verafye Across Financial Institution Types
+           </h2>
+-          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - start with a scoped pilot alongside existing systems and expand network coverage across teams, programs and corridors as outcomes are proven.</p>
++          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - beginning with a scoped pilot on agreed data feeds and expanding network coverage across teams, programs, and corridors as outcomes are proven.</p>
+           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.75rem' }}>
+             <Link href="/industries/banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
+               Banks <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+diff --git a/app/page.js b/app/page.js
+index 26ea42e..8818305 100644
+--- a/app/page.js
++++ b/app/page.js
+@@ -238,7 +238,7 @@ export default function Page() {
+         <p style={{'fontSize':'0.6875rem','fontWeight':'700','textTransform':'uppercase','letterSpacing':'0.1em','color':'var(--primary)','marginBottom':'1.5rem'}}>After Verafye</p>
+         <div style={{'display':'flex','flexDirection':'column','gap':'1.125rem'}}>
+           {[
+-            'Fraud, AML, payment, identity, device, and behavior signals connected in one investigation layer',
++            'Fraud, AML, payment, identity, device, and behavior signals resolved into investigation-ready cases and evidence',
+             'Analysts start with structured case context, summaries, and suggested next steps',
+             'Graph intelligence surfaces hidden networks across accounts, devices, and counterparties',
+             'Every decision is documented with audit logs, notes, and case evidence trails',
+@@ -536,7 +536,7 @@ export default function Page() {
+     </div>
+ 
+     <div style={{'textAlign':'center','maxWidth':'44rem','margin':'0 auto','padding':'1.75rem 2rem','background':'var(--bg-tint)','borderRadius':'0.875rem','border':'1px solid var(--border)'}}>
+-      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--dark)','fontWeight':'600','lineHeight':1.65,'margin':0}}>Verafye connects those signals into investigation-ready cases — without replacing your existing detection systems.</p>
++      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--dark)','fontWeight':'600','lineHeight':1.65,'margin':0}}>Verafye connects those signals into investigation-ready cases - starting with selected data feeds from your existing systems and expanding into Verafye-led workflows as outcomes are proven.</p>
+     </div>
+ 
+   </div>
+@@ -608,7 +608,7 @@ export default function Page() {
+         <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
+           <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+           <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>BaaS &amp; Embedded Finance Providers</h3>
+-          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>An independent Network Risk Intelligence layer across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
++          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Graph-native Network Risk Intelligence across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
+           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
+             View solution
+             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+@@ -701,7 +701,7 @@ export default function Page() {
+   `}</style>
+   <div className="container">
+     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
+-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE NETWORK RISK INTELLIGENCE LAYER FOR LEAN RISK TEAMS</p>
++      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE NETWORK RISK INTELLIGENCE PLATFORM FOR LEAN RISK TEAMS</p>
+       <h2 style={{'fontSize':'clamp(1.25rem,3.5vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Detect. Connect. Investigate. Decide.</h2>
+     </div>
+ 
+@@ -730,10 +730,10 @@ export default function Page() {
+         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B8C8DA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+       </div>
+ 
+-      {/* CENTER: Verafye Intelligence Layer */}
++      {/* CENTER: Verafye Network Risk Intelligence */}
+       <div style={{'background':'linear-gradient(160deg,#0F2B5B 0%,#1A5EA0 100%)','borderRadius':'20px','padding':'2.5rem 1.75rem','color':'#fff','boxShadow':'0 8px 36px rgba(30,111,183,0.22), 0 2px 8px rgba(0,0,0,0.1)'}}>
+         <p style={{'fontSize':'0.5625rem','fontWeight':'700','letterSpacing':'0.14em','textTransform':'uppercase','color':'rgba(255,255,255,0.5)','marginBottom':'0.375rem'}}>Verafye</p>
+-        <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','marginBottom':'0.25rem','lineHeight':1.2}}>Intelligence Layer</p>
++        <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','marginBottom':'0.25rem','lineHeight':1.2}}>Network Risk Intelligence</p>
+         <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.6)','marginBottom':'1.75rem'}}>Graph-native · Detection-capable · Audit-ready</p>
+         <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem'}}>
+           {[
+@@ -824,7 +824,7 @@ export default function Page() {
+       See how Verafye connects your investigations
+     </h2>
+     <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>
+-      Request a Risk Shadowing Review and see connected risk across your existing alerts - without replacing any of your current systems. You receive an investigation-ready evidence pack with linked case clusters, risk indicators, and analyst review steps.
++      Request a Risk Shadowing Review and see connected network risk across your existing alerts. You receive an investigation-ready evidence pack with linked case clusters, risk indicators, and analyst review steps.
+     </p>
+     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
+       <Link href="/risk-shadowing-review" className="btn-primary">
+@@ -836,7 +836,7 @@ export default function Page() {
+       <Link href="/platform" className="btn-secondary">Explore Platform</Link>
+     </div>
+     <p style={{'fontSize':'0.875rem','color':'var(--primary)','fontWeight':'600','marginTop':'1.75rem','letterSpacing':'-0.01em'}}>
+-      API-led alongside your existing systems. Connected risk outputs in 2 weeks.
++      API-connected to selected data sources. Investigation-ready risk outputs in 2 weeks.
+     </p>
+     <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'0.5rem'}}>
+       No commitment required. Speak directly with our solutions team.
+diff --git a/app/partners/page.js b/app/partners/page.js
+index 9db726a..378b830 100644
+--- a/app/partners/page.js
++++ b/app/partners/page.js
+@@ -32,10 +32,10 @@ export default function PartnersPage() {
+               Partner with Verafye
+             </h1>
+             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
+-              Collaborate with Verafye to bring connected investigation intelligence to regulated payment platforms, fintechs, digital banks, and financial institutions globally.
++              Collaborate with Verafye to bring connected risk detection and investigation to regulated payment platforms, payment fintechs, digital banks, and financial institutions.
+             </p>
+             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
+-              We work with strategic partners, system integrators, and ecosystem players to deliver scalable fraud, risk, and AML intelligence solutions. Partners, BaaS providers, embedded finance platforms, processors, consultants, and technology providers can use Verafye to extend network-risk visibility across client programs, sponsor-bank relationships, payment flows, identity signals, device patterns, and investigation workflows.
++              We work with referral and advisory partners, regional GTM partners, implementation and consulting firms, and technology partners to help regulated payment institutions, payment fintechs, and digital banks identify coordinated risk, form investigation-ready cases, and operationalise evidence-grade investigation workflows. Partner engagements begin with a clearly identified customer problem, agreed target segments, and a joint plan.
+             </p>
+             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
+               <Link href="/become-a-partner" className="btn-primary">
+@@ -68,8 +68,8 @@ export default function PartnersPage() {
+                     <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+                   </svg>
+                 ),
+-                title: 'Intelligent Investigation Layer',
+-                body: 'Verafye is purpose-built for the investigation infrastructure modernisation cycle underway across banks, payment processors, and fintech platforms - giving partners a differentiated, in-demand solution to bring to market.',
++                title: 'Purpose-Built Network Risk Intelligence Platform',
++                body: 'Verafye is purpose-built for regulated payment platforms facing connected-risk problems that rule-based detection and siloed alert queues cannot resolve - giving partners a technically differentiated, in-demand solution to bring to qualified customers in payment, fintech, and financial institution markets.',
+               },
+               {
+                 gradient: 'gradient-bg-2',
+@@ -79,7 +79,7 @@ export default function PartnersPage() {
+                   </svg>
+                 ),
+                 title: 'Graph-Based Intelligence Differentiation',
+-                body: 'Graph-native detection and investigation intelligence represents a genuine architectural differentiation in the financial crime market - providing partners with a compelling, technically distinctive proposition across fraud, AML, and payments conversations.',
++                body: 'Graph-native risk detection and investigation represents a genuine architectural differentiation in the financial crime market - providing partners with a compelling, technically distinctive proposition across fraud, AML, and payments conversations.',
+               },
+               {
+                 gradient: 'gradient-bg-3',
+@@ -109,7 +109,7 @@ export default function PartnersPage() {
+                   </svg>
+                 ),
+                 title: 'Flexible Commercial Models',
+-                body: 'Verafye works with partners to develop commercial arrangements appropriate to the partnership model - whether resale, referral, co-sell, or deeper strategic collaboration - with flexibility designed to support sustainable, long-term partner relationships.',
++                body: 'Verafye works with partners to develop commercial arrangements appropriate to the partnership model - whether referral, advisory engagement, implementation support, or deeper strategic collaboration - with flexibility designed to support sustainable, long-term partner relationships.',
+               },
+             ].map(item => (
+               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
+@@ -139,9 +139,9 @@ export default function PartnersPage() {
+                     <path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M9 21V9"/>
+                   </svg>
+                 ),
+-                title: 'Channel and Reseller Partners',
+-                body: 'Channel and reseller partners bring Verafye to financial institutions within their existing customer base or regional focus - selling, co-selling, or distributing the Verafye platform with commercial terms designed to support scalable, repeatable partner revenue.',
+-                tags: ['Resale', 'Co-sell', 'Regional distribution'],
++                title: 'Referral and Advisory Partners',
++                body: 'Referral and advisory partners introduce qualified regulated payment institutions, fintech platforms, and financial institutions to Verafye. They support executive access, provide market context, and facilitate the first qualified opportunity conversation around a connected-risk or investigation challenge.',
++                tags: ['Introductions', 'Advisory', 'Opportunity facilitation'],
+               },
+               {
+                 icon: (
+@@ -149,9 +149,9 @@ export default function PartnersPage() {
+                     <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
+                   </svg>
+                 ),
+-                title: 'System Integrators',
+-                body: 'System integrators implement and integrate Verafye within broader financial crime technology programmes - connecting the platform to existing fraud, AML, payments, and case management infrastructure as part of large-scale institutional transformation projects.',
+-                tags: ['Implementation', 'Integration', 'Programme delivery'],
++                title: 'Implementation and Consulting Partners',
++                body: 'Implementation and consulting partners support data mapping, integration planning, workflow configuration, and customer enablement - helping regulated institutions operationalise Verafye within the agreed deployment scope and use cases.',
++                tags: ['Data mapping', 'Workflow configuration', 'Customer enablement'],
+               },
+               {
+                 icon: (
+@@ -159,8 +159,8 @@ export default function PartnersPage() {
+                     <circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/>
+                   </svg>
+                 ),
+-                title: 'Technology and Platform Partnerships',
+-                body: 'Technology partners integrate Verafye capabilities into their own platforms or connect their technology into the Verafye intelligence layer - creating joint solutions that extend value for mutual customers across fraud, AML, and payments workflows.',
++                title: 'Technology and Data Partners',
++                body: 'Technology and data partners connect complementary identity, device, payment, or risk capabilities with the Verafye platform - extending the signals and operational context available for connected-risk detection and investigation.',
+                 tags: ['API integration', 'Joint solutions', 'Ecosystem'],
+               },
+               {
+@@ -170,7 +170,7 @@ export default function PartnersPage() {
+                   </svg>
+                 ),
+                 title: 'Strategic Alliances',
+-                body: 'Strategic alliances are built with organisations sharing a common vision around financial crime infrastructure modernisation - including joint go-to-market programmes, co-developed solutions, and collaborative engagement across target markets and customer segments.',
++                body: 'Strategic partnerships are explored with organisations sharing a common focus on regulated financial-crime risk - including verified joint GTM programmes, collaborative engagement across shared target customer segments, and co-developed capabilities where appropriate.',
+                 tags: ['Joint GTM', 'Co-development', 'Strategic alignment'],
+               },
+             ].map(item => (
+@@ -206,8 +206,8 @@ export default function PartnersPage() {
+                     <rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/>
+                   </svg>
+                 ),
+-                title: 'System Integrators',
+-                body: 'Large and mid-tier SIs delivering financial crime, compliance, and risk technology programmes to banks and financial institutions - looking for modern, integrable fraud and AML intelligence platforms.',
++                title: 'Referral and Advisory Partners',
++                body: 'Executive-level advisors, financial crime specialists, and industry consultants who can introduce Verafye to qualified regulated payment institutions with a connected-risk or investigation problem.',
+               },
+               {
+                 icon: (
+@@ -215,8 +215,8 @@ export default function PartnersPage() {
+                     <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/>
+                   </svg>
+                 ),
+-                title: 'Banking Technology Providers',
+-                body: 'Core banking, digital banking, and financial infrastructure providers whose customers - mid-market banks, community banks, and regional financial institutions - face growing financial crime and compliance demands.',
++                title: 'Technology and Data Partners',
++                body: 'Technology and data providers with complementary identity, device, payment, or risk capabilities that can extend the signals available for connected-risk detection and investigation on the Verafye platform.',
+               },
+               {
+                 icon: (
+@@ -224,8 +224,8 @@ export default function PartnersPage() {
+                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                   </svg>
+                 ),
+-                title: 'Consulting Firms',
+-                body: 'Risk, compliance, and financial crime consulting firms advising banks, fintechs, and payment platforms on infrastructure modernisation, regulatory response, and operational improvement programmes.',
++                title: 'Implementation and Consulting Firms',
++                body: 'Risk, compliance, and financial crime consulting firms that help regulated payment platforms and financial institutions map data, configure workflows, and operationalise Verafye within agreed deployment scope.',
+               },
+               {
+                 icon: (
+@@ -233,8 +233,8 @@ export default function PartnersPage() {
+                     <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
+                   </svg>
+                 ),
+-                title: 'Regional Distribution Partners',
+-                body: 'Partners with established relationships and market presence in specific geographies - enabling Verafye to reach financial institutions across regional markets through trusted, locally-connected distribution channels.',
++                title: 'Regional and GTM Partners',
++                body: 'Partners with established relationships and market presence in specific geographies - enabling Verafye to identify, qualify and progress Network Risk Intelligence opportunities in agreed markets and customer segments.',
+               },
+             ].map(item => (
+               <div key={item.title} className="card card-elevated" style={{ padding: '2rem' }}>
+@@ -275,7 +275,7 @@ export default function PartnersPage() {
+                 {
+                   step: '03',
+                   title: 'Flexible Commercial Arrangements',
+-                  body: 'Commercial arrangements are developed to suit the partnership model - whether referral, resale, co-sell, or deeper strategic collaboration. Verafye is committed to commercial structures that support sustainable partner economics and long-term relationship value.',
++                  body: 'Commercial arrangements are developed to suit the partnership model - whether referral, advisory engagement, implementation support, or deeper strategic collaboration. Verafye is committed to commercial structures that support sustainable partner economics and long-term relationship value.',
+                 },
+                 {
+                   step: '04',
+diff --git a/app/platform/page.js b/app/platform/page.js
+index 2c17446..6aa88a5 100644
+--- a/app/platform/page.js
++++ b/app/platform/page.js
+@@ -29,13 +29,13 @@ export default function PlatformPage() {
+   seoH1="Financial Crime Detection Platform"
+   title="Network Risk Intelligence for Modern Financial Crime Operations"
+   description="Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
+-  body="Built for teams operating under growing regulatory and operational complexity - start with a scoped pilot alongside existing systems and expand network coverage as outcomes are proven."
++  body="Built for teams operating under growing regulatory and operational complexity - connect selected data sources, expand coverage through proven stages, and build toward Verafye-led detection, investigation, and decisioning workflows."
+   primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
+   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
+   visualCard={<PlatformVisualCard />}
+ />
+ 
+-{/* INVESTIGATION LAYER OVERVIEW */}
++{/* PLATFORM CAPABILITY OVERVIEW */}
+ <section style={{'padding':'4rem 0','background':'#fff'}}>
+   <div className="container" style={{'maxWidth':'72rem'}}>
+     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
+@@ -252,7 +252,7 @@ export default function PlatformPage() {
+     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
+       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>HOW IT WORKS</p>
+       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'0.875rem'}}>From signals to outcomes - one connected flow</h2>
+-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye detects hidden network risk through graph-native intelligence, risk scoring, relationship analysis, and signal correlation - then carries that risk through clustering, investigation, and audit-ready decisions in one connected flow. Detection-capable and investigation-first, working alongside the systems you already run.</p>
++      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye detects hidden network risk through graph-native intelligence, risk scoring, relationship analysis, and signal correlation - then carries that risk through clustering, investigation, and audit-ready decisions in one connected flow. Detection-capable and investigation-first, built to connect selected data sources into a unified risk intelligence workflow.</p>
+     </div>
+ 
+     {/* Horizontal flow - scrollable on mobile */}
+@@ -392,17 +392,28 @@ export default function PlatformPage() {
+   <div className="container" style={{'maxWidth':'64rem'}}>
+     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
+       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>FLEXIBLE ADOPTION</p>
+-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Two ways to adopt Verafye</h2>
++      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>A phased path to Verafye-led workflows</h2>
+       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto'}}>
+-        Verafye is designed for flexible adoption. Start alongside existing systems by ingesting alerts, transactions, events, entities, device signals, identity signals, payment data, behavioral signals, and case data. Expand into graph-native detection, risk scoring, clustering, case workflow, evidence management, and decisioning as value is proven.
+-      </p>
+-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'1.25rem auto 0'}}>
+-        Teams across payment-led and regulated financial platforms can use Verafye as an independent Network Risk Intelligence layer to connect fraud, AML, payment, ledger, identity, KYC/KYB, device, merchant, beneficiary, program, partner, and case signals across fragmented systems - supporting investigation and oversight workflows without replacing existing systems. Inputs are configurable based on segment, use case, and available data.
++        Verafye is designed for outcome-led adoption. Begin with a scoped Risk Shadowing Review on selected data sources, then expand detection, investigation, and decisioning coverage as value is proven at each stage.
+       </p>
+     </div>
++    <div style={{'display':'grid','gridTemplateColumns':'repeat(auto-fit,minmax(13rem,1fr))','gap':'1.25rem','maxWidth':'56rem','margin':'0 auto 2rem'}}>
++      {[
++        { stage: '01', label: 'Shadow', desc: 'Connect selected data feeds. Run Verafye in observation mode. Receive an investigation-ready evidence pack with network risk findings from your live data.' },
++        { stage: '02', label: 'Augment', desc: 'Verafye risk context surfaces within investigation workflows. Teams begin actioning Verafye-led clusters and investigation-ready cases.' },
++        { stage: '03', label: 'Operate', desc: 'Verafye becomes the primary investigation workspace. Detection, case formation, and audit-ready decisions run through the Verafye platform.' },
++        { stage: '04', label: 'Consolidate', desc: 'Verafye-led workflows replace point tools and fragmented processes. Network risk coverage across fraud, AML, and payments is driven by the Verafye platform.' },
++      ].map(item => (
++        <div key={item.stage} style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'12px','padding':'1.5rem'}}>
++          <div style={{'fontSize':'0.5625rem','fontWeight':'800','color':'var(--primary)','letterSpacing':'0.1em','textTransform':'uppercase','marginBottom':'0.5rem'}}>{item.stage}</div>
++          <div style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem'}}>{item.label}</div>
++          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.65,'margin':0}}>{item.desc}</p>
++        </div>
++      ))}
++    </div>
+     <blockquote style={{'margin':'0 auto','maxWidth':'46rem','padding':'2rem 2.5rem','background':'linear-gradient(165deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'14px','textAlign':'center'}}>
+       <p style={{'fontSize':'clamp(1.0625rem,2.2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','lineHeight':1.4,'letterSpacing':'-0.02em','margin':0}}>
+-        Start alongside existing systems. Expand into broader detection, investigation, and decisioning workflows as value is proven.
++        Start with a scoped Risk Shadowing Review on selected data sources. Expand into detection, investigation, and decisioning workflows as outcomes are proven.
+       </p>
+     </blockquote>
+   </div>
+@@ -499,13 +510,13 @@ export default function PlatformPage() {
+         </div>
+       </div>
+ 
+-      {/* Stage 2 - Connected Risk Layer */}
++      {/* Stage 2 - Entity and Network Intelligence */}
+       <div className="arch-card" style={{'borderTopColor':'#7C3AED'}}>
+         <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
+           <div style={{'width':'1.75rem','height':'1.75rem','borderRadius':'50%','background':'#7C3AED','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
+             <span style={{'fontSize':'0.5625rem','fontWeight':'800','color':'#fff','letterSpacing':'-0.02em'}}>02</span>
+           </div>
+-          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em'}}>Connected Risk Layer</span>
++          <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em'}}>Entity and Network Intelligence</span>
+         </div>
+         <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Graph-native intelligence</h3>
+         <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
+diff --git a/app/request-demo/RequestDemoClient.js b/app/request-demo/RequestDemoClient.js
+index 3e60fae..0b48a95 100644
+--- a/app/request-demo/RequestDemoClient.js
++++ b/app/request-demo/RequestDemoClient.js
+@@ -285,7 +285,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
+                         </svg>
+                       ),
+                       title: 'Cross-System Intelligence',
+-                      desc: 'See how Verafye unifies signals from fraud, AML, and payments systems into a single connected intelligence layer.',
++                      desc: 'See how Verafye connects signals from fraud, AML, and payments systems into one network-level investigation view.',
+                     },
+                     {
+                       icon: (
+@@ -320,7 +320,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
+                   {[
+                     { n: '1', title: 'Intro call to understand your use case', desc: 'A brief conversation to learn about your environment, team, and priorities.' },
+                     { n: '2', title: 'Tailored product walkthrough', desc: 'A focused walkthrough built around the scenarios most relevant to your institution.' },
+-                    { n: '3', title: 'Deployment and integration discussion', desc: 'An overview of how Verafye connects to your existing stack and data sources.' },
++                    { n: '3', title: 'Deployment and integration discussion', desc: 'An overview of how Verafye connects risk signals, identifies network-level activity, and forms investigation-ready cases.' },
+                     { n: '4', title: 'Next steps aligned to your environment', desc: 'Clear, no-pressure guidance on how to evaluate Verafye within your organisation.' },
+                   ].map(item => (
+                     <div key={item.n} style={{ display: 'flex', gap: '0.875rem', alignItems: 'flex-start' }}>
+diff --git a/app/resources/ResourcesClient.js b/app/resources/ResourcesClient.js
+index 6e85619..8db1dad 100644
+--- a/app/resources/ResourcesClient.js
++++ b/app/resources/ResourcesClient.js
+@@ -21,8 +21,8 @@ const resources = [
+   {
+     category: 'product-insights',
+     categoryLabel: 'Product Insights',
+-    title: 'The Missing Layer in Modern Financial Crime Investigations',
+-    summary: 'Understand why modern financial crime teams need investigation intelligence to connect fragmented alerts, risk signals, workflows, and evidence trails into explainable decisions.',
++    title: 'What Is Investigation Intelligence?',
++    summary: 'Understand how Investigation Intelligence connects fragmented alerts, risk signals, workflows, and evidence trails into structured, explainable, and audit-ready investigations.',
+     readingTime: '5 min read',
+     ctaLabel: 'Read Article',
+     href: '/resources/what-is-investigation-intelligence/',
+diff --git a/app/resources/evidence-packs-audit-ready-investigation-records/page.js b/app/resources/evidence-packs-audit-ready-investigation-records/page.js
+index 4b42eb9..304ae0c 100644
+--- a/app/resources/evidence-packs-audit-ready-investigation-records/page.js
++++ b/app/resources/evidence-packs-audit-ready-investigation-records/page.js
+@@ -27,7 +27,7 @@ const ARROW = (
+ 
+ const relatedResources = [
+   {
+-    title: 'The Missing Layer in Modern Financial Crime Investigations',
++    title: 'What Is Investigation Intelligence?',
+     category: 'Product Insights',
+     readingTime: '5 min read',
+     href: '/resources/what-is-investigation-intelligence/',
+diff --git a/app/resources/from-alerts-to-decisions-risk-team-operating-model/page.js b/app/resources/from-alerts-to-decisions-risk-team-operating-model/page.js
+index 2b798eb..99f6abd 100644
+--- a/app/resources/from-alerts-to-decisions-risk-team-operating-model/page.js
++++ b/app/resources/from-alerts-to-decisions-risk-team-operating-model/page.js
+@@ -27,7 +27,7 @@ const ARROW = (
+ 
+ const relatedResources = [
+   {
+-    title: 'The Missing Layer in Modern Financial Crime Investigations',
++    title: 'What Is Investigation Intelligence?',
+     category: 'Product Insights',
+     readingTime: '5 min read',
+     href: '/resources/what-is-investigation-intelligence/',
+diff --git a/app/resources/mule-account-investigations-connected-signals/page.js b/app/resources/mule-account-investigations-connected-signals/page.js
+index a5a4e7e..676e647 100644
+--- a/app/resources/mule-account-investigations-connected-signals/page.js
++++ b/app/resources/mule-account-investigations-connected-signals/page.js
+@@ -27,7 +27,7 @@ const ARROW = (
+ 
+ const relatedResources = [
+   {
+-    title: 'The Missing Layer in Modern Financial Crime Investigations',
++    title: 'What Is Investigation Intelligence?',
+     category: 'Product Insights',
+     readingTime: '5 min read',
+     href: '/resources/what-is-investigation-intelligence/',
+@@ -272,7 +272,7 @@ export default function ArticlePage() {
+               Mule account activity often cuts across both fraud and AML responsibilities. A fraud team may see account misuse, payment anomalies, and device-level evidence of coordinated activity. An AML team may see suspicious transaction flows, beneficiary networks that look like transaction laundering, and unusual movement of funds across accounts and jurisdictions.
+             </p>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              If these teams work from disconnected systems, they may review the same pattern twice - or worse, miss it entirely. A shared investigation layer that brings together fraud, AML, payment, identity, device, and case signals into a connected workflow can help:
++              If these teams work from disconnected systems, they may review the same pattern twice - or worse, miss it entirely. When fraud, AML, payment, identity, device, and case signals are brought together into a connected investigation workflow, teams are better positioned to:
+             </p>
+             <BulletList items={[
+               'Align fraud and AML perspectives.',
+diff --git a/app/resources/mule-detection-in-remittance/page.js b/app/resources/mule-detection-in-remittance/page.js
+index c813f31..c3917bc 100644
+--- a/app/resources/mule-detection-in-remittance/page.js
++++ b/app/resources/mule-detection-in-remittance/page.js
+@@ -190,7 +190,7 @@ export default function ArticlePage() {
+               'Investigator analysis and escalation rationale, documented in a structured format that can support SAR narrative and regulatory examination.',
+             ]} />
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
+-              Building this view from disconnected systems — transaction platforms, onboarding records, device logs, prior case files — introduces time delays, inconsistencies, and coverage gaps. An investigation layer that connects these signals from the start produces a more complete and defensible case record.
++              Building this view from disconnected systems — transaction platforms, onboarding records, device logs, prior case files — introduces time delays, inconsistencies, and coverage gaps. When these signals are connected from the start of an investigation rather than assembled manually, the result is a more complete and defensible case record.
+             </p>
+ 
+             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
+@@ -216,7 +216,7 @@ export default function ArticlePage() {
+                 Mule networks in remittance and cross-border payment operations are structured to be invisible at the transaction level. They only become visible when the signals connecting senders, accounts, devices, and beneficiaries are mapped at the network level.
+               </p>
+               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, margin: 0 }}>
+-                MSBs and remittance platforms that add a graph-native investigation layer above their existing detection systems can surface these networks earlier, investigate faster, and build the evidence trail needed for SAR filing and regulatory examination.
++                For MSBs and remittance platforms, connecting sender, beneficiary, device, and transaction signals at the network level surfaces coordinated mule patterns earlier, enables faster investigation, and builds the evidence trail needed for SAR filing and regulatory examination.
+               </p>
+             </div>
+ 
+diff --git a/app/resources/network-risk-vs-alert-based-detection/page.js b/app/resources/network-risk-vs-alert-based-detection/page.js
+index d7d153b..a50bed6 100644
+--- a/app/resources/network-risk-vs-alert-based-detection/page.js
++++ b/app/resources/network-risk-vs-alert-based-detection/page.js
+@@ -40,7 +40,7 @@ const relatedResources = [
+     ctaLabel: 'Read Insight',
+   },
+   {
+-    title: 'The Missing Layer in Modern Financial Crime Investigations',
++    title: 'What Is Investigation Intelligence?',
+     category: 'Product Insights',
+     readingTime: '5 min read',
+     href: '/resources/what-is-investigation-intelligence/',
+@@ -160,7 +160,7 @@ export default function ArticlePage() {
+               The consequence is not just speed. It is coverage. When investigators cannot quickly connect related alerts and signals, they tend to close or deprioritize cases that appear isolated but are actually linked. A coordinated ring may generate a dozen alerts across different accounts, all of which get reviewed individually and none of which get escalated as a connected network.
+             </p>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
+-              This is where the structural limitation of alert-based detection becomes operationally significant. More alerts does not mean better coverage. It means more queue — unless there is a layer that connects those alerts into cases.
++              This is where the structural limitation of alert-based detection becomes operationally significant. More alerts does not mean better coverage. It means more queue — unless those alerts are connected into cases with shared entity and relationship context.
+             </p>
+ 
+             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
+@@ -196,14 +196,14 @@ export default function ArticlePage() {
+               'Case closure rates improve because investigators can make supported decisions rather than relying on incomplete context.',
+             ]} />
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
+-              This does not require replacing existing detection systems. Alert-based tools continue to generate the signals. What changes is the layer above them — the one that connects those signals into cases that investigators can actually work from.
++              Alert-based tools continue to generate useful signals. What is often missing is the capability to connect those signals into cases that investigators can actually work from — by resolving entities, mapping relationships, and surfacing coordinated patterns across accounts, devices, and corridors.
+             </p>
+ 
+             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
+               How Verafye Supports Network-Level Investigation
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              Verafye is built on a graph-native architecture that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms — and turns them into investigation-ready cases. It does not replace existing fraud or AML detection systems. It sits above them, connecting their outputs into a shared investigation layer.
++              Verafye is a graph-native Network Risk Intelligence platform that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms — and turns them into investigation-ready cases. Verafye may begin with selected signal feeds from existing detection systems, connecting those alongside other sources into a coordinated, network-level investigation view.
+             </p>
+             <BulletList items={[
+               'Resolves entities across data sources to surface shared accounts, devices, identities, and beneficiaries.',
+@@ -222,7 +222,7 @@ export default function ArticlePage() {
+                 Alert-based detection is a necessary foundation — but it is not sufficient for detecting coordinated, network-level financial crime. The patterns that matter most are the ones that exist between events, not within them.
+               </p>
+               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, margin: 0 }}>
+-                Adding a graph-native investigation layer above existing detection systems allows teams to connect signals into cases — without replacing the tools that generate them.
++                Connecting entities, relationships, and signals across accounts, devices, and corridors gives teams a clearer picture of coordinated risk — and a faster path from fragmented alerts to investigation-ready cases.
+               </p>
+             </div>
+ 
+@@ -239,7 +239,7 @@ export default function ArticlePage() {
+                 See network-level risk intelligence in action
+               </h3>
+               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
+-                Verafye connects your existing alert signals into graph-native, investigation-ready cases — without replacing your current detection stack.
++                Verafye connects entities, relationships, and risk signals from across your payment platform into graph-native, investigation-ready cases.
+               </p>
+             </div>
+             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
+diff --git a/app/resources/page.js b/app/resources/page.js
+index 82526bd..473613a 100644
+--- a/app/resources/page.js
++++ b/app/resources/page.js
+@@ -63,10 +63,10 @@ export default function ResourcesPage() {
+                     Product Insights
+                   </span>
+                   <h2 style={{ fontSize: 'clamp(1.25rem,3vw,2rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', lineHeight: 1.25, letterSpacing: '-0.02em' }}>
+-                    The Missing Layer in Modern Financial Crime Investigations
++                    What Is Investigation Intelligence?
+                   </h2>
+                   <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.75, marginBottom: '1.5rem', maxWidth: '44rem' }}>
+-                    Understand why modern financial crime teams need investigation intelligence to connect fragmented alerts, risk signals, workflows, and evidence trails into explainable decisions.
++                    Understand how Investigation Intelligence connects fragmented alerts, risk signals, workflows, and evidence trails into structured, explainable, and audit-ready investigations.
+                   </p>
+                   <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+                     <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
+diff --git a/app/resources/structuring-detection-cross-border-msbs/page.js b/app/resources/structuring-detection-cross-border-msbs/page.js
+index cd78776..ca9b01e 100644
+--- a/app/resources/structuring-detection-cross-border-msbs/page.js
++++ b/app/resources/structuring-detection-cross-border-msbs/page.js
+@@ -178,14 +178,14 @@ export default function ArticlePage() {
+               'A time-stamped investigation trail that can be reconstructed and reviewed during examination.',
+             ]} />
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
+-              Building this evidence picture from fragmented systems is time-consuming and introduces gaps. A connected investigation layer that aggregates signals automatically produces a stronger foundation for SAR filing and exam readiness.
++              Building this evidence picture from fragmented systems is time-consuming and introduces gaps. Connecting the relevant signals automatically — across senders, corridors, beneficiaries, and time — produces a stronger foundation for SAR filing and exam readiness.
+             </p>
+ 
+             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
+               How Verafye Supports Structuring Detection in MSB and Remittance Operations
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              Verafye connects payment, identity, device, and behavioral signals across MSB and remittance platforms into a graph-native investigation layer. For structuring detection specifically, it supports:
++              Verafye is a graph-native Network Risk Intelligence platform for MSB and remittance operations. It connects payment, identity, device, and behavioral signals into investigation-ready cases. For structuring detection specifically, it supports:
+             </p>
+             <BulletList items={[
+               'Beneficiary-level aggregation across senders, corridors, and time windows — surfacing patterns that per-sender monitoring misses.',
+diff --git a/app/resources/what-is-investigation-intelligence/page.js b/app/resources/what-is-investigation-intelligence/page.js
+index 60837f4..e32e998 100644
+--- a/app/resources/what-is-investigation-intelligence/page.js
++++ b/app/resources/what-is-investigation-intelligence/page.js
+@@ -53,7 +53,7 @@ export default function ArticlePage() {
+             <span>/</span>
+             <Link href="/resources/" style={{ color: 'var(--muted)', textDecoration: 'none' }}>Resources</Link>
+             <span>/</span>
+-            <span style={{ color: 'var(--body)' }}>The Missing Layer in Modern Financial Crime Investigations</span>
++            <span style={{ color: 'var(--body)' }}>What Is Investigation Intelligence?</span>
+           </nav>
+         </div>
+       </section>
+@@ -70,7 +70,7 @@ export default function ArticlePage() {
+               <span style={{ fontSize: '0.75rem', color: 'var(--muted)' }}>May 2026</span>
+             </div>
+             <h1 style={{ fontSize: 'clamp(1.625rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.2, letterSpacing: '-0.025em' }}>
+-              The Missing Layer in Modern Financial Crime Investigations
++              What Is Investigation Intelligence?
+             </h1>
+             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
+               Fraud, AML, and risk teams are drowning in alerts - not because detection is broken, but because the work after the alert is messy.
+@@ -165,7 +165,7 @@ export default function ArticlePage() {
+               Where Verafye Fits
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              Verafye is built as an intelligent investigation layer for regulated financial institutions and platforms. It connects fragmented risk signals into structured workflows so teams can:
++              Verafye is a graph-native Network Risk Intelligence platform for regulated payment platforms and financial institutions. Investigation Intelligence is a core capability within the platform - the ability to assemble fragmented entities, alerts, relationships, and evidence into coherent, prioritised, and traceable investigations. It connects those signals into structured, investigation-ready workflows so teams can:
+             </p>
+             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.75rem', padding: '1.5rem 1.75rem', marginBottom: '1.5rem' }}>
+               {[
+@@ -209,7 +209,7 @@ export default function ArticlePage() {
+               <PdfDownloadButton
+                 pdfPath="/downloads/resources/missing-layer-modern-financial-crime-investigations.pdf"
+                 pdfFilename="verafye-missing-layer-modern-financial-crime-investigations.pdf"
+-                resourceTitle="The Missing Layer in Modern Financial Crime Investigations"
++                resourceTitle="What Is Investigation Intelligence?"
+                 resourceCategory="Product Insights"
+                 articleSlug="what-is-investigation-intelligence"
+               />
+diff --git a/app/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/page.js b/app/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/page.js
+index 29865dd..07f6be3 100644
+--- a/app/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/page.js
++++ b/app/resources/why-fraud-and-aml-investigations-break-down-in-payment-platforms/page.js
+@@ -27,7 +27,7 @@ const ARROW = (
+ 
+ const relatedResources = [
+   {
+-    title: 'The Missing Layer in Modern Financial Crime Investigations',
++    title: 'What Is Investigation Intelligence?',
+     category: 'Product Insights',
+     readingTime: '5 min read',
+     href: '/resources/what-is-investigation-intelligence/',
+@@ -206,7 +206,7 @@ export default function ArticlePage() {
+               Where Verafye Fits
+             </h2>
+             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
+-              Verafye acts as the investigation intelligence layer for payment risk operations. It connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform. This helps payment risk teams:
++              Verafye is a graph-native Network Risk Intelligence platform built for payment risk operations. It connects fraud, AML, payment, identity, device, and case signals into investigation-ready workflows. This helps payment risk teams:
+             </p>
+             <BulletList items={[
+               'Bring together fragmented context across alerts, accounts, transactions, beneficiaries, devices, identities, and cases.',
+diff --git a/app/risk-shadowing-review/page.js b/app/risk-shadowing-review/page.js
+index 2c09dba..12bcb7f 100644
+--- a/app/risk-shadowing-review/page.js
++++ b/app/risk-shadowing-review/page.js
+@@ -2,16 +2,16 @@ import Link from 'next/link';
+ 
+ export const metadata = {
+   title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
+-  description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
++  description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
+   keywords: ["risk shadowing review", "network risk intelligence", "fraud aml evaluation", "investigation-ready evidence", "graph-native risk detection", "payments risk evaluation"],
+   openGraph: {
+     title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
+-    description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
++    description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
+   },
+   twitter: {
+     card: 'summary_large_image',
+     title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
+-    description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
++    description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
+   },
+   alternates: {
+     canonical: 'https://www.verafye.com/risk-shadowing-review',
+@@ -31,7 +31,7 @@ export default function RiskShadowingReviewPage() {
+               Risk Shadowing Review for payment-led financial crime teams
+             </h1>
+             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto' }}>
+-              Test Verafye alongside your existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye independently connects fragmented signals, detects hidden network risk, clusters related activity, and produces investigation-ready evidence before deeper deployment.
++              Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye resolves entities, detects hidden networks, clusters related activity, and produces investigation-ready evidence for review.
+             </p>
+             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
+               <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
+@@ -43,7 +43,7 @@ export default function RiskShadowingReviewPage() {
+               <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
+             </div>
+             <p className="animate-fade-up delay-500" style={{ fontSize: '0.875rem', color: 'var(--primary)', fontWeight: '600', marginTop: '1.25rem', letterSpacing: '-0.01em' }}>
+-              API-led alongside your existing systems. Connected risk outputs in 2 weeks.
++              API-led integration on agreed data feeds. First connected-risk outputs within two weeks.
+             </p>
+           </div>
+         </div>
+@@ -55,7 +55,7 @@ export default function RiskShadowingReviewPage() {
+           <div style={{ maxWidth: '50rem', margin: '0 auto', textAlign: 'center' }}>
+             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Risk Shadowing</p>
+             <p style={{ fontSize: 'clamp(1.0625rem,2.2vw,1.375rem)', color: 'var(--dark)', lineHeight: 1.5, fontWeight: 500, letterSpacing: '-0.01em' }}>
+-              Risk Shadowing lets teams validate hidden network risk and investigation value against a controlled dataset or focused workflow without replacing existing systems.
++              Risk Shadowing lets teams validate Verafye's network risk detection and investigation capabilities against a controlled dataset or focused workflow, with no changes to live production processes.
+             </p>
+           </div>
+         </div>
+@@ -74,7 +74,7 @@ export default function RiskShadowingReviewPage() {
+             {[
+               { gradient: 'gradient-bg-1', title: 'PSP and PayFac merchant and payout risk', body: 'Connect merchant, sub-merchant, transaction, and payout signals to surface linked activity across portfolios.' },
+               { gradient: 'gradient-bg-2', title: 'MSB and remittance corridor and beneficiary risk', body: 'Connect sender, beneficiary, corridor, and agent signals to surface structuring and beneficiary reuse.' },
+-              { gradient: 'gradient-bg-3', title: 'BaaS and embedded finance program risk', body: 'Connect program, sponsor-bank, ledger, payment, and case signals into an independent cross-program network-risk view.' },
++              { gradient: 'gradient-bg-3', title: 'BaaS and embedded finance program risk', body: 'Connect program, sponsor-bank, ledger, payment, and case signals to surface coordinated risk patterns across programs.' },
+               { gradient: 'gradient-bg-4', title: 'Digital bank and wallet mule risk', body: 'Surface mule-linked accounts, wallets, and devices across onboarding, payment, and beneficiary activity.' },
+               { gradient: 'gradient-bg-1', title: 'NBFC and digital lending fraud investigation', body: 'Surface mule-linked borrower networks, synthetic identity clusters, and coordinated application patterns for investigation.' },
+               { gradient: 'gradient-bg-2', title: 'Selected bank and sponsor-bank oversight workflows', body: 'Support program and sponsor-bank oversight with connected, investigation-ready evidence across providers.' },
+@@ -100,7 +100,7 @@ export default function RiskShadowingReviewPage() {
+                 What Verafye can analyze
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+-                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share into a connected network-risk view that works alongside your existing systems.
++                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share to resolve entities, detect hidden networks, and form investigation-ready cases.
+               </p>
+             </div>
+             <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
+@@ -137,7 +137,7 @@ export default function RiskShadowingReviewPage() {
+               {[
+                 { step: '01', title: 'Select a focused use case', body: 'Choose a focused fraud, AML, or payment-risk scenario that matters to your team.' },
+                 { step: '02', title: 'Share a controlled dataset', body: 'Provide a controlled dataset or focused workflow. Inputs are configurable based on use case and available data.' },
+-                { step: '03', title: 'Run an independent network-risk review', body: 'Verafye runs an independent review alongside your existing systems to surface hidden network risk.' },
++                { step: '03', title: 'Run a focused network-risk review', body: 'Verafye processes the shared dataset, resolves entities, and forms investigation-ready cases across the agreed scope.' },
+                 { step: '04', title: 'Review findings with Verafye', body: 'Walk through the findings with our team and decide whether to expand into a deeper evaluation.' },
+               ].map(item => (
+                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
+@@ -216,7 +216,7 @@ export default function RiskShadowingReviewPage() {
+           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+             {[
+               { q: 'Which teams is Risk Shadowing for?', a: 'Risk Shadowing is a low-friction evaluation motion for payment-led financial crime teams, including PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, and selected banks.' },
+-              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'No. Verafye is designed to work alongside the systems you already run as an independent Network Risk Intelligence layer, supporting your existing oversight workflows rather than replacing them.' },
++              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'Risk Shadowing Review does not alter live workflows or require changes to existing systems. Verafye connects to agreed data feeds, resolves entities, detects hidden networks, and produces investigation-ready cases from the shared dataset. After evaluation, adoption is flexible: teams can integrate selected Verafye outputs into existing operational workflows, or expand into Verafye-led investigation, evidence, and decision operations as outcomes are proven.' },
+               { q: 'What data do we need to provide?', a: 'Inputs are configurable based on use case and available data. You can start with a controlled dataset for a focused use case and expand coverage over time. Not every team needs to supply every data type.' },
+               { q: 'Can we see a sample output?', a: 'Yes. Detailed sample outputs are shared during qualified walkthroughs using synthetic data only. Request a sample output walkthrough and our team will walk you through it.' },
+             ].map(item => (
+@@ -236,7 +236,7 @@ export default function RiskShadowingReviewPage() {
+             Validate hidden network risk against your own data
+           </h2>
+           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '38rem', margin: '0 auto 1.25rem' }}>
+-            Start a Risk Shadowing Review alongside your existing systems. Built for payment-led financial crime teams across PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance, digital banks, NBFCs, and selected banks.
++            Start a Risk Shadowing Review on agreed data feeds from your environment. Built for payment-led financial crime teams across PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance, digital banks, NBFCs, and selected banks.
+           </p>
+           <p style={{ fontSize: '0.875rem', color: 'var(--muted)', maxWidth: '38rem', margin: '0 auto 2.5rem' }}>
+             Detailed sample outputs are shared during qualified walkthroughs.
+@@ -251,7 +251,7 @@ export default function RiskShadowingReviewPage() {
+             <Link href="/request-demo?intent=sample-output-walkthrough" className="btn-secondary">Request Sample Output Walkthrough</Link>
+           </div>
+           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem', fontStyle: 'italic' }}>
+-            Verafye is designed to support fraud and AML investigation workflows alongside existing systems. We do not claim regulatory approval, regulator certification, endorsement, or guaranteed fraud prevention.
++            Verafye is designed to support fraud and AML investigation workflows in regulated financial environments. We do not claim regulatory approval, regulator certification, endorsement, or guaranteed fraud prevention.
+           </p>
+         </div>
+       </section>
+diff --git a/app/security-trust/page.js b/app/security-trust/page.js
+index 638127d..e7c1f83 100644
+--- a/app/security-trust/page.js
++++ b/app/security-trust/page.js
+@@ -251,7 +251,7 @@ export default function SecurityTrustPage() {
+           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Regulatory Alignment</p>
+             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+-              Investigation Layer Aligned to Regulatory Change
++              Network Risk Intelligence Platform Aligned to Regulatory Change
+             </h2>
+             <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '48rem', margin: '0 auto' }}>
+               Financial institutions operate across regulatory environments that differ by jurisdiction, institution type, and product - but share a common direction: greater transparency, stronger detection, and more structured investigation processes. Verafye is designed with that direction in mind.
+@@ -533,7 +533,7 @@ export default function SecurityTrustPage() {
+             {[
+               {
+                 q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
+-                a: 'Verafye runs in parallel with existing fraud, AML, payment, identity, device, and case systems - consuming agreed data feeds and resolving those signals into one connected network view. Existing systems keep running throughout - Verafye becomes the investigation workspace where fragmented signals are resolved, entities mapped, and investigation cases built and closed.',
++                a: 'Verafye begins with selected data feeds from your existing fraud, AML, payment, identity, device, and case systems - connecting those signals into one network risk view. As outcomes are proven, teams expand into Verafye-led investigation workflows where fragmented signals are resolved, entities mapped, and investigation cases built and closed.',
+               },
+               {
+                 q: 'Can Verafye connect to our existing fraud, AML, and payments infrastructure?',
+@@ -569,7 +569,7 @@ export default function SecurityTrustPage() {
+       <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
+           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+-            Trusted Investigation Layer for Financial Crime Operations
++            Trusted Network Risk Intelligence Platform for Financial Crime Operations
+           </h2>
+           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 1.25rem' }}>
+             Explore how Verafye supports secure, reliable, and intelligence-led financial crime operations across fraud, AML, and payments.
+diff --git a/app/solutions/graph-intelligence/page.js b/app/solutions/graph-intelligence/page.js
+index f947413..1e2c27e 100644
+--- a/app/solutions/graph-intelligence/page.js
++++ b/app/solutions/graph-intelligence/page.js
+@@ -149,7 +149,7 @@ export default function GraphIntelligencePage() {
+             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Solves It</p>
+               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+-                A Graph-Native Intelligence Layer for Financial Crime Operations
++                Graph Intelligence for Connected Financial-Crime Risk
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+                 Verafye connects fraud, AML, and payments signals into one connected network view - resolving entities, mapping relationships, and surfacing network risk across accounts and time windows. This gives institutions the connected view of risk that fragmented monitoring cannot provide, and the traceable detection that aligns with evolving regulatory expectations for cross-domain visibility.
+diff --git a/app/solutions/investigation-intelligence/page.js b/app/solutions/investigation-intelligence/page.js
+index b403ffe..bde581a 100644
+--- a/app/solutions/investigation-intelligence/page.js
++++ b/app/solutions/investigation-intelligence/page.js
+@@ -29,7 +29,7 @@ export default function InvestigationIntelligencePage() {
+         seoH1="Fraud Investigation Solution"
+         title="Investigation intelligence for lean fraud, AML, and risk teams"
+         description="Connect alerts, explain risk, and close cases faster with case intelligence, graph context, and audit-ready workflows."
+-        body="Investigation Intelligence is the operating layer within the Verafye platform that turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
++        body="Investigation Intelligence within the Verafye platform turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
+         primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
+         secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
+         visualCard={<InvestigationVisualCard />}
+@@ -155,7 +155,7 @@ export default function InvestigationIntelligencePage() {
+             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
+               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How Verafye Solves It</p>
+               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>
+-                An Investigation-Centric Intelligence Layer
++                From Fragmented Alerts to Investigation-Ready Cases
+               </h2>
+               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
+                 Verafye restructures the investigation experience - from alert-centric triage to structured, context-rich case resolution - by clustering signals, forming reviewable cases, aggregating cross-system intelligence, and delivering decision support at the point of investigation. Every case carries a structured evidence pack and full audit trail, with reviewer controls that support the traceability and consistency institutions need to operate under increasing examiner scrutiny.
+diff --git a/app/solutions/mule-account-detection/page.js b/app/solutions/mule-account-detection/page.js
+index e2a1f9b..11801e4 100644
+--- a/app/solutions/mule-account-detection/page.js
++++ b/app/solutions/mule-account-detection/page.js
+@@ -123,7 +123,7 @@ export default function MuleAccountDetectionPage() {
+                 gradient: 'gradient-bg-3',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>),
+                 title: 'Fraud and AML Signals Reviewed in Separate Workflows',
+-                body: 'Mule activity generates signals across both fraud and AML systems. When teams operate in isolation with no shared intelligence layer, network-level risk remains invisible to both - and neither has the complete picture.',
++                body: 'Mule activity generates signals across both fraud and AML systems. When teams operate in isolation with no shared risk view, network-level risk remains invisible to both - and neither has the complete picture.',
+               },
+               {
+                 gradient: 'gradient-bg-4',
+diff --git a/app/use-cases/investigation-workflow-modernization/page.js b/app/use-cases/investigation-workflow-modernization/page.js
+index f291306..4709fb7 100644
+--- a/app/use-cases/investigation-workflow-modernization/page.js
++++ b/app/use-cases/investigation-workflow-modernization/page.js
+@@ -37,7 +37,7 @@ export default function InvestigationWorkflowModernizationPage() {
+           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
+             <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>INVESTIGATION WORKFLOW MODERNIZATION</h1>
+             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+-              Modernize investigation workflows without replacing your entire risk stack
++              From fragmented alerts to connected, evidence-grade investigations
+             </h1>
+             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
+               Connect fragmented alerts, build case context, support analyst decisions, and maintain audit-ready trails across fraud and AML workflows.
+diff --git a/app/use-cases/mule-network-detection/page.js b/app/use-cases/mule-network-detection/page.js
+index 5fe0d9d..c66d36d 100644
+--- a/app/use-cases/mule-network-detection/page.js
++++ b/app/use-cases/mule-network-detection/page.js
+@@ -78,7 +78,7 @@ export default function MuleNetworkDetectionPage() {
+                 { label: 'Operate Across Systems and Institutions', desc: 'Mule networks span multiple banks, payment platforms, and accounts - exploiting the lack of cross-institution visibility to move funds without triggering individual institution-level alerts' },
+                 { label: 'Low-Risk Signals at Transaction Level', desc: 'Each individual transaction within a mule network may appear routine - only the pattern across connected accounts and time reveals the coordinated nature of the activity' },
+                 { label: 'Networks Evolve Rapidly', desc: 'Mule recruiters continuously onboard new accounts, retire compromised ones, and adapt movement patterns - making static detection models increasingly ineffective over time' },
+-                { label: 'Lack of Connected Visibility', desc: 'Without a graph intelligence layer connecting accounts, devices, identities, and behaviours, institutions cannot see the structure of mule networks operating within their portfolio' },
++                { label: 'Lack of Connected Visibility', desc: 'Without connected graph-based analysis across accounts, devices, identities, and behaviours, institutions cannot see the structure of mule networks operating within their portfolio' },
+               ].map(item => (
+                 <div key={item.label} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
+                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--primary)', flexShrink: 0, marginTop: '0.45rem' }} />
+@@ -120,7 +120,7 @@ export default function MuleNetworkDetectionPage() {
+                 gradient: 'gradient-bg-3',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
+                 title: 'Signals Remain Disconnected Across Systems',
+-                body: 'Device intelligence, identity attributes, transaction data, and AML signals live in separate tools that do not share a common intelligence layer - preventing the cross-signal correlation that would reveal shared infrastructure across a mule network.',
++                body: 'Device intelligence, identity attributes, transaction data, and AML signals live in separate tools with no common risk view - preventing the cross-signal correlation that would reveal shared infrastructure across a mule network.',
+               },
+               {
+                 gradient: 'gradient-bg-4',
+@@ -175,7 +175,7 @@ export default function MuleNetworkDetectionPage() {
+               {[
+                 'Full mule network clusters surfaced as single investigable units',
+                 'Pre-assembled relationship maps, entity profiles, and transaction flows delivered at case creation',
+-                'Connected fraud and AML view of the same network from a shared intelligence layer',
++                'Connected fraud and AML view of the same network through resolved entities and relationship maps',
+                 'Connected signal intelligence surfaces coordinated activity rules cannot see',
+                 'Pre-built investigation context helps analysts investigate rather than reconstruct - with a complete audit trail supporting structured regulatory documentation',
+               ].map(item => (
+@@ -315,7 +315,7 @@ export default function MuleNetworkDetectionPage() {
+                 gradient: 'gradient-bg-4',
+                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
+                 title: 'Complete Network Visibility - Fraud and AML Connected',
+-                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a complete, real-time picture of mule network structure - enabling proactive intervention and better-informed decisions on account action and SAR filing. The shared intelligence layer supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
++                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a complete, real-time picture of mule network structure - enabling proactive intervention and better-informed decisions on account action and SAR filing. Verafye&apos;s investigation-ready case structure supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
+               },
+               {
+                 gradient: 'gradient-bg-1',
+diff --git a/app/use-cases/page.js b/app/use-cases/page.js
+index fb0d0a2..05c2845 100644
+--- a/app/use-cases/page.js
++++ b/app/use-cases/page.js
+@@ -93,7 +93,7 @@ export default function UseCasesPage() {
+               One platform, three core use cases
+             </h2>
+             <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75, maxWidth: '48rem', marginLeft: 'auto', marginRight: 'auto' }}>
+-              Verafye connects fraud, AML, payments, identity, device, and behavior signals into a single investigation layer - improving visibility, efficiency, and decision quality across each of these workflows.
++              Verafye connects fraud, AML, payments, identity, device, and behavior signals into investigation-ready cases - improving visibility, efficiency, and decision quality across each of these workflows.
+             </p>
+           </div>
+           {/* How it connects - 3-column context strip */}
+diff --git a/app/use-cases/transaction-monitoring/page.js b/app/use-cases/transaction-monitoring/page.js
+index 701cba1..105528c 100644
+--- a/app/use-cases/transaction-monitoring/page.js
++++ b/app/use-cases/transaction-monitoring/page.js
+@@ -84,7 +84,7 @@ export default function TransactionMonitoringPage() {
+             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+               {[
+                 { label: 'High Alert Volumes with Low Signal Quality', desc: 'Rules-based monitoring generates millions of alerts annually - the vast majority of which are false positives that consume analyst time without surfacing genuine financial crime risk' },
+-                { label: 'Fragmented Data Across Systems', desc: 'Transaction data, device signals, entity attributes, and behavioural patterns sit in separate systems with no shared intelligence layer - preventing the cross-signal detection that modern financial crime demands' },
++                { label: 'Fragmented Data Across Systems', desc: 'Transaction data, device signals, entity attributes, and behavioural patterns sit in separate systems with no shared network risk view - preventing the cross-signal detection that modern financial crime demands' },
+                 { label: 'Alerts Without Entity or Network Context', desc: 'Alerts are generated at the transaction level without the entity, relationship, or network context that analysts need to assess risk accurately and make confident investigation decisions' },
+                 { label: 'Manual Reconstruction Before Every Investigation', desc: 'Without pre-assembled context and structured workflows, analysts spend the majority of their time gathering information rather than investigating - extending cycle times and limiting throughput' },
+               ].map(item => (
+@@ -412,7 +412,7 @@ export default function TransactionMonitoringPage() {
+             Turn transaction alerts into explainable investigations
+           </h2>
+           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
+-            See how transaction monitoring workflows can feed alert clustering, review queues, case formation, and evidence trails - giving risk teams clearer investigations without replacing existing monitoring infrastructure.
++            See how transaction monitoring workflows can feed alert clustering, review queues, case formation, and evidence trails - giving risk teams clearer, evidence-grade investigations from the signals monitoring already generates.
+           </p>
+           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
+             <Link href="/risk-shadowing-review" className="btn-primary">
+diff --git a/components/SplitHeroWithVisualCard.js b/components/SplitHeroWithVisualCard.js
+index 803c646..403879a 100644
+--- a/components/SplitHeroWithVisualCard.js
++++ b/components/SplitHeroWithVisualCard.js
+@@ -18,7 +18,7 @@
+  *
+  *   <SplitHeroWithVisualCard
+  *     eyebrow="VERAFYE PLATFORM"
+- *     title="One investigation layer..."
++ *     title="Network Risk Intelligence for Modern Financial Crime Operations"
+  *     description="Unify fraud, AML..."
+  *     body="The Verafye platform..."
+  *     primaryCTA={{ label: 'Request a Risk Shadowing Review', href: '/request-demo' }}
+@@ -136,7 +136,7 @@ const cardShell = {
+ 
+ /* ════════════════════════════════════════════════════════════════════════════
+    PLATFORM VISUAL CARD
+-   Abstract flow: Signals In → Connected Risk Layer → Case Workflow → Evidence Trail
++   Abstract flow: Signals In → Entity and Network Intelligence → Case Workflow → Evidence Trail
+    ════════════════════════════════════════════════════════════════════════════ */
+ export function PlatformVisualCard() {
+   const steps = [
+@@ -146,7 +146,7 @@ export function PlatformVisualCard() {
+       accent: 'var(--primary)', bg: '#EEF6FF',
+     },
+     {
+-      num: '02', label: 'Connected Risk Layer',
++      num: '02', label: 'Graph-native Intelligence',
+       desc: 'Alerts clustered and enriched with entity and relationship context',
+       accent: '#7C3AED', bg: '#F5F3FF',
+     },

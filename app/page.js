@@ -30,14 +30,14 @@ export default function Page() {
       <div style={{'maxWidth':'36rem'}}>
 
         {/* SEO H1 — replaces eyebrow, keyword-targeted, eyebrow style */}
-        <h1 className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>
+        <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>
           Fraud Prevention Solutions for Financial Services
-        </h1>
+        </p>
 
-        {/* Visual heading — demoted to h2, identical appearance */}
-        <h2 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
+        {/* Page H1 — main heading */}
+        <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
           Graph-Native Network Risk Intelligence for Fraud, AML and Risk Teams
-        </h2>
+        </h1>
 
         {/* Sub-line */}
         <p className="animate-fade-up delay-150" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1.25rem','lineHeight':'1.4'}}>
@@ -238,7 +238,7 @@ export default function Page() {
         <p style={{'fontSize':'0.6875rem','fontWeight':'700','textTransform':'uppercase','letterSpacing':'0.1em','color':'var(--primary)','marginBottom':'1.5rem'}}>After Verafye</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'1.125rem'}}>
           {[
-            'Fraud, AML, payment, identity, device, and behavior signals connected in one investigation layer',
+            'Fraud, AML, payment, identity, device, and behavior signals resolved into investigation-ready cases and evidence',
             'Analysts start with structured case context, summaries, and suggested next steps',
             'Graph intelligence surfaces hidden networks across accounts, devices, and counterparties',
             'Every decision is documented with audit logs, notes, and case evidence trails',
@@ -469,31 +469,31 @@ export default function Page() {
 <section style={{'padding':'3.5rem 0','background':'var(--dark)'}}>
   <div className="container">
     <p style={{'textAlign':'center','fontSize':'0.6875rem','fontWeight':'600','color':'rgba(255,255,255,0.45)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'2.5rem'}}>
-      Results from live customer deployments
+      Observed deployment outcomes
     </p>
     <div style={{'display':'grid','gridTemplateColumns':'repeat(3,1fr)','gap':'1.5rem','maxWidth':'64rem','margin':'0 auto'}}>
 
       <div style={{'textAlign':'center','padding':'2rem 1.5rem','background':'rgba(255,255,255,0.04)','border':'1px solid rgba(255,255,255,0.08)','borderRadius':'14px'}}>
         <p style={{'fontSize':'clamp(2.5rem,5vw,3.75rem)','fontWeight':'800','color':'#fff','lineHeight':1,'marginBottom':'0.5rem','letterSpacing':'-0.03em'}}>60<span style={{'fontSize':'0.55em','fontWeight':'700','color':'#5ABEFF'}}>%</span></p>
-        <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>Faster investigations</p>
-        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Reduction in investigation time after switching to structured, connected case context — live cross-border payments client.</p>
+        <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>Reduction in investigation preparation time</p>
+        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Deployment result: connected entity context and alert clustering eliminate manual pre-investigation data gathering.</p>
       </div>
 
       <div style={{'textAlign':'center','padding':'2rem 1.5rem','background':'rgba(255,255,255,0.04)','border':'1px solid rgba(255,255,255,0.08)','borderRadius':'14px'}}>
         <p style={{'fontSize':'clamp(2.5rem,5vw,3.75rem)','fontWeight':'800','color':'#fff','lineHeight':1,'marginBottom':'0.5rem','letterSpacing':'-0.03em'}}>4<span style={{'fontSize':'0.55em','fontWeight':'700','color':'#5ABEFF'}}>×</span></p>
-        <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>More connected alerts per case</p>
-        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Graph clustering surfaces 4× more related signals per investigation versus manual, siloed alert review.</p>
+        <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>More connected signals per case</p>
+        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Graph clustering surfaces significantly more related signals per investigation than manual, siloed alert review.</p>
       </div>
 
       <div style={{'textAlign':'center','padding':'2rem 1.5rem','background':'rgba(255,255,255,0.04)','border':'1px solid rgba(255,255,255,0.08)','borderRadius':'14px'}}>
         <p style={{'fontSize':'clamp(2.5rem,5vw,3.75rem)','fontWeight':'800','color':'#fff','lineHeight':1,'marginBottom':'0.5rem','letterSpacing':'-0.03em'}}>&lt;3<span style={{'fontSize':'0.55em','fontWeight':'700','color':'#5ABEFF'}}> wks</span></p>
         <p style={{'fontSize':'1rem','fontWeight':'600','color':'rgba(255,255,255,0.85)','marginBottom':'0.5rem'}}>To first evidence pack</p>
-        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Average time from data ingestion to a structured, investigation-ready evidence pack via Risk Shadowing Review.</p>
+        <p style={{'fontSize':'0.8125rem','color':'rgba(255,255,255,0.45)','lineHeight':1.6}}>Time from agreed data scope to a structured, investigation-ready evidence pack via Risk Shadowing Review.</p>
       </div>
 
     </div>
     <p style={{'textAlign':'center','fontSize':'0.6875rem','color':'rgba(255,255,255,0.3)','marginTop':'2rem','lineHeight':1.6}}>
-      Metrics reflect live customer outcomes. Individual results vary based on data volume, alert complexity, and team configuration.
+      Outcomes observed across connected-risk investigation deployments. Scope and results vary by data configuration.
     </p>
   </div>
 </section>
@@ -536,7 +536,7 @@ export default function Page() {
     </div>
 
     <div style={{'textAlign':'center','maxWidth':'44rem','margin':'0 auto','padding':'1.75rem 2rem','background':'var(--bg-tint)','borderRadius':'0.875rem','border':'1px solid var(--border)'}}>
-      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--dark)','fontWeight':'600','lineHeight':1.65,'margin':0}}>Verafye connects those signals into investigation-ready cases — without replacing your existing detection systems.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.0625rem)','color':'var(--dark)','fontWeight':'600','lineHeight':1.65,'margin':0}}>Verafye connects those signals into investigation-ready cases - starting with selected data feeds from your existing systems and expanding into Verafye-led workflows as outcomes are proven.</p>
     </div>
 
   </div>
@@ -608,7 +608,7 @@ export default function Page() {
         <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
           <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>BaaS &amp; Embedded Finance Providers</h3>
-          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>An independent Network Risk Intelligence layer across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Graph-native Network Risk Intelligence across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -701,7 +701,7 @@ export default function Page() {
   `}</style>
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.75rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE NETWORK RISK INTELLIGENCE LAYER FOR LEAN RISK TEAMS</p>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>THE NETWORK RISK INTELLIGENCE PLATFORM FOR LEAN RISK TEAMS</p>
       <h2 style={{'fontSize':'clamp(1.25rem,3.5vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Detect. Connect. Investigate. Decide.</h2>
     </div>
 
@@ -730,10 +730,10 @@ export default function Page() {
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B8C8DA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
       </div>
 
-      {/* CENTER: Verafye Intelligence Layer */}
+      {/* CENTER: Verafye Network Risk Intelligence */}
       <div style={{'background':'linear-gradient(160deg,#0F2B5B 0%,#1A5EA0 100%)','borderRadius':'20px','padding':'2.5rem 1.75rem','color':'#fff','boxShadow':'0 8px 36px rgba(30,111,183,0.22), 0 2px 8px rgba(0,0,0,0.1)'}}>
         <p style={{'fontSize':'0.5625rem','fontWeight':'700','letterSpacing':'0.14em','textTransform':'uppercase','color':'rgba(255,255,255,0.5)','marginBottom':'0.375rem'}}>Verafye</p>
-        <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','marginBottom':'0.25rem','lineHeight':1.2}}>Intelligence Layer</p>
+        <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','marginBottom':'0.25rem','lineHeight':1.2}}>Network Risk Intelligence</p>
         <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.6)','marginBottom':'1.75rem'}}>Graph-native · Detection-capable · Audit-ready</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem'}}>
           {[
@@ -824,7 +824,7 @@ export default function Page() {
       See how Verafye connects your investigations
     </h2>
     <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','marginBottom':'2.5rem','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>
-      Request a Risk Shadowing Review and see connected risk across your existing alerts - without replacing any of your current systems. You receive an investigation-ready evidence pack with linked case clusters, risk indicators, and analyst review steps.
+      Request a Risk Shadowing Review and see connected network risk across your existing alerts. You receive an investigation-ready evidence pack with linked case clusters, risk indicators, and analyst review steps.
     </p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/risk-shadowing-review" className="btn-primary">
@@ -836,7 +836,7 @@ export default function Page() {
       <Link href="/platform" className="btn-secondary">Explore Platform</Link>
     </div>
     <p style={{'fontSize':'0.875rem','color':'var(--primary)','fontWeight':'600','marginTop':'1.75rem','letterSpacing':'-0.01em'}}>
-      API-led alongside your existing systems. Connected risk outputs in 2 weeks.
+      API-connected to selected data sources. Investigation-ready risk outputs in 2 weeks.
     </p>
     <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'0.5rem'}}>
       No commitment required. Speak directly with our solutions team.

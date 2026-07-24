@@ -35,9 +35,9 @@ export default function InvestigationWorkflowModernizationPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>INVESTIGATION WORKFLOW MODERNIZATION</h1>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>INVESTIGATION WORKFLOW MODERNIZATION</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Modernize investigation workflows without replacing your entire risk stack
+              From fragmented alerts to connected, evidence-grade investigations
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Connect fragmented alerts, build case context, support analyst decisions, and maintain audit-ready trails across fraud and AML workflows.
