@@ -102,7 +102,7 @@ export default function CaseStudiesPage() {
       <section style={{ padding: '4rem 0 5rem', background: 'var(--bg-tint)' }}>
         <div className="container">
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', maxWidth: '72rem', margin: '0 auto' }}>
-            {cases.map((c, i) => (
+            {cases.map((c) => (
               <Link key={c.href} href={c.href} style={{ textDecoration: 'none', display: 'block' }} className="card-hover">
                 <div className="card card-elevated" style={{ padding: '2.5rem', display: 'grid', gridTemplateColumns: 'auto 1fr auto', gap: '2rem', alignItems: 'center' }}>
                   <div className={`card-icon lg ${c.gradient}`} style={{ flexShrink: 0, margin: 0 }}>{c.icon}</div>

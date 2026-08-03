@@ -144,33 +144,6 @@ const supportingCapabilities = [
   },
 ];
 
-const flowSteps = [
-  {
-    num: 1,
-    label: 'Collect signals',
-    desc: 'Transaction, identity, device, and behavior signals connected from existing systems',
-  },
-  {
-    num: 2,
-    label: 'Connect entities',
-    desc: 'Graph intelligence links accounts, devices, and identities across your data',
-  },
-  {
-    num: 3,
-    label: 'Cluster alerts',
-    desc: 'Related alerts from multiple detectors grouped into investigation clusters',
-  },
-  {
-    num: 4,
-    label: 'Investigate cases',
-    desc: 'Analysts work structured cases with full context, evidence, and workflow support',
-  },
-  {
-    num: 5,
-    label: 'Explain decisions',
-    desc: 'Every disposition recorded with audit logs, decision history, and explainability records',
-  },
-];
 
 export default function CapabilitiesPage() {
   return (

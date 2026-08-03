@@ -25,7 +25,7 @@
  */
 
 import { readFileSync, readdirSync, statSync, existsSync } from 'fs';
-import { join, dirname, extname } from 'path';
+import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -61,15 +61,6 @@ function collectHtmlFiles(dir, files = []) {
 function extractTagContent(html, tag) {
   // Returns array of content strings for a given tag name
   const pat = new RegExp(`<${tag}(?:[^>]*)>([\\s\\S]*?)<\\/${tag}>`, 'gi');
-  const results = [];
-  let m;
-  while ((m = pat.exec(html)) !== null) results.push(m[1]);
-  return results;
-}
-
-function extractAttr(html, tag, attr) {
-  // Returns array of attr values from all matching tags
-  const pat = new RegExp(`<${tag}[^>]*\\s${attr}="([^"]*)"[^>]*>`, 'gi');
   const results = [];
   let m;
   while ((m = pat.exec(html)) !== null) results.push(m[1]);
@@ -366,10 +357,8 @@ if (sitemapRedirectErrors === 0) ok('[10] Redirect routes correctly absent from 
 
 // ── [11] Sitemap URLs resolve ─────────────────────────────────────────────────
 console.log('\n[11] Sitemap URL resolution check');
-let sitemapErrors = 0;
 if (!existsSync(sitemapPath)) {
   fail('[11] public/sitemap.xml not found');
-  sitemapErrors++;
 } else {
   const sitemapUrls = [...sitemapContent.matchAll(/<loc>https:\/\/www\.verafye\.com([^<]*)<\/loc>/g)]
     .map(m => m[1] || '/');
@@ -380,7 +369,6 @@ if (!existsSync(sitemapPath)) {
     if (!existsSync(htmlPath)) {
       fail(`[11] Sitemap URL not found in out/: ${url}`);
       missing++;
-      sitemapErrors++;
     }
   }
   if (missing === 0) ok(`[11] All ${sitemapUrls.length} sitemap URLs resolve in out/`);

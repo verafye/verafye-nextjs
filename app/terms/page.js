@@ -18,7 +18,6 @@ export const metadata = {
 };
 
 const h2 = { fontSize: '1.375rem', fontWeight: '700', color: 'var(--dark)', margin: '1.5rem 0 0.5rem', lineHeight: 1.3 };
-const h3 = { fontSize: '1.0625rem', fontWeight: '700', color: 'var(--dark)', margin: '1rem 0 0.375rem', lineHeight: 1.4 };
 const p  = { margin: '0 0 0.875rem 0' };
 
 export default function Page() {

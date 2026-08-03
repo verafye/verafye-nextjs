@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
   title: "What Is Investigation Intelligence?",

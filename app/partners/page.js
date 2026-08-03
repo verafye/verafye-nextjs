@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import CTA from '@/components/CTA';
 
 export const metadata = {
   title: "Build Stronger Financial Crime Solutions",
