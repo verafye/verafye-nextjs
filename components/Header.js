@@ -55,6 +55,7 @@ const navItems = [
     href: '/resources',
     children: [
       { href: '/resources',   label: 'All Resources' },
+      { href: '/blog',        label: 'Blog' },
       { href: '/faq',         label: 'FAQ' },
     ],
   },
@@ -128,6 +129,7 @@ const mobileNavGroups = [
     headingHref: '/resources',
     items: [
       { href: '/resources', label: 'All Resources' },
+      { href: '/blog',      label: 'Blog' },
       { href: '/faq',       label: 'FAQ' },
     ],
   },
