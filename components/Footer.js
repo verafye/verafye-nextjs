@@ -9,18 +9,17 @@ const footerColumns = [
       { label: 'Platform Overview',          href: '/platform' },
       { label: 'Capabilities',               href: '/capabilities' },
       { label: 'Investigation Intelligence', href: '/solutions/investigation-intelligence' },
-      { label: 'Graph Intelligence',         href: '/solutions/graph-intelligence' },
-      { label: 'Mule Account Detection',     href: '/solutions/mule-account-detection' },
-      { label: 'Risk Shadowing Review',      href: '/risk-shadowing-review' },
+      { label: 'Decision Intelligence',      href: '/solutions/graph-intelligence' },
     ],
   },
   {
     heading: 'Use Cases',
     links: [
-      { label: 'All Use Cases',               href: '/use-cases' },
-      { label: 'Mule Network Detection',      href: '/use-cases/mule-network-detection' },
-      { label: 'Transaction Monitoring',      href: '/use-cases/transaction-monitoring' },
-      { label: 'Investigation Workflow Modernization', href: '/use-cases/investigation-workflow-modernization' },
+      { label: 'All Use Cases',                          href: '/use-cases' },
+      { label: 'Mule Network Detection',                 href: '/use-cases/mule-network-detection' },
+      { label: 'Transaction Monitoring',                 href: '/use-cases/transaction-monitoring' },
+      { label: 'Investigation Workflow Modernization',   href: '/use-cases/investigation-workflow-modernization' },
+      { label: 'Connected Fraud & AML Investigations',  href: '/use-cases/fraud-aml-investigations' },
     ],
   },
   {
@@ -37,23 +36,18 @@ const footerColumns = [
     ],
   },
   {
-    heading: 'Regions',
-    links: [
-      { label: 'Global', href: '/' },
-      { label: 'India',  href: '/in' },
-    ],
-  },
-  {
     heading: 'Company',
     links: [
-      { label: 'About',            href: '/company' },
-      { label: 'Customers',        href: '/customers' },
-      { label: 'Partners',         href: '/partners' },
-      { label: 'Resources',        href: '/resources' },
-      { label: 'Media & Press',    href: '/media' },
-      { label: 'FAQ',              href: '/faq' },
-      { label: 'Security & Trust', href: '/security-trust' },
-      { label: 'Contact',          href: '/contact' },
+      { label: 'Risk Shadowing Review', href: '/risk-shadowing-review' },
+      { label: 'Request Demo',          href: '/request-demo' },
+      { label: 'About',                 href: '/company' },
+      { label: 'Who We Serve',          href: '/customers' },
+      { label: 'Partners',              href: '/partners' },
+      { label: 'Resources',             href: '/resources' },
+      { label: 'Media & Press',         href: '/media' },
+      { label: 'FAQ',                   href: '/faq' },
+      { label: 'Security & Trust',      href: '/security-trust' },
+      { label: 'Contact',               href: '/contact' },
     ],
   },
 ];
@@ -186,7 +180,7 @@ export default function Footer() {
         }
         .footer-main-grid {
           display: grid;
-          grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr;
           gap: 2rem 2.5rem;
           align-items: start;
         }

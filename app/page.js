@@ -203,6 +203,59 @@ export default function Page() {
   </div>
 </section>
 
+{/* ─── CAPABILITY DOMAINS ────────────────────────────────────────────────── */}
+<section style={{'padding':'3rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)','borderBottom':'1px solid var(--border)'}}>
+  <style>{`
+    .cap-tile-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; max-width: 72rem; margin: 0 auto; }
+    @media (max-width: 860px) { .cap-tile-grid { grid-template-columns: repeat(2,1fr); } }
+    @media (max-width: 480px) { .cap-tile-grid { grid-template-columns: repeat(2,1fr); gap: 0.625rem; } }
+  `}</style>
+  <div className="container">
+    <div style={{'textAlign':'center','maxWidth':'44rem','margin':'0 auto 2rem'}}>
+      <p className="eyebrow" style={{'marginBottom':'0.625rem'}}>PLATFORM CAPABILITIES</p>
+      <h2 style={{'fontSize':'clamp(1.25rem,3vw,1.875rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.02em','lineHeight':1.2}}>
+        Eight capability domains. One connected platform.
+      </h2>
+    </div>
+    <div className="cap-tile-grid">
+      {[
+        { label: 'Customer Risk Intelligence', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> },
+        { label: 'AML & Transaction Monitoring', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> },
+        { label: 'Fraud Prevention', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> },
+        { label: 'Screening', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> },
+        { label: 'Investigation Intelligence', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>, highlight: true },
+        { label: 'Decision Intelligence', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> },
+        { label: 'AI Copilot', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg> },
+        { label: 'Enterprise Platform', icon: <svg width="20" height="20" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="4" rx="1"/><rect x="2" y="10" width="20" height="4" rx="1"/><rect x="2" y="17" width="20" height="4" rx="1"/></svg> },
+      ].map((tile, i) => (
+        <div key={i} style={{
+          'display':'flex',
+          'alignItems':'center',
+          'gap':'0.75rem',
+          'padding':'1rem 1.125rem',
+          'background': tile.highlight ? 'rgba(30,111,183,0.04)' : '#fff',
+          'border': tile.highlight ? '1px solid rgba(30,111,183,0.25)' : '1px solid var(--border)',
+          'borderRadius':'10px',
+          'boxShadow':'0 1px 4px rgba(0,0,0,0.03)',
+        }}>
+          <div style={{'flexShrink':0,'width':'2rem','height':'2rem','borderRadius':'7px','background':'linear-gradient(135deg,#1E6FB7,#3B82F6)','display':'flex','alignItems':'center','justifyContent':'center'}}>
+            {tile.icon}
+          </div>
+          <span style={{'fontSize':'0.8125rem','fontWeight':tile.highlight ? 700 : 600,'color':'var(--dark)','lineHeight':1.3}}>
+            {tile.label}
+          </span>
+        </div>
+      ))}
+    </div>
+    <div style={{'textAlign':'center','marginTop':'1.75rem'}}>
+      <a href="/capabilities" style={{'fontSize':'0.875rem','fontWeight':600,'color':'var(--primary)','textDecoration':'none','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
+        Explore all capabilities
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
 {/* ─── BEFORE / AFTER VERAFYE ───────────────────────────────────────────── */}
 <section style={{'padding':'4rem 0','background':'var(--bg-tint)'}}>
   <div className="container">

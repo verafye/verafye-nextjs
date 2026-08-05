@@ -37,7 +37,7 @@ export default function GraphIntelligencePage() {
 
       {/* ── 2. PROBLEM STATEMENT ────────────────────────────────────────────── */}
       {/*
-        CHANGE: "Mule Networks" bullet now links to /solutions/mule-account-detection.
+        CHANGE: "Mule Networks" bullet now links to /use-cases/mule-network-detection.
         "Synthetic Identity" links to /use-cases/mule-network-detection.
         These are the two most specific downstream pages for a reader who wants
         to go deeper on either threat type mentioned here.
@@ -64,7 +64,7 @@ export default function GraphIntelligencePage() {
                 {
                   label: 'Mule Networks',
                   desc: 'Layered money movement across accounts with shared behavioral and relationship patterns',
-                  href: '/solutions/mule-account-detection',
+                  href: '/use-cases/mule-network-detection',
                 },
                 {
                   label: 'Synthetic Identity',
@@ -343,7 +343,7 @@ export default function GraphIntelligencePage() {
                 </span>
               </div>
             </Link>
-            <Link href="/solutions/mule-account-detection" style={{ textDecoration: 'none' }}>
+            <Link href="/use-cases/mule-network-detection" style={{ textDecoration: 'none' }}>
               <div className="card card-hover" style={{ padding: '1.75rem', cursor: 'pointer' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Solution</div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>Mule Account Detection</h3>

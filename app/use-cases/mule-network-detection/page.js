@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Network Detection Software | Detect Fraud Rings",
-  description: "Detect coordinated mule networks, suspicious money flows and hidden financial crime relationships using graph-native investigation intelligence.",
-  keywords: ["mule network detection software", "money mule networks", "fraud ring detection", "transaction network analysis", "aml investigations"],
+  title: "Mule Account & Network Detection | Verafye",
+  description: "Detect mule accounts and coordinated mule networks using graph-native investigation intelligence. Connect account, device, identity and transaction signals into network-level cases for faster AML investigations.",
+  keywords: ["mule account detection", "mule network detection", "money mule networks", "fraud ring detection", "transaction network analysis", "aml investigations", "mule account detection software"],
   openGraph: {
-    title: "Mule Network Detection Software | Detect Fraud Rings",
-    description: "Uncover mule networks, coordinated fraud rings and hidden transaction relationships with connected intelligence that strengthens AML investigations.",
+    title: "Mule Account & Network Detection | Verafye",
+    description: "Detect mule accounts and uncover the coordinated networks behind them using connected graph intelligence and investigation-ready case context.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Network Detection Software | Detect Fraud Rings",
-    description: "Uncover mule networks, coordinated fraud rings and hidden transaction relationships with connected intelligence that strengthens AML investigations.",
+    title: "Mule Account & Network Detection | Verafye",
+    description: "Detect mule accounts and uncover the coordinated networks behind them using connected graph intelligence and investigation-ready case context.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/use-cases/mule-network-detection',
@@ -23,24 +23,18 @@ export default function MuleNetworkDetectionPage() {
     <>
 
       {/* ── 1. HERO ─────────────────────────────────────────────────────────── */}
-      {/*
-        CHANGE: Secondary CTA "Contact Sales → /request-demo" replaced with
-        "See Mule Account Detection → /solutions/mule-account-detection"  - 
-        the most directly relevant solution page for this use-case topic.
-        Removes duplicate conversion button and adds a product exploration path.
-      */}
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MULE NETWORK DETECTION</p>
+            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>MULE ACCOUNT & NETWORK DETECTION</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Detect mule networks with graph-based investigation intelligence
+              Detect mule accounts by revealing the network behind them
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Surface hidden relationships across accounts, devices, beneficiaries, counterparties, transactions, and behavior patterns.
+              Mule account detection starts at the individual account. Mule network detection exposes the coordinated ring behind it.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye helps risk teams identify coordinated mule activity by connecting fragmented signals into graph context and investigation-ready cases - making it easier to see networks that isolated alerts miss.
+              Verafye connects account, device, identity, transaction, and behavior signals into graph-native network clusters — so risk teams investigate the ring, not just the account.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/risk-shadowing-review" className="btn-primary">
@@ -223,12 +217,6 @@ export default function MuleNetworkDetectionPage() {
       </section>
 
       {/* ── 6. KEY CAPABILITIES ─────────────────────────────────────────────── */}
-      {/*
-        CHANGE: "Learn more" labels replaced with specific CTA labels.
-        CHANGE: "Network Detection and Clustering" now links to /solutions/mule-account-detection.
-        CHANGE: "Cross-System Signal Aggregation" now links to /platform.
-        CHANGE: "Case Management Workflows" now links to /solutions/investigation-intelligence.
-      */}
       <section style={{ padding: '4rem 0', background: '#fff' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
@@ -394,11 +382,6 @@ export default function MuleNetworkDetectionPage() {
       </section>
 
       {/* ── 9. FINAL CTA ────────────────────────────────────────────────────── */}
-      {/*
-        CHANGE: Replaced <CTA /> with controlled inline band.
-        Secondary button links to /solutions/mule-account-detection  - 
-        the solution page that directly backs this use case.
-      */}
       <section style={{ padding: '3.5rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '48rem' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em', marginBottom: '1.25rem' }}>

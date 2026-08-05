@@ -63,6 +63,59 @@ export default function TransactionMonitoringPage() {
         </div>
       </section>
 
+      {/* ── 1b. POSITIONING STATEMENT ───────────────────────────────────────── */}
+      <section style={{ padding: '3rem 0', background: 'var(--bg-tint)', borderTop: '1px solid var(--border)' }}>
+        <div className="container">
+          <div style={{ maxWidth: '64rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.5rem' }}>How Verafye Fits</p>
+              <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.625rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.02em' }}>
+                Verafye does not require you to replace your existing transaction monitoring system
+              </h2>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.25rem' }}>
+              {[
+                {
+                  mode: 'Enrichment layer',
+                  badge: 'Most common',
+                  badgeColor: 'var(--primary)',
+                  description: 'Your existing TM system (Actimize, NICE, Quantexa, Oracle, or another) stays in place. Verafye connects alongside it and enriches each alert with entity graph, device, and behavioral context — improving signal quality without disrupting your monitoring programme.',
+                  fit: 'Best for institutions with existing TM investment who want to improve alert quality and reduce false positives',
+                },
+                {
+                  mode: 'Verafye-led monitoring',
+                  badge: null,
+                  description: 'Run transaction monitoring natively within Verafye — combining rules engine, AI-based detection, typology patterns, and behavioral analytics in one platform alongside investigation workflows. Alert creation through case closure in one connected system.',
+                  fit: 'Best for institutions building a new monitoring programme or replacing a legacy stack',
+                },
+                {
+                  mode: 'Parallel assessment',
+                  badge: 'How RSR starts',
+                  badgeColor: '#059669',
+                  description: 'Run Verafye\'s detection models on your actual transaction data alongside your existing monitoring — without committing to any change. A Risk Shadowing Review shows you specifically what your current controls are missing before you decide anything.',
+                  fit: 'Best for institutions evaluating monitoring coverage or considering modernization',
+                },
+              ].map(item => (
+                <div key={item.mode} style={{ padding: '1.75rem', background: '#fff', border: '1px solid var(--border)', borderRadius: '12px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '0.75rem' }}>
+                    <p style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)' }}>{item.mode}</p>
+                    {item.badge && (
+                      <span style={{ fontSize: '0.6875rem', fontWeight: 700, color: '#fff', background: item.badgeColor, borderRadius: '4px', padding: '0.2rem 0.5rem', letterSpacing: '0.04em' }}>
+                        {item.badge}
+                      </span>
+                    )}
+                  </div>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '0.875rem' }}>{item.description}</p>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--muted)', lineHeight: 1.5 }}>
+                    <span style={{ fontWeight: 600 }}>Best for: </span>{item.fit}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── 2. PROBLEM ──────────────────────────────────────────────────────── */}
       {/*
         CHANGE: H2 sharpened from "Challenges in Transaction Monitoring Today" to

@@ -13,3 +13,5 @@
 /industries/ecommerce-retail           /industries/marketplaces/                          301
 /risk-shadowing-review/request/        /request-demo/?intent=risk-shadowing-review        301
 /risk-shadowing-review/request         /request-demo/?intent=risk-shadowing-review        301
+/solutions/mule-account-detection/     /use-cases/mule-network-detection/                 301
+/solutions/mule-account-detection      /use-cases/mule-network-detection/                 301

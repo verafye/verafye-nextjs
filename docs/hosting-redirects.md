@@ -11,6 +11,7 @@
 |---|---|---|
 | `/industries/ecommerce-retail/` | `/industries/marketplaces/` | 301 Permanent |
 | `/risk-shadowing-review/request/` | `/request-demo/?intent=risk-shadowing-review` | 301 Permanent |
+| `/solutions/mule-account-detection/` | `/use-cases/mule-network-detection/` | 301 Permanent |
 
 ---
 
@@ -21,8 +22,12 @@
 The file `public/_redirects` in this repository contains the redirect rules in Netlify/Cloudflare Pages syntax. When deploying to either platform, this file is automatically served from the site root and the hosting platform processes it before serving pages.
 
 ```
-/industries/ecommerce-retail/     /industries/marketplaces/                    301
-/risk-shadowing-review/request/   /request-demo/?intent=risk-shadowing-review  301
+/industries/ecommerce-retail/         /industries/marketplaces/                    301
+/industries/ecommerce-retail          /industries/marketplaces/                    301
+/risk-shadowing-review/request/       /request-demo/?intent=risk-shadowing-review  301
+/risk-shadowing-review/request        /request-demo/?intent=risk-shadowing-review  301
+/solutions/mule-account-detection/    /use-cases/mule-network-detection/           301
+/solutions/mule-account-detection     /use-cases/mule-network-detection/           301
 ```
 
 No additional configuration is required on Netlify or Cloudflare Pages — the file is picked up automatically.
@@ -42,6 +47,11 @@ If deploying to Vercel, add a `vercel.json` at the repository root:
     {
       "source": "/risk-shadowing-review/request/",
       "destination": "/request-demo/?intent=risk-shadowing-review",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/mule-account-detection/",
+      "destination": "/use-cases/mule-network-detection/",
       "permanent": true
     }
   ]
@@ -66,6 +76,7 @@ Both redirect source paths have static fallback pages that provide client-side r
 |---|---|---|
 | `/industries/ecommerce-retail/` | `app/industries/ecommerce-retail/page.js` | `<meta http-equiv="refresh">` + `window.location.replace()` to `/industries/marketplaces/` |
 | `/risk-shadowing-review/request/` | `app/risk-shadowing-review/request/page.js` | Client-side redirect to `/request-demo/?intent=risk-shadowing-review` |
+| `/solutions/mule-account-detection/` | `app/solutions/mule-account-detection/page.js` | `<meta http-equiv="refresh">` to `/use-cases/mule-network-detection/`, canonical pointing to destination, `robots: noindex` |
 
 Both fallback pages have:
 - `robots: { index: false, follow: true }` — crawlers will not index, but will follow outbound links
@@ -94,6 +105,9 @@ curl -I https://www.verafye.com/industries/ecommerce-retail/
 
 # Should return 301 with Location: /request-demo/?intent=risk-shadowing-review
 curl -I https://www.verafye.com/risk-shadowing-review/request/
+
+# Should return 301 with Location: /use-cases/mule-network-detection/
+curl -I https://www.verafye.com/solutions/mule-account-detection/
 ```
 
 If the hosting platform is processing `_redirects`, both should return `HTTP/2 301` before the fallback page HTML is served.

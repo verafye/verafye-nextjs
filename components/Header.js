@@ -14,8 +14,7 @@ const navItems = [
       { href: '/platform',                              label: 'Platform Overview' },
       { href: '/capabilities',                          label: 'Capabilities' },
       { href: '/solutions/investigation-intelligence',  label: 'Investigation Intelligence' },
-      { href: '/solutions/graph-intelligence',          label: 'Graph Intelligence' },
-      { href: '/solutions/mule-account-detection',      label: 'Mule Account Detection' },
+      { href: '/solutions/graph-intelligence',          label: 'Decision Intelligence' },
     ],
   },
   {
@@ -26,6 +25,7 @@ const navItems = [
       { href: '/use-cases/mule-network-detection',                  label: 'Mule Network Detection' },
       { href: '/use-cases/transaction-monitoring',                  label: 'Transaction Monitoring' },
       { href: '/use-cases/investigation-workflow-modernization',    label: 'Investigation Workflow Modernization' },
+      { href: '/use-cases/fraud-aml-investigations',               label: 'Connected Fraud & AML Investigations' },
     ],
   },
   {
@@ -43,19 +43,12 @@ const navItems = [
     ],
   },
   {
-    label: 'Customers',
-    href: '/customers',
-    children: [
-      { href: '/customers',     label: 'Who We Serve' },
-      { href: '/case-studies',  label: 'Case Studies' },
-    ],
-  },
-  {
     label: 'Resources',
     href: '/resources',
     children: [
       { href: '/resources',   label: 'All Resources' },
       { href: '/blog',        label: 'Blog' },
+      { href: '/case-studies', label: 'Case Studies' },
       { href: '/faq',         label: 'FAQ' },
     ],
   },
@@ -64,6 +57,7 @@ const navItems = [
     href: '/company',
     children: [
       { href: '/company',         label: 'About' },
+      { href: '/customers',       label: 'Who We Serve' },
       { href: '/partners',        label: 'Partners' },
       { href: '/media',           label: 'Media & Press' },
       { href: '/security-trust',  label: 'Security & Trust' },
@@ -80,8 +74,7 @@ const mobileNavGroups = [
       { href: '/platform',                             label: 'Overview' },
       { href: '/capabilities',                         label: 'Capabilities' },
       { href: '/solutions/investigation-intelligence', label: 'Investigation Intelligence' },
-      { href: '/solutions/graph-intelligence',         label: 'Graph Intelligence' },
-      { href: '/solutions/mule-account-detection',     label: 'Mule Account Detection' },
+      { href: '/solutions/graph-intelligence',         label: 'Decision Intelligence' },
     ],
   },
   {
@@ -92,6 +85,7 @@ const mobileNavGroups = [
       { href: '/use-cases/mule-network-detection',                label: 'Mule Network Detection' },
       { href: '/use-cases/transaction-monitoring',                label: 'Transaction Monitoring' },
       { href: '/use-cases/investigation-workflow-modernization',  label: 'Investigation Workflow Modernization' },
+      { href: '/use-cases/fraud-aml-investigations',             label: 'Connected Fraud & AML Investigations' },
     ],
   },
   {
@@ -109,28 +103,13 @@ const mobileNavGroups = [
     ],
   },
   {
-    heading: 'Region',
-    headingHref: null,
-    items: [
-      { href: '/',   label: 'Global' },
-      { href: '/in', label: 'India' },
-    ],
-  },
-  {
-    heading: 'Customers',
-    headingHref: '/customers',
-    items: [
-      { href: '/customers',    label: 'Who We Serve' },
-      { href: '/case-studies', label: 'Case Studies' },
-    ],
-  },
-  {
     heading: 'Resources',
     headingHref: '/resources',
     items: [
-      { href: '/resources', label: 'All Resources' },
-      { href: '/blog',      label: 'Blog' },
-      { href: '/faq',       label: 'FAQ' },
+      { href: '/resources',   label: 'All Resources' },
+      { href: '/blog',        label: 'Blog' },
+      { href: '/case-studies', label: 'Case Studies' },
+      { href: '/faq',         label: 'FAQ' },
     ],
   },
   {
@@ -138,6 +117,7 @@ const mobileNavGroups = [
     headingHref: '/company',
     items: [
       { href: '/company',        label: 'About' },
+      { href: '/customers',      label: 'Who We Serve' },
       { href: '/partners',       label: 'Partners' },
       { href: '/media',          label: 'Media & Press' },
       { href: '/security-trust', label: 'Security & Trust' },
@@ -460,7 +440,7 @@ export default function Header() {
       <div className="container">
         <div className="header-inner">
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '2.5rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
             <Link href="/" className="logo" onClick={() => setMobileOpen(false)}>
               <img
                 src="/images/verafye-logo-blue.png"
@@ -468,7 +448,7 @@ export default function Header() {
                 style={{ height: '28px', width: 'auto', display: 'block' }}
               />
             </Link>
-            <nav className="nav-links" aria-label="Main navigation" style={{ display: 'flex', alignItems: 'center', gap: '1.75rem' }}>
+            <nav className="nav-links" aria-label="Main navigation" style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
               {navItems.map(item => (
                 <DropdownItem key={item.label} item={item} />
               ))}
@@ -476,7 +456,13 @@ export default function Header() {
           </div>
 
           <div className="header-actions" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <GeoSelector />
+            <Link
+              href="/risk-shadowing-review"
+              className="btn-secondary btn-sm"
+              style={{ whiteSpace: 'nowrap' }}
+            >
+              Risk Shadowing Review
+            </Link>
             <Link
               href="/request-demo"
               className="btn-primary btn-sm"
@@ -566,9 +552,17 @@ export default function Header() {
           ))}
 
           <Link
+            href="/risk-shadowing-review"
+            className="btn-secondary"
+            style={{ marginTop: '1.5rem', textAlign: 'center', display: 'block' }}
+            onClick={() => setMobileOpen(false)}
+          >
+            Risk Shadowing Review
+          </Link>
+          <Link
             href="/request-demo"
             className="btn-primary"
-            style={{ marginTop: '1.5rem', textAlign: 'center', display: 'block' }}
+            style={{ marginTop: '0.625rem', textAlign: 'center', display: 'block' }}
             onClick={() => {
               setMobileOpen(false);
               typeof window !== 'undefined' &&

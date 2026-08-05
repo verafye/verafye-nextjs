@@ -357,7 +357,7 @@ export default function InvestigationIntelligencePage() {
                 <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)' }}>Explore →</span>
               </div>
             </Link>
-            <Link href="/solutions/mule-account-detection" style={{ textDecoration: 'none' }}>
+            <Link href="/use-cases/mule-network-detection" style={{ textDecoration: 'none' }}>
               <div className="card card-hover" style={{ padding: '1.75rem', cursor: 'pointer' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Solution</div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>Mule Account Detection</h3>
