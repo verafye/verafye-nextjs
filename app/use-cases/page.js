@@ -151,9 +151,9 @@ export default function UseCasesPage() {
         <div className="container">
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gridTemplateColumns: 'repeat(2, 1fr)',
             gap: '1.5rem',
-            maxWidth: '72rem',
+            maxWidth: '64rem',
             margin: '0 auto',
           }}>
             {useCases.map(item => (
