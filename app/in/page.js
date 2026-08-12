@@ -13,6 +13,10 @@ export const metadata = {
     title: "Fraud Detection Platform for Payment Aggregators, PSPs and NBFCs in India",
     description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
   },
+  robots: {
+    index: false,
+    follow: false,
+  },
   alternates: {
     canonical: 'https://www.verafye.com/in',
   },
