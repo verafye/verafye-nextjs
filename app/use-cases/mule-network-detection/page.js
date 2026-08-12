@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Account & Network Detection | Verafye",
+  title: "Mule Account & Network Detection",
   description: "Detect mule accounts and coordinated mule networks using Connected-Risk Intelligence. Connect account, device, identity and transaction signals into network-level cases for evidence-backed AML investigations.",
   keywords: ["mule account detection", "mule network detection", "money mule networks", "fraud ring detection", "transaction network analysis", "aml investigations", "mule account detection software"],
   openGraph: {

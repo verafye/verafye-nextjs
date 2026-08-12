@@ -1,8 +1,7 @@
 import Link from 'next/link';
-import CTA from '@/components/CTA';
 
 export const metadata = {
-  title: "Fraud, AML & Risk Investigation Use Cases | Verafye",
+  title: "Fraud, AML & Risk Investigation Use Cases",
   description: "Explore how Verafye addresses mule network detection, transaction monitoring, investigation workflow modernisation, and connected fraud and AML investigations across financial institutions.",
   keywords: ["fraud investigation use cases", "aml compliance use cases", "mule network detection", "transaction monitoring", "investigation workflow modernization", "connected fraud aml investigations", "financial crime use cases"],
   openGraph: {

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence for Payment Fintechs | Verafye",
+  title: "Connected-Risk Intelligence for Payment Fintechs",
   description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence — surfacing account farming, referral abuse, wallet misuse, payout fraud, and cross-product risk patterns.",
   keywords: ["payment fintech fraud detection", "wallet risk intelligence", "prepaid card fraud", "lending app fraud", "referral abuse detection", "account farming fintech", "payout fraud investigation", "fintech aml investigation", "payment app risk intelligence", "fintech investigation workflow"],
   openGraph: {

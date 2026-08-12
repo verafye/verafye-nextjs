@@ -67,6 +67,13 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Regional -->
+  <url>
+    <loc>https://www.verafye.com/in/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.55</priority>
+  </url>
+
   <!-- Industries -->
   <url>
     <loc>https://www.verafye.com/industries/banks/</loc>

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
+  title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors",
   description: "Detect merchant fraud, payout abuse and payment risk with Connected-Risk Intelligence built for PSPs, PayFacs and payment processors.",
   keywords: ["psp risk intelligence", "payfac fraud detection", "merchant risk monitoring", "transaction laundering detection", "payment processor fraud", "sub-merchant risk", "chargeback fraud detection", "payment fraud investigation"],
   openGraph: {

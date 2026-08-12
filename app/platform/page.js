@@ -2,7 +2,7 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { PlatformVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence Platform | Verafye",
+  title: "Connected-Risk Intelligence Platform",
   description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
   keywords: ["connected risk intelligence platform", "network risk intelligence software", "entity resolution platform", "transaction network analysis", "financial crime intelligence platform", "investigation intelligence", "mule network intelligence"],
   openGraph: {

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence for MSBs & Remittance Platforms | Verafye",
+  title: "Connected-Risk Intelligence for MSBs & Remittance Platforms",
   description: "Detect mule networks, suspicious beneficiary flows and cross-border financial crime using Connected-Risk Intelligence built for MSBs and remittance providers.",
   keywords: ["msb aml software", "remittance aml intelligence", "cross border transaction monitoring", "mule network detection", "corridor risk", "structuring detection", "sar str preparation", "sponsor bank compliance", "fintrac aml", "fincen msb"],
   openGraph: {
