@@ -1,20 +1,20 @@
 import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Fraud Detection & AML Capabilities",
-  description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
-  keywords: ["network risk intelligence capabilities", "entity resolution", "graph analytics", "transaction intelligence", "investigation workflows", "financial crime investigations", "risk intelligence software", "fraud analytics platform"],
+  title: "Connected-Risk Intelligence Capabilities",
+  description: "Explore the eight capability domains that power Verafye's Connected-Risk Intelligence platform — from customer risk and transaction monitoring to investigation intelligence and decision support.",
+  keywords: ["connected risk intelligence capabilities", "entity resolution", "graph analytics", "transaction intelligence", "investigation workflows", "financial crime investigations", "risk intelligence software", "fraud analytics platform"],
   openGraph: {
-    title: "Fraud Detection & AML Capabilities",
-    description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
+    title: "Connected-Risk Intelligence Capabilities | Verafye",
+    description: "Eight capability domains. One connected platform. Explore how Verafye turns suspicious activity into evidence-backed Connected-Risk Intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection & AML Capabilities",
-    description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
+    title: "Connected-Risk Intelligence Capabilities | Verafye",
+    description: "Eight capability domains. One connected platform. Explore how Verafye turns suspicious activity into evidence-backed Connected-Risk Intelligence.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/capabilities',
+    canonical: 'https://www.verafye.com/capabilities/',
   },
 };
 
@@ -111,8 +111,8 @@ export default function CapabilitiesPage() {
       {/* ── Section 1: Hero - Option 1: Split Hero with Visual Card (approved) ── */}
       <SplitHeroWithVisualCard
         eyebrow="CAPABILITIES"
-        seoH1="Fraud Detection & AML Capabilities"
-        title="Capabilities for detection-to-decision financial crime operations"
+        seoH1="Connected-Risk Intelligence Capabilities"
+        title="Eight capability domains for detection-to-decision financial crime operations"
         description="Detection Intelligence, Investigation Intelligence, and Decision Intelligence in one platform — Connected-Risk network detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams."
         primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
         secondaryCTA={{ label: 'Explore Platform', href: '/platform' }}

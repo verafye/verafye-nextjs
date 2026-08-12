@@ -5,16 +5,16 @@ export const metadata = {
   description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
   keywords: ["risk shadowing review", "connected risk intelligence", "network risk intelligence", "fraud aml evaluation", "investigation-ready evidence", "mule network intelligence", "payments risk evaluation"],
   openGraph: {
-    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
-    description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
+    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams | Verafye",
+    description: "Evaluate Verafye's Connected-Risk Intelligence on a controlled dataset from your existing environment — entities resolved, hidden networks surfaced, investigation-ready evidence produced.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
-    description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
+    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams | Verafye",
+    description: "Evaluate Verafye's Connected-Risk Intelligence on a controlled dataset from your existing environment — entities resolved, hidden networks surfaced, investigation-ready evidence produced.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/risk-shadowing-review',
+    canonical: 'https://www.verafye.com/risk-shadowing-review/',
   },
 };
 

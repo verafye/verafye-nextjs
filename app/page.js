@@ -431,11 +431,11 @@ export default function Page() {
   </div>
 </section>
 
-{/* ─── AI-NATIVE ARCHITECTURE ─────────────────────────────────────────────── */}
+{/* ─── INVESTIGATION INTELLIGENCE ARCHITECTURE ────────────────────────────── */}
 <section style={{'padding':'4rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container">
     <div style={{'textAlign':'center','maxWidth':'52rem','margin':'0 auto 2.75rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>AI-NATIVE ARCHITECTURE</p>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION INTELLIGENCE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em','lineHeight':1.15}}>
         Agents compensate for fragmented data.<br/>We fix the fragmentation.
       </h2>

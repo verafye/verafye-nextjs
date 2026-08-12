@@ -14,7 +14,7 @@ export const metadata = {
     description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with Connected-Risk Intelligence and investigation-ready case context.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs',
+    canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs/',
   },
 };
 

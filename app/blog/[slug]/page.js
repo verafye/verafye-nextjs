@@ -239,8 +239,8 @@ export default async function BlogPostPage({ params }) {
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', background: 'linear-gradient(135deg,#EEF4FF 0%,#F8FBFF 100%)', borderRadius: '14px', padding: '2rem 2.5rem', border: '1px solid rgba(30,111,183,0.12)', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center', gap: '1.25rem' }}>
             <div>
-              <p style={{ fontWeight: 700, color: 'var(--dark)', fontSize: '1.0625rem', margin: '0 0 0.375rem' }}>See where your monitoring stack has blind spots</p>
-              <p style={{ color: 'var(--body)', fontSize: '0.875rem', margin: 0 }}>The Risk Shadowing Review maps your current coverage against relationship-level gaps.</p>
+              <p style={{ fontWeight: 700, color: 'var(--dark)', fontSize: '1.0625rem', margin: '0 0 0.375rem' }}>See the risk around what you already know is suspicious.</p>
+              <p style={{ color: 'var(--body)', fontSize: '0.875rem', margin: 0 }}>A Risk Shadowing Review maps connected risk across your existing alerts, entities, and signals — and delivers investigation-ready evidence from your own data.</p>
             </div>
             <Link href="/risk-shadowing-review/" style={{ flexShrink: 0, background: 'var(--primary)', color: '#fff', fontWeight: 600, fontSize: '0.9375rem', padding: '0.7rem 1.75rem', borderRadius: '8px', textDecoration: 'none', whiteSpace: 'nowrap' }}>
               Request a Review {ARROW}

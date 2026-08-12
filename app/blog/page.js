@@ -94,7 +94,7 @@ export default function BlogIndexPage() {
             See where your current signal coverage has gaps
           </h2>
           <p style={{ color: 'var(--body)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
-            The Verafye Risk Shadowing Review maps your existing monitoring stack against relationship-level blind spots — before fraud exploits them.
+            A Verafye Risk Shadowing Review maps connected risk across your existing alerts and entity signals — delivering investigation-ready evidence from your own data, without requiring changes to your current controls.
           </p>
           <Link
             href="/risk-shadowing-review/"

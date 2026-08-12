@@ -14,7 +14,7 @@ export const metadata = {
     description: "Connected-Risk Intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/industries/msbs-remittance-platforms',
+    canonical: 'https://www.verafye.com/industries/msbs-remittance-platforms/',
   },
 };
 

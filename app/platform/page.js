@@ -15,7 +15,7 @@ export const metadata = {
     description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/platform',
+    canonical: 'https://www.verafye.com/platform/',
   },
 };
 
@@ -26,11 +26,11 @@ export default function PlatformPage() {
 {/* HERO - Option 1: Split Hero with Visual Card (approved) */}
 <SplitHeroWithVisualCard
   eyebrow="VERAFYE PLATFORM"
-  seoH1="Financial Crime Detection Platform"
-  title="Network Risk Intelligence for Modern Financial Crime Operations"
-  description="Verafye is a Connected-Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time — converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
-  body="Built for teams operating under growing regulatory and operational complexity - connect selected data sources, expand coverage through proven stages, and build toward Verafye-led detection, investigation, and decisioning workflows."
-  primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
+  seoH1="Connected-Risk Intelligence Platform for Financial Crime Teams"
+  title="Connected-Risk Intelligence for fraud, AML, and payment risk teams"
+  description="Verafye is a Connected-Risk Intelligence platform that turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs operating under regulatory complexity."
+  body="Connect selected data sources, resolve entities, map network-level risk across relevant relationships, and carry that context into investigation and decisioning — without replacing your existing control stack first."
+  primaryCTA={{ label: 'Explore Risk Shadowing', href: '/risk-shadowing-review' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
   visualCard={<PlatformVisualCard />}
 />
@@ -474,12 +474,12 @@ export default function PlatformPage() {
   </div>
 </section>
 
-{/* AI-NATIVE INVESTIGATION INTELLIGENCE ARCHITECTURE */}
+{/* INVESTIGATION INTELLIGENCE ARCHITECTURE */}
 <section style={{'padding':'4rem 0','background':'linear-gradient(180deg,#F8FBFF 0%,#ffffff 100%)'}}>
   <div className="container" style={{'maxWidth':'80rem'}}>
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>AI-NATIVE ARCHITECTURE</p>
-      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>AI-Native Investigation Intelligence Architecture</h2>
+      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION INTELLIGENCE</p>
+      <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Investigation Intelligence Architecture</h2>
       <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.25rem'}}>Most financial crime platforms were not originally designed around AI. As a result, many now layer AI assistants, summarization tools, and orchestration components on top of existing architectures to bridge fragmented workflows.</p>
       <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>Verafye took a different approach. Intelligence is embedded into the platform architecture itself - at signal ingestion, entity resolution, graph reasoning, detection and risk scoring, investigation workflows, and evidence generation. Graph reasoning, alert correlation, case context, provenance tracking, and audit trails are native capabilities - not separate layers added on top.</p>
 

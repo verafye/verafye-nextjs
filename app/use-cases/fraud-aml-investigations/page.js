@@ -1,9 +1,8 @@
 import Link from 'next/link';
-import CTA from '@/components/CTA';
 
 export const metadata = {
   title: "Connected Fraud & AML Investigations",
-  description: "Fraud teams and AML teams catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface — so teams investigate the full picture, not just their slice.",
+  description: "Fraud teams and AML teams often catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface — so teams investigate the connected risk, not just their slice.",
   keywords: ["connected fraud aml investigations", "fraud aml convergence", "unified fraud aml platform", "cross-functional financial crime investigations", "fraud aml shared workflows", "connected-risk investigation"],
   openGraph: {
     title: "Connected Fraud & AML Investigations | Verafye",
@@ -15,7 +14,7 @@ export const metadata = {
     description: "Fraud teams and AML teams catch different pieces of the same crime. Verafye connects both into one investigation surface.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/use-cases/fraud-aml-investigations',
+    canonical: 'https://www.verafye.com/use-cases/fraud-aml-investigations/',
   },
 };
 

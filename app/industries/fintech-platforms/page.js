@@ -14,7 +14,7 @@ export const metadata = {
     description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/industries/fintech-platforms',
+    canonical: 'https://www.verafye.com/industries/fintech-platforms/',
   },
 };
 

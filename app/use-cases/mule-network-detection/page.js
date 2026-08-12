@@ -14,7 +14,7 @@ export const metadata = {
     description: "Detect mule accounts and uncover the coordinated networks behind them using connected graph intelligence and investigation-ready case context.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/use-cases/mule-network-detection',
+    canonical: 'https://www.verafye.com/use-cases/mule-network-detection/',
   },
 };
 

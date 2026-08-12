@@ -6,16 +6,16 @@ export const metadata = {
   description: "Uncover hidden fraud networks by connecting accounts, devices, merchants and transactions with graph intelligence built for fraud and AML investigations.",
   keywords: ["graph intelligence", "fraud network analysis", "entity resolution", "relationship analytics", "graph analytics platform", "fraud ring detection"],
   openGraph: {
-    title: "Detect Hidden Fraud Networks with Graph Intelligence",
-    description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
+    title: "Graph Intelligence for Connected Financial Crime Investigations | Verafye",
+    description: "Reveal hidden relationships across users, accounts, merchants, devices, and transactions — turning isolated alerts into network-level investigation context.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Detect Hidden Fraud Networks with Graph Intelligence",
-    description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
+    title: "Graph Intelligence for Connected Financial Crime Investigations | Verafye",
+    description: "Reveal hidden relationships across users, accounts, merchants, devices, and transactions — turning isolated alerts into network-level investigation context.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/solutions/graph-intelligence',
+    canonical: 'https://www.verafye.com/solutions/graph-intelligence/',
   },
 };
 
