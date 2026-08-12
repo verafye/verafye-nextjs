@@ -1,3 +1,4 @@
+import CTA from '../../../components/CTA';
 import Link from 'next/link';
 import SplitHeroWithVisualCard, { InvestigationVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
