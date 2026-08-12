@@ -9,7 +9,7 @@
 
 export const metadata = {
   title: "Mule Account & Network Detection | Verafye",
-  description: "Detect mule accounts and coordinated mule networks using graph-native investigation intelligence.",
+  description: "Detect mule accounts and coordinated mule networks using Connected-Risk Intelligence.",
   alternates: {
     canonical: 'https://www.verafye.com/use-cases/mule-network-detection',
   },

@@ -87,7 +87,7 @@ export default function IBSiInterviewPage() {
             In the June 2026 edition of the IBSi FinTech Journal, our Co-Founder and CEO Abhishek Tuppada sat down with IBS Intelligence to discuss why digital trust is shifting from a one-time onboarding checkpoint to a continuous capability - and what that shift demands from fraud, AML, and compliance operations.
           </p>
           <p style={{ fontSize: 'clamp(0.9375rem,1.75vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.8 }}>
-            The conversation covers the coordinated nature of modern financial crime - mule networks, synthetic identities, and AI-assisted attacks that cannot be understood through isolated alerts - and the thinking behind Verafye's graph-native Network Risk Intelligence: resolving entities, mapping cross-entity transaction networks, and giving lean risk teams investigation-grade evidence behind every decision.
+            The conversation covers the coordinated nature of modern financial crime - mule networks, synthetic identities, and AI-assisted attacks that cannot be understood through isolated alerts - and the thinking behind Verafye's Connected-Risk Intelligence platform: resolving entities, mapping cross-entity transaction networks, and giving lean risk teams investigation-grade evidence behind every decision.
           </p>
         </div>
       </section>

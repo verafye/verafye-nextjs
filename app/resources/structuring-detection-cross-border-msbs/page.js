@@ -187,7 +187,7 @@ export default function ArticlePage() {
               How Verafye Supports Structuring Detection in MSB and Remittance Operations
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is a graph-native Network Risk Intelligence platform for MSB and remittance operations. It connects payment, identity, device, and behavioral signals into investigation-ready cases. For structuring detection specifically, it supports:
+              Verafye is a Connected-Risk Intelligence platform for MSB and remittance operations. It connects payment, identity, device, and behavioral signals into investigation-ready cases. For structuring detection specifically, it supports:
             </p>
             <BulletList items={[
               'Beneficiary-level aggregation across senders, corridors, and time windows — surfacing patterns that per-sender monitoring misses.',

@@ -382,7 +382,7 @@ export default function IndiaPage() {
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Mule account patterns</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Surface mule account networks and coordinated fraud rings through graph-native relationship analysis across accounts, devices, and transaction flows.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Surface mule account networks and coordinated fraud rings through network-level relationship analysis across accounts, devices, and transaction flows.</p>
       </div>
 
       <div className="card" style={{'padding':'2.5rem','position':'relative','overflow':'hidden'}}>

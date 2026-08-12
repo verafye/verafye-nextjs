@@ -205,7 +205,7 @@ export default function ArticlePage() {
               How Verafye Supports Network-Level Investigation
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is a graph-native Network Risk Intelligence platform that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms — and turns them into investigation-ready cases. Verafye may begin with selected signal feeds from existing detection systems, connecting those alongside other sources into a coordinated, network-level investigation view.
+              Verafye is a Connected-Risk Intelligence platform that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms — and turns them into investigation-ready cases. Verafye may begin with selected signal feeds from existing detection systems, connecting those alongside other sources into a coordinated, network-level investigation view.
             </p>
             <BulletList items={[
               'Resolves entities across data sources to surface shared accounts, devices, identities, and beneficiaries.',
@@ -241,7 +241,7 @@ export default function ArticlePage() {
                 See network-level risk intelligence in action
               </h3>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0, maxWidth: '36rem' }}>
-                Verafye connects entities, relationships, and risk signals from across your payment platform into graph-native, investigation-ready cases.
+                Verafye connects entities, relationships, and risk signals from across your payment platform into evidence-backed, investigation-ready cases.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>

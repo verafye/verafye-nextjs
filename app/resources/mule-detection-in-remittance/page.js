@@ -199,7 +199,7 @@ export default function ArticlePage() {
               How Verafye Supports Mule Detection in Remittance Operations
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is built for regulated payment platforms including MSBs and remittance operators. Its graph-native architecture connects payment, identity, device, beneficiary, and behavioral signals into network-level investigation cases. For mule network detection specifically:
+              Verafye is built for regulated payment platforms including MSBs and remittance operators. Its network-level architecture connects payment, identity, device, beneficiary, and behavioral signals into network-level investigation cases. For mule network detection specifically:
             </p>
             <BulletList items={[
               'Entity resolution links sender accounts that share identity attributes, contact details, or device signals — even where the same individual appears under different records.',

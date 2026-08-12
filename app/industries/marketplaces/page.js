@@ -34,7 +34,7 @@ export default function MarketplacesPage() {
               Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations - surfacing seller fraud rings, buyer-seller collusion, fake listing abuse, payout abuse, refund/return abuse, and coordinated account networks.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Use graph-native investigation workflows to connect fragmented marketplace signals into evidence-backed cases across seller onboarding, listing activity, payments, payouts, disputes, and abuse operations.
+              Use connected-risk investigation workflows to connect fragmented marketplace signals into evidence-backed cases across seller onboarding, listing activity, payments, payouts, disputes, and abuse operations.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
@@ -70,7 +70,7 @@ export default function MarketplacesPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>),
                 title: 'Buyer-Seller Collusion, Review Manipulation, and Dispute Abuse',
-                body: 'Collusion between linked buyer and seller accounts - fake transactions, coordinated review boosting, and manipulated dispute flows - requires cross-entity investigation context that account-level monitoring and content classification alone cannot provide.',
+                body: 'Collusion between linked buyer and seller accounts - fake transactions, coordinated review boosting, and manipulated dispute flows - requires cross-entity investigation context that account-level monitoring and content classification alone does not deliver.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -116,7 +116,7 @@ export default function MarketplacesPage() {
               What Verafye Is - and What It Is Not
             </h2>
             <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--body)', marginTop: '0.75rem', lineHeight: 1.7 }}>
-              Verafye is a graph-native Network Risk Intelligence platform applied to marketplace risk. It connects signals across the marketplace lifecycle into evidence-backed investigation cases. It is not a content moderation, trust-and-safety, or marketplace policy system.
+              Verafye is a Connected-Risk Intelligence platform applied to marketplace risk. It connects signals across the marketplace lifecycle into evidence-backed investigation cases. It is not a content moderation, trust-and-safety, or marketplace policy system.
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(14rem, 1fr))', gap: '1rem' }}>

@@ -82,7 +82,7 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Limited Visibility Across Member Activity',
-                body: 'Without resolved entity relationships and connected case context across member accounts, devices, and transactions, credit unions cannot see the patterns that reveal coordinated fraud, mule activity, or AML exposure operating within their membership base.',
+                body: 'Without resolved entity relationships and connected case context across member accounts, devices, and transactions, credit unions do not surface the patterns that reveal coordinated fraud, mule activity, or AML exposure operating within their membership base.',
               },
               {
                 gradient: 'gradient-bg-1',
@@ -122,7 +122,7 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>),
                 title: 'Fraud and AML Operate in Isolation',
-                body: 'Point solutions built for single domains - fraud or AML - cannot see cross-domain patterns. The boundary between fraud proceeds and money movement is precisely where coordinated financial crime operates, and where isolated systems have no visibility.',
+                body: 'Point solutions built for single domains - fraud or AML - do not surface cross-domain patterns. The boundary between fraud proceeds and money movement is precisely where coordinated financial crime operates, and where isolated systems have no visibility.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -175,7 +175,7 @@ export default function CreditUnionsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Risk Intelligence Across Member Networks</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Graph intelligence resolves entities, maps relationships, and clusters networks across accounts, devices, and transactions - surfacing coordinated fraud rings, mule activity, and AML typologies that rules-based systems cannot see.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Graph intelligence resolves entities, maps relationships, and clusters networks across accounts, devices, and transactions - surfacing coordinated fraud rings, mule activity, and AML typologies that rules-based systems do not surface on their own.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>

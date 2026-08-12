@@ -39,7 +39,7 @@ const useCases = [
   {
     eyebrow: 'Monitoring',
     title: 'Transaction Monitoring',
-    description: 'Alert quality suffers when monitoring runs on transaction data alone. Verafye brings entity relationships, behavioral patterns, and cross-system context into every alert — reducing false positives and surfacing the signals that warrant investigation.',
+    description: 'Alert quality suffers when monitoring runs on transaction data alone. Verafye brings entity relationships, behavioral patterns, and cross-system context into every alert — improving alert signal quality and surfacing the signals that warrant investigation.',
     href: '/use-cases/transaction-monitoring',
     cta: 'Explore transaction monitoring',
     icon: (

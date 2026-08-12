@@ -166,7 +166,7 @@ export default function ArticlePage() {
               Where Verafye Fits
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is a graph-native Network Risk Intelligence platform for regulated payment platforms and financial institutions. Investigation Intelligence is a core capability within the platform - the ability to assemble fragmented entities, alerts, relationships, and evidence into coherent, prioritised, and traceable investigations. It connects those signals into structured, investigation-ready workflows so teams can:
+              Verafye is a Connected-Risk Intelligence platform for regulated payment platforms and financial institutions. Investigation Intelligence is a core capability within the platform - the ability to assemble fragmented entities, alerts, relationships, and evidence into coherent, prioritised, and traceable investigations. It connects those signals into structured, investigation-ready workflows so teams can:
             </p>
             <div style={{ background: 'var(--bg-slate)', border: '1px solid var(--border)', borderRadius: '0.75rem', padding: '1.5rem 1.75rem', marginBottom: '1.5rem' }}>
               {[

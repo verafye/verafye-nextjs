@@ -158,7 +158,7 @@ const resources = [
     category: 'use-case-deep-dives',
     categoryLabel: 'Use Case Deep Dives',
     title: 'Mule Network Detection in Remittance and Cross-Border Payment Operations',
-    summary: 'Mule networks exploit remittance volume and corridor complexity to evade alert-based detection. Learn how graph-native analysis surfaces coordinated mule activity across senders, accounts, and beneficiaries.',
+    summary: 'Mule networks exploit remittance volume and corridor complexity to evade alert-based detection. Learn how network-level analysis surfaces coordinated mule activity across senders, accounts, and beneficiaries.',
     readingTime: '8 min read',
     ctaLabel: 'Explore Use Case',
     href: '/resources/mule-detection-in-remittance/',
@@ -210,7 +210,7 @@ const resources = [
   {
     category: 'industry-insights',
     categoryLabel: 'Industry Insights',
-    title: 'Reducing False Positives in Transaction Monitoring',
+    title: 'Improving Alert Signal Quality in Transaction Monitoring',
     summary: 'High false positive rates in transaction monitoring remain one of the most persistent and costly challenges in financial crime operations.',
     readingTime: '5 min read',
     ctaLabel: 'Read Insight',

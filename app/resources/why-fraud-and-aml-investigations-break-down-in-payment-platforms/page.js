@@ -207,7 +207,7 @@ export default function ArticlePage() {
               Where Verafye Fits
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is a graph-native Network Risk Intelligence platform built for payment risk operations. It connects fraud, AML, payment, identity, device, and case signals into investigation-ready workflows. This helps payment risk teams:
+              Verafye is a Connected-Risk Intelligence platform built for payment risk operations. It connects fraud, AML, payment, identity, device, and case signals into investigation-ready workflows. This helps payment risk teams:
             </p>
             <BulletList items={[
               'Bring together fragmented context across alerts, accounts, transactions, beneficiaries, devices, identities, and cases.',

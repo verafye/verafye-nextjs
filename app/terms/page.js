@@ -43,7 +43,7 @@ export default function Page() {
 
             {/* ── 2. Description of Services ───────────────────────────────── */}
             <h2 style={h2}>2. Description of Services</h2>
-            <p style={p}>Verafye provides investigation intelligence capabilities for regulated financial platforms, including graph-native intelligence, investigation workflows, and cross-system signal correlation. Our website is provided for informational purposes and to facilitate enquiries about our products and services.</p>
+            <p style={p}>Verafye provides investigation intelligence capabilities for regulated financial platforms, including Connected-Risk Intelligence, investigation workflows, and cross-system signal correlation. Our website is provided for informational purposes and to facilitate enquiries about our products and services.</p>
 
             {/* ── 3. Use of Services ───────────────────────────────────────── */}
             <h2 style={h2}>3. Use of Services</h2>

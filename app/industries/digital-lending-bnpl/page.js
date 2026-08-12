@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Detect Synthetic Identity and Lending Fraud",
-  description: "Detect application fraud, synthetic identities, mule accounts and repayment fraud with graph-native Network Risk Intelligence built for digital lenders and BNPL providers.",
+  description: "Detect application fraud, synthetic identities, mule accounts and repayment fraud with Connected-Risk Intelligence built for digital lenders and BNPL providers.",
   keywords: ["lending fraud detection", "synthetic identity fraud", "application fraud detection", "bnpl fraud prevention", "borrower risk intelligence", "fraud analytics"],
   openGraph: {
     title: "Detect Synthetic Identity and Lending Fraud",
