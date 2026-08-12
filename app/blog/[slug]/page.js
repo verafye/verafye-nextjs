@@ -195,7 +195,7 @@ export default async function BlogPostPage({ params }) {
                 <p style={{ fontWeight: 700, color: 'var(--dark)', margin: '0 0 0.125rem', fontSize: '0.9375rem' }}>{post.authorName}</p>
                 <p style={{ color: 'var(--muted)', fontSize: '0.8125rem', margin: '0 0 0.625rem' }}>{post.authorRole}, Verafye</p>
                 <p style={{ color: 'var(--body)', fontSize: '0.875rem', lineHeight: 1.65, margin: 0 }}>
-                  Verafye is a graph-native network risk intelligence platform built for lean fraud, AML, and risk teams at payment aggregators, PSPs, MSBs, and regulated fintech platforms.
+                  Verafye is a Connected-Risk Intelligence platform built for lean fraud, AML, and risk teams at payment aggregators, PSPs, MSBs, and regulated fintech platforms.
                 </p>
               </div>
             </div>

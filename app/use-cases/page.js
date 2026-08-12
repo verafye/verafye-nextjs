@@ -343,7 +343,7 @@ export default function UseCasesPage() {
               Test Verafye against your real environment
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '2rem' }}>
-              A Risk Shadowing Review runs Verafye&apos;s detection models on a sample of your actual transaction and entity data — so you see what your existing controls are missing, not what a demo environment shows. No sales pitch. No synthetic data.
+              A Risk Shadowing Review runs Verafye&apos;s detection models on a sample of your actual transaction and entity data — mapping connected risk across entities, relationships, and signals that your current workflow does not surface as connected cases. No sales pitch. No synthetic data.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
               <Link
