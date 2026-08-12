@@ -278,7 +278,7 @@ export default function CreditUnionsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Improved Visibility Across Member and Account Risk',
-                body: 'Graph-native intelligence gives fraud and AML teams a connected view of risk across member accounts, devices, and transactions - replacing fragmented, siloed monitoring with a connected picture of financial crime activity within the membership base.',
+                body: 'Connected-Risk Intelligence gives fraud and AML teams a connected view of risk across member accounts, devices, and transactions — replacing fragmented, siloed monitoring with a connected picture of financial crime activity within the membership base.',
               },
               {
                 gradient: 'gradient-bg-2',

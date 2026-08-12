@@ -146,7 +146,7 @@ export function PlatformVisualCard() {
       accent: 'var(--primary)', bg: '#EEF6FF',
     },
     {
-      num: '02', label: 'Graph-native Intelligence',
+      num: '02', label: 'Connected-Risk Intelligence',
       desc: 'Alerts clustered and enriched with entity and relationship context',
       accent: '#7C3AED', bg: '#F5F3FF',
     },

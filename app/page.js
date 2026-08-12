@@ -670,7 +670,7 @@ export default function Page() {
         <div className="card card-elevated card-hover" style={{'padding':'1.75rem','cursor':'pointer','height':'100%'}}>
           <div className="card-icon gradient-bg-4" style={{'width':'3.5rem','height':'3.5rem','borderRadius':'0.75rem'}}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
           <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>BaaS &amp; Embedded Finance Providers</h3>
-          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Graph-native Network Risk Intelligence across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
+          <p style={{'fontSize':'clamp(0.8125rem,1.25vw,0.9375rem)','color':'var(--body)','marginBottom':'1rem'}}>Connected-Risk Intelligence across fintech programs, sponsor-bank relationships, payment, identity, device, ledger, and case signals.</p>
           <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--primary)','display':'inline-flex','alignItems':'center','gap':'0.3rem'}}>
             View solution
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -796,7 +796,7 @@ export default function Page() {
       <div style={{'background':'linear-gradient(160deg,#0F2B5B 0%,#1A5EA0 100%)','borderRadius':'20px','padding':'2.5rem 1.75rem','color':'#fff','boxShadow':'0 8px 36px rgba(30,111,183,0.22), 0 2px 8px rgba(0,0,0,0.1)'}}>
         <p style={{'fontSize':'0.5625rem','fontWeight':'700','letterSpacing':'0.14em','textTransform':'uppercase','color':'rgba(255,255,255,0.5)','marginBottom':'0.375rem'}}>Verafye</p>
         <p style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','marginBottom':'0.25rem','lineHeight':1.2}}>Network Risk Intelligence</p>
-        <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.6)','marginBottom':'1.75rem'}}>Graph-native · Detection-capable · Audit-ready</p>
+        <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.6)','marginBottom':'1.75rem'}}>Connected · Detection-capable · Audit-ready</p>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem'}}>
           {[
             { label: 'Connected Signals',     icon: <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.8)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg> },

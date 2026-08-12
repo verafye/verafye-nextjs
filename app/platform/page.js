@@ -160,7 +160,7 @@ export default function PlatformPage() {
         <div style={{'width':'44px','height':'44px','borderRadius':'50%','background':'linear-gradient(135deg,var(--primary),#3B82F6)','display':'flex','alignItems':'center','justifyContent':'center','boxShadow':'0 4px 16px rgba(30,111,183,0.3)','flexShrink':0}}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </div>
-        <div style={{'fontSize':'0.5rem','fontWeight':'700','color':'var(--primary)','textAlign':'center','letterSpacing':'0.05em','textTransform':'uppercase','lineHeight':1.4}}>Graph-native<br/>intelligence</div>
+        <div style={{'fontSize':'0.5rem','fontWeight':'700','color':'var(--primary)','textAlign':'center','letterSpacing':'0.05em','textTransform':'uppercase','lineHeight':1.4}}>Connected-Risk<br/>Intelligence</div>
         <div style={{'width':'2px','height':'28px','background':'linear-gradient(to bottom,#1E6FB7,#BFDBFE)','borderRadius':'2px'}}></div>
       </div>
 
@@ -518,7 +518,7 @@ export default function PlatformPage() {
           </div>
           <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.1em'}}>Entity and Network Intelligence</span>
         </div>
-        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Graph-native intelligence</h3>
+        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Connected-Risk Intelligence</h3>
         <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
           {['Signal aggregation','Entity resolution','Alert clustering','Graph intelligence','Risk context'].map((item,i) => (
             <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>

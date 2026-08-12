@@ -22,7 +22,7 @@ const useCases = [
   {
     eyebrow: 'Detection',
     title: 'Mule Account & Network Detection',
-    description: 'Account-level mule signals reveal the individual. Graph-native network intelligence reveals the ring. Verafye connects both into one investigation — exposing coordinated fraud clusters across accounts, devices, identities, and transactions.',
+    description: 'Account-level mule signals reveal the individual. Connected-Risk Intelligence reveals the ring. Verafye connects both into one investigation — exposing coordinated fraud clusters across accounts, devices, identities, and transactions.',
     href: '/use-cases/mule-network-detection',
     cta: 'Explore mule detection',
     icon: (
