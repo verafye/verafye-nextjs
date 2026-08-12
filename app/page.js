@@ -29,25 +29,34 @@ export default function Page() {
     <div className="hero-grid" style={{'display':'grid','gridTemplateColumns':'1fr 1fr','gap':'2.5rem','alignItems':'center'}}>
       <div style={{'maxWidth':'36rem'}}>
 
-        {/* SEO H1 — replaces eyebrow, keyword-targeted, eyebrow style */}
+        {/* Eyebrow */}
         <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>
-          Fraud Prevention Solutions for Financial Services
+          CONNECTED-RISK INTELLIGENCE FOR FINANCIAL CRIME
         </p>
 
-        {/* Page H1 — main heading */}
-        <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          Connected-Risk Intelligence for Fraud, AML and Payment Risk Teams
+        {/* Page H1 */}
+        <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
+          See the risk around what you already know is suspicious.
         </h1>
 
-        {/* Sub-line */}
-        <p className="animate-fade-up delay-150" style={{'fontSize':'clamp(1rem,2vw,1.25rem)','color':'var(--dark)','fontWeight':'600','marginBottom':'1.25rem','lineHeight':'1.4'}}>
-          Built for payment-led regulated financial platforms and lean financial crime teams.
+        {/* Body */}
+        <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'1.5rem','lineHeight':1.75}}>
+          Verafye turns suspicious alerts, transactions, accounts and customers into evidence-backed Connected-Risk Intelligence across relevant entities, relationships and first-party signals—helping financial-crime teams understand the wider risk and carry that context into investigation and decisioning without requiring the existing control stack to be replaced first.
         </p>
 
-        {/* Body */}
-        <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem'}}>
-          Verafye is the fraud, AML, and risk intelligence platform for PSPs, PayFacs, MSBs, remittance platforms, BaaS providers, embedded finance platforms, and digital banks. Connect fragmented signals across payments, identity, devices, and behavior - and turn them into explainable, audit-ready investigations.
-        </p>
+        {/* Journey rail */}
+        <div className="animate-fade-up delay-250" style={{'display':'flex','alignItems':'center','flexWrap':'wrap','gap':'0','marginBottom':'2rem'}}>
+          {['Known Suspicion','Connected Risk','Investigation','Decision'].map((step, i, arr) => (
+            <span key={step} style={{'display':'flex','alignItems':'center','gap':'0'}}>
+              <span style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--primary)','background':'rgba(30,111,183,0.07)','border':'1px solid rgba(30,111,183,0.18)','borderRadius':'5px','padding':'0.3rem 0.65rem','whiteSpace':'nowrap'}}>
+                {step}
+              </span>
+              {i < arr.length - 1 && (
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{'flexShrink':0,'opacity':0.5}}><path d="m9 18 6-6-6-6"/></svg>
+              )}
+            </span>
+          ))}
+        </div>
 
         {/* Outcome hook chip */}
         <div className="animate-fade-up delay-250" style={{'display':'inline-flex','alignItems':'center','gap':'0.625rem','background':'rgba(16,185,129,0.08)','border':'1px solid rgba(16,185,129,0.25)','borderRadius':'8px','padding':'0.5rem 1rem','marginBottom':'1.5rem'}}>
@@ -63,12 +72,12 @@ export default function Page() {
         {/* CTAs */}
         <div className="animate-fade-up delay-300" style={{'display':'flex','flexWrap':'wrap','gap':'0.75rem','marginBottom':'1.5rem'}}>
           <Link href="/risk-shadowing-review" className="btn-primary">
-            Explore Risk Shadowing Review
+            Explore Risk Shadowing
             <span className="btn-arrow" style={{'display':'inline-flex','marginLeft':'0.5rem'}}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </span>
           </Link>
-          <Link href="/platform" className="btn-secondary">Explore Platform</Link>
+          <Link href="/platform" className="btn-secondary">See How Verafye Works</Link>
         </div>
 
         {/* RSR motion explainer */}
