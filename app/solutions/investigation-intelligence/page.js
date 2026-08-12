@@ -2,20 +2,20 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { InvestigationVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Fraud Investigation Solutions | Faster Investigations",
-  description: "Connect fraud, AML and payment signals into investigation-ready workflows with Connected-Risk Intelligence that builds evidence-backed cases and improves analyst productivity.",
+  title: "Investigation Intelligence for Financial Crime Teams",
+  description: "Connect fraud, AML and payment signals into evidence-backed, audit-ready investigation workflows — built for lean financial crime teams at PSPs, MSBs, and payment fintechs.",
   keywords: ["investigation intelligence platform", "financial crime investigations", "fraud case management", "aml investigations", "investigation workflows"],
   openGraph: {
-    title: "Fraud Investigation Solutions | Faster Investigations",
-    description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
+    title: "Investigation Intelligence for Financial Crime Teams | Verafye",
+    description: "Verafye's Investigation Intelligence turns fragmented alerts into connected, investigation-ready cases — with evidence packs, audit trails, and explainable risk context.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Investigation Solutions | Faster Investigations",
-    description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
+    title: "Investigation Intelligence for Financial Crime Teams | Verafye",
+    description: "Verafye's Investigation Intelligence turns fragmented alerts into connected, investigation-ready cases — with evidence packs, audit trails, and explainable risk context.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/solutions/investigation-intelligence',
+    canonical: 'https://www.verafye.com/solutions/investigation-intelligence/',
   },
 };
 
@@ -26,11 +26,11 @@ export default function InvestigationIntelligencePage() {
       {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
       <SplitHeroWithVisualCard
         eyebrow="INVESTIGATION INTELLIGENCE"
-        seoH1="Fraud Investigation Solution"
+        seoH1="Investigation Intelligence for Financial Crime Teams"
         title="Investigation intelligence for lean fraud, AML, and risk teams"
-        description="Connect alerts, explain risk, and close cases faster with case intelligence, graph context, and audit-ready workflows."
+        description="Connect alerts, explain risk, and build evidence-backed cases — with case intelligence, graph context, and audit-ready workflows that carry full context into analyst review and decision."
         body="Investigation Intelligence within the Verafye platform turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
-        primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
+        primaryCTA={{ label: 'Explore Risk Shadowing', href: '/risk-shadowing-review' }}
         secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
         visualCard={<InvestigationVisualCard />}
       />
@@ -401,8 +401,8 @@ export default function InvestigationIntelligencePage() {
             See how fragmented alerts become investigation-ready cases inside the Verafye platform - with alert clustering, evidence packs, reviewer controls, and audit-ready workflows. Start with a scoped pilot on agreed data feeds, then expand into Verafye-led investigation workflows as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
-            <Link href="/risk-shadowing-review" className="btn-primary">
-              Explore Risk Shadowing Review
+            <Link href="/risk-shadowing-review/" className="btn-primary">
+              Explore Risk Shadowing
               <span className="btn-arrow" style={{ display: 'inline-flex', marginLeft: '0.5rem' }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
               </span>
