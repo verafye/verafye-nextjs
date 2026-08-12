@@ -356,8 +356,8 @@ export default function TransactionMonitoringPage() {
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
-                title: 'Fewer False Positives - More Analyst Capacity for Genuine Risk',
-                body: 'Contextual enrichment at the alert stage enables legitimate activity to be identified and deprioritised earlier - reducing false positive rates that inflate investigation workload and erode analyst confidence in the monitoring system.',
+                title: 'Improved Alert Signal Quality - More Analyst Capacity for Genuine Risk',
+                body: 'Contextual enrichment at the alert stage enables legitimate activity to be identified and deprioritised earlier - improving alert signal quality and reducing the proportion of non-actionable alerts that inflate investigation workload and erode analyst confidence in the monitoring system.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -368,20 +368,20 @@ export default function TransactionMonitoringPage() {
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
-                title: 'Faster Investigations - Context Delivered at Alert Creation',
-                body: 'Pre-assembled case context and direct integration between monitoring and investigation workflows eliminate the manual research phase - enabling analysts to move from alert to investigation decision faster and with greater confidence.',
+                title: 'Investigation-Ready Cases - Context Delivered at Alert Creation',
+                body: 'Pre-assembled case context and direct integration between monitoring and investigation workflows eliminate the manual research phase - enabling analysts to move from alert to an investigation-ready decision with greater confidence and a clear audit trail.',
               },
               {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'Scalable Operations - Intelligence Grows With Volume',
-                body: 'Better alert prioritisation, reduced false positives, and structured investigation workflows reduce the per-alert workload - enabling institutions to manage growing transaction volumes without proportional increases in analyst headcount.',
+                body: 'Better alert prioritisation, improved signal quality, and structured investigation workflows reduce the per-alert workload - enabling institutions to manage growing transaction volumes without proportional increases in analyst headcount.',
               },
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Complete Risk Visibility - Across Transactions and Entities',
-                body: 'One connected network view linking transaction monitoring to entity profiles, network relationships, and cross-system signals gives fraud and AML teams a complete, contextual picture of risk - enabling better-informed decisions across monitoring, investigation, and reporting functions. This connected view also supports the explainability and audit trail requirements that regulators expect from institutions operating transaction monitoring programmes.',
+                body: 'One connected network view linking transaction monitoring to entity profiles, network relationships, and cross-system signals gives fraud and AML teams a connected, contextual view of risk - enabling better-informed decisions across monitoring, investigation, and reporting functions. This connected view also supports the explainability and audit trail requirements that regulators expect from institutions operating transaction monitoring programmes.',
               },
               {
                 gradient: 'gradient-bg-2',

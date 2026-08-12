@@ -625,7 +625,7 @@ export default function PlatformPage() {
         What an evidence pack looks like
       </h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>
-        Each case Verafye surfaces includes a connected entity cluster, a time-ordered event trail, and a structured escalation rationale — so analysts start with a complete picture, not a stack of disconnected alerts.
+        Each case Verafye surfaces includes a connected entity cluster, a time-ordered event trail, and a structured escalation rationale — so analysts start with a connected, investigation-ready view, not a stack of disconnected alerts.
       </p>
     </div>
 
