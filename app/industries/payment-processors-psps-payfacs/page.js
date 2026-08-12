@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Payment Fraud Prevention for PSPs, PayFacs and Payment Processors",
-  description: "Detect merchant fraud, payout abuse and payment risk with graph-native Network Risk Intelligence built for PSPs, PayFacs and payment processors.",
+  title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
+  description: "Detect merchant fraud, payout abuse and payment risk with Connected-Risk Intelligence built for PSPs, PayFacs and payment processors.",
   keywords: ["psp risk intelligence", "payfac fraud detection", "merchant risk monitoring", "transaction laundering detection", "payment processor fraud", "sub-merchant risk", "chargeback fraud detection", "payment fraud investigation"],
   openGraph: {
-    title: "Payment Fraud Prevention for PSPs, PayFacs and Payment Processors",
-    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
+    title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
+    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with Connected-Risk Intelligence and investigation-ready case context.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Payment Fraud Prevention for PSPs, PayFacs and Payment Processors",
-    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
+    title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
+    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with Connected-Risk Intelligence and investigation-ready case context.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs',
@@ -102,7 +102,7 @@ export default function PaymentProcessorsPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>),
                 title: 'Cross-Border Payment Risk, Chargeback-Linked Fraud, and Merchant-Linked Fraud Networks',
-                body: 'Cross-border transaction flows, chargeback-linked fraud escalation, and multi-merchant fraud rings create risk patterns that span jurisdictions, payment rails, and institution types - requiring connected intelligence across merchants, beneficiaries, accounts, mule-linked counterparties, and transaction networks that individual-event monitoring cannot provide.',
+                body: 'Cross-border transaction flows, chargeback-linked fraud escalation, and multi-merchant fraud rings create risk patterns that span jurisdictions, payment rails, and institution types - requiring connected intelligence across merchants, beneficiaries, accounts, mule-linked counterparties, and transaction networks that individual-event monitoring does not deliver.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -130,7 +130,7 @@ export default function PaymentProcessorsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>),
                 title: 'Transaction-Level Scoring Misses Network-Based Fraud',
-                body: 'Point-in-time transaction scoring cannot see coordinated fraud networks operating across merchants, devices, and accounts. Organised fraud rings deliberately structure activity to stay below individual transaction thresholds - invisible to event-level models.',
+                body: 'Point-in-time transaction scoring does not surface coordinated fraud networks operating across merchants, devices, and accounts. Organised fraud rings deliberately structure activity to stay below individual transaction thresholds - invisible to event-level models.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -183,7 +183,7 @@ export default function PaymentProcessorsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>01</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Connected Merchant, Transaction, Device, and Behavioral Signals</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies merchant risk signals, transaction data, device intelligence, and behavioural patterns into a connected investigation context - enabling cross-domain detection that individual point solutions cannot provide.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>Verafye unifies merchant risk signals, transaction data, device intelligence, and behavioural patterns into a connected investigation context - enabling cross-domain detection that individual point solutions do not deliver.</p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
@@ -196,7 +196,7 @@ export default function PaymentProcessorsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>03</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Investigation-Centric Workflows</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Fraud alerts are clustered and enriched with relationship context before reaching the analyst - reducing manual context gathering, accelerating triage, and enabling faster, higher-confidence decisions across the risk operations team.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Fraud alerts are clustered and enriched with relationship context before reaching the analyst - reducing manual context gathering, accelerating triage, and enabling confident, audit-ready decisions across the risk operations team.</p>
                 <Link href="/solutions/investigation-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Investigation Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -301,19 +301,19 @@ export default function PaymentProcessorsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
                 title: 'Improved Fraud Detection Across Connected Activity',
-                body: 'Graph-native detection surfaces coordinated fraud networks, card testing rings, and synthetic merchant schemes that transaction-level models miss - improving detection coverage without increasing false positive rates.',
+                body: 'Network-level detection surfaces coordinated fraud networks, card testing rings, and synthetic merchant schemes that transaction-level models do not surface on their own - improving detection coverage without adding noise.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01M7 20v-4M12 20v-8M17 20V8M22 4v16"/></svg>),
-                title: 'Better Approval Rates With Reduced False Positives',
-                body: 'Smarter risk scoring grounded in network context and cross-system signals reduces false positive rates - improving approval rates, protecting merchant revenue, and reducing friction for legitimate customers.',
+                title: 'Better Approval Rates With Improved Signal Quality',
+                body: 'Smarter risk scoring grounded in network context and cross-system signals improves alert signal quality - improving approval rates, protecting merchant revenue, and reducing friction for legitimate customers.',
               },
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
-                title: 'Faster Investigation Times',
-                body: 'Pre-assembled case context and alert clustering reduce the time from fraud alert to analyst decision - enabling faster account action, dispute resolution, and merchant intervention across the risk operations team.',
+                title: 'Investigation-Ready Cases at Alert Creation',
+                body: 'Pre-assembled case context and alert clustering reduce the time from fraud alert to analyst decision - enabling timely account action, dispute resolution, and merchant intervention across the risk operations team.',
               },
               {
                 gradient: 'gradient-bg-4',

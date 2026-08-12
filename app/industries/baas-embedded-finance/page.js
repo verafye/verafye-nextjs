@@ -157,7 +157,7 @@ export default function BaasEmbeddedFinancePage() {
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
             {[
-              { title: 'Graph-native entity resolution', body: 'Resolve accounts, wallets, identities, devices, merchants, and beneficiaries into connected entities across programs and providers.' },
+              { title: 'Network-level entity resolution', body: 'Resolve accounts, wallets, identities, devices, merchants, and beneficiaries into connected entities across programs and providers.' },
               { title: 'Program-level network-risk detection', body: 'Detect hidden network risk and linked activity that spans fintech programs, sponsor-bank relationships, and payment flows.' },
               { title: 'Investigation-ready case clustering', body: 'Cluster related alerts and entities into coherent cases that reduce manual review effort and surface coordinated patterns.' },
               { title: 'Audit-ready evidence and decision trails', body: 'Produce explainable evidence packs and decision records that support program, sponsor-bank, and compliance oversight workflows.' },
@@ -183,7 +183,7 @@ export default function BaasEmbeddedFinancePage() {
           <div className="grid-2" style={{ maxWidth: '64rem', margin: '0 auto' }}>
             {[
               { title: 'Better cross-program visibility', body: 'Connect fragmented signals into one network-risk view across programs, providers, and payment flows.' },
-              { title: 'Faster investigation triage', body: 'Clustered cases and connected context help analysts prioritise and review linked activity more efficiently.' },
+              { title: 'Investigation-ready case triage', body: 'Clustered cases and connected context help analysts prioritise and review linked activity more efficiently.' },
               { title: 'Stronger sponsor-bank and partner oversight', body: 'Support oversight workflows with clearer visibility into linked activity and partner-risk patterns.' },
               { title: 'More consistent audit-ready decisions', body: 'Explainable evidence packs and decision trails support consistent, reviewable dispositions.' },
             ].map(item => (

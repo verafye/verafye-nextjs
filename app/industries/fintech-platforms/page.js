@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
+  title: "Connected-Risk Intelligence for Payment Fintechs | Verafye",
   description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence — surfacing account farming, referral abuse, wallet misuse, payout fraud, and cross-product risk patterns.",
   keywords: ["payment fintech fraud detection", "wallet risk intelligence", "prepaid card fraud", "lending app fraud", "referral abuse detection", "account farming fintech", "payout fraud investigation", "fintech aml investigation", "payment app risk intelligence", "fintech investigation workflow"],
   openGraph: {
-    title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
+    title: "Connected-Risk Intelligence for Payment Fintechs | Verafye",
     description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
+    title: "Connected-Risk Intelligence for Payment Fintechs | Verafye",
     description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence.",
   },
   alternates: {
@@ -205,7 +205,7 @@ export default function FintechPlatformsPage() {
               <div className="card" style={{ padding: '2rem' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>02</div>
                 <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>Graph-Based Detection of Account Farming, Referral Abuse, Synthetic Identity, and Payout Networks</h3>
-                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye maps relationships across users, devices, accounts, payments, wallets, payout destinations, and behavioral signals - surfacing account farming cohorts, referral abuse rings, synthetic identity clusters, and cross-product device reuse that transaction-level and rules-based detection cannot see.</p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '1rem' }}>Verafye maps relationships across users, devices, accounts, payments, wallets, payout destinations, and behavioral signals - surfacing account farming cohorts, referral abuse rings, synthetic identity clusters, and cross-product device reuse that transaction-level and rules-based detection does not surface on its own.</p>
                 <Link href="/solutions/graph-intelligence" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.375rem' }}>
                   See Graph Intelligence <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Link>
@@ -249,7 +249,7 @@ export default function FintechPlatformsPage() {
               {
                 icon: (<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
                 title: 'Graph-based detection for fintech risk typologies',
-                body: 'Surface account farming cohorts, referral abuse rings, synthetic identity clusters, wallet misuse networks, payout fraud patterns, and cross-product device reuse - risk typologies that transaction-level and rule-based detection cannot see.',
+                body: 'Surface account farming cohorts, referral abuse rings, synthetic identity clusters, wallet misuse networks, payout fraud patterns, and cross-product device reuse - risk typologies that transaction-level and rule-based detection does not surface on its own.',
                 href: '/solutions/graph-intelligence',
                 cta: 'Explore Graph Intelligence',
               },
@@ -309,7 +309,7 @@ export default function FintechPlatformsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Better Visibility Across the Full Onboarding, Payment, and Payout Lifecycle',
-                body: 'Connect onboarding, account, device, wallet, payment, payout, and repayment signals into one investigation view - eliminating the blind spots that arise when signals are split across separate onboarding, transaction monitoring, and fraud tools with no shared context.',
+                body: 'Connect onboarding, account, device, wallet, payment, payout, and repayment signals into one investigation view - closing the visibility gaps that arise when signals are split across separate onboarding, transaction monitoring, and fraud tools with no shared context.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -320,8 +320,8 @@ export default function FintechPlatformsPage() {
               {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>),
-                title: 'Faster Account Farming and Referral Abuse Investigation',
-                body: 'Graph-based detection surfaces account farming cohorts, referral abuse rings, promo fraud clusters, and synthetic identity groups as connected cases - rather than isolated alerts - so analysts can investigate and close coordinated schemes faster with less manual correlation work.',
+                title: 'Investigation-Ready Cases for Account Farming and Referral Abuse',
+                body: 'Graph-based detection surfaces account farming cohorts, referral abuse rings, promo fraud clusters, and synthetic identity groups as connected cases - rather than isolated alerts - so analysts can investigate and close coordinated schemes with less manual correlation work.',
               },
               {
                 gradient: 'gradient-bg-4',
