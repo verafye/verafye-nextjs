@@ -2,16 +2,16 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Meet the Financial Crime Intelligence Experts",
-  description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
+  description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using Connected-Risk Intelligence.",
   keywords: ["financial crime technology company", "network risk intelligence company", "fraud investigation platform provider", "aml technology company", "compliance technology", "risk intelligence solutions", "graph analytics company"],
   openGraph: {
     title: "Meet the Financial Crime Intelligence Experts",
-    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
+    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using Connected-Risk Intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Meet the Financial Crime Intelligence Experts",
-    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
+    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using Connected-Risk Intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/company',
@@ -42,7 +42,7 @@ export default function Page() {
         <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>Verafye is built to do exactly that: turn fragmented signals into clear, actionable intelligence.</p>
       </div>
       <div style={{'borderRadius':'1.5rem','padding':'1rem 0.75rem','background':'#F8FBFF','border':'1px solid rgba(30,111,183,0.1)','boxShadow':'0 4px 24px rgba(30,111,183,0.07)','overflow':'hidden'}}>
-        <svg viewBox="0 0 560 415" fill="none" xmlns="http://www.w3.org/2000/svg" style={{'width':'100%','display':'block'}} role="img" aria-label="Verafye graph-native Network Risk Intelligence platform connecting fragmented risk signals into explainable case outcomes">
+        <svg viewBox="0 0 560 415" fill="none" xmlns="http://www.w3.org/2000/svg" style={{'width':'100%','display':'block'}} role="img" aria-label="Verafye Connected-Risk Intelligence platform connecting fragmented risk signals into explainable case outcomes">
           <defs>
             <radialGradient id="wn_amb" cx="50%" cy="50%" r="50%">
               <stop offset="0%" stopColor="#1E6FB7" stopOpacity="0.09"/>
@@ -222,8 +222,8 @@ export default function Page() {
           <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','fontWeight':'600','color':'var(--dark)','lineHeight':'1.75'}}>Verafye was built to change that.</p>
         </div>
         <div>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform - giving fraud and AML teams a connected investigation workspace with graph-native detection, structured case management, and full audit trails.</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. Verafye is a graph-native Network Risk Intelligence platform built for regulated payment platforms and financial institutions operating under real compliance pressure.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform — giving fraud and AML teams a connected investigation workspace with network-level detection, structured case management, and full audit trails.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. Verafye is a Connected-Risk Intelligence platform built for regulated payment platforms and financial institutions operating under real compliance pressure.</p>
         </div>
       </div>
     </div>
@@ -245,7 +245,7 @@ export default function Page() {
         </div>
         <div className="card card-elevated" style={{'padding':'2.5rem'}}>
           <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--secondary)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.75rem'}}>Mission</p>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>To build connected investigation intelligence that helps fraud, AML, and payments teams turn fragmented signals into faster, more traceable financial crime decisions.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--dark)','lineHeight':'1.75','fontWeight':'500'}}>To build Connected-Risk Intelligence that helps fraud, AML, and payments teams turn fragmented signals into traceable, evidence-backed financial crime decisions.</p>
         </div>
       </div>
     </div>

@@ -2,17 +2,17 @@ import Link from 'next/link';
 import { ProductTrialHeroPanel } from '../components/HomepageHeroPanel';
 
 export const metadata = {
-  title: { absolute: "Fraud Detection & Prevention Solutions for Financial Services | Verafye" },
-  description: "Detect fraud, AML and payment risk with Verafye's graph-native Network Risk Intelligence platform. Connect fragmented signals into explainable, audit-ready investigations.",
-  keywords: ["network risk intelligence platform", "payment risk intelligence", "psp payfac fraud", "msb remittance aml", "financial crime investigation platform", "graph intelligence platform", "entity resolution", "mule network detection", "alert clustering", "audit-ready investigations"],
+  title: { absolute: "Connected-Risk Intelligence for Financial Crime | Verafye" },
+  description: "Verafye turns known financial-crime suspicion into Connected-Risk Intelligence — helping PSPs, MSBs, and payment fintechs understand what suspicious activity is connected to, and carry that context into investigation and decisioning.",
+  keywords: ["connected risk intelligence", "network risk intelligence platform", "payment risk intelligence", "psp payfac fraud", "msb remittance aml", "financial crime investigation platform", "mule network intelligence", "entity resolution", "mule network detection", "alert clustering", "audit-ready investigations"],
   openGraph: {
-    title: "Fraud Detection & Prevention Solutions for Financial Services | Verafye",
-    description: "Detect fraud, AML and payment risk with Verafye's graph-native Network Risk Intelligence platform. Connect fragmented signals into explainable, audit-ready investigations.",
+    title: "Connected-Risk Intelligence for Financial Crime | Verafye",
+    description: "Verafye turns known financial-crime suspicion into Connected-Risk Intelligence — helping PSPs, MSBs, and payment fintechs understand what suspicious activity is connected to, and carry that context into investigation and decisioning.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Detection & Prevention Solutions for Financial Services | Verafye",
-    description: "Detect fraud, AML and payment risk with Verafye's graph-native Network Risk Intelligence platform. Connect fragmented signals into explainable, audit-ready investigations.",
+    title: "Connected-Risk Intelligence for Financial Crime | Verafye",
+    description: "Verafye turns known financial-crime suspicion into Connected-Risk Intelligence — helping PSPs, MSBs, and payment fintechs understand what suspicious activity is connected to, and carry that context into investigation and decisioning.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/',
@@ -36,7 +36,7 @@ export default function Page() {
 
         {/* Page H1 — main heading */}
         <h1 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          Graph-Native Network Risk Intelligence for Fraud, AML and Risk Teams
+          Connected-Risk Intelligence for Fraud, AML and Payment Risk Teams
         </h1>
 
         {/* Sub-line */}
@@ -173,7 +173,7 @@ export default function Page() {
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>WHY VERAFYE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1.25rem','letterSpacing':'-0.025em'}}>Detection that does not stop at alerts</h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'48rem','margin':'0 auto'}}>
-        Most risk tools stop at alert generation. Verafye goes further - detecting hidden network risk, connecting fragmented alerts and signals, clustering them into investigation-ready cases, and helping teams make faster, explainable, audit-ready decisions.
+        Most risk tools stop at alert generation. Verafye goes further — turning each known suspicious alert into Connected-Risk Intelligence, clustering related signals into investigation-ready cases, and producing explainable, audit-ready decision records.
       </p>
     </div>
     <div className="grid-3" style={{'maxWidth':'80rem','margin':'0 auto'}}>
@@ -188,8 +188,8 @@ export default function Page() {
       <div className="card" style={{'padding':'2.5rem','position':'relative','overflow':'hidden'}}>
         <div className="card-corner"></div>
         <div className="card-icon gradient-bg-4"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg></div>
-        <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Graph-native by design</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Surface relationships across users, accounts, merchants, devices, transactions, and counterparties to expose hidden networks.</p>
+        <h3 style={{'fontSize':'clamp(1.125rem,2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Network-connected by design</h3>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Surface relationships across users, accounts, merchants, devices, transactions, and counterparties — exposing the network structure around each alert.</p>
       </div>
 
       <div className="card" style={{'padding':'2.5rem','position':'relative','overflow':'hidden'}}>
@@ -332,7 +332,7 @@ export default function Page() {
       {[
         { n:1, title:'Ingest Alerts & Signals', body:'Alerts, transactions, events, and fraud, AML, payment, identity, device, and behavior signals arrive through APIs and integrations.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg> },
         { n:2, title:'Resolve Entities & Relationships', body:'Users, accounts, devices, merchants, and counterparties are resolved and linked across sources.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> },
-        { n:3, title:'Detect Network Risk', body:'Graph-native analysis surfaces hidden networks, linked entities, mule patterns, and coordinated risk that rule-based tools miss.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg> },
+        { n:3, title:'Detect Connected Risk', body:'Network-level analysis surfaces linked entities, mule patterns, and coordinated risk that alert-level tools do not surface on their own.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg> },
         { n:4, title:'Cluster into Cases',  body:'Related alerts and detected activity across fraud, AML, and payments are grouped into connected, investigation-ready cases.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg> },
         { n:5, title:'Prioritize Investigations', body:'Analysts start with risk-scored cases, structured context, and suggested next steps - not raw alert queues.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg> },
         { n:6, title:'Decide & Document',   body:'Every action is logged with audit trails, evidence, and case notes - producing explainable, audit-ready decision records.', icon: <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg> },

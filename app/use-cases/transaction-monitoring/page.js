@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "AML Transaction Monitoring Software | Detect Risk Faster",
-  description: "Detect suspicious transactions, reduce false positives and uncover hidden financial crime with graph-native transaction monitoring and investigation intelligence.",
+  description: "Detect suspicious transactions and uncover hidden financial crime with Connected-Risk transaction monitoring and investigation intelligence.",
   keywords: ["aml transaction monitoring software", "suspicious activity monitoring", "transaction intelligence", "financial crime detection", "aml compliance monitoring"],
   openGraph: {
     title: "AML Transaction Monitoring Software | Detect Risk Faster",
@@ -45,7 +45,7 @@ export default function TransactionMonitoringPage() {
               Transaction monitoring with connected investigation intelligence
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Connect transaction alerts with fraud, AML, identity, device, and behavior signals so teams can investigate faster and make explainable decisions.
+              Connect transaction alerts with fraud, AML, identity, device, and behavior signals so teams can build investigation-ready cases and make explainable decisions.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye supports transaction monitoring workflows that connect alert creation, risk prioritization, review queues, case formation, and evidence trails - helping fraud and AML teams move from isolated alerts to investigation-ready cases built on the Verafye platform.
@@ -80,7 +80,7 @@ export default function TransactionMonitoringPage() {
                   badge: 'Most common',
                   badgeColor: 'var(--primary)',
                   description: 'Your existing TM system (Actimize, NICE, Quantexa, Oracle, or another) stays in place. Verafye connects alongside it and enriches each alert with entity graph, device, and behavioral context — improving signal quality without disrupting your monitoring programme.',
-                  fit: 'Best for institutions with existing TM investment who want to improve alert quality and reduce false positives',
+                  fit: 'Best for institutions with existing TM investment who want to improve alert quality and signal coverage',
                 },
                 {
                   mode: 'Verafye-led monitoring',
@@ -187,7 +187,7 @@ export default function TransactionMonitoringPage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Scaling Requires Headcount, Not Intelligence',
-                body: 'As transaction volumes grow, alert volumes scale proportionally under rules-based monitoring - and the only response available is adding analyst capacity. This model does not improve detection quality, reduce false positives, or accelerate investigation as the institution scales.',
+                body: 'As transaction volumes grow, alert volumes scale proportionally under rules-based monitoring - and the only response available is adding analyst capacity. This model does not improve detection quality, improve alert signal quality, or accelerate investigation as the institution scales.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -265,11 +265,11 @@ export default function TransactionMonitoringPage() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
                 { step: '01', title: 'Connects Transactions with Entities and Behaviours', body: 'Every transaction alert is enriched with the entity profile behind it - account history, device signals, identity attributes, and behavioural patterns - giving analysts the full picture at the moment an alert is surfaced rather than after manual research.' },
-                { step: '02', title: 'Uses Graph Intelligence to Surface Network Risk', body: 'Graph traversal connects transaction patterns across related accounts, devices, and entities - surfacing coordinated activity, network-level risk, and relationship context that transaction-level monitoring cannot see in isolation.' },
+                { step: '02', title: 'Uses Graph Intelligence to Surface Network Risk', body: 'Graph traversal connects transaction patterns across related accounts, devices, and entities - surfacing coordinated activity, network-level risk, and relationship context that transaction-level monitoring does not surface on its own.' },
                 { step: '03', title: 'Improves Alert Prioritisation', body: 'Alerts are organized by entity context, network risk, and cross-system signals - ensuring investigation queues are ordered by genuine risk rather than transaction volume, recency, or alert age alone.' },
-                { step: '04', title: 'Reduces False Positives Through Contextual Enrichment', body: 'Contextual enrichment at the alert stage allows legitimate activity to be identified and deprioritised earlier in the workflow - reducing the false positive rate that drives analyst fatigue and operational cost without sacrificing genuine detection coverage.' },
+                { step: '04', title: 'Improves Alert Signal Quality Through Contextual Enrichment', body: 'Contextual enrichment at the alert stage allows legitimate activity to be identified and deprioritised earlier in the workflow - improving alert signal quality and reducing the analyst fatigue and operational cost that volume-based queues create without sacrificing genuine detection coverage.' },
                 { step: '05', title: 'Connects Monitoring to Investigation Workflows With Evidence Trails', body: 'Verafye connects transaction monitoring directly to investigation workflows - delivering alerts as structured, context-rich cases with pre-assembled evidence, enabling analysts to move from alert to investigation decision without manual context gathering, and preserving audit-ready evidence trails for compliance review.' },
-                { step: '06', title: 'Connects Fraud and AML Monitoring Signals', body: 'Transaction signals from fraud and AML monitoring are connected into one network view - eliminating the blind spots that form at the boundary between fraud detection and AML transaction monitoring and enabling cross-domain risk assessment.' },
+                { step: '06', title: 'Connects Fraud and AML Monitoring Signals', body: 'Transaction signals from fraud and AML monitoring are connected into one network view - closing the visibility gaps that form at the boundary between fraud detection and AML transaction monitoring and enabling cross-domain risk assessment.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
                   <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
@@ -387,7 +387,7 @@ export default function TransactionMonitoringPage() {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'More Connected Monitoring Across Signals, Entities, and Systems',
-                body: 'One connected network view linking transaction monitoring to entity profiles, network relationships, and cross-system signals closes the gap between alert generation and investigation context - enabling fraud and AML teams to act on a more complete picture of risk across the monitoring programme.',
+                body: 'One connected network view linking transaction monitoring to entity profiles, network relationships, and cross-system signals closes the gap between alert generation and investigation context - enabling fraud and AML teams to act on a connected, cross-system view of risk across the monitoring programme.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>

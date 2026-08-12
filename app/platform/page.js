@@ -2,17 +2,17 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { PlatformVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Financial Crime Detection Platform | AI Fraud & AML",
-  description: "Uncover fraud, AML and payment risk with Verafye's graph-native financial crime detection platform. Transform fragmented data into investigation-ready intelligence.",
-  keywords: ["graph native risk intelligence platform", "network risk intelligence software", "entity resolution platform", "transaction network analysis", "financial crime intelligence platform", "investigation intelligence"],
+  title: "Connected-Risk Intelligence Platform | Verafye",
+  description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
+  keywords: ["connected risk intelligence platform", "network risk intelligence software", "entity resolution platform", "transaction network analysis", "financial crime intelligence platform", "investigation intelligence", "mule network intelligence"],
   openGraph: {
-    title: "Financial Crime Detection Platform | AI Fraud & AML",
-    description: "Uncover fraud, AML and payment risk with Verafye's graph-native financial crime detection platform. Transform fragmented data into investigation-ready intelligence.",
+    title: "Connected-Risk Intelligence Platform | Verafye",
+    description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Financial Crime Detection Platform | AI Fraud & AML",
-    description: "Uncover fraud, AML and payment risk with Verafye's graph-native financial crime detection platform. Transform fragmented data into investigation-ready intelligence.",
+    title: "Connected-Risk Intelligence Platform | Verafye",
+    description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/platform',
@@ -28,7 +28,7 @@ export default function PlatformPage() {
   eyebrow="VERAFYE PLATFORM"
   seoH1="Financial Crime Detection Platform"
   title="Network Risk Intelligence for Modern Financial Crime Operations"
-  description="Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
+  description="Verafye is a Connected-Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time — converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit."
   body="Built for teams operating under growing regulatory and operational complexity - connect selected data sources, expand coverage through proven stages, and build toward Verafye-led detection, investigation, and decisioning workflows."
   primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
@@ -62,7 +62,7 @@ export default function PlatformPage() {
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div className="card-icon gradient-bg-4" style={{'marginBottom':'1.25rem'}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg></div>
         <h3 style={{'fontSize':'clamp(1.0625rem,1.8vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Decision support</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Use explainable AI assistance, summaries, suggested next steps, notes, and audit trails to support faster decisions.</p>
+        <p style={{'fontSize':'clamp(0.875rem,1.5vw,1rem)','color':'var(--body)','lineHeight':1.7}}>Use explainable AI assistance, summaries, suggested next steps, notes, and audit trails to support confident, audit-ready decisions.</p>
       </div>
     </div>
   </div>
@@ -252,7 +252,7 @@ export default function PlatformPage() {
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>HOW IT WORKS</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'0.875rem'}}>From signals to outcomes - one connected flow</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye detects hidden network risk through graph-native intelligence, risk scoring, relationship analysis, and signal correlation - then carries that risk through clustering, investigation, and audit-ready decisions in one connected flow. Detection-capable and investigation-first, built to connect selected data sources into a unified risk intelligence workflow.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye surfaces Connected-Risk Intelligence through entity resolution, risk scoring, relationship mapping, and signal correlation — then carries that context through clustering, investigation, and audit-ready decisioning in one connected flow. Detection-capable and investigation-first, built to connect selected data sources into a unified risk intelligence workflow.</p>
     </div>
 
     {/* Horizontal flow - scrollable on mobile */}
@@ -296,7 +296,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>03 · Detect</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Detect Network Risk</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Graph-native intelligence, risk scoring, relationship analysis, and signal correlation surface hidden networks, mule patterns, and coordinated risk that rule-based tools miss.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Network-level intelligence, risk scoring, relationship analysis, and signal correlation surface hidden networks, mule patterns, and coordinated risk across connected entities.</p>
         </div>
 
         {/* Arrow */}

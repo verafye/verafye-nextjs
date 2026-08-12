@@ -14,11 +14,11 @@ const faqCategories = [
     items: [
       {
         q: 'What is Verafye?',
-        a: 'Verafye is a graph-native Network Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye is purpose-built for regulated payment platforms: PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks, marketplaces, and lending and BNPL fraud teams.',
+        a: 'Verafye is a Connected-Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time — converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye is purpose-built for regulated payment platforms: PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks, marketplaces, and lending and BNPL fraud teams.',
       },
       {
         q: 'Does Verafye detect fraud and AML risk, or only support investigations?',
-        a: 'Verafye supports both. It can ingest alerts and signals from existing fraud, AML, payment, identity, device, and case systems - and also apply graph-native intelligence to detect hidden networks, linked entities, suspicious patterns, and risk clusters that existing rule-based tools may miss. Verafye is investigation-first because every detection is connected to case context, evidence, workflow, and audit-ready decisioning - not just a new alert queue.',
+        a: 'Verafye supports both. It can ingest alerts and signals from existing fraud, AML, payment, identity, device, and case systems — and also apply network-level intelligence to detect hidden networks, linked entities, suspicious patterns, and risk clusters that alert-level monitoring does not surface on its own. Verafye is investigation-first because every detection is connected to case context, evidence, workflow, and audit-ready decisioning — not just a new alert queue.',
       },
       {
         q: 'What is Network Risk Intelligence?',
@@ -30,7 +30,7 @@ const faqCategories = [
       },
       {
         q: 'What makes Verafye different from traditional fraud and AML platforms?',
-        a: 'The core architectural difference is graph-native Network Risk Intelligence. Traditional platforms evaluate events at the transaction or account level - in isolation and against static rules. Verafye resolves entities across fragmented data, maps cross-entity transaction networks, and scores risk on the network in real time - surfacing coordinated patterns that point-in-time monitoring cannot detect. Combined with investigation-centric workflows and cross-system signal aggregation, this converts alert noise into investigation-grade evidence rather than more alerts.',
+        a: 'The core architectural difference is Connected-Risk Intelligence. Traditional platforms evaluate events at the transaction or account level — in isolation and against static rules. Verafye resolves entities across fragmented data, maps cross-entity transaction networks, and scores risk on the network in real time — surfacing coordinated patterns that point-in-time monitoring does not detect. Combined with investigation-centric workflows and cross-system signal aggregation, this converts alert noise into investigation-grade evidence rather than more alerts.',
       },
     ],
   },

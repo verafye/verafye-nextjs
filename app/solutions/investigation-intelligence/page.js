@@ -3,7 +3,7 @@ import SplitHeroWithVisualCard, { InvestigationVisualCard } from '../../../compo
 
 export const metadata = {
   title: "Fraud Investigation Solutions | Faster Investigations",
-  description: "Connect fraud, AML and payment signals into investigation-ready workflows with graph-native intelligence that accelerates case resolution and improves analyst productivity.",
+  description: "Connect fraud, AML and payment signals into investigation-ready workflows with Connected-Risk Intelligence that builds evidence-backed cases and improves analyst productivity.",
   keywords: ["investigation intelligence platform", "financial crime investigations", "fraud case management", "aml investigations", "investigation workflows"],
   openGraph: {
     title: "Fraud Investigation Solutions | Faster Investigations",
@@ -189,7 +189,7 @@ export default function InvestigationIntelligencePage() {
                 <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>
                   At every step, Verafye surfaces the context analysts need - risk context,{' '}
                   <Link href="/solutions/graph-intelligence" style={{ color: 'var(--primary)', fontWeight: 600, textDecoration: 'none' }}>graph intelligence</Link>
-                  {' '}context, prior case history, and network indicators - to support confident, faster decisions.
+                  {' '}context, prior case history, and network indicators - to support confident, audit-ready decisions.
                 </p>
               </div>
               <div className="card" style={{ padding: '2rem' }}>
@@ -361,7 +361,7 @@ export default function InvestigationIntelligencePage() {
               <div className="card card-hover" style={{ padding: '1.75rem', cursor: 'pointer' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Solution</div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>Mule Account Detection</h3>
-                <p style={{ fontSize: '0.8125rem', color: 'var(--body)', lineHeight: 1.6, marginBottom: '0.875rem' }}>Detect coordinated mule networks earlier using graph-native relationship analysis across accounts and devices.</p>
+                <p style={{ fontSize: '0.8125rem', color: 'var(--body)', lineHeight: 1.6, marginBottom: '0.875rem' }}>Detect coordinated mule networks earlier using network-level relationship analysis across accounts and devices.</p>
                 <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)' }}>Explore →</span>
               </div>
             </Link>

@@ -71,10 +71,10 @@ const useCases = [
   },
   {
     eyebrow: 'Convergence',
-    title: 'Connected Fraud & AML Investigations',
+    title: 'Connected-Risk Investigation',
     description: 'Fraud teams and AML teams often catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface — so the analyst working a fraud alert sees the AML dimension, and vice versa, without switching systems.',
     href: '/use-cases/fraud-aml-investigations',
-    cta: 'Explore FRAML convergence',
+    cta: 'Explore Connected-Risk Investigation',
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>

@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { IconArrowRight, IconCheck } from './Icons';
 
 export default function CTA({ title, subtitle, showBullets = true }) {
-  const defaultTitle = 'Detect Hidden Fraud Networks. Connect Intelligence Across Systems.';
-  const defaultSubtitle = 'See how Verafye helps financial institutions unify fraud, AML, and payments intelligence to detect coordinated crime networks earlier and accelerate investigation workflows.';
+  const defaultTitle = 'See the risk around what you already know is suspicious.';
+  const defaultSubtitle = 'A Risk Shadowing engagement applies Verafye to your existing alerts and data — so you can measure the incremental Connected-Risk Intelligence it adds before changing your stack.';
 
   return (
     <section className="cta-section">

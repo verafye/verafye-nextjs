@@ -83,7 +83,7 @@ export default function InvestigationWorkflowModernizationPage() {
                 { label: 'Fragmented Tools Force Platform Switching', desc: 'Fraud, AML, payments, and case management tools operate in silos - forcing analysts to switch between platforms and manually reconcile information before any substantive investigation can begin' },
                 { label: 'Alerts Arrive Without Investigation Context', desc: 'Alerts arrive without pre-assembled entity profiles, relationship context, or cross-system signals - leaving analysts with individual events and no structured view of the risk behind them' },
                 { label: 'Data Gathering Consumes Most Analyst Time', desc: 'Without automated context aggregation, analysts spend the majority of case time gathering data rather than analysing it - limiting throughput, increasing cost, and reducing investigation quality' },
-                { label: 'Headcount Scales With the Problem, Not Intelligence', desc: 'Adding analyst headcount to manage alert volumes does not improve detection quality, reduce false positives, or accelerate resolution - it simply scales cost linearly with the problem' },
+                { label: 'Headcount Scales With the Problem, Not Intelligence', desc: 'Adding analyst headcount to manage alert volumes does not improve detection quality, improve alert signal quality, or accelerate resolution - it simply scales cost linearly with the problem' },
               ].map(item => (
                 <div key={item.label} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--primary)', flexShrink: 0, marginTop: '0.45rem' }} />
@@ -378,7 +378,7 @@ export default function InvestigationWorkflowModernizationPage() {
               <p className="eyebrow" style={{ marginBottom: '1rem' }}>Related Use Cases</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                 {[
-                  { href: '/use-cases/transaction-monitoring', label: 'Transaction Monitoring', desc: 'Context-aware monitoring that reduces false positives and feeds investigation-ready alerts into structured workflows' },
+                  { href: '/use-cases/transaction-monitoring', label: 'Transaction Monitoring', desc: 'Context-aware monitoring that improves alert signal quality and feeds investigation-ready alerts into structured workflows' },
                   { href: '/use-cases/mule-network-detection', label: 'Mule Network Detection', desc: 'Graph-based network detection that delivers investigation-ready cluster context - not individual account alerts' },
                 ].map(item => (
                   <Link key={item.href} href={item.href} style={{ textDecoration: 'none' }}>

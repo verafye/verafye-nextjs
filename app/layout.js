@@ -11,23 +11,23 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL('https://www.verafye.com'),
   title: {
-    default: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
+    default: "Connected-Risk Intelligence for Financial Crime | Verafye",
     template: '%s | Verafye',
   },
-  description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
-  keywords: ["network risk intelligence platform", "financial crime investigation platform", "fraud detection software", "aml compliance software", "graph intelligence platform", "entity resolution", "transaction intelligence", "investigation intelligence", "financial crime intelligence", "risk analytics"],
+  description: "Verafye turns known financial-crime suspicion into Connected-Risk Intelligence — helping fraud and AML teams understand what suspicious activity is connected to, and carry that context into investigation and decisioning.",
+  keywords: ["connected risk intelligence", "network risk intelligence platform", "financial crime investigation platform", "fraud detection software", "aml compliance software", "graph intelligence platform", "entity resolution", "transaction intelligence", "investigation intelligence", "financial crime intelligence", "mule network detection", "risk analytics"],
   openGraph: {
-    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
-    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
+    title: "Connected-Risk Intelligence for Financial Crime | Verafye",
+    description: "Verafye turns known financial-crime suspicion into Connected-Risk Intelligence — helping fraud and AML teams understand what suspicious activity is connected to, and carry that context into investigation and decisioning.",
     url: 'https://www.verafye.com',
     siteName: 'Verafye',
     type: 'website',
-    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Network Risk Intelligence' }],
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630, alt: 'Verafye - Connected-Risk Intelligence' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Network Risk Intelligence for Fraud & AML Teams | Verafye",
-    description: "Uncover hidden financial crime networks, accelerate investigations and improve AML readiness with graph-native Network Risk Intelligence from Verafye.",
+    title: "Connected-Risk Intelligence for Financial Crime | Verafye",
+    description: "Verafye turns known financial-crime suspicion into Connected-Risk Intelligence — helping fraud and AML teams understand what suspicious activity is connected to, and carry that context into investigation and decisioning.",
     images: ['/images/og-image.png'],
   },
   robots: {
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
                 "@type": "ImageObject",
                 "url": "https://www.verafye.com/images/favicon-512.png"
               },
-              "description": "Verafye is a graph-native Network Risk Intelligence platform for fraud and AML teams at regulated financial institutions and payment platforms.",
+              "description": "Verafye turns known financial-crime suspicion into Connected-Risk Intelligence — helping fraud and AML teams understand what suspicious activity is connected to, and carry that context into investigation and decisioning.",
               "sameAs": [
                 "https://www.linkedin.com/company/104417539"
               ]

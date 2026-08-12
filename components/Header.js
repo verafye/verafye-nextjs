@@ -14,7 +14,7 @@ const navItems = [
       { href: '/platform',                              label: 'Platform Overview' },
       { href: '/capabilities',                          label: 'Capabilities' },
       { href: '/solutions/investigation-intelligence',  label: 'Investigation Intelligence' },
-      { href: '/solutions/graph-intelligence',          label: 'Decision Intelligence' },
+      { href: '/solutions/graph-intelligence',          label: 'Graph Intelligence' },
     ],
   },
   {
@@ -22,10 +22,9 @@ const navItems = [
     href: '/use-cases',
     children: [
       { href: '/use-cases',                                         label: 'All Use Cases' },
-      { href: '/use-cases/mule-network-detection',                  label: 'Mule Network Detection' },
+      { href: '/use-cases/mule-network-detection',                  label: 'Mule Network Intelligence' },
       { href: '/use-cases/transaction-monitoring',                  label: 'Transaction Monitoring' },
       { href: '/use-cases/investigation-workflow-modernization',    label: 'Investigation Workflow Modernization' },
-      { href: '/use-cases/fraud-aml-investigations',               label: 'Connected Fraud & AML Investigations' },
     ],
   },
   {
@@ -34,22 +33,20 @@ const navItems = [
     children: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
-      { href: '/industries/baas-embedded-finance',           label: 'BaaS / Embedded Finance' },
-      { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
-      { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },
+      { href: '/industries/baas-embedded-finance',            label: 'BaaS / Embedded Finance' },
+      { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/banks',                            label: 'Selected Banks & Credit Unions' },
-      { href: '/industries/marketplaces',                     label: 'Marketplaces' },
     ],
   },
   {
     label: 'Resources',
     href: '/resources',
     children: [
-      { href: '/resources',   label: 'All Resources' },
-      { href: '/blog',        label: 'Blog' },
+      { href: '/resources',    label: 'All Resources' },
+      { href: '/blog',         label: 'Blog' },
       { href: '/case-studies', label: 'Case Studies' },
-      { href: '/faq',         label: 'FAQ' },
+      { href: '/faq',          label: 'FAQ' },
     ],
   },
   {
@@ -63,6 +60,10 @@ const navItems = [
       { href: '/security-trust',  label: 'Security & Trust' },
     ],
   },
+  {
+    label: 'Risk Shadowing',
+    href: '/risk-shadowing-review',
+  },
 ];
 
 // ─── Mobile nav groups ────────────────────────────────────────────────────────
@@ -74,7 +75,7 @@ const mobileNavGroups = [
       { href: '/platform',                             label: 'Overview' },
       { href: '/capabilities',                         label: 'Capabilities' },
       { href: '/solutions/investigation-intelligence', label: 'Investigation Intelligence' },
-      { href: '/solutions/graph-intelligence',         label: 'Decision Intelligence' },
+      { href: '/solutions/graph-intelligence',         label: 'Graph Intelligence' },
     ],
   },
   {
@@ -82,10 +83,9 @@ const mobileNavGroups = [
     headingHref: '/use-cases',
     items: [
       { href: '/use-cases',                                       label: 'All Use Cases' },
-      { href: '/use-cases/mule-network-detection',                label: 'Mule Network Detection' },
+      { href: '/use-cases/mule-network-detection',                label: 'Mule Network Intelligence' },
       { href: '/use-cases/transaction-monitoring',                label: 'Transaction Monitoring' },
       { href: '/use-cases/investigation-workflow-modernization',  label: 'Investigation Workflow Modernization' },
-      { href: '/use-cases/fraud-aml-investigations',             label: 'Connected Fraud & AML Investigations' },
     ],
   },
   {
@@ -94,22 +94,20 @@ const mobileNavGroups = [
     items: [
       { href: '/industries/payment-processors-psps-payfacs',  label: 'PSPs, PayFacs & Payment Processors' },
       { href: '/industries/msbs-remittance-platforms',        label: 'MSBs & Remittance Platforms' },
-      { href: '/industries/baas-embedded-finance',           label: 'BaaS / Embedded Finance' },
-      { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/fintech-platforms',                label: 'FinTech Payment Platforms' },
-      { href: '/industries/digital-lending-bnpl',             label: 'NBFCs & Digital Lending' },
+      { href: '/industries/baas-embedded-finance',            label: 'BaaS / Embedded Finance' },
+      { href: '/industries/digital-banks',                    label: 'Digital Banks & Neo Banks' },
       { href: '/industries/banks',                            label: 'Selected Banks & Credit Unions' },
-      { href: '/industries/marketplaces',                     label: 'Marketplaces' },
     ],
   },
   {
     heading: 'Resources',
     headingHref: '/resources',
     items: [
-      { href: '/resources',   label: 'All Resources' },
-      { href: '/blog',        label: 'Blog' },
+      { href: '/resources',    label: 'All Resources' },
+      { href: '/blog',         label: 'Blog' },
       { href: '/case-studies', label: 'Case Studies' },
-      { href: '/faq',         label: 'FAQ' },
+      { href: '/faq',          label: 'FAQ' },
     ],
   },
   {
@@ -121,6 +119,15 @@ const mobileNavGroups = [
       { href: '/partners',       label: 'Partners' },
       { href: '/media',          label: 'Media & Press' },
       { href: '/security-trust', label: 'Security & Trust' },
+    ],
+  },
+  {
+    heading: 'Risk Shadowing',
+    headingHref: '/risk-shadowing-review',
+    items: [
+      { href: '/risk-shadowing-review', label: 'What is Risk Shadowing?' },
+      { href: '/request-demo?intent=risk-shadowing-review', label: 'Request a Review' },
+      { href: '/sample-output', label: 'Sample Output' },
     ],
   },
 ];

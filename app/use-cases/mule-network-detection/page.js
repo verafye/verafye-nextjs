@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Mule Account & Network Detection | Verafye",
-  description: "Detect mule accounts and coordinated mule networks using graph-native investigation intelligence. Connect account, device, identity and transaction signals into network-level cases for faster AML investigations.",
+  description: "Detect mule accounts and coordinated mule networks using Connected-Risk Intelligence. Connect account, device, identity and transaction signals into network-level cases for evidence-backed AML investigations.",
   keywords: ["mule account detection", "mule network detection", "money mule networks", "fraud ring detection", "transaction network analysis", "aml investigations", "mule account detection software"],
   openGraph: {
     title: "Mule Account & Network Detection | Verafye",
@@ -34,7 +34,7 @@ export default function MuleNetworkDetectionPage() {
               Mule account detection starts at the individual account. Mule network detection exposes the coordinated ring behind it.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye connects account, device, identity, transaction, and behavior signals into graph-native network clusters — so risk teams investigate the ring, not just the account.
+              Verafye connects account, device, identity, transaction, and behavior signals into connected network clusters — so risk teams investigate the ring, not just the account.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/risk-shadowing-review" className="btn-primary">
@@ -72,7 +72,7 @@ export default function MuleNetworkDetectionPage() {
                 { label: 'Operate Across Systems and Institutions', desc: 'Mule networks span multiple banks, payment platforms, and accounts - exploiting the lack of cross-institution visibility to move funds without triggering individual institution-level alerts' },
                 { label: 'Low-Risk Signals at Transaction Level', desc: 'Each individual transaction within a mule network may appear routine - only the pattern across connected accounts and time reveals the coordinated nature of the activity' },
                 { label: 'Networks Evolve Rapidly', desc: 'Mule recruiters continuously onboard new accounts, retire compromised ones, and adapt movement patterns - making static detection models increasingly ineffective over time' },
-                { label: 'Lack of Connected Visibility', desc: 'Without connected graph-based analysis across accounts, devices, identities, and behaviours, institutions cannot see the structure of mule networks operating within their portfolio' },
+                { label: 'Lack of Connected Visibility', desc: 'Without connected analysis across accounts, devices, identities, and behaviours, institutions lack visibility into the structure of mule networks operating within their portfolio' },
               ].map(item => (
                 <div key={item.label} className="card" style={{ padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--primary)', flexShrink: 0, marginTop: '0.45rem' }} />
@@ -170,7 +170,7 @@ export default function MuleNetworkDetectionPage() {
                 'Full mule network clusters surfaced as single investigable units',
                 'Pre-assembled relationship maps, entity profiles, and transaction flows delivered at case creation',
                 'Connected fraud and AML view of the same network through resolved entities and relationship maps',
-                'Connected signal intelligence surfaces coordinated activity rules cannot see',
+                'Connected signal intelligence surfaces coordinated activity that rules-based monitoring does not surface on its own',
                 'Pre-built investigation context helps analysts investigate rather than reconstruct - with a complete audit trail supporting structured regulatory documentation',
               ].map(item => (
                 <div key={item} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.875rem', alignItems: 'flex-start' }}>
@@ -203,7 +203,7 @@ export default function MuleNetworkDetectionPage() {
                 { step: '03', title: 'Clusters Related Entities Into Networks', body: 'Connected entities are grouped into mule network clusters - presenting coordinated structures as single, investigable units rather than isolated alerts, and enabling risk assessment at the network level rather than the account level.' },
                 { step: '04', title: 'Monitors Network Evolution Over Time', body: 'Verafye surfaces new connections, account reactivations, and changes in cluster behaviour as new signals are connected - helping teams detect network expansion and adaptation earlier in the lifecycle.' },
                 { step: '05', title: 'Delivers Investigation-Ready Context', body: 'Each detected network cluster is delivered alongside pre-assembled investigation context - relationship maps, transaction flow summaries, entity profiles, and cross-system signals - enabling analysts to begin substantive investigation immediately.' },
-                { step: '06', title: 'Connects Fraud and AML Intelligence', body: 'Verafye connects fraud and AML signals across the same network view - connecting inbound fraud proceeds to outbound money movement and enabling both teams to work from a shared, complete picture of mule activity.' },
+                { step: '06', title: 'Connects Fraud and AML Intelligence', body: 'Verafye connects fraud and AML signals across the same network view - connecting inbound fraud proceeds to outbound money movement and enabling both teams to work from a shared network view of mule activity.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
                   <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
@@ -285,7 +285,7 @@ export default function MuleNetworkDetectionPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>),
                 title: 'Earlier Detection - Before Losses Accumulate',
-                body: 'Graph-native detection surfaces coordinated mule activity that transaction-level and rules-based monitoring cannot see - enabling intervention earlier in the money movement lifecycle before layering compounds exposure.',
+                body: 'Network-level detection surfaces coordinated mule activity that transaction-level and rules-based monitoring does not surface on its own - enabling intervention earlier in the money movement lifecycle before layering compounds exposure.',
               },
               {
                 gradient: 'gradient-bg-2',

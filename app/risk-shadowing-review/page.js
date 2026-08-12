@@ -3,7 +3,7 @@ import Link from 'next/link';
 export const metadata = {
   title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
   description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
-  keywords: ["risk shadowing review", "network risk intelligence", "fraud aml evaluation", "investigation-ready evidence", "graph-native risk detection", "payments risk evaluation"],
+  keywords: ["risk shadowing review", "connected risk intelligence", "network risk intelligence", "fraud aml evaluation", "investigation-ready evidence", "mule network intelligence", "payments risk evaluation"],
   openGraph: {
     title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
     description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",

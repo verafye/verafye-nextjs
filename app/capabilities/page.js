@@ -113,7 +113,7 @@ export default function CapabilitiesPage() {
         eyebrow="CAPABILITIES"
         seoH1="Fraud Detection & AML Capabilities"
         title="Capabilities for detection-to-decision financial crime operations"
-        description="Detection Intelligence, Investigation Intelligence, and Decision Intelligence in one platform - graph-native network risk detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams."
+        description="Detection Intelligence, Investigation Intelligence, and Decision Intelligence in one platform — Connected-Risk network detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams."
         primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
         secondaryCTA={{ label: 'Explore Platform', href: '/platform' }}
         visualCard={<CapabilitiesVisualCard />}

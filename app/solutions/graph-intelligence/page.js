@@ -48,7 +48,7 @@ export default function GraphIntelligencePage() {
             <div>
               <p className="eyebrow" style={{ marginBottom: '1rem' }}>The Problem</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', letterSpacing: '-0.025em', lineHeight: 1.2 }}>
-                Isolated Monitoring Cannot See Coordinated Financial Crime
+                Isolated Monitoring Does Not Surface Coordinated Financial Crime
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
                 Traditional monitoring evaluates events in isolation. Modern fraud, mule activity, synthetic identity abuse, and layered AML typologies operate across connected entities, devices, accounts, and behaviors - deliberately structured to stay below the thresholds that rule-based systems monitor. The result is fragmented detection, incomplete investigations, and growing pressure to demonstrate the cross-system visibility that regulators increasingly expect.
@@ -152,7 +152,7 @@ export default function GraphIntelligencePage() {
                 Graph Intelligence for Connected Financial-Crime Risk
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects fraud, AML, and payments signals into one connected network view - resolving entities, mapping relationships, and surfacing network risk across accounts and time windows. This gives institutions the connected view of risk that fragmented monitoring cannot provide, and the traceable detection that aligns with evolving regulatory expectations for cross-domain visibility.
+                Verafye connects fraud, AML, and payments signals into one connected network view - resolving entities, mapping relationships, and surfacing network risk across accounts and time windows. This gives institutions the connected view of risk that fragmented monitoring does not deliver, and the traceable detection that aligns with evolving regulatory expectations for cross-domain visibility.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
@@ -161,8 +161,8 @@ export default function GraphIntelligencePage() {
                 { step: '02', title: 'Relationship Mapping', body: 'Every resolved entity is connected to others through shared attributes and transaction history, building a structured relationship map across accounts, devices, and entities.' },
                 { step: '03', title: 'Link Discovery', body: 'Verafye surfaces non-obvious links across connected entities - connections that are invisible to rules engines and siloed monitoring systems.' },
                 { step: '04', title: 'Network Clustering', body: 'Connected entities are grouped into clusters - revealing fraud rings, mule networks, and synthetic identity cohorts operating across accounts and payment rails.' },
-                { step: '05', title: 'Graph-Based Investigation Context', body: 'Alerts are enriched with relationship context from the graph, giving investigators the network view they need to make faster, higher-confidence decisions.' },
-                { step: '06', title: 'Connected Network View', body: 'Fraud, AML, and payments signals are connected into one network view - eliminating the blind spots that form at system boundaries, and supporting the cross-domain visibility that institutions need to operate under evolving regulatory expectations.' },
+                { step: '05', title: 'Graph-Based Investigation Context', body: 'Alerts are enriched with relationship context from the graph, giving investigators the network view they need to make confident, audit-ready decisions.' },
+                { step: '06', title: 'Connected Network View', body: 'Fraud, AML, and payments signals are connected into one network view - closing the visibility gaps that form at system boundaries, and supporting the cross-domain visibility that institutions need to operate under evolving regulatory expectations.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '2rem' }}>
                   <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
@@ -269,7 +269,7 @@ export default function GraphIntelligencePage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>),
                 title: 'Stronger Cross-System Intelligence for Fraud and AML',
-                body: 'Connected fraud and AML signal intelligence eliminates blind spots at system boundaries - giving compliance and operations teams a complete picture of risk across the institution.',
+                body: 'Connected fraud and AML signal intelligence closes visibility gaps at system boundaries - giving compliance and operations teams a connected view of risk across the institution.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -347,7 +347,7 @@ export default function GraphIntelligencePage() {
               <div className="card card-hover" style={{ padding: '1.75rem', cursor: 'pointer' }}>
                 <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>Solution</div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.5rem' }}>Mule Account Detection</h3>
-                <p style={{ fontSize: '0.8125rem', color: 'var(--body)', lineHeight: 1.6, marginBottom: '0.875rem' }}>Detect coordinated mule networks earlier using graph-native relationship analysis.</p>
+                <p style={{ fontSize: '0.8125rem', color: 'var(--body)', lineHeight: 1.6, marginBottom: '0.875rem' }}>Detect coordinated mule networks earlier using network-level relationship analysis across accounts and devices.</p>
                 <span style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}>
                   Explore →
                 </span>
