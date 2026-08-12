@@ -77,8 +77,8 @@ export default function PartnersPage() {
                     <circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/>
                   </svg>
                 ),
-                title: 'Graph-Based Intelligence Differentiation',
-                body: 'Graph-native risk detection and investigation represents a genuine architectural differentiation in the financial crime market - providing partners with a compelling, technically distinctive proposition across fraud, AML, and payments conversations.',
+                title: 'Connected-Risk Intelligence Differentiation',
+                body: 'Connected-Risk Intelligence represents a genuine architectural differentiation in the financial crime market — providing partners with a technically distinctive, in-demand proposition across fraud, AML, and payments conversations.',
               },
               {
                 gradient: 'gradient-bg-3',
