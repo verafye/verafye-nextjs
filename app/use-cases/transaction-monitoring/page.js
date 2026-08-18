@@ -79,42 +79,47 @@ export default function TransactionMonitoringPage() {
                 Verafye does not require you to replace your existing transaction monitoring system
               </h2>
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.25rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.25rem' }}>
               {[
                 {
                   mode: 'Connected Intelligence Alongside Existing Monitoring',
                   badge: 'Most common',
                   badgeColor: 'var(--primary)',
-                  description: 'Your existing TM system (Actimize, NICE, Quantexa, Oracle, or another) stays in place. Verafye connects alongside it and turns each alert into Connected-Risk Intelligence — adding entity graph, network context, device, and behavioral signals that improve investigation quality without disrupting your monitoring programme.',
-                  fit: 'Best for institutions with existing TM investment who want to improve alert quality and connected-risk context around each suspicion',
+                  accentColor: '#1E6FB7',
+                  description: 'Your existing TM system stays in place. Verafye connects alongside it and adds entity graph, network context, device and behavioural signals to each alert — improving investigation quality without changing your monitoring programme.',
+                  fit: 'Institutions with existing TM investment seeking stronger connected-risk context around each suspicion',
                 },
                 {
-                  mode: 'Verafye-led monitoring',
+                  mode: 'Verafye-led Monitoring',
                   badge: null,
-                  description: 'Run transaction monitoring natively within Verafye — combining rules engine, AI-based detection, typology patterns, and behavioral analytics in one platform alongside investigation workflows. Alert creation through case closure in one connected system.',
-                  fit: 'Best for institutions building a new monitoring programme or replacing a legacy stack',
+                  accentColor: '#7C3AED',
+                  description: 'Run transaction monitoring natively within Verafye — rules engine, AI-based detection, typology patterns, and behavioural analytics in one platform, from alert creation through case closure.',
+                  fit: 'Institutions building a new monitoring programme or replacing a legacy stack',
                 },
                 {
-                  mode: 'Parallel assessment',
+                  mode: 'Parallel Assessment',
                   badge: 'How RSR starts',
                   badgeColor: '#059669',
-                  description: 'Run Verafye\'s detection models on your actual transaction data alongside your existing monitoring — without committing to any change. Risk Shadowing compares Verafye against the institution\'s existing monitoring baseline to determine whether connected context adds material incremental intelligence.',
-                  fit: 'Best for institutions evaluating monitoring coverage or considering modernization',
+                  accentColor: '#059669',
+                  description: 'Run Verafye alongside your existing monitoring on actual transaction data — without any commitment to change. Risk Shadowing produces a direct comparison to determine whether connected context adds material incremental intelligence.',
+                  fit: 'Institutions evaluating monitoring coverage or considering modernisation',
                 },
               ].map(item => (
-                <div key={item.mode} style={{ padding: '1.75rem', background: '#fff', border: '1px solid var(--border)', borderRadius: '12px' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', marginBottom: '0.75rem' }}>
-                    <p style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)' }}>{item.mode}</p>
+                <div key={item.mode} style={{ display: 'flex', flexDirection: 'column', background: '#fff', border: '1px solid var(--border)', borderTop: `3px solid ${item.accentColor}`, borderRadius: '12px', padding: '1.5rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '0.5rem', marginBottom: '0.875rem' }}>
+                    <p style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', lineHeight: 1.3 }}>{item.mode}</p>
                     {item.badge && (
-                      <span style={{ fontSize: '0.6875rem', fontWeight: 700, color: '#fff', background: item.badgeColor, borderRadius: '4px', padding: '0.2rem 0.5rem', letterSpacing: '0.04em' }}>
+                      <span style={{ fontSize: '0.625rem', fontWeight: 700, color: '#fff', background: item.badgeColor, borderRadius: '4px', padding: '0.2rem 0.5rem', letterSpacing: '0.04em', whiteSpace: 'nowrap', flexShrink: 0, marginTop: '0.1rem' }}>
                         {item.badge}
                       </span>
                     )}
                   </div>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, marginBottom: '0.875rem' }}>{item.description}</p>
-                  <p style={{ fontSize: '0.75rem', color: 'var(--muted)', lineHeight: 1.5 }}>
-                    <span style={{ fontWeight: 600 }}>Best for: </span>{item.fit}
-                  </p>
+                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, flexGrow: 1, marginBottom: '1rem' }}>{item.description}</p>
+                  <div style={{ borderTop: '1px solid var(--border)', paddingTop: '0.875rem', marginTop: 'auto' }}>
+                    <p style={{ fontSize: '0.75rem', color: 'var(--muted)', lineHeight: 1.5, margin: 0 }}>
+                      <span style={{ fontWeight: 600, color: 'var(--dark)' }}>Best for: </span>{item.fit}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

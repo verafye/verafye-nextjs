@@ -409,7 +409,7 @@ export default function PlatformPage() {
         { stage: '01', label: 'Shadow', desc: 'Connect selected data feeds. Run Verafye in observation mode. Receive an investigation-ready evidence pack with network risk findings from your live data.' },
         { stage: '02', label: 'Augment', desc: 'Verafye risk context surfaces within investigation workflows. Teams begin actioning Verafye-led clusters and investigation-ready cases.' },
         { stage: '03', label: 'Operate', desc: 'Verafye becomes the primary investigation workspace. Detection, case formation, and audit-ready decisions run through the Verafye platform.' },
-        { stage: '04', label: 'Consolidate', desc: 'Use Verafye as the primary investigation and evidence environment for selected, agreed use cases where the customer chooses to do so. An optional expansion destination, not a universal replacement.' },
+        { stage: '04', label: 'Consolidate', desc: 'Expand Verafye into the primary investigation and evidence environment for selected, agreed use cases — an optional destination, not a universal replacement.' },
       ].map(item => (
         <div key={item.stage} style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'12px','padding':'1.5rem'}}>
           <div style={{'fontSize':'0.5625rem','fontWeight':'800','color':'var(--primary)','letterSpacing':'0.1em','textTransform':'uppercase','marginBottom':'0.5rem'}}>{item.stage}</div>
@@ -418,11 +418,12 @@ export default function PlatformPage() {
         </div>
       ))}
     </div>
-    <blockquote style={{'margin':'0 auto','maxWidth':'46rem','padding':'2rem 2.5rem','background':'linear-gradient(165deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'14px','textAlign':'center'}}>
-      <p style={{'fontSize':'clamp(1.0625rem,2.2vw,1.375rem)','fontWeight':'700','color':'var(--dark)','lineHeight':1.4,'letterSpacing':'-0.02em','margin':0}}>
-        Start with a scoped Risk Shadowing Review on selected data sources. Expand into detection, investigation, and decisioning workflows as outcomes are proven.
+    <div style={{'margin':'0 auto','maxWidth':'46rem','padding':'1.5rem 2rem','background':'linear-gradient(165deg,#EFF6FF 0%,#F8FBFF 100%)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'12px','display':'flex','alignItems':'center','gap':'1.25rem'}}>
+      <div style={{'width':'3px','minHeight':'3rem','background':'var(--primary)','borderRadius':'2px','flexShrink':0,'alignSelf':'stretch'}}></div>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','fontWeight':'400','fontStyle':'italic','color':'var(--dark)','lineHeight':1.65,'letterSpacing':'-0.01em','margin':0}}>
+        Start with a Risk Shadowing Review on selected data sources. Expand into detection, investigation, and decisioning workflows as outcomes are proven at each stage.
       </p>
-    </blockquote>
+    </div>
   </div>
 </section>
 
@@ -487,8 +488,9 @@ export default function PlatformPage() {
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION INTELLIGENCE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Investigation Intelligence Architecture</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.25rem'}}>Most financial crime platforms were not originally designed around AI. As a result, many now layer AI assistants, summarization tools, and orchestration components on top of existing architectures to bridge fragmented workflows.</p>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>Verafye took a different approach. Intelligence is embedded into the platform architecture itself - at signal ingestion, entity resolution, graph reasoning, detection and risk scoring, investigation workflows, and evidence generation. Graph reasoning, alert correlation, case context, provenance tracking, and audit trails are native capabilities - not separate layers added on top.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>
+        Most platforms add intelligence as a separate layer. Verafye builds it in — at signal ingestion, entity resolution, graph reasoning, detection, investigation, and evidence generation. Graph reasoning, alert correlation, case context, and audit trails are native capabilities at every stage, not bolt-ons.
+      </p>
 
     </div>
 
@@ -503,21 +505,12 @@ export default function PlatformPage() {
           </div>
           <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em'}}>Signals In</span>
         </div>
-        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem','lineHeight':1.35}}>Two signal-origination paths</h3>
-        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.07em','marginBottom':'0.375rem','marginTop':'0.25rem'}}>Native Detection</div>
-        <div style={{'display':'flex','flexDirection':'column','gap':'0.375rem','marginBottom':'0.875rem'}}>
-          {['Transactions & payment events','Account & customer activity','Device & session signals','Behavioural events','Product & channel activity'].map((item,i) => (
+        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.35}}>Signal inputs</h3>
+        <p style={{'fontSize':'0.8rem','color':'var(--muted)','lineHeight':1.5,'marginBottom':'0.875rem'}}>Native detection from raw activity, or external suspicion from existing controls.</p>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.375rem','marginBottom':'1.25rem'}}>
+          {['Transactions & account activity','Device & behavioural signals','Fraud & AML alerts','KYC & screening signals','Payment-risk & third-party signals'].map((item,i) => (
             <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
-              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#1E6FB7','opacity':0.5,'flexShrink':0}}></div>
-              <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
-            </div>
-          ))}
-        </div>
-        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.07em','marginBottom':'0.375rem'}}>External Suspicion</div>
-        <div style={{'display':'flex','flexDirection':'column','gap':'0.375rem','marginBottom':'1rem'}}>
-          {['Fraud & AML alerts','KYC / screening signals','Device-risk & payment-risk alerts','Third-party enrichment signals'].map((item,i) => (
-            <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
-              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#7C3AED','opacity':0.5,'flexShrink':0}}></div>
+              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#1E6FB7','opacity':0.45,'flexShrink':0}}></div>
               <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
             </div>
           ))}
