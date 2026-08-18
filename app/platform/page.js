@@ -241,7 +241,7 @@ export default function PlatformPage() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
         </div>
         <div>
-          <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'#fff','marginBottom':'0.125rem'}}>Investigation-ready evidence pack — delivered in 2 weeks</p>
+          <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'#fff','marginBottom':'0.125rem'}}>Investigation-ready evidence pack — first outputs within 1–2 weeks, subject to data readiness</p>
           <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.7)'}}>Linked entities · Risk indicators · Analyst review steps · Audit-ready summary</p>
         </div>
       </div>
@@ -1038,7 +1038,7 @@ export default function PlatformPage() {
       </Link>
       <Link href="/capabilities" className="btn-secondary">View Capabilities</Link>
     </div>
-    <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>No commitment required. Speak directly with our solutions team.</p>
+    <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>No platform-replacement commitment required. Speak directly with our solutions team.</p>
   </div>
 </section>
 

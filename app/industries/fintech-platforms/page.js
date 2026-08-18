@@ -406,7 +406,7 @@ export default function FintechPlatformsPage() {
             <Link href="/request-demo" className="btn-secondary">Request a Walkthrough</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
-            No commitment required. Speak directly with our solutions team.
+            No platform-replacement commitment required. Speak directly with our solutions team.
           </p>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '0.5rem', fontStyle: 'italic' }}>
             Verafye is designed to support fraud and AML investigation workflows. We do not claim regulatory certification, approval, or endorsement, and do not guarantee fraud prevention outcomes.

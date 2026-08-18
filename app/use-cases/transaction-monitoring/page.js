@@ -142,7 +142,7 @@ export default function TransactionMonitoringPage() {
                 Rule-Based Monitoring Generates Cost - Not Intelligence
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Transaction monitoring remains one of the highest-cost, lowest-signal functions in financial crime operations. Legacy monitoring stacks generate enormous alert volumes, yet the majority of those alerts do not lead to substantive investigations - consuming analyst capacity without meaningfully improving risk detection or compliance outcomes. Transaction monitoring is also a non-discretionary AML obligation: regulators expect institutions to demonstrate effective controls, proportionate coverage, and the documented decision trails that examiners scrutinise during review.
+                Transaction monitoring is one of the highest-cost, lowest-signal functions in financial crime operations for many institutions. Legacy monitoring stacks generate large alert volumes, yet many of those alerts do not lead to substantive investigations — consuming analyst capacity without proportionate improvement in risk detection or compliance outcomes. Transaction monitoring is also a non-discretionary AML obligation: regulators expect institutions to demonstrate effective controls, proportionate coverage, and the documented decision trails that examiners scrutinise during review.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -198,7 +198,7 @@ export default function TransactionMonitoringPage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>),
                 title: 'Scaling Requires Headcount, Not Intelligence',
-                body: 'As transaction volumes grow, alert volumes scale proportionally under rules-based monitoring - and the only response available is adding analyst capacity. This model does not improve detection quality, improve alert signal quality, or accelerate investigation as the institution scales.',
+                body: 'As transaction volumes grow, alert volumes scale proportionally under rules-based monitoring - and the typical response is adding analyst capacity. This model does not inherently improve detection quality, alert signal quality, or investigation speed as the institution scales.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -275,10 +275,10 @@ export default function TransactionMonitoringPage() {
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1.5rem' }}>
               {[
-                { step: '01', title: 'Connects Transactions with Entities and Behaviours', body: 'Every transaction alert is enriched with the entity profile behind it - account history, device signals, identity attributes, and behavioural patterns - giving analysts the full picture at the moment an alert is surfaced rather than after manual research.' },
+                { step: '01', title: 'Connects Transactions with Entities and Behaviours', body: 'Transaction alerts are enriched with the entity profile behind them - account history, device signals, identity attributes, and behavioural patterns - giving analysts meaningful context at the moment an alert is surfaced rather than after manual research.' },
                 { step: '02', title: 'Uses Graph Intelligence to Surface Network Risk', body: 'Graph traversal connects transaction patterns across related accounts, devices, and entities - surfacing coordinated activity, network-level risk, and relationship context that transaction-level monitoring does not surface on its own.' },
-                { step: '03', title: 'Improves Alert Prioritisation', body: 'Alerts are organized by entity context, network risk, and cross-system signals - ensuring investigation queues are ordered by genuine risk rather than transaction volume, recency, or alert age alone.' },
-                { step: '04', title: 'Improves Alert Signal Quality Through Contextual Enrichment', body: 'Contextual enrichment at the alert stage allows legitimate activity to be identified and deprioritised earlier in the workflow - improving alert signal quality and reducing the analyst fatigue and operational cost that volume-based queues create without sacrificing genuine detection coverage.' },
+                { step: '03', title: 'Improves Alert Prioritisation', body: 'Alerts are organized by entity context, network risk, and cross-system signals - improving investigation queue ordering based on risk relevance rather than transaction volume, recency, or alert age alone.' },
+                { step: '04', title: 'Improves Alert Signal Quality Through Contextual Enrichment', body: 'Contextual enrichment at the alert stage supports earlier identification of lower-priority activity in the workflow - improving alert signal quality and reducing the analyst fatigue and operational cost that volume-based queues create.' },
                 { step: '05', title: 'Connects Monitoring to Investigation Workflows With Evidence Trails', body: 'Verafye connects transaction monitoring directly to investigation workflows - delivering alerts as structured, context-rich cases with pre-assembled evidence, enabling analysts to move from alert to investigation decision without manual context gathering, and preserving audit-ready evidence trails for compliance review.' },
                 { step: '06', title: 'Connects Fraud and AML Monitoring Signals', body: 'Transaction signals from fraud and AML monitoring are connected into one network view - closing the visibility gaps that form at the boundary between fraud detection and AML transaction monitoring and enabling cross-domain risk assessment.' },
               ].map(item => (
@@ -488,7 +488,7 @@ export default function TransactionMonitoringPage() {
             <Link href="/platform" className="btn-secondary">Explore Platform</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
-            No commitment required. Speak directly with our solutions team.
+            No platform-replacement commitment required. Speak directly with our solutions team.
           </p>
         </div>
       </section>

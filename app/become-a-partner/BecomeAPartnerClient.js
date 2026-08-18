@@ -286,7 +286,7 @@ export default function BecomeAPartnerClient() {
                 ) : (
                   <>
                     <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.375rem', letterSpacing: '-0.02em' }}>Partner Enquiry</h2>
-                    <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '0.875rem', lineHeight: 1.6 }}>Tell us about your organisation and how you would like to work with Verafye. No commitment required.</p>
+                    <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '0.875rem', lineHeight: 1.6 }}>Tell us about your organisation and how you would like to work with Verafye. No platform-replacement commitment required.</p>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '1.75rem', lineHeight: 1.6, paddingBottom: '1rem', borderBottom: '1px solid var(--border)' }}>
                       Verafye supports flexible partnership models - from referral and advisory through to technology integration and strategic collaboration - tailored to how you go to market.
                     </p>

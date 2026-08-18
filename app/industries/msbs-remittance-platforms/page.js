@@ -215,7 +215,7 @@ export default function MSBsRemittancePlatformsPage() {
             <Link href="/platform" className="btn-secondary">Explore Platform</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
-            No commitment required. Speak directly with our solutions team.
+            No platform-replacement commitment required. Speak directly with our solutions team.
           </p>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1rem', fontStyle: 'italic' }}>
             Verafye is designed to support AML investigation workflows. We do not claim OFAC certification, sanctions list completeness, or regulatory approval.

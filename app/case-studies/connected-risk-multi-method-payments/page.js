@@ -173,19 +173,13 @@ export default function CaseStudyPage() {
             {/* DEPLOYMENT RESULT */}
             <div style={{ background: 'linear-gradient(135deg,#EFF6FF,#F0F9FF)', border: '2px solid rgba(30,111,183,0.2)', borderRadius: '0.875rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '1.25rem' }}>Deployment Result</p>
-              <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1.5rem', flexWrap: 'wrap' }}>
-                <div style={{ flexShrink: 0 }}>
-                  <p style={{ fontSize: 'clamp(2.25rem,5vw,3rem)', fontWeight: 800, color: 'var(--primary)', lineHeight: 1, letterSpacing: '-0.03em', margin: 0 }}>~55%</p>
-                  <p style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--muted)', margin: '0.25rem 0 0' }}>reduction</p>
-                </div>
-                <div style={{ flex: 1, minWidth: '14rem' }}>
-                  <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 600, marginBottom: '0.5rem' }}>
-                    Reduction in manual investigation preparation time across payment channels
-                  </p>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
-                    Related alerts from multiple payment channels are consolidated into unified investigation cases, eliminating the need to manually pull and correlate data from separate channel systems before each investigation begins.
-                  </p>
-                </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 600, margin: 0 }}>
+                  Significantly reduced manual investigation preparation time across payment channels
+                </p>
+                <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
+                  Related alerts from multiple payment channels are consolidated into unified investigation cases, eliminating the need to manually pull and correlate data from separate channel systems before each investigation begins.
+                </p>
               </div>
             </div>
 

@@ -87,7 +87,7 @@ const pillars = [
       </svg>
     ),
     title: 'Decision Intelligence',
-    body: 'Entity resolution, graph analytics, multi-signal risk scoring, consortium intelligence, and signal ingestion — connecting signals from across your ecosystem into a unified intelligence layer that feeds every investigation.',
+    body: 'Entity resolution, graph analytics, multi-signal risk scoring, consortium intelligence, and signal ingestion — connecting signals from across your ecosystem into a unified intelligence architecture that feeds every investigation.',
     chips: ['Entity Resolution', 'Graph Analytics', 'Signal Ingestion', 'Multi-Signal Scoring', 'Consortium Data'],
   },
   {
@@ -311,9 +311,9 @@ export default function CapabilitiesPage() {
                   </div>
                   <span style={{fontSize: '0.5625rem', fontWeight: 700, color: '#1E6FB7', background: 'rgba(30,111,183,0.07)', border: '1px solid rgba(30,111,183,0.18)', borderRadius: '20px', padding: '0.2rem 0.625rem', textTransform: 'uppercase', letterSpacing: '0.06em', whiteSpace: 'nowrap'}}>Stage 1</span>
                 </div>
-                <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Signals In</h3>
+                <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Originate or Ingest Risk Signals</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
-                  Fraud, AML, payment, transaction, identity, device, behavior, sanctions, watchlist, KYC/KYB outputs, and third-party enrichment signals
+                  Native detection from raw activity, or external suspicion from existing controls — both paths feed the same Connected-Risk Intelligence architecture
                 </p>
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: 'auto'}}>
                   {['Fraud','AML','Payments','Identity','Device','KYC/KYB','Watchlist'].map(t => (

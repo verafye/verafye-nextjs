@@ -495,7 +495,7 @@ export default function Page() {
       Used by regulated payment platforms to investigate connected risk
     </h2>
     <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto 2.5rem'}}>
-      MSBs, remittance platforms, and cross-border payment infrastructure providers across Canada, the UK, EU, and Hong Kong run Verafye as their core fraud, AML, and risk intelligence platform - connecting alerts, surfacing network risk, and producing investigation-ready cases across their payment operations.
+      MSBs, remittance platforms, and cross-border payment infrastructure providers across Canada, the UK, EU, and Hong Kong use Verafye to connect alerts, surface network risk, and produce investigation-ready cases across their payment operations.
     </p>
 
     {/* Logos */}
@@ -519,7 +519,7 @@ export default function Page() {
 
     {/* Bridge to testimonial */}
     <p style={{'fontSize':'clamp(0.8125rem,1.4vw,0.9375rem)','color':'var(--muted)','marginBottom':'2rem','fontStyle':'italic'}}>
-      What regulated teams say about running Verafye as their core fraud and AML platform.
+      What regulated teams say about Verafye.
     </p>
 
     {/* Daniel testimonial */}
@@ -529,11 +529,10 @@ export default function Page() {
       </p>
       <footer style={{'display':'flex','alignItems':'center','gap':'0.75rem'}}>
         <div style={{'width':'36px','height':'36px','borderRadius':'50%','background':'var(--primary)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
-          <span style={{'color':'#fff','fontWeight':'700','fontSize':'0.875rem'}}>D</span>
+          <span style={{'color':'#fff','fontWeight':'700','fontSize':'0.875rem'}}>C</span>
         </div>
         <div>
-          <p style={{'fontWeight':'700','color':'var(--dark)','fontSize':'0.9375rem','marginBottom':'0.1rem'}}>Daniel</p>
-          <p style={{'color':'var(--muted)','fontSize':'0.8125rem'}}>COO, Remit247 &mdash; MSB &amp; Cross-Border Payments, Canada</p>
+          <p style={{'color':'var(--muted)','fontSize':'0.8125rem'}}>COO &mdash; Canadian Money-Movement Platform</p>
         </div>
       </footer>
     </blockquote>
@@ -1008,10 +1007,10 @@ export default function Page() {
       <Link href="/platform" className="btn-secondary">Explore Platform</Link>
     </div>
     <p style={{'fontSize':'0.875rem','color':'var(--primary)','fontWeight':'600','marginTop':'1.75rem','letterSpacing':'-0.01em'}}>
-      API-connected to selected data sources. Investigation-ready risk outputs in 2 weeks.
+      API-connected to selected data sources. First connected-risk outputs within 1–2 weeks, subject to data readiness and integration completion.
     </p>
     <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'0.5rem'}}>
-      No commitment required. Speak directly with our solutions team.
+      No platform-replacement commitment required. Speak directly with our solutions team.
     </p>
   </div>
 </section>

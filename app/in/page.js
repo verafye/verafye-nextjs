@@ -513,7 +513,7 @@ export default function IndiaPage() {
       <Link href="/solutions/investigation-intelligence" className="btn-secondary">Explore audit-ready case workflows</Link>
     </div>
     <p style={{'fontSize':'0.8125rem','color':'var(--muted)','marginTop':'1.5rem'}}>
-      No commitment required. Speak directly with our solutions team.
+      No platform-replacement commitment required. Speak directly with our solutions team.
     </p>
   </div>
 </section>

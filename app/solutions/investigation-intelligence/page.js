@@ -416,7 +416,7 @@ export default function InvestigationIntelligencePage() {
             <Link href="/capabilities" className="btn-secondary">Explore Capabilities</Link>
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginTop: '1.5rem' }}>
-            No commitment required. Speak directly with our solutions team.
+            No platform-replacement commitment required. Speak directly with our solutions team.
           </p>
         </div>
       </section>

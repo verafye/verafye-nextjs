@@ -347,7 +347,7 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
                 ) : (
                   <>
                     <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.375rem', letterSpacing: '-0.02em' }}>Book a Walkthrough</h2>
-                    <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '0.875rem', lineHeight: 1.6 }}>No commitment required. Fill in your details and we'll schedule a walkthrough tailored to your use case.</p>
+                    <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '0.875rem', lineHeight: 1.6 }}>No platform-replacement commitment required. Fill in your details and we'll schedule a walkthrough tailored to your use case.</p>
                     <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', marginBottom: '1.75rem', lineHeight: 1.6, paddingBottom: '1rem', borderBottom: '1px solid var(--border)' }}>
                       Verafye is built for financial institutions and payment platforms operating under evolving regulatory expectations - supporting multi-jurisdiction environments across fraud, AML, and payment intelligence functions.
                     </p>
