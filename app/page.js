@@ -226,12 +226,16 @@ export default function Page() {
 {/* ─── TWO WAYS IN — ONE CONNECTED-RISK OUTCOME ──────────────────────────── */}
 <section style={{'padding':'4rem 0','background':'#fff','borderTop':'1px solid var(--border)'}}>
   <style>{`
-    .two-paths-grid { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0; align-items: stretch; max-width: 72rem; margin: 0 auto; }
-    .two-paths-outcome { display: flex; flex-direction: column; gap: 0.5rem; align-items: center; justify-content: center; padding: 0 1.5rem; }
-    .two-paths-outcome-items { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-top: 0.75rem; }
-    @media (max-width: 800px) {
-      .two-paths-grid { grid-template-columns: 1fr; }
-      .two-paths-outcome { padding: 1.5rem 0; border-left: none !important; border-right: none !important; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .tp-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; max-width: 64rem; margin: 0 auto 0; }
+    .tp-funnel { display: flex; align-items: center; max-width: 64rem; margin: 0 auto; height: 3rem; }
+    .tp-funnel-line { flex: 1; height: 2px; }
+    .tp-funnel-dot { width: 2.25rem; height: 2.25rem; border-radius: 50%; background: linear-gradient(135deg,#1E6FB7,#2563EB); display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 2px 10px rgba(30,111,183,0.3); }
+    .tp-outcome { max-width: 64rem; margin: 0 auto; background: linear-gradient(135deg,#1E6FB7 0%,#2563EB 100%); border-radius: 14px; padding: 2rem 2.5rem; }
+    .tp-outcome-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+    @media (max-width: 680px) {
+      .tp-cards { grid-template-columns: 1fr; }
+      .tp-funnel { display: none; }
+      .tp-outcome { margin-top: 1.25rem; }
     }
   `}</style>
   <div className="container">
@@ -245,69 +249,76 @@ export default function Page() {
       </p>
     </div>
 
-    <div className="two-paths-grid">
+    {/* ── Row 1: two path cards ── */}
+    <div className="tp-cards">
 
-      {/* Path 1 — Native Detection */}
-      <div style={{'background':'var(--bg-tint)','border':'1px solid var(--border)','borderRadius':'12px','padding':'2rem'}}>
-        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
+      {/* Path 1 */}
+      <div style={{'background':'var(--bg-tint)','border':'1px solid var(--border)','borderTop':'3px solid #1E6FB7','borderRadius':'12px','padding':'1.75rem'}}>
+        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1rem'}}>
           <div style={{'width':'2rem','height':'2rem','borderRadius':'8px','background':'linear-gradient(135deg,#1E6FB7,#3B82F6)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
           </div>
-          <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'var(--primary)','textTransform':'uppercase','letterSpacing':'0.08em'}}>Path 1 — Native Detection</p>
+          <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.08em'}}>Path 1 — Native Detection</p>
         </div>
-        <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Start with raw activity</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,0.9375rem)','color':'var(--body)','lineHeight':1.7,'marginBottom':'1rem'}}>
-          Start with raw transaction, account, customer, device and behavioural activity. Verafye applies configurable rules, risk logic, behavioural and pattern detection, and scoring to generate risk signals.
+        <h3 style={{'fontSize':'clamp(1rem,2vw,1.125rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Start with raw activity</h3>
+        <p style={{'fontSize':'0.9rem','color':'var(--body)','lineHeight':1.7,'marginBottom':'1rem'}}>
+          Raw transactions, accounts, device and behavioural events feed Verafye&apos;s configurable rules, risk logic, and detection models — generating risk signals natively.
         </p>
         <div style={{'display':'flex','flexWrap':'wrap','gap':'0.375rem'}}>
-          {['Transactions','Customer / Account Activity','Device & Session','Behavioural Events','Payment & Channel Activity'].map(t => (
-            <span key={t} style={{'fontSize':'0.6875rem','fontWeight':'600','color':'var(--primary)','background':'rgba(30,111,183,0.07)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'999px','padding':'0.25rem 0.6rem'}}>{t}</span>
+          {['Transactions','Account Activity','Device & Session','Behavioural Events','Payment & Channel Activity'].map(t => (
+            <span key={t} style={{'fontSize':'0.6875rem','fontWeight':'600','color':'#1E6FB7','background':'rgba(30,111,183,0.07)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'999px','padding':'0.2rem 0.6rem'}}>{t}</span>
           ))}
         </div>
       </div>
 
-      {/* Convergence arrow + outcome */}
-      <div className="two-paths-outcome" style={{'borderLeft':'1px solid var(--border)','borderRight':'1px solid var(--border)','padding':'1.5rem 2rem'}}>
-        <div style={{'display':'flex','flexDirection':'column','alignItems':'center','gap':'0.5rem','marginBottom':'1rem'}}>
-          <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><path d="M8 0v20M2 14l6 8 6-8" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-          <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><path d="M8 0v20M2 14l6 8 6-8" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-        </div>
-        <div style={{'background':'linear-gradient(135deg,#1E6FB7,#2563EB)','borderRadius':'12px','padding':'1.25rem 1rem','textAlign':'center','minWidth':'9rem'}}>
-          <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'rgba(255,255,255,0.75)','textTransform':'uppercase','letterSpacing':'0.08em','marginBottom':'0.5rem'}}>Converge into</p>
-          <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'#fff','lineHeight':1.3}}>Connected-Risk Intelligence</p>
-        </div>
-        <div className="two-paths-outcome-items">
-          {['Entity Resolution','Signal Correlation','Network Intelligence','Investigation & Evidence','Decision & Reporting Support'].map(t => (
-            <span key={t} style={{'fontSize':'0.6875rem','fontWeight':'600','color':'var(--primary)','background':'rgba(30,111,183,0.07)','border':'1px solid rgba(30,111,183,0.15)','borderRadius':'999px','padding':'0.25rem 0.6rem','textAlign':'center'}}>{t}</span>
-          ))}
-        </div>
-      </div>
-
-      {/* Path 2 — External Suspicion */}
-      <div style={{'background':'var(--bg-tint)','border':'1px solid var(--border)','borderRadius':'12px','padding':'2rem'}}>
-        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1.25rem'}}>
+      {/* Path 2 */}
+      <div style={{'background':'var(--bg-tint)','border':'1px solid var(--border)','borderTop':'3px solid #7C3AED','borderRadius':'12px','padding':'1.75rem'}}>
+        <div style={{'display':'flex','alignItems':'center','gap':'0.625rem','marginBottom':'1rem'}}>
           <div style={{'width':'2rem','height':'2rem','borderRadius':'8px','background':'linear-gradient(135deg,#7C3AED,#8B5CF6)','display':'flex','alignItems':'center','justifyContent':'center','flexShrink':0}}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
           </div>
           <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.08em'}}>Path 2 — External Suspicion</p>
         </div>
-        <h3 style={{'fontSize':'clamp(1rem,2vw,1.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.75rem'}}>Start with existing controls</h3>
-        <p style={{'fontSize':'clamp(0.875rem,1.5vw,0.9375rem)','color':'var(--body)','lineHeight':1.7,'marginBottom':'1rem'}}>
-          Start with alerts and suspicions from existing fraud, AML, KYC, screening, device-risk, payment-risk or other control systems. Verafye begins where your existing controls leave off.
+        <h3 style={{'fontSize':'clamp(1rem,2vw,1.125rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem'}}>Start with existing controls</h3>
+        <p style={{'fontSize':'0.9rem','color':'var(--body)','lineHeight':1.7,'marginBottom':'1rem'}}>
+          Alerts and suspicions from fraud, AML, KYC, screening, device-risk or payment-risk systems feed directly in. Verafye picks up where your existing controls leave off.
         </p>
         <div style={{'display':'flex','flexWrap':'wrap','gap':'0.375rem'}}>
-          {['Fraud Alerts','AML Alerts','KYC / Onboarding Signals','Screening / Sanctions Signals','Device-Risk Signals','Payment-Risk Alerts'].map(t => (
-            <span key={t} style={{'fontSize':'0.6875rem','fontWeight':'600','color':'#7C3AED','background':'rgba(124,58,237,0.07)','border':'1px solid rgba(124,58,237,0.15)','borderRadius':'999px','padding':'0.25rem 0.6rem'}}>{t}</span>
+          {['Fraud Alerts','AML Alerts','KYC Signals','Screening Signals','Device-Risk Signals','Payment-Risk Alerts'].map(t => (
+            <span key={t} style={{'fontSize':'0.6875rem','fontWeight':'600','color':'#7C3AED','background':'rgba(124,58,237,0.07)','border':'1px solid rgba(124,58,237,0.15)','borderRadius':'999px','padding':'0.2rem 0.6rem'}}>{t}</span>
           ))}
-        </div>
-        <div style={{'marginTop':'1.25rem','padding':'0.875rem 1rem','background':'rgba(30,111,183,0.04)','borderRadius':'8px','border':'1px solid rgba(30,111,183,0.12)'}}>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6,'margin':0}}>
-            <span style={{'fontWeight':'600','color':'var(--primary)'}}>For institutions with established controls:</span> Verafye can begin with the suspicion you already have and prove incremental connected intelligence before changing your stack.
-          </p>
         </div>
       </div>
 
     </div>
+
+    {/* ── Row 2: convergence funnel ── */}
+    <div className="tp-funnel">
+      <div className="tp-funnel-line" style={{'background':'linear-gradient(to right,transparent,#1E6FB7)'}}></div>
+      <div className="tp-funnel-dot">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </div>
+      <div className="tp-funnel-line" style={{'background':'linear-gradient(to left,transparent,#7C3AED)'}}></div>
+    </div>
+
+    {/* ── Row 3: outcome block ── */}
+    <div className="tp-outcome">
+      <div style={{'display':'flex','alignItems':'flex-start','justifyContent':'space-between','flexWrap':'wrap','gap':'1.5rem'}}>
+        <div>
+          <p style={{'fontSize':'0.6875rem','fontWeight':'700','color':'rgba(255,255,255,0.65)','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>Converge into</p>
+          <h3 style={{'fontSize':'clamp(1.125rem,2.5vw,1.5rem)','fontWeight':'700','color':'#fff','lineHeight':1.2,'margin':0}}>Connected-Risk Intelligence</h3>
+        </div>
+        <p style={{'fontSize':'0.875rem','color':'rgba(255,255,255,0.8)','lineHeight':1.7,'maxWidth':'28rem','margin':0}}>
+          Both paths feed the same entity-resolution, network-intelligence and investigation architecture — producing case-ready, audit-ready outcomes regardless of entry point.
+        </p>
+      </div>
+      <div className="tp-outcome-chips">
+        {['Entity Resolution','Signal Correlation','Network Intelligence','Alert Clustering','Investigation & Evidence','Decision & Audit Support'].map(t => (
+          <span key={t} style={{'fontSize':'0.6875rem','fontWeight':'600','color':'rgba(255,255,255,0.9)','background':'rgba(255,255,255,0.12)','border':'1px solid rgba(255,255,255,0.2)','borderRadius':'999px','padding':'0.25rem 0.75rem'}}>{t}</span>
+        ))}
+      </div>
+    </div>
+
   </div>
 </section>
 
