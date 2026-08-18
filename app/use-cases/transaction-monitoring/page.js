@@ -139,7 +139,7 @@ export default function TransactionMonitoringPage() {
             <div>
               <p className="eyebrow" style={{ marginBottom: '1rem' }}>The Problem</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', letterSpacing: '-0.025em', lineHeight: 1.2 }}>
-                Rule-Based Monitoring Generates Cost - Not Intelligence
+                Rule-Based Monitoring Can Create High Investigation Cost Without Enough Context
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
                 Transaction monitoring is one of the highest-cost, lowest-signal functions in financial crime operations for many institutions. Legacy monitoring stacks generate large alert volumes, yet many of those alerts do not lead to substantive investigations — consuming analyst capacity without proportionate improvement in risk detection or compliance outcomes. Transaction monitoring is also a non-discretionary AML obligation: regulators expect institutions to demonstrate effective controls, proportionate coverage, and the documented decision trails that examiners scrutinise during review.

@@ -81,10 +81,10 @@ export default function CaseStudiesPage() {
         <div className="container" style={{ maxWidth: '56rem', textAlign: 'center' }}>
           <p className="eyebrow animate-fade-up" style={{ marginBottom: '1rem' }}>Case Studies</p>
           <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3rem)', fontWeight: 800, color: 'var(--dark)', marginBottom: '1.25rem', letterSpacing: '-0.03em', lineHeight: 1.15 }}>
-            How Regulated Payment Platforms Use Verafye
+            Connected-Risk Intelligence in Payment Environments
           </h1>
           <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', maxWidth: '44rem', margin: '0 auto 2.5rem', lineHeight: 1.75 }}>
-            Cross-border payments and FX platforms, multi-method payment infrastructure providers, and regulated global payment networks use Verafye to connect fragmented risk signals into investigation-ready cases.
+            Examples of how Verafye connects fragmented risk signals into investigation-ready cases across regulated payment and money-movement environments.
           </p>
           <div className="animate-fade-up delay-300" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.875rem', justifyContent: 'center' }}>
             <Link href="/risk-shadowing-review" className="btn-primary">

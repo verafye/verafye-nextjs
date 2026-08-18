@@ -492,10 +492,10 @@ export default function Page() {
 
     <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>IN PRODUCTION</p>
     <h2 style={{'fontSize':'clamp(1.5rem,3.5vw,2.25rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','letterSpacing':'-0.025em','lineHeight':1.2}}>
-      Used by regulated payment platforms to investigate connected risk
+      Connected-Risk Intelligence operating in a regulated money-movement environment
     </h2>
     <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'maxWidth':'48rem','margin':'0 auto 2.5rem'}}>
-      MSBs, remittance platforms, and cross-border payment infrastructure providers across Canada, the UK, EU, and Hong Kong use Verafye to connect alerts, surface network risk, and produce investigation-ready cases across their payment operations.
+      Verafye has live commercial production experience in regulated money movement, alongside additional product and evaluation experience across payment and financial-risk environments.
     </p>
 
     {/* Logos */}
