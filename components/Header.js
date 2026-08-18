@@ -23,8 +23,9 @@ const navItems = [
     children: [
       { href: '/use-cases',                                         label: 'All Use Cases' },
       { href: '/use-cases/mule-network-detection',                  label: 'Mule Network Intelligence' },
-      { href: '/use-cases/transaction-monitoring',                  label: 'Transaction Monitoring' },
+      { href: '/use-cases/fraud-aml-investigations',                label: 'Connected-Risk Investigation' },
       { href: '/use-cases/investigation-workflow-modernization',    label: 'Investigation Workflow Modernization' },
+      { href: '/use-cases/transaction-monitoring',                  label: 'Transaction Monitoring' },
     ],
   },
   {
@@ -84,8 +85,9 @@ const mobileNavGroups = [
     items: [
       { href: '/use-cases',                                       label: 'All Use Cases' },
       { href: '/use-cases/mule-network-detection',                label: 'Mule Network Intelligence' },
-      { href: '/use-cases/transaction-monitoring',                label: 'Transaction Monitoring' },
+      { href: '/use-cases/fraud-aml-investigations',              label: 'Connected-Risk Investigation' },
       { href: '/use-cases/investigation-workflow-modernization',  label: 'Investigation Workflow Modernization' },
+      { href: '/use-cases/transaction-monitoring',                label: 'Transaction Monitoring' },
     ],
   },
   {

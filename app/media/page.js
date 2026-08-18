@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Media & Press",
-  description: "Verafye in the news - interviews, press coverage and media features on Connected-Risk Intelligence for payment and compliance teams.",
+  title: { absolute: "Media & Press" },
+  description: "Verafye in the news - interviews, press coverage and media features on graph-native Network Risk Intelligence for payment and compliance teams.",
   openGraph: {
     title: "Media & Press",
-    description: "Verafye in the news - interviews, press coverage and media features on Connected-Risk Intelligence for payment and compliance teams.",
+    description: "Verafye in the news - interviews, press coverage and media features on graph-native Network Risk Intelligence for payment and compliance teams.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Media & Press",
-    description: "Verafye in the news - interviews, press coverage and media features on Connected-Risk Intelligence for payment and compliance teams.",
+    description: "Verafye in the news - interviews, press coverage and media features on graph-native Network Risk Intelligence for payment and compliance teams.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/media',

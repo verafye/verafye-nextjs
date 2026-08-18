@@ -1,20 +1,26 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Mule Account & Network Detection",
-  description: "Detect mule accounts and coordinated mule networks using Connected-Risk Intelligence. Connect account, device, identity and transaction signals into network-level cases for evidence-backed AML investigations.",
-  keywords: ["mule account detection", "mule network detection", "money mule networks", "fraud ring detection", "transaction network analysis", "aml investigations", "mule account detection software"],
+  title: { absolute: "Mule Network Detection Software | Detect Fraud Rings" },
+  description: "Detect coordinated mule networks, suspicious money flows and hidden financial crime relationships using graph-native investigation intelligence.",
+  keywords: [
+    "mule network detection software",
+    "money mule networks",
+    "fraud ring detection",
+    "transaction network analysis",
+    "aml investigations",
+  ],
   openGraph: {
-    title: "Mule Account & Network Detection | Verafye",
-    description: "Detect mule accounts and uncover the coordinated networks behind them using connected graph intelligence and investigation-ready case context.",
+    title: "Mule Network Detection Software | Detect Fraud Rings",
+    description: "Uncover mule networks, coordinated fraud rings and hidden transaction relationships with connected intelligence that strengthens AML investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Mule Account & Network Detection | Verafye",
-    description: "Detect mule accounts and uncover the coordinated networks behind them using connected graph intelligence and investigation-ready case context.",
+    title: "Mule Network Detection Software | Detect Fraud Rings",
+    description: "Uncover mule networks, coordinated fraud rings and hidden transaction relationships with connected intelligence that strengthens AML investigations.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/use-cases/mule-network-detection/',
+    canonical: 'https://www.verafye.com/use-cases/mule-network-detection',
   },
 };
 
@@ -91,9 +97,9 @@ export default function MuleNetworkDetectionPage() {
       <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Where Connected Risk Extends Beyond an Individual Alert</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-              Why Traditional Detection Misses Mule Networks
+              Where Relationship Context Becomes Hard to Reconstruct
             </h2>
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -290,7 +296,7 @@ export default function MuleNetworkDetectionPage() {
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
-                title: 'Faster Investigations - No Manual Reconstruction',
+                title: 'Investigation Context — Reduced Manual Reconstruction',
                 body: 'Pre-assembled network context and cluster-based investigation views eliminate the manual research phase - enabling analysts to begin substantive investigation immediately and reducing cycle times across mule detection cases.',
               },
               {
@@ -303,7 +309,7 @@ export default function MuleNetworkDetectionPage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Complete Network Visibility - Fraud and AML Connected',
-                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a complete, real-time picture of mule network structure - enabling proactive intervention and better-informed decisions on account action and SAR filing. Verafye&apos;s investigation-ready case structure supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
+                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a broader connected view of the mule network risk context available from integrated signals — supporting more informed decisions on account action and SAR filing. Verafye&apos;s investigation-ready case structure supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
               },
               {
                 gradient: 'gradient-bg-1',

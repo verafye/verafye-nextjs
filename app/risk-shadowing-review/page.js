@@ -1,20 +1,27 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
-  description: "Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden networks, form investigation-ready cases, and assess production options before full deployment.",
-  keywords: ["risk shadowing review", "connected risk intelligence", "network risk intelligence", "fraud aml evaluation", "investigation-ready evidence", "mule network intelligence", "payments risk evaluation"],
+  title: { absolute: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams" },
+  description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
+  keywords: [
+    "risk shadowing review",
+    "network risk intelligence",
+    "fraud aml evaluation",
+    "investigation-ready evidence",
+    "graph-native risk detection",
+    "payments risk evaluation",
+  ],
   openGraph: {
-    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams | Verafye",
-    description: "Evaluate Verafye's Connected-Risk Intelligence on a controlled dataset from your existing environment — entities resolved, hidden networks surfaced, investigation-ready evidence produced.",
+    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
+    description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams | Verafye",
-    description: "Evaluate Verafye's Connected-Risk Intelligence on a controlled dataset from your existing environment — entities resolved, hidden networks surfaced, investigation-ready evidence produced.",
+    title: "Risk Shadowing Review for Fraud, AML and Payments Risk Teams",
+    description: "Test Verafye alongside existing fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Detect hidden network risk, connect fragmented signals, and produce investigation-ready evidence before deeper deployment.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/risk-shadowing-review/',
+    canonical: 'https://www.verafye.com/risk-shadowing-review',
   },
 };
 
@@ -28,10 +35,10 @@ export default function RiskShadowingReviewPage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>RISK SHADOWING REVIEW</p>
             <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Risk Shadowing Review for payment-led financial crime teams
+              Prove incremental intelligence before changing your stack.
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Evaluate Verafye's network risk detection on a controlled dataset from your fraud, AML, KYC, identity, payment, device, ledger, merchant, beneficiary, and case systems. Verafye resolves entities, detects hidden networks, clusters related activity, and produces investigation-ready evidence for review.
+              Run Verafye alongside your existing control environment on a bounded risk hypothesis and agreed data population. Compare what your institution already knows with the Connected-Risk Intelligence Verafye adds—and determine whether that additional context materially changes the investigation or decision.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
@@ -43,7 +50,7 @@ export default function RiskShadowingReviewPage() {
               <Link href="/request-demo" className="btn-secondary">Book a Verafye Walkthrough</Link>
             </div>
             <p className="animate-fade-up delay-500" style={{ fontSize: '0.875rem', color: 'var(--primary)', fontWeight: '600', marginTop: '1.25rem', letterSpacing: '-0.01em' }}>
-              API-led integration on agreed data feeds. First connected-risk outputs within two weeks.
+              API-led integration on agreed data feeds. Initial connected-risk outputs may be available within approximately two weeks where agreed data is clean and ready for analysis.
             </p>
           </div>
         </div>
@@ -55,8 +62,14 @@ export default function RiskShadowingReviewPage() {
           <div style={{ maxWidth: '50rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Risk Shadowing</p>
             <p style={{ fontSize: 'clamp(1.0625rem,2.2vw,1.375rem)', color: 'var(--dark)', lineHeight: 1.5, fontWeight: 500, letterSpacing: '-0.01em' }}>
-              Risk Shadowing lets teams validate Verafye's network risk detection and investigation capabilities against a controlled dataset or focused workflow, with no changes to live production processes.
+              Risk Shadowing runs Verafye on agreed data alongside your existing controls — not in place of them. The output is a structured comparison: what the institution already knew, what Connected-Risk Intelligence adds, and whether that additional context is material to investigation or decision.
             </p>
+            <div style={{ marginTop: '2rem', padding: '1.5rem 2rem', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '12px', textAlign: 'left', maxWidth: '42rem', margin: '2rem auto 0' }}>
+              <p style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.625rem' }}>Core Proof Question</p>
+              <p style={{ fontSize: '1.0625rem', fontWeight: 600, color: 'var(--dark)', lineHeight: 1.5, margin: 0 }}>
+                "Did Verafye materially change what the institution knew or would have done?"
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -100,7 +113,7 @@ export default function RiskShadowingReviewPage() {
                 What Verafye can analyze
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share to resolve entities, detect hidden networks, and form investigation-ready cases.
+                Inputs are configurable based on use case and available data. Not every team needs to supply every data type. Verafye connects the signals you can share to resolve entities, surface relationship context across the agreed population, and form investigation-ready cases.
               </p>
             </div>
             <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -130,20 +143,61 @@ export default function RiskShadowingReviewPage() {
             <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3rem' }}>
               <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>How It Works</p>
               <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-                A low-friction way to evaluate Verafye
+                A structured nine-step evaluation process
               </h2>
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '52rem', margin: '0 auto' }}>
               {[
-                { step: '01', title: 'Select a focused use case', body: 'Choose a focused fraud, AML, or payment-risk scenario that matters to your team.' },
-                { step: '02', title: 'Share a controlled dataset', body: 'Provide a controlled dataset or focused workflow. Inputs are configurable based on use case and available data.' },
-                { step: '03', title: 'Run a focused network-risk review', body: 'Verafye processes the shared dataset, resolves entities, and forms investigation-ready cases across the agreed scope.' },
-                { step: '04', title: 'Review findings with Verafye', body: 'Walk through the findings with our team and decide whether to expand into a deeper evaluation.' },
+                { step: '01', title: 'Risk Hypothesis', body: 'Define the specific risk question the review will address — a bounded, agreed hypothesis about where connected context may or may not add value.' },
+                { step: '02', title: 'Existing Baseline', body: 'Document what the institution currently knows: existing alerts, decisions, and investigations across the agreed scope and data population.' },
+                { step: '03', title: 'Data Qualification', body: 'Agree the data feeds, signal sources, and population to be included. Not every use case requires every data type.' },
+                { step: '04', title: 'Defined Case Population', body: 'Establish the bounded case population Verafye will run against — aligned to the risk hypothesis.' },
+                { step: '05', title: 'Risk Shadowing', body: 'Verafye processes the agreed data population alongside the institution\'s existing controls, resolving entities and producing connected-risk context.' },
+                { step: '06', title: 'Analyst Review', body: 'Investigators review the Verafye output against the existing baseline — assessing whether connected context changes the investigation picture.' },
+                { step: '07', title: 'Evidence Classification', body: 'Verafye findings are classified against the public evidence hierarchy: Contextual only / Relevant context / Material incremental intelligence / New risk discovery / Decision impact.' },
+                { step: '08', title: 'Executive Proof Review', body: 'A structured review with institutional and Verafye leadership — presenting findings, evidence classification, and whether the core proof question is answered.' },
+                { step: '09', title: 'Production Decision', body: 'Institution decides whether Verafye Connected-Risk Intelligence is production-ready for the scoped use case, based on evidence from the review.' },
               ].map(item => (
-                <div key={item.step} className="card" style={{ padding: '2rem' }}>
-                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--secondary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>{item.step}</div>
-                  <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem' }}>{item.title}</h3>
-                  <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7 }}>{item.body}</p>
+                <div key={item.step} className="card" style={{ padding: '1.5rem 2rem', display: 'flex', gap: '1.25rem', alignItems: 'flex-start' }}>
+                  <div style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', flexShrink: 0, minWidth: '2rem', paddingTop: '0.1rem' }}>{item.step}</div>
+                  <div>
+                    <h3 style={{ fontSize: 'clamp(0.9375rem,1.5vw,1.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.375rem' }}>{item.title}</h3>
+                    <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>{item.body}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── EVIDENCE HIERARCHY ───────────────────────────────────────────────── */}
+      <section style={{ padding: '4rem 0', background: '#fff' }}>
+        <div className="container">
+          <div style={{ maxWidth: '52rem', margin: '0 auto' }}>
+            <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+              <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Evidence Classification</p>
+              <h2 style={{ fontSize: 'clamp(1.25rem,3vw,2rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
+                Public evidence hierarchy
+              </h2>
+              <p style={{ fontSize: '0.9375rem', color: 'var(--body)', marginTop: '0.75rem', lineHeight: 1.7 }}>
+                All Risk Shadowing findings are classified against a five-tier hierarchy. Evidence classification is shared with the institution at the Executive Proof Review.
+              </p>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {[
+                { tier: '1', label: 'Contextual only', description: 'Verafye adds relationship context that is consistent with what the institution already knew — no change to investigation outcome.' },
+                { tier: '2', label: 'Relevant context', description: 'Verafye surfaces additional context that is relevant but does not materially change the investigation or decision.' },
+                { tier: '3', label: 'Material incremental intelligence', description: 'Verafye adds context that materially changes how the institution understands the risk — investigation scope or depth changes.' },
+                { tier: '4', label: 'New risk discovery', description: 'Verafye surfaces risk the institution had not previously identified within the agreed case population.' },
+                { tier: '5', label: 'Decision impact', description: 'Verafye context changes what the institution would have decided — disposition, escalation, or reporting outcome differs.' },
+              ].map(item => (
+                <div key={item.tier} style={{ padding: '1.25rem 1.5rem', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '10px', display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
+                  <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: 'var(--primary)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem', fontWeight: 700, flexShrink: 0 }}>{item.tier}</div>
+                  <div>
+                    <p style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.25rem' }}>{item.label}</p>
+                    <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, margin: 0 }}>{item.description}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -213,11 +267,17 @@ export default function RiskShadowingReviewPage() {
               Common questions
             </h2>
           </div>
+          <div style={{ marginBottom: '1.5rem', padding: '1rem 1.25rem', background: 'rgba(30,111,183,0.05)', borderRadius: '10px', border: '1px solid rgba(30,111,183,0.12)' }}>
+            <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
+              <span style={{ fontWeight: 700, color: 'var(--primary)' }}>For institutions with established controls:</span> the most common starting point remains incremental Connected-Risk Intelligence around existing suspicion — beginning with the alerts you already have and proving connected intelligence before changing your stack.
+            </p>
+          </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             {[
               { q: 'Which teams is Risk Shadowing for?', a: 'Risk Shadowing is a low-friction evaluation motion for payment-led financial crime teams, including PSPs, PayFacs, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, and selected banks.' },
-              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'Risk Shadowing Review does not alter live workflows or require changes to existing systems. Verafye connects to agreed data feeds, resolves entities, detects hidden networks, and produces investigation-ready cases from the shared dataset. After evaluation, adoption is flexible: teams can integrate selected Verafye outputs into existing operational workflows, or expand into Verafye-led investigation, evidence, and decision operations as outcomes are proven.' },
+              { q: 'Does Verafye replace our existing fraud, AML, or oversight systems?', a: 'Risk Shadowing Review does not alter live workflows or require changes to existing systems. Verafye connects to agreed data feeds, resolves entities, surfaces connected relationships and potentially relevant network patterns for analyst review, and produces investigation-ready cases from the shared dataset. After evaluation, adoption is flexible: teams can integrate selected Verafye outputs into existing operational workflows, or expand into Verafye-led investigation, evidence, and decision operations as outcomes are proven.' },
               { q: 'What data do we need to provide?', a: 'Inputs are configurable based on use case and available data. You can start with a controlled dataset for a focused use case and expand coverage over time. Not every team needs to supply every data type.' },
+              { q: 'Can Risk Shadowing also assess Verafye-native detection?', a: 'Yes. Where relevant, Risk Shadowing can compare Verafye-native detections with incumbent alerts as well as assess the connected intelligence produced around each. This can help determine whether Verafye should assume any detection responsibility in production.' },
               { q: 'Can we see a sample output?', a: 'Yes. Detailed sample outputs are shared during qualified walkthroughs using synthetic data only. Request a sample output walkthrough and our team will walk you through it.' },
             ].map(item => (
               <div key={item.q} className="card card-elevated" style={{ padding: '1.75rem 2rem' }}>

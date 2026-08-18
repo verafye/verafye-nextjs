@@ -1,20 +1,31 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence for Payment Fintechs",
+  title: { absolute: "Fraud Prevention Solutions for Fintech | Prevent Fraud" },
   description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence — surfacing account farming, referral abuse, wallet misuse, payout fraud, and cross-product risk patterns.",
-  keywords: ["payment fintech fraud detection", "wallet risk intelligence", "prepaid card fraud", "lending app fraud", "referral abuse detection", "account farming fintech", "payout fraud investigation", "fintech aml investigation", "payment app risk intelligence", "fintech investigation workflow"],
+  keywords: [
+    "payment fintech fraud detection",
+    "wallet risk intelligence",
+    "prepaid card fraud",
+    "lending app fraud",
+    "referral abuse detection",
+    "account farming fintech",
+    "payout fraud investigation",
+    "fintech aml investigation",
+    "payment app risk intelligence",
+    "fintech investigation workflow",
+  ],
   openGraph: {
-    title: "Connected-Risk Intelligence for Payment Fintechs | Verafye",
+    title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
     description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connected-Risk Intelligence for Payment Fintechs | Verafye",
+    title: "Fraud Prevention Solutions for Fintech | Prevent Fraud",
     description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/industries/fintech-platforms/',
+    canonical: 'https://www.verafye.com/industries/fintech-platforms',
   },
 };
 
@@ -26,10 +37,10 @@ export default function FintechPlatformsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fintech Fraud Prevention Solution</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fintech Fraud Prevention Solution</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation Intelligence for Payment-Enabled Fintech Platforms
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps wallets, card programs, lending apps, payroll/expense platforms, merchant apps, and multi-product fintechs connect onboarding, account, device, transaction, payment, wallet, payout, repayment, fraud, and AML signals into investigation-ready intelligence.
             </p>
@@ -141,9 +152,9 @@ export default function FintechPlatformsPage() {
       <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Traditional Systems Fall Short</p>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Where Risk Context Becomes Fragmented Across Products and Journeys</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-              Point Tools Cannot Connect the Lifecycle Risk Picture
+              Where Connected Risk Extends Across the Payment and Product Lifecycle
             </h2>
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -152,7 +163,7 @@ export default function FintechPlatformsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
                 title: 'Onboarding, Payment, and Payout Signals Sit in Separate Systems',
-                body: 'Onboarding fraud tools, fraud scoring engines, device intelligence platforms, payment monitors, and AML systems each hold a fragment of the risk picture - but none connects account farming at onboarding to wallet misuse at payment to payout abuse at disbursement. Coordinated fraud that spans this lifecycle exploits the gaps between systems that never share signals.',
+                body: 'When payments, wallets, lending, merchant credit or other financial products operate across separate controls and workflows, investigators may need to reconstruct the relationship context across entities, activity and product journeys. Verafye connects agreed signals into Connected-Risk Intelligence for investigation and decision support across the lifecycle.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -164,7 +175,7 @@ export default function FintechPlatformsPage() {
                 gradient: 'gradient-bg-3',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>),
                 title: 'Repayment and Payout Risk Is Invisible Until After Disbursement',
-                body: 'For lending apps and payout-enabled platforms, the risk that matters most often manifests after funds have left the platform - in repayment default patterns, payout routing anomalies, and wallet balance manipulation. Systems optimised for onboarding-time or transaction-time detection cannot reliably surface these post-disbursement patterns without connecting the full account and payment lifecycle.',
+                body: 'For lending apps and payout-enabled platforms, the risk that matters most often manifests after funds have left the platform - in repayment default patterns, payout routing anomalies, and wallet balance manipulation. Surfacing these post-disbursement patterns may require connecting the full account and payment lifecycle into a single investigation-ready view.',
               },
               {
                 gradient: 'gradient-bg-4',

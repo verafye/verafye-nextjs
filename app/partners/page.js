@@ -1,9 +1,15 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Build Stronger Financial Crime Solutions",
+  title: { absolute: "Build Stronger Financial Crime Solutions" },
   description: "Partner with Verafye to help payment platforms, fintechs, MSBs, remittance firms, selected banks, and regulated financial teams connect detection, investigation, and audit-ready decisioning.",
-  keywords: ["financial crime technology partners", "fraud prevention ecosystem", "aml compliance partners", "regtech partnerships", "risk intelligence partnerships"],
+  keywords: [
+    "financial crime technology partners",
+    "fraud prevention ecosystem",
+    "aml compliance partners",
+    "regtech partnerships",
+    "risk intelligence partnerships",
+  ],
   openGraph: {
     title: "Build Stronger Financial Crime Solutions",
     description: "Partner with Verafye to help payment platforms, fintechs, MSBs, remittance firms, selected banks, and regulated financial teams connect detection, investigation, and audit-ready decisioning.",
@@ -77,8 +83,8 @@ export default function PartnersPage() {
                     <circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/>
                   </svg>
                 ),
-                title: 'Connected-Risk Intelligence Differentiation',
-                body: 'Connected-Risk Intelligence represents a genuine architectural differentiation in the financial crime market — providing partners with a technically distinctive, in-demand proposition across fraud, AML, and payments conversations.',
+                title: 'Extend Existing Risk Signals',
+                body: 'Connected-Risk Intelligence gives partners a focused way to extend existing fraud, AML, payment and risk signals into connected investigation context—without requiring the partner or customer platform to be displaced first.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -159,7 +165,7 @@ export default function PartnersPage() {
                   </svg>
                 ),
                 title: 'Technology and Data Partners',
-                body: 'Technology and data partners connect complementary identity, device, payment, or risk capabilities with the Verafye platform - extending the signals and operational context available for connected-risk detection and investigation.',
+                body: 'Partners can integrate with Verafye in either direction: contribute specialist risk signals — identity, device, payment, or risk data — into Connected-Risk Intelligence, or incorporate Verafye-native detection and investigation capabilities into a broader customer solution.',
                 tags: ['API integration', 'Joint solutions', 'Ecosystem'],
               },
               {

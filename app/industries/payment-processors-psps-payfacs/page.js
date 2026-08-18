@@ -1,21 +1,29 @@
-import CTA from '../../../components/CTA';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors",
-  description: "Detect merchant fraud, payout abuse and payment risk with Connected-Risk Intelligence built for PSPs, PayFacs and payment processors.",
-  keywords: ["psp risk intelligence", "payfac fraud detection", "merchant risk monitoring", "transaction laundering detection", "payment processor fraud", "sub-merchant risk", "chargeback fraud detection", "payment fraud investigation"],
+  title: { absolute: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions" },
+  description: "Detect merchant fraud, payout abuse and payment risk with graph-native Network Risk Intelligence built for PSPs, PayFacs and payment processors.",
+  keywords: [
+    "psp risk intelligence",
+    "payfac fraud detection",
+    "merchant risk monitoring",
+    "transaction laundering detection",
+    "payment processor fraud",
+    "sub-merchant risk",
+    "chargeback fraud detection",
+    "payment fraud investigation",
+  ],
   openGraph: {
-    title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
-    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with Connected-Risk Intelligence and investigation-ready case context.",
+    title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions",
+    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connected-Risk Intelligence for PSPs, PayFacs & Payment Processors | Verafye",
-    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with Connected-Risk Intelligence and investigation-ready case context.",
+    title: "Payment Fraud Prevention Solutions for PSPs & PayFacs | Protect Transactions",
+    description: "Verafye helps PSPs, PayFacs, and payment processors detect merchant, sub-merchant, transaction, settlement, payout, and chargeback risk with graph-native investigation intelligence.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs/',
+    canonical: 'https://www.verafye.com/industries/payment-processors-psps-payfacs',
   },
 };
 
@@ -35,10 +43,10 @@ export default function PaymentProcessorsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Payment Fraud Prevention Solution</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Payment Fraud Prevention Solution</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Investigation intelligence for PSPs, PayFacs, and payment processors
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps PSPs, PayFacs, and payment processors detect network-level risk across merchants, accounts, devices, identities, transactions, beneficiaries, and payouts.
             </p>
@@ -120,9 +128,9 @@ export default function PaymentProcessorsPage() {
       <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Where Connected Risk Extends Beyond an Individual Alert</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-              Why Traditional Fraud Stacks Fall Short for PSPs and PayFacs
+              Where Relationship Context Becomes Hard to Reconstruct for PSPs and PayFacs
             </h2>
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -130,8 +138,8 @@ export default function PaymentProcessorsPage() {
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>),
-                title: 'Transaction-Level Scoring Misses Network-Based Fraud',
-                body: 'Point-in-time transaction scoring does not surface coordinated fraud networks operating across merchants, devices, and accounts. Organised fraud rings deliberately structure activity to stay below individual transaction thresholds - invisible to event-level models.',
+                title: 'Where Transaction-Level Monitoring May Need Additional Relationship Context',
+                body: 'Transaction-level monitoring can identify suspicious activity while investigators may still need to assemble the broader relationship context across merchants, accounts, beneficiaries, devices and payment activity. Coordinated activity structured across multiple entities and time periods may require connected-signal analysis to reconstruct.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -326,13 +334,13 @@ export default function PaymentProcessorsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Better Visibility Into Merchant and Network Risk',
-                body: 'Continuous merchant monitoring connected to transaction and network intelligence gives PSPs and PayFacs a complete, real-time picture of merchant risk - enabling proactive intervention before exposure escalates.',
+                body: 'Continuous merchant monitoring connected to transaction and network intelligence gives PSPs and PayFacs a broader connected view of merchant risk context available from integrated signals — supporting more informed intervention decisions before exposure escalates.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'Better Visibility Across Merchant, Transaction, and Account Risk',
-                body: 'One connected network view linking merchant profiles, transaction signals, and account behaviour gives risk operations a complete, real-time picture of exposure - enabling more informed decisions on merchant intervention, account action, and escalation across the PSP and PayFac risk stack.',
+                body: 'One connected network view linking merchant profiles, transaction signals, and account behaviour gives risk operations a broader connected view of the risk context available from integrated signals — enabling more informed decisions on merchant intervention, account action, and escalation across the PSP and PayFac risk stack.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>
@@ -353,7 +361,7 @@ export default function PaymentProcessorsPage() {
           <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', letterSpacing: '-0.02em' }}>
             Verafye Across Financial Institution Types
           </h2>
-          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - beginning with a scoped pilot on agreed data feeds and expanding network coverage across teams, programs, and corridors as outcomes are proven.</p>
+          <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, maxWidth: '40rem', margin: '0 auto 2rem' }}>Verafye supports fraud and AML operations for regulated payment ecosystems - beginning with a Risk Shadowing engagement on agreed data feeds and expanding network coverage across teams, programs, and corridors as outcomes are proven.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '0.75rem' }}>
             <Link href="/industries/banks" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.8125rem', fontWeight: 600, color: 'var(--primary)', border: '1px solid rgba(30,111,183,0.25)', borderRadius: '8px', padding: '0.55rem 1rem', background: '#fff', textDecoration: 'none' }}>
               Banks <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

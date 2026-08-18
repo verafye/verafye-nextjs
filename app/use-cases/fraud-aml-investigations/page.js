@@ -2,16 +2,16 @@ import CTA from '../../../components/CTA';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected Fraud & AML Investigations",
+  title: "Connected-Risk Investigation for Fraud & AML Teams",
   description: "Fraud teams and AML teams often catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface — so teams investigate the connected risk, not just their slice.",
-  keywords: ["connected fraud aml investigations", "fraud aml convergence", "unified fraud aml platform", "cross-functional financial crime investigations", "fraud aml shared workflows", "connected-risk investigation"],
+  keywords: ["connected-risk investigation", "fraud aml convergence", "unified fraud aml platform", "cross-functional financial crime investigations", "fraud aml shared workflows", "connected fraud aml investigations"],
   openGraph: {
-    title: "Connected Fraud & AML Investigations | Verafye",
+    title: "Connected-Risk Investigation for Fraud & AML Teams | Verafye",
     description: "Fraud teams and AML teams catch different pieces of the same crime. Verafye connects both into one investigation surface.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connected Fraud & AML Investigations | Verafye",
+    title: "Connected-Risk Investigation for Fraud & AML Teams | Verafye",
     description: "Fraud teams and AML teams catch different pieces of the same crime. Verafye connects both into one investigation surface.",
   },
   alternates: {
@@ -87,10 +87,10 @@ export default function FraudAmlInvestigationsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '5rem 0 4rem' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Convergence · Use Case</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
-              Fraud teams and AML teams<br />are catching different pieces of the same crime
-            </h1>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Connected-Risk Investigation · Use Case</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.125rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+              Connected-Risk Investigation across fraud and AML signals
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.7 }}>
               Verafye brings both signal sets into a shared investigation surface — so neither team works a partial picture, and the full scope of the risk is visible before a decision is made.
             </p>

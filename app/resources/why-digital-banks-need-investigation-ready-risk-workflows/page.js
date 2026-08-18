@@ -2,9 +2,14 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: "Why Digital Banks Need Investigation-Ready Workflows",
+  title: { absolute: "Why Digital Banks Need Investigation-Ready Workflows" },
   description: "Learn how digital banks improve fraud detection, AML compliance and risk operations through connected investigation workflows.",
-  keywords: ["investigation ready workflows", "banking risk operations", "digital banking fraud prevention", "aml workflow modernization"],
+  keywords: [
+    "investigation ready workflows",
+    "banking risk operations",
+    "digital banking fraud prevention",
+    "aml workflow modernization",
+  ],
   openGraph: {
     title: "Why Digital Banks Need Investigation-Ready Workflows",
     description: "Learn how digital banks improve fraud detection, AML compliance and risk operations through connected investigation workflows.",

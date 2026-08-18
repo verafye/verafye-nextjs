@@ -1,21 +1,26 @@
-import CTA from '../../../components/CTA';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Transaction Monitoring with Connected Investigation Intelligence",
-  description: "Connect transaction alerts with entity relationships, behavioral patterns, and cross-system context — improving alert signal quality and building investigation-ready cases.",
-  keywords: ["aml transaction monitoring software", "suspicious activity monitoring", "transaction intelligence", "financial crime detection", "aml compliance monitoring"],
+  title: { absolute: "AML Transaction Monitoring Software | Detect Risk Faster" },
+  description: "Detect suspicious transactions, reduce false positives and uncover hidden financial crime with graph-native transaction monitoring and investigation intelligence.",
+  keywords: [
+    "aml transaction monitoring software",
+    "suspicious activity monitoring",
+    "transaction intelligence",
+    "financial crime detection",
+    "aml compliance monitoring",
+  ],
   openGraph: {
-    title: "Transaction Monitoring with Connected Investigation Intelligence | Verafye",
-    description: "Alert quality improves when monitoring runs across entity relationships and behavioral signals, not transaction data alone. Verafye connects both.",
+    title: "AML Transaction Monitoring Software | Detect Risk Faster",
+    description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Transaction Monitoring with Connected Investigation Intelligence | Verafye",
-    description: "Alert quality improves when monitoring runs across entity relationships and behavioral signals, not transaction data alone. Verafye connects both.",
+    title: "AML Transaction Monitoring Software | Detect Risk Faster",
+    description: "Detect suspicious activity, uncover hidden financial crime patterns and improve compliance outcomes with connected transaction intelligence.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/use-cases/transaction-monitoring/',
+    canonical: 'https://www.verafye.com/use-cases/transaction-monitoring',
   },
 };
 
@@ -77,11 +82,11 @@ export default function TransactionMonitoringPage() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.25rem' }}>
               {[
                 {
-                  mode: 'Enrichment layer',
+                  mode: 'Connected Intelligence Alongside Existing Monitoring',
                   badge: 'Most common',
                   badgeColor: 'var(--primary)',
-                  description: 'Your existing TM system (Actimize, NICE, Quantexa, Oracle, or another) stays in place. Verafye connects alongside it and enriches each alert with entity graph, device, and behavioral context — improving signal quality without disrupting your monitoring programme.',
-                  fit: 'Best for institutions with existing TM investment who want to improve alert quality and signal coverage',
+                  description: 'Your existing TM system (Actimize, NICE, Quantexa, Oracle, or another) stays in place. Verafye connects alongside it and turns each alert into Connected-Risk Intelligence — adding entity graph, network context, device, and behavioral signals that improve investigation quality without disrupting your monitoring programme.',
+                  fit: 'Best for institutions with existing TM investment who want to improve alert quality and connected-risk context around each suspicion',
                 },
                 {
                   mode: 'Verafye-led monitoring',
@@ -93,7 +98,7 @@ export default function TransactionMonitoringPage() {
                   mode: 'Parallel assessment',
                   badge: 'How RSR starts',
                   badgeColor: '#059669',
-                  description: 'Run Verafye\'s detection models on your actual transaction data alongside your existing monitoring — without committing to any change. A Risk Shadowing Review shows you specifically what your current controls are missing before you decide anything.',
+                  description: 'Run Verafye\'s detection models on your actual transaction data alongside your existing monitoring — without committing to any change. Risk Shadowing compares Verafye against the institution\'s existing monitoring baseline to determine whether connected context adds material incremental intelligence.',
                   fit: 'Best for institutions evaluating monitoring coverage or considering modernization',
                 },
               ].map(item => (
@@ -238,7 +243,7 @@ export default function TransactionMonitoringPage() {
                 'Contextual enrichment helps deprioritise legitimate activity earlier - fewer false positives reaching analysts',
                 'Connected fraud and AML monitoring view - cross-domain risk visible in a single queue, with documented decision trails that support regulatory review',
                 'Pre-assembled case context delivered at alert creation - analysts investigate, not research',
-                'Intelligence improves with scale - graph detection surfaces coordinated risk that rules miss',
+                'Connected entity and relationship context can help investigators evaluate coordinated behaviour that may not be apparent when alerts are reviewed individually.',
               ].map(item => (
                 <div key={item} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.875rem', alignItems: 'flex-start' }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, marginTop: '0.125rem' }}><path d="M20 6 9 17l-5-5"/></svg>
@@ -381,7 +386,7 @@ export default function TransactionMonitoringPage() {
               {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
-                title: 'Complete Risk Visibility - Across Transactions and Entities',
+                title: 'Connected Risk Context Across Transactions and Entities',
                 body: 'One connected network view linking transaction monitoring to entity profiles, network relationships, and cross-system signals gives fraud and AML teams a connected, contextual view of risk - enabling better-informed decisions across monitoring, investigation, and reporting functions. This connected view also supports the explainability and audit trail requirements that regulators expect from institutions operating transaction monitoring programmes.',
               },
               {

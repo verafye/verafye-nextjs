@@ -215,10 +215,10 @@ export default function RequestDemoClient({ variant = 'demo' } = {}) {
       <section style={{ background: 'linear-gradient(135deg, #F5F9FF 0%, #EEF4FF 60%, #fff 100%)', padding: '2.25rem 0 2rem', borderBottom: '1px solid rgba(30,111,183,0.07)' }}>
         <div className="container">
           <div style={{ maxWidth: '56rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>{cfg.eyebrow}</p>
-            <h1 style={{ fontSize: 'clamp(1.75rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow" style={{ marginBottom: '0.625rem' }}>{cfg.eyebrow}</h1>
+            <h2 style={{ fontSize: 'clamp(1.75rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               {cfg.heading}
-            </h1>
+            </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
               {cfg.lead}
             </p>

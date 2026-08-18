@@ -1,22 +1,28 @@
-import CTA from '../../../components/CTA';
 import Link from 'next/link';
 import SplitHeroWithVisualCard, { GraphIntelligenceVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Detect Hidden Fraud Networks with Graph Intelligence",
+  title: { absolute: "Detect Hidden Fraud Networks with Graph Intelligence" },
   description: "Uncover hidden fraud networks by connecting accounts, devices, merchants and transactions with graph intelligence built for fraud and AML investigations.",
-  keywords: ["graph intelligence", "fraud network analysis", "entity resolution", "relationship analytics", "graph analytics platform", "fraud ring detection"],
+  keywords: [
+    "graph intelligence",
+    "fraud network analysis",
+    "entity resolution",
+    "relationship analytics",
+    "graph analytics platform",
+    "fraud ring detection",
+  ],
   openGraph: {
-    title: "Graph Intelligence for Connected Financial Crime Investigations | Verafye",
-    description: "Reveal hidden relationships across users, accounts, merchants, devices, and transactions — turning isolated alerts into network-level investigation context.",
+    title: "Detect Hidden Fraud Networks with Graph Intelligence",
+    description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Graph Intelligence for Connected Financial Crime Investigations | Verafye",
-    description: "Reveal hidden relationships across users, accounts, merchants, devices, and transactions — turning isolated alerts into network-level investigation context.",
+    title: "Detect Hidden Fraud Networks with Graph Intelligence",
+    description: "Uncover hidden relationships across accounts, devices and transactions to detect fraud rings, AML risks and financial crime networks faster.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/solutions/graph-intelligence/',
+    canonical: 'https://www.verafye.com/solutions/graph-intelligence',
   },
 };
 
@@ -101,9 +107,9 @@ export default function GraphIntelligencePage() {
       <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Stacks Fall Short</p>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Where Relationship Context Becomes Difficult to Reconstruct</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-              Why Rule-Based Monitoring Misses Connected Risk
+              Where Relationship Context Becomes Difficult to Reconstruct
             </h2>
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -112,13 +118,13 @@ export default function GraphIntelligencePage() {
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>),
                 gradient: 'gradient-bg-1',
                 title: 'Transaction-by-Transaction Scoring',
-                body: 'Point-in-time scoring evaluates individual events without awareness of the network connecting them. Coordinated schemes deliberately stay below individual thresholds - visible only when signals are connected across entities and time.',
+                body: 'When suspicious activity is reviewed object-by-object, relevant relationships across accounts, devices, beneficiaries and transactions may require additional investigation to become visible.',
               },
               {
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" x2="12" y1="12" y2="16"/><line x1="10" x2="14" y1="14" y2="14"/></svg>),
                 gradient: 'gradient-bg-2',
                 title: 'Fragmented Fraud and AML Signals',
-                body: 'Fraud and AML teams operate on separate platforms with separate alert queues. Cross-domain connections remain invisible - and neither team sees the full picture of risk the data already contains.',
+                body: 'Fraud and AML teams operating on separate platforms review separate alert queues. Relationships that span both signal sets may require additional cross-system investigation to surface.',
               },
               {
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M11 8v6"/><path d="M8 11h6"/></svg>),
@@ -129,8 +135,8 @@ export default function GraphIntelligencePage() {
               {
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 20h.01"/><path d="M7 20v-4"/><path d="M12 20v-8"/><path d="M17 20V8"/><path d="M22 4v16"/></svg>),
                 gradient: 'gradient-bg-4',
-                title: 'Coordinated Activity Appears Low-Risk in Isolation',
-                body: 'Each individual transaction or account within a fraud network may score low risk on its own. Only when viewed as a connected structure does the coordinated scheme become visible - which is why connecting signals across entities and time is essential.',
+                title: 'Coordinated Activity Reviewed in Isolation',
+                body: 'Individual transactions or accounts reviewed independently may not reflect the broader pattern across related entities. Connected-Risk Intelligence brings relationship context into the review so investigators can assess activity in its wider context.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>

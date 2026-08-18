@@ -1,9 +1,15 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Enterprise Security & Trust for Fraud & AML Teams",
+  title: { absolute: "Enterprise Security & Trust for Fraud & AML Teams" },
   description: "Protect sensitive investigation data with enterprise-grade security, compliance controls and governance built for regulated institutions.",
-  keywords: ["enterprise security", "compliance controls", "data protection", "information security", "governance and risk management"],
+  keywords: [
+    "enterprise security",
+    "compliance controls",
+    "data protection",
+    "information security",
+    "governance and risk management",
+  ],
   openGraph: {
     title: "Enterprise Security & Trust for Fraud & AML Teams",
     description: "Protect sensitive investigation data with enterprise-grade security, compliance controls and governance built for regulated institutions.",

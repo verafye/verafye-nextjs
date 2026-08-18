@@ -4,21 +4,18 @@
 // CloudFront function) should be configured at deploy time; until then this page issues
 // a client-side redirect plus a canonical tag to /industries/marketplaces/.
 export const metadata = {
-  title: "Marketplace Risk — Page Moved",
-  description: "This page has moved to the Verafye Marketplaces industry page.",
-  robots: { index: false, follow: true },
+  title: { absolute: "Network Risk Intelligence for Marketplace Risk Teams" },
   openGraph: {
-    title: "Marketplace Risk — Page Moved",
-    description: "This page has moved to the Verafye Marketplaces industry page.",
+    title: "Network Risk Intelligence for Marketplace Risk Teams",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Marketplace Risk — Page Moved",
-    description: "This page has moved to the Verafye Marketplaces industry page.",
+    title: "Network Risk Intelligence for Marketplace Risk Teams",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/industries/marketplaces/',
+    canonical: 'https://www.verafye.com/industries/marketplaces',
   },
+  robots: { index: false, follow: true },
 };
 
 export default function EcommerceRetailRedirect() {

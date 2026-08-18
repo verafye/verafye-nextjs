@@ -3,20 +3,25 @@ import SplitHeroWithVisualCard, { ResourcesVisualCard } from '../../components/S
 import ResourcesClient from './ResourcesClient';
 
 export const metadata = {
-  title: "Fraud & AML Investigation Guides and Insights",
+  title: { absolute: "Fraud & AML Resources | Guides & Insights | Verafye" },
   description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
-  keywords: ["fraud prevention resources", "aml compliance resources", "financial crime investigation guides", "risk intelligence insights"],
+  keywords: [
+    "fraud prevention resources",
+    "aml compliance resources",
+    "financial crime investigation guides",
+    "risk intelligence insights",
+  ],
   openGraph: {
-    title: "Fraud & AML Investigation Guides and Insights",
+    title: "Fraud & AML Resources | Guides & Insights | Verafye",
     description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud & AML Investigation Guides and Insights",
+    title: "Fraud & AML Resources | Guides & Insights | Verafye",
     description: "Explore expert guides, insights and best practices for fraud detection, AML compliance and financial crime investigations.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/resources/',
+    canonical: 'https://www.verafye.com/resources',
   },
 };
 

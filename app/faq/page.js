@@ -1,9 +1,16 @@
 import FAQClient from './FAQClient';
 
 export const metadata = {
-  title: "Network Risk Intelligence FAQs for Fraud & AML Teams",
+  title: { absolute: "Network Risk Intelligence FAQs for Fraud & AML Teams" },
   description: "Get answers about fraud investigations, AML compliance, graph intelligence, entity resolution and Network Risk Intelligence capabilities.",
-  keywords: ["network risk intelligence faq", "fraud detection software faq", "aml compliance faq", "investigation intelligence faq", "entity resolution faq", "financial crime investigations"],
+  keywords: [
+    "network risk intelligence faq",
+    "fraud detection software faq",
+    "aml compliance faq",
+    "investigation intelligence faq",
+    "entity resolution faq",
+    "financial crime investigations",
+  ],
   openGraph: {
     title: "Network Risk Intelligence FAQs for Fraud & AML Teams",
     description: "Get answers about fraud investigations, AML compliance, graph intelligence, entity resolution and Network Risk Intelligence capabilities.",

@@ -2,9 +2,15 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: "Build Audit-Ready Investigation Records",
+  title: { absolute: "Build Audit-Ready Investigation Records" },
   description: "Learn how structured evidence packs improve investigation transparency, regulatory reporting and audit readiness for financial crime teams.",
-  keywords: ["audit ready investigations", "investigation evidence management", "compliance reporting", "regulatory audit trails", "investigation documentation"],
+  keywords: [
+    "audit ready investigations",
+    "investigation evidence management",
+    "compliance reporting",
+    "regulatory audit trails",
+    "investigation documentation",
+  ],
   openGraph: {
     title: "Build Audit-Ready Investigation Records",
     description: "Learn how structured evidence packs improve investigation transparency, regulatory reporting and audit readiness for financial crime teams.",

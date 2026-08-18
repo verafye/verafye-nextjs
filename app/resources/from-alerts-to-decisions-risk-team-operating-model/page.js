@@ -2,9 +2,15 @@ import Link from 'next/link';
 import PdfDownloadButton from '../PdfDownloadButton';
 
 export const metadata = {
-  title: "Modernize Risk Investigations Beyond Alert Queues",
+  title: { absolute: "Modernize Risk Investigations Beyond Alert Queues" },
   description: "Discover how risk teams replace fragmented alerts with connected investigations, explainable decisions and stronger governance.",
-  keywords: ["investigation workflow modernization", "risk operations", "investigation management", "fraud operations", "aml operations"],
+  keywords: [
+    "investigation workflow modernization",
+    "risk operations",
+    "investigation management",
+    "fraud operations",
+    "aml operations",
+  ],
   openGraph: {
     title: "Modernize Risk Investigations Beyond Alert Queues",
     description: "Discover how risk teams replace fragmented alerts with connected investigations, explainable decisions and stronger governance.",

@@ -8,12 +8,27 @@
  */
 
 export const metadata = {
-  title: "Mule Account & Network Detection",
-  description: "Detect mule accounts and coordinated mule networks using Connected-Risk Intelligence.",
-  alternates: {
-    canonical: 'https://www.verafye.com/use-cases/mule-network-detection',
+  title: { absolute: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks" },
+  description: "Detect mule accounts, linked identities and hidden financial crime networks with graph-native Network Risk Intelligence for faster AML investigations.",
+  keywords: [
+    "mule account detection software",
+    "money mule detection",
+    "fraud network detection",
+    "aml investigations",
+    "financial crime prevention",
+  ],
+  openGraph: {
+    title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
+    description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
   },
-  robots: { index: false, follow: true },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Mule Account Detection Solutions for AML Teams |  Stop Fraud Networks",
+    description: "Identify money mule activity earlier, uncover hidden financial crime networks and strengthen AML investigations with connected intelligence.",
+  },
+  alternates: {
+    canonical: 'https://www.verafye.com/solutions/mule-account-detection',
+  },
 };
 
 export default function MuleAccountDetectionRedirect() {

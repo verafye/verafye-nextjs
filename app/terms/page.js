@@ -1,8 +1,13 @@
 
 export const metadata = {
-  title: "Terms & Conditions for Verafye Platform Use",
+  title: { absolute: "Terms & Conditions for Verafye Platform Use" },
   description: "Review the terms governing access to Verafye's fraud, AML and Network Risk Intelligence platform and related services.",
-  keywords: ["terms and conditions", "platform governance", "legal compliance", "software usage terms"],
+  keywords: [
+    "terms and conditions",
+    "platform governance",
+    "legal compliance",
+    "software usage terms",
+  ],
   openGraph: {
     title: "Terms & Conditions for Verafye Platform Use",
     description: "Review the terms governing access to Verafye's fraud, AML and Network Risk Intelligence platform and related services.",

@@ -1,9 +1,15 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "What Is Investigation Intelligence?",
+  title: { absolute: "What Is Investigation Intelligence?" },
   description: "Discover how investigation intelligence connects fragmented signals into explainable, audit-ready investigations that improve analyst productivity.",
-  keywords: ["investigation intelligence", "financial crime intelligence", "investigation workflows", "fraud analytics", "aml investigations"],
+  keywords: [
+    "investigation intelligence",
+    "financial crime intelligence",
+    "investigation workflows",
+    "fraud analytics",
+    "aml investigations",
+  ],
   openGraph: {
     title: "What Is Investigation Intelligence?",
     description: "Discover how investigation intelligence connects fragmented signals into explainable, audit-ready investigations that improve analyst productivity.",

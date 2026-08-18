@@ -1,8 +1,16 @@
 
 export const metadata = {
-  title: "Cookie Policy & Data Transparency",
+  title: { absolute: "Cookie Policy & Data Transparency" },
   description: "Learn how Verafye uses cookies and tracking technologies to improve security, user experience and website performance while protecting privacy.",
-  keywords: ["cookie policy", "website cookies", "privacy controls", "data governance", "website tracking", "cookie management", "privacy compliance"],
+  keywords: [
+    "cookie policy",
+    "website cookies",
+    "privacy controls",
+    "data governance",
+    "website tracking",
+    "cookie management",
+    "privacy compliance",
+  ],
   openGraph: {
     title: "Cookie Policy & Data Transparency",
     description: "Learn how Verafye uses cookies and tracking technologies to improve security, user experience and website performance while protecting privacy.",

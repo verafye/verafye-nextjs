@@ -14,11 +14,11 @@ const faqCategories = [
     items: [
       {
         q: 'What is Verafye?',
-        a: 'Verafye is a Connected-Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and scores risk in real time — converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye is purpose-built for regulated payment platforms: PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks, marketplaces, and lending and BNPL fraud teams.',
+        a: 'Verafye is a Connected-Risk Intelligence platform for payment, remittance, digital banking and financial crime investigation teams. It resolves entities, maps cross-entity transaction networks and carries connected context into investigation and decision support — converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye\'s primary markets are PSPs, PayFacs, acquirers, processors and payment aggregators; MSBs, remittance platforms and cross-border money movement providers; and multi-product money-movement fintechs. Secondary markets include digital and challenger banks, wallets, BaaS and program managers with explicit risk ownership, fiat and crypto money movement, and selected regional and community institutions.',
       },
       {
         q: 'Does Verafye detect fraud and AML risk, or only support investigations?',
-        a: 'Verafye supports both. It can ingest alerts and signals from existing fraud, AML, payment, identity, device, and case systems — and also apply network-level intelligence to detect hidden networks, linked entities, suspicious patterns, and risk clusters that alert-level monitoring does not surface on its own. Verafye is investigation-first because every detection is connected to case context, evidence, workflow, and audit-ready decisioning — not just a new alert queue.',
+        a: 'Verafye supports both. It can ingest alerts and signals from existing fraud, AML, payment, identity, device, and case systems — and also apply network-level intelligence to surface connected relationships, relevant network context, and risk clusters that support the investigation of activity that alert-level monitoring has already flagged. Existing fraud, AML and monitoring systems provide important detection signals. The gap Verafye focuses on is the connected context surrounding those signals — how accounts, transactions, counterparties, devices and other evidence relate within an investigation.',
       },
       {
         q: 'What is Network Risk Intelligence?',
@@ -26,11 +26,11 @@ const faqCategories = [
       },
       {
         q: 'How does Verafye work with existing risk, fraud, AML, and payment systems?',
-        a: 'Verafye can initially connect to outputs from existing fraud monitoring, AML transaction monitoring, payment, identity, device, and case systems - through exports, event streams, or APIs where available. Those signals are resolved into entities, mapped into networks, and built into investigation-ready cases within Verafye. Adoption starts with a scoped pilot covering agreed data feeds, a defined set of use cases, and target outcomes. The investigation workspace expands into Verafye-led workflows as those outcomes are proven.',
+        a: 'Verafye can initially connect to outputs from existing fraud monitoring, AML transaction monitoring, payment, identity, device, and case systems - through exports, event streams, or APIs where available. Those signals are resolved into entities, mapped into networks, and built into investigation-ready cases within Verafye. Verafye is typically evaluated through a bounded Risk Shadowing engagement. The institution defines a risk hypothesis and existing baseline, provides an agreed case and data population, and compares the Connected-Risk Intelligence Verafye adds with what the current process already knows. The objective is to determine whether Verafye creates material incremental intelligence before broader production adoption.',
       },
       {
         q: 'What makes Verafye different from traditional fraud and AML platforms?',
-        a: 'The core architectural difference is Connected-Risk Intelligence. Traditional platforms evaluate events at the transaction or account level — in isolation and against static rules. Verafye resolves entities across fragmented data, maps cross-entity transaction networks, and scores risk on the network in real time — surfacing coordinated patterns that point-in-time monitoring does not detect. Combined with investigation-centric workflows and cross-system signal aggregation, this converts alert noise into investigation-grade evidence rather than more alerts.',
+        a: 'The core architectural difference is Connected-Risk Intelligence. Existing fraud, AML and monitoring systems provide important detection signals at the transaction or account level. Verafye resolves entities across fragmented data, maps cross-entity transaction networks, and carries the connected context surrounding those signals into investigation and decision support — how accounts, transactions, counterparties, devices and other evidence relate within an investigation. Combined with investigation-centric workflows and cross-system signal aggregation, this converts alert noise into investigation-grade evidence rather than more alerts.',
       },
     ],
   },
@@ -50,7 +50,7 @@ const faqCategories = [
       },
       {
         q: 'Can Verafye integrate with existing fraud, AML, and payments systems?',
-        a: 'Verafye is designed to work with the data your fraud monitoring, AML transaction monitoring, payments, identity, device, and case systems can provide - through exports, event streams, or APIs where available. Because every stack is different, integration scope is defined during evaluation: we agree the data feeds, the use cases, and the target outcomes for a scoped pilot, then expand once outcomes are proven. We do not assume tool-by-tool integration up front.',
+        a: 'Verafye is designed to work with the data your fraud monitoring, AML transaction monitoring, payments, identity, device, and case systems can provide - through exports, event streams, or APIs where available. Because every stack is different, integration scope is defined during evaluation: we agree the data feeds, the use cases, and the target outcomes for a Risk Shadowing engagement, then expand once outcomes are proven. We do not assume tool-by-tool integration up front.',
       },
       {
         q: 'Does Verafye replace the systems we already run?',
@@ -97,7 +97,7 @@ const faqCategories = [
     items: [
       {
         q: 'What use cases does Verafye support?',
-        a: 'Verafye is purpose-built for financial crime detection and investigation across three primary use case clusters: mule network detection and connected fraud discovery, transaction monitoring enrichment and signal quality improvement, and investigation workflow modernisation. The platform is applicable across PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, fintech payment platforms, banks and regulated financial institutions, marketplaces, and lending and BNPL fraud teams - and can be scoped to the most relevant use cases for each organisation during evaluation.',
+        a: 'Verafye is purpose-built for financial crime detection and investigation across four primary use case areas: Mule Network Intelligence — detecting and investigating mule accounts and connected fraud networks; Connected-Risk Investigation — carrying connected context from signals and alerts into investigation and decision support; Investigation Workflow Modernisation — structuring analyst workflows around evidence, case management and audit-ready decisioning; and Transaction Monitoring and Continuous Monitoring — enriching signal quality and carrying relationship context into ongoing monitoring programmes. The platform is applicable across PSPs, PayFacs and payment processors, MSBs and remittance platforms, digital banks and neo banks, multi-product fintech platforms, banks and regulated financial institutions, marketplaces, and lending and BNPL fraud teams - and can be scoped to the most relevant use cases for each organisation during evaluation.',
       },
       {
         q: 'Does Verafye verify customer identities or make credit decisions?',
@@ -105,7 +105,7 @@ const faqCategories = [
       },
       {
         q: 'How does Verafye improve investigation workflows?',
-        a: 'Verafye restructures the investigation experience from alert-centric triage to structured, context-rich case management. Alerts are automatically clustered into coherent cases, enriched with entity profiles, relationship maps, and cross-system signals before reaching the analyst. Structured investigation workflows then guide analysts through consistent, auditable steps - reducing the time spent on manual data gathering, improving decision consistency, and increasing case throughput without adding headcount.',
+        a: 'Verafye restructures the investigation experience from alert-centric triage to structured, context-rich case management. Alerts are automatically clustered into coherent cases, enriched with entity profiles, relationship maps, and cross-system signals before reaching the analyst. Structured investigation workflows then guide analysts through consistent, auditable steps — designed to reduce manual context assembly and help investigation teams handle connected evidence more efficiently.',
       },
       {
         q: 'Does Verafye support both fraud and AML teams?',
@@ -125,7 +125,7 @@ const faqCategories = [
     items: [
       {
         q: 'How can we evaluate Verafye?',
-        a: 'The evaluation process typically begins with a tailored product demonstration scoped to your institution type and use case priorities - followed by a deeper technical and commercial discussion. We work with prospective customers to design an evaluation approach appropriate to their environment, timeline, and internal decision-making process. To initiate an evaluation, the best starting point is requesting a demo through our website.',
+        a: 'Verafye is typically evaluated through a bounded Risk Shadowing engagement. The institution defines a risk hypothesis and existing baseline, provides an agreed case and data population, and compares the Connected-Risk Intelligence Verafye adds with what the current process already knows. The objective is to determine whether Verafye creates material incremental intelligence before broader production adoption. The process typically begins with a tailored product demonstration — followed by a deeper technical and commercial discussion to design the evaluation scope. To initiate an evaluation, the best starting point is requesting a demo through our website.',
       },
       {
         q: 'What does onboarding look like?',
@@ -207,10 +207,10 @@ export default function FAQClient() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>FAQ</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>FAQ</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Frequently Asked Questions
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Answers to common questions about Verafye's platform, capabilities, deployment, and engagement approach.
             </p>

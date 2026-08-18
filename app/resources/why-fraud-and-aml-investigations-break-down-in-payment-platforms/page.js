@@ -1,9 +1,14 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Why Fraud & AML Investigations Fail in Payments",
+  title: { absolute: "Why Fraud & AML Investigations Fail in Payments" },
   description: "Explore the operational gaps, disconnected systems and missing context that slow investigations and increase compliance risk.",
-  keywords: ["payment fraud investigations", "aml investigations", "financial crime operations", "payment risk intelligence"],
+  keywords: [
+    "payment fraud investigations",
+    "aml investigations",
+    "financial crime operations",
+    "payment risk intelligence",
+  ],
   openGraph: {
     title: "Why Fraud & AML Investigations Fail in Payments",
     description: "Explore the operational gaps, disconnected systems and missing context that slow investigations and increase compliance risk.",

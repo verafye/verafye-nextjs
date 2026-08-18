@@ -1,16 +1,23 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Detect Synthetic Identity and Lending Fraud",
-  description: "Detect application fraud, synthetic identities, mule accounts and repayment fraud with Connected-Risk Intelligence built for digital lenders and BNPL providers.",
-  keywords: ["lending fraud detection", "synthetic identity fraud", "application fraud detection", "bnpl fraud prevention", "borrower risk intelligence", "fraud analytics"],
+  title: { absolute: "Stop Synthetic Identity & Lending Fraud" },
+  description: "Detect application fraud, synthetic identities, mule accounts and repayment fraud with graph-native Network Risk Intelligence built for digital lenders and BNPL providers.",
+  keywords: [
+    "lending fraud detection",
+    "synthetic identity fraud",
+    "application fraud detection",
+    "bnpl fraud prevention",
+    "borrower risk intelligence",
+    "fraud analytics",
+  ],
   openGraph: {
-    title: "Detect Synthetic Identity and Lending Fraud",
+    title: "Stop Synthetic Identity & Lending Fraud",
     description: "Detect borrower networks, synthetic identities and coordinated application fraud rings before losses escalate and compliance risks increase.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Detect Synthetic Identity and Lending Fraud",
+    title: "Stop Synthetic Identity & Lending Fraud",
     description: "Detect borrower networks, synthetic identities and coordinated application fraud rings before losses escalate and compliance risks increase.",
   },
   alternates: {
@@ -26,10 +33,10 @@ export default function DigitalLendingBnplPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Digital lending Fraud Prevention Solution</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Digital lending Fraud Prevention Solution</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Connected Borrower Risk Detection for Digital Lending and BNPL Risk Teams
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.55 }}>
               Connect fraud, identity, payment, device and repayment signals into explainable investigations for lending and BNPL fraud workflows.
             </p>
@@ -290,7 +297,7 @@ export default function DigitalLendingBnplPage() {
                   'Fraud, identity and device signals connected into investigation-ready application fraud cases',
                   'First-party and BNPL fraud patterns surfaced through connected repayment, device, and behavior context',
                   'Graph intelligence exposes mule networks and coordinated borrower rings across applications',
-                  'Alert clustering reduces noise - analysts start with structured cases, not raw alert queues',
+                  'Alert clustering is designed to reduce manual context assembly - analysts start with structured cases, not raw alert queues',
                   'Every disposition documented with audit logs, investigation history, and explainability records',
                 ].map((item, i) => (
                   <div key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>

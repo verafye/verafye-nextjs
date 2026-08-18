@@ -1,16 +1,22 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Prevention for Credit Unions",
+  title: { absolute: "Fraud Prevention for Credit Unions | Verafye" },
   description: "Detect fraud, strengthen AML investigations and uncover hidden financial crime with connected intelligence designed for credit unions.",
-  keywords: ["fraud detection software for credit unions", "aml compliance credit unions", "member risk intelligence", "financial crime investigations", "credit union fraud prevention"],
+  keywords: [
+    "fraud detection software for credit unions",
+    "aml compliance credit unions",
+    "member risk intelligence",
+    "financial crime investigations",
+    "credit union fraud prevention",
+  ],
   openGraph: {
-    title: "Fraud Prevention for Credit Unions",
+    title: "Fraud Prevention for Credit Unions | Verafye",
     description: "Connect member, account, device and transaction intelligence to uncover hidden financial crime networks, reduce fraud risk and improve AML readiness.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fraud Prevention for Credit Unions",
+    title: "Fraud Prevention for Credit Unions | Verafye",
     description: "Connect member, account, device and transaction intelligence to uncover hidden financial crime networks, reduce fraud risk and improve AML readiness.",
   },
   alternates: {
@@ -26,10 +32,10 @@ export default function CreditUnionsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Credit Unions</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>Fraud Prevention for Credit Unions</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Connected Risk Detection for Community Banks and Credit Unions
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '1.25rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Connect fraud, AML, account, payment, identity, device, and behavior signals into faster, explainable investigations without enterprise-heavy complexity.
             </p>

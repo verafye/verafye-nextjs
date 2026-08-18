@@ -1,9 +1,17 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Detection Platform for Payment Aggregators, PSPs and NBFCs in India",
+  title: { absolute: "Fraud Detection Platform for Payment Aggregators, PSPs and NBFCs in India" },
   description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
-  keywords: ["payment aggregator risk india", "psp fraud india", "payment gateway aml india", "nbfc fraud detection india", "mule account detection india", "upi fraud investigation", "digital lending fraud india"],
+  keywords: [
+    "payment aggregator risk india",
+    "psp fraud india",
+    "payment gateway aml india",
+    "nbfc fraud detection india",
+    "mule account detection india",
+    "upi fraud investigation",
+    "digital lending fraud india",
+  ],
   openGraph: {
     title: "Fraud Detection Platform for Payment Aggregators, PSPs and NBFCs in India",
     description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
@@ -14,7 +22,7 @@ export const metadata = {
     description: "Verafye helps Indian payment aggregators, PSPs, NBFCs, and digital lenders detect mule accounts, merchant fraud, and network-level financial crime risk.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/in/',
+    canonical: 'https://www.verafye.com/in',
   },
 };
 
@@ -177,11 +185,11 @@ export default function IndiaPage() {
       <div style={{'maxWidth':'36rem'}}>
 
         {/* Eyebrow */}
-        <p className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Fraud Prevention Solution for Payment Aggregators, PSPs and NBFCs in India</p>
+        <h1 className="eyebrow animate-fade-up" style={{'marginBottom':'1.25rem'}}>Fraud Prevention Solution for Payment Aggregators, PSPs and NBFCs in India</h1>
 
         {/* H1 */}
         <h2 className="animate-fade-up delay-100" style={{'fontSize':'clamp(1.875rem,5vw,3.5rem)','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':'1.15','letterSpacing':'-0.025em'}}>
-          Network Risk Intelligence for India's Payment-Led Platforms
+          Connected-Risk Intelligence for India's Payment-Led Financial Platforms
         </h2>
 
         {/* Sub-line */}
@@ -191,7 +199,7 @@ export default function IndiaPage() {
 
         {/* Supporting line */}
         <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem'}}>
-          Connect alerts. Detect hidden networks. Investigate faster - with audit-ready workflows for India's regulated financial ecosystem.
+          Connect suspicious activity to the wider risk context investigators need to understand—with evidence-backed workflows designed for India's regulated financial ecosystem.
         </p>
 
         {/* CTAs */}

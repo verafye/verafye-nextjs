@@ -1,22 +1,27 @@
-import CTA from '../../../components/CTA';
 import Link from 'next/link';
 import SplitHeroWithVisualCard, { InvestigationVisualCard } from '../../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Investigation Intelligence for Financial Crime Teams",
-  description: "Connect fraud, AML and payment signals into evidence-backed, audit-ready investigation workflows — built for lean financial crime teams at PSPs, MSBs, and payment fintechs.",
-  keywords: ["investigation intelligence platform", "financial crime investigations", "fraud case management", "aml investigations", "investigation workflows"],
+  title: { absolute: "Fraud Investigation Solutions | Faster Investigations" },
+  description: "Connect fraud, AML and payment signals into investigation-ready workflows with graph-native intelligence that accelerates case resolution and improves analyst productivity.",
+  keywords: [
+    "investigation intelligence platform",
+    "financial crime investigations",
+    "fraud case management",
+    "aml investigations",
+    "investigation workflows",
+  ],
   openGraph: {
-    title: "Investigation Intelligence for Financial Crime Teams | Verafye",
-    description: "Verafye's Investigation Intelligence turns fragmented alerts into connected, investigation-ready cases — with evidence packs, audit trails, and explainable risk context.",
+    title: "Fraud Investigation Solutions | Faster Investigations",
+    description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Investigation Intelligence for Financial Crime Teams | Verafye",
-    description: "Verafye's Investigation Intelligence turns fragmented alerts into connected, investigation-ready cases — with evidence packs, audit trails, and explainable risk context.",
+    title: "Fraud Investigation Solutions | Faster Investigations",
+    description: "Connect fraud, AML and risk signals into explainable investigations that improve analyst productivity, compliance and case resolution.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/solutions/investigation-intelligence/',
+    canonical: 'https://www.verafye.com/solutions/investigation-intelligence',
   },
 };
 
@@ -27,7 +32,7 @@ export default function InvestigationIntelligencePage() {
       {/* ── 1. HERO - Option 1: Split Hero with Visual Card (approved) ────── */}
       <SplitHeroWithVisualCard
         eyebrow="INVESTIGATION INTELLIGENCE"
-        seoH1="Investigation Intelligence for Financial Crime Teams"
+        seoH1="Fraud Investigation Solution"
         title="Investigation intelligence for lean fraud, AML, and risk teams"
         description="Connect alerts, explain risk, and build evidence-backed cases — with case intelligence, graph context, and audit-ready workflows that carry full context into analyst review and decision."
         body="Investigation Intelligence within the Verafye platform turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
@@ -102,7 +107,7 @@ export default function InvestigationIntelligencePage() {
       <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Stacks Fall Short</p>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Where Investigation Workflows Become Difficult to Scale</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
               Why Disconnected Investigation Workflows Break Down at Scale
             </h2>

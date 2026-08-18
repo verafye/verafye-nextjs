@@ -1,17 +1,25 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Meet the Financial Crime Intelligence Experts",
-  description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using Connected-Risk Intelligence.",
-  keywords: ["financial crime technology company", "network risk intelligence company", "fraud investigation platform provider", "aml technology company", "compliance technology", "risk intelligence solutions", "graph analytics company"],
+  title: { absolute: "Meet the Financial Crime Intelligence Experts" },
+  description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
+  keywords: [
+    "financial crime technology company",
+    "network risk intelligence company",
+    "fraud investigation platform provider",
+    "aml technology company",
+    "compliance technology",
+    "risk intelligence solutions",
+    "graph analytics company",
+  ],
   openGraph: {
     title: "Meet the Financial Crime Intelligence Experts",
-    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using Connected-Risk Intelligence.",
+    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Meet the Financial Crime Intelligence Experts",
-    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using Connected-Risk Intelligence.",
+    description: "Learn how Verafye helps fraud, AML and payments teams uncover hidden financial crime using graph-native Network Risk Intelligence.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/company',

@@ -159,10 +159,10 @@ export default function BecomeAPartnerClient() {
       <section style={{ background: 'linear-gradient(135deg, #F5F9FF 0%, #EEF4FF 60%, #fff 100%)', padding: '2.25rem 0 2rem', borderBottom: '1px solid rgba(30,111,183,0.07)' }}>
         <div className="container">
           <div style={{ maxWidth: '56rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.625rem' }}>Partner with Verafye</p>
-            <h1 style={{ fontSize: 'clamp(1.75rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow" style={{ marginBottom: '0.625rem' }}>Partner with Verafye</h1>
+            <h2 style={{ fontSize: 'clamp(1.75rem,4vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Become a Verafye Partner
-            </h1>
+            </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', margin: 0, lineHeight: 1.6 }}>
               Collaborate with Verafye to bring connected risk detection and investigation to regulated payment platforms, payment fintechs, and financial institutions. We work with referral and advisory partners, regional GTM partners, implementation and consulting firms, and technology partners to help qualified customers identify coordinated risk, form investigation-ready cases, and operationalise evidence-grade investigation workflows.
             </p>

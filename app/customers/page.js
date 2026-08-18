@@ -1,9 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Who Verafye Serves - Payment-Led Regulated Platforms",
+  title: { absolute: "Who Verafye Serves - Payment-Led Regulated Platforms" },
   description: "Verafye serves payment-led regulated financial platforms and lean fraud, AML, and payments risk teams - PSPs, PayFacs, processors, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, lenders, selected banks, and commerce platforms.",
-  keywords: ["psp payfac risk intelligence", "msb remittance aml", "payment-led financial platforms", "network risk intelligence customers", "fintech fraud investigation", "lean financial crime teams"],
+  keywords: [
+    "psp payfac risk intelligence",
+    "msb remittance aml",
+    "payment-led financial platforms",
+    "network risk intelligence customers",
+    "fintech fraud investigation",
+    "lean financial crime teams",
+  ],
   openGraph: {
     title: "Who Verafye Serves - Payment-Led Regulated Platforms",
     description: "Verafye serves payment-led regulated financial platforms and lean fraud, AML, and payments risk teams - PSPs, PayFacs, processors, MSBs, remittance platforms, BaaS and embedded finance providers, digital banks, NBFCs, lenders, selected banks, and commerce platforms.",
@@ -69,7 +76,21 @@ export default function Page() {
         </div>
       </div>
 
-      {/* 1c - BaaS & Embedded Finance Providers - PRIMARY */}
+      {/* 1c - Multi-Product Money-Movement Fintechs - PRIMARY */}
+      <div className="card card-elevated" style={{'padding':'2rem'}}>
+        <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
+          <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg></div>
+        </div>
+        <h3 style={{'fontSize':'1.25rem','fontWeight':'800','color':'var(--dark)','marginBottom':'0.75rem','letterSpacing':'-0.02em'}}>Multi-Product Money-Movement Fintechs</h3>
+        <p style={{'fontSize':'0.9375rem','color':'var(--body)','marginBottom':'1.5rem','lineHeight':'1.65'}}>Multi-product fintechs operating across payments, lending, wallets, and embedded finance carry cross-product risk that single-signal monitoring cannot connect. Verafye brings fraud, AML, identity, device, and transaction signals from across products into connected investigation workflows.</p>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.625rem'}}>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Cross-product fraud and AML signal connection</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Mule and beneficiary-linked risk investigation</span></div>
+          <div style={{'display':'flex','gap':'0.625rem','alignItems':'center'}}><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>Investigation-ready workflows for lean compliance teams</span></div>
+        </div>
+      </div>
+
+      {/* 1d - BaaS & Embedded Finance Providers - SECONDARY */}
       <div className="card card-elevated" style={{'padding':'2rem'}}>
         <div style={{'display':'flex','justifyContent':'space-between','alignItems':'flex-start','marginBottom':'1.25rem'}}>
           <div className="card-icon lg gradient-bg-4" style={{'margin':0}}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>

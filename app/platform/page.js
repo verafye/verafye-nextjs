@@ -2,20 +2,27 @@ import Link from 'next/link';
 import SplitHeroWithVisualCard, { PlatformVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence Platform",
-  description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
-  keywords: ["connected risk intelligence platform", "network risk intelligence software", "entity resolution platform", "transaction network analysis", "financial crime intelligence platform", "investigation intelligence", "mule network intelligence"],
+  title: { absolute: "Financial Crime Detection Platform | AI Fraud & AML" },
+  description: "Uncover fraud, AML and payment risk with Verafye's graph-native financial crime detection platform. Transform fragmented data into investigation-ready intelligence.",
+  keywords: [
+    "graph native risk intelligence platform",
+    "network risk intelligence software",
+    "entity resolution platform",
+    "transaction network analysis",
+    "financial crime intelligence platform",
+    "investigation intelligence",
+  ],
   openGraph: {
-    title: "Connected-Risk Intelligence Platform | Verafye",
-    description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
+    title: "Financial Crime Detection Platform | AI Fraud & AML",
+    description: "Uncover fraud, AML and payment risk with Verafye's graph-native financial crime detection platform. Transform fragmented data into investigation-ready intelligence.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connected-Risk Intelligence Platform | Verafye",
-    description: "Verafye's Connected-Risk Intelligence platform turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs.",
+    title: "Financial Crime Detection Platform | AI Fraud & AML",
+    description: "Uncover fraud, AML and payment risk with Verafye's graph-native financial crime detection platform. Transform fragmented data into investigation-ready intelligence.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/platform/',
+    canonical: 'https://www.verafye.com/platform',
   },
 };
 
@@ -26,10 +33,10 @@ export default function PlatformPage() {
 {/* HERO - Option 1: Split Hero with Visual Card (approved) */}
 <SplitHeroWithVisualCard
   eyebrow="VERAFYE PLATFORM"
-  seoH1="Connected-Risk Intelligence Platform for Financial Crime Teams"
+  seoH1="Financial Crime Detection Platform"
   title="Connected-Risk Intelligence for fraud, AML, and payment risk teams"
-  description="Verafye is a Connected-Risk Intelligence platform that turns known financial-crime suspicion into network-mapped, investigation-ready intelligence — built for PSPs, MSBs, and payment fintechs operating under regulatory complexity."
-  body="Connect selected data sources, resolve entities, map network-level risk across relevant relationships, and carry that context into investigation and decisioning — without replacing your existing control stack first."
+  description="Verafye is a Connected-Risk Intelligence platform that originates risk signals through native detection or begins with suspicion from existing controls — turning either into network-mapped, investigation-ready intelligence, built for PSPs, MSBs, and payment fintechs operating under regulatory complexity."
+  body="Connect selected data sources or ingest existing alerts and suspicions, resolve entities, map network-level risk across relevant relationships, and carry that context into investigation and decisioning — without replacing your existing control stack first."
   primaryCTA={{ label: 'Explore Risk Shadowing', href: '/risk-shadowing-review' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
   visualCard={<PlatformVisualCard />}
@@ -264,9 +271,9 @@ export default function PlatformPage() {
           <div style={{'width':'2.5rem','height':'2.5rem','borderRadius':'10px','background':'rgba(30,111,183,0.08)','border':'1px solid rgba(30,111,183,0.18)','display':'flex','alignItems':'center','justifyContent':'center','marginBottom':'1rem'}}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E6FB7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
           </div>
-          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>01 · Ingest</div>
-          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Ingest Signals</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Fraud alerts, transactions, identity, device, and behavioral signals pulled from existing systems via API.</p>
+          <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>01 · Signal Origin</div>
+          <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Originate or Ingest Risk Signals</h3>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Start with raw transaction, account, device and behavioural events for Verafye-native detection — or ingest alerts and suspicions from existing fraud, AML, KYC, screening and risk systems via API.</p>
         </div>
 
         {/* Arrow */}
@@ -296,7 +303,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>03 · Detect</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Detect Network Risk</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Network-level intelligence, risk scoring, relationship analysis, and signal correlation surface hidden networks, mule patterns, and coordinated risk across connected entities.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Network-level intelligence, risk scoring, relationship analysis, and signal correlation surface relevant connected relationships and network context — including mule patterns and coordinated risk across connected entities.</p>
         </div>
 
         {/* Arrow */}
@@ -341,7 +348,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>06 · Decide</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Decide & Record</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Analysts reach faster, explainable outcomes - with every action, rationale, and evidence reference captured in structured, audit-ready records.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Analysts carry connected context into review and decision — with every action, rationale, and evidence reference captured in structured, audit-ready records.</p>
         </div>
 
       </div>
@@ -496,17 +503,27 @@ export default function PlatformPage() {
           </div>
           <span style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em'}}>Signals In</span>
         </div>
-        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'1rem','lineHeight':1.35}}>Connected risk signals</h3>
-        <div style={{'display':'flex','flexDirection':'column','gap':'0.5rem','marginBottom':'1.25rem'}}>
-          {['Payments','Identity','Device','Behavior','AML / Watchlist','Transactions','Third-party signals'].map((item,i) => (
+        <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.625rem','lineHeight':1.35}}>Two signal-origination paths</h3>
+        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.07em','marginBottom':'0.375rem','marginTop':'0.25rem'}}>Native Detection</div>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.375rem','marginBottom':'0.875rem'}}>
+          {['Transactions & payment events','Account & customer activity','Device & session signals','Behavioural events','Product & channel activity'].map((item,i) => (
             <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
-              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#1E6FB7','opacity':0.45,'flexShrink':0}}></div>
+              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#1E6FB7','opacity':0.5,'flexShrink':0}}></div>
+              <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
+            </div>
+          ))}
+        </div>
+        <div style={{'fontSize':'0.6875rem','fontWeight':'700','color':'#7C3AED','textTransform':'uppercase','letterSpacing':'0.07em','marginBottom':'0.375rem'}}>External Suspicion</div>
+        <div style={{'display':'flex','flexDirection':'column','gap':'0.375rem','marginBottom':'1rem'}}>
+          {['Fraud & AML alerts','KYC / screening signals','Device-risk & payment-risk alerts','Third-party enrichment signals'].map((item,i) => (
+            <div key={i} style={{'display':'flex','alignItems':'center','gap':'0.5rem'}}>
+              <div style={{'width':'5px','height':'5px','borderRadius':'50%','background':'#7C3AED','opacity':0.5,'flexShrink':0}}></div>
               <span style={{'fontSize':'0.8125rem','color':'var(--body)'}}>{item}</span>
             </div>
           ))}
         </div>
         <div style={{'padding':'0.75rem','background':'rgba(30,111,183,0.05)','borderRadius':'8px','border':'1px solid rgba(30,111,183,0.1)','marginTop':'auto'}}>
-          <p style={{'fontSize':'0.75rem','color':'#1E6FB7','lineHeight':1.55,'margin':0}}>Fragmented signals from multiple systems connected through flexible integration paths and connectors</p>
+          <p style={{'fontSize':'0.75rem','color':'#1E6FB7','lineHeight':1.55,'margin':0}}>Both paths feed the same Connected-Risk Intelligence architecture</p>
         </div>
       </div>
 
@@ -572,7 +589,7 @@ export default function PlatformPage() {
           ))}
         </div>
         <div style={{'padding':'0.75rem','background':'rgba(5,150,105,0.05)','borderRadius':'8px','border':'1px solid rgba(5,150,105,0.1)','marginTop':'auto'}}>
-          <p style={{'fontSize':'0.75rem','color':'#059669','lineHeight':1.55,'margin':0}}>Lean teams operating faster, with greater clarity and full audit-readiness</p>
+          <p style={{'fontSize':'0.75rem','color':'#059669','lineHeight':1.55,'margin':0}}>Designed to reduce manual context assembly, with greater clarity and full audit-readiness</p>
         </div>
       </div>
 
@@ -1018,7 +1035,7 @@ export default function PlatformPage() {
 <section style={{'padding':'3.5rem 0','background':'var(--bg-tint)','borderTop':'1px solid var(--border)'}}>
   <div className="container" style={{'textAlign':'center','maxWidth':'48rem'}}>
     <h2 style={{'fontSize':'clamp(1.5rem,4vw,2.75rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>See how Verafye connects your risk operations</h2>
-    <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>Explore how Verafye helps fraud, AML, and risk teams connect signals from existing systems into investigation-ready workflows - starting with a scoped pilot and expanding coverage as outcomes are proven.</p>
+    <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','maxWidth':'36rem','margin':'0 auto 2.5rem'}}>Explore how Verafye helps fraud, AML, and risk teams connect signals from existing systems into investigation-ready workflows - beginning with a Risk Shadowing engagement and expanding coverage as outcomes are proven.</p>
     <div style={{'display':'flex','flexWrap':'wrap','justifyContent':'center','gap':'1rem'}}>
       <Link href="/risk-shadowing-review" className="btn-primary">
         Explore Risk Shadowing Review

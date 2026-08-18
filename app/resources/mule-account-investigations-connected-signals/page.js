@@ -1,9 +1,15 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected Intelligence for Mule Investigations",
+  title: { absolute: "Connected Intelligence for Mule Investigations" },
   description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",
-  keywords: ["mule account investigations", "money mule detection", "fraud network investigations", "aml investigations", "transaction intelligence"],
+  keywords: [
+    "mule account investigations",
+    "money mule detection",
+    "fraud network investigations",
+    "aml investigations",
+    "transaction intelligence",
+  ],
   openGraph: {
     title: "Connected Intelligence for Mule Investigations",
     description: "Learn how fraud and AML teams connect identities, devices, accounts and transactions to uncover mule networks faster and strengthen investigations.",

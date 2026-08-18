@@ -16,10 +16,10 @@ export default function ContactClient() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 100%)', padding: '4rem 0 2.5rem' }}>
         <div className="container">
           <div style={{ maxWidth: '44rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1rem' }}>Get in Touch</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1rem' }}>Get in Touch</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               How can we help?
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', lineHeight: 1.7 }}>
               Whether you want to explore Risk Shadowing, schedule a Verafye walkthrough, or discuss a partnership, select the path that fits your situation.
             </p>

@@ -1,8 +1,14 @@
 
 export const metadata = {
-  title: "Privacy & Data Protection for Fraud & AML Operations",
+  title: { absolute: "Privacy & Data Protection for Fraud & AML Operations" },
   description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",
-  keywords: ["privacy policy", "data protection", "privacy compliance", "data security", "information governance"],
+  keywords: [
+    "privacy policy",
+    "data protection",
+    "privacy compliance",
+    "data security",
+    "information governance",
+  ],
   openGraph: {
     title: "Privacy & Data Protection for Fraud & AML Operations",
     description: "Learn how Verafye protects customer data, supports privacy compliance and secures sensitive fraud, AML and investigation intelligence workflows.",

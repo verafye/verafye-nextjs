@@ -1,20 +1,31 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence for MSBs & Remittance Platforms",
-  description: "Detect mule networks, suspicious beneficiary flows and cross-border financial crime using Connected-Risk Intelligence built for MSBs and remittance providers.",
-  keywords: ["msb aml software", "remittance aml intelligence", "cross border transaction monitoring", "mule network detection", "corridor risk", "structuring detection", "sar str preparation", "sponsor bank compliance", "fintrac aml", "fincen msb"],
+  title: { absolute: "AML Solutions for MSBs & Remittance Platforms | Verafye" },
+  description: "Detect mule networks, suspicious beneficiary flows and cross-border financial crime using graph-native investigation intelligence for MSBs and remittance providers.",
+  keywords: [
+    "msb aml software",
+    "remittance aml intelligence",
+    "cross border transaction monitoring",
+    "mule network detection",
+    "corridor risk",
+    "structuring detection",
+    "sar str preparation",
+    "sponsor bank compliance",
+    "fintrac aml",
+    "fincen msb",
+  ],
   openGraph: {
-    title: "Connected-Risk Intelligence for MSBs & Remittance Platforms | Verafye",
-    description: "Connected-Risk Intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
+    title: "AML Solutions for MSBs & Remittance Platforms | Verafye",
+    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connected-Risk Intelligence for MSBs & Remittance Platforms | Verafye",
-    description: "Connected-Risk Intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
+    title: "AML Solutions for MSBs & Remittance Platforms | Verafye",
+    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/industries/msbs-remittance-platforms/',
+    canonical: 'https://www.verafye.com/industries/msbs-remittance-platforms',
   },
 };
 
@@ -26,10 +37,10 @@ export default function MSBsRemittancePlatformsPage() {
       <section style={{ background: 'linear-gradient(180deg,#F8FBFF 0%,#fff 60%,#fff 100%)', overflow: 'hidden', padding: '4rem 0' }}>
         <div className="container">
           <div style={{ maxWidth: '52rem', margin: '0 auto', textAlign: 'center' }}>
-            <p className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>AML Solutions for MSBs & Remittance</p>
-            <h1 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
+            <h1 className="eyebrow animate-fade-up" style={{ marginBottom: '1.25rem' }}>AML Solutions for MSBs & Remittance</h1>
+            <h2 className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1.875rem,5vw,3.25rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1.5rem', lineHeight: 1.15, letterSpacing: '-0.025em' }}>
               Network Risk Intelligence for MSBs and Remittance Platforms
-            </h1>
+            </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto' }}>
               Verafye helps MSBs and remittance platforms connect sender, receiver, corridor, transaction, device, identity, and beneficiary signals into investigation-ready network risk intelligence - so lean compliance teams convert alert noise into evidence regulators can audit.
             </p>
@@ -61,7 +72,7 @@ export default function MSBsRemittancePlatformsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="6" cy="12" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 12h8M16 7l-6 4M16 17l-6-4"/></svg>),
                 title: 'Corridor Concentration and Layering Through Agent Networks',
-                body: 'Structuring activity spans agents, corridors and beneficiary clusters that event-level monitoring cannot connect - leaving layering patterns invisible until they have moved through multiple corridors and consolidation points.',
+                body: 'Event-level monitoring can identify suspicious activity while the wider relationship context across senders, beneficiaries, corridors, accounts and devices may still require additional investigation. Structuring activity spanning multiple agents, corridors and beneficiary clusters may need connected-signal analysis to reconstruct.',
               },
               {
                 gradient: 'gradient-bg-2',
@@ -108,7 +119,7 @@ export default function MSBsRemittancePlatformsPage() {
                 Network Risk Intelligence for Remittance Compliance Operations
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye can begin with a scoped pilot on agreed data feeds, expanding network coverage as outcomes are proven.
+                Verafye connects sender, beneficiary, agent, corridor and transaction signals into one connected network view - converting alert noise into investigation-grade evidence that compliance teams can act on and regulators can audit. Verafye can begin with a Risk Shadowing engagement on agreed data feeds, expanding network coverage as outcomes are proven.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
@@ -192,7 +203,7 @@ export default function MSBsRemittancePlatformsPage() {
             See Network Risk Intelligence on Your Corridors
           </h2>
           <p style={{ fontSize: 'clamp(1rem,2vw,1.125rem)', color: 'var(--body)', maxWidth: '36rem', margin: '0 auto 2.5rem' }}>
-            Start with a scoped pilot - and expand network coverage across teams, programs and corridors as outcomes are proven.
+            Start with a Risk Shadowing engagement - and expand network coverage across teams, programs and corridors as outcomes are proven.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem' }}>
             <Link href="/risk-shadowing-review" className="btn-primary">

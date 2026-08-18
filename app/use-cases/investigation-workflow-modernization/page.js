@@ -1,10 +1,15 @@
-import CTA from '../../../components/CTA';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Fraud Investigation Workflow Software | AML Case Management",
+  title: { absolute: "Fraud Investigation Workflow Software | AML Case Management" },
   description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
-  keywords: ["investigation workflow software", "aml case management", "fraud investigation workflows", "investigation automation", "compliance workflows"],
+  keywords: [
+    "investigation workflow software",
+    "aml case management",
+    "fraud investigation workflows",
+    "investigation automation",
+    "compliance workflows",
+  ],
   openGraph: {
     title: "Fraud Investigation Workflow Software | AML Case Management",
     description: "Connect fraud, AML and risk signals into investigation-ready workflows that reduce manual effort, improve governance and accelerate case resolution.",
@@ -103,9 +108,9 @@ export default function InvestigationWorkflowModernizationPage() {
       <section className="section-light" style={{ padding: '3.5rem 0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', maxWidth: '56rem', margin: '0 auto 3.5rem' }}>
-            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Legacy Fails</p>
+            <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Where Risk Context Becomes Fragmented Across Workflows</p>
             <h2 style={{ fontSize: 'clamp(1.375rem,3.5vw,2.75rem)', fontWeight: 700, color: 'var(--dark)', letterSpacing: '-0.025em' }}>
-              Why Fragmented, Manual Workflows Cannot Scale
+              Where Fragmented, Manual Workflows Create Investigation Gaps
             </h2>
           </div>
           <div className="grid-2" style={{ maxWidth: '72rem', margin: '0 auto' }}>
@@ -302,7 +307,7 @@ export default function InvestigationWorkflowModernizationPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
                 title: 'Faster Investigation Turnaround - Hours, Not Days',
-                body: 'Pre-assembled case context, alert clustering, and structured workflows compress investigation cycle times - reducing the hours spent per case and increasing team throughput across fraud and AML operations without adding headcount.',
+                body: 'Pre-assembled case context, alert clustering, and structured workflows are designed to reduce manual context assembly and help investigation teams handle connected evidence more efficiently across fraud and AML operations.',
               },
               {
                 gradient: 'gradient-bg-2',

@@ -1,20 +1,29 @@
 import SplitHeroWithVisualCard, { CapabilitiesVisualCard } from '../../components/SplitHeroWithVisualCard';
 
 export const metadata = {
-  title: "Connected-Risk Intelligence Capabilities",
-  description: "Explore the eight capability domains that power Verafye's Connected-Risk Intelligence platform — from customer risk and transaction monitoring to investigation intelligence and decision support.",
-  keywords: ["connected risk intelligence capabilities", "entity resolution", "graph analytics", "transaction intelligence", "investigation workflows", "financial crime investigations", "risk intelligence software", "fraud analytics platform"],
+  title: { absolute: "Fraud Detection & AML Capabilities | Verafye" },
+  description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
+  keywords: [
+    "network risk intelligence capabilities",
+    "entity resolution",
+    "graph analytics",
+    "transaction intelligence",
+    "investigation workflows",
+    "financial crime investigations",
+    "risk intelligence software",
+    "fraud analytics platform",
+  ],
   openGraph: {
-    title: "Connected-Risk Intelligence Capabilities | Verafye",
-    description: "Eight capability domains. One connected platform. Explore how Verafye turns suspicious activity into evidence-backed Connected-Risk Intelligence.",
+    title: "Fraud Detection & AML Capabilities | Verafye",
+    description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Connected-Risk Intelligence Capabilities | Verafye",
-    description: "Eight capability domains. One connected platform. Explore how Verafye turns suspicious activity into evidence-backed Connected-Risk Intelligence.",
+    title: "Fraud Detection & AML Capabilities | Verafye",
+    description: "Explore fraud detection, AML, investigation and decision intelligence capabilities that help financial institutions detect hidden financial crime faster.",
   },
   alternates: {
-    canonical: 'https://www.verafye.com/capabilities/',
+    canonical: 'https://www.verafye.com/capabilities',
   },
 };
 
@@ -111,7 +120,7 @@ export default function CapabilitiesPage() {
       {/* ── Section 1: Hero - Option 1: Split Hero with Visual Card (approved) ── */}
       <SplitHeroWithVisualCard
         eyebrow="CAPABILITIES"
-        seoH1="Connected-Risk Intelligence Capabilities"
+        seoH1="Fraud Detection & AML Capabilities"
         title="Eight capability domains for detection-to-decision financial crime operations"
         description="Detection Intelligence, Investigation Intelligence, and Decision Intelligence in one platform — Connected-Risk network detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams."
         primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
@@ -132,10 +141,10 @@ export default function CapabilitiesPage() {
               color: 'var(--dark)',
               marginBottom: '1rem',
             }}>
-              Everything risk teams need to move from alerts to decisions
+              A connected capability stack for moving from signals and alerts into investigation and decision support.
             </h2>
             <p style={{fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75}}>
-              Verafye brings together signal ingestion, integrations, configurable workflows, alert clustering, graph intelligence, case workflows, reviewer controls, evidence packs, and audit trails - giving lean teams a practical operating workspace for fraud and AML investigations, from signal ingestion to case closure.
+              Detection can originate within Verafye or arrive from existing controls. In either case, the same entity-resolution, network-intelligence and investigation architecture carries the signal forward. Verafye brings together signal ingestion, integrations, configurable workflows, alert clustering, graph intelligence, case workflows, reviewer controls, evidence packs, and audit trails — giving lean teams a practical operating workspace for fraud and AML investigations, from signal origination to case closure.
             </p>
           </div>
         </div>
@@ -376,10 +385,10 @@ export default function CapabilitiesPage() {
                 </div>
                 <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Case Outcomes</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
-                  Faster investigations, clearer decisions, audit-ready records, and better operating visibility for lean risk teams
+                  Investigation context, clearer decisions, audit-ready records, and better operating visibility for risk teams
                 </p>
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: 'auto'}}>
-                  {['Faster Investigations','Audit-Ready Records','Lean Team Efficiency'].map(t => (
+                  {['Investigation Context','Audit-Ready Records','Reduced Manual Context Assembly'].map(t => (
                     <span key={t} style={{fontSize: '0.5625rem', fontWeight: 600, color: '#059669', background: 'rgba(5,150,105,0.06)', border: '1px solid rgba(5,150,105,0.15)', borderRadius: '4px', padding: '0.2rem 0.45rem'}}>{t}</span>
                   ))}
                 </div>
@@ -458,7 +467,7 @@ export default function CapabilitiesPage() {
             maxWidth: '38rem',
             margin: '0 auto 2.25rem',
           }}>
-            See how Verafye helps regulated financial platforms connect alerts, explain risk, and close cases faster. Start with a scoped pilot around the capabilities your team needs - and expand as outcomes are proven.
+            See how Verafye helps regulated financial platforms connect alerts, carry connected context into investigation and decision support. Begin with a Risk Shadowing engagement around the capabilities your team needs - and expand as outcomes are proven.
           </p>
           <div style={{display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap'}}>
             <a href="/risk-shadowing-review" className="btn-primary">

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: "IBSi FinTech Journal Interview - Digital Trust & Network Risk",
+  title: { absolute: "IBSi FinTech Journal Interview - Digital Trust & Network Risk" },
   description: "Verafye CEO Abhishek Tuppada speaks with the IBSi FinTech Journal on why digital trust is becoming FinTech's new growth engine - and why fraud prevention needs better context, not more alerts.",
   openGraph: {
     title: "IBSi FinTech Journal Interview - Digital Trust & Network Risk",
