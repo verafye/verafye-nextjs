@@ -73,7 +73,7 @@ const useCases = [
       </svg>
     ),
     gradient: 'gradient-bg-3',
-    capabilities: ['Investigation Intelligence', 'AI Copilot', 'Enterprise Platform'],
+    capabilities: ['Investigation Intelligence', 'AI-Assisted Case Intelligence', 'Enterprise Platform'],
     buyers: 'Head of Investigations · VP Operations',
   },
   {
@@ -122,7 +122,7 @@ const capabilityMap = [
     useCases: [true, true, false, true],
   },
   {
-    capability: 'AI Copilot',
+    capability: 'AI-Assisted Case Intelligence',
     useCases: [false, false, true, true],
   },
 ];

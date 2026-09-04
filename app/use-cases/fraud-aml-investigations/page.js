@@ -73,8 +73,8 @@ const capabilities = [
     href: '/solutions/graph-intelligence',
   },
   {
-    title: 'AI Copilot',
-    description: 'Case summaries and SAR narratives pull from the full cross-domain evidence pack — not just the fraud or AML slice.',
+    title: 'AI-Assisted Case Intelligence',
+    description: 'Case summaries and draft SAR narratives are generated from the complete cross-domain evidence pack — not only the fraud or AML view.',
     href: '/capabilities',
   },
 ];

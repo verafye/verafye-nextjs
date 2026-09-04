@@ -356,46 +356,6 @@ export default function Page() {
   </div>
 </section>
 
-{/* STRATEGIC ADVISORS */}
-<section className="section-light" style={{'padding':'4rem 0'}}>
-  <div className="container">
-    <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
-      <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>Strategic Advisors</p>
-      <h2 style={{'fontSize':'clamp(1.375rem,3.5vw,2.25rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em'}}>Experienced operators behind the platform</h2>
-    </div>
-    {/* Advisor cards grid */}
-    <div style={{'display':'grid','gridTemplateColumns':'repeat(auto-fit,minmax(20rem,1fr))','gap':'1.5rem','maxWidth':'56rem','margin':'0 auto'}}>
-
-      {/* Aditya Menon */}
-      <div className="card card-elevated" style={{'padding':'2rem'}}>
-        <div style={{'display':'flex','alignItems':'flex-start','gap':'1.25rem'}}>
-          <div style={{'width':'3rem','height':'3rem','borderRadius':'50%','background':'linear-gradient(135deg,var(--primary),var(--accent))','display':'flex','alignItems':'center','justifyContent':'center','fontSize':'0.9rem','fontWeight':'700','color':'#fff','flexShrink':'0'}}>AM</div>
-          <div>
-            <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.2rem'}}>Aditya Menon</h3>
-            <p style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--primary)','marginBottom':'0.125rem'}}>Strategic Advisor</p>
-            <p style={{'fontSize':'0.6875rem','color':'var(--muted)','marginBottom':'0.75rem','textTransform':'uppercase','letterSpacing':'0.05em'}}>Payments · Digital Banking · Transaction Banking</p>
-            <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':'1.65'}}>Former Managing Director, Global Digital Strategy at Citi. Former Global Head of Product Management at Obopay. CEO, Tallyx.</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Ryan Linton */}
-      <div className="card card-elevated" style={{'padding':'2rem'}}>
-        <div style={{'display':'flex','alignItems':'flex-start','gap':'1.25rem'}}>
-          <div style={{'width':'3rem','height':'3rem','borderRadius':'50%','background':'linear-gradient(135deg,var(--primary),var(--accent))','display':'flex','alignItems':'center','justifyContent':'center','fontSize':'0.9rem','fontWeight':'700','color':'#fff','flexShrink':'0'}}>RL</div>
-          <div>
-            <h3 style={{'fontSize':'1rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.2rem'}}>Ryan Linton</h3>
-            <p style={{'fontSize':'0.75rem','fontWeight':'600','color':'var(--primary)','marginBottom':'0.125rem'}}>Strategic Advisor</p>
-            <p style={{'fontSize':'0.6875rem','color':'var(--muted)','marginBottom':'0.75rem','textTransform':'uppercase','letterSpacing':'0.05em'}}>BaaS · Payments · Compliance</p>
-            <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':'1.65'}}>Former Chairman, MVB Bank. Ex-CEO Betable. Ex-Zynga revenue operations and fraud prevention.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
 {/* CONTACT */}
 <section className="section-light" style={{'padding':'4rem 0'}}>
   <div className="container" style={{'maxWidth':'56rem'}}>

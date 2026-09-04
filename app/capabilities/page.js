@@ -97,8 +97,8 @@ const pillars = [
         <path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/>
       </svg>
     ),
-    title: 'AI Copilot',
-    body: 'Explainable AI, case summaries, investigation assistance, and narrative generation — embedded into the investigation workflow so analysts spend less time assembling context and more time deciding.',
+    title: 'AI-Assisted Case Intelligence',
+    body: 'Case summaries and draft SAR narratives are generated from the complete cross-domain evidence pack — not only the fraud or AML view. Explainable AI and investigation assistance are embedded into the workflow so analysts spend less time assembling context and more time deciding.',
     chips: ['Case Summaries', 'Explainable AI', 'Investigation Assist', 'Narrative Generation', 'Human in Loop'],
   },
   {
