@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: { absolute: "Network Risk Intelligence for Marketplace Risk Teams | Verafye" },
-  description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations — surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
+  description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations - surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
   keywords: [
     "marketplace fraud investigation",
     "seller fraud ring detection",
@@ -17,12 +17,12 @@ export const metadata = {
   ],
   openGraph: {
     title: "Network Risk Intelligence for Marketplace Risk Teams | Verafye",
-    description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations — surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
+    description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations - surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Network Risk Intelligence for Marketplace Risk Teams | Verafye",
-    description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations — surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
+    description: "Verafye helps marketplace risk teams connect seller, buyer, listing, device, payout, payment, refund, dispute, review, and transaction signals into explainable investigations - surfacing seller fraud rings, buyer-seller collusion, payout abuse, refund/return abuse, and coordinated account networks.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/marketplaces',

@@ -230,7 +230,7 @@ export default function Page() {
           <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','fontWeight':'600','color':'var(--dark)','lineHeight':'1.75'}}>Verafye was built to change that.</p>
         </div>
         <div>
-          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform — giving fraud and AML teams a connected investigation workspace with network-level detection, structured case management, and full audit trails.</p>
+          <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75','marginBottom':'1.25rem'}}>Verafye connects signals from existing fraud, AML, payment, identity, device, and case systems into investigation-ready workflows built on the Verafye platform - giving fraud and AML teams a connected investigation workspace with network-level detection, structured case management, and full audit trails.</p>
           <p style={{'fontSize':'clamp(0.9375rem,1.75vw,1.125rem)','color':'var(--body)','lineHeight':'1.75'}}>This is not a point solution. Verafye is a Connected-Risk Intelligence platform built for regulated payment platforms and financial institutions operating under real compliance pressure.</p>
         </div>
       </div>

@@ -605,7 +605,7 @@ export default function SplitHeroWithVisualCard({
 
           {/* ── Left column: text ───────────────────────────────────────────── */}
           <div>
-            {/* Eyebrow / SEO H1 — when seoH1 is provided it renders as <h1> and the title
+            {/* Eyebrow / SEO H1 - when seoH1 is provided it renders as <h1> and the title
                 renders as <h2>. When no seoH1, the eyebrow is a <p> and the title takes the
                 <h1> role. Each path produces exactly one H1 per page. */}
             {seoH1 ? (
@@ -618,7 +618,7 @@ export default function SplitHeroWithVisualCard({
               </p>
             )}
 
-            {/* Visual heading — h1 when no seoH1 present, h2 when seoH1 takes the h1 role */}
+            {/* Visual heading - h1 when no seoH1 present, h2 when seoH1 takes the h1 role */}
             {seoH1 ? (
               <h2
                 className="animate-fade-up delay-100"

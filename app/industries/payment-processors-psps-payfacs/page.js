@@ -334,13 +334,13 @@ export default function PaymentProcessorsPage() {
                 gradient: 'gradient-bg-1',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Better Visibility Into Merchant and Network Risk',
-                body: 'Continuous merchant monitoring connected to transaction and network intelligence gives PSPs and PayFacs a broader connected view of merchant risk context available from integrated signals — supporting more informed intervention decisions before exposure escalates.',
+                body: 'Continuous merchant monitoring connected to transaction and network intelligence gives PSPs and PayFacs a broader connected view of merchant risk context available from integrated signals - supporting more informed intervention decisions before exposure escalates.',
               },
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>),
                 title: 'Better Visibility Across Merchant, Transaction, and Account Risk',
-                body: 'One connected network view linking merchant profiles, transaction signals, and account behaviour gives risk operations a broader connected view of the risk context available from integrated signals — enabling more informed decisions on merchant intervention, account action, and escalation across the PSP and PayFac risk stack.',
+                body: 'One connected network view linking merchant profiles, transaction signals, and account behaviour gives risk operations a broader connected view of the risk context available from integrated signals - enabling more informed decisions on merchant intervention, account action, and escalation across the PSP and PayFac risk stack.',
               },
             ].map(item => (
               <div key={item.title} className="card card-elevated" style={{ padding: '2.5rem' }}>

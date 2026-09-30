@@ -2,15 +2,15 @@ import Link from 'next/link';
 import { blogPosts, CATEGORIES } from './posts';
 
 export const metadata = {
-  title: 'Blog — Fraud, AML & Risk Intelligence Insights',
+  title: 'Blog - Fraud, AML & Risk Intelligence Insights',
   description: 'Practical insights for fraud, AML, and risk teams at payment aggregators, PSPs, and regulated fintechs. Written by the Verafye founding team.',
   openGraph: {
-    title: 'Blog — Fraud, AML & Risk Intelligence Insights | Verafye',
+    title: 'Blog - Fraud, AML & Risk Intelligence Insights | Verafye',
     description: 'Practical insights for fraud, AML, and risk teams at payment aggregators, PSPs, and regulated fintechs. Written by the Verafye founding team.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog — Fraud, AML & Risk Intelligence Insights | Verafye',
+    title: 'Blog - Fraud, AML & Risk Intelligence Insights | Verafye',
     description: 'Practical insights for fraud, AML, and risk teams at payment aggregators, PSPs, and regulated fintechs.',
   },
   alternates: {
@@ -94,7 +94,7 @@ export default function BlogIndexPage() {
             See where your current signal coverage has gaps
           </h2>
           <p style={{ color: 'var(--body)', lineHeight: 1.7, marginBottom: '1.75rem' }}>
-            A Verafye Risk Shadowing Review maps connected risk across your existing alerts and entity signals — delivering investigation-ready evidence from your own data, without requiring changes to your current controls.
+            A Verafye Risk Shadowing Review maps connected risk across your existing alerts and entity signals - delivering investigation-ready evidence from your own data, without requiring changes to your current controls.
           </p>
           <Link
             href="/risk-shadowing-review/"

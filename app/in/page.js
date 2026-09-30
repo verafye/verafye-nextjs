@@ -199,7 +199,7 @@ export default function IndiaPage() {
 
         {/* Supporting line */}
         <p className="animate-fade-up delay-200" style={{'fontSize':'clamp(0.875rem,2vw,1.0625rem)','color':'var(--body)','marginBottom':'2rem'}}>
-          Connect suspicious activity to the wider risk context investigators need to understand—with evidence-backed workflows designed for India's regulated financial ecosystem.
+          Connect suspicious activity to the wider risk context investigators need to understand - with evidence-backed workflows designed for India's regulated financial ecosystem.
         </p>
 
         {/* CTAs */}

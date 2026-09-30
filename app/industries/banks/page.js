@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: { absolute: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions" },
-  description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
+  description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows - surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   keywords: [
     "mule network detection banks",
     "scam proceeds investigation bank",
@@ -17,12 +17,12 @@ export const metadata = {
   ],
   openGraph: {
     title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions",
-    description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
+    description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows - surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Fraud Prevention Solutions for Banks, Regional Financial Institutions & Credit Unions",
-    description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows — surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
+    description: "Verafye helps banking fraud and AML teams connect fraud, AML, payment, account, identity, device, and behavioral signals into explainable investigation workflows - surfacing mule networks, scam proceeds, real-time payment risk, and fraud-to-AML escalation cases faster.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/banks',

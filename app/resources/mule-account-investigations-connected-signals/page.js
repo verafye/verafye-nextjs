@@ -377,7 +377,7 @@ export default function ArticlePage() {
             <div style={{ display: 'flex', gap: '0.875rem', flexWrap: 'wrap', flexShrink: 0 }}>
               <Link href="/risk-shadowing-review" className="btn-primary">Explore Risk Shadowing Review</Link>
               <Link href="/platform/" className="btn-secondary">Explore Platform</Link>
-              {/* PDF download temporarily unavailable — source document pending regeneration with approved positioning */}
+              {/* PDF download temporarily unavailable - source document pending regeneration with approved positioning */}
             </div>
           </div>
         </div>

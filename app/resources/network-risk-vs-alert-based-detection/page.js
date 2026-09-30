@@ -92,7 +92,7 @@ export default function ArticlePage() {
               Why Alert-Based Detection Misses Network-Level Fraud Risk
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
-              Alert-based fraud and AML systems generate outputs — transaction scores, rule triggers, threshold breaches. What they rarely generate is an investigation. And in that gap between alert and investigation, coordinated fraud networks operate largely undetected.
+              Alert-based fraud and AML systems generate outputs - transaction scores, rule triggers, threshold breaches. What they rarely generate is an investigation. And in that gap between alert and investigation, coordinated fraud networks operate largely undetected.
             </p>
           </div>
         </div>
@@ -104,20 +104,20 @@ export default function ArticlePage() {
           <div style={{ maxWidth: '52rem', margin: '0 auto' }}>
 
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
-              The problem is structural. Alert-based detection is designed to evaluate individual events — a transaction, a login, an onboarding record — against a rule or a threshold. That works well for catching isolated incidents. It works poorly when the fraud or AML risk is distributed across multiple accounts, entities, corridors, or time windows.
+              The problem is structural. Alert-based detection is designed to evaluate individual events - a transaction, a login, an onboarding record - against a rule or a threshold. That works well for catching isolated incidents. It works poorly when the fraud or AML risk is distributed across multiple accounts, entities, corridors, or time windows.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Network-level risk does not present as a single alert. It presents as a pattern — and patterns require connected signals, not just event scores.
+              Network-level risk does not present as a single alert. It presents as a pattern - and patterns require connected signals, not just event scores.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
-              What Alert-Based Detection Does Well — And Where It Stops
+              What Alert-Based Detection Does Well - And Where It Stops
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Alert-based systems have a specific job: flag transactions or behaviors that exceed defined risk parameters. They do this efficiently and at scale. Rule engines, velocity checks, threshold monitors, and ML-based transaction scoring all operate on the same basic principle — evaluate an event in context and decide whether it warrants attention.
+              Alert-based systems have a specific job: flag transactions or behaviors that exceed defined risk parameters. They do this efficiently and at scale. Rule engines, velocity checks, threshold monitors, and ML-based transaction scoring all operate on the same basic principle - evaluate an event in context and decide whether it warrants attention.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Where these systems stop is at the edges of the event. Once an alert is generated, it becomes an item in a queue. What it does not become — automatically — is a case with connected context. Investigators must then:
+              Where these systems stop is at the edges of the event. Once an alert is generated, it becomes an item in a queue. What it does not become - automatically - is a case with connected context. Investigators must then:
             </p>
             <BulletList items={[
               'Manually pull transaction history from payment systems.',
@@ -135,7 +135,7 @@ export default function ArticlePage() {
               What Network-Level Risk Actually Looks Like
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Coordinated fraud and financial crime rarely operates through a single account or a single transaction. Network-level risk tends to be distributed by design — spreading activity across multiple participants to stay under detection thresholds and avoid pattern recognition.
+              Coordinated fraud and financial crime rarely operates through a single account or a single transaction. Network-level risk tends to be distributed by design - spreading activity across multiple participants to stay under detection thresholds and avoid pattern recognition.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
               Patterns that alert-based systems commonly miss include:
@@ -145,11 +145,11 @@ export default function ArticlePage() {
               'Mule rings where receiving accounts are linked through shared beneficiary details, phone numbers, or addresses.',
               'Structuring across multiple senders to the same destination, spread over time to avoid velocity rules.',
               'Merchant fraud where chargebacks, disputes, and settlement patterns are connected across seemingly unrelated merchant accounts.',
-              'AML typologies that span both fraud and AML detection systems — appearing as isolated alerts in each, but visible as a linked pattern when combined.',
+              'AML typologies that span both fraud and AML detection systems - appearing as isolated alerts in each, but visible as a linked pattern when combined.',
               'Account takeover campaigns that share device fingerprints or login patterns across multiple victims.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              None of these patterns are invisible. The signals are there — in transaction logs, device data, identity records, beneficiary chains, prior cases. The issue is that they are fragmented across systems that were not designed to share context.
+              None of these patterns are invisible. The signals are there - in transaction logs, device data, identity records, beneficiary chains, prior cases. The issue is that they are fragmented across systems that were not designed to share context.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -162,24 +162,24 @@ export default function ArticlePage() {
               The consequence is not just speed. It is coverage. When investigators cannot quickly connect related alerts and signals, they tend to close or deprioritize cases that appear isolated but are actually linked. A coordinated ring may generate a dozen alerts across different accounts, all of which get reviewed individually and none of which get escalated as a connected network.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              This is where the structural limitation of alert-based detection becomes operationally significant. More alerts does not mean better coverage. It means more queue — unless those alerts are connected into cases with shared entity and relationship context.
+              This is where the structural limitation of alert-based detection becomes operationally significant. More alerts does not mean better coverage. It means more queue - unless those alerts are connected into cases with shared entity and relationship context.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
               Graph Intelligence: Detecting at the Relationship Level
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Graph-native risk analysis takes a different starting point. Instead of evaluating individual events, it maps relationships across entities — accounts, users, devices, merchants, beneficiaries, counterparties — and looks for connections that single-event analysis cannot surface.
+              Graph-native risk analysis takes a different starting point. Instead of evaluating individual events, it maps relationships across entities - accounts, users, devices, merchants, beneficiaries, counterparties - and looks for connections that single-event analysis cannot surface.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
               In a graph model, accounts that share a device, an IP range, a beneficiary, or a prior case history become connected nodes. Transactions that flow through the same beneficiary chain across time become visible as a pattern. Alerts that appear unrelated in a queue become grouped into a network cluster.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              The result is that coordinated risk — the kind that stays below alert thresholds by distributing activity — becomes visible at the network level even when it is invisible at the transaction level.
+              The result is that coordinated risk - the kind that stays below alert thresholds by distributing activity - becomes visible at the network level even when it is invisible at the transaction level.
             </p>
             <BulletList items={[
               'Entity resolution links accounts, identities, and devices that share attributes across sources.',
-              'Relationship mapping surfaces indirect connections — accounts linked through shared beneficiaries, not just direct transfers.',
+              'Relationship mapping surfaces indirect connections - accounts linked through shared beneficiaries, not just direct transfers.',
               'Alert clustering groups related signals from fraud, AML, and payment systems into connected case context.',
               'Network scoring allows prioritization based on the risk of a connected cluster, not just individual transaction scores.',
             ]} />
@@ -188,7 +188,7 @@ export default function ArticlePage() {
               What Changes When Teams Investigate at the Network Level
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              For financial crime teams — particularly lean teams managing high investigation volumes — the shift from alert-level to network-level investigation changes the operational picture in several ways:
+              For financial crime teams - particularly lean teams managing high investigation volumes - the shift from alert-level to network-level investigation changes the operational picture in several ways:
             </p>
             <BulletList items={[
               'Related alerts are grouped, so investigators review connected cases rather than isolated events.',
@@ -198,14 +198,14 @@ export default function ArticlePage() {
               'Case closure rates improve because investigators can make supported decisions rather than relying on incomplete context.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Alert-based tools continue to generate useful signals. What is often missing is the capability to connect those signals into cases that investigators can actually work from — by resolving entities, mapping relationships, and surfacing coordinated patterns across accounts, devices, and corridors.
+              Alert-based tools continue to generate useful signals. What is often missing is the capability to connect those signals into cases that investigators can actually work from - by resolving entities, mapping relationships, and surfacing coordinated patterns across accounts, devices, and corridors.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
               How Verafye Supports Network-Level Investigation
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Verafye is a Connected-Risk Intelligence platform that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms — and turns them into investigation-ready cases. Verafye may begin with selected signal feeds from existing detection systems, connecting those alongside other sources into a coordinated, network-level investigation view.
+              Verafye is a Connected-Risk Intelligence platform that connects fraud, AML, payment, identity, device, and behavioral signals across regulated payment platforms - and turns them into investigation-ready cases. Verafye may begin with selected signal feeds from existing detection systems, connecting those alongside other sources into a coordinated, network-level investigation view.
             </p>
             <BulletList items={[
               'Resolves entities across data sources to surface shared accounts, devices, identities, and beneficiaries.',
@@ -221,10 +221,10 @@ export default function ArticlePage() {
             <div style={{ background: 'var(--bg-blue)', border: '1px solid rgba(30,111,183,0.14)', borderRadius: '0.75rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>
               <p style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.75rem' }}>Key Takeaway</p>
               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, marginBottom: '0.75rem' }}>
-                Alert-based detection is a necessary foundation — but it is not sufficient for detecting coordinated, network-level financial crime. The patterns that matter most are the ones that exist between events, not within them.
+                Alert-based detection is a necessary foundation - but it is not sufficient for detecting coordinated, network-level financial crime. The patterns that matter most are the ones that exist between events, not within them.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--dark)', lineHeight: 1.75, fontWeight: 500, margin: 0 }}>
-                Connecting entities, relationships, and signals across accounts, devices, and corridors gives teams a clearer picture of coordinated risk — and a faster path from fragmented alerts to investigation-ready cases.
+                Connecting entities, relationships, and signals across accounts, devices, and corridors gives teams a clearer picture of coordinated risk - and a faster path from fragmented alerts to investigation-ready cases.
               </p>
             </div>
 

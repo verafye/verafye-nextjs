@@ -40,7 +40,7 @@ export default function MuleNetworkDetectionPage() {
               Mule account detection starts at the individual account. Mule network detection exposes the coordinated ring behind it.
             </p>
             <p className="animate-fade-up delay-300" style={{ fontSize: 'clamp(0.875rem,1.5vw,1rem)', color: 'var(--muted)', marginBottom: '2rem', maxWidth: '40rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Verafye connects account, device, identity, transaction, and behavior signals into connected network clusters — so risk teams investigate the ring, not just the account.
+              Verafye connects account, device, identity, transaction, and behavior signals into connected network clusters - so risk teams investigate the ring, not just the account.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/risk-shadowing-review" className="btn-primary">
@@ -296,7 +296,7 @@ export default function MuleNetworkDetectionPage() {
               {
                 gradient: 'gradient-bg-2',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>),
-                title: 'Investigation Context — Reduced Manual Reconstruction',
+                title: 'Investigation Context - Reduced Manual Reconstruction',
                 body: 'Pre-assembled network context and cluster-based investigation views eliminate the manual research phase - enabling analysts to begin substantive investigation immediately and reducing cycle times across mule detection cases.',
               },
               {
@@ -309,7 +309,7 @@ export default function MuleNetworkDetectionPage() {
                 gradient: 'gradient-bg-4',
                 icon: (<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>),
                 title: 'Complete Network Visibility - Fraud and AML Connected',
-                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a broader connected view of the mule network risk context available from integrated signals — supporting more informed decisions on account action and SAR filing. Verafye&apos;s investigation-ready case structure supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
+                body: 'One connected graph view across accounts, devices, and transactions gives fraud and AML teams a broader connected view of the mule network risk context available from integrated signals - supporting more informed decisions on account action and SAR filing. Verafye&apos;s investigation-ready case structure supports the documentation and audit trails that regulators expect from institutions operating within AML frameworks.',
               },
               {
                 gradient: 'gradient-bg-1',

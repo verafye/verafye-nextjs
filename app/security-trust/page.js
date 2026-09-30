@@ -311,7 +311,7 @@ export default function SecurityTrustPage() {
               {[
                 {
                   label: 'Detection aligned to examiner expectations',
-                  desc: 'Connected-Risk Intelligence and cross-system signal correlation support the network-level risk visibility that financial crime examiners increasingly expect institutions to demonstrate — across fraud, AML, and payments monitoring functions.',
+                  desc: 'Connected-Risk Intelligence and cross-system signal correlation support the network-level risk visibility that financial crime examiners increasingly expect institutions to demonstrate - across fraud, AML, and payments monitoring functions.',
                 },
                 {
                   label: 'Audit-ready investigation records',

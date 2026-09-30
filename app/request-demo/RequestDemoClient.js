@@ -37,7 +37,7 @@ const VARIANTS = {
 };
 
 // Endpoint is resolved at submit time via getRequestDemoEndpoint().
-// No hardcoded fallback — a missing env var fails clearly at form submission.
+// No hardcoded fallback - a missing env var fails clearly at form submission.
 
 function isValidEmail(email) {
   const value = (email || '').trim().toLowerCase();

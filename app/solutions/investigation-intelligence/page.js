@@ -34,7 +34,7 @@ export default function InvestigationIntelligencePage() {
         eyebrow="INVESTIGATION INTELLIGENCE"
         seoH1="Fraud Investigation Solution"
         title="Investigation intelligence for lean fraud, AML, and risk teams"
-        description="Connect alerts, explain risk, and build evidence-backed cases — with case intelligence, graph context, and audit-ready workflows that carry full context into analyst review and decision."
+        description="Connect alerts, explain risk, and build evidence-backed cases - with case intelligence, graph context, and audit-ready workflows that carry full context into analyst review and decision."
         body="Investigation Intelligence within the Verafye platform turns fragmented fraud, AML, payment, identity, device, and behavior signals into reviewable cases. Verafye brings signals, alerts, relationships, evidence, and workflows into investigation-ready cases - showing what happened, who is connected, why it matters, and what action to take next."
         primaryCTA={{ label: 'Explore Risk Shadowing', href: '/risk-shadowing-review' }}
         secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}

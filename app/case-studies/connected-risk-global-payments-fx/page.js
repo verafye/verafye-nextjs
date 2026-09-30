@@ -118,7 +118,7 @@ export default function CaseStudyPage() {
               'Is activity changing materially after onboarding?',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Traditional transaction alerts could identify individual rule breaches, but investigators still had to assemble the wider context manually — pulling from payment systems, KYC records, and prior case files separately.
+              Traditional transaction alerts could identify individual rule breaches, but investigators still had to assemble the wider context manually - pulling from payment systems, KYC records, and prior case files separately.
             </p>
 
             {/* THE VERAFYE APPROACH */}
@@ -177,7 +177,7 @@ export default function CaseStudyPage() {
                   Materially reduced investigation assembly time
                 </p>
                 <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
-                  Following deployment, alerts are automatically enriched with connected sender, beneficiary, and counterparty context — reducing the manual data-gathering step that previously preceded each investigation. Investigators begin from structured, context-rich cases rather than assembling evidence from separate systems.
+                  Following deployment, alerts are automatically enriched with connected sender, beneficiary, and counterparty context - reducing the manual data-gathering step that previously preceded each investigation. Investigators begin from structured, context-rich cases rather than assembling evidence from separate systems.
                 </p>
               </div>
             </div>

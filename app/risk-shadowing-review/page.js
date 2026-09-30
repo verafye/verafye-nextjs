@@ -38,7 +38,7 @@ export default function RiskShadowingReviewPage() {
               Prove incremental intelligence before changing your stack.
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.25rem)', color: 'var(--body)', marginBottom: '2rem', maxWidth: '46rem', marginLeft: 'auto', marginRight: 'auto' }}>
-              Run Verafye alongside your existing control environment on a bounded risk hypothesis and agreed data population. Compare what your institution already knows with the Connected-Risk Intelligence Verafye adds—and determine whether that additional context materially changes the investigation or decision.
+              Run Verafye alongside your existing control environment on a bounded risk hypothesis and agreed data population. Compare what your institution already knows with the Connected-Risk Intelligence Verafye adds - and determine whether that additional context materially changes the investigation or decision.
             </p>
             <div className="animate-fade-up delay-400" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center' }}>
               <Link href="/request-demo?intent=risk-shadowing-review" className="btn-primary">
@@ -62,7 +62,7 @@ export default function RiskShadowingReviewPage() {
           <div style={{ maxWidth: '50rem', margin: '0 auto', textAlign: 'center' }}>
             <p className="eyebrow" style={{ marginBottom: '0.75rem' }}>Why Risk Shadowing</p>
             <p style={{ fontSize: 'clamp(1.0625rem,2.2vw,1.375rem)', color: 'var(--dark)', lineHeight: 1.5, fontWeight: 500, letterSpacing: '-0.01em' }}>
-              Risk Shadowing runs Verafye on agreed data alongside your existing controls — not in place of them. The output is a structured comparison: what the institution already knew, what Connected-Risk Intelligence adds, and whether that additional context is material to investigation or decision.
+              Risk Shadowing runs Verafye on agreed data alongside your existing controls - not in place of them. The output is a structured comparison: what the institution already knew, what Connected-Risk Intelligence adds, and whether that additional context is material to investigation or decision.
             </p>
             <div style={{ marginTop: '2rem', padding: '1.5rem 2rem', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '12px', textAlign: 'left', maxWidth: '42rem', margin: '2rem auto 0' }}>
               <p style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.625rem' }}>Core Proof Question</p>
@@ -148,14 +148,14 @@ export default function RiskShadowingReviewPage() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '52rem', margin: '0 auto' }}>
               {[
-                { step: '01', title: 'Risk Hypothesis', body: 'Define the specific risk question the review will address — a bounded, agreed hypothesis about where connected context may or may not add value.' },
+                { step: '01', title: 'Risk Hypothesis', body: 'Define the specific risk question the review will address - a bounded, agreed hypothesis about where connected context may or may not add value.' },
                 { step: '02', title: 'Existing Baseline', body: 'Document what the institution currently knows: existing alerts, decisions, and investigations across the agreed scope and data population.' },
                 { step: '03', title: 'Data Qualification', body: 'Agree the data feeds, signal sources, and population to be included. Not every use case requires every data type.' },
-                { step: '04', title: 'Defined Case Population', body: 'Establish the bounded case population Verafye will run against — aligned to the risk hypothesis.' },
+                { step: '04', title: 'Defined Case Population', body: 'Establish the bounded case population Verafye will run against - aligned to the risk hypothesis.' },
                 { step: '05', title: 'Risk Shadowing', body: 'Verafye processes the agreed data population alongside the institution\'s existing controls, resolving entities and producing connected-risk context.' },
-                { step: '06', title: 'Analyst Review', body: 'Investigators review the Verafye output against the existing baseline — assessing whether connected context changes the investigation picture.' },
+                { step: '06', title: 'Analyst Review', body: 'Investigators review the Verafye output against the existing baseline - assessing whether connected context changes the investigation picture.' },
                 { step: '07', title: 'Evidence Classification', body: 'Verafye findings are classified against the public evidence hierarchy: Contextual only / Relevant context / Material incremental intelligence / New risk discovery / Decision impact.' },
-                { step: '08', title: 'Executive Proof Review', body: 'A structured review with institutional and Verafye leadership — presenting findings, evidence classification, and whether the core proof question is answered.' },
+                { step: '08', title: 'Executive Proof Review', body: 'A structured review with institutional and Verafye leadership - presenting findings, evidence classification, and whether the core proof question is answered.' },
                 { step: '09', title: 'Production Decision', body: 'Institution decides whether Verafye Connected-Risk Intelligence is production-ready for the scoped use case, based on evidence from the review.' },
               ].map(item => (
                 <div key={item.step} className="card" style={{ padding: '1.5rem 2rem', display: 'flex', gap: '1.25rem', alignItems: 'flex-start' }}>
@@ -186,11 +186,11 @@ export default function RiskShadowingReviewPage() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
-                { tier: '1', label: 'Contextual only', description: 'Verafye adds relationship context that is consistent with what the institution already knew — no change to investigation outcome.' },
+                { tier: '1', label: 'Contextual only', description: 'Verafye adds relationship context that is consistent with what the institution already knew - no change to investigation outcome.' },
                 { tier: '2', label: 'Relevant context', description: 'Verafye surfaces additional context that is relevant but does not materially change the investigation or decision.' },
-                { tier: '3', label: 'Material incremental intelligence', description: 'Verafye adds context that materially changes how the institution understands the risk — investigation scope or depth changes.' },
+                { tier: '3', label: 'Material incremental intelligence', description: 'Verafye adds context that materially changes how the institution understands the risk - investigation scope or depth changes.' },
                 { tier: '4', label: 'New risk discovery', description: 'Verafye surfaces risk the institution had not previously identified within the agreed case population.' },
-                { tier: '5', label: 'Decision impact', description: 'Verafye context changes what the institution would have decided — disposition, escalation, or reporting outcome differs.' },
+                { tier: '5', label: 'Decision impact', description: 'Verafye context changes what the institution would have decided - disposition, escalation, or reporting outcome differs.' },
               ].map(item => (
                 <div key={item.tier} style={{ padding: '1.25rem 1.5rem', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '10px', display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
                   <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: 'var(--primary)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem', fontWeight: 700, flexShrink: 0 }}>{item.tier}</div>
@@ -269,7 +269,7 @@ export default function RiskShadowingReviewPage() {
           </div>
           <div style={{ marginBottom: '1.5rem', padding: '1rem 1.25rem', background: 'rgba(30,111,183,0.05)', borderRadius: '10px', border: '1px solid rgba(30,111,183,0.12)' }}>
             <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
-              <span style={{ fontWeight: 700, color: 'var(--primary)' }}>For institutions with established controls:</span> the most common starting point remains incremental Connected-Risk Intelligence around existing suspicion — beginning with the alerts you already have and proving connected intelligence before changing your stack.
+              <span style={{ fontWeight: 700, color: 'var(--primary)' }}>For institutions with established controls:</span> the most common starting point remains incremental Connected-Risk Intelligence around existing suspicion - beginning with the alerts you already have and proving connected intelligence before changing your stack.
             </p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>

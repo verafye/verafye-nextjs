@@ -54,6 +54,8 @@ export default function RootLayout({ children }) {
           gtag('consent','default',{
             analytics_storage:       (_vc&&_vc.analytics)       ? 'granted':'denied',
             ad_storage:              (_vc&&_vc.advertising)     ? 'granted':'denied',
+            ad_user_data:            (_vc&&_vc.advertising)     ? 'granted':'denied',
+            ad_personalization:      (_vc&&_vc.advertising)     ? 'granted':'denied',
             personalization_storage: (_vc&&_vc.personalization) ? 'granted':'denied',
             functionality_storage:   'granted',
             security_storage:        'granted',

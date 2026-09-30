@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: { absolute: "Fraud Prevention Solutions for Fintech | Prevent Fraud" },
-  description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence — surfacing account farming, referral abuse, wallet misuse, payout fraud, and cross-product risk patterns.",
+  description: "Verafye helps wallets, card programs, lending apps, payroll/expense platforms, and multi-product fintechs connect onboarding, account, device, payment, payout, repayment, fraud, and AML signals into investigation-ready intelligence - surfacing account farming, referral abuse, wallet misuse, payout fraud, and cross-product risk patterns.",
   keywords: [
     "payment fintech fraud detection",
     "wallet risk intelligence",

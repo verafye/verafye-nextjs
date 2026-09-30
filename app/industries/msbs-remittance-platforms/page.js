@@ -17,12 +17,12 @@ export const metadata = {
   ],
   openGraph: {
     title: "AML Solutions for MSBs & Remittance Platforms | Verafye",
-    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
+    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk - with SAR/STR preparation support and audit-ready case records.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "AML Solutions for MSBs & Remittance Platforms | Verafye",
-    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk — with SAR/STR preparation support and audit-ready case records.",
+    description: "Graph-native network risk intelligence for MSBs and remittance platforms. Detect mule networks, suspicious beneficiary flows, structuring patterns, and corridor-level risk - with SAR/STR preparation support and audit-ready case records.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/msbs-remittance-platforms',

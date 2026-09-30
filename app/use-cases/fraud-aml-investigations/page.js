@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "Connected-Risk Investigation for Fraud & AML Teams",
-  description: "Fraud teams and AML teams often catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface — so teams investigate the connected risk, not just their slice.",
+  description: "Fraud teams and AML teams often catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface - so teams investigate the connected risk, not just their slice.",
   keywords: ["connected-risk investigation", "fraud aml convergence", "unified fraud aml platform", "cross-functional financial crime investigations", "fraud aml shared workflows", "connected fraud aml investigations"],
   openGraph: {
     title: "Connected-Risk Investigation for Fraud & AML Teams | Verafye",
@@ -39,7 +39,7 @@ const problems = [
   },
   {
     problem: 'Siloed data, duplicated review effort',
-    impact: 'Fraud analysts query one system. AML analysts query another. Both spend time assembling context that already exists — in different databases.',
+    impact: 'Fraud analysts query one system. AML analysts query another. Both spend time assembling context that already exists - in different databases.',
   },
   {
     problem: 'No shared handoff between teams',
@@ -54,7 +54,7 @@ const problems = [
 const capabilities = [
   {
     title: 'Fraud Prevention',
-    description: 'Device, behavioral, and payment fraud signals feed into the same investigation surface as AML data — no separate queue.',
+    description: 'Device, behavioral, and payment fraud signals feed into the same investigation surface as AML data - no separate queue.',
     href: '/capabilities',
   },
   {
@@ -69,12 +69,12 @@ const capabilities = [
   },
   {
     title: 'Decision Intelligence',
-    description: 'The entity graph resolves relationships across both fraud and AML signal sources — so the connection between a fraud ring and a structuring pattern is visible.',
+    description: 'The entity graph resolves relationships across both fraud and AML signal sources - so the connection between a fraud ring and a structuring pattern is visible.',
     href: '/solutions/graph-intelligence',
   },
   {
     title: 'AI-Assisted Case Intelligence',
-    description: 'Case summaries and draft SAR narratives are generated from the complete cross-domain evidence pack — not only the fraud or AML view.',
+    description: 'Case summaries and draft SAR narratives are generated from the complete cross-domain evidence pack - not only the fraud or AML view.',
     href: '/capabilities',
   },
 ];
@@ -92,7 +92,7 @@ export default function FraudAmlInvestigationsPage() {
               Connected-Risk Investigation across fraud and AML signals
             </h2>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.7 }}>
-              Verafye brings both signal sets into a shared investigation surface — so neither team works a partial picture, and the full scope of the risk is visible before a decision is made.
+              Verafye brings both signal sets into a shared investigation surface - so neither team works a partial picture, and the full scope of the risk is visible before a decision is made.
             </p>
             <div className="animate-fade-up delay-300" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', marginTop: '2.5rem' }}>
               <Link href="/risk-shadowing-review" className="btn-primary">Request a Risk Shadowing Review</Link>
@@ -116,7 +116,7 @@ export default function FraudAmlInvestigationsPage() {
               </p>
             </div>
 
-            {/* Two-column signal view — Fraud | Verafye | AML */}
+            {/* Two-column signal view - Fraud | Verafye | AML */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: '2rem', alignItems: 'center', marginBottom: '3rem' }}>
               {/* Fraud signals */}
               <div style={{ padding: '2rem', background: 'var(--bg-tint)', border: '1px solid var(--border)', borderRadius: '12px', borderTop: `3px solid ${signals[0].color}` }}>
@@ -192,7 +192,7 @@ export default function FraudAmlInvestigationsPage() {
                 One investigation surface. Both signal sets.
               </h2>
               <p style={{ fontSize: '0.9375rem', color: 'var(--body)', maxWidth: '44rem', margin: '0 auto', lineHeight: 1.75 }}>
-                Verafye does not ask fraud teams and AML teams to merge. It connects their data so that any analyst — regardless of which team they sit in — can see the full scope of the risk before closing a case or filing a SAR.
+                Verafye does not ask fraud teams and AML teams to merge. It connects their data so that any analyst - regardless of which team they sit in - can see the full scope of the risk before closing a case or filing a SAR.
               </p>
             </div>
 
@@ -228,7 +228,7 @@ export default function FraudAmlInvestigationsPage() {
               ))}
             </div>
             <p style={{ fontSize: '0.9375rem', color: 'var(--body)', lineHeight: 1.75 }}>
-              If your fraud team and AML team are regularly escalating to each other but working in separate systems, a Risk Shadowing Review will show you specifically where those handoffs are creating gaps — using your own transaction and entity data.
+              If your fraud team and AML team are regularly escalating to each other but working in separate systems, a Risk Shadowing Review will show you specifically where those handoffs are creating gaps - using your own transaction and entity data.
             </p>
           </div>
         </div>
@@ -272,7 +272,7 @@ export default function FraudAmlInvestigationsPage() {
       {/* ── 7. CTA ──────────────────────────────────────────────────────────── */}
       <CTA
         title="See what your fraud and AML teams are missing"
-        subtitle="A Risk Shadowing Review runs Verafye's connected detection models on your real data — so you see the gaps, not a demo scenario."
+        subtitle="A Risk Shadowing Review runs Verafye's connected detection models on your real data - so you see the gaps, not a demo scenario."
       />
 
     </>

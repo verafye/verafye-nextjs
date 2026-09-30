@@ -1,4 +1,4 @@
-// Auto-generated from Word documents — do not hand-edit the sections array
+// Auto-generated from Word documents - do not hand-edit the sections array
 // To update: re-run scripts/generate-blog-posts.py
 
 export const blogPosts = [
@@ -206,7 +206,7 @@ export const blogPosts = [
       { type: 'p', text: `Building a compliance programme that satisfies RBI examination is not a documentation exercise. It is an operational one.` },
       { type: 'p', text: `Verafye is a network risk intelligence platform built specifically for payment aggregators and PSPs operating under ongoing regulatory scrutiny. It connects your merchant monitoring, transaction surveillance, fraud alerts, and AML workflows into one investigation-ready platform - with documented case trails, audit-ready decision records, and full escalation history for every risk decision your team makes.` },
       { type: 'p', text: `What that means practically for RBI compliance: when mistake 12 comes up in an examination - can you show the case trail connecting a fraud flag to a compliance decision - the answer exists, in one place, traceable from the original signal through to the documented outcome.` },
-      { type: 'p', text: `If you want to understand where your current operational coverage falls short of what the Master Direction now requires, the Verafye Risk Shadowing Review is a practical scoped starting point — no platform-replacement commitment required.` },
+      { type: 'p', text: `If you want to understand where your current operational coverage falls short of what the Master Direction now requires, the Verafye Risk Shadowing Review is a practical scoped starting point - no platform-replacement commitment required.` },
       { type: 'h2', text: `The Question Worth Answering Before an Examiner Asks It` },
       { type: 'p', text: `Pick any one of these twelve mistakes and ask whether your entity could produce documentation proving it is handled correctly today - not at the last audit cycle.` },
       { type: 'p', text: `If the honest answer involves checking with three different teams, the gap is not the mistake itself. It is not knowing you have it.` },

@@ -36,7 +36,7 @@ const pillars = [
       </svg>
     ),
     title: 'Customer Risk Intelligence',
-    body: 'KYC/KYB onboarding, CDD and EDD workflows, UBO resolution, customer and merchant risk scoring, and ongoing monitoring — giving regulated teams a structured view of customer risk from onboarding through lifecycle.',
+    body: 'KYC/KYB onboarding, CDD and EDD workflows, UBO resolution, customer and merchant risk scoring, and ongoing monitoring - giving regulated teams a structured view of customer risk from onboarding through lifecycle.',
     chips: ['KYC / KYB', 'CDD / EDD', 'UBO Resolution', 'Risk Scoring', 'Ongoing Monitoring'],
   },
   {
@@ -46,7 +46,7 @@ const pillars = [
       </svg>
     ),
     title: 'AML & Transaction Monitoring',
-    body: 'Configurable rules, AI-assisted behavioral detection, typology-based pattern recognition, and threshold management — tuned for payment-led AML teams running cross-border and domestic transaction risk.',
+    body: 'Configurable rules, AI-assisted behavioral detection, typology-based pattern recognition, and threshold management - tuned for payment-led AML teams running cross-border and domestic transaction risk.',
     chips: ['Rules Engine', 'AI Detection', 'Typology Patterns', 'Behavioral Analytics', 'Threshold Config'],
   },
   {
@@ -56,7 +56,7 @@ const pillars = [
       </svg>
     ),
     title: 'Fraud Prevention',
-    body: 'Payment fraud, card fraud, identity fraud, account takeover, and mule network detection — with device and behavior signal integration to surface coordinated fraud patterns across accounts and counterparties.',
+    body: 'Payment fraud, card fraud, identity fraud, account takeover, and mule network detection - with device and behavior signal integration to surface coordinated fraud patterns across accounts and counterparties.',
     chips: ['Payment Fraud', 'Account Takeover', 'Mule Detection', 'Device Signals', 'Behavioral Patterns'],
   },
   {
@@ -66,7 +66,7 @@ const pillars = [
       </svg>
     ),
     title: 'Screening',
-    body: 'Sanctions, PEP, and adverse media screening across 450+ lists via OpenSanctions and curated sources — with fuzzy matching, payment screening, and orchestration to premium providers for deeper coverage.',
+    body: 'Sanctions, PEP, and adverse media screening across 450+ lists via OpenSanctions and curated sources - with fuzzy matching, payment screening, and orchestration to premium providers for deeper coverage.',
     chips: ['450+ Sanctions Lists', 'PEP Screening', 'Adverse Media', 'Fuzzy Matching', 'Payment Screening'],
   },
   {
@@ -76,7 +76,7 @@ const pillars = [
       </svg>
     ),
     title: 'Investigation Intelligence',
-    body: 'Alert clustering, AI-assisted case context, analyst summaries, evidence packs, case workflows, reviewer controls, and regulatory reporting support — built around the investigator, not the alert queue.',
+    body: 'Alert clustering, AI-assisted case context, analyst summaries, evidence packs, case workflows, reviewer controls, and regulatory reporting support - built around the investigator, not the alert queue.',
     chips: ['Alert Clustering', 'Case Workflows', 'Evidence Packs', 'Reviewer Controls', 'SAR / STR Support'],
   },
   {
@@ -87,7 +87,7 @@ const pillars = [
       </svg>
     ),
     title: 'Decision Intelligence',
-    body: 'Entity resolution, graph analytics, multi-signal risk scoring, consortium intelligence, and signal ingestion — connecting signals from across your ecosystem into a unified intelligence architecture that feeds every investigation.',
+    body: 'Entity resolution, graph analytics, multi-signal risk scoring, consortium intelligence, and signal ingestion - connecting signals from across your ecosystem into a unified intelligence architecture that feeds every investigation.',
     chips: ['Entity Resolution', 'Graph Analytics', 'Signal Ingestion', 'Multi-Signal Scoring', 'Consortium Data'],
   },
   {
@@ -98,7 +98,7 @@ const pillars = [
       </svg>
     ),
     title: 'AI-Assisted Case Intelligence',
-    body: 'Case summaries and draft SAR narratives are generated from the complete cross-domain evidence pack — not only the fraud or AML view. Explainable AI and investigation assistance are embedded into the workflow so analysts spend less time assembling context and more time deciding.',
+    body: 'Case summaries and draft SAR narratives are generated from the complete cross-domain evidence pack - not only the fraud or AML view. Explainable AI and investigation assistance are embedded into the workflow so analysts spend less time assembling context and more time deciding.',
     chips: ['Case Summaries', 'Explainable AI', 'Investigation Assist', 'Narrative Generation', 'Human in Loop'],
   },
   {
@@ -108,7 +108,7 @@ const pillars = [
       </svg>
     ),
     title: 'Enterprise Platform',
-    body: 'APIs, SDKs, workflow automation, configurable dashboards, audit trails, and flexible deployment options — connecting into existing financial crime stacks without requiring a full infrastructure replacement.',
+    body: 'APIs, SDKs, workflow automation, configurable dashboards, audit trails, and flexible deployment options - connecting into existing financial crime stacks without requiring a full infrastructure replacement.',
     chips: ['APIs & SDKs', 'Workflow Automation', 'Audit Trails', 'Dashboards', 'Deployment Flexibility'],
   },
 ];
@@ -122,7 +122,7 @@ export default function CapabilitiesPage() {
         eyebrow="CAPABILITIES"
         seoH1="Fraud Detection & AML Capabilities"
         title="Eight capability domains for detection-to-decision financial crime operations"
-        description="Detection Intelligence, Investigation Intelligence, and Decision Intelligence in one platform — Connected-Risk network detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams."
+        description="Detection Intelligence, Investigation Intelligence, and Decision Intelligence in one platform - Connected-Risk network detection, alert clustering, case-ready evidence, and audit-ready decisions for fraud and AML teams."
         primaryCTA={{ label: 'Explore Risk Shadowing Review', href: '/risk-shadowing-review' }}
         secondaryCTA={{ label: 'Explore Platform', href: '/platform' }}
         visualCard={<CapabilitiesVisualCard />}
@@ -144,7 +144,7 @@ export default function CapabilitiesPage() {
               A connected capability stack for moving from signals and alerts into investigation and decision support.
             </h2>
             <p style={{fontSize: 'clamp(0.9375rem,1.75vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75}}>
-              Detection can originate within Verafye or arrive from existing controls. In either case, the same entity-resolution, network-intelligence and investigation architecture carries the signal forward. Verafye brings together signal ingestion, integrations, configurable workflows, alert clustering, graph intelligence, case workflows, reviewer controls, evidence packs, and audit trails — giving lean teams a practical operating workspace for fraud and AML investigations, from signal origination to case closure.
+              Detection can originate within Verafye or arrive from existing controls. In either case, the same entity-resolution, network-intelligence and investigation architecture carries the signal forward. Verafye brings together signal ingestion, integrations, configurable workflows, alert clustering, graph intelligence, case workflows, reviewer controls, evidence packs, and audit trails - giving lean teams a practical operating workspace for fraud and AML investigations, from signal origination to case closure.
             </p>
           </div>
         </div>
@@ -209,7 +209,7 @@ export default function CapabilitiesPage() {
                 Eight capability domains. One connected platform.
               </h2>
               <p style={{fontSize: 'clamp(0.9rem,1.6vw,1.0625rem)', color: 'var(--body)', lineHeight: 1.7}}>
-                Every pillar is designed to work independently or as part of a connected fraud, AML, and risk workflow — without requiring a full infrastructure replacement.
+                Every pillar is designed to work independently or as part of a connected fraud, AML, and risk workflow - without requiring a full infrastructure replacement.
               </p>
             </div>
 
@@ -313,7 +313,7 @@ export default function CapabilitiesPage() {
                 </div>
                 <h3 style={{fontSize: '1.0625rem', fontWeight: 700, color: 'var(--dark)', marginBottom: '0.625rem', lineHeight: 1.2}}>Originate or Ingest Risk Signals</h3>
                 <p style={{fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.65, marginBottom: '1rem', flex: 1}}>
-                  Native detection from raw activity, or external suspicion from existing controls — both paths feed the same Connected-Risk Intelligence architecture
+                  Native detection from raw activity, or external suspicion from existing controls - both paths feed the same Connected-Risk Intelligence architecture
                 </p>
                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: 'auto'}}>
                   {['Fraud','AML','Payments','Identity','Device','KYC/KYB','Watchlist'].map(t => (

@@ -28,7 +28,7 @@ const useCases = [
     hierarchy: 'FLAGSHIP USE CASE',
     eyebrow: 'Detection',
     title: 'Mule Network Intelligence',
-    description: 'Account-level mule signals reveal the individual. Connected-Risk Intelligence reveals the ring. Verafye connects both into one investigation — exposing coordinated fraud clusters across accounts, devices, identities, and transactions.',
+    description: 'Account-level mule signals reveal the individual. Connected-Risk Intelligence reveals the ring. Verafye connects both into one investigation - exposing coordinated fraud clusters across accounts, devices, identities, and transactions.',
     href: '/use-cases/mule-network-detection',
     cta: 'Explore mule detection',
     icon: (
@@ -45,7 +45,7 @@ const useCases = [
     hierarchy: 'CORE CONNECTED-RISK USE CASE',
     eyebrow: 'Convergence',
     title: 'Connected-Risk Investigation',
-    description: 'Fraud teams and AML teams often catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface — so the analyst working a fraud alert sees the AML dimension, and vice versa, without switching systems.',
+    description: 'Fraud teams and AML teams often catch different pieces of the same crime. Verafye brings both signal sets into a shared investigation surface - so the analyst working a fraud alert sees the AML dimension, and vice versa, without switching systems.',
     href: '/use-cases/fraud-aml-investigations',
     cta: 'Explore Connected-Risk Investigation',
     icon: (
@@ -61,7 +61,7 @@ const useCases = [
     hierarchy: 'OPERATIONAL EXPANSION',
     eyebrow: 'Investigation',
     title: 'Investigation Workflow Modernization',
-    description: 'Alert backlogs grow when investigators spend time assembling context rather than making decisions. Verafye pre-assembles cases, clusters related alerts, and delivers structured workflows — so analysts investigate, not excavate.',
+    description: 'Alert backlogs grow when investigators spend time assembling context rather than making decisions. Verafye pre-assembles cases, clusters related alerts, and delivers structured workflows - so analysts investigate, not excavate.',
     href: '/use-cases/investigation-workflow-modernization',
     cta: 'Explore investigation workflows',
     icon: (
@@ -80,7 +80,7 @@ const useCases = [
     hierarchy: 'EXPANDED RESPONSIBILITY',
     eyebrow: 'Monitoring',
     title: 'Transaction Monitoring & Continuous Risk Monitoring',
-    description: 'Alert quality suffers when monitoring runs on transaction data alone. Verafye brings entity relationships, behavioral patterns, and cross-system context into every alert — improving alert signal quality and surfacing the signals that warrant investigation.',
+    description: 'Alert quality suffers when monitoring runs on transaction data alone. Verafye brings entity relationships, behavioral patterns, and cross-system context into every alert - improving alert signal quality and surfacing the signals that warrant investigation.',
     href: '/use-cases/transaction-monitoring',
     cta: 'Explore transaction monitoring',
     icon: (
@@ -149,7 +149,7 @@ export default function UseCasesPage() {
               Start with Connected-Risk Intelligence. Expand responsibility where value is proven.
             </h1>
             <p className="animate-fade-up delay-200" style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', maxWidth: '44rem', marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.7 }}>
-              Verafye addresses the specific workflows where financial crime teams lose time, miss connections, and carry unnecessary risk — across fraud, AML, payments, and investigations.
+              Verafye addresses the specific workflows where financial crime teams lose time, miss connections, and carry unnecessary risk - across fraud, AML, payments, and investigations.
             </p>
           </div>
         </div>
@@ -297,7 +297,7 @@ export default function UseCasesPage() {
             </div>
 
             <p style={{ fontSize: '0.8125rem', color: 'var(--muted)', textAlign: 'center', marginTop: '1.25rem' }}>
-              All use cases run on a single connected platform — no siloed deployments or duplicate data pipelines.{' '}
+              All use cases run on a single connected platform - no siloed deployments or duplicate data pipelines.{' '}
               <Link href="/capabilities" style={{ color: 'var(--primary)', fontWeight: 500 }}>See all capability pillars →</Link>
             </p>
           </div>
@@ -356,7 +356,7 @@ export default function UseCasesPage() {
               Test Verafye against your real environment
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.75, marginBottom: '2rem' }}>
-              A Risk Shadowing Review can begin with existing alerts and suspicions from your current controls — assessing the connected intelligence Verafye adds around each — or evaluate Verafye-native detection against your actual transaction and entity data. Either way, it maps connected risk across entities, relationships, and signals, and produces an evidence-based comparison using your real data. No sales pitch. No synthetic data.
+              A Risk Shadowing Review can begin with existing alerts and suspicions from your current controls - assessing the connected intelligence Verafye adds around each - or evaluate Verafye-native detection against your actual transaction and entity data. Either way, it maps connected risk across entities, relationships, and signals, and produces an evidence-based comparison using your real data. No sales pitch. No synthetic data.
             </p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
               <Link

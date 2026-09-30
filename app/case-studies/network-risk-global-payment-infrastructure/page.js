@@ -80,7 +80,7 @@ export default function CaseStudyPage() {
               Embedding Network Risk Intelligence into Global Payment Infrastructure
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem' }}>
-              A payment infrastructure provider operating across multiple rails and jurisdictions must maintain a consistent risk and compliance view even when transactions pass through different partners, currencies, and payment methods. Individual KYC, sanctions, and transaction controls provide signals — but those signals need to be connected into an investigation-ready view.
+              A payment infrastructure provider operating across multiple rails and jurisdictions must maintain a consistent risk and compliance view even when transactions pass through different partners, currencies, and payment methods. Individual KYC, sanctions, and transaction controls provide signals - but those signals need to be connected into an investigation-ready view.
             </p>
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function CaseStudyPage() {
             <CheckList items={[
               'Connected customer and counterparty analysis across rails and operating entities.',
               'Transaction and payout risk evaluation using configurable rules and network scoring.',
-              'Relationship and network discovery — surfacing how customers, accounts, and counterparties are linked.',
+              'Relationship and network discovery - surfacing how customers, accounts, and counterparties are linked.',
               'Consolidation of related alerts and events into investigation cases.',
               'Investigation workflows with evidence capture and reviewer action logging.',
               'Explainable escalation rationale documented for each case.',
@@ -180,7 +180,7 @@ export default function CaseStudyPage() {
                   First connected-risk outputs across primary payment rails in the initial agreed scope
                 </p>
                 <p style={{ fontSize: '0.875rem', color: 'var(--body)', lineHeight: 1.7, margin: 0 }}>
-                  Network Risk Intelligence deployed through API-led integration, with risk rules and investigation workflows operationalised across initial tenant programs in the first phase — beginning with agreed data feeds and expanding progressively. Timing subject to data readiness and integration completion.
+                  Network Risk Intelligence deployed through API-led integration, with risk rules and investigation workflows operationalised across initial tenant programs in the first phase - beginning with agreed data feeds and expanding progressively. Timing subject to data readiness and integration completion.
                 </p>
               </div>
             </div>

@@ -50,6 +50,8 @@ function applyGtmConsent(consent) {
     window.gtag('consent', 'update', {
       analytics_storage:       consent.analytics       ? 'granted' : 'denied',
       ad_storage:              consent.advertising     ? 'granted' : 'denied',
+      ad_user_data:            consent.advertising     ? 'granted' : 'denied',
+      ad_personalization:      consent.advertising     ? 'granted' : 'denied',
       personalization_storage: consent.personalization ? 'granted' : 'denied',
     });
   }

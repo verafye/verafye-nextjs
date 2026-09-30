@@ -86,14 +86,14 @@ export default function TransactionMonitoringPage() {
                   badge: 'Most common',
                   badgeColor: 'var(--primary)',
                   accentColor: '#1E6FB7',
-                  description: 'Your existing TM system stays in place. Verafye connects alongside it and adds entity graph, network context, device and behavioural signals to each alert — improving investigation quality without changing your monitoring programme.',
+                  description: 'Your existing TM system stays in place. Verafye connects alongside it and adds entity graph, network context, device and behavioural signals to each alert - improving investigation quality without changing your monitoring programme.',
                   fit: 'Institutions with existing TM investment seeking stronger connected-risk context around each suspicion',
                 },
                 {
                   mode: 'Verafye-led Monitoring',
                   badge: null,
                   accentColor: '#7C3AED',
-                  description: 'Run transaction monitoring natively within Verafye — rules engine, AI-based detection, typology patterns, and behavioural analytics in one platform, from alert creation through case closure.',
+                  description: 'Run transaction monitoring natively within Verafye - rules engine, AI-based detection, typology patterns, and behavioural analytics in one platform, from alert creation through case closure.',
                   fit: 'Institutions building a new monitoring programme or replacing a legacy stack',
                 },
                 {
@@ -101,7 +101,7 @@ export default function TransactionMonitoringPage() {
                   badge: 'How RSR starts',
                   badgeColor: '#059669',
                   accentColor: '#059669',
-                  description: 'Run Verafye alongside your existing monitoring on actual transaction data — without any commitment to change. Risk Shadowing produces a direct comparison to determine whether connected context adds material incremental intelligence.',
+                  description: 'Run Verafye alongside your existing monitoring on actual transaction data - without any commitment to change. Risk Shadowing produces a direct comparison to determine whether connected context adds material incremental intelligence.',
                   fit: 'Institutions evaluating monitoring coverage or considering modernisation',
                 },
               ].map(item => (
@@ -142,7 +142,7 @@ export default function TransactionMonitoringPage() {
                 Rule-Based Monitoring Can Create High Investigation Cost Without Enough Context
               </h2>
               <p style={{ fontSize: 'clamp(0.875rem,1.5vw,1.125rem)', color: 'var(--body)', lineHeight: 1.75 }}>
-                Transaction monitoring is one of the highest-cost, lowest-signal functions in financial crime operations for many institutions. Legacy monitoring stacks generate large alert volumes, yet many of those alerts do not lead to substantive investigations — consuming analyst capacity without proportionate improvement in risk detection or compliance outcomes. Transaction monitoring is also a non-discretionary AML obligation: regulators expect institutions to demonstrate effective controls, proportionate coverage, and the documented decision trails that examiners scrutinise during review.
+                Transaction monitoring is one of the highest-cost, lowest-signal functions in financial crime operations for many institutions. Legacy monitoring stacks generate large alert volumes, yet many of those alerts do not lead to substantive investigations - consuming analyst capacity without proportionate improvement in risk detection or compliance outcomes. Transaction monitoring is also a non-discretionary AML obligation: regulators expect institutions to demonstrate effective controls, proportionate coverage, and the documented decision trails that examiners scrutinise during review.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>

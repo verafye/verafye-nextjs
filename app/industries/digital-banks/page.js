@@ -17,12 +17,12 @@ export const metadata = {
   ],
   openGraph: {
     title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
-    description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations — surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
+    description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations - surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
   },
   twitter: {
     card: 'summary_large_image',
     title: "Fraud Prevention  for Digital Banks & Neo Banks | Real-Time Protection",
-    description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations — surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
+    description: "Verafye helps digital banking risk teams connect onboarding, account, device, payment, wallet, transaction, fraud, and AML signals into explainable investigations - surfacing synthetic identity patterns, account farming, mule activity, scam flows, and beneficiary-linked risk faster.",
   },
   alternates: {
     canonical: 'https://www.verafye.com/industries/digital-banks',

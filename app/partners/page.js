@@ -84,7 +84,7 @@ export default function PartnersPage() {
                   </svg>
                 ),
                 title: 'Extend Existing Risk Signals',
-                body: 'Connected-Risk Intelligence gives partners a focused way to extend existing fraud, AML, payment and risk signals into connected investigation context—without requiring the partner or customer platform to be displaced first.',
+                body: 'Connected-Risk Intelligence gives partners a focused way to extend existing fraud, AML, payment and risk signals into connected investigation context - without requiring the partner or customer platform to be displaced first.',
               },
               {
                 gradient: 'gradient-bg-3',
@@ -165,7 +165,7 @@ export default function PartnersPage() {
                   </svg>
                 ),
                 title: 'Technology and Data Partners',
-                body: 'Partners can integrate with Verafye in either direction: contribute specialist risk signals — identity, device, payment, or risk data — into Connected-Risk Intelligence, or incorporate Verafye-native detection and investigation capabilities into a broader customer solution.',
+                body: 'Partners can integrate with Verafye in either direction: contribute specialist risk signals - identity, device, payment, or risk data - into Connected-Risk Intelligence, or incorporate Verafye-native detection and investigation capabilities into a broader customer solution.',
                 tags: ['API integration', 'Joint solutions', 'Ecosystem'],
               },
               {

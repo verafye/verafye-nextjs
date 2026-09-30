@@ -3,7 +3,7 @@ import { IconArrowRight, IconCheck } from './Icons';
 
 export default function CTA({ title, subtitle, showBullets = true }) {
   const defaultTitle = 'See the risk around what you already know is suspicious.';
-  const defaultSubtitle = 'A Risk Shadowing engagement applies Verafye to your existing alerts and data — so you can measure the incremental Connected-Risk Intelligence it adds before changing your stack.';
+  const defaultSubtitle = 'A Risk Shadowing engagement applies Verafye to your existing alerts and data - so you can measure the incremental Connected-Risk Intelligence it adds before changing your stack.';
 
   return (
     <section className="cta-section">

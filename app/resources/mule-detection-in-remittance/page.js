@@ -92,7 +92,7 @@ export default function ArticlePage() {
               Mule Network Detection in Remittance and Cross-Border Payment Operations
             </h1>
             <p style={{ fontSize: 'clamp(1rem,2vw,1.1875rem)', color: 'var(--body)', lineHeight: 1.8, fontWeight: 400, borderLeft: '3px solid var(--primary)', paddingLeft: '1.25rem', marginLeft: 0 }}>
-              In remittance and cross-border payment platforms, mule networks operate differently from those seen in retail banking. They exploit transaction volume, corridor complexity, and the cross-border nature of money movement to distribute activity and avoid detection — often staying invisible until the pattern is viewed at the network level.
+              In remittance and cross-border payment platforms, mule networks operate differently from those seen in retail banking. They exploit transaction volume, corridor complexity, and the cross-border nature of money movement to distribute activity and avoid detection - often staying invisible until the pattern is viewed at the network level.
             </p>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function ArticlePage() {
               For compliance and fraud teams at MSBs and remittance platforms, mule network detection presents a specific challenge: the legitimate business generates high volumes of small cross-border payments from many senders, and mule activity deliberately mimics that pattern.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              The signals that distinguish mule activity from legitimate remittance are rarely visible in a single transaction. They emerge from connections — between senders, accounts, devices, beneficiaries, and corridors — that require a connected investigation approach to surface.
+              The signals that distinguish mule activity from legitimate remittance are rarely visible in a single transaction. They emerge from connections - between senders, accounts, devices, beneficiaries, and corridors - that require a connected investigation approach to surface.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -120,7 +120,7 @@ export default function ArticlePage() {
               'Recruited mules who use their legitimate identities to send funds to a central beneficiary, with individual amounts kept below reporting thresholds.',
               'Networks of accounts that receive funds locally, then forward them internationally through legitimate remittance channels to obscure the origin.',
               'Accounts onboarded with genuine documents that show normal behaviour for a short period before being activated for mule activity.',
-              'Beneficiary accounts in destination countries that receive from multiple, apparently unrelated senders — functioning as the aggregation point for the network.',
+              'Beneficiary accounts in destination countries that receive from multiple, apparently unrelated senders - functioning as the aggregation point for the network.',
               'Funds moving through chains of two or three accounts in different jurisdictions to create distance between origin and destination.',
               'Coordinated activity across multiple MSB agents or digital remittance channels, with each leg appearing normal in isolation.',
             ]} />
@@ -135,30 +135,30 @@ export default function ArticlePage() {
               Several features of cross-border remittance make mule detection more difficult than in domestic retail banking:
             </p>
             <BulletList items={[
-              'Transaction volumes are high and individual amounts are small — mule activity is naturally camouflaged within the normal payment mix.',
+              'Transaction volumes are high and individual amounts are small - mule activity is naturally camouflaged within the normal payment mix.',
               'Corridors span multiple regulatory jurisdictions, with limited visibility into what happens at the receiving end of a transfer.',
               'Customer relationships are often transactional rather than relationship-based, so behavioural baseline data is thinner.',
               'Onboarding due diligence may rely on document verification without the broader identity context that would flag a recruited mule.',
-              'The same beneficiary may legitimately receive from multiple senders — a normal feature of family remittances that mule networks exploit.',
+              'The same beneficiary may legitimately receive from multiple senders - a normal feature of family remittances that mule networks exploit.',
               'Multiple MSB agents or partner channels operate independently, reducing visibility into cross-agent patterns.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              These conditions mean that detection approaches designed for retail banking — velocity rules, single-account behavioural monitoring, threshold-based alerts — are structurally less effective in MSB and remittance environments without a network-level component.
+              These conditions mean that detection approaches designed for retail banking - velocity rules, single-account behavioural monitoring, threshold-based alerts - are structurally less effective in MSB and remittance environments without a network-level component.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
               The Signals That Connect Mule Activity in Remittance
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              Mule networks leave traces that connect participants — even when they are deliberately trying to operate without visible links. Key signal types include:
+              Mule networks leave traces that connect participants - even when they are deliberately trying to operate without visible links. Key signal types include:
             </p>
             <BulletList items={[
-              'Shared device fingerprints or IP addresses across multiple sender accounts — indicating that ostensibly different senders may be managed by the same operator.',
-              'Identity attribute clustering — shared phone numbers, email formats, residential address patterns, or document sequences that link accounts at onboarding.',
-              'Beneficiary concentration — multiple unrelated senders directing funds to the same receiving account or narrow set of beneficiaries in the destination country.',
-              'Behavioural synchronisation — multiple sender accounts showing similar transaction timing, amount patterns, or corridor preferences that are statistically unlikely to be coincidental.',
-              'Corridor and network patterns — funds flowing through the same chain of intermediary accounts across multiple transactions.',
-              'Sudden onset of activity — accounts with little or no prior transaction history becoming active within a short window, often with similar characteristics.',
+              'Shared device fingerprints or IP addresses across multiple sender accounts - indicating that ostensibly different senders may be managed by the same operator.',
+              'Identity attribute clustering - shared phone numbers, email formats, residential address patterns, or document sequences that link accounts at onboarding.',
+              'Beneficiary concentration - multiple unrelated senders directing funds to the same receiving account or narrow set of beneficiaries in the destination country.',
+              'Behavioural synchronisation - multiple sender accounts showing similar transaction timing, amount patterns, or corridor preferences that are statistically unlikely to be coincidental.',
+              'Corridor and network patterns - funds flowing through the same chain of intermediary accounts across multiple transactions.',
+              'Sudden onset of activity - accounts with little or no prior transaction history becoming active within a short window, often with similar characteristics.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
               None of these signals is conclusive on its own. Together, they form a network picture that gives investigators a structured hypothesis to work from rather than an isolated alert to triage.
@@ -168,7 +168,7 @@ export default function ArticlePage() {
               From Isolated Alerts to Network-Level Investigation
             </h2>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
-              The operational consequence of alert-only detection in this environment is that mule rings generate multiple alerts — one per sender, one per account — that are reviewed individually and never connected. An investigator reviewing a single sender account may close the case as low-risk, unaware that eleven other accounts in the same network generated similar alerts the same week.
+              The operational consequence of alert-only detection in this environment is that mule rings generate multiple alerts - one per sender, one per account - that are reviewed individually and never connected. An investigator reviewing a single sender account may close the case as low-risk, unaware that eleven other accounts in the same network generated similar alerts the same week.
             </p>
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1rem' }}>
               A network-level approach changes the starting point. Instead of reviewing individual alerts, investigators work from connected case clusters that show the full picture: which accounts are linked, what the beneficiary aggregation pattern looks like, how transaction timing correlates across the network, and what the entity relationships are.
@@ -185,14 +185,14 @@ export default function ArticlePage() {
             </p>
             <BulletList items={[
               'The set of sender accounts suspected to be part of the network, with their transaction histories and alert context.',
-              'Entity relationships — how accounts are linked through shared identity, device, or behavioural attributes.',
-              'Beneficiary mapping — the full picture of where funds are going across the network, including intermediary accounts.',
-              'Transaction timeline — when activity intensified, how it correlates across accounts, and whether it aligns with known risk events.',
+              'Entity relationships - how accounts are linked through shared identity, device, or behavioural attributes.',
+              'Beneficiary mapping - the full picture of where funds are going across the network, including intermediary accounts.',
+              'Transaction timeline - when activity intensified, how it correlates across accounts, and whether it aligns with known risk events.',
               'Prior case and SAR history for all involved entities.',
               'Investigator analysis and escalation rationale, documented in a structured format that can support SAR narrative and regulatory examination.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Building this view from disconnected systems — transaction platforms, onboarding records, device logs, prior case files — introduces time delays, inconsistencies, and coverage gaps. When these signals are connected from the start of an investigation rather than assembled manually, the result is a more complete and defensible case record.
+              Building this view from disconnected systems - transaction platforms, onboarding records, device logs, prior case files - introduces time delays, inconsistencies, and coverage gaps. When these signals are connected from the start of an investigation rather than assembled manually, the result is a more complete and defensible case record.
             </p>
 
             <h2 style={{ fontSize: 'clamp(1.125rem,2.5vw,1.5rem)', fontWeight: 700, color: 'var(--dark)', marginBottom: '1rem', marginTop: '2.5rem', letterSpacing: '-0.015em' }}>
@@ -202,14 +202,14 @@ export default function ArticlePage() {
               Verafye is built for regulated payment platforms including MSBs and remittance operators. Its network-level architecture connects payment, identity, device, beneficiary, and behavioral signals into network-level investigation cases. For mule network detection specifically:
             </p>
             <BulletList items={[
-              'Entity resolution links sender accounts that share identity attributes, contact details, or device signals — even where the same individual appears under different records.',
+              'Entity resolution links sender accounts that share identity attributes, contact details, or device signals - even where the same individual appears under different records.',
               'Beneficiary-centric clustering surfaces the aggregation points of a mule network in the destination country, connecting multiple senders to the same ultimate recipient.',
               'Behavioral synchronisation detection identifies accounts showing correlated activity patterns that suggest coordinated operation.',
               'Alert clustering groups related fraud and AML alerts across a network into a single investigation case rather than separate queue items.',
-              'Connected evidence trail documents the full network picture — accounts, relationships, transactions, and decisions — in a format that supports SAR filing and examination response.',
+              'Connected evidence trail documents the full network picture - accounts, relationships, transactions, and decisions - in a format that supports SAR filing and examination response.',
             ]} />
             <p style={{ fontSize: '1rem', color: 'var(--body)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
-              For MSBs and remittance platforms managing high transaction volumes with lean compliance teams, the ability to surface mule networks before they have fully exploited the platform — and to document investigations in an examination-ready format — is where Verafye delivers the most direct operational benefit.
+              For MSBs and remittance platforms managing high transaction volumes with lean compliance teams, the ability to surface mule networks before they have fully exploited the platform - and to document investigations in an examination-ready format - is where Verafye delivers the most direct operational benefit.
             </p>
 
             <div style={{ background: 'var(--bg-blue)', border: '1px solid rgba(30,111,183,0.14)', borderRadius: '0.75rem', padding: '1.75rem 2rem', marginBottom: '2rem' }}>

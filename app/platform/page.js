@@ -35,8 +35,8 @@ export default function PlatformPage() {
   eyebrow="VERAFYE PLATFORM"
   seoH1="Financial Crime Detection Platform"
   title="Connected-Risk Intelligence for fraud, AML, and payment risk teams"
-  description="Verafye is a Connected-Risk Intelligence platform that originates risk signals through native detection or begins with suspicion from existing controls — turning either into network-mapped, investigation-ready intelligence, built for PSPs, MSBs, and payment fintechs operating under regulatory complexity."
-  body="Connect selected data sources or ingest existing alerts and suspicions, resolve entities, map network-level risk across relevant relationships, and carry that context into investigation and decisioning — without replacing your existing control stack first."
+  description="Verafye is a Connected-Risk Intelligence platform that originates risk signals through native detection or begins with suspicion from existing controls - turning either into network-mapped, investigation-ready intelligence, built for PSPs, MSBs, and payment fintechs operating under regulatory complexity."
+  body="Connect selected data sources or ingest existing alerts and suspicions, resolve entities, map network-level risk across relevant relationships, and carry that context into investigation and decisioning - without replacing your existing control stack first."
   primaryCTA={{ label: 'Explore Risk Shadowing', href: '/risk-shadowing-review' }}
   secondaryCTA={{ label: 'Explore Capabilities', href: '/capabilities' }}
   visualCard={<PlatformVisualCard />}
@@ -106,7 +106,7 @@ export default function PlatformPage() {
       <div style={{'background':'#fff','border':'1.5px solid var(--border)','borderRadius':'14px','padding':'1.25rem','overflow':'hidden'}}>
         <div style={{'fontSize':'0.625rem','fontWeight':'700','textTransform':'uppercase','letterSpacing':'0.1em','color':'#94A3B8','marginBottom':'0.875rem','display':'flex','alignItems':'center','gap':'6px'}}>
           <div style={{'width':'7px','height':'7px','borderRadius':'50%','background':'#CBD5E1'}}></div>
-          Before — Fragmented signals
+          Before - Fragmented signals
         </div>
         <svg viewBox="0 0 300 230" xmlns="http://www.w3.org/2000/svg" width="100%" style={{'display':'block'}}>
           {/* Silo backgrounds */}
@@ -175,7 +175,7 @@ export default function PlatformPage() {
       <div style={{'background':'linear-gradient(145deg,#EFF6FF 0%,#F0F9FF 60%,#F8FBFF 100%)','border':'1.5px solid #BFDBFE','borderRadius':'14px','padding':'1.25rem','overflow':'hidden'}}>
         <div style={{'fontSize':'0.625rem','fontWeight':'700','textTransform':'uppercase','letterSpacing':'0.1em','color':'var(--primary)','marginBottom':'0.875rem','display':'flex','alignItems':'center','gap':'6px'}}>
           <div style={{'width':'7px','height':'7px','borderRadius':'50%','background':'var(--primary)'}}></div>
-          After — Connected risk picture
+          After - Connected risk picture
         </div>
         <svg viewBox="0 0 300 230" xmlns="http://www.w3.org/2000/svg" width="100%" style={{'display':'block'}}>
           <defs>
@@ -241,7 +241,7 @@ export default function PlatformPage() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
         </div>
         <div>
-          <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'#fff','marginBottom':'0.125rem'}}>Investigation-ready evidence pack — first outputs within 1–2 weeks, subject to data readiness</p>
+          <p style={{'fontSize':'0.875rem','fontWeight':'700','color':'#fff','marginBottom':'0.125rem'}}>Investigation-ready evidence pack - first outputs within 1–2 weeks, subject to data readiness</p>
           <p style={{'fontSize':'0.75rem','color':'rgba(255,255,255,0.7)'}}>Linked entities · Risk indicators · Analyst review steps · Audit-ready summary</p>
         </div>
       </div>
@@ -259,7 +259,7 @@ export default function PlatformPage() {
     <div style={{'textAlign':'center','maxWidth':'56rem','margin':'0 auto 2.5rem'}}>
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>HOW IT WORKS</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'0.875rem'}}>From signals to outcomes - one connected flow</h2>
-      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye surfaces Connected-Risk Intelligence through entity resolution, risk scoring, relationship mapping, and signal correlation — then carries that context through clustering, investigation, and audit-ready decisioning in one connected flow. Detection-capable and investigation-first, built to connect selected data sources into a unified risk intelligence workflow.</p>
+      <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.7}}>Verafye surfaces Connected-Risk Intelligence through entity resolution, risk scoring, relationship mapping, and signal correlation - then carries that context through clustering, investigation, and audit-ready decisioning in one connected flow. Detection-capable and investigation-first, built to connect selected data sources into a unified risk intelligence workflow.</p>
     </div>
 
     {/* Horizontal flow - scrollable on mobile */}
@@ -273,7 +273,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>01 · Signal Origin</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Originate or Ingest Risk Signals</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Start with raw transaction, account, device and behavioural events for Verafye-native detection — or ingest alerts and suspicions from existing fraud, AML, KYC, screening and risk systems via API.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Start with raw transaction, account, device and behavioural events for Verafye-native detection - or ingest alerts and suspicions from existing fraud, AML, KYC, screening and risk systems via API.</p>
         </div>
 
         {/* Arrow */}
@@ -303,7 +303,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#0891B2','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>03 · Detect</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Detect Network Risk</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Network-level intelligence, risk scoring, relationship analysis, and signal correlation surface relevant connected relationships and network context — including mule patterns and coordinated risk across connected entities.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Network-level intelligence, risk scoring, relationship analysis, and signal correlation surface relevant connected relationships and network context - including mule patterns and coordinated risk across connected entities.</p>
         </div>
 
         {/* Arrow */}
@@ -348,7 +348,7 @@ export default function PlatformPage() {
           </div>
           <div style={{'fontSize':'0.5625rem','fontWeight':'700','color':'#1E6FB7','textTransform':'uppercase','letterSpacing':'0.1em','marginBottom':'0.5rem'}}>06 · Decide</div>
           <h3 style={{'fontSize':'0.9375rem','fontWeight':'700','color':'var(--dark)','marginBottom':'0.5rem','lineHeight':1.3}}>Decide & Record</h3>
-          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Analysts carry connected context into review and decision — with every action, rationale, and evidence reference captured in structured, audit-ready records.</p>
+          <p style={{'fontSize':'0.8125rem','color':'var(--body)','lineHeight':1.6}}>Analysts carry connected context into review and decision - with every action, rationale, and evidence reference captured in structured, audit-ready records.</p>
         </div>
 
       </div>
@@ -409,7 +409,7 @@ export default function PlatformPage() {
         { stage: '01', label: 'Shadow', desc: 'Connect selected data feeds. Run Verafye in observation mode. Receive an investigation-ready evidence pack with network risk findings from your live data.' },
         { stage: '02', label: 'Augment', desc: 'Verafye risk context surfaces within investigation workflows. Teams begin actioning Verafye-led clusters and investigation-ready cases.' },
         { stage: '03', label: 'Operate', desc: 'Verafye becomes the primary investigation workspace. Detection, case formation, and audit-ready decisions run through the Verafye platform.' },
-        { stage: '04', label: 'Consolidate', desc: 'Expand Verafye into the primary investigation and evidence environment for selected, agreed use cases — an optional destination, not a universal replacement.' },
+        { stage: '04', label: 'Consolidate', desc: 'Expand Verafye into the primary investigation and evidence environment for selected, agreed use cases - an optional destination, not a universal replacement.' },
       ].map(item => (
         <div key={item.stage} style={{'background':'#fff','border':'1px solid var(--border)','borderRadius':'12px','padding':'1.5rem'}}>
           <div style={{'fontSize':'0.5625rem','fontWeight':'800','color':'var(--primary)','letterSpacing':'0.1em','textTransform':'uppercase','marginBottom':'0.5rem'}}>{item.stage}</div>
@@ -489,12 +489,12 @@ export default function PlatformPage() {
       <p className="eyebrow" style={{'marginBottom':'0.75rem'}}>INVESTIGATION INTELLIGENCE</p>
       <h2 style={{'fontSize':'clamp(1.5rem,4vw,3rem)','fontWeight':'700','color':'var(--dark)','letterSpacing':'-0.025em','marginBottom':'1.25rem'}}>Investigation Intelligence Architecture</h2>
       <p style={{'fontSize':'clamp(0.9375rem,1.8vw,1.0625rem)','color':'var(--body)','lineHeight':1.75,'marginBottom':'1.5rem'}}>
-        Most platforms add intelligence as a separate layer. Verafye builds it in — at signal ingestion, entity resolution, graph reasoning, detection, investigation, and evidence generation. Graph reasoning, alert correlation, case context, and audit trails are native capabilities at every stage, not bolt-ons.
+        Most platforms add intelligence as a separate layer. Verafye builds it in - at signal ingestion, entity resolution, graph reasoning, detection, investigation, and evidence generation. Graph reasoning, alert correlation, case context, and audit trails are native capabilities at every stage, not bolt-ons.
       </p>
 
     </div>
 
-    {/* Architecture 4-stage flow — 1×4 grid, no scroll */}
+    {/* Architecture 4-stage flow - 1×4 grid, no scroll */}
     <div className="arch-card-grid" style={{'display':'grid','gridTemplateColumns':'repeat(4,1fr)','gap':'1.25rem','maxWidth':'80rem','margin':'0 auto'}}>
 
       {/* Stage 1 - Signals In */}
@@ -635,7 +635,7 @@ export default function PlatformPage() {
         What an evidence pack looks like
       </h2>
       <p style={{'fontSize':'clamp(1rem,2vw,1.125rem)','color':'var(--body)','lineHeight':1.75}}>
-        Each case Verafye surfaces includes a connected entity cluster, a time-ordered event trail, and a structured escalation rationale — so analysts start with a connected, investigation-ready view, not a stack of disconnected alerts.
+        Each case Verafye surfaces includes a connected entity cluster, a time-ordered event trail, and a structured escalation rationale - so analysts start with a connected, investigation-ready view, not a stack of disconnected alerts.
       </p>
     </div>
 
@@ -645,7 +645,7 @@ export default function PlatformPage() {
       {/* Pack header */}
       <div style={{'background':'var(--bg-tint)','borderBottom':'1px solid var(--border)','padding':'0.875rem 1.5rem','display':'flex','alignItems':'center','justifyContent':'space-between','flexWrap':'wrap','gap':'0.75rem'}}>
         <div style={{'display':'flex','alignItems':'center','gap':'0.75rem','flexWrap':'wrap'}}>
-          <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--dark)'}}>Case #2847 — Evidence Pack</span>
+          <span style={{'fontSize':'0.8125rem','fontWeight':'600','color':'var(--dark)'}}>Case #2847 - Evidence Pack</span>
           <span style={{'fontSize':'0.6875rem','fontWeight':'600','padding':'0.2rem 0.625rem','borderRadius':'999px','background':'rgba(30,111,183,0.08)','color':'var(--primary)','border':'1px solid rgba(30,111,183,0.15)'}}>Mule network</span>
           <span style={{'fontSize':'0.6875rem','fontWeight':'600','padding':'0.2rem 0.625rem','borderRadius':'999px','background':'rgba(220,38,38,0.07)','color':'#DC2626','border':'1px solid rgba(220,38,38,0.15)'}}>High risk</span>
           <span style={{'fontSize':'0.6875rem','fontWeight':'600','padding':'0.2rem 0.625rem','borderRadius':'999px','background':'rgba(5,150,105,0.07)','color':'#059669','border':'1px solid rgba(5,150,105,0.15)'}}>Investigation-ready</span>
@@ -660,7 +660,7 @@ export default function PlatformPage() {
       {/* Three-panel layout */}
       <div style={{'display':'grid','gridTemplateColumns':'repeat(3,1fr)','borderBottom':'1px solid var(--border)'}}>
 
-        {/* Panel 1 — Entity cluster */}
+        {/* Panel 1 - Entity cluster */}
         <div style={{'borderRight':'1px solid var(--border)','padding':'1.25rem'}}>
           <p style={{'fontSize':'0.625rem','fontWeight':'700','textTransform':'uppercase','letterSpacing':'0.09em','color':'var(--muted)','marginBottom':'0.875rem','display':'flex','alignItems':'center','gap':'0.375rem'}}>
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg>
@@ -700,7 +700,7 @@ export default function PlatformPage() {
           </div>
         </div>
 
-        {/* Panel 2 — Case timeline */}
+        {/* Panel 2 - Case timeline */}
         <div style={{'borderRight':'1px solid var(--border)','padding':'1.25rem'}}>
           <p style={{'fontSize':'0.625rem','fontWeight':'700','textTransform':'uppercase','letterSpacing':'0.09em','color':'var(--muted)','marginBottom':'0.875rem','display':'flex','alignItems':'center','gap':'0.375rem'}}>
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
@@ -708,9 +708,9 @@ export default function PlatformPage() {
           </p>
           <div style={{'display':'flex','flexDirection':'column','gap':'0'}}>
             {[
-              { dot: '#DC2626', day: 'Day 1 · 09:14', title: 'Alert triggered — velocity threshold', sub: 'Sender A · £4,800 · GBP→PKR' },
-              { dot: '#1E6FB7', day: 'Day 3 · 14:02', title: 'Entity link — shared device fingerprint', sub: 'Sender B · 3 txns · same beneficiary' },
-              { dot: '#D97706', day: 'Day 7 · 11:30', title: 'Sender C identified — shared beneficiary', sub: '3 senders → 1 beneficiary confirmed' },
+              { dot: '#DC2626', day: 'Day 1 · 09:14', title: 'Alert triggered - velocity threshold', sub: 'Sender A · £4,800 · GBP→PKR' },
+              { dot: '#1E6FB7', day: 'Day 3 · 14:02', title: 'Entity link - shared device fingerprint', sub: 'Sender B · 3 txns · same beneficiary' },
+              { dot: '#D97706', day: 'Day 7 · 11:30', title: 'Sender C identified - shared beneficiary', sub: '3 senders → 1 beneficiary confirmed' },
               { dot: '#059669', day: 'Day 9 · 08:45', title: 'Case escalated for SAR review', sub: 'Evidence pack generated' },
             ].map((ev, i, arr) => (
               <div key={i} style={{'display':'flex','gap':'0.625rem','alignItems':'flex-start'}}>
@@ -728,7 +728,7 @@ export default function PlatformPage() {
           </div>
         </div>
 
-        {/* Panel 3 — Escalation rationale */}
+        {/* Panel 3 - Escalation rationale */}
         <div style={{'padding':'1.25rem'}}>
           <p style={{'fontSize':'0.625rem','fontWeight':'700','textTransform':'uppercase','letterSpacing':'0.09em','color':'var(--muted)','marginBottom':'0.875rem','display':'flex','alignItems':'center','gap':'0.375rem'}}>
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
